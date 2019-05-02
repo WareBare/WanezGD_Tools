@@ -1,0 +1,103 @@
+// Created by WareBare on 10/23/2016.
+
+$border-000: #000000;
+
+$backgroundColor-000: #202020;
+$backgroundColor-001: #404040;
+$backgroundColor-001b: #303030;
+$backgroundColor-002: #606060;
+
+$backgroundColor-003: #401F0C;
+$backgroundColor-004: #57371B;
+$backgroundColor-005: #67472B;
+
+$backgroundColor-006: #300F00;
+$backgroundColor-007: #482715;
+$backgroundColor-008: #502F1C;
+$backgroundColor-009: #583725;
+$backgroundColor-010: #603F2C;
+
+$fontColor-000: #AFAFAF;
+$fontColor-001: #B5A58A;
+$fontColor-001b: #C5B58B;
+
+$borderColor-ButtonHover: #555599;
+$borderColor-ButtonActive: #555599;
+
+$gradientBTN-000: linear-gradient($backgroundColor-000, $backgroundColor-001);
+$gradientBTN-000b: linear-gradient($backgroundColor-001, $backgroundColor-000);
+$gradientBTN-000c: linear-gradient($backgroundColor-001, $backgroundColor-002);
+$gradientBTN-001: linear-gradient($backgroundColor-003,$backgroundColor-003, $backgroundColor-004);
+$gradientBTN-001b: linear-gradient($backgroundColor-004,$backgroundColor-003, $backgroundColor-003);
+$gradientBTN-001c: linear-gradient($backgroundColor-003,$backgroundColor-004, $backgroundColor-005);
+
+$gradientBTN-nav000: linear-gradient(to right, $backgroundColor-006 , $backgroundColor-003);
+$gradientBTN-nav001: linear-gradient(to right, $backgroundColor-007 , $backgroundColor-008);
+$gradientBTN-nav002: linear-gradient(to right, $backgroundColor-009 , $backgroundColor-010);
+
+$gradientLabel-001: linear-gradient($backgroundColor-001b , $backgroundColor-000);
+
+@if $theme != gd01{
+
+}
+
+
+// ERROR \\
+// BG
+$Error_BGColor01a: #AF2020;
+$Error_BGColor01b: #8F1010;
+$Error_BGColor01c: #6F0000;
+
+$Warn_Color01: #c9b12b;
+
+// Gradient
+$Error_Gradient01: linear-gradient($Error_BGColor01a , $Error_BGColor01b);
+$Error_Gradient02: linear-gradient($Error_BGColor01a , $Error_BGColor01c);
+
+// LABEL \\
+// FONT
+
+
+// BG
+$Label_BGColor01a: #303030;
+$Label_BGColor01b: #202020;
+$Label_BGColor01c: #101010;
+
+$Label_BGColor01a_HOVER: #205020;
+
+
+// Border
+
+// Gradient
+$Label_Gradient01: linear-gradient($Label_BGColor01a , $Label_BGColor01b);
+$Label_Gradient01_HOVER: linear-gradient($Label_BGColor01a, $Label_BGColor01b, $Label_BGColor01a_HOVER);
+$Label_Gradient02: linear-gradient($Label_BGColor01a , $Label_BGColor01c);
+
+
+// INPUT - RADIO|CHECK|SELECT \\
+// FONT
+$Radio_Color01: #202020;
+$Radio_Color01_HOVER: #0A0A0A;
+$Radio_Color01_CHECKED: #202020;
+$Radio_Color01_CHECKED_HOVER: #DFDFDF;
+
+// BG
+$Radio_BGColor01a: #505050;
+$Radio_BGColor01b: #6F6F6F;
+
+$Radio_BGColor02a: #66AF66;
+$Radio_BGColor02b: #408F40;
+
+$Radio_BGColor03a: #006600;
+
+$Radio_BGColor04a: #003300;
+
+// Border
+
+// Gradient
+$Radio_Gradient01: linear-gradient($Radio_BGColor01a , $Radio_BGColor01b);
+$Radio_Gradient01_HOVER: linear-gradient($Radio_BGColor01b , $Radio_BGColor01a);
+$Radio_Gradient01_CHECKED: linear-gradient($Radio_BGColor02a , $Radio_BGColor02b);
+$Radio_Gradient01_CHECKED_HOVER: linear-gradient($Radio_BGColor02a , $Radio_BGColor02b);
+
+

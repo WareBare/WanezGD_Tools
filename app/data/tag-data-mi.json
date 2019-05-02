@@ -1,0 +1,2338 @@
+{
+	"Common": {
+		"Regular": {
+			"tagMedalA001": {},
+			"tagMedalA002": {},
+			"tagMedalA003": {},
+			"tagMedalA004": {},
+			"tagMedalA005": {},
+			"tagMedalA006": {},
+			"tagMedalA007": {},
+			"tagGDX1MedalA101": {},
+			"tagGDX1MedalA102": {},
+			"tagNecklaceA00": {},
+			"tagNecklaceA001": {},
+			"tagNecklaceA002": {},
+			"tagNecklaceA003": {},
+			"tagNecklaceA004": {},
+			"tagNecklaceA005": {},
+			"tagNecklaceA006": {},
+			"tagNecklaceA007": {},
+			"tagNecklaceA008": {},
+			"tagNecklaceA009": {},
+			"tagNecklaceA010": {},
+			"tagNecklaceA011": {},
+			"tagNecklaceA012": {},
+			"tagNecklaceA013": {},
+			"tagNecklaceA014": {},
+			"tagNecklaceA015": {},
+			"tagNecklaceA016": {},
+			"tagGDX1NecklaceA101": {},
+			"tagGDX1NecklaceA102": {},
+			"tagGDX1NecklaceA103": {},
+			"tagGDX1NecklaceA104": {},
+			"tagRingA001": {},
+			"tagRingA002": {},
+			"tagRingA003": {},
+			"tagRingA004": {},
+			"tagRingA005": {},
+			"tagRingA006": {},
+			"tagRingA007": {},
+			"tagRingA008": {},
+			"tagRingA009": {},
+			"tagRingA010": {},
+			"tagRingA011": {},
+			"tagRingA012": {},
+			"tagRingA013": {},
+			"tagRingA014": {},
+			"tagRingA015": {},
+			"tagRingA016": {},
+			"tagGDX1RingA101": {},
+			"tagGDX1RingA102": {},
+			"tagGDX1RingA103": {},
+			"tagGDX1RingA104": {},
+			"tagWaistA001": {},
+			"tagWaistA002": {},
+			"tagWaistA003": {},
+			"tagWaistA004": {},
+			"tagWaistA005": {},
+			"tagWaistA006": {},
+			"tagWaistA007": {},
+			"tagWaistA008": {},
+			"tagWaistA009": {},
+			"tagWaistA010": {},
+			"tagGDX1WaistA101": {},
+			"tagGDX1WaistA102": {},
+			"tagFeetA001": {},
+			"tagFeetA002": {},
+			"tagFeetA003": {},
+			"tagFeetA005": {},
+			"tagFeetA004": {},
+			"tagHandsA004": {},
+			"tagHandsA001": {},
+			"tagHandsA003": {},
+			"tagHandsA002": {},
+			"tagHandsA005": {},
+			"tagHeadA001": {},
+			"tagHeadA007": {},
+			"tagHeadA002": {},
+			"tagHeadA012": {},
+			"tagHeadA008": {},
+			"tagHeadA005": {},
+			"tagHeadA003": {},
+			"tagHeadA013": {},
+			"tagHeadA006": {},
+			"tagHeadA011": {},
+			"tagHeadA004": {},
+			"tagHeadA014": {},
+			"tagHeadA009": {},
+			"tagHeadB001": {},
+			"tagHeadB003": {},
+			"tagHeadB005": {},
+			"tagHeadB011": {},
+			"tagHeadB013": {},
+			"tagLegsA001": {},
+			"tagLegsA004": {},
+			"tagLegsA002": {},
+			"tagLegsA003": {},
+			"tagLegsA005": {},
+			"tagLegsA006": {},
+			"tagShoulderA001": {},
+			"tagShoulderA005": {},
+			"tagShoulderA002": {},
+			"tagShoulderA003": {},
+			"tagShoulderA006": {},
+			"tagShoulderA004": {},
+			"tagShoulderB001": {},
+			"tagShoulderB003": {},
+			"tagShoulderB005": {},
+			"tagShoulderB008": {},
+			"tagShoulderB010": {},
+			"tagShoulderB012": {},
+			"tagTorsoA000": {},
+			"tagTorsoA010M": {},
+			"tagTorsoA014C": {},
+			"tagTorsoA001L": {},
+			"tagTorsoA005H": {},
+			"tagTorsoA002L": {},
+			"tagTorsoA006H": {},
+			"tagTorsoA015C": {},
+			"tagTorsoA011M": {},
+			"tagTorsoA016C": {},
+			"tagTorsoA012M": {},
+			"tagTorsoA003L": {},
+			"tagTorsoA007H": {},
+			"tagTorsoA013M": {},
+			"tagTorsoA017C": {},
+			"tagTorsoA004L": {},
+			"tagTorsoA008H": {},
+			"tagTorsoA009H": {},
+			"tagTorsoB001": {},
+			"tagTorsoB006": {},
+			"tagTorsoB008": {},
+			"tagTorsoB010": {},
+			"tagTorsoB012": {},
+			"tagTorsoM001": {},
+			"tagTorsoM002": {},
+			"tagTorsoM003": {},
+			"tagWeaponAxeA000": {},
+			"tagWeaponAxeA001": {},
+			"tagWeaponAxeA002": {},
+			"tagWeaponAxeA004": {},
+			"tagWeaponAxeA003": {},
+			"tagWeaponAxeA006": {},
+			"tagWeaponAxeA009": {},
+			"tagWeaponAxeA008": {},
+			"tagWeaponAxeA007": {},
+			"tagWeaponAxeA005": {},
+			"tagWeaponAxeB001": {},
+			"tagWeaponAxeB004": {},
+			"tagWeaponBluntA000": {},
+			"tagWeaponBluntA002": {},
+			"tagWeaponBluntA001": {},
+			"tagWeaponBluntA003": {},
+			"tagWeaponBluntA005": {},
+			"tagWeaponBluntA004": {},
+			"tagWeaponBluntA006": {},
+			"tagWeaponBluntA007": {},
+			"tagWeaponBluntA008": {},
+			"tagWeaponBluntA009": {},
+			"tagWeaponBluntA010": {},
+			"tagWeaponBluntB001": {},
+			"tagWeaponBluntB005": {},
+			"tagWeaponBluntB008": {},
+			"tagWeaponBluntB012": {},
+			"tagWeaponArcaneA001": {},
+			"tagWeaponArcaneA003": {},
+			"tagWeaponArcaneA005": {},
+			"tagWeaponArcaneA007": {},
+			"tagWeaponCaster1hA008": {},
+			"tagWeaponCaster1hA001": {},
+			"tagWeaponCaster1hA002": {},
+			"tagWeaponCaster1hA010": {},
+			"tagWeaponCaster1hA003": {},
+			"tagWeaponCaster1hA011": {},
+			"tagWeaponCaster1hA005": {},
+			"tagWeaponCaster1hA006": {},
+			"tagWeaponCaster1hA014": {},
+			"tagWeaponCaster1hA015": {},
+			"tagWeaponCaster1hA007": {},
+			"tagGDX1WeaponCaster1hA103": {},
+			"tagGDX1WeaponCaster1hA101": {},
+			"tagGDX1WeaponCaster1hA104": {},
+			"tagGDX1WeaponCaster1hA102": {},
+			"tagWeaponCaster1hB008": {},
+			"tagWeaponCaster1hB010": {},
+			"tagWeaponCaster1hB012": {},
+			"tagFocusA001": {},
+			"tagFocusA007": {},
+			"tagFocusA002": {},
+			"tagFocusA008": {},
+			"tagFocusA003": {},
+			"tagFocusA009": {},
+			"tagFocusA004": {},
+			"tagFocusA010": {},
+			"tagFocusA005": {},
+			"tagFocusA011": {},
+			"tagFocusA006": {},
+			"tagFocusA012": {},
+			"tagFocusA013": {},
+			"tagFocusA014": {},
+			"tagGDX1FocusA101": {},
+			"tagGDX1FocusA102": {},
+			"tagGDX1FocusA103": {},
+			"tagGDX1FocusA104": {},
+			"tagFocusB008": {},
+			"tagFocusB010": {},
+			"tagFocusB012": {},
+			"tagFocusB014": {},
+			"tagFocusB016": {},
+			"tagFocusB018": {},
+			"tagFocusB020": {},
+			"tagFocusB022": {},
+			"tagWeaponGun1hA001": {},
+			"tagWeaponGun1hA002": {},
+			"tagWeaponGun1hA003": {},
+			"tagWeaponGun1hA004": {},
+			"tagWeaponGun1hA005": {},
+			"tagWeaponGun1hA006": {},
+			"tagWeaponGun1hA007": {},
+			"tagWeaponGun1hA008": {},
+			"tagWeaponGun1hA009": {},
+			"tagWeaponGun1hA010": {},
+			"tagWeaponGun1hB004": {},
+			"tagWeaponGun2hA001": {},
+			"tagWeaponGun2hA002": {},
+			"tagWeaponCrossbow2hA001": {},
+			"tagWeaponGun2hA003": {},
+			"tagWeaponGun2hA004": {},
+			"tagWeaponGun2hA009": {},
+			"tagWeaponCrossbow2hA002": {},
+			"tagWeaponGun2hA006": {},
+			"tagWeaponGun2hA010": {},
+			"tagWeaponCrossbow2hA003": {},
+			"tagWeaponGun2hA007": {},
+			"tagWeaponGun2hA008": {},
+			"tagWeaponGun2hA005": {},
+			"tagWeaponCrossbow2hA004": {},
+			"tagWeaponCrossbow2hB001": {},
+			"tagWeaponGun2hB004": {},
+			"tagWeaponGun2hB006": {},
+			"tagWeaponMelee2hA005": {},
+			"tagWeaponMelee2hA001": {},
+			"tagWeaponMelee2hA009": {},
+			"tagWeaponMelee2hA002": {},
+			"tagWeaponMelee2hA003": {},
+			"tagWeaponMelee2hA007": {},
+			"tagWeaponMelee2hA010": {},
+			"tagWeaponMelee2hA008": {},
+			"tagWeaponMelee2hA011": {},
+			"tagWeaponMelee2hA006": {},
+			"tagWeaponBluntB003": {},
+			"tagWeaponMelee2hB007": {},
+			"tagWeaponMelee2hB011": {},
+			"tagShieldA000": {},
+			"tagShieldA001": {},
+			"tagShieldA002": {},
+			"tagShieldA003": {},
+			"tagShieldA006": {},
+			"tagShieldA004": {},
+			"tagShieldA009": {},
+			"tagShieldA007": {},
+			"tagShieldA010": {},
+			"tagShieldB001": {},
+			"tagShieldB003": {},
+			"tagShieldB008": {},
+			"tagShieldB010": {},
+			"tagShieldB012": {},
+			"tagWeaponSwordA000": {},
+			"tagWeaponSwordA001": {},
+			"tagWeaponSwordA002": {},
+			"tagWeaponSwordA003": {},
+			"tagWeaponSwordA004": {},
+			"tagWeaponSwordA006": {},
+			"tagWeaponSwordA007": {},
+			"tagWeaponSwordA005": {},
+			"tagWeaponSwordA008": {},
+			"tagWeaponSwordA009": {},
+			"tagWeaponSwordA011": {},
+			"tagWeaponSwordA010": {},
+			"tagWeaponSwordA013": {},
+			"tagWeaponSwordA012": {},
+			"tagWeaponSwordB002": {},
+			"tagWeaponSwordB009": {},
+			"tagWeaponSwordB011": {}
+		},
+		"Style": {
+			"tagStyle018": {},
+			"tagStyle003": {},
+			"tagStyle010": {},
+			"tagStyle037": {},
+			"tagStyle021": {},
+			"tagStyle029": {},
+			"tagStyle012": {},
+			"tagStyle024": {},
+			"tagStyle005": {},
+			"tagStyle031": {},
+			"tagStyle014": {},
+			"tagStyle033": {},
+			"tagStyle016": {},
+			"tagStyle034": {},
+			"tagStyle022": {},
+			"tagStyle041": {},
+			"tagGDX1ArmorStyle001": {},
+			"tagGDX1ArmorStyle002": {},
+			"tagStyle023": {},
+			"tagStyle011": {},
+			"tagStyle035": {},
+			"tagStyle017": {},
+			"tagStyle027": {},
+			"tagStyle015": {},
+			"tagStyle026": {},
+			"tagStyle002": {},
+			"tagStyle004": {},
+			"tagStyle036": {},
+			"tagStyle038": {},
+			"tagStyle030": {},
+			"tagStyle006": {},
+			"tagStyle013": {},
+			"tagStyle007": {},
+			"tagStyle008": {},
+			"tagStyle001": {},
+			"tagStyle009": {},
+			"tagStyle020": {},
+			"tagStyle032": {},
+			"tagStyle039": {},
+			"tagStyle040": {},
+			"tagStyle019": {},
+			"tagStyle025": {},
+			"tagStyle028": {},
+			"tagStyle042": {}
+		},
+		"Quality": {
+			"tagQualityWeaponMetal01": {},
+			"tagQualityWeaponMetal02": {},
+			"tagQualityWeaponMetal03": {},
+			"tagQualityWeaponMetal04": {},
+			"tagQualityWeaponMetal06": {},
+			"tagQualityWeaponMetal07": {},
+			"tagQualityWeaponMetal09": {},
+			"tagGDX1WeaponQuality001": {},
+			"tagGDX1WeaponQuality002": {},
+			"tagQualityWeaponWood01": {},
+			"tagQualityWeaponWood02": {},
+			"tagQualityWeaponWood03": {},
+			"tagQualityWeaponWood04": {},
+			"tagQualityWeaponWood05": {},
+			"tagQualityWeaponMetal08": {},
+			"tagQualityShieldA01": {},
+			"tagQualityShieldA04": {},
+			"tagQualityShieldA03": {},
+			"tagQualityShieldA07": {},
+			"tagQualityShieldA08": {},
+			"tagQualityShieldA06": {},
+			"tagQualityShieldA05": {},
+			"tagQualityShieldA09": {},
+			"tagQualityShieldA10": {}
+		}
+	},
+	"Rare": {
+		"Regular": {
+			"tagMedalB001": {},
+			"tagMedalB002": {},
+			"tagMedalB101": {},
+			"tagGDX1MedalB109": {},
+			"tagNecklaceB101": {},
+			"tagGDX1NecklaceB100": {},
+			"tagGDX1NecklaceB101": {},
+			"tagGDX1NecklaceB102": {},
+			"tagRingB001": {},
+			"tagRingB003": {},
+			"tagRingB101": {},
+			"tagWaistB001": {},
+			"tagWaistB002": {},
+			"tagWaistB003": {},
+			"tagWaistB004": {},
+			"tagWaistB005": {},
+			"tagWaistB006": {},
+			"tagWaistB101": {},
+			"tagFeetB001": {},
+			"tagFeetB002": {},
+			"tagFeetB003": {},
+			"tagFeetB004": {},
+			"tagHandsB001": {},
+			"tagHandsB002": {},
+			"tagHandsB003": {},
+			"tagHandsB004": {},
+			"tagHeadB007": {},
+			"tagHeadB008": {},
+			"tagHeadB009": {},
+			"tagHeadB010": {},
+			"tagHeadC101": {},
+			"tagLegsC001": {},
+			"tagShoulderB007": {},
+			"tagShoulderB026": {},
+			"tagShoulderC001": {},
+			"tagGDX1ShoulderB103": {},
+			"tagGDX1ShoulderB104": {},
+			"tagTorsoB003": {},
+			"tagTorsoC002": {},
+			"tagWeaponAxeB006": {},
+			"tagWeaponAxeC001": {},
+			"tagWeaponBluntB008": {},
+			"tagWeaponBluntB009": {},
+			"tagWeaponBluntB010": {},
+			"tagWeaponBluntB011": {},
+			"tagWeaponBluntC000": {},
+			"tagWeaponCaster1hB001": {},
+			"tagWeaponCaster1hB002": {},
+			"tagWeaponCaster1hB003": {},
+			"tagWeaponCaster1hB004": {},
+			"tagWeaponCaster1hB005": {},
+			"tagWeaponCaster1hB006": {},
+			"tagWeaponCaster1hB007": {},
+			"tagWeaponCaster1hB015": {},
+			"tagWeaponCaster1hC000": {},
+			"tagGDX1WeaponCaster1hB108": {},
+			"tagFocusB003A": {},
+			"tagFocusB003B": {},
+			"tagFocusB004A": {},
+			"tagFocusB004B": {},
+			"tagFocusB005A": {},
+			"tagFocusB005B": {},
+			"tagFocusB006": {},
+			"tagFocusB024": {},
+			"tagFocusC005": {},
+			"tagWeaponGun1hB001": {},
+			"tagWeaponGun1hB002": {},
+			"tagWeaponGun1hB003": {},
+			"tagWeaponGun1hB006": {},
+			"tagWeaponGun1hC000": {},
+			"tagWeaponGun2hB001": {},
+			"tagWeaponGun2hB002": {},
+			"tagWeaponGun2hB003": {},
+			"tagWeaponCrossbow2hB003": {},
+			"tagWeaponMelee2hB003": {},
+			"tagWeaponMelee2hB004": {},
+			"tagWeaponMelee2hB005": {},
+			"tagWeaponMelee2hB013": {},
+			"tagWeaponMelee2hC000": {},
+			"tagShieldB005": {},
+			"tagShieldB006": {},
+			"tagShieldB007": {},
+			"tagShieldB014": {},
+			"tagShieldC004": {},
+			"tagWeaponSwordB004": {},
+			"tagWeaponSwordB005": {},
+			"tagWeaponSwordB006": {},
+			"tagWeaponSwordC000": {}
+		},
+		"MI": {
+			"tagMedalB003": {},
+			"tagMedalB004": {},
+			"tagMedalB005": {},
+			"tagGDX1MedalB101": {},
+			"tagGDX1MedalB102": {},
+			"tagGDX1MedalB103": {},
+			"tagGDX1MedalB104": {},
+			"tagGDX1MedalB105": {},
+			"tagGDX1MedalB106": {},
+			"tagNecklaceB001": {},
+			"tagNecklaceB002": {},
+			"tagNecklaceB003": {},
+			"tagRingB002": {},
+			"tagRingB004": {},
+			"tagRingB005": {},
+			"tagRingB006": {},
+			"tagGDX1RingB101": {},
+			"tagGDX1RingB102": {},
+			"tagGDX1RingB103": {},
+			"tagWaistB007": {},
+			"tagWaistB008": {},
+			"tagWaistB009": {},
+			"tagGDX1WaistB101": {},
+			"tagGDX1WaistB102": {},
+			"tagGDX1WaistB103": {},
+			"tagGDX1WaistB104": {},
+			"tagHeadB002": {},
+			"tagHeadB004": {},
+			"tagHeadB006": {},
+			"tagHeadB012": {},
+			"tagHeadB014": {},
+			"tagHeadB015": {},
+			"tagHeadB016": {},
+			"tagGDX1HeadB101": {},
+			"tagGDX1HeadB102": {},
+			"tagGDX1HeadB103": {},
+			"tagGDX1HeadB104": {},
+			"tagLegsB001": {},
+			"tagLegsB002": {},
+			"tagLegsB003": {},
+			"tagGDX1LegsB101": {},
+			"tagGDX1LegsB102": {},
+			"tagGDX1LegsB103": {},
+			"tagGDX1LegsB104": {},
+			"tagGDX1LegsB105": {},
+			"tagGDX1LegsB106": {},
+			"tagGDX1LegsB107": {},
+			"tagGDX1LegsB108": {},
+			"tagShoulderB002": {},
+			"tagShoulderB004": {},
+			"tagShoulderB006": {},
+			"tagShoulderB009": {},
+			"tagShoulderB011": {},
+			"tagShoulderB013": {},
+			"tagShoulderB014": {},
+			"tagShoulderB015": {},
+			"tagShoulderB016": {},
+			"tagShoulderB017": {},
+			"tagShoulderB018": {},
+			"tagShoulderB019": {},
+			"tagShoulderB020": {},
+			"tagShoulderB021": {},
+			"tagShoulderB022": {},
+			"tagShoulderB023": {},
+			"tagShoulderB024": {},
+			"tagShoulderB025": {},
+			"tagGDX1ShoulderB101": {},
+			"tagGDX1ShoulderB102": {},
+			"tagTorsoB002": {},
+			"tagTorsoB007": {},
+			"tagTorsoB009": {},
+			"tagTorsoB011": {},
+			"tagTorsoB013": {},
+			"tagGDX1TorsoB101": {},
+			"tagGDX1TorsoB102": {},
+			"tagGDX1TorsoB103": {},
+			"tagGDX1TorsoB104": {},
+			"tagWeaponAxeB002": {},
+			"tagWeaponAxeB003": {},
+			"tagWeaponAxeB005": {},
+			"tagWeaponAxeB007": {},
+			"tagGDX1WeaponAxeB101": {},
+			"tagGDX1WeaponAxeB102": {},
+			"tagWeaponBluntB002": {},
+			"tagWeaponBluntB006": {},
+			"tagWeaponBluntB007": {},
+			"tagWeaponBluntB013": {},
+			"tagGDX1WeaponBluntB101": {},
+			"tagGDX1WeaponBluntB102": {},
+			"tagWeaponCaster1hB009": {},
+			"tagWeaponCaster1hB011": {},
+			"tagWeaponCaster1hB013": {},
+			"tagWeaponCaster1hB014": {},
+			"tagGDX1WeaponCaster1hB101": {},
+			"tagGDX1WeaponCaster1hB102": {},
+			"tagGDX1WeaponCaster1hB103": {},
+			"tagGDX1WeaponCaster1hB104": {},
+			"tagGDX1WeaponCaster1hB105": {},
+			"tagFocusB001": {},
+			"tagFocusB002": {},
+			"tagFocusB007": {},
+			"tagFocusB009": {},
+			"tagFocusB011": {},
+			"tagFocusB013": {},
+			"tagFocusB015": {},
+			"tagFocusB017": {},
+			"tagFocusB019": {},
+			"tagFocusB021": {},
+			"tagFocusB023": {},
+			"tagGDX1FocusB101": {},
+			"tagGDX1FocusB102": {},
+			"tagGDX1FocusB103": {},
+			"tagGDX1FocusB104": {},
+			"tagGDX1FocusB105": {},
+			"tagGDX1FocusB106": {},
+			"tagGDX1FocusB107": {},
+			"tagGDX1FocusB110": {},
+			"tagGDX1FocusB111": {},
+			"tagWeaponGun1hB005": {},
+			"tagGDX1WeaponGun1hB101": {},
+			"tagGDX1WeaponGun1hB102": {},
+			"tagWeaponCrossbow2hB002": {},
+			"tagWeaponGun2hB005": {},
+			"tagWeaponGun2hB007": {},
+			"tagGDX1WeaponGun2hB101": {},
+			"tagGDX1WeaponGun2hB102": {},
+			"tagGDX1WeaponGun2hB103": {},
+			"tagGDX1WeaponGun2hB104": {},
+			"tagWeaponBluntB004": {},
+			"tagWeaponMelee2hB006": {},
+			"tagWeaponMelee2hB009": {},
+			"tagWeaponMelee2hB008": {},
+			"tagWeaponMelee2hB010": {},
+			"tagWeaponMelee2hB012": {},
+			"tagGDX1WeaponMelee2hB101": {},
+			"tagGDX1WeaponMelee2hB102": {},
+			"tagShieldB002": {},
+			"tagShieldB004": {},
+			"tagShieldB009": {},
+			"tagShieldB011": {},
+			"tagShieldB013": {},
+			"tagGDX1ShieldB101": {},
+			"tagGDX1ShieldB102": {},
+			"tagWeaponSwordB001": {},
+			"tagWeaponSwordB003": {},
+			"tagWeaponSwordB007": {},
+			"tagWeaponSwordB008": {},
+			"tagWeaponSwordB010": {},
+			"tagWeaponSwordB012": {},
+			"tagWeaponSwordB013": {},
+			"tagGDX1WeaponSwordB101": {},
+			"tagGDX1WeaponSwordB102": {}
+		}
+	},
+	"Magical": {
+		"Regular": {
+			"tagGDX1MedalB107": {},
+			"tagGDX1MedalB108": {},
+			"tagGDX1WaistB105": {},
+			"tagGDX1WaistB106": {},
+			"tagGDX1WaistB107": {},
+			"tagGDX1FeetB101": {},
+			"tagGDX1FeetB102": {},
+			"tagGDX1WeaponAxeB103": {},
+			"tagGDX1WeaponCaster1hB106": {},
+			"tagGDX1WeaponCaster1hB107": {},
+			"tagGDX1FocusB108": {},
+			"tagGDX1FocusB109": {},
+			"tagGDX1WeaponGun1hB103": {},
+			"tagGDX1WeaponGun2hB105": {},
+			"tagGDX1WeaponMelee2hB103": {},
+			"tagGDX1ShieldB103": {}
+		}
+	},
+	"Epic": {
+		"Regular": {
+			"tagMedalC001": {},
+			"tagMedalC002": {},
+			"tagMedalC003": {},
+			"tagMedalC004": {
+				"bIsSet": true
+			},
+			"tagMedalC005": {},
+			"tagMedalC006": {},
+			"tagMedalC007": {},
+			"tagMedalC008": {},
+			"tagMedalC009": {},
+			"tagMedalC010": {},
+			"tagMedalC011": {
+				"bIsSet": true
+			},
+			"tagMedalC012": {
+				"bIsSet": true
+			},
+			"tagMedalC013": {
+				"bIsSet": true
+			},
+			"tagMedalC014": {},
+			"tagMedalC015": {},
+			"tagMedalC016": {},
+			"tagMedalC017": {},
+			"tagMedalC018": {},
+			"tagMedalC019": {},
+			"tagMedalC020": {},
+			"tagMedalC021": {},
+			"tagMedalC022": {},
+			"tagMedalC023": {},
+			"tagMedalC024": {},
+			"tagMedalC025": {},
+			"tagMedalC026": {
+				"bIsSet": true
+			},
+			"tagGDX1MedalC101": {},
+			"tagGDX1MedalC102": {},
+			"tagGDX1MedalC103": {},
+			"tagGDX1MedalC104": {},
+			"tagGDX1MedalC105": {},
+			"tagGDX1MedalC106": {},
+			"tagGDX1MedalC115": {},
+			"tagGDX1MedalC116": {},
+			"tagGDX1MedalC117": {
+				"bIsSet": true
+			},
+			"tagGDX1MedalC118": {
+				"bIsSet": true
+			},
+			"tagNecklaceC002": {},
+			"tagNecklaceC003": {},
+			"tagNecklaceC004": {},
+			"tagNecklaceC005": {
+				"bIsSet": true
+			},
+			"tagNecklaceC006": {},
+			"tagNecklaceC001": {},
+			"tagNecklaceC007": {},
+			"tagNecklaceC008": {},
+			"tagNecklaceC009": {},
+			"tagNecklaceC010": {},
+			"tagNecklaceC011": {},
+			"tagNecklaceC012": {},
+			"tagNecklaceC013": {},
+			"tagNecklaceC014": {},
+			"tagNecklaceC015": {
+				"bIsSet": true
+			},
+			"tagNecklaceC016": {
+				"bIsSet": true
+			},
+			"tagNecklaceC017": {
+				"bIsSet": true
+			},
+			"tagNecklaceC018": {
+				"bIsSet": true
+			},
+			"tagNecklaceC019": {},
+			"tagNecklaceC020": {},
+			"tagNecklaceC021": {},
+			"tagNecklaceC022": {},
+			"tagNecklaceC023": {},
+			"tagNecklaceC024": {},
+			"tagNecklaceC025": {},
+			"tagNecklaceC026": {},
+			"tagNecklaceC027": {},
+			"tagNecklaceC028": {},
+			"tagNecklaceC029": {},
+			"tagNecklaceC030": {},
+			"tagNecklaceC031": {},
+			"tagNecklaceC032": {},
+			"tagNecklaceC033": {},
+			"tagNecklaceC034": {},
+			"tagNecklaceC035": {},
+			"tagNecklaceC036": {},
+			"tagNecklaceC037": {},
+			"tagNecklaceC038": {
+				"bIsSet": true
+			},
+			"tagNecklaceC039": {
+				"bIsSet": true
+			},
+			"tagNecklaceC040": {
+				"bIsSet": true
+			},
+			"tagNecklaceC041": {},
+			"tagGDX1NecklaceC101": {},
+			"tagGDX1NecklaceC102": {},
+			"tagGDX1NecklaceC103": {},
+			"tagGDX1NecklaceC104": {},
+			"tagGDX1NecklaceC105": {},
+			"tagGDX1NecklaceC106": {},
+			"tagGDX1NecklaceC115": {},
+			"tagGDX1NecklaceC116": {},
+			"tagRingC001": {},
+			"tagRingC002": {},
+			"tagRingC003": {},
+			"tagRingC004": {},
+			"tagRingC005": {},
+			"tagRingC006": {},
+			"tagRingC007": {},
+			"tagRingC008": {},
+			"tagRingC009": {},
+			"tagRingC010": {},
+			"tagRingC011": {},
+			"tagRingC012": {
+				"bIsSet": true
+			},
+			"tagRingC013": {
+				"bIsSet": true
+			},
+			"tagRingC014": {
+				"bIsSet": true
+			},
+			"tagRingC015": {
+				"bIsSet": true
+			},
+			"tagRingC016": {
+				"bIsSet": true
+			},
+			"tagRingC017": {
+				"bIsSet": true
+			},
+			"tagRingC018": {
+				"bIsSet": true
+			},
+			"tagRingC021": {},
+			"tagRingC022": {},
+			"tagRingC023": {},
+			"tagRingC024": {},
+			"tagRingC025": {},
+			"tagRingC026": {},
+			"tagRingC027": {},
+			"tagRingC028": {},
+			"tagRingC029": {},
+			"tagRingC030": {},
+			"tagRingC031": {},
+			"tagRingC032": {},
+			"tagRingC033": {},
+			"tagRingC034": {},
+			"tagRingC035": {},
+			"tagRingC036": {
+				"bIsSet": true
+			},
+			"tagRingC037": {
+				"bIsSet": true
+			},
+			"tagRingC038": {
+				"bIsSet": true
+			},
+			"tagRingC039": {
+				"bIsSet": true
+			},
+			"tagGDX1RingC101": {},
+			"tagGDX1RingC102": {},
+			"tagGDX1RingC103": {},
+			"tagGDX1RingC104": {},
+			"tagGDX1RingC105": {},
+			"tagGDX1RingC106": {},
+			"tagGDX1RingC115": {},
+			"tagGDX1RingC116": {},
+			"tagGDX1RingC117": {
+				"bIsSet": true
+			},
+			"tagGDX1RingC118": {
+				"bIsSet": true
+			},
+			"tagGDX1RingC119": {
+				"bIsSet": true
+			},
+			"tagWaistC001": {},
+			"tagWaistC002": {},
+			"tagWaistC003": {},
+			"tagWaistC004": {
+				"bIsSet": true
+			},
+			"tagWaistC005": {},
+			"tagWaistC006": {},
+			"tagWaistC007": {},
+			"tagWaistC008": {},
+			"tagWaistC009": {},
+			"tagWaistC010": {},
+			"tagWaistC011": {},
+			"tagWaistC012": {},
+			"tagWaistC013": {
+				"bIsSet": true
+			},
+			"tagWaistC014": {},
+			"tagWaistC015": {},
+			"tagWaistC016": {},
+			"tagWaistC017": {},
+			"tagWaistC018": {},
+			"tagWaistC019": {},
+			"tagWaistC020": {},
+			"tagWaistC021": {},
+			"tagWaistC022": {},
+			"tagWaistC023": {},
+			"tagWaistC024": {
+				"bIsSet": true
+			},
+			"tagGDX1WaistC101": {},
+			"tagGDX1WaistC102": {},
+			"tagGDX1WaistC103": {},
+			"tagGDX1WaistC104": {},
+			"tagGDX1WaistC105": {},
+			"tagGDX1WaistC106": {},
+			"tagGDX1WaistC115": {},
+			"tagGDX1WaistC116": {},
+			"tagGDX1WaistC117": {
+				"bIsSet": true
+			},
+			"tagFeetC001": {},
+			"tagFeetC002": {},
+			"tagFeetC003": {},
+			"tagFeetC004": {},
+			"tagFeetC005": {
+				"bIsSet": true
+			},
+			"tagFeetC006": {},
+			"tagFeetC007": {},
+			"tagFeetC008": {},
+			"tagFeetC009": {},
+			"tagFeetC010": {},
+			"tagFeetC011": {},
+			"tagFeetC012": {},
+			"tagFeetC013": {},
+			"tagFeetC014": {},
+			"tagFeetC007B": {},
+			"tagGDX1FeetC101": {},
+			"tagGDX1FeetC102": {},
+			"tagGDX1FeetC103": {},
+			"tagGDX1FeetC104": {},
+			"tagGDX1FeetC111": {},
+			"tagHandsC001": {},
+			"tagHandsC002": {},
+			"tagHandsC003": {},
+			"tagHandsC004": {},
+			"tagHandsC005": {
+				"bIsSet": true
+			},
+			"tagHandsC006": {},
+			"tagHandsC007": {},
+			"tagHandsC008": {},
+			"tagHandsC009": {},
+			"tagHandsC010": {},
+			"tagHandsC011": {},
+			"tagHandsC013": {
+				"bIsSet": true
+			},
+			"tagHandsC014": {
+				"bIsSet": true
+			},
+			"tagHandsC015": {
+				"bIsSet": true
+			},
+			"tagHandsC016": {},
+			"tagHandsC017": {},
+			"tagHandsC018": {
+				"bIsSet": true
+			},
+			"tagHandsC019": {},
+			"tagHandsC020": {},
+			"tagHandsC021": {},
+			"tagHandsC022": {},
+			"tagGDX1HandsC101": {},
+			"tagGDX1HandsC102": {},
+			"tagGDX1HandsC103": {},
+			"tagGDX1HandsC104": {},
+			"tagGDX1HandsC111": {},
+			"tagHeadC001": {},
+			"tagHeadC002": {},
+			"tagHeadC003": {},
+			"tagHeadC004": {},
+			"tagHeadC005": {},
+			"tagHeadC006": {
+				"bIsSet": true
+			},
+			"tagHeadC007": {
+				"bIsSet": true
+			},
+			"tagHeadC008": {
+				"bIsSet": true
+			},
+			"tagHeadC009": {
+				"bIsSet": true
+			},
+			"tagHeadC010": {},
+			"tagHeadC011": {},
+			"tagHeadC012": {},
+			"tagHeadC013": {},
+			"tagHeadC014": {},
+			"tagHeadC015": {},
+			"tagHeadC016": {},
+			"tagHeadC017": {
+				"bIsSet": true
+			},
+			"tagHeadC018": {
+				"bIsSet": true
+			},
+			"tagHeadC019": {
+				"bIsSet": true
+			},
+			"tagHeadC020": {
+				"bIsSet": true
+			},
+			"tagHeadC021": {
+				"bIsSet": true
+			},
+			"tagHeadC022": {
+				"bIsSet": true
+			},
+			"tagHeadC023": {
+				"bIsSet": true
+			},
+			"tagHeadC024": {
+				"bIsSet": true
+			},
+			"tagHeadC025": {
+				"bIsSet": true
+			},
+			"tagHeadC026": {
+				"bIsSet": true
+			},
+			"tagHeadC027": {
+				"bIsSet": true
+			},
+			"tagHeadC028": {},
+			"tagHeadC029": {},
+			"tagHeadC030": {},
+			"tagHeadC031": {
+				"bIsSet": true
+			},
+			"tagHeadC032": {
+				"bIsSet": true
+			},
+			"tagHeadC034B": {},
+			"tagGDX1HeadC101": {},
+			"tagGDX1HeadC102": {},
+			"tagGDX1HeadC103": {},
+			"tagGDX1HeadC104": {},
+			"tagGDX1HeadC109": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadC110": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadC115": {},
+			"tagGDX1HeadC122": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadC123": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadC124": {},
+			"tagLegsC001": {},
+			"tagLegsC002": {},
+			"tagLegsC003": {},
+			"tagLegsC004": {
+				"bIsSet": true
+			},
+			"tagLegsC005": {},
+			"tagLegsC006": {},
+			"tagLegsC007": {},
+			"tagLegsC008": {},
+			"tagLegsC009": {},
+			"tagLegsC010": {},
+			"tagLegsC011": {},
+			"tagLegsC012": {
+				"bIsSet": true
+			},
+			"tagLegsC013": {},
+			"tagLegsC014": {},
+			"tagLegsC015": {},
+			"tagGDX1LegsC101": {},
+			"tagGDX1LegsC102": {},
+			"tagGDX1LegsC103": {},
+			"tagGDX1LegsC104": {},
+			"tagGDX1LegsC111": {},
+			"tagShoulderC001": {},
+			"tagShoulderC002": {},
+			"tagShoulderC003": {},
+			"tagShoulderC004": {
+				"bIsSet": true
+			},
+			"tagShoulderC005": {},
+			"tagShoulderC006": {},
+			"tagShoulderC007": {},
+			"tagShoulderC008": {},
+			"tagShoulderC009": {},
+			"tagShoulderC010": {
+				"bIsSet": true
+			},
+			"tagShoulderC012": {
+				"bIsSet": true
+			},
+			"tagShoulderC013": {
+				"bIsSet": true
+			},
+			"tagShoulderC014": {
+				"bIsSet": true
+			},
+			"tagShoulderC015": {
+				"bIsSet": true
+			},
+			"tagShoulderC016": {
+				"bIsSet": true
+			},
+			"tagShoulderC017": {},
+			"tagShoulderC018": {},
+			"tagShoulderC019": {},
+			"tagShoulderC020": {
+				"bIsSet": true
+			},
+			"tagShoulderC021": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderC101": {},
+			"tagGDX1ShoulderC102": {},
+			"tagGDX1ShoulderC103": {},
+			"tagGDX1ShoulderC104": {},
+			"tagGDX1ShoulderC105": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderC106": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderC111": {},
+			"tagTorsoC002": {},
+			"tagTorsoC003": {},
+			"tagTorsoC004": {},
+			"tagTorsoC005": {},
+			"tagTorsoC006": {
+				"bIsSet": true
+			},
+			"tagTorsoC007": {
+				"bIsSet": true
+			},
+			"tagTorsoC008": {
+				"bIsSet": true
+			},
+			"tagTorsoC009": {},
+			"tagTorsoC010": {},
+			"tagTorsoC011": {},
+			"tagTorsoC012": {},
+			"tagTorsoC013": {},
+			"tagTorsoC014": {},
+			"tagTorsoC015": {},
+			"tagTorsoC016": {},
+			"tagTorsoC017": {
+				"bIsSet": true
+			},
+			"tagTorsoC018": {
+				"bIsSet": true
+			},
+			"tagTorsoC019": {
+				"bIsSet": true
+			},
+			"tagTorsoC020": {
+				"bIsSet": true
+			},
+			"tagTorsoC021": {
+				"bIsSet": true
+			},
+			"tagTorsoC022": {},
+			"tagTorsoC023": {
+				"bIsSet": true
+			},
+			"tagTorsoC024": {
+				"bIsSet": true
+			},
+			"tagTorsoC025": {
+				"bIsSet": true
+			},
+			"tagTorsoC026": {},
+			"tagTorsoC027": {
+				"bIsSet": true
+			},
+			"tagTorsoC028": {},
+			"tagTorsoC029": {
+				"bIsSet": true
+			},
+			"tagTorsoC030": {
+				"bIsSet": true
+			},
+			"tagTorsoC031": {
+				"bIsSet": true
+			},
+			"tagTorsoC032": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoC101": {},
+			"tagGDX1TorsoC102": {},
+			"tagGDX1TorsoC103": {},
+			"tagGDX1TorsoC104": {},
+			"tagGDX1TorsoC105": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoC106": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoC111": {},
+			"tagGDX1TorsoC114": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoC115": {
+				"bIsSet": true
+			},
+			"tagWeaponAxeC001": {},
+			"tagWeaponAxeC002": {},
+			"tagWeaponAxeC003": {},
+			"tagWeaponAxeC004": {
+				"bIsSet": true
+			},
+			"tagWeaponAxeC005": {},
+			"tagWeaponAxeC006": {},
+			"tagWeaponAxeC007": {},
+			"tagWeaponAxeC008": {},
+			"tagWeaponAxeC009": {},
+			"tagWeaponAxeC010": {},
+			"tagWeaponAxeC011": {},
+			"tagWeaponAxeC012": {},
+			"tagWeaponAxeC013": {},
+			"tagWeaponAxeC014": {},
+			"tagWeaponAxeC015": {},
+			"tagGDX1WeaponAxeC101": {},
+			"tagWeaponBluntC001": {},
+			"tagWeaponBluntC002": {},
+			"tagWeaponBluntC003": {},
+			"tagWeaponBluntC004": {
+				"bIsSet": true
+			},
+			"tagWeaponBluntC005": {},
+			"tagWeaponBluntC006": {},
+			"tagWeaponBluntC007": {},
+			"tagWeaponBluntC008": {},
+			"tagWeaponBluntC009": {},
+			"tagWeaponBluntC010": {},
+			"tagWeaponBluntC011": {
+				"bIsSet": true
+			},
+			"tagWeaponBluntC012": {},
+			"tagWeaponBluntC013": {},
+			"tagWeaponBluntC014": {},
+			"tagWeaponBluntC015": {},
+			"tagWeaponBluntC016": {},
+			"tagWeaponBluntC017": {},
+			"tagGDX1WeaponBluntC101": {},
+			"tagWeaponCaster1hC001": {},
+			"tagWeaponCaster1hC002": {},
+			"tagWeaponCaster1hC003": {},
+			"tagWeaponCaster1hC004": {},
+			"tagWeaponCaster1hC005": {},
+			"tagWeaponCaster1hC006": {},
+			"tagWeaponCaster1hC007": {},
+			"tagWeaponCaster1hC008": {},
+			"tagWeaponCaster1hC009": {},
+			"tagWeaponCaster1hC010": {},
+			"tagWeaponCaster1hC011": {},
+			"tagWeaponCaster1hC012": {},
+			"tagWeaponCaster1hC013": {},
+			"tagWeaponCaster1hC014": {},
+			"tagWeaponCaster1hC015": {},
+			"tagWeaponCaster1hC016": {},
+			"tagWeaponCaster1hC017": {},
+			"tagWeaponCaster1hC018": {},
+			"tagWeaponCaster1hC019": {},
+			"tagWeaponCaster1hC020": {},
+			"tagWeaponCaster1hC021": {},
+			"tagWeaponCaster1hC022": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponCaster1hC101": {},
+			"tagGDX1WeaponCaster1hC102": {},
+			"tagGDX1WeaponCaster1hC103": {},
+			"tagGDX1WeaponCaster1hC104": {},
+			"tagGDX1WeaponCaster1hC105": {},
+			"tagGDX1WeaponCaster1hC113": {},
+			"tagGDX1WeaponCaster1hC114": {},
+			"tagGDX1WeaponCaster1hC115": {
+				"bIsSet": true
+			},
+			"tagFocusC001": {},
+			"tagFocusC002": {},
+			"tagFocusC003": {
+				"bIsSet": true
+			},
+			"tagFocusC004": {},
+			"tagFocusC005": {},
+			"tagFocusC006": {},
+			"tagFocusC007": {},
+			"tagFocusC008": {},
+			"tagFocusC009": {},
+			"tagFocusC010": {},
+			"tagFocusC011": {},
+			"tagFocusC012": {
+				"bIsSet": true
+			},
+			"tagFocusC013": {
+				"bIsSet": true
+			},
+			"tagFocusC014": {},
+			"tagFocusC015": {},
+			"tagFocusC016": {},
+			"tagFocusC017": {},
+			"tagFocusC018": {
+				"bIsSet": true
+			},
+			"tagGDX1FocusC101": {},
+			"tagGDX1FocusC102": {},
+			"tagGDX1FocusC103": {},
+			"tagGDX1FocusC104": {},
+			"tagGDX1FocusC105": {},
+			"tagGDX1FocusC113": {},
+			"tagGDX1FocusC114": {},
+			"tagGDX1FocusC115": {
+				"bIsSet": true
+			},
+			"tagWeaponGun1hC001": {},
+			"tagWeaponGun1hC002": {},
+			"tagWeaponGun1hC003": {},
+			"tagWeaponGun1hC004": {
+				"bIsSet": true
+			},
+			"tagWeaponGun1hC005": {
+				"bIsSet": true
+			},
+			"tagWeaponGun1hC006": {},
+			"tagWeaponGun1hC007": {},
+			"tagWeaponGun1hC008": {},
+			"tagWeaponGun1hC009": {},
+			"tagWeaponGun1hC010": {},
+			"tagWeaponGun1hC011": {},
+			"tagWeaponGun1hC012": {},
+			"tagWeaponGun1hC013": {},
+			"tagWeaponGun1hC014": {},
+			"tagWeaponGun1hC015": {},
+			"tagWeaponGun1hC016": {
+				"bIsSet": true
+			},
+			"tagWeaponGun1hC017": {
+				"bIsSet": true
+			},
+			"tagWeaponGun1hC018": {},
+			"tagWeaponGun1hC019": {},
+			"tagWeaponGun1hC020": {},
+			"tagWeaponGun1hC006B": {},
+			"tagGDX1WeaponGun1hC101": {},
+			"tagGDX1WeaponGun1hC102": {},
+			"tagGDX1WeaponGun1hC101B": {},
+			"tagGDX1WeaponGun1hC108": {},
+			"tagGDX1WeaponGun1hC110": {
+				"bIsSet": true
+			},
+			"tagWeaponCrossbow2hC001": {},
+			"tagWeaponCrossbow2hC002": {},
+			"tagWeaponCrossbow2hC003": {},
+			"tagWeaponGun2hC001": {},
+			"tagWeaponGun2hC002": {},
+			"tagWeaponCrossbow2hC004": {},
+			"tagWeaponGun2hC003": {},
+			"tagWeaponGun2hC004": {},
+			"tagWeaponCrossbow2hC005": {},
+			"tagWeaponCrossbow2hC006": {},
+			"tagWeaponCrossbow2hC007": {},
+			"tagWeaponCrossbow2hC008": {},
+			"tagWeaponCrossbow2hC009": {},
+			"tagWeaponGun2hC005": {},
+			"tagWeaponGun2hC006": {},
+			"tagWeaponGun2hC007": {},
+			"tagWeaponGun2hC008": {},
+			"tagWeaponGun2hC009": {},
+			"tagWeaponCrossbow2hC010": {},
+			"tagWeaponGun2hC010": {
+				"bIsSet": true
+			},
+			"tagWeaponGun2hC011": {
+				"bIsSet": true
+			},
+			"tagWeaponCrossbow2hC011": {},
+			"tagWeaponCrossbow2hC012": {},
+			"tagWeaponGun2hC012": {},
+			"tagWeaponGun2hC013": {
+				"bIsSet": true
+			},
+			"tagWeaponCrossbow2hC007B": {},
+			"tagWeaponGun2hC001B": {},
+			"tagWeaponGun2hC002B": {},
+			"tagWeaponGun2hC006B": {},
+			"tagGDX1WeaponGun2hC101": {},
+			"tagGDX1WeaponGun2hC102": {},
+			"tagGDX1WeaponGun2hC103": {},
+			"tagGDX1WeaponGun2hC101B": {},
+			"tagGDX1WeaponGun2hC106": {},
+			"tagGDX1WeaponGun2hC110": {},
+			"tagWeaponMelee2hC001": {},
+			"tagWeaponMelee2hC002": {},
+			"tagWeaponMelee2hC003": {},
+			"tagWeaponMelee2hC004": {},
+			"tagWeaponMelee2hC005": {},
+			"tagWeaponMelee2hC006": {},
+			"tagWeaponMelee2hC007": {},
+			"tagWeaponMelee2hC008": {},
+			"tagWeaponMelee2hC009": {},
+			"tagWeaponMelee2hC010": {},
+			"tagWeaponMelee2hC011": {},
+			"tagWeaponMelee2hC012": {},
+			"tagWeaponMelee2hC013": {},
+			"tagWeaponMelee2hC014": {},
+			"tagWeaponMelee2hC015": {},
+			"tagWeaponMelee2hC016": {
+				"bIsSet": true
+			},
+			"tagWeaponMelee2hC017": {
+				"bIsSet": true
+			},
+			"tagWeaponMelee2hC019": {},
+			"tagWeaponMelee2hC020": {},
+			"tagWeaponMelee2hC021": {
+				"bIsSet": true
+			},
+			"tagWeaponMelee2hC006B": {},
+			"tagWeaponMelee2hC010B": {},
+			"tagGDX1WeaponMelee2hC101": {},
+			"tagGDX1WeaponMelee2hC102": {},
+			"tagGDX1WeaponMelee2hC107": {},
+			"tagShieldC001": {},
+			"tagShieldC002": {},
+			"tagShieldC003": {
+				"bIsSet": true
+			},
+			"tagShieldC004": {},
+			"tagShieldC005": {},
+			"tagShieldC006": {},
+			"tagShieldC007": {},
+			"tagShieldC008": {},
+			"tagShieldC009": {},
+			"tagShieldC010": {},
+			"tagShieldC011": {
+				"bIsSet": true
+			},
+			"tagShieldC012": {
+				"bIsSet": true
+			},
+			"tagShieldC013": {},
+			"tagShieldC015": {},
+			"tagShieldC016": {},
+			"tagShieldC017": {},
+			"tagShieldC018": {
+				"bIsSet": true
+			},
+			"tagGDX1ShieldC101": {},
+			"tagGDX1ShieldC102": {},
+			"tagGDX1ShieldC107": {},
+			"tagWeaponSwordC001": {},
+			"tagWeaponSwordC002": {},
+			"tagWeaponSwordC003": {},
+			"tagWeaponSwordC004": {},
+			"tagWeaponSwordC005": {},
+			"tagWeaponSwordC006": {
+				"bIsSet": true
+			},
+			"tagWeaponSwordC007": {},
+			"tagWeaponSwordC008": {},
+			"tagWeaponSwordC009": {},
+			"tagWeaponSwordC010": {},
+			"tagWeaponSwordC011": {},
+			"tagWeaponSwordC012": {},
+			"tagWeaponSwordC013": {},
+			"tagWeaponSwordC014": {
+				"bIsSet": true
+			},
+			"tagWeaponSwordC015": {},
+			"tagWeaponSwordC016": {},
+			"tagWeaponSwordC017": {},
+			"tagGDX1WeaponSwordC101": {},
+			"tagGDX1WeaponSwordC104": {},
+			"tagWeaponGun1hC013B": {}
+		},
+		"Style": {
+			"tagStyleUniqueTier2": {},
+			"tagStyleUniqueTier3": {}
+		},
+		"MI": {
+			"tagRingC019A": {
+				"bIsSet": true
+			},
+			"tagRingC019B": {
+				"bIsSet": true
+			},
+			"tagRingC020A": {
+				"bIsSet": true
+			},
+			"tagRingC020B": {
+				"bIsSet": true
+			},
+			"tagHeadC033": {},
+			"tagHeadC034": {},
+			"tagGDX1HeadC105": {},
+			"tagGDX1HeadC106": {},
+			"tagGDX1HeadC107": {},
+			"tagGDX1HeadC108": {},
+			"tagShoulderC030": {},
+			"tagWeaponCaster1hC023": {},
+			"tagGDX1WeaponCaster1hC116": {},
+			"tagGDX1WeaponGun1hC103": {},
+			"tagWeaponMelee2hC018": {},
+			"tagWeaponMelee2hC018B": {},
+			"tagShieldC014": {}
+		}
+	},
+	"Legendary": {
+		"Regular": {
+			"tagMedalD001": {},
+			"tagMedalD002": {},
+			"tagMedalD003": {},
+			"tagMedalD004": {},
+			"tagMedalD005": {},
+			"tagMedalD006": {},
+			"tagMedalD007": {},
+			"tagMedalD008": {},
+			"tagMedalD009": {},
+			"tagMedalD010": {},
+			"tagMedalD011": {},
+			"tagMedalD012": {
+				"bIsSet": true
+			},
+			"tagGDX1MedalD101": {},
+			"tagGDX1MedalD102": {},
+			"tagGDX1MedalD103": {},
+			"tagGDX1MedalD104": {},
+			"tagGDX1MedalD105": {},
+			"tagGDX1MedalD106": {},
+			"tagGDX1MedalD113": {},
+			"tagGDX1MedalD114": {},
+			"tagNecklaceD001": {},
+			"tagNecklaceD002": {},
+			"tagNecklaceD003": {},
+			"tagNecklaceD004": {},
+			"tagNecklaceD005": {},
+			"tagNecklaceD006": {},
+			"tagNecklaceD007": {},
+			"tagNecklaceD008": {},
+			"tagNecklaceD009": {},
+			"tagNecklaceD010": {},
+			"tagNecklaceD011": {},
+			"tagNecklaceD012": {},
+			"tagNecklaceD013": {},
+			"tagNecklaceD014": {},
+			"tagNecklaceD015": {
+				"bIsSet": true
+			},
+			"tagNecklaceD016": {
+				"bIsSet": true
+			},
+			"tagNecklaceD017": {
+				"bIsSet": true
+			},
+			"tagNecklaceD018": {
+				"bIsSet": true
+			},
+			"tagNecklaceD019": {
+				"bIsSet": true
+			},
+			"tagNecklaceD020": {
+				"bIsSet": true
+			},
+			"tagNecklaceD021": {
+				"bIsSet": true
+			},
+			"tagNecklaceD022": {
+				"bIsSet": true
+			},
+			"tagNecklaceD023": {},
+			"tagNecklaceD024": {
+				"bIsSet": true
+			},
+			"tagNecklaceD025": {
+				"bIsSet": true
+			},
+			"tagNecklaceD026": {
+				"bIsSet": true
+			},
+			"tagGDX1NecklaceD101": {},
+			"tagGDX1NecklaceD102": {},
+			"tagGDX1NecklaceD103": {},
+			"tagGDX1NecklaceD104": {},
+			"tagGDX1NecklaceD105": {},
+			"tagGDX1NecklaceD106": {},
+			"tagGDX1NecklaceD113A": {},
+			"tagGDX1NecklaceD113B": {},
+			"tagGDX1NecklaceD113C": {},
+			"tagGDX1NecklaceD113D": {},
+			"tagGDX1NecklaceD113E": {},
+			"tagGDX1NecklaceD113F": {},
+			"tagGDX1NecklaceD113G": {},
+			"tagGDX1NecklaceD113H": {},
+			"tagGDX1NecklaceD114": {},
+			"tagGDX1NecklaceD115": {
+				"bIsSet": true
+			},
+			"tagGDX1NecklaceD116": {
+				"bIsSet": true
+			},
+			"tagGDX1NecklaceD117": {
+				"bIsSet": true
+			},
+			"tagGDX1NecklaceD118": {
+				"bIsSet": true
+			},
+			"tagGDX1NecklaceD119": {
+				"bIsSet": true
+			},
+			"tagGDX1NecklaceD120": {
+				"bIsSet": true
+			},
+			"tagGDX1NecklaceD121": {
+				"bIsSet": true
+			},
+			"tagGDX1NecklaceD122": {
+				"bIsSet": true
+			},
+			"tagRingD001": {},
+			"tagRingD002": {},
+			"tagRingD003": {},
+			"tagRingD004": {},
+			"tagRingD005": {},
+			"tagRingD006": {},
+			"tagRingD007": {},
+			"tagRingD008": {},
+			"tagRingD009": {},
+			"tagRingD010": {},
+			"tagRingD011": {
+				"bIsSet": true
+			},
+			"tagRingD012": {
+				"bIsSet": true
+			},
+			"tagRingD013": {
+				"bIsSet": true
+			},
+			"tagRingD014": {
+				"bIsSet": true
+			},
+			"tagGDX1RingD101": {},
+			"tagGDX1RingD102": {},
+			"tagGDX1RingD103": {},
+			"tagGDX1RingD104": {},
+			"tagGDX1RingD105": {},
+			"tagGDX1RingD106": {},
+			"tagGDX1RingD113": {},
+			"tagGDX1RingD114": {},
+			"tagGDX1RingD115": {
+				"bIsSet": true
+			},
+			"tagGDX1RingD116": {},
+			"tagWaistD001": {},
+			"tagWaistD002": {},
+			"tagWaistD003": {},
+			"tagWaistD004": {},
+			"tagWaistD005": {},
+			"tagWaistD006": {},
+			"tagWaistD007": {},
+			"tagWaistD008": {},
+			"tagWaistD009": {},
+			"tagWaistD010": {},
+			"tagWaistD011": {},
+			"tagWaistD012": {},
+			"tagWaistD013": {},
+			"tagWaistD014": {},
+			"tagWaistD015": {
+				"bIsSet": true
+			},
+			"tagWaistD016": {
+				"bIsSet": true
+			},
+			"tagGDX1WaistD101": {},
+			"tagGDX1WaistD102": {},
+			"tagGDX1WaistD103": {},
+			"tagGDX1WaistD104": {},
+			"tagGDX1WaistD105": {},
+			"tagGDX1WaistD106": {},
+			"tagGDX1WaistD113": {},
+			"tagGDX1WaistD114": {},
+			"tagGDX1WaistD115": {
+				"bIsSet": true
+			},
+			"tagGDX1WaistD116": {
+				"bIsSet": true
+			},
+			"tagGDX1WaistD117": {
+				"bIsSet": true
+			},
+			"tagGDX1WaistD118": {
+				"bIsSet": true
+			},
+			"tagGDX1WaistD119": {
+				"bIsSet": true
+			},
+			"tagFeetD001": {},
+			"tagFeetD002": {},
+			"tagFeetD003": {},
+			"tagFeetD004": {},
+			"tagFeetD005": {},
+			"tagFeetD006": {},
+			"tagFeetD007": {},
+			"tagFeetD008": {},
+			"tagFeetD009": {},
+			"tagFeetD010": {},
+			"tagGDX1FeetD101": {},
+			"tagGDX1FeetD102": {},
+			"tagGDX1FeetD103": {},
+			"tagGDX1FeetD104": {},
+			"tagGDX1FeetD109": {},
+			"tagGDX1FeetD110": {},
+			"tagHandsD001": {},
+			"tagHandsD002": {},
+			"tagHandsD003": {},
+			"tagHandsD004": {},
+			"tagHandsD005": {},
+			"tagHandsD006": {},
+			"tagHandsD007": {},
+			"tagHandsD008": {},
+			"tagHandsD009": {},
+			"tagHandsD010": {
+				"bIsSet": true
+			},
+			"tagHandsD011": {
+				"bIsSet": true
+			},
+			"tagHandsD012": {
+				"bIsSet": true
+			},
+			"tagGDX1HandsD101": {},
+			"tagGDX1HandsD102": {},
+			"tagGDX1HandsD103": {},
+			"tagGDX1HandsD104": {},
+			"tagGDX1HandsD109": {},
+			"tagGDX1HandsD110": {},
+			"tagGDX1HandsD111": {
+				"bIsSet": true
+			},
+			"tagGDX1HandsD112": {
+				"bIsSet": true
+			},
+			"tagGDX1HandsD114": {
+				"bIsSet": true
+			},
+			"tagHeadD001": {},
+			"tagHeadD002": {},
+			"tagHeadD003": {},
+			"tagHeadD004": {},
+			"tagHeadD005": {},
+			"tagHeadD006": {},
+			"tagHeadD007": {
+				"bIsSet": true
+			},
+			"tagHeadD008": {
+				"bIsSet": true
+			},
+			"tagHeadD009": {
+				"bIsSet": true
+			},
+			"tagHeadD010": {
+				"bIsSet": true
+			},
+			"tagHeadD011": {
+				"bIsSet": true
+			},
+			"tagHeadD012": {
+				"bIsSet": true
+			},
+			"tagHeadD013": {
+				"bIsSet": true
+			},
+			"tagHeadD014": {
+				"bIsSet": true
+			},
+			"tagHeadD015": {
+				"bIsSet": true
+			},
+			"tagHeadD016": {
+				"bIsSet": true
+			},
+			"tagHeadD017": {
+				"bIsSet": true
+			},
+			"tagHeadD018": {},
+			"tagHeadD019": {
+				"bIsSet": true
+			},
+			"tagHeadD020": {
+				"bIsSet": true
+			},
+			"tagHeadD022": {},
+			"tagHeadD023": {},
+			"tagHeadD024": {
+				"bIsSet": true
+			},
+			"tagHeadD025": {
+				"bIsSet": true
+			},
+			"tagHeadD026": {
+				"bIsSet": true
+			},
+			"tagHeadD027": {
+				"bIsSet": true
+			},
+			"tagHeadD028": {
+				"bIsSet": true
+			},
+			"tagHeadD029": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD101": {},
+			"tagGDX1HeadD102": {},
+			"tagGDX1HeadD103": {},
+			"tagGDX1HeadD104": {},
+			"tagGDX1HeadD109": {},
+			"tagGDX1HeadD110": {},
+			"tagGDX1HeadD113": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD114": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD115": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD116": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD117": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD118": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD119": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD120": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD121": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD122": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD123": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD124": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD125": {
+				"bIsSet": true
+			},
+			"tagGDX1HeadD126": {
+				"bIsSet": true
+			},
+			"tagLegsD001": {},
+			"tagLegsD002": {},
+			"tagLegsD003": {},
+			"tagLegsD004": {},
+			"tagLegsD005": {},
+			"tagLegsD006": {},
+			"tagLegsD007": {},
+			"tagLegsD008": {},
+			"tagLegsD009": {},
+			"tagLegsD010": {},
+			"tagLegsD011": {},
+			"tagLegsD012": {},
+			"tagLegsD013": {},
+			"tagLegsD014": {},
+			"tagGDX1LegsD101": {},
+			"tagGDX1LegsD102": {},
+			"tagGDX1LegsD103": {},
+			"tagGDX1LegsD104": {},
+			"tagGDX1LegsD109": {},
+			"tagGDX1LegsD110": {},
+			"tagShoulderD001": {},
+			"tagShoulderD002": {},
+			"tagShoulderD003": {},
+			"tagShoulderD004": {},
+			"tagShoulderD005": {},
+			"tagShoulderD006": {},
+			"tagShoulderD007": {},
+			"tagShoulderD008": {},
+			"tagShoulderD009": {
+				"bIsSet": true
+			},
+			"tagShoulderD010": {
+				"bIsSet": true
+			},
+			"tagShoulderD011": {
+				"bIsSet": true
+			},
+			"tagShoulderD012": {
+				"bIsSet": true
+			},
+			"tagShoulderD013": {
+				"bIsSet": true
+			},
+			"tagShoulderD014": {
+				"bIsSet": true
+			},
+			"tagShoulderD015": {
+				"bIsSet": true
+			},
+			"tagShoulderD016": {
+				"bIsSet": true
+			},
+			"tagShoulderD017": {
+				"bIsSet": true
+			},
+			"tagShoulderD018": {
+				"bIsSet": true
+			},
+			"tagShoulderD019": {
+				"bIsSet": true
+			},
+			"tagShoulderD021": {
+				"bIsSet": true
+			},
+			"tagShoulderD022": {
+				"bIsSet": true
+			},
+			"tagShoulderD023": {
+				"bIsSet": true
+			},
+			"tagShoulderD024": {
+				"bIsSet": true
+			},
+			"tagShoulderD025": {
+				"bIsSet": true
+			},
+			"tagShoulderD026": {
+				"bIsSet": true
+			},
+			"tagShoulderD027": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD101": {},
+			"tagGDX1ShoulderD102": {},
+			"tagGDX1ShoulderD103": {},
+			"tagGDX1ShoulderD104": {},
+			"tagGDX1ShoulderD103B": {},
+			"tagGDX1ShoulderD109": {},
+			"tagGDX1ShoulderD110": {},
+			"tagGDX1ShoulderD112": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD113": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD114": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD115": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD116": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD117": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD118": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD119": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD120": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD121": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD122": {
+				"bIsSet": true
+			},
+			"tagGDX1ShoulderD123": {
+				"bIsSet": true
+			},
+			"tagTorsoD001": {},
+			"tagTorsoD002": {},
+			"tagTorsoD003": {},
+			"tagTorsoD004": {},
+			"tagTorsoD005": {},
+			"tagTorsoD006": {},
+			"tagTorsoD007": {},
+			"tagTorsoD008": {},
+			"tagTorsoD009": {
+				"bIsSet": true
+			},
+			"tagTorsoD010": {
+				"bIsSet": true
+			},
+			"tagTorsoD011": {
+				"bIsSet": true
+			},
+			"tagTorsoD012": {
+				"bIsSet": true
+			},
+			"tagTorsoD013": {
+				"bIsSet": true
+			},
+			"tagTorsoD014": {
+				"bIsSet": true
+			},
+			"tagTorsoD015": {
+				"bIsSet": true
+			},
+			"tagTorsoD016": {
+				"bIsSet": true
+			},
+			"tagTorsoD017": {
+				"bIsSet": true
+			},
+			"tagTorsoD018": {
+				"bIsSet": true
+			},
+			"tagTorsoD019": {},
+			"tagTorsoD020": {
+				"bIsSet": true
+			},
+			"tagTorsoD021": {
+				"bIsSet": true
+			},
+			"tagTorsoD022": {
+				"bIsSet": true
+			},
+			"tagTorsoD023": {
+				"bIsSet": true
+			},
+			"tagTorsoD024": {
+				"bIsSet": true
+			},
+			"tagTorsoD025": {
+				"bIsSet": true
+			},
+			"tagTorsoD026": {
+				"bIsSet": true
+			},
+			"tagTorsoD027": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD101": {},
+			"tagGDX1TorsoD102": {},
+			"tagGDX1TorsoD103": {},
+			"tagGDX1TorsoD104": {},
+			"tagGDX1TorsoD109": {},
+			"tagGDX1TorsoD110": {},
+			"tagGDX1TorsoD112": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD113": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD114": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD115": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD116": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD117": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD118": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD119": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD120": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD121": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD122": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD123": {
+				"bIsSet": true
+			},
+			"tagWeaponAxeD001": {},
+			"tagWeaponAxeD002": {},
+			"tagWeaponAxeD003": {},
+			"tagWeaponAxeD004": {},
+			"tagWeaponAxeD005": {},
+			"tagWeaponAxeD006": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponAxeD101": {},
+			"tagGDX1WeaponAxeD103": {},
+			"tagGDX1WeaponAxeD104": {},
+			"tagGDX1WeaponAxeD105": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponAxeD106": {
+				"bIsSet": true
+			},
+			"tagWeaponBluntD001": {},
+			"tagWeaponBluntD002": {},
+			"tagWeaponBluntD003": {},
+			"tagWeaponBluntD004": {},
+			"tagWeaponBluntD005": {},
+			"tagWeaponBluntD006": {
+				"bIsSet": true
+			},
+			"tagWeaponBluntD007": {
+				"bIsSet": true
+			},
+			"tagWeaponBluntD008": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponBluntD101": {},
+			"tagGDX1WeaponBluntD103": {},
+			"tagGDX1WeaponBluntD104": {},
+			"tagGDX1WeaponBluntD105": {
+				"bIsSet": true
+			},
+			"tagWeaponCaster1hD001": {},
+			"tagWeaponCaster1hD002": {},
+			"tagWeaponCaster1hD003": {},
+			"tagWeaponCaster1hD004": {},
+			"tagWeaponCaster1hD005": {},
+			"tagWeaponCaster1hD006": {},
+			"tagWeaponCaster1hD007": {},
+			"tagWeaponCaster1hD008": {},
+			"tagWeaponCaster1hD009": {},
+			"tagWeaponCaster1hD010": {},
+			"tagWeaponCaster1hD011": {},
+			"tagWeaponCaster1hD012": {},
+			"tagWeaponCaster1hD013": {},
+			"tagWeaponCaster1hD014": {},
+			"tagWeaponCaster1hD015": {
+				"bIsSet": true
+			},
+			"tagWeaponCaster1hD016": {
+				"bIsSet": true
+			},
+			"tagWeaponCaster1hD017": {
+				"bIsSet": true
+			},
+			"tagWeaponCaster1hD018": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponCaster1hD101": {},
+			"tagGDX1WeaponCaster1hD102": {},
+			"tagGDX1WeaponCaster1hD103": {},
+			"tagGDX1WeaponCaster1hD104": {},
+			"tagGDX1WeaponCaster1hD105": {},
+			"tagGDX1WeaponCaster1hD106": {},
+			"tagGDX1WeaponCaster1hD113": {},
+			"tagGDX1WeaponCaster1hD114": {},
+			"tagGDX1WeaponCaster1hD115": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponCaster1hD116": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponCaster1hD117": {
+				"bIsSet": true
+			},
+			"tagFocusD001": {},
+			"tagFocusD002": {},
+			"tagFocusD003": {},
+			"tagFocusD004": {},
+			"tagFocusD005": {},
+			"tagFocusD006": {},
+			"tagFocusD007": {},
+			"tagFocusD008": {},
+			"tagFocusD009": {},
+			"tagFocusD010": {},
+			"tagFocusD011": {},
+			"tagFocusD012": {},
+			"tagFocusD013": {
+				"bIsSet": true
+			},
+			"tagFocusD014": {
+				"bIsSet": true
+			},
+			"tagFocusD015": {
+				"bIsSet": true
+			},
+			"tagFocusD016": {
+				"bIsSet": true
+			},
+			"tagGDX1FocusD101": {},
+			"tagGDX1FocusD102": {},
+			"tagGDX1FocusD103": {},
+			"tagGDX1FocusD104": {},
+			"tagGDX1FocusD105": {},
+			"tagGDX1FocusD111": {},
+			"tagGDX1FocusD112": {},
+			"tagGDX1FocusD113": {
+				"bIsSet": true
+			},
+			"tagGDX1FocusD114": {
+				"bIsSet": true
+			},
+			"tagGDX1FocusD115": {
+				"bIsSet": true
+			},
+			"tagGDX1FocusD116": {
+				"bIsSet": true
+			},
+			"tagWeaponGun1hD001": {},
+			"tagWeaponGun1hD002": {},
+			"tagWeaponGun1hD003": {},
+			"tagWeaponGun1hD004": {},
+			"tagWeaponGun1hD005": {},
+			"tagWeaponGun1hD006": {},
+			"tagWeaponGun1hD007": {
+				"bIsSet": true
+			},
+			"tagWeaponGun1hD008": {
+				"bIsSet": true
+			},
+			"tagWeaponGun1hD009": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponGun1hD101": {},
+			"tagGDX1WeaponGun1hD102": {},
+			"tagGDX1WeaponGun1hD103": {},
+			"tagGDX1WeaponGun1hD107": {},
+			"tagGDX1WeaponGun1hD108": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponGun1hD109": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponGun1hD110": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponGun1hD111": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponGun1hD112": {},
+			"tagGDX1WeaponGun1hD114": {},
+			"tagWeaponCrossbow2hD001": {},
+			"tagWeaponCrossbow2hD002": {},
+			"tagWeaponCrossbow2hD003": {},
+			"tagWeaponCrossbow2hD004": {},
+			"tagWeaponGun2hD001": {},
+			"tagWeaponGun2hD002": {},
+			"tagWeaponGun2hD003": {},
+			"tagWeaponGun2hD004": {},
+			"tagWeaponGun2hD005": {},
+			"tagWeaponCrossbow2hD005": {
+				"bIsSet": true
+			},
+			"tagWeaponGun2hD006": {
+				"bIsSet": true
+			},
+			"tagWeaponGun2hD007": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponGun2hD101": {},
+			"tagGDX1WeaponGun2hD102": {},
+			"tagGDX1WeaponGun2hD104": {},
+			"tagGDX1WeaponGun2hD106": {},
+			"tagGDX1WeaponGun2hD107": {
+				"bIsSet": true
+			},
+			"tagWeaponMelee2hD001": {},
+			"tagWeaponMelee2hD002": {},
+			"tagWeaponMelee2hD003": {},
+			"tagWeaponMelee2hD004": {},
+			"tagWeaponMelee2hD005": {},
+			"tagWeaponMelee2hD006": {},
+			"tagWeaponMelee2hD007": {},
+			"tagWeaponMelee2hD008": {},
+			"tagWeaponMelee2hD009": {
+				"bIsSet": true
+			},
+			"tagWeaponMelee2hD010": {
+				"bIsSet": true
+			},
+			"tagWeaponMelee2hD011": {},
+			"tagGDX1WeaponMelee2hD101": {},
+			"tagGDX1WeaponMelee2hD102": {},
+			"tagGDX1WeaponMelee2hD103": {},
+			"tagGDX1WeaponMelee2hD107": {},
+			"tagGDX1WeaponMelee2hD108": {
+				"bIsSet": true
+			},
+			"tagShieldD001": {},
+			"tagShieldD002": {},
+			"tagShieldD003": {},
+			"tagShieldD004": {},
+			"tagShieldD005": {},
+			"tagShieldD006": {},
+			"tagShieldD007": {},
+			"tagShieldD008": {
+				"bIsSet": true
+			},
+			"tagShieldD009": {
+				"bIsSet": true
+			},
+			"tagGDX1ShieldD101": {},
+			"tagGDX1ShieldD102": {},
+			"tagGDX1ShieldD103": {},
+			"tagGDX1ShieldD107": {},
+			"tagGDX1ShieldD108": {
+				"bIsSet": true
+			},
+			"tagGDX1ShieldD109": {
+				"bIsSet": true
+			},
+			"tagGDX1ShieldD110": {
+				"bIsSet": true
+			},
+			"tagWeaponSwordD001": {},
+			"tagWeaponSwordD002": {},
+			"tagWeaponSwordD003": {},
+			"tagWeaponSwordD004": {},
+			"tagWeaponSwordD005": {},
+			"tagWeaponSwordD006": {},
+			"tagWeaponSwordD007": {
+				"bIsSet": true
+			},
+			"tagWeaponSwordD008": {
+				"bIsSet": true
+			},
+			"tagWeaponSwordD009": {
+				"bIsSet": true
+			},
+			"tagWeaponSwordD010": {},
+			"tagWeaponSwordD011": {},
+			"tagWeaponSwordD013": {
+				"bIsSet": true
+			},
+			"tagGDX1WeaponSwordD101": {},
+			"tagGDX1WeaponSwordD102": {},
+			"tagGDX1WeaponSwordD105": {},
+			"tagGDX1WeaponSwordD106": {},
+			"tagGDX1WeaponSwordD107": {
+				"bIsSet": true
+			},
+			"tagNecklaceD005B": {},
+			"tagLegsD013B": {},
+			"tagWeaponCrossbow2hD003B": {},
+			"tagWeaponGun2hD001B": {},
+			"tagWeaponMelee2hD002B": {},
+			"tagShieldD002B": {},
+			"tagShieldD003B": {}
+		},
+		"Style": {
+			"tagStyleUniqueTier3": {}
+		},
+		"MI": {
+			"tagRingD015": {
+				"bIsSet": true
+			},
+			"tagRingD016": {
+				"bIsSet": true
+			},
+			"tagGDX1FeetD111": {
+				"bIsSet": true
+			},
+			"tagGDX1HandsD113": {
+				"bIsSet": true
+			},
+			"tagHeadD021": {},
+			"tagGDX1HeadD111": {},
+			"tagGDX1HeadD112": {
+				"bIsSet": true
+			},
+			"tagShoulderD020": {},
+			"tagGDX1ShoulderD111": {
+				"bIsSet": true
+			},
+			"tagGDX1TorsoD111": {
+				"bIsSet": true
+			},
+			"tagWeaponCaster1hD019": {},
+			"tagGDX1WeaponCaster1hD118": {},
+			"tagWeaponMelee2hD012": {},
+			"tagWeaponMelee2hD013": {},
+			"tagWeaponSwordD012": {}
+		}
+	}
+}

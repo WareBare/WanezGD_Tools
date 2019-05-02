@@ -1,0 +1,36 @@
+{
+    "App": "{HEADER}{NAV}<div id=\"app_Body\">{CONTENT}{SIDEBAR}</div>{FOOTER}",
+    "Container": "<div id=\"{ID}\">{CONTENT}</div>",
+    "Buttons":{
+        "Default": "<span wz-btn=\"default\" onclick=\"{ONCLICK}\">{TEXT}</span>",
+        "ListCSS": "<li wz-btnCSS=\"list\" onclick=\"{ONCLICK}\"><input type=\"radio\" name=\"css3_masterySelection\"{CHECKED}><label>{TEXT}</label></li>",
+        "ListContent": "<li wz-btnCSS=\"listContent\" onclick=\"{ONCLICK}\"><input type=\"radio\" name=\"css3_contentListBTN\"{CHECKED}><label>{TEXT}</label></li>"
+    },
+    "Nav": {
+        "Frame": "{ITEMS}",
+        "Item": "<div class=\"navItem\"><span id=\"{ID}\" onclick=\"wzCMS(['{CMS_0}']);\">{TEXT}</span>{MENU}</div>",
+        "Menu": "<ul>{ITEMS}</ul>",
+        "MenuItem": "<li><span id=\"{ID}\" onclick=\"wzCMS(['{CMS_0}','{CMS_1}']);\">{TEXT}</span>{SUBMENU}</li>",
+        "SubMenu": "<ul>{ITEMS}</ul>",
+        "SubMenuItem": "<li><span id=\"{ID}\" onclick=\"wzCMS(['{CMS_0}','{CMS_1}','{CMS_2}']);\">{TEXT}</span></li>"
+    },
+    "Form":{
+        "Container":{
+            "Default":{
+                "Frame":"<form id=\"{ID}\" method=\"{METHOD}\" onsubmit=\"return wzValidateForm(event,this)\"><fieldset><legend>{TITLE}</legend>{GROUPS}<br /><br /><ul><li>{BUTTONS}</li></ul></fieldset></form>",
+                "Group":"<fieldset><legend>{TITLE}</legend>{ITEMS}</fieldset>"
+            },
+            "Grp":{
+                "Frame":"<div id=\"{ID}\">{GROUPS}</div>",
+                "Group":"<form id=\"{ID}\" action=\"\" method=\"{METHOD}\" onsubmit=\"return wzValidateForm(event,this)\"><fieldset><legend>{TITLE}</legend>{ITEMS}<br /><br /><ul><li>{BUTTONS}</li></ul></fieldset></form>"
+            }
+        },
+        "Fields":{
+            "Text": "<label><span>{TEXT}</span><input{ID}{CLASS} type=\"text\" name=\"{NAME}\"{VALUE}{WZ_TYPE}{REQUIRED} /></label>",
+            "TextLong": "<label><span>{TEXT}</span><input{ID}{CLASS} type=\"text\" name=\"{NAME}\"{VALUE}{WZ_TYPE}{REQUIRED} /></label>",
+            "ListArea": "<label><span>{TEXT}</span><textarea name=\"{NAME}\"{WZ_TYPE}{REQUIRED}>{VALUE}</textarea></label>",
+            "ComboBox": "<label><span>{TEXT}</span><select name=\"{NAME}\"{WZ_TYPE}{REQUIRED}>{ITEMS}</select></label>",
+            "CheckBox": "<label><span>{TEXT}</span><input type=\"checkbox\" name=\"{NAME}\"{WZ_TYPE}{VALUE}{REQUIRED} /></label>"
+        }
+    }
+}

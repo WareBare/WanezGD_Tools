@@ -1,0 +1,13 @@
+// Created by WareBare on 10/24/2016.
+
+@import "themes";
+
+@import "main";
+@import "wnd";
+@import "form";
+@import "gd-misc";
+@import "gd-mastery";
+
+body.busy-cursor {
+    cursor: progress !important;
+}

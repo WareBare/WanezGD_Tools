@@ -1,0 +1,330 @@
+// Created by WareBare on 10/24/2016.
+
+#WzForm{
+
+    ::-webkit-scrollbar-track{
+        border-radius: 0;
+        background: $Label_Gradient01;
+        border-width: 1px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: rgba(117, 115, 115, 0.9);
+    }
+
+    display: block;
+
+    
+    label.CheckBox{
+        display: inline-block;
+        padding: 10px;
+        input{
+            
+            &[type="checkbox"]{
+                display: none;
+            }
+            
+            // CheckBox - CHECKED
+            &:CHECKED + span{
+                color: $Radio_Color01_CHECKED;
+                background: $Radio_Gradient01_CHECKED;
+
+                margin: 6px 6px -6px -6px;
+
+                text-shadow: 0 1px 1px rgba(255,255,255,.35);
+                //transform: translate(0, 5px);
+                box-shadow: 1px -1px 0 rgba(0, 0, 0, .3);
+
+                &:HOVER{
+                    //margin: 3px 3px -3px -3px;
+                    //box-shadow: -3px 3px 0 rgba(0, 0, 0, .3);
+
+                    color: $Radio_Color01_CHECKED_HOVER;
+                    background: $Radio_Gradient01_CHECKED_HOVER;
+                }
+            }
+        }
+        span{
+            display: inline-block;
+            text-align: center;
+            border-width: 1px;
+            padding: 10px 20px;
+            transition: all .15s linear 0s;
+            cursor: pointer;
+
+            border-radius: 5px;
+
+            color: $Radio_Color01;
+            background: $Radio_Gradient01;
+
+            text-shadow: 0 1px 1px rgba(150, 150, 150, .35);
+            box-shadow: -6px 6px 0 rgba(0, 0, 0, .3);
+
+            // CheckBox - HOVER
+            &:HOVER{
+                margin: 3px 3px -3px -3px;
+                color: $Radio_Color01_HOVER;
+                background: $Radio_Gradient01_HOVER;
+
+                box-shadow: -3px 3px 0 rgba(0, 0, 0, .3);
+            }
+        }
+    }
+    label.Default{
+        display: inline-block;
+        background: $Label_Gradient01;
+        
+        margin: 5px 5px 5px 5px;
+        padding: 3px 3px 3px 5px;
+
+        vertical-align: top;
+
+        &:HOVER{
+            background: $Label_Gradient01_HOVER;
+        }
+
+        msg.ErrorMsg{
+            float: right;
+            padding: 0 15px 0 15px;
+
+            background: $Error_Gradient02;
+        }
+        input, select, option, textarea{
+            display: block;
+            min-width: 200px;
+            
+            margin: 2px 0 0 -2px;
+
+            
+            
+            box-shadow: 0 1px 1px rgba(15, 15, 15, 0.5), 0 1px 3px rgba(0,0,0,0.5);
+        }
+        select{
+            background: $Label_Gradient01;
+        }
+        option{
+            margin: 0px 1px 0px 1px;
+            border-width: 1px;
+            padding-right: 15px;
+
+            cursor: pointer;
+
+            background: $Radio_Gradient01;
+            color: $Radio_Color01;
+
+            box-shadow: inset 0 1px 1px rgba(15, 15, 15, 0.5), 0 2px 3px rgba(0,0,0,0.5);
+
+            &:HOVER{
+                box-shadow: inset 13px 1px 1px rgba(15, 15, 15, 0.5), 0 2px 3px rgba(0,0,0,0.5);
+                padding-left: 15px;
+                padding-right: 0px;
+                color: $Radio_Color01_HOVER;
+                background: $Radio_Gradient01_HOVER;
+            }
+
+            &:CHECKED{
+                box-shadow: inset 13px 1px 1px rgba(15, 15, 15, 0.5), 0 2px 3px rgba(0,0,0,0.5);
+                padding-left: 15px;
+                padding-right: 0px;
+                color: $Radio_Color01_CHECKED;
+                background: $Radio_Gradient01_CHECKED;
+            }
+        }
+    }
+
+    fieldset{
+        display: inline-block;
+        text-align: left;
+        border-width: 1px;
+
+        vertical-align: top;
+        legend{
+            border-width: 1px;
+
+            padding: 0 5px 0 5px;
+            margin-left: 5px;
+            
+            font-size: 1.5em;
+        }
+
+    }
+
+    span.Msg_Warn{
+        display: inline-block;
+        color: $Warn_Color01;
+    }
+    div.Align_H{
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+form{
+    text-align: center;
+    fieldset{
+        text-align: left;
+        display: inline-block;
+        border-width: 1px;
+        margin: 10px 5px 5px 5px;
+        padding: 5px;
+        vertical-align: top;
+        legend{
+            font-size: 1.5em;
+            border-width: 1px;
+            margin-top: -19px;
+            margin-left: 5px;
+            padding: 0 5px 0 5px;
+        }
+    }
+    label{
+        display: inline-block;
+        background: $gradientLabel-001;
+        vertical-align: top;
+        span{
+            //border-top-width: 1px;
+            //border-right-width: 1px;
+            //border-left-width: 1px;
+            //padding: 2px 5px 2px 5px;
+            padding: 2px 0 2px 0;
+            margin-left: -2px;
+        }
+        margin: 5px 5px 5px 5px;
+        padding: 3px 3px 3px 5px;
+
+        ul{
+            display: inline-block;
+            margin-top: 0;
+            //position: absolute;
+            max-height: 150px;
+            max-width: 400px;
+            //color:green;
+            color: #3F3F3F;
+            overflow: auto;
+            li{
+                background-color: #AFAFAF;
+                display: block;
+                &:HOVER{
+                    background-color: #CFCFCF;
+                }
+            }
+        }
+    }
+
+    label.comboBox{
+        position:relative;
+        display: block;
+        //height:10px;
+        //width:100px;
+        //& select{
+            //position:absolute;
+        //}
+    }
+    input,select,option,textarea{
+        margin: 2px 0 0 -2px;
+        display: block;
+        width: 150px;
+        cursor: text;
+        //background-color: #E0E0E0;
+        background: #fcfff4;
+        background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+        box-shadow: inset 0 1px 1px white, 0 1px 3px rgba(0,0,0,0.5);
+        &:invalid{
+            background-color: #AF8080;
+        }
+        &[wzType="ListBox"]{
+            width: 253px;
+            & option{
+                width: 235px;
+                &:HOVER{
+                    color: #AF8080;
+        
+                }
+                &:ACTIVE{
+                    color: #AF8080;
+        
+                }
+            }
+        }
+        &[wzType="ListBoxLarge"]{
+            width: 550px;
+            & option{
+                width: 540px;
+            }
+        }
+        &[wzType="TextMedium"]{
+            width: 260px;
+        }
+        &[wzType="TextLarge"], &[wzType="ComboBoxLarge"]{
+            width: 300px;
+        }
+        &[wzType="TextLarger"]{
+            width: 370px;
+        }
+        &[wzType="TextArea"]{
+            height:100px;
+            width: 500px;
+        }
+        &[wzType="TextLargeX"]{
+            width: 500px;
+        }
+        &[wzType="ListArea"]{
+            height:100px;
+            width: 253px;
+            & option{
+                width: 235px;
+            }
+        }
+        &[wzType="ListAreaLarge"]{
+            width: 528px;
+            height:150px;
+        }
+        &[wzType="ListAreaWide"]{
+            height:50px;
+            width: 548px;
+            & option{
+                width: 528px;
+            }
+        }
+        &[wzType="CheckDefault"]{
+            cursor: pointer;
+            //display: inline-block;
+            width: auto;
+        }
+        &[wzType="RadioDefault"]{
+            cursor: pointer;
+            //display: inline-block;
+            width: auto;
+        }
+        &[type="number"]{
+            width: 50px;
+        }
+        &[type="checkbox"]{
+            width: 20px;
+            height: 20px;
+        }
+        &[type="radio"]{
+            width: 20px;
+            height: 20px;
+        }
+        //&::-webkit-input-placeholder{
+            //color: #8F8FCF;
+        //}
+    }
+    select,option{
+        cursor: pointer;
+    }
+    ul{
+        position: absolute;
+        list-style: none;
+        margin: -10px 0 0 0;
+        //li{}
+    }
+    input[type="submit"],input[type="reset"]{
+        display: inline-block;
+        cursor: pointer;
+        margin: 2px;
+        width: 100px;
+        &:HOVER{
+            background-color: #A0F0A0;
+        }
+    }
+}

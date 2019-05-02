@@ -1,0 +1,120 @@
+{
+    "devDemo_Form01":{
+        "settings": {
+            "FieldsPerRow": 2,
+            "Type":"Grp"
+        },
+        "items": {
+            "Paths (Grim Dawn)": {
+                "configGD::Paths-Home":["TextLong",{
+                    "TEXT": "Home Path"
+                }],
+                "test0101": false,
+                "configGD::Paths-Mods":["ListArea",{
+                    "TEXT": "Mods",
+                    "DEFAULT": ["hehe","haha"]
+                }],
+                "test0102": false,
+                "test0201":["CheckBox",{
+                    "TEXT": "MyTest - 2-1",
+                    "DEFAULT": true,
+                    "REQUIRED": false
+                }]
+            },
+            "GRP II": {
+                "test0301":["Text",{
+                    "TEXT": "MyTest - 3",
+                    "REQUIRED": false
+                }],
+                "test0302": false,
+                "test0401":["ComboBox",{
+                    "TEXT": "MyTest - 4",
+                    "DEFAULT": 1,
+                    "Data": ["item 01","item 02","item 03"]
+                }],
+                "test0402":["ComboBox",{
+                    "TEXT": "MyTest - 4",
+                    "DEFAULT": "c",
+                    "Data": {"a":"item A","b":"item B","c":"item C"}
+                }]
+            }
+        }
+    },
+    "configGD_Form_old": {
+        "settings": {
+            "Name": "Grim Dawn - Settings",
+            "FieldsPerRow": 2
+        },
+        "items": {
+            "Paths & Directories": {
+                "configGD::Paths-Home":{
+                    "Class": "TextLong",
+                    "Label" : "Home Path / Base GD-Path"
+                },
+                "configGD::Paths-Mod":{
+                    "Class": "Text",
+                    "Label": "Mod Directory"
+                },
+                "ph_01": false,
+                "configGD::Paths-Database":{
+                    "Class": "Text",
+                    "Label": "Database Directory"
+                },
+                "configGD::Paths-Source":{
+                    "Class": "Text",
+                    "Label": "Source Directory"
+                }
+            },
+            "Mods": {
+                "configGD::Paths-Mods":{
+                    "Class": "ListArea",
+                    "Label": "List"
+                },
+                "configGD::activeMod":{
+                    "Class": "ComboBox",
+                    "Data" : "configGD::Paths-Mods"
+                }
+            }
+        }
+    },
+    "configGD_Form": {
+        "settings": {
+            "Name": "Grim Dawn - Settings",
+            "FieldsPerRow": 2,
+            "configFile": "settings-app",
+            "configKey": "GrimDawn"
+        },
+        "items": {
+            "Paths & Directories": {
+                "configGD::Paths-Working":["TextLong",{
+                    "TEXT": "Working Path"
+                }],
+                "configGD::Paths-Game":["TextLong",{
+                    "TEXT": "Grim Dawn Path"
+                }]
+            },
+            "Mods": {
+                "configGD::Paths-Mods":["ListArea",{
+                    "TEXT": "List"
+                }],
+                "configGD::activeMod":["ComboBox",{
+                    "TEXT": "Active Mod",
+                    "Data": "configGD::Paths-Mods",
+                    "REQUIRED": false
+                }]
+            },
+            "Mastery": {
+                "configGD::Mastery-Paths":["ListArea",{
+                    "TEXT": "Alternate Directories with Mastery UI [wip]",
+                    "REQUIRED": false
+                }],
+                "configGD::Mastery-TagsSkills":["TextLong",{
+                    "TEXT": "Tag file (Skills) (no path, no extension)"
+                }],
+                "configGD::Mastery-TagsClasses":["TextLong",{
+                    "TEXT": "Tag file (Classes) (no path, no extension)"
+                }]
+            }
+        }
+    }
+}

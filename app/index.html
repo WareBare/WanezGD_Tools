@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wanez Tools :: Grim Dawn</title>
+    <script src="lib/tga.js"></script>
+    <script src="lib/moment.js"></script>
+    <link rel="stylesheet" href="themes/default-gd01.css" type="text/css">
+</head>
+<body>
+    <div>Loading...</div>
+<script>
+    const electron = require('electron');
+    const AdmZip = require('adm-zip');
+    const JSZip = require("jszip");
+    const fs = require(`fs-extra`);
+    const child_process = require('child_process'); // .execFile
+    //const chokidar = require('chokidar');
+    //let _watcher;
+    //let _watcherItems;
+    //let _watcherPS;
+    const mkpath = require('mkpath');
+    const eConfig = require('electron-store');
+    //const marked = require('marked');
+    //const fetchUrl = require("fetch").fetchUrl;
+    const app = require('electron').remote.app;
+    const {clipboard} = require('electron');
+    const log = require('electron').remote.require('electron-log');
+    let Log = console.log.bind(console);
+
+    // ContextMenu
+    const remote = require('electron').remote;
+    //const ctxMenu = remote.require('electron-editor-context-menu');
+    //const MenuItem = require('electron-context-menu');
+    //const path = require('path');
+    //const request = require('request');
+    //const PSD = require('psd');
+
+    const dirBase = __dirname.replace(/\\/g, "/"),
+        dirAssets = `${dirBase}/assets`
+        , dirUserData = app.getPath(`userData`);
+    //var wzDir,libWZ,_wzData,_wzTPL; // IDE auto-complete pre-declarations
+    let libWZ;
+    const wzIO = require(`./lib/wzIO`),
+        wzNotify = require(`./lib/wzNotify`);
+    const appData = require(`./data`);
+    const WZ = require(`./lib/Wanez`);
+    require(`./inc`);
+    require('./updater.js');
+</script>
+</body>
+</html>

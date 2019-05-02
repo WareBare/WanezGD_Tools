@@ -1,0 +1,42 @@
+{
+    "UI":{
+        "SkillSlots":{
+            "X":[245,325,405,485,565,645,725,805,885],
+            "Y":[10,42,80,112,150,182,220,252,290,322,360,392,430]
+        }
+    },
+    "Gear":{
+        "types":{
+            "Accessory": ["Amulet","Bracelet","Ring","Medal","Waist","OffHand"],
+            "Armor": ["Head","Shoulders","Hands","Chest","Legs","Feet","Shield"],
+            "Weapon1H": ["Spear","Axe","Mace","Sword","Dagger","Scepter","Ranged1H"],
+            "Weapon2H": ["Staff","Ranged2H","Axe2H","Mace2H","Sword2H"]
+        },
+        "slots":{
+            "amulet": "Amulets",
+            "ring": "Rings",
+            "medal": "Medals",
+            "head": "Head Armor",
+            "shoulders": "Shoulder Armor",
+            "hands": "Hand Armor",
+            "chest": "Chest Armor",
+            "waist": "Waist",
+            "legs": "Leg Armor",
+            "feet": "Boots",
+            "shield": "Shields",
+            "offhand": "Off-Hands",
+            "spear": "Spears",
+            "staff": "Staves",
+            "axe": "One-Handed Axes",
+            "mace": "One-Handed Maces",
+            "sword": "One-Handed Swords",
+            "dagger": "Daggers",
+            "scepter": "Scepters",
+            "ranged1h": "One-Handed Guns",
+            "ranged2h": "Two-Handed Guns",
+            "axe2h": "Two-Handed Axes",
+            "mace2h": "Two-Handed Maces",
+            "sword2h": "Two-Handed Swords"
+        }
+    }
+}

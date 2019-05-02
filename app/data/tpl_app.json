@@ -1,0 +1,41 @@
+{
+    "Header": {
+        "ID": "app_Header",
+        "CONTENT": "<div id=\"notifyArea\"></div><div id=\"app_HeaderLoc\" class=\"left\"></div><div id=\"app_HeaderApps\" class=\"center\"></div><div class=\"right\"><img src=\"img/settings.png\" onclick=\"wzWND('Settings').refresh();\" title=\"Settings (F6)\"></img><img src=\"img/refresh.png\" onclick=\"location.reload();\" title=\"Reload (F5)\"></img></div>"
+    },
+    "Nav": {
+        "ID": "app_Nav",
+        "CONTENT": "myNav",
+        "Items":{
+            "News":{}
+            , "Filter":{
+                "Settings":[]
+                , "Library":[]
+                , "Old": []
+            }
+        },
+        "Disabled":{
+            "Docs":{
+                "ReadMe": [],
+                "Change Log": [],
+                "Wiki":["Mastery Wizard","Skill Edit - Window"]
+            }
+        }
+    },
+    "Content": {
+        "ID": "app_Content",
+        "CONTENT": "myBody"
+    },
+    "SideBar": {
+        "ID": "app_SideBar",
+        "CONTENT": "mySideBar"
+    },
+    "Footer": {
+        "ID": "app_Footer",
+        "hasConsole": true,
+        "tpl": {
+            "console": "<div id=\"footerConsole\"><div class=\"header\"></div></div>",
+            "body": "<div id=\"footerBody\"><div class=\"left\">v{VERSION}<span id=\"installUpdate\">checking for Updates...</span></div><div class=\"center\">{COPYRIGHT}</div><div class=\"right\">{CONTACT}</div></div>"
+        }
+    }
+}

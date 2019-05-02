@@ -1,0 +1,204 @@
+// Created by WareBare on 10/30/2016.
+
+#appGD_UI{
+    text-align: center;
+    .skillWindow{
+        display: inline-block;
+        text-align: left;
+        //margin:-554px;
+        width: 960px;
+        height: 554px;
+        position: absolute;
+        .skillPositions{
+            //float:right;
+            position: absolute;
+            right:0;
+        }
+        .skillConnectors{
+            //float: right;
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            //top:0;
+            top:-13px;
+            //right:-32px;
+            right: 60px;
+            //z-index: 1;
+            img{
+                margin: -3px 0 -3px 0;
+                padding: 0;
+                height: 75px;
+                width: 76px;
+                //height: 40px;
+                //width: 38px;
+
+                &[wz-mode="ignore"],&[wz-mode="hidden"]{
+                    visibility: hidden;
+                }
+            }
+            &.skillConnectors2{
+                top:6px;
+                right: -15px;
+            }
+        }
+        .skillLeftPane{
+            float: left;
+            margin: 18px 0 0 14px;
+            .skillPicker{
+                //float:left;
+                //margin: 18px 0 0 14px;
+                ul{
+                    list-style: none;
+                    margin: 0;
+                    li{
+                        cursor: pointer;
+                    }
+                }
+                div{
+                    border:{
+                        width:1px;
+                        color: #FFFFFF;
+                    }
+                    height: 155px;
+                    width: 202px;
+                    overflow: auto;
+                }
+            }
+            .skillBonusLeft{
+                float: left;
+                .skillCell{
+                    margin: 2px 10px 2px 3px !important;
+                }
+            }
+        }
+
+        .skillCell{
+            position: relative;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+            width:32px;
+            height:32px;
+            line-height: 32px;
+            margin: 2px 32px 2px 13px;
+            background-color: #2F2F2F;
+            color: #af5936;
+            font-weight:bolder;
+            overflow: visible;
+            white-space: nowrap;
+            padding: 0;
+            border:{
+                width: 1px;
+                color: #FFFFFF;
+            }
+
+            & span{
+                cursor: pointer;
+                min-width:32px;
+                text-align: center;
+                display: inline-block;
+                padding: 0;
+                margin: 0;
+                background-color: #2F2F2F;
+                font-weight:normal;
+            }
+            & img{
+                position: absolute;
+                cursor: pointer;
+                top:0;
+                left:0;
+                padding: 0;
+                margin: 0;
+            }
+
+            &[wz-mode="ignore"],&[wz-mode="hidden"]{
+                visibility: hidden;
+            }
+            &[wz-mode="inactive"]{
+                opacity:0.25;
+                cursor: default;
+            }
+            &[wz-mode="active"]{
+            }
+            &[wz-mode="current"]{
+                box-shadow:0 0 5px 5px #3F8F3F;
+            }
+            &[wz-mode="hasConnector"]{
+                box-shadow:0 0 5px 5px #4F4F9F;
+            }
+        }
+        .isCircular{
+            border-radius: 20px;
+        }
+        .transmuter{
+            border-color: #CF80CF;
+        }
+    }
+}
+#appGD_SideBar_ClassSelection{
+    ul{
+        list-style: none;
+        li{
+
+        }
+    }
+}
+
+#appGD_Selection{
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    //padding-top:20px;
+    .selectionBtn{
+        position: absolute;
+        top: 0;
+        background: transparent;
+        img{
+            position: relative;
+        }
+        span{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding-top: 15px;
+            //text-align: center;
+            &[draggable=true]{
+                //cursor: move;
+            }
+        }
+    }
+}
+#appGD_MasterySetup{
+    text-align: center;
+    .switch,.info{
+        display: block;
+        text-align: left;
+        vertical-align: top;
+        //border-width: 1px;
+    }
+    .content{
+        display: block;
+        text-align: left;
+    }
+}
+
+#wndGD_SkillProperties{
+    text-align: left;
+    .form,.right,.left,.propValues,.propLevels,.dataValues{ // .dataSelection
+        display: inline-block;
+        vertical-align: top;
+    }
+    .dataValues{
+        //max-width: 280px;
+        //overflow: auto;
+    }
+    .propValues{
+        height: 300px;
+        overflow: auto;
+    }
+    .right{
+        border-left-width:1px;
+    }
+}
