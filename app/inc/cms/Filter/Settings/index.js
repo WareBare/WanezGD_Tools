@@ -161,12 +161,13 @@ module.exports = {
         if(Super.IsPathCorrect()){
             outStr += this.MakeContentForLocaleManagement();
             outStr += `<br />`;
-            outStr += this.MakeContentForFilterManagement();
+            //outStr += this.MakeContentForFilterManagement();
         } 
 
         return outStr;
     },
 
+    // PROPERTIES - Groups
     PreviouslySelectedAndExistingGroupName: false,
     CurrentlySelectedGroupName: false,
     bGroupKeyIsUnique: true,
@@ -185,7 +186,7 @@ module.exports = {
     },
     OnChangeText_FilterGroup_Text: function(el){
         if(el.value !== ``){
-            
+            Super.ManageFilterStorage(`GroupData`, `${this.CurrentlySelectedGroupName.replace(/\./g, `\\.`)}.DisplayName`, el.value);
             //Super.ResetClassData(`GroupData`);
         }
 
@@ -293,16 +294,6 @@ module.exports = {
                 , ERROR_MSG: (this.bGroupKeyIsUnique) ? `` : `Key Must Be Unqiue!`
             });
 
-            // Group DisplayName Field.
-            if(!this.bGroupIsReadOnly && InGroupData[this.CurrentlySelectedGroupName]){
-                tempFormItemOutput += Super.tplContent.TextField.wzReplace({
-                    TEXT: InGroupData[this.CurrentlySelectedGroupName].DisplayName || `Name Required!`
-                    , ON_CHANGE_FN: `_cms.OnChangeText_FilterGroup_Text(this)`
-                    , LABEL: `Group Name`
-                    , SETTINGS: ` style="width: 300px;"`
-                    , ERROR_MSG: ``
-                });
-            }
             // Button output.
             tempFormItemOutput += `<br />`;
             tempFormItemOutput += appData.tpl.Buttons.Default.wzParseTPL(htmlButtons01);
@@ -322,15 +313,127 @@ module.exports = {
         return outStr;
     },
 
+    OnDropListItem_GroupArrangement: function(e){
+        e.preventDefault();
+        
+        try{
+            // Definitions
+            let SourceKey = e.dataTransfer.getData(`ListKey`).split(`.`)
+                , TargetKey = e.target.getAttribute(`wz-listKey`).split(`.`)
+                , ActionData = e.dataTransfer.getData(`ActionData`).split(`.`);
+            
+            // Logic
+            //Log(SourceKey);
+            //Log(TargetKey);
+            //Log(ActionData);
+            if(SourceKey[0] === TargetKey[0] && SourceKey[0] === ActionData[0]){
+                Log(`Is Ok!`);
+                // save to db
+            }
+            /*
+            if(TargetKey){
+                ListData[ActionData] = TargetKey;
+            }else{
+                delete ListData[ActionData];
+            }
+            this.Base.FilterData.set(`SetupData.ListGroups`, ListData);
+            */
+            // Reload Content.
+            //wzReloadCMS(10);
+        }catch(err){Log(err);}
+
+        wzReloadCMS(10);
+    },
+    Echo_GroupManagerBody: function(InGroupData){
+        let outStr = ``, tempFormItemOutput = ``;
+
+        
+        // OUT: Group DisplayName Field.
+        if(!this.bGroupIsReadOnly && InGroupData[this.CurrentlySelectedGroupName]){
+            tempFormItemOutput += Super.tplContent.TextField.wzReplace({
+                TEXT: InGroupData[this.CurrentlySelectedGroupName].DisplayName || `Name Required!`
+                , ON_CHANGE_FN: `_cms.OnChangeText_FilterGroup_Text(this)`
+                , LABEL: `Group Name`
+                , SETTINGS: ` style="width: 400px;"`
+                , ERROR_MSG: ``
+            });
+        }
+
+        tempFormItemOutput += Super.MakeColorPicker(`Default Color`, this.CurrentlySelectedGroupName, InGroupData[this.CurrentlySelectedGroupName].ColorCode);
+
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Basic Group Settings`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+
+        tempFormItemOutput = ``;
+        let groupDefs = Super.GetClassData(`Definitions`), curDefData, groupList, listItems;
+        for(let defKey in groupDefs){
+            groupList = [];
+            
+            // MAKE ASSIGNED
+            listItems = [];
+            if(InGroupData[this.CurrentlySelectedGroupName].Keywords[defKey]){
+                for(let i = 0; i <= InGroupData[this.CurrentlySelectedGroupName].Keywords[defKey].length - 1; i++){
+                    // groupDefs[defKey][i]
+                    listItems.push({
+                        Text: InGroupData[this.CurrentlySelectedGroupName].Keywords[defKey][i]
+                        , ActionData: `${defKey}.${InGroupData[this.CurrentlySelectedGroupName].Keywords[defKey][i]}`
+                    });
+                }
+            }
+            groupList.push({
+                Name: `${defKey}.Assigned`
+                , Text: `Assigned`
+                , Items: listItems
+            });
+
+            // MAKE UN-ASSIGNED
+            listItems = [];
+            for(let i = 0; i <= groupDefs[defKey].length - 1; i++){
+                // groupDefs[defKey][i]
+                if(InGroupData[this.CurrentlySelectedGroupName].Keywords[defKey] && InGroupData[this.CurrentlySelectedGroupName].Keywords[defKey].includes(groupDefs[defKey][i])){
+                    // if keyword is defined, nothing really happens, just makes the if easier due to having to check if the keyword is even set otherwise it throws an error.
+                }else{
+                    listItems.push({
+                        Text: groupDefs[defKey][i]
+                        , ActionData: `${defKey}.${groupDefs[defKey][i]}`
+                    });
+                }
+                
+            }
+            groupList.push({
+                Name: `${defKey}.NotAssigned`
+                , Text: `Not Assigned`
+                , Items: listItems
+            });
+            tempFormItemOutput += new WZ.Core.cDragDropList({
+                LegendName: `${defKey}`
+                , elementGroup: `${defKey}`
+                , OnDrop: `OnDropListItem_GroupArrangement`
+                , Lists: groupList
+                , SearchTerm: this.SearchTerm || ``
+            }).create_();
+        }
+        //tempFormItemOutput += Super.MakeDragnDropGroup();
+        
+
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Group Assignments`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+
+        return outStr;
+    },
+
     MakeContent_Groups: function(){
         let outStr = ``
             , GroupsData = Super.GetClassData(`GroupData`);
 
         outStr += this.Echo_GroupManagerHeader(GroupsData);
+        if(!this.bGroupIsReadOnly && GroupsData[this.CurrentlySelectedGroupName]) outStr += this.Echo_GroupManagerBody(GroupsData);
 
-        for(let groupKey in GroupsData){
-
-        }
+        //for(let groupKey in GroupsData){}
         
         return outStr;
     },
@@ -405,7 +508,7 @@ module.exports = {
 
         if(Super.IsPathCorrect()){
             AdditionalListButtons[`Basics`] = {
-                text: `Add Tag for Coloring`
+                text: `Manage Tags for Coloring`
             };
         }
         if(Super.IsPathCorrect()){

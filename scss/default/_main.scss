@@ -869,3 +869,119 @@ wztip{
         background: $gradientBTN-000c;
     }
 }
+
+.DragDropList{
+    //border-width: 2px;
+    text-align: center;
+
+    ::-webkit-scrollbar-track{
+        background-color: rgba(74, 74, 74, 0.9);
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background-color: rgba(27, 27, 27, 0.9);
+    }
+    fieldset{
+        text-align: left;
+        display: inline-block;
+        border-width: 1px;
+        margin:10px 5px 5px 5px;
+        padding:5px;
+        vertical-align: top;
+        legend{
+            font-size: 1.5em;
+            border-width: 1px;
+            margin-top:-19px;
+            margin-left:5px;
+            padding: 0 5px 0 5px;
+        }
+    }
+
+    .List{
+        text-align: left;
+        display: inline-block;
+        margin: 2px;
+        background-color: #8F8F8F;
+        width: 200px;
+        vertical-align: top;
+
+        .Header{
+            border-width: 1px;
+            background: $gradientLabel-001;
+        }
+        .Content{
+            color: $fontColor-002;
+            height: 150px;
+            overflow: auto;
+
+
+            .EntryField{
+                border-width: 1px;
+                background: $backgroundColor-001b;
+                color: $fontColor-000;
+                cursor: pointer;
+                &:HOVER{
+                    background: $backgroundColor-002;
+                }
+            }
+        }
+    }
+
+}
+
+div.WzToolTip{
+    position: absolute;
+    padding: 2px 5px 2px 5px;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(155, 155, 155, 0.5);
+    color: $ToolTip_Color01;
+    
+    background: $ToolTip_Gradient01;
+
+    &:AFTER{
+        content: '';
+        position: absolute;
+        
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        
+    }
+
+    &.top:AFTER, &.bottom:AFTER{
+        left: 50%;
+    }
+    &.top:AFTER{
+        bottom: 0;
+        margin-bottom: -10px;
+        margin-left: -10px;
+        border-bottom: 0;
+        border-top-color: $ToolTip_BGColor01b;
+    }
+    &.bottom:AFTER{
+        top: 0;
+        margin-top: -10px;
+        margin-left: -10px;
+        border-top: 0;
+        border-bottom-color: $ToolTip_BGColor01a;
+    }
+
+    &.right:AFTER, &.left:AFTER{
+        top: 50%;
+    }
+    &.right:AFTER{
+        left: 0;
+        margin-top: -10px;
+        margin-left: -10px;
+        border-left: 0;
+        border-right-color: $ToolTip_BGColor01c;
+    }
+    &.left:AFTER{
+        right: 0;
+        margin-top: -10px;
+        margin-right: -10px;
+        border-right: 0;
+        border-left-color: $ToolTip_BGColor01c;
+    }
+}

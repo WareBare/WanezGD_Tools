@@ -68,6 +68,7 @@ wzCMS = function($optCMS,$formData){
                     $contentParams = $contentParams || false;
                     contentEl.innerHTML = cms.content_($contentType,$contentParams) || headerTitle_;
                     //wzLoadingCMS(false);
+                    tipWZ.Init();
                 };
                 cms.Base.loadSideBar = function(){
                     sidebarEl.innerHTML = (cms.sidebar_) ? cms.sidebar_() : wzSideBarDefault(( (cms.sidebarBtns_) ? cms.sidebarBtns_() : false ), ( (cms.sidebarList_) ? cms.sidebarList_() : false ),( (cms.contentType) ? cms.contentType : false ),( (cms.tplSideBar) ? cms.tplSideBar : false ));
@@ -104,16 +105,16 @@ wzCMS = function($optCMS,$formData){
                 contentEl.innerHTML = cms.content_() || headerTitle_;
                 sidebarEl.innerHTML = (cms.sidebar_) ? cms.sidebar_() : wzSideBarDefault(( (cms.sidebarBtns_) ? cms.sidebarBtns_() : false ), ( (cms.sidebarList_) ? cms.sidebarList_() : false ),( (cms.contentType) ? cms.contentType : false ),( (cms.tplSideBar) ? cms.tplSideBar : false ));
                 //wzLoadingCMS(false);
+                //AddToolTips();
+                tipWZ.Init();
             }, 10);
             //headerLocEl.innerHTML = headerTitle_;
             //contentEl.innerHTML = cms.content_() || headerTitle_;
             //sidebarEl.innerHTML = (cms.sidebar_) ? cms.sidebar_() : wzSideBarDefault(( (cms.sidebarBtns_) ? cms.sidebarBtns_() : false ), ( (cms.sidebarList_) ? cms.sidebarList_() : false ),( (cms.contentType) ? cms.contentType : false ),( (cms.tplSideBar) ? cms.tplSideBar : false ));
         }
-        
     }catch(err){
         console.error(err);
     }
-    
 };
 wzSideBarDefault = function($btns_,$list_,$contentType,$tpl){
     $btns_ = appData.tpl.Buttons.Default.wzParseTPL($btns_) || ``;

@@ -1,7 +1,6 @@
 /**
  * Init() executed once (basically a constructor).
  * OnLoad() exectuted every time the page refreshes.
- * Discord: https://discord.gg/ru6eU2p
  */
 
 let SourceData
@@ -166,10 +165,12 @@ module.exports = {
         if(!ClassData[`TagInfoData`]) ClassData[`TagInfoData`] = this.MakeTagInfoData();
         if(!ClassData[`Definitions`]) ClassData[`Definitions`] = this.MakeDefinitions();
 
-        Log(ClassData[`Definitions`]);
+        //Log(ClassData[`Definitions`]);
 
         if(!ClassData[`LibraryData`]) ClassData[`LibraryData`] = this.MakeLibraryData();
         if(!ClassData[`GroupData`]) ClassData[`GroupData`] = this.MakeFilterGroupsData();
+
+        //AddToolTips();
     },
 
     MakeTagInfoData: function(){
@@ -221,9 +222,9 @@ module.exports = {
         let outHtml = ``
             , tempItemHtml = ``
             , tplContainer = `<label class="Default">{LABEL}<select wzType="ListBox" onChange="{ON_CHANGE_FN}" size="{SIZE}">{ITEMS}</select></label>`
-            , tplItem = `<option value="{VALUE}" title="{TOOL_TIP}"{B_CHECKED}>{TEXT}</option>`;
+            , tplItem = `<option data-wztip="{TOOL_TIP}" data-wztip-position="top" value="{VALUE}"{B_CHECKED}>{TEXT}</option>`;
 
-        //
+        // title="{TOOL_TIP}"
 
         tempItemHtml += ``;
         for(let optionIndex in InOptions){
@@ -359,6 +360,43 @@ module.exports = {
 
     AppendSourceData: function(InAppendableData){
 
+    },
+
+    OnChange_ColorPicker: function(el){
+        Log(`Name: ${el.name}`);
+        Log(`Value: ${el.value}`);
+    },
+
+    MakeColorPicker: function(InLabel, InGroupKey, InSelectedColorCode){
+        let ColorBox_,
+            ColorBoxItems_ = ``,
+            ColorCodeData = appData[`gd-colorcodes`],
+            tplColorBox = `<fieldset class="ColorPicker_Container"><legend>{LABEL}</legend><div class="ColorPicker">{BOX_ITEMS}</div></fieldset>`,
+            tplColorBoxItem = `<label title="{COLOR_NAME} ({COLOR_CODE})"><input onChange="Super.OnChange_ColorPicker(this)" value="{COLOR_CODE}" type="radio" name="${InGroupKey}"{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
+    
+        ColorBoxItems_ += ColorBoxItems_ += tplColorBoxItem.wzReplace({
+            COLOR_HEX: `background-color:transparent`,
+            COLOR_NAME: `Clear`,
+            COLOR_CODE: `Clear`,
+            B_IS_CHECKED: ` checked`
+        });
+        for(let kColorCode in ColorCodeData){
+            if(ColorCodeData[kColorCode]){
+                ColorBoxItems_ += tplColorBoxItem.wzReplace({
+                    COLOR_HEX: `background-color:#${ColorCodeData[kColorCode].Hex}`,
+                    COLOR_NAME: ColorCodeData[kColorCode].DisplayName,
+                    COLOR_CODE: kColorCode,
+                    B_IS_CHECKED: (kColorCode === InSelectedColorCode) ? ` checked` : ``
+                });
+            }
+        }
+    
+        ColorBox_ = tplColorBox.wzReplace({
+            LABEL: InLabel,
+            BOX_ITEMS: ColorBoxItems_
+        });
+        
+        return ColorBox_;
     },
 
     MakeGroupEditForm: function(){

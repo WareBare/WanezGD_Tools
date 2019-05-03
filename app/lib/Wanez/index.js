@@ -10,7 +10,8 @@
  */
 
 libWZ = {};
-
+tipWZ = require(`./ToolTip.js`);
+//tipWZ = new Wz_ToolTip();
 
 
 module.exports = {

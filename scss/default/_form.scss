@@ -13,7 +13,73 @@
 
     display: block;
 
+    .collapsibleBTN{
+        cursor: pointer;
+        display: inline-block;
+        border-width: 1px;
+        text-align: center;
+        height: 15px;
+        width: 15px;
+
+        &:HOVER{
+            background-color: #5FAF5F;
+            color: #000000;
+            border-color: #AFAFAF;
+        }
+    }
+
+    /*
+    .colorPicker{
+        background-color: #0D0D0F; // 353631
+        padding: 2px 5px 2px 5px;
+        label{
+            padding: 2px;
+            cursor: pointer;
+            border-width: 1px;
+            border-color: #5F5F5F;
+            margin-left: 1px;
+            margin-right: 1px;
+            span{
+                margin: 10px 0 0 0;
+                display: block;
+                height: 10px;
+                width: 15px;
+                border-color: #000000;
+            }
+            input[type="radio"]{
+                display: none;
+                border-color: #000000;
+            }
+            input[type="radio"]:CHECKED{
+                border-color: #FFFFFF;
+            }
+            input[type="radio"]:CHECKED + span{
+                border-color: #AFAFAF;
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+            &:HOVER > span{
+                margin-bottom: 10px;
+                margin-top: 0;
+            }
+        }
+    }
+
     
+    .colorPicker{
+        display: inline-block;
+        padding: 0;
+        background-color: #FFFFFF;
+        span{
+            display: inline-block;
+            height: 12px;
+            width: 12px;
+            margin: 1px;
+            border-width: 1px;
+            cursor: pointer;
+        }
+    }
+    */
     label.CheckBox{
         display: inline-block;
         padding: 10px;
@@ -94,14 +160,13 @@
             
             margin: 2px 0 0 -2px;
 
-            
-            
             box-shadow: 0 1px 1px rgba(15, 15, 15, 0.5), 0 1px 3px rgba(0,0,0,0.5);
         }
         select{
             background: $Label_Gradient01;
         }
         option{
+            display: block;
             margin: 0px 1px 0px 1px;
             border-width: 1px;
             padding-right: 15px;
@@ -155,6 +220,116 @@
     div.Align_H{
         display: inline-block;
         vertical-align: top;
+    }
+
+    
+    fieldset.ColorPicker_Container{
+        display: inline-block;
+        padding:2px;
+        margin:5px 2px 2px 2px;
+        //display: block;
+        legend{
+            font-size: 1em;
+            //padding: 1px 2px 1px 2px;
+            //margin: 5px 5px 5px 5px;
+            padding: 3px 3px 3px 5px;
+            
+            background: $Label_Gradient01;
+        }
+
+        div.ColorPicker{
+            background-color: #0D0D0F; // 353631
+            padding: 2px 5px 2px 5px;
+            display: inline-block;
+            //padding: 0;
+            //background-color: #FFFFFF;
+
+
+            label{
+                padding: 2px;
+                cursor: pointer;
+                border-width: 1px;
+                border-color: #5F5F5F;
+                
+                display: inline-block;
+                background: $gradientLabel-001;
+                vertical-align: top;
+                margin: 5px 5px 5px 5px;
+                padding: 3px 3px 3px 5px;
+                margin-left: 1px;
+                margin-right: 1px;
+
+                span{
+                    display: inline-block;
+                    height: 12px;
+                    width: 12px;
+                    margin: 1px;
+                    border-width: 1px;
+                    cursor: pointer;
+                    margin: 10px 0 0 0;
+                    display: block;
+                    height: 10px;
+                    width: 15px;
+                    border-color: #000000;
+                    padding: 2px 0 2px 0;
+                    margin-left: -2px;
+                
+                }
+                input[type="radio"]{
+                    display: none;
+                    border-color: #000000;
+                }
+                input[type="radio"]:CHECKED{
+                    border-color: #FFFFFF;
+                }
+                input[type="radio"]:CHECKED + span{
+                    border-color: #AFAFAF;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+                &:HOVER > span{
+                    margin-bottom: 10px;
+                    margin-top: 0;
+                }
+            }
+        }
+        /*
+        div{
+            background-color: #0D0D0F; // 353631
+            padding: 2px 5px 2px 5px;
+            label{
+                padding: 2px;
+                cursor: pointer;
+                border-width: 1px;
+                border-color: #5F5F5F;
+                margin-left: 1px;
+                margin-right: 1px;
+                span{
+                    margin: 10px 0 0 0;
+                    display: block;
+                    height: 10px;
+                    width: 15px;
+                    border-color: #000000;
+                }
+                input[type="radio"]{
+                    display: none;
+                    border-color: #000000;
+                }
+                input[type="radio"]:CHECKED{
+                    border-color: #FFFFFF;
+                }
+                input[type="radio"]:CHECKED + span{
+                    border-color: #AFAFAF;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+                &:HOVER > span{
+                    margin-bottom: 10px;
+                    margin-top: 0;
+                }
+            }
+        }
+        */
     }
 }
 

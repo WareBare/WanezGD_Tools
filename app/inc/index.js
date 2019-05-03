@@ -62,3 +62,4 @@ let keyDown = (e) => {
 
 document.addEventListener('keyup', keyUp, false);
 document.addEventListener('keydown', keyDown, false);
+

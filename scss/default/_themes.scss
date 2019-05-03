@@ -20,6 +20,7 @@ $backgroundColor-010: #603F2C;
 $fontColor-000: #AFAFAF;
 $fontColor-001: #B5A58A;
 $fontColor-001b: #C5B58B;
+$fontColor-002: #2F2F2F;
 
 $borderColor-ButtonHover: #555599;
 $borderColor-ButtonActive: #555599;
@@ -40,6 +41,18 @@ $gradientLabel-001: linear-gradient($backgroundColor-001b , $backgroundColor-000
 @if $theme != gd01{
 
 }
+
+// TOOLTIP \\
+// FONT
+$ToolTip_Color01: #AFAFAF;
+
+// BG
+$ToolTip_BGColor01a: #000000;
+$ToolTip_BGColor01b: #202020;
+$ToolTip_BGColor01c: #101010;
+
+// Gradient
+$ToolTip_Gradient01: linear-gradient($ToolTip_BGColor01a , $ToolTip_BGColor01b);
 
 
 // ERROR \\
