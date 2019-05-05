@@ -32,11 +32,14 @@ html{
     z-index: 1000;
 
     .loadingImage{
-        background-color: #000000;
+        //background-color: #000000;
+        background-color: #631111;
         position: absolute;
         right: 0;
         bottom: 0;
         left: 0;
+
+        //height: 50px;
     }
 }
 
@@ -983,5 +986,28 @@ div.WzToolTip{
         margin-right: -10px;
         border-right: 0;
         border-left-color: $ToolTip_BGColor01c;
+    }
+}
+
+table.TagsList{
+    border-width: 1px;
+    background: $Table_Gradient01;
+    color: $Table_Color01;
+
+    thead{
+        background: $Table_TopRow_Gradient01;
+        color: $Table_TopRow_Color01;
+        font-size: 1.5em;
+    }
+    tbody{
+        //font-size: 0.85em;
+        tr{
+            background: $Table_Rows_Gradient01;
+            color: $Table_Rows_Color01;
+        }
+        tr[wzrowtype="1"]{
+            background: $Table_Rows_Gradient02;
+            color: $Table_Rows_Color02;
+        }
     }
 }

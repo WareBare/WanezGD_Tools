@@ -71,10 +71,8 @@
   * Filter Groups
     * [x] Group Selection
     * [x] Create / Update / Delete Group
-    * [x] Edit Group Name/Default ColorCode [UI]
-      * [ ] Save Changes
-    * [x] Edit Group Data (Type, Classification, Group) [UI]
-      * [ ] Save Changes
+    * [x] Edit Group Name/Default ColorCode
+    * [x] Edit Group Data (Type, Classification, Group)
 * [ ] Library
   * [ ] New UI based on new "Grouping-System". (Keep the "Color Selection Boxes").
 

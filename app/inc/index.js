@@ -63,3 +63,10 @@ let keyDown = (e) => {
 document.addEventListener('keyup', keyUp, false);
 document.addEventListener('keydown', keyDown, false);
 
+WzSanitize = function(InText){
+    let outStr = InText;
+
+    outStr = outStr.replace(/(<|>|"|'|`|;)/g, ``);
+
+    return outStr;
+}

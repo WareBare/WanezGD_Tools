@@ -19,6 +19,7 @@ function createWindow () {
         backgroundColor: '#202020'
         //, useContentSize: true
         , webPreferences: {
+            //preload: path.join(app.getAppPath(), 'app/main.js')
             nodeIntegration: true
             , allowEval: false
             , contextIsolation: false

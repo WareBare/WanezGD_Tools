@@ -42,6 +42,34 @@ $gradientLabel-001: linear-gradient($backgroundColor-001b , $backgroundColor-000
 
 }
 
+
+// TABLE \\
+// FONT
+$Table_Color01: #AFAFAF;
+$Table_TopRow_Color01: #AFAFAF;
+$Table_Rows_Color01: #000000;
+$Table_Rows_Color02: #000000;
+
+// BG
+$Table_BGColor01a: #000000;
+$Table_BGColor01b: #202020;
+//$Table_BGColor01c: #101010;
+$Table_TopRow_BGColor01a: #5F5F5F;
+$Table_TopRow_BGColor01b: #6F6F6F;
+//$Table_TopRow_BGColor01c: #101010;
+$Table_Rows_BGColor01a: #AFAFDF;
+$Table_Rows_BGColor01b: #9F9FCF;
+//$Table_Rows_BGColor01c: #101010;
+$Table_Rows_BGColor02a: #AFAFDF;
+$Table_Rows_BGColor02b: #BFBFEF;
+//$Table_Rows_BGColor02c: #101010;
+
+// Gradient
+$Table_Gradient01: linear-gradient($Table_BGColor01a , $Table_BGColor01b);
+$Table_TopRow_Gradient01: linear-gradient($Table_TopRow_BGColor01a , $Table_TopRow_BGColor01b);
+$Table_Rows_Gradient01: linear-gradient($Table_Rows_BGColor01a , $Table_Rows_BGColor01b);
+$Table_Rows_Gradient02: linear-gradient($Table_Rows_BGColor02a , $Table_Rows_BGColor02b);
+
 // TOOLTIP \\
 // FONT
 $ToolTip_Color01: #AFAFAF;

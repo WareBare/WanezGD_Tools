@@ -182,7 +182,6 @@ wzLoadingCMS = function(bInStartLoading){
     }else{
         //console.log(`Finish Loading`);
         LoadingScreen = document.getElementById(`wzLoadingScreen`);
-        
         document.body.removeChild(LoadingScreen);
     }
 };

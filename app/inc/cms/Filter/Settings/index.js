@@ -215,7 +215,7 @@ module.exports = {
         wzReloadCMS(10);
     },
     Echo_GroupManagerHeader: function(InGroupData){
-        let outStr = `Header`, tempFormItemOutput = ``, groupOptions = [];
+        let outStr = ``, tempFormItemOutput = ``, groupOptions = [];
 
         /// DIV BLOCK 01
         // Select List for Group Edit
@@ -223,7 +223,7 @@ module.exports = {
             groupOptions.push({
                 TEXT: groupKey
                 , VALUE: groupKey
-                , TOOL_TIP: `Name: ${InGroupData[groupKey].DisplayName}\nDefault Color: ^${InGroupData[groupKey].ColorCode} (${appData[`gd-colorcodes`][InGroupData[groupKey].ColorCode].DisplayName})`
+                , TOOL_TIP: `Name: ${InGroupData[groupKey].DisplayName}\nDefault Color: ^${InGroupData[groupKey].ColorCode} ${(appData[`gd-colorcodes`][InGroupData[groupKey].ColorCode]) ? `(${appData[`gd-colorcodes`][InGroupData[groupKey].ColorCode].DisplayName})` : ``}`
                 , B_CHECKED: (this.CurrentlySelectedGroupName === groupKey) ? ` SELECTED` : ``
             });
         }
@@ -323,23 +323,17 @@ module.exports = {
                 , ActionData = e.dataTransfer.getData(`ActionData`).split(`.`);
             
             // Logic
-            //Log(SourceKey);
-            //Log(TargetKey);
-            //Log(ActionData);
-            if(SourceKey[0] === TargetKey[0] && SourceKey[0] === ActionData[0]){
-                Log(`Is Ok!`);
+            if(SourceKey[0] === TargetKey[0] && SourceKey[0] === ActionData[0] && ActionData[1]){
+                // SourceKey --> TargetKey | ActionData[1] string to save.
                 // save to db
+                if(SourceKey[1] === `Assigned` && TargetKey[1] === `NotAssigned`){
+                    // Remove from array.
+                    Super.ChangeAssignments(this.CurrentlySelectedGroupName, ActionData, true);
+                }else if(SourceKey[1] === `NotAssigned` && TargetKey[1] === `Assigned`){
+                    // Add to array.
+                    Super.ChangeAssignments(this.CurrentlySelectedGroupName, ActionData);
+                }
             }
-            /*
-            if(TargetKey){
-                ListData[ActionData] = TargetKey;
-            }else{
-                delete ListData[ActionData];
-            }
-            this.Base.FilterData.set(`SetupData.ListGroups`, ListData);
-            */
-            // Reload Content.
-            //wzReloadCMS(10);
         }catch(err){Log(err);}
 
         wzReloadCMS(10);
@@ -438,10 +432,127 @@ module.exports = {
         return outStr;
     },
 
-    MakeContent_Basics: function(){
-        let Output = `Basic Setup`;
+    TagsShowAdded: true,
+    TagsShowNew: false,
+    TagsRestrictedToItems: true,
 
-        return Output;
+    OnToggleCheckBox_TagsShow: function(el){
+        if(el.value === `TagsShowAdded`){
+            //this.TagsShowAdded = !this.TagsShowAdded;
+        }else if(el.value === `TagsShowNew`){
+            //this.TagsShowNew = !this.TagsShowNew;
+        }else if(el.value === `TagsRestrictedToItems`){
+            //this.TagsShowNew = !this.TagsRestrictedToItems;
+        }
+        this[el.value] = !this[el.value];
+        wzReloadCMS(10);
+    },
+
+    PerformTagShowCheck: function(){
+
+    },
+
+    MakeContent_Basics: function(){
+        let outStr = ``
+            , tempFormItemOutput = ``
+            , SourceData = Super.GetSourceData()
+            , TagData = Super.GetClassData(`TagInfoData`)
+            , tplContainer = `<table class="TagsList WzForm"><thead>{TOP_ROW}</thead><tbody>{CONTENTS}</tbody></table>`
+            , tplTableTopRow = `<tr><td>{TAG_KEY}</td><td>{TAG_VALUE}</td><td>{TYPE}</td><td>{CLASS}</td><td>{GROUP}</td></tr>`
+            , tplTableRow = `<tr wzrowtype="{COUNT}"><td>{TAG_KEY}</td><td>{TAG_VALUE}</td><td>{TYPE}</td><td>{CLASS}</td><td>{GROUP}</td></tr>`
+            , strRows = ``;
+
+        
+        tempFormItemOutput += Super.tplContent.CheckBox.wzReplace({
+            LABEL: `Added`
+            , ON_CLICK_FN: `_cms.OnToggleCheckBox_TagsShow(this)`
+            , VALUE: `TagsShowAdded`
+            , B_CHECKED: (this.TagsShowAdded) ? ` CHECKED` : ``
+            //, SETTINGS: ` style="width: 750px;"`
+            //, ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
+        });
+        tempFormItemOutput += Super.tplContent.CheckBox.wzReplace({
+            LABEL: `Not Added`
+            , ON_CLICK_FN: `_cms.OnToggleCheckBox_TagsShow(this)`
+            , VALUE: `TagsShowNew`
+            , B_CHECKED: (this.TagsShowNew) ? ` CHECKED` : ``
+            //, SETTINGS: ` style="width: 750px;"`
+            //, ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
+        });
+        tempFormItemOutput += Super.tplContent.CheckBox.wzReplace({
+            LABEL: `Only Item Tags`
+            , ON_CLICK_FN: `_cms.OnToggleCheckBox_TagsShow(this)`
+            , VALUE: `TagsRestrictedToItems`
+            , B_CHECKED: (this.TagsRestrictedToItems) ? ` CHECKED` : ``
+            //, SETTINGS: ` style="width: 750px;"`
+            //, ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
+        });
+        
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Show Tags - Settings`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+        Log(SourceData);
+        let RowCounter = 0;
+        // ---
+        for(let fileName in SourceData){
+            if(fileName.endsWith(`.txt`) && 
+                ( (this.TagsRestrictedToItems) ? fileName.includes(`items`) : true ) ){
+                for(let i = 0; i <= SourceData[fileName].length - 1; i++){
+                    if(SourceData[fileName][i].TagValue !== `` && SourceData[fileName][i].TagKey !== ``){
+                        if(TagData[SourceData[fileName][i].TagKey] && this.TagsShowAdded){
+                            strRows += tplTableRow.wzReplace({
+                                COUNT: RowCounter % 2
+                                , TAG_KEY: `${SourceData[fileName][i].TagKey}`
+                                , TAG_VALUE: SourceData[fileName][i].TagValue
+                                , TYPE: `${TagData[SourceData[fileName][i].TagKey].Type}`
+                                , CLASS: `${TagData[SourceData[fileName][i].TagKey].Classification}`
+                                , GROUP: `${TagData[SourceData[fileName][i].TagKey].Group}`
+                            });
+                            RowCounter++;
+                        }else if(!TagData[SourceData[fileName][i].TagKey] && this.TagsShowNew){
+                            strRows += tplTableRow.wzReplace({
+                                COUNT: RowCounter % 2
+                                , TAG_KEY: `${SourceData[fileName][i].TagKey}`
+                                , TAG_VALUE: SourceData[fileName][i].TagValue
+                                , TYPE: ``
+                                , CLASS: ``
+                                , GROUP: ``
+                            });
+                            RowCounter++;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        
+        /*
+        for(let tagKey in TagData){
+            strRows += tplTableRow.wzReplace({
+                TAG_KEY: tagKey
+                , TAG_VALUE: ``
+                , TYPE: ``
+                , CLASS: ``
+                , GROUP: ``
+                , MISC: ``
+            });
+        }
+        */
+
+        // ---
+        outStr += tplContainer.wzReplace({
+            TOP_ROW: tplTableRow.wzReplace({
+                TAG_KEY: `Tag`
+                , TAG_VALUE: `Name`
+                , TYPE: `Type`
+                , CLASS: `Class`
+                , GROUP: `Group`
+            })
+            , CONTENTS: strRows
+        });
+
+        return outStr;
     },
 
     MakeContent_DEV: function(){

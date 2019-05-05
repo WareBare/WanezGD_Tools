@@ -54,7 +54,7 @@ let RunArchiveTool = function(){
 let RunLocaleExtract = function(InZipFile){
     let zip = new JSZip();
 
-    Log(`Extract Locale: ${GrimDawnPath}/localization/${InZipFile}`);
+    //Log(`Extract Locale: ${GrimDawnPath}/localization/${InZipFile}`);
 
     fs.readFile(`${GrimDawnPath}/localization/${InZipFile}`, function(err, data) {
         if (err) throw err;
@@ -70,7 +70,7 @@ let RunLocaleExtract = function(InZipFile){
                     //Log(zip.files[fileName]);
                 }
             }
-            Log(SourceData);
+            //Log(SourceData);
             /*
             zip.file("language.def").async("string").then(function (data) {
                 let dataRows = data.split(`\n`), tempSplit, parsedData = {};
@@ -174,22 +174,20 @@ module.exports = {
     },
 
     MakeTagInfoData: function(){
-        Log(`Making Tag Data!`);
-        let OutTagData = appData[`gd-filter`].Tags;
+        let OutTagData = Object.assign({}, appData[`gd-filter`].Tags, FilterStorage[`TagInfoData`].store);
         
         return OutTagData;
     },
     MakeLibraryData: function(){
-        Log(`Making Library Data!`);
-        let OutLibraryData = appData[`gd-filter`].Library;
-        //Log(OutLibraryData);
+        //Log(`Making Library Data!`);
+        let OutLibraryData = Object.assign({}, appData[`gd-filter`].Library, FilterStorage[`LibraryData`].store);
 
         return OutLibraryData;
     },
     MakeFilterGroupsData: function(){
-        Log(`Making Filter Groups Data!`);
+        //Log(`Making Filter Groups Data!`);
         let OutGroupsData = Object.assign({}, appData[`gd-filter`].FilterGroups, FilterStorage[`GroupData`].store);
-        Log(OutGroupsData);
+        //Log(OutGroupsData);
 
         return OutGroupsData;
     },
@@ -236,6 +234,13 @@ module.exports = {
         }, InSettings));
 
         return outHtml;
+    },
+    MakeForm_ComboBox: function(InSettings, InOptions){
+        let outHTML = ``
+            , tplContainer = `<label class="Default">{LABEL}<select wzType="ListBox" onChange="{ON_CHANGE_FN}">{ITEMS}</select></label>`
+            , tplItem = `<option data-wztip="{TOOL_TIP}" data-wztip-position="top" value="{VALUE}"{B_CHECKED}>{TEXT}</option>`;
+
+        return outHTML;
     },
 
     MakeLocaleDefs: function(InLocaleZips){
@@ -306,12 +311,62 @@ module.exports = {
         this.OnLoad();
     },
 
+    UpdateColorCodeAssignment: function(){
+
+    },
+    ChangeAssignments: function(InKey, InDataToSave, bInRemoval = false){
+        let bOutSuccess = false, curData;
+
+        // ---
+        if(Array.isArray(InDataToSave)){
+            // GroupData
+            InKey = InKey.replace(/\./g, `\\.`);
+            //Log(`GroupKey: ${InKey}`);
+            //Log(`AssignmentKey: ${InDataToSave[0]}`);
+            //Log(`AssignmentValue: ${InDataToSave[1]}`);
+            let curData = FilterStorage.GroupData.get(`${InKey}.Keywords.${InDataToSave[0]}`) || [];
+            if(bInRemoval){
+                let newData = [];
+                for(let i = 0; i <= curData.length - 1; i++){
+                    if(curData[i] !== InDataToSave[1]) newData.push(curData[i]);
+                }
+                FilterStorage.GroupData.set(`${InKey}.Keywords.${InDataToSave[0]}`, newData);
+            }else{
+                curData.push(InDataToSave[1]);
+                //Log(curData);
+                //Log(newData);
+                FilterStorage.GroupData.set(`${InKey}.Keywords.${InDataToSave[0]}`, curData);
+            }
+            this.ResetClassData(`GroupData`);
+        }else{
+            // TagInfoData
+        }
+
+        return bOutSuccess;
+    },
+
     GatherTagFiles: function(){
-        
+        let ignoreFiles = [
+            "tags_achievements.txt"
+            , "tags_creatures.txt"
+            , "tags_skills.txt"
+            , "tags_storyelements.txt"
+            , "tags_tutorial.txt"
+            , "tagsgdx1_achievements.txt"
+            , "tagsgdx1_creatures.txt"
+            , "tagsgdx1_skills.txt"
+            , "tagsgdx1_storyelements.txt"
+            , "tagsgdx1_tutorial.txt"
+            , "tagsgdx2_achievements.txt"
+            , "tagsgdx2_creatures.txt"
+            , "tagsgdx2_skills.txt"
+            , "tagsgdx2_storyelements.txt"
+            , "tagsgdx2_tutorial.txt"
+        ]
         
         fs.readdir(`${dirUserData}\\resources\\text_en`, function(err, InFiles){
             for(let fileIndex in InFiles){
-                if(InFiles[fileIndex].endsWith(`.txt`)){
+                if(InFiles[fileIndex].endsWith(`.txt`)){ //  && !ignoreFiles.includes(InFiles[fileIndex])
                     //Log(InFiles[fileIndex]);
                     try{
                         Super.ParseTagText(fs.readFileSync(`${dirUserData}\\resources\\text_en\\${InFiles[fileIndex]}`, 'utf-8'), SourceData, `${dirUserData}\\resources\\text_en\\${InFiles[fileIndex]}`);
@@ -358,21 +413,33 @@ module.exports = {
         }catch(err){ Log(err); }
     },
 
-    AppendSourceData: function(InAppendableData){
+    OnChange_ColorPicker: function(el, bInDefaultColor){
+        let groupKey = el.name.replace(/\./g, `\\.`)
+            , colorCode = el.value;
+        
+        if(bInDefaultColor){
+            // default group colorCode
+            FilterStorage.GroupData.set(`${groupKey}.ColorCode`, colorCode);
+            this.ResetClassData(`GroupData`);
 
+            wzReloadCMS(10);
+        }else{
+            // library color change (for group)
+        }
     },
 
-    OnChange_ColorPicker: function(el){
-        Log(`Name: ${el.name}`);
-        Log(`Value: ${el.value}`);
-    },
-
+    /**
+     * Makes ColorPicker like the one in previous versions.
+     * @param {string} InLabel Used in legend to give picker a name (also used to save color as grp default).
+     * @param {string} InGroupKey Group Key (need escaping for dots).
+     * @param {string} InSelectedColorCode currently selected color code.
+     */
     MakeColorPicker: function(InLabel, InGroupKey, InSelectedColorCode){
         let ColorBox_,
             ColorBoxItems_ = ``,
             ColorCodeData = appData[`gd-colorcodes`],
             tplColorBox = `<fieldset class="ColorPicker_Container"><legend>{LABEL}</legend><div class="ColorPicker">{BOX_ITEMS}</div></fieldset>`,
-            tplColorBoxItem = `<label title="{COLOR_NAME} ({COLOR_CODE})"><input onChange="Super.OnChange_ColorPicker(this)" value="{COLOR_CODE}" type="radio" name="${InGroupKey}"{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
+            tplColorBoxItem = `<label title="{COLOR_NAME} ({COLOR_CODE})"><input onChange="Super.OnChange_ColorPicker(this, ${InLabel === `Default Color`})" value="{COLOR_CODE}" type="radio" name="${InGroupKey}"{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
     
         ColorBoxItems_ += ColorBoxItems_ += tplColorBoxItem.wzReplace({
             COLOR_HEX: `background-color:transparent`,
@@ -397,10 +464,6 @@ module.exports = {
         });
         
         return ColorBox_;
-    },
-
-    MakeGroupEditForm: function(){
-
     },
 
     MakeData: function(InFileName, OutData){
