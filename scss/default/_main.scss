@@ -989,10 +989,29 @@ div.WzToolTip{
     }
 }
 
+div.PageButtons{
+    display: block;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 2px 2px 2px;
+
+    span.PageButton{
+        cursor: pointer;
+        border-width: 1px;
+        display: inline-block;
+        background: $Table_TopRow_Gradient01;
+        color: $Table_Color01;
+    
+        padding: 2px 5px 2px 5px;
+        margin: 0 2px 0 2px;
+    }
+}
+
 table.TagsList{
     border-width: 1px;
     background: $Table_Gradient01;
     color: $Table_Color01;
+    text-align: center;
+    min-width: 90%;
 
     thead{
         background: $Table_TopRow_Gradient01;
@@ -1011,3 +1030,5 @@ table.TagsList{
         }
     }
 }
+
+

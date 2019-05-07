@@ -47,10 +47,13 @@ A small program to add colors to item Nameplates on the ground and Tooltips. The
 
 # Customizations
 
-## Coloring Groups
+## Coloring Groups (optional feature)
+
+*Everything is based on them, libraries are using groups to determine the colors for each Tag. Instead of adding each Tag to a particular group they have Keywords which determine to which group they belong.*
 
 * You will have full access to groups, this may seem daunting at first, but it is as flexible as it gets.
-* It is possible to make a group to assign certain Tags to you are looking for. You could remove colors for all other Tags and only keep them for your selected Tags.
+  * Groups could be used to make a certain tags use a color.
+    * You are looking for a certain Affix, simply make a group for it and change which group that affix should go to.
 * You may access this feature in "Settings" by selecting "Manage Coloring Groups" on the right.
 * Quick Summary of what's going on:
   * **Select a group to Edit**: you may change this group's Key, create a copy based on the selected group or delete it.

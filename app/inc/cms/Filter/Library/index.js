@@ -10,20 +10,99 @@ module.exports = {
     Forms: {},
     tplContent: {},
     
+    Content_Manager: function(InLibraryData, InGroupData){
+        let outStr = ``;
+
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Creation`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+
+        return outStr;
+    },
+
+    Content_Header: function(InLibraryData, InGroupData){
+        let outStr = ``
+            , tempFormItemOutput = ``;
+
+        if(InLibraryData.bReadOnly){
+            // Read Only
+            tempFormItemOutput += `<span class="Msg_Warn">This entry is ReadOnly, you cannot change its settings, but you can make a new one based on it.</span><br />`;
+        }else{
+            // Writable
+        }
+        
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Manage Library Entry`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+
+        return outStr;
+    },
+
+    Content_ColorPicker: function(InLibraryData, InGroupData){
+        let outStr = ``
+            , outByTypes = {}
+            , tempFormItemOutput = ``
+            , tempFormItemOutput2 = ``
+            , curGroupInfo;
+        
+        if(InLibraryData.bReadOnly){
+            tempFormItemOutput += `<span class="Msg_Warn">This entry is ReadOnly, you may view its colors, but not change them, you are able to clone this library entry and change it then.</span><br />`;
+        }
+
+        for(let i = 0; i <= InLibraryData.Data.length - 1; i++){
+            // --- InLibraryData.Data[i].ColorCode
+            curGroupInfo = Object.assign({}, InGroupData[InLibraryData.Data[i].GroupName]);
+            if(InLibraryData.Data[i].ColorCode) curGroupInfo.ColorCode = InLibraryData.Data[i].ColorCode;
+
+            outByTypes[curGroupInfo.Keywords.Type[0]] = outByTypes[curGroupInfo.Keywords.Type[0]] || [];
+            outByTypes[curGroupInfo.Keywords.Type[0]].push(Super.MakeColorPicker(curGroupInfo.DisplayName, InLibraryData.Data[i].GroupName, curGroupInfo.ColorCode));
+        }
+
+        for(let keywordKey in outByTypes){
+            tempFormItemOutput2 = ``;
+            for(let i = 0; i <= outByTypes[keywordKey].length - 1; i++){
+                // outByTypes[keywordKey][i]
+                tempFormItemOutput2 += outByTypes[keywordKey][i];
+            }
+            tempFormItemOutput += Super.tplContent.CollapsibleContainer.wzReplace({
+                TITLE: keywordKey
+                , CONTENTS: tempFormItemOutput2
+            });
+        }
+
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Color per Group`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+
+        return outStr;
+    },
     
     content_: function(InContentType){
-        let Output = ``
+        let outStr = ``
             //, CurrentContentType = this.contentType
-            , LibraryData;
+            , LibraryData
+            , groupData = Super.GetClassData(`GroupData`);
         
         if(InContentType !== this.contentType && this.contentType !== `undefined`){
-            //Log(`Content Changed!`);
-            Super.ResetClassData(`TagInfoData`);
+            // Reset TagInfo when different Library is loaded, as it may change it.
+            //Super.ResetClassData(`TagInfoData`);
         }
         Super.ReadData(LibraryData = {}, `LibraryData`, 0);
         this.contentType = InContentType || this.contentType || LibraryData.PackageName;
+        //Log(LibraryData);
 
+        outStr += this.Content_Header(LibraryData, groupData);
+        if(!LibraryData.bReadOnly){
 
+        }else{
+            
+            outStr += this.Content_ColorPicker(LibraryData, groupData);
+        }
+        
+        /*
         let tempData = Super.GetSourceData();
         if(Object.keys(tempData).length){
             Log(tempData);
@@ -33,8 +112,9 @@ module.exports = {
         if(Super.ReadData(LibraryData = {}, `LibraryData`, `PackageName`, `${this.contentType}`)){
             Log(LibraryData);
         }
+        */
 
-        return Output;
+        return outStr;
     },
     
     FindAndUpdateSourceEntry: function(OutSourceData, InFileName, InKeyToFind, InValueReplace){

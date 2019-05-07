@@ -435,6 +435,9 @@ module.exports = {
     TagsShowAdded: true,
     TagsShowNew: false,
     TagsRestrictedToItems: true,
+    CurrentTagPage: 1,
+    EntriesPerPage: 50,
+    MaxPageCount: 0,
 
     OnToggleCheckBox_TagsShow: function(el){
         if(el.value === `TagsShowAdded`){
@@ -445,16 +448,51 @@ module.exports = {
             //this.TagsShowNew = !this.TagsRestrictedToItems;
         }
         this[el.value] = !this[el.value];
+        Super.ResetClassData(`TagInfoData`);
         wzReloadCMS(10);
     },
 
-    PerformTagShowCheck: function(){
+    OnChange_TagsListComboBox: function(el){
+        if(el.value !== ``){
+            Super.UpdateTagInfo(el.name, el.value);
+        }else{
+            let splitName = el.name.split(`.`);
+            if(splitName[1] === `Type`){
+                Super.DeleteTagInfo(splitName[0]);
+                wzReloadCMS(10);
+            }else{
+                Super.DeleteTagInfo(el.name);
+            }
+        }
+        
+    },
 
+    OnClick_ChangeTagPage: function(InType){
+        if(InType === `+`){
+            this.CurrentTagPage++;
+        }else if(InType === `-`){
+            this.CurrentTagPage--;
+        }else{
+            InType = parseInt(InType.value);
+            if(InType > 0 && InType <= this.MaxPageCount){
+                this.CurrentTagPage = InType;
+            }
+        }
+        wzReloadCMS(10);
+    },
+
+    CurrentTagFilter: ``,
+    OnChangeText_FilterTags: function(el){
+        // el.value
+        this.CurrentTagFilter = el.value;
+
+        wzReloadCMS(10);
     },
 
     MakeContent_Basics: function(){
         let outStr = ``
             , tempFormItemOutput = ``
+            , Definitions = Super.GetClassData(`Definitions`)
             , SourceData = Super.GetSourceData()
             , TagData = Super.GetClassData(`TagInfoData`)
             , tplContainer = `<table class="TagsList WzForm"><thead>{TOP_ROW}</thead><tbody>{CONTENTS}</tbody></table>`
@@ -493,40 +531,101 @@ module.exports = {
             , CONTENTS: `${tempFormItemOutput}`
         });
         Log(SourceData);
-        let RowCounter = 0;
+        let RowCounter = 1;
         // ---
         for(let fileName in SourceData){
             if(fileName.endsWith(`.txt`) && 
                 ( (this.TagsRestrictedToItems) ? fileName.includes(`items`) : true ) ){
                 for(let i = 0; i <= SourceData[fileName].length - 1; i++){
-                    if(SourceData[fileName][i].TagValue !== `` && SourceData[fileName][i].TagKey !== ``){
-                        if(TagData[SourceData[fileName][i].TagKey] && this.TagsShowAdded){
-                            strRows += tplTableRow.wzReplace({
-                                COUNT: RowCounter % 2
-                                , TAG_KEY: `${SourceData[fileName][i].TagKey}`
-                                , TAG_VALUE: SourceData[fileName][i].TagValue
-                                , TYPE: `${TagData[SourceData[fileName][i].TagKey].Type}`
-                                , CLASS: `${TagData[SourceData[fileName][i].TagKey].Classification}`
-                                , GROUP: `${TagData[SourceData[fileName][i].TagKey].Group}`
-                            });
-                            RowCounter++;
-                        }else if(!TagData[SourceData[fileName][i].TagKey] && this.TagsShowNew){
-                            strRows += tplTableRow.wzReplace({
-                                COUNT: RowCounter % 2
-                                , TAG_KEY: `${SourceData[fileName][i].TagKey}`
-                                , TAG_VALUE: SourceData[fileName][i].TagValue
-                                , TYPE: ``
-                                , CLASS: ``
-                                , GROUP: ``
-                            });
-                            RowCounter++;
+                    // See if source data is set (has Key && Value)
+                    if(SourceData[fileName][i].TagValue !== `` && SourceData[fileName][i].TagKey !== `` && typeof SourceData[fileName][i].TagValue !== `undefined` && typeof SourceData[fileName][i].TagKey !== `undefined`){
+                        // FILTER CHECK for ENTRIES
+                        if( 
+                            ( (this.CurrentTagFilter !== ``) ? (SourceData[fileName][i].TagValue).toLowerCase().includes(this.CurrentTagFilter.toLowerCase()) : true) || 
+                            ( (this.CurrentTagFilter !== ``) ? (SourceData[fileName][i].TagKey).toLowerCase().includes(this.CurrentTagFilter.toLowerCase()) : true) ){
+                            // ADDED CHECK
+                            if(TagData[SourceData[fileName][i].TagKey] && this.TagsShowAdded){
+                                //if(SourceData[fileName][i].TagKey === `tagItemNameAndStack`){ Log(`ok`); }
+                                if(this.CurrentTagPage === Math.ceil(RowCounter / this.EntriesPerPage)){
+                                    strRows += tplTableRow.wzReplace({
+                                        COUNT: RowCounter % 2
+                                        , TAG_KEY: `${SourceData[fileName][i].TagKey}`
+                                        , TAG_VALUE: SourceData[fileName][i].TagValue
+                                        , TYPE: `${Super.MakeForm_ComboBox({
+                                            onChangePtr: `_cms.OnChange_TagsListComboBox(this);`
+                                            , CheckedValue: TagData[SourceData[fileName][i].TagKey].Type
+                                            , bUseTextAsValue: true
+                                            , setName: `${SourceData[fileName][i].TagKey}.Type`
+                                        }, Definitions.Type)}`
+                                        , CLASS: `${Super.MakeForm_ComboBox({
+                                            onChangePtr: `_cms.OnChange_TagsListComboBox(this);`
+                                            , CheckedValue: TagData[SourceData[fileName][i].TagKey].Classification
+                                            , bUseTextAsValue: true
+                                            , setName: `${SourceData[fileName][i].TagKey}.Classification`
+                                        }, Definitions.Classification)}`
+                                        , GROUP: `${Super.MakeForm_ComboBox({
+                                            onChangePtr: `_cms.OnChange_TagsListComboBox(this);`
+                                            , CheckedValue: TagData[SourceData[fileName][i].TagKey].Group
+                                            , bUseTextAsValue: true
+                                            , setName: `${SourceData[fileName][i].TagKey}.Group`
+                                        }, Definitions.Group)}`
+                                    });
+                                }
+                                
+                                RowCounter++;
+                            }
+                            // NOT ADDED CHECK
+                            else if(!TagData[SourceData[fileName][i].TagKey] && this.TagsShowNew && typeof SourceData[fileName][i].TagKey !== `undefined`){
+                                if(this.CurrentTagPage === Math.ceil(RowCounter / this.EntriesPerPage)){
+                                    strRows += tplTableRow.wzReplace({
+                                        COUNT: RowCounter % 2
+                                        , TAG_KEY: `${SourceData[fileName][i].TagKey}`
+                                        , TAG_VALUE: SourceData[fileName][i].TagValue
+                                        , TYPE: `${Super.MakeForm_ComboBox({
+                                            onChangePtr: `_cms.OnChange_TagsListComboBox(this);`
+                                            , CheckedValue: ``
+                                            , bUseTextAsValue: true
+                                            , setName: `${SourceData[fileName][i].TagKey}.Type`
+                                        }, Definitions.Type)}`
+                                        , CLASS: `${Super.MakeForm_ComboBox({
+                                            onChangePtr: `_cms.OnChange_TagsListComboBox(this);`
+                                            , CheckedValue: ``
+                                            , bUseTextAsValue: true
+                                            , setName: `${SourceData[fileName][i].TagKey}.Classification`
+                                        }, Definitions.Classification)}`
+                                        , GROUP: `${Super.MakeForm_ComboBox({
+                                            onChangePtr: `_cms.OnChange_TagsListComboBox(this);`
+                                            , CheckedValue: ``
+                                            , bUseTextAsValue: true
+                                            , setName: `${SourceData[fileName][i].TagKey}.Group`
+                                        }, Definitions.Group)}`
+                                    });
+                                }
+                                
+                                RowCounter++;
+                            }
                         }
-                        
                     }
                 }
             }
         }
-        
+        this.MaxPageCount = Math.ceil(RowCounter / this.EntriesPerPage);
+
+        tempFormItemOutput = ``;
+        tempFormItemOutput += Super.tplContent.TextField.wzReplace({
+            TEXT: `${this.CurrentTagFilter}`
+            , ON_CHANGE_FN: `_cms.OnChangeText_FilterTags(this)`
+            , LABEL: `Filter Entries by Name/Tag`
+            , ERROR_MSG: ``
+        });
+
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Search & Filter`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+
+        outStr += `<div class="PageButtons">${(this.CurrentTagPage > 1) ? `<span class="PageButton" onClick="_cms.OnClick_ChangeTagPage('-')"><</span>` : ``} <input type="text" value="${this.CurrentTagPage}" onChange="_cms.OnClick_ChangeTagPage(this)" style="width: 20px;" /> / ${this.MaxPageCount} ${(this.CurrentTagPage < this.MaxPageCount) ? `<span class="PageButton" onClick="_cms.OnClick_ChangeTagPage('+')">></span>` : ``}</div>`;
+
         /*
         for(let tagKey in TagData){
             strRows += tplTableRow.wzReplace({

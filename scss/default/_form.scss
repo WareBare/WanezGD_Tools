@@ -13,21 +13,6 @@
 
     display: block;
 
-    .collapsibleBTN{
-        cursor: pointer;
-        display: inline-block;
-        border-width: 1px;
-        text-align: center;
-        height: 15px;
-        width: 15px;
-
-        &:HOVER{
-            background-color: #5FAF5F;
-            color: #000000;
-            border-color: #AFAFAF;
-        }
-    }
-
     /*
     .colorPicker{
         background-color: #0D0D0F; // 353631
@@ -330,6 +315,35 @@
             }
         }
         */
+    }
+    fieldset.Collapsible{
+        display: block;
+        margin: 5px 5px 5px 5px;
+        legend{
+            font-size: 1em;
+            //padding: 1px 2px 1px 2px;
+            //margin: 5px 5px 5px 5px;
+            padding: 3px 3px 3px 5px;
+            
+            //background: $Label_Gradient01;
+    
+            .CollapsibleBTN{
+                cursor: pointer;
+                display: inline-block;
+                border-width: 1px;
+                text-align: center;
+                height: 15px;
+                width: 15px;
+        
+                &:HOVER{
+                    background-color: #5FAF5F;
+                    color: #000000;
+                    border-color: #AFAFAF;
+                }
+            }
+        }
+    
+        
     }
 }
 

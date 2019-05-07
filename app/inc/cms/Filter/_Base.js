@@ -106,12 +106,26 @@ let RunLocaleExtract = function(InZipFile){
 
 
 module.exports = {
+    OnClick_CollapsibleBTN: function(el){
+        let collapsibleContentsElement = el.parentNode.parentNode.childNodes[1];
+        
+        if(collapsibleContentsElement.style.display === `none`){
+            collapsibleContentsElement.style.display = `block`;
+            el.innerHTML = `-`;
+        }else{
+            collapsibleContentsElement.style.display = `none`;
+            el.innerHTML = `+`;
+        }
+    },
+
+
     tplContent: {
         FormContainer: `<div id="WzForm"><fieldset><legend>{TITLE}</legend>{CONTENTS}</fieldset></div>`
         , TextField: `<label class="Default">{LABEL}<msg class="ErrorMsg">{ERROR_MSG}</msg><input type="text" value="{TEXT}" onChange="{ON_CHANGE_FN};" {SETTINGS} /></label>`
         , CheckBox: `<label class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
+        , CollapsibleContainer: `<fieldset class="Collapsible"><legend><span class="CollapsibleBTN" onClick="Super.OnClick_CollapsibleBTN(this);">+</span> {TITLE}</legend><div class="CollapsibleContents" style="display: none;">{CONTENTS}</div></fieldset>`
     },
-    
+
     GrimDawnPath: false,
     Paths: false,
 
@@ -180,9 +194,16 @@ module.exports = {
     },
     MakeLibraryData: function(){
         //Log(`Making Library Data!`);
-        let OutLibraryData = Object.assign({}, appData[`gd-filter`].Library, FilterStorage[`LibraryData`].store);
+        let outLibraryData = appData[`gd-filter`].Library
+            , LibraryStore = FilterStorage[`LibraryData`].get(`Library`);
 
-        return OutLibraryData;
+        if(LibraryStore && LibraryStore.length){
+            for(let i = 0; i <= LibraryStore.length -1; i++){
+                if(!outLibraryData.includes( LibData => LibData.PackageName === `${LibraryStore[i].PackageName}`)) outLibraryData.push(LibraryStore[i]);
+            }
+        }
+
+        return outLibraryData;
     },
     MakeFilterGroupsData: function(){
         //Log(`Making Filter Groups Data!`);
@@ -236,11 +257,44 @@ module.exports = {
         return outHtml;
     },
     MakeForm_ComboBox: function(InSettings, InOptions){
-        let outHTML = ``
-            , tplContainer = `<label class="Default">{LABEL}<select wzType="ListBox" onChange="{ON_CHANGE_FN}">{ITEMS}</select></label>`
-            , tplItem = `<option data-wztip="{TOOL_TIP}" data-wztip-position="top" value="{VALUE}"{B_CHECKED}>{TEXT}</option>`;
+        InSettings = Object.assign({
+            // ---
+            onChangePtr: ``
+            , CheckedValue: ``
+            , bUseTextAsValue: false
+            , setName: ``
+        }, InSettings);
 
-        return outHTML;
+        let outHtml = ``
+            , tempItemHtml = ``
+            , tplContainer = `<select wzType="ListBox" name="{NAME}" onChange="{ON_CHANGE_FN}">{ITEMS}</select>`
+            , tplItem = `<option value="{VALUE}"{B_CHECKED}>{TEXT}</option>`;
+
+        tempItemHtml += tplItem.wzReplace({
+            VALUE: ``
+            , TEXT: ``
+            , B_CHECKED: (InSettings.CheckedValue === ``) ? ` SELECTED` : ``
+        });
+        for(let i = 0; i <= InOptions.length -1; i++){
+            tempItemHtml += tplItem.wzReplace({
+                VALUE: (InSettings.bUseTextAsValue) ? InOptions[i] : i
+                , TEXT: InOptions[i]
+                , B_CHECKED: (( (InSettings.bUseTextAsValue) ? InOptions[i] : i) === InSettings.CheckedValue) ? ` SELECTED` : ``
+            });
+        }
+
+        outHtml += tplContainer.wzReplace({
+            ITEMS: tempItemHtml
+            , ON_CHANGE_FN: InSettings.onChangePtr
+            , NAME: InSettings.setName
+        });
+
+        return outHtml;
+    },
+
+    UpdateTagInfo: function(InKey, InValue){ FilterStorage[`TagInfoData`].set(InKey, InValue); this.ResetClassData(`TagInfoData`); },
+    DeleteTagInfo: function(InKey){
+        FilterStorage[`TagInfoData`].delete(InKey); this.ResetClassData(`TagInfoData`);
     },
 
     MakeLocaleDefs: function(InLocaleZips){
@@ -439,7 +493,7 @@ module.exports = {
             ColorBoxItems_ = ``,
             ColorCodeData = appData[`gd-colorcodes`],
             tplColorBox = `<fieldset class="ColorPicker_Container"><legend>{LABEL}</legend><div class="ColorPicker">{BOX_ITEMS}</div></fieldset>`,
-            tplColorBoxItem = `<label title="{COLOR_NAME} ({COLOR_CODE})"><input onChange="Super.OnChange_ColorPicker(this, ${InLabel === `Default Color`})" value="{COLOR_CODE}" type="radio" name="${InGroupKey}"{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
+            tplColorBoxItem = `<label title="{COLOR_NAME} ({COLOR_CODE})"><input onChange="Super.OnChange_ColorPicker(this, ${InLabel === `Default Color`})" value="{COLOR_CODE}" type="radio" name="${InGroupKey}" DISABLED{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
     
         ColorBoxItems_ += ColorBoxItems_ += tplColorBoxItem.wzReplace({
             COLOR_HEX: `background-color:transparent`,

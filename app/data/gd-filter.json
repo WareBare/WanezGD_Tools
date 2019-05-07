@@ -11574,12 +11574,43 @@
             , "bReadOnly": true
             , "Data": [
                 {
-                    "GroupName": "Item.Common"
-                    , "ColorCode": "d"
+                    "GroupName": "Core.Item.Common"
                 } , {
-                    "GroupName": "Item.Magical"
+                    "GroupName": "Core.Item.Magical"
                 } , {
-                    "GroupName": "Item.Rare"
+                    "GroupName": "Core.Item.Rare"
+                } , {
+                    "GroupName": "Core.Item.Epic"
+                } , {
+                    "GroupName": "Core.Item.Legendary"
+                } , {
+                    "GroupName": "Core.MI.Rare"
+                } , {
+                    "GroupName": "Core.MI.Epic"
+                } , {
+                    "GroupName": "Core.MI.Legendary"
+                } , {
+                    "GroupName": "Core.Property.Cold"
+                } , {
+                    "GroupName": "Core.Property.Fire"
+                } , {
+                    "GroupName": "Core.Property.Lightning"
+                } , {
+                    "GroupName": "Core.Property.Aether"
+                } , {
+                    "GroupName": "Core.Property.Chaos"
+                } , {
+                    "GroupName": "Core.Property.Acid"
+                } , {
+                    "GroupName": "Core.Property.Vitality"
+                } , {
+                    "GroupName": "Core.Property.Physical"
+                } , {
+                    "GroupName": "Core.Property.Pierce"
+                } , {
+                    "GroupName": "Core.Property.Attribute"
+                } , {
+                    "GroupName": "Core.Property.Misc"
                 }
             ]
         } , {
@@ -11771,7 +11802,7 @@
             }
         }
         , "Core.Property.Attribute": {
-            "DisplayName": "Attributes"
+            "DisplayName": "Attribute Properties"
             , "ColorCode": "f"
             , "bReadOnly": true
             , "Keywords": {
