@@ -16,11 +16,11 @@
   * [x] Parse files and prepare for editing.
   * [x] Edit Parsed Data. (Using information from Library)
   * [x] Save Edited Data (Only those that have been changed).
-* [ ] Translation support.
+* [x] Translation support.
 
-  * [ ] Change necessary files and save a new zip.
-
-  * [ ] Change Name for selection in in-game options.
+  * [x] Change necessary files and save a new zip.
+  * [x] Change Name for selection in in-game options.
+* [x] Update Database.
 
 ### Library
 
@@ -50,13 +50,12 @@
 
   * [x] Drag & Drop to manage Type, Classification and Group.
   
-* [ ] Group Symbols.
 
 ## UI
 
 ### Navigation
 
-* [ ] Settings
+* [x] Settings
 
   * General
 
@@ -74,7 +73,7 @@
     * [x] Create / Update / Delete Group
     * [x] Edit Group Name/Default ColorCode
     * [x] Edit Group Data (Type, Classification, Group)
-* [ ] Library
+* [x] Library
   * [x] New UI based on new "Grouping-System". (Keep the "Color Selection Boxes").
 
 ### Optional
@@ -85,6 +84,12 @@
 ---
 
 # v0.2
+
+## Major Features
+
+### Additional Customization
+
+- [ ] Group Symbols.
 
 ## UI
 

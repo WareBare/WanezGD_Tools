@@ -65,8 +65,8 @@ let RunLocaleExtract = function(InZipFile){
             for(let fileName in zip.files){
                 if(fileName.includes(`tags`) || fileName.endsWith(`.def`)){
                     zip.file(fileName).async(`string`).then(function(InText){
-                        //Log(InText);
-                        Super.ParseTagText(InText, SourceData, fileName);
+                        Log(fileName);
+                        Super.ParseTagText(InText, SourceData, fileName, false);
                     });
                     //Log(fileName);
                     //Log(zip.files[fileName]);
@@ -307,7 +307,8 @@ module.exports = {
 
         if(typeof InKeywordValue !== `undefined`){
             // --- Super.GetClassData(`KeywordSymbols`)[`Type.${InKeywords.Type}`] || ``
-            outStr = this.GetClassData(`KeywordSymbols`)[`${InKeywordKey}.${InKeywordValue}`] || ``;
+            outStr = this.GetClassData(`KeywordSymbols`)[`${InKeywordKey}.${InKeywordValue[InKeywordKey]}`] || ``;
+            //Log(InKeywordValue);
         }
 
         return outStr;
@@ -462,23 +463,27 @@ module.exports = {
     StringifyTagData: function(InTagData){
         let outStr = ``;
 
-        // ---
+        // --- tagArmorClass02 ; tagTorsoB004 ; tagTorsoB005 ; tagTorsoC001
         for(let i = 1; i < InTagData.length; i++){
             outStr += InTagData[i].TagKey;
-            if(InTagData[i].TagValue !== ``) outStr += `=${InTagData[i].TagValue}`;
+            if(InTagData[i].TagValue !== ``){
+                outStr += `=${InTagData[i].TagValue}`;
+            }else if(InTagData[i].TagKey !== `` && !InTagData[i].TagKey.startsWith(`#`)){
+                outStr += `=`;
+            }
             outStr += `\r\n`;
         }
 
         return outStr;
     },
-    ParseTagText: function(InTagText, OutFinalArray, InTagFile){
+    ParseTagText: function(InTagText, OutFinalArray, InTagFile, bInRemoveFolders = true){
         try{
             let fileContents = InTagText
                 , contentArray = fileContents.split(`\n`)
                 , finalArray = [{bUpdated: false}], tempSplit;
 
             for(let arrayIndex in contentArray){
-                tempSplit = contentArray[arrayIndex].split(`=`);
+                tempSplit = contentArray[arrayIndex].replace(`\r`, ``).split(`=`);
                 //finalArray[tempSplit[0]] = tempSplit[1] || ``;
                 
                 finalArray.push({
@@ -487,7 +492,8 @@ module.exports = {
                 });
                 
             }
-            OutFinalArray[`${InTagFile.substring(InTagFile.replace(/\\/g, `/`).lastIndexOf('/')+1)}`] = finalArray;
+            
+            OutFinalArray[`${(bInRemoveFolders) ? InTagFile.substring(InTagFile.replace(/\\/g, `/`).lastIndexOf('/')+1) : InTagFile}`] = finalArray;
             /*
             OutFinalArray.push({
                 FileName: `${InTagFile.substring(InTagFile.replace(/\\/g, `/`).lastIndexOf('/')+1)}`

@@ -276,7 +276,9 @@ module.exports = {
             , GroupSymbol = Super.MakeSymbol(`Group`, InKeywords)
             , colorCode = `${TypeSymbol}${ClassificationSymbol}${GroupSymbol}{^${InColorCode.toUpperCase()}}`;
         
-        if(newValue.match(/{\^[A-Za-z]}/g)){
+        if(newValue.includes(`{^E}`)){
+            newValue = `${newValue.replace(`{^E}`, colorCode)}`; // {^E}
+        }else if(newValue.match(/{\^[A-Za-z]}/g)){
             newValue = newValue.replace(/{\^[A-Za-z]}/g, colorCode);
         }else if(newValue.startsWith(`[`)){
             newValue = newValue.replace(/(\[[a-zA-Z]+])/g, `$1${colorCode}`);
@@ -297,7 +299,9 @@ module.exports = {
 
     FindTagAndApplyColorInSourceData: function(OutSourceData, InTagKey, InColorCode, InKeywords){
         // ---
-        let bFoundEntry = false, foundIndex = -1, fileName;
+        let bFoundEntry = false
+            , foundIndex = -1
+            , fileName;
         //Log(`${InTagKey} --- ${InColorCode}`);
         // loop files with previous changes, ignore others.
         for(let fileKey in OutSourceData){
@@ -345,15 +349,50 @@ module.exports = {
 
         if(Super.IsUsingLocale()){
             let zip = new JSZip();
+            savePath = `${Super.GetGrimDawnPath()}/localization`;
 
-            //SourceData[`language.def`][SourceData[`language.def`].find(  )]
-            this.UpdateSourceTag(SourceData, `language`, `{VALUE} [C]`, true);
+            //SourceData[`language.def`][SourceData[`language.def`].find(  )] // [C]
+            this.UpdateSourceTag(SourceData, `language`, `[C] {VALUE} ${this.contentType}`, true);
             if(appConfig.get(`Filter.bZipChanges`)){
                 // Save Filter as .zip using Locale in /localization/*.zip
                 Log(`Save Zip`);
+                let zipSuffix = `_${this.contentType}_C_`;
+                // --- appConfig.get(`Filter.LocaleFileName`)
+                fs.readFile(`${savePath}/${appConfig.get(`Filter.LocaleFileName`)}`, function(err, data) {
+                    if (err) throw err;
+                    zip.loadAsync(data).then(function (zip) {
+                        //Log(zip);
+                        //zip.file("hello.txt", "Hello World\n");
+                        for(let fileKey in SourceData){
+                            if(SourceData[fileKey][0].bUpdated){
+                                zip.file(`${fileKey}`, Super.StringifyTagData(SourceData[fileKey]));
+                            }
+                        }
+                        /*
+                        zip.file("language.def").async("string").then(function (data) {
+                            // data is "Hello World\n"
+                            Log(data);
+                          });
+                          */
+                        zip
+                        .generateNodeStream({type:'nodebuffer', streamFiles:true, compression: "DEFLATE"})
+                        .pipe(fs.createWriteStream(`${savePath}/${appConfig.get(`Filter.LocaleFileName`).replace(`.zip`, `${zipSuffix}.zip`)}`))
+                        .on('finish', function () {
+                            // JSZip generates a readable stream with a "end" event,
+                            // but is piped here in a writable stream which emits a "finish" event.
+                            wzNotify.save(`${appConfig.get(`Filter.LocaleFileName`).replace(`.zip`, `${zipSuffix}.zip`)}`);
+                            console.log("out.zip written.");
+                        });
+                    });
+                });
             }else{
                 // #ToDo Save Filter Files using Locale in /localization/
                 Log(`Save Locale Files`);
+                for(let fileKey in SourceData){
+                    if(SourceData[fileKey][0].bUpdated){
+                        wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
+                    }
+                }
             }
         }else{
             // Save Filter Files in /settings/
@@ -366,7 +405,7 @@ module.exports = {
             // ---
         }
         
-        //Log(SourceData);
+        Log(SourceData);
         /*
         fs.readFile(`${Super.GetGrimDawnPath()}/localization/community_russian_bak.zip`, function(err, data) {
             if (err) throw err;
