@@ -9,27 +9,77 @@
 module.exports = {
     Forms: {},
     tplContent: {},
-    
-    Content_Manager: function(InLibraryData, InGroupData){
-        let outStr = ``;
 
-        outStr += Super.tplContent.FormContainer.wzReplace({
-            TITLE: `Creation`
-            , CONTENTS: `${tempFormItemOutput}`
-        });
+    LibraryData: false,
+    GroupData: false,
+    CurrentPackageNameInput: ``,
 
-        return outStr;
+    CheckPackageNameDupe: function(){
+        let bOutIsDupe = false, tempData;
+
+        // ---
+        if(this.CurrentPackageNameInput !== this.LibraryData.PackageName){
+            bOutIsDupe = Super.ReadData(tempData = {}, `LibraryData`, `PackageName`, `${this.CurrentPackageNameInput}`);
+        }
+
+        return bOutIsDupe;
+    },
+
+    OnChangeText_LibraryPackageName: function(el){
+        if(el.value !== ``){
+            this.CurrentPackageNameInput = el.value;
+            wzReloadCMS(10);
+        }
+    },
+    OnChangeText_LibraryDisplayName: function(el){
+        if(el.value !== ``){
+            this.LibraryData.DisplayName = el.value;
+            Super.UpdateLibrary(this.contentType, this.LibraryData);
+        }
+    },
+    OnChangeText_LibraryVersion: function(el){
+        if(el.value !== ``){
+            this.LibraryData.Version = el.value;
+            Super.UpdateLibrary(this.contentType, this.LibraryData);
+        }
     },
 
     Content_Header: function(InLibraryData, InGroupData){
         let outStr = ``
             , tempFormItemOutput = ``;
 
+
+        // ---
+        tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
+            TEXT: this.CurrentPackageNameInput || `Name Required!`
+            , ON_CHANGE_FN: `_cms.OnChangeText_LibraryPackageName(this)`
+            , LABEL: `Package Name`
+            , TOOL_TIP: `<ul><li class="Msg_Warn">must be unique</li><li>Identifies Library Entries</li></ul>`
+            , SETTINGS: ` style="width: 250px;"`
+            , ERROR_MSG: this.CheckPackageNameDupe() ? `Must be Unique!` : ``
+        });
+
         if(InLibraryData.bReadOnly){
             // Read Only
-            tempFormItemOutput += `<span class="Msg_Warn">This entry is ReadOnly, you cannot change its settings, but you can make a new one based on it.</span><br />`;
+            outStr += `<span class="Msg_Warn">This entry is ReadOnly, you cannot change its settings, but you can make a new one based on it. When you change the Package Name to something that does not yet exist and different to the current one, you will see a new button on the right to "Create New Entry". The name can be updated later with another button "Update Entry" as well as other data.</span><br />`;
         }else{
             // Writable
+            tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
+                TEXT: this.LibraryData.DisplayName || `Name Required!`
+                , ON_CHANGE_FN: `_cms.OnChangeText_LibraryDisplayName(this)`
+                , LABEL: `Name`
+                , TOOL_TIP: `<ul><li>Visible Name in the list on the right.</li></ul>`
+                , SETTINGS: ` style="width: 250px;"`
+                , ERROR_MSG: ``
+            });
+            tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
+                TEXT: this.LibraryData.Version || `Name Required!`
+                , ON_CHANGE_FN: `_cms.OnChangeText_LibraryVersion(this)`
+                , LABEL: `Version`
+                , TOOL_TIP: `<ul><li>Optional</li><li>Entirely up to you, what goes in this field.</li><li>this Added to archives if you intend to share the result as .zip.</li><li>Feature for later, unless you are using <i>Localizations</i>.</li></ul>`
+                , SETTINGS: ` style="width: 50px;"`
+                , ERROR_MSG: ``
+            });
         }
         
         outStr += Super.tplContent.FormContainer.wzReplace({
@@ -48,7 +98,7 @@ module.exports = {
             , curGroupInfo;
         
         if(InLibraryData.bReadOnly){
-            tempFormItemOutput += `<span class="Msg_Warn">This entry is ReadOnly, you may view its colors, but not change them, you are able to clone this library entry and change it then.</span><br />`;
+            tempFormItemOutput += `<span class="Msg_Warn">This entry is ReadOnly, you may view its colors, but not change them, but you may create a copy of this library entry and change the copy to your needs.</span><br />`;
         }
 
         for(let i = 0; i <= InLibraryData.Data.length - 1; i++){
@@ -57,7 +107,7 @@ module.exports = {
             if(InLibraryData.Data[i].ColorCode) curGroupInfo.ColorCode = InLibraryData.Data[i].ColorCode;
 
             outByTypes[curGroupInfo.Keywords.Type[0]] = outByTypes[curGroupInfo.Keywords.Type[0]] || [];
-            outByTypes[curGroupInfo.Keywords.Type[0]].push(Super.MakeColorPicker(curGroupInfo.DisplayName, InLibraryData.Data[i].GroupName, curGroupInfo.ColorCode));
+            outByTypes[curGroupInfo.Keywords.Type[0]].push(Super.MakeColorPicker(curGroupInfo.DisplayName, InLibraryData.Data[i].GroupName, curGroupInfo.ColorCode, InLibraryData.bReadOnly || false));
         }
 
         for(let keywordKey in outByTypes){
@@ -81,25 +131,33 @@ module.exports = {
     },
     
     content_: function(InContentType){
-        let outStr = ``
-            //, CurrentContentType = this.contentType
-            , LibraryData
-            , groupData = Super.GetClassData(`GroupData`);
+        let outStr = ``;
         
+        this.GroupData = Super.GetClassData(`GroupData`);
+
         if(InContentType !== this.contentType && this.contentType !== `undefined`){
             // Reset TagInfo when different Library is loaded, as it may change it.
-            //Super.ResetClassData(`TagInfoData`);
+            Super.ResetClassData(`TagInfoData`);
         }
-        Super.ReadData(LibraryData = {}, `LibraryData`, 0);
-        this.contentType = InContentType || this.contentType || LibraryData.PackageName;
-        //Log(LibraryData);
-
-        outStr += this.Content_Header(LibraryData, groupData);
-        if(!LibraryData.bReadOnly){
+        // first load used library in slot 1, then sets contentType and can use ContentType to load data.
+        if(typeof this.contentType === `undefined`) {
+            Super.ReadData(this.LibraryData = {}, `LibraryData`, 0);
+            this.CurrentPackageNameInput = this.LibraryData.PackageName;
+        }
+        this.contentType = InContentType || this.contentType || this.LibraryData.PackageName;
+        if(this.LibraryData.PackageName !== this.contentType){
+            Super.ReadData(this.LibraryData = {}, `LibraryData`, `PackageName`, `${this.contentType}`);
+            this.CurrentPackageNameInput = this.contentType;
+        }
+        
+        
+        /// OUTPUT
+        outStr += this.Content_Header(this.LibraryData, this.GroupData);
+        outStr += this.Content_ColorPicker(this.LibraryData, this.GroupData);
+        if(!this.LibraryData.bReadOnly){
 
         }else{
             
-            outStr += this.Content_ColorPicker(LibraryData, groupData);
         }
         
         /*
@@ -164,8 +222,126 @@ module.exports = {
         
     },
 
-    OnClickSaveFilter: function(){
-        let SourceData = Super.GetSourceData();
+    FetchColorFromGroup: function(InLibraryGroupEntry){
+        // Uses either Library ColorCode (if set) or Group Color Code (as default).
+        return InLibraryGroupEntry.ColorCode || this.GroupData[InLibraryGroupEntry.GroupName].ColorCode;
+    },
+
+    /**
+     * Checks if Group has a match for Tag Keyword.
+     * @param {string} InGroupName name of the group to check in GroupData
+     * @param {string} InKeywordKey key for Keywords (like Type, Classification, Group)
+     * @param {string} InKeywordCheck The Keyword to look for (like MI or Regular Item)
+     */
+    DoesGroupMatchKeywords: function(InGroupName, InKeywordKey, InKeywordCheck){
+        // #DECLARATION
+        let bOutMatch = false;
+
+        // #VALIDATION
+        if(!this.GroupData[InGroupName]) return (InKeywordKey === `Type`) ? false : true;
+        if(!this.GroupData[InGroupName].Keywords[InKeywordKey]) return (InKeywordKey === `Type`) ? false : true;
+
+        // #LOGIC
+        bOutMatch = this.GroupData[InGroupName].Keywords[InKeywordKey].includes(InKeywordCheck[InKeywordKey]);
+
+        return bOutMatch;
+    },
+
+    FetchColorCodeForTag: function(InGroupKeywords){
+        // ---
+        let bFoundColor = false, colorCode = false;
+        for(let i = 0; i < this.LibraryData.Data.length; i++){
+            //bGroupMismatch = false;
+            bFoundColor = this.DoesGroupMatchKeywords(this.LibraryData.Data[i].GroupName, `Type`, InGroupKeywords);
+
+            if(bFoundColor) bFoundColor = this.DoesGroupMatchKeywords(this.LibraryData.Data[i].GroupName, `Classification`, InGroupKeywords);
+
+            if(bFoundColor) bFoundColor = this.DoesGroupMatchKeywords(this.LibraryData.Data[i].GroupName, `Group`, InGroupKeywords);
+            
+            //if(!bGroupMismatch) bFoundColor = true;
+            if(!colorCode && bFoundColor){
+                colorCode = this.FetchColorFromGroup(this.LibraryData.Data[i]);
+                i = this.LibraryData.Data.length;
+            }
+        }
+        
+        return colorCode;
+    },
+
+    ApplyColorInSourceData: function(OutSourceData, InFileName, InIndex, InColorCode, InKeywords){
+        //Log(OutSourceData[InFileName][InIndex].TagValue);
+        let newValue = OutSourceData[InFileName][InIndex].TagValue
+            , TypeSymbol = Super.MakeSymbol(`Type`, InKeywords)
+            , ClassificationSymbol = Super.MakeSymbol(`Classification`, InKeywords)
+            , GroupSymbol = Super.MakeSymbol(`Group`, InKeywords)
+            , colorCode = `${TypeSymbol}${ClassificationSymbol}${GroupSymbol}{^${InColorCode.toUpperCase()}}`;
+        
+        if(newValue.match(/{\^[A-Za-z]}/g)){
+            newValue = newValue.replace(/{\^[A-Za-z]}/g, colorCode);
+        }else if(newValue.startsWith(`[`)){
+            newValue = newValue.replace(/(\[[a-zA-Z]+])/g, `$1${colorCode}`);
+            //Log(newValue);
+        }else if(newValue.match(RegexGlobalLetters)){
+            newValue = `${colorCode}${newValue}`;
+            //Log(newValue);
+        }
+
+        if(OutSourceData[InFileName][InIndex].TagValue !== newValue){
+            OutSourceData[InFileName][0].bUpdated = true;
+            OutSourceData[InFileName][InIndex].TagValue = newValue;
+            //Log(OutSourceData[InFileName][InIndex].TagValue);
+        }else{
+            Log(OutSourceData[InFileName][InIndex].TagValue);
+        }
+    },
+
+    FindTagAndApplyColorInSourceData: function(OutSourceData, InTagKey, InColorCode, InKeywords){
+        // ---
+        let bFoundEntry = false, foundIndex = -1, fileName;
+        //Log(`${InTagKey} --- ${InColorCode}`);
+        // loop files with previous changes, ignore others.
+        for(let fileKey in OutSourceData){
+            if(OutSourceData[fileKey][0].bUpdated && foundIndex === -1){
+                foundIndex = OutSourceData[fileKey].findIndex( x => x.TagKey === InTagKey );
+                if(foundIndex !== -1) this.ApplyColorInSourceData(OutSourceData, fileKey, foundIndex, InColorCode, InKeywords);
+                //if(foundIndex !== -1) fileName = fileKey;
+            }
+        }
+
+        // loopt files without previous changes if no entry found yet.
+        if(foundIndex === -1){
+            for(let fileKey in OutSourceData){
+                //Log(OutSourceData[fileKey][0].bUpdated);
+                if(!OutSourceData[fileKey][0].bUpdated && foundIndex === -1){
+                    foundIndex = OutSourceData[fileKey].findIndex( x => x.TagKey === InTagKey );
+                    if(foundIndex !== -1) this.ApplyColorInSourceData(OutSourceData, fileKey, foundIndex, InColorCode, InKeywords);
+                    //if(foundIndex !== -1) fileName = fileKey;
+                }
+            }
+        }
+
+
+    },
+
+    UpdateSourceData: function(OutSourceData){
+        let outNewSourceData = OutSourceData
+            , tagInfoData = Super.GetClassData(`TagInfoData`);
+        
+        for(let tagKey in tagInfoData){
+            // Applies color to tag inside sourceData and gets the colorCode for tag from group
+            this.FindTagAndApplyColorInSourceData(OutSourceData, tagKey, this.FetchColorCodeForTag(tagInfoData[tagKey]), tagInfoData[tagKey]);
+        }
+
+        // ---
+
+        return outNewSourceData;
+    },
+
+    OnClick_WriteColors: function(){
+        let SourceData = Super.GetSourceData()
+            , savePath;
+
+        this.UpdateSourceData(SourceData);
 
         if(Super.IsUsingLocale()){
             let zip = new JSZip();
@@ -181,10 +357,16 @@ module.exports = {
             }
         }else{
             // Save Filter Files in /settings/
-            Log(`Save Files (in /settings/text_en/)`);
+            savePath = `${Super.GetGrimDawnPath()}/settings/text_en`;
+            for(let fileKey in SourceData){
+                if(SourceData[fileKey][0].bUpdated){
+                    wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
+                }
+            }
+            // ---
         }
         
-        Log(SourceData);
+        //Log(SourceData);
         /*
         fs.readFile(`${Super.GetGrimDawnPath()}/localization/community_russian_bak.zip`, function(err, data) {
             if (err) throw err;
@@ -233,15 +415,52 @@ module.exports = {
        //Log(fs.readFileSync(`${Super.GetGrimDawnPath()}/localization/community_russian.zip/tags_uimain.txt`, 'utf-8'));
        */
     },
+
+    OnClick_CreateLibraryEntry: function(){
+        // change data.
+        this.LibraryData.DisplayName = `${this.LibraryData.DisplayName} (NEW)`;
+        this.LibraryData.PackageName = this.CurrentPackageNameInput;
+        this.LibraryData.Version = `0.0`;
+        // DELETE
+        delete this.LibraryData.InSearchKey;
+        delete this.LibraryData.bReadOnly;
+        // CALL UPDATE
+        Super.UpdateLibrary(this.CurrentPackageNameInput, this.LibraryData);
+        // load new entry after reload.
+        this.contentType = this.CurrentPackageNameInput;
+    },
+    OnClick_UpdateLibraryEntry: function(){
+        this.LibraryData.PackageName = this.CurrentPackageNameInput;
+        Super.UpdateLibrary(this.contentType, this.LibraryData);
+    },
+    OnClick_DeleteLibraryEntry: function(){
+        Super.UpdateLibrary(this.contentType);
+    },
     
     sidebarBtns_: function(){
         let outButtons = [];
         
         if(appConfig.get(`GrimDawn.Paths.Game`)){
             outButtons.push({
-                "ONCLICK": "_cms.OnClickSaveFilter()",
-                "TEXT": "Save Filter"
+                "ONCLICK": "_cms.OnClick_WriteColors()",
+                "TEXT": "Save Colors"
             });
+            if(!this.CheckPackageNameDupe() && this.contentType !== this.CurrentPackageNameInput){
+                outButtons.push({
+                    "ONCLICK": "_cms.OnClick_CreateLibraryEntry()",
+                    "TEXT": "Create New Entry"
+                });
+                if(!this.LibraryData.bReadOnly){
+                    outButtons.push({
+                        "ONCLICK": "_cms.OnClick_UpdateLibraryEntry()",
+                        "TEXT": "Update Entry"
+                    });
+                    outButtons.push({
+                        "ONCLICK": "_cms.OnClick_DeleteLibraryEntry()",
+                        "TEXT": "Delete Entry"
+                    });
+                }
+            }
         }
 
         return outButtons;

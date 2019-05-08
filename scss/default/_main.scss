@@ -939,6 +939,11 @@ div.WzToolTip{
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(155, 155, 155, 0.5);
     color: $ToolTip_Color01;
+
+    ul{
+        margin-left: 20px;
+        padding: 0;
+    }
     
     background: $ToolTip_Gradient01;
 
@@ -1031,4 +1036,8 @@ table.TagsList{
     }
 }
 
+.Msg_Warn{
+    //display: inline-block;
+    color: $Warn_Color01;
+}
 

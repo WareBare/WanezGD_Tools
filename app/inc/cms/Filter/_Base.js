@@ -10,6 +10,7 @@ let SourceData
         , LibraryData: false
         , GroupData: false
         , TagInfoData: false
+        , KeywordSymbols: false
     }
     , bPathCorrect = false
     , GrimDawnPath = false
@@ -19,6 +20,7 @@ let FilterStorage = {
     GroupData: new eConfig({name: `gd-filter-groups`})
     , TagInfoData: new eConfig({name: `gd-filter-tags`})
     , LibraryData: new eConfig({name: `gd-filter-library`})
+    , KeywordSymbols: new eConfig({name: `gd-filter-symbols`})
 };
 
 let RunArchiveTool = function(){
@@ -118,10 +120,11 @@ module.exports = {
         }
     },
 
-
+    //  data-wztip="{TOOL_TIP}" data-wztip-position="top"
     tplContent: {
         FormContainer: `<div id="WzForm"><fieldset><legend>{TITLE}</legend>{CONTENTS}</fieldset></div>`
         , TextField: `<label class="Default">{LABEL}<msg class="ErrorMsg">{ERROR_MSG}</msg><input type="text" value="{TEXT}" onChange="{ON_CHANGE_FN};" {SETTINGS} /></label>`
+        , TextFieldWithTip: `<label data-wztip='{TOOL_TIP}' data-wztip-position="right" class="Default">{LABEL}<msg class="ErrorMsg">{ERROR_MSG}</msg><input type="text" value="{TEXT}" onChange="{ON_CHANGE_FN};" {SETTINGS} /></label>`
         , CheckBox: `<label class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
         , CollapsibleContainer: `<fieldset class="Collapsible"><legend><span class="CollapsibleBTN" onClick="Super.OnClick_CollapsibleBTN(this);">+</span> {TITLE}</legend><div class="CollapsibleContents" style="display: none;">{CONTENTS}</div></fieldset>`
     },
@@ -184,9 +187,16 @@ module.exports = {
         if(!ClassData[`LibraryData`]) ClassData[`LibraryData`] = this.MakeLibraryData();
         if(!ClassData[`GroupData`]) ClassData[`GroupData`] = this.MakeFilterGroupsData();
 
+        // KeywordSymbols
+        if(!ClassData[`KeywordSymbols`]) ClassData[`KeywordSymbols`] = this.MakeFilterKeywordSymbols();
         //AddToolTips();
     },
 
+    MakeFilterKeywordSymbols: function(){
+        let outKeywordSymbols = Object.assign({}, appData[`gd-filter`].KeywordSymbols, FilterStorage[`KeywordSymbols`].store);
+        
+        return outKeywordSymbols;
+    },
     MakeTagInfoData: function(){
         let OutTagData = Object.assign({}, appData[`gd-filter`].Tags, FilterStorage[`TagInfoData`].store);
         
@@ -195,7 +205,7 @@ module.exports = {
     MakeLibraryData: function(){
         //Log(`Making Library Data!`);
         let outLibraryData = appData[`gd-filter`].Library
-            , LibraryStore = FilterStorage[`LibraryData`].get(`Library`);
+            , LibraryStore = FilterStorage[`LibraryData`].get(`Main`);
 
         if(LibraryStore && LibraryStore.length){
             for(let i = 0; i <= LibraryStore.length -1; i++){
@@ -292,6 +302,16 @@ module.exports = {
         return outHtml;
     },
 
+    MakeSymbol: function(InKeywordKey, InKeywordValue){
+        let outStr = ``;
+
+        if(typeof InKeywordValue !== `undefined`){
+            // --- Super.GetClassData(`KeywordSymbols`)[`Type.${InKeywords.Type}`] || ``
+            outStr = this.GetClassData(`KeywordSymbols`)[`${InKeywordKey}.${InKeywordValue}`] || ``;
+        }
+
+        return outStr;
+    },
     UpdateTagInfo: function(InKey, InValue){ FilterStorage[`TagInfoData`].set(InKey, InValue); this.ResetClassData(`TagInfoData`); },
     DeleteTagInfo: function(InKey){
         FilterStorage[`TagInfoData`].delete(InKey); this.ResetClassData(`TagInfoData`);
@@ -439,6 +459,18 @@ module.exports = {
 
     },
 
+    StringifyTagData: function(InTagData){
+        let outStr = ``;
+
+        // ---
+        for(let i = 1; i < InTagData.length; i++){
+            outStr += InTagData[i].TagKey;
+            if(InTagData[i].TagValue !== ``) outStr += `=${InTagData[i].TagValue}`;
+            outStr += `\r\n`;
+        }
+
+        return outStr;
+    },
     ParseTagText: function(InTagText, OutFinalArray, InTagFile){
         try{
             let fileContents = InTagText
@@ -479,6 +511,12 @@ module.exports = {
             wzReloadCMS(10);
         }else{
             // library color change (for group)
+            //Log(groupKey);
+            let dataIndex = _cms.LibraryData.Data.findIndex( SearchFor => SearchFor.GroupName === el.name );
+            if(dataIndex !== -1){
+                _cms.LibraryData.Data[dataIndex].ColorCode = colorCode;
+                this.UpdateLibrary(_cms.contentType, _cms.LibraryData, false);
+            }
         }
     },
 
@@ -488,18 +526,19 @@ module.exports = {
      * @param {string} InGroupKey Group Key (need escaping for dots).
      * @param {string} InSelectedColorCode currently selected color code.
      */
-    MakeColorPicker: function(InLabel, InGroupKey, InSelectedColorCode){
+    MakeColorPicker: function(InLabel, InGroupKey, InSelectedColorCode, bInDisabled = false){
         let ColorBox_,
             ColorBoxItems_ = ``,
             ColorCodeData = appData[`gd-colorcodes`],
             tplColorBox = `<fieldset class="ColorPicker_Container"><legend>{LABEL}</legend><div class="ColorPicker">{BOX_ITEMS}</div></fieldset>`,
-            tplColorBoxItem = `<label title="{COLOR_NAME} ({COLOR_CODE})"><input onChange="Super.OnChange_ColorPicker(this, ${InLabel === `Default Color`})" value="{COLOR_CODE}" type="radio" name="${InGroupKey}" DISABLED{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
+            tplColorBoxItem = `<label data-wztip="{COLOR_NAME} ({COLOR_CODE})" data-wztip-position="bottom"><input onChange="Super.OnChange_ColorPicker(this, ${InLabel === `Default Color`})" value="{COLOR_CODE}" type="radio" name="${InGroupKey}" {B_DISABLED}{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
     
         ColorBoxItems_ += ColorBoxItems_ += tplColorBoxItem.wzReplace({
-            COLOR_HEX: `background-color:transparent`,
-            COLOR_NAME: `Clear`,
-            COLOR_CODE: `Clear`,
-            B_IS_CHECKED: ` checked`
+            COLOR_HEX: `background-color:transparent`
+            , COLOR_NAME: `Clear`
+            , COLOR_CODE: `Clear`
+            , B_IS_CHECKED: ` checked`
+            , B_DISABLED: (bInDisabled) ? ` DISABLED` : ``
         });
         for(let kColorCode in ColorCodeData){
             if(ColorCodeData[kColorCode]){
@@ -508,6 +547,7 @@ module.exports = {
                     COLOR_NAME: ColorCodeData[kColorCode].DisplayName,
                     COLOR_CODE: kColorCode,
                     B_IS_CHECKED: (kColorCode === InSelectedColorCode) ? ` checked` : ``
+                    , B_DISABLED: (bInDisabled) ? ` DISABLED` : ``
                 });
             }
         }
@@ -549,6 +589,41 @@ module.exports = {
         return JSON.parse(JSON.stringify(ClassData[`LibraryData`]));
     },
 
+
+    UpdateLibrary: function(InPackageName, InData, bInReload = true){
+        let bOutSuccess = true
+            , LibraryStore = FilterStorage[`LibraryData`].get(`Main`) || []
+            , storeIndex = LibraryStore.findIndex( SearchFor => SearchFor.PackageName === InPackageName )
+            , globalIndex = ClassData[`LibraryData`].findIndex( SearchFor => SearchFor.PackageName === InPackageName );
+
+        Log(storeIndex);
+        //Log(globalIndex);
+        if(globalIndex === -1 && InData){
+            // ---
+            LibraryStore.push(InData);
+        }else if(storeIndex !== -1){
+            if(InData){
+                // ---
+                LibraryStore[storeIndex] = InData;
+            }else{
+                // ---
+                LibraryStore.splice(storeIndex, 1);
+            }
+        }else{
+            Log(`This should not have happened!`);
+            bOutSuccess = false;
+        }
+
+        if(bOutSuccess){
+            FilterStorage[`LibraryData`].set(`Main`, LibraryStore);
+            if(bInReload){
+                this.ResetClassData(`LibraryData`);
+                wzReloadCMS(10);
+            }
+        }
+
+        return bOutSuccess;
+    },
 
 
     /**

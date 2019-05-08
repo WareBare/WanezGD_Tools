@@ -11584,11 +11584,23 @@
                 } , {
                     "GroupName": "Core.Item.Legendary"
                 } , {
+                    "GroupName": "Core.Quality.Common"
+                } , {
+                    "GroupName": "Core.Quality.Magical"
+                } , {
+                    "GroupName": "Core.Quality.Rare"
+                } , {
+                    "GroupName": "Core.Quality.Epic"
+                } , {
+                    "GroupName": "Core.Quality.Legendary"
+                } , {
                     "GroupName": "Core.MI.Rare"
                 } , {
                     "GroupName": "Core.MI.Epic"
                 } , {
                     "GroupName": "Core.MI.Legendary"
+                } , {
+                    "GroupName": "Core.Property.Elemental"
                 } , {
                     "GroupName": "Core.Property.Cold"
                 } , {
@@ -11618,7 +11630,11 @@
             , "PackageName": "basicHighlighting"
             , "Version": "0.1"
             , "bReadOnly": true
-            , "Data": []
+            , "Data": [
+                {
+                    "GroupName": "Core.Item.Common"
+                }
+            ]
         }
     ] , "FilterGroups": {
         "Core.Item.Common": {
@@ -11666,6 +11682,51 @@
                 , "Type": ["Affix", "Regular Item"]
             }
         }
+        , "Core.Quality.Common": {
+            "DisplayName": "Common Style & Quality"
+            , "ColorCode": "s"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Common"]
+                , "Type": ["Quality", "Style"]
+            }
+        }
+        , "Core.Quality.Magical": {
+            "DisplayName": "Magical Style & Quality"
+            , "ColorCode": "h"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Magical"]
+                , "Type": ["Quality", "Style"]
+            }
+        }
+        , "Core.Quality.Rare": {
+            "DisplayName": "Rare Style & Quality"
+            , "ColorCode": "h"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Rare"]
+                , "Type": ["Quality", "Style"]
+            }
+        }
+        , "Core.Quality.Epic": {
+            "DisplayName": "Epic Style & Quality"
+            , "ColorCode": "a"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Epic"]
+                , "Type": ["Quality", "Style"]
+            }
+        }
+        , "Core.Quality.Legendary": {
+            "DisplayName": "Legendary Style & Quality"
+            , "ColorCode": "p"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Legendary"]
+                , "Type": ["Quality", "Style"]
+            }
+        }
         , "Core.MI.Common": {
             "DisplayName": "Common MI"
             , "ColorCode": "w"
@@ -11709,6 +11770,16 @@
             , "Keywords": {
                 "Classification": ["Legendary"]
                 , "Type": ["MI Item"]
+            }
+        }
+        , "Core.Property.Elemental": {
+            "DisplayName": "Elemental Properties"
+            , "ColorCode": "y"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Damage Type"]
+                , "Type": ["Property"]
+                , "Group": ["Elemental"]
             }
         }
         , "Core.Property.Cold": {
@@ -11819,5 +11890,7 @@
                 , "Type": ["Property"]
             }
         }
+    }, "KeywordSymbols": {
+        "Group.Set": "(S)"
     }
 }

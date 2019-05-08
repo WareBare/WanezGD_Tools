@@ -14,7 +14,7 @@ module.exports = {
      */
     file_put_contents($filepath,$content,$removeFromPath){
         $removeFromPath = $removeFromPath || ``;
-        fs.writeFile($filepath, $content, function(err) {
+        fs.outputFile($filepath, $content, 'utf8', function(err) {
             if(err) {
                 console.warn(err);
                 log.error(`${err}`);
