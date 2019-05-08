@@ -878,11 +878,12 @@ wztip{
     text-align: center;
 
     ::-webkit-scrollbar-track{
-        background-color: rgba(74, 74, 74, 0.9);
+        border-radius: 0;
+        background: $Label_Gradient01;
+        border-width: 1px;
     }
-
     ::-webkit-scrollbar-thumb{
-        background-color: rgba(27, 27, 27, 0.9);
+        background-color: rgba(117, 115, 115, 0.9);
     }
     fieldset{
         text-align: left;
@@ -910,23 +911,33 @@ wztip{
 
         .Header{
             border-width: 1px;
-            background: $gradientLabel-001;
+            background: $Label_Gradient01;
         }
         .Content{
-            color: $fontColor-002;
+            color: $Radio_Color01;
             height: 150px;
             overflow: auto;
 
 
             .EntryField{
                 border-width: 1px;
-                background: $backgroundColor-001b;
-                color: $fontColor-000;
+                background: $Radio_Gradient01;
+                color: $Radio_Color01;
                 cursor: pointer;
                 &:HOVER{
-                    background: $backgroundColor-002;
+                    background: $Radio_Gradient01_HOVER;
+                    color: $Radio_Color01_HOVER;
+                }
+                &.IsChecked{
+                    background: $Radio_Gradient01_CHECKED;
+                    color: $Radio_Color01_CHECKED;
+                    &:HOVER{
+                        background: $Radio_Gradient01_CHECKED_HOVER;
+                        color: $Radio_Color01_CHECKED_HOVER;
+                    }
                 }
             }
+            
         }
     }
 

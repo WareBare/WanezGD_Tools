@@ -65,7 +65,7 @@ let RunLocaleExtract = function(InZipFile){
             for(let fileName in zip.files){
                 if(fileName.includes(`tags`) || fileName.endsWith(`.def`)){
                     zip.file(fileName).async(`string`).then(function(InText){
-                        Log(fileName);
+                        //Log(fileName);
                         Super.ParseTagText(InText, SourceData, fileName, false);
                     });
                     //Log(fileName);
@@ -218,7 +218,6 @@ module.exports = {
     MakeFilterGroupsData: function(){
         //Log(`Making Filter Groups Data!`);
         let OutGroupsData = Object.assign({}, appData[`gd-filter`].FilterGroups, FilterStorage[`GroupData`].store);
-        //Log(OutGroupsData);
 
         return OutGroupsData;
     },
@@ -586,13 +585,13 @@ module.exports = {
 
     /// GETTER
     GetGrimDawnPath: function() { return GrimDawnPath || false; },
-    GetSourceData: function(bInUseNewInstance = true) { return (bInUseNewInstance) ? JSON.parse(JSON.stringify(SourceData)) : SourceData; },
+    GetSourceData: function() { return WzSanitizeJSON(SourceData) },
 
     GetClassData: function(InDataEntryStr){
-        return JSON.parse(JSON.stringify(ClassData[InDataEntryStr]));
+        return WzSanitizeJSON(ClassData[InDataEntryStr]);
     },
     GetLibraryData: function(){
-        return JSON.parse(JSON.stringify(ClassData[`LibraryData`]));
+        return WzSanitizeJSON(ClassData[`LibraryData`]);
     },
 
 
@@ -602,7 +601,7 @@ module.exports = {
             , storeIndex = LibraryStore.findIndex( SearchFor => SearchFor.PackageName === InPackageName )
             , globalIndex = ClassData[`LibraryData`].findIndex( SearchFor => SearchFor.PackageName === InPackageName );
 
-        Log(storeIndex);
+        //Log(storeIndex);
         //Log(globalIndex);
         if(globalIndex === -1 && InData){
             // ---
@@ -656,7 +655,7 @@ module.exports = {
                 this.ReadData(oldData, InDataKey, InNewValue.replace(/\\\./g, `.`));
                 if(oldData.bReadOnly) delete oldData.bReadOnly;
                 outResult = FilterStorage[InDataKey].set(InConfigKey, oldData);
-                Log(InNewValue);
+                //Log(InNewValue);
                 if(bInDeleteOldEntry) FilterStorage[InDataKey].delete(InNewValue);
             }else{
                 outResult = FilterStorage[InDataKey].set(InConfigKey, InNewValue);

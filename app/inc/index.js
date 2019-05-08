@@ -52,8 +52,18 @@ let keyUp = (e) => {
         wzCMS([`Docs`,`Change Log`]);
     }else if(e.keyCode === 117){
         wzWND('Settings').refresh();
+    }else if(e.keyCode === 38){ // arrow UP
+        if(_cms.ActiveListItem){
+            //Log(`Enabled UP`);
+            _cms.UpdateGroupIndexInLibrary(true);
+        }
+    }else if(e.keyCode === 40){ // arrow DOWN
+        if(_cms.ActiveListItem){
+            _cms.UpdateGroupIndexInLibrary(false);
+            //Log(`Enabled DOWN`);
+        }
     }
-    
+    //Log(e.keyCode);
 };
 let keyDown = (e) => {
     
@@ -64,10 +74,53 @@ RegexGlobalLetters = new RegExp("[\u0041-\u005A\u0061-\u007A\u00AA\u00B5\u00BA\u
 document.addEventListener('keyup', keyUp, false);
 document.addEventListener('keydown', keyDown, false);
 
+WzSanitizeJSON = function(InJSONObj){
+    let outJSON = InJSONObj
+        , stringifiedJSON = JSON.stringify(InJSONObj);
+
+    //if(stringifiedJSON.match(/(<|>|'|`|;)/g)){
+        //Log(`Had to sanitize JSON`);
+    //}
+    //outJSON = JSON.parse(stringifiedJSON.replace(/(<|>|'|`|;)/g, ``));
+    outJSON = JSON.parse(stringifiedJSON);
+    
+    return outJSON;
+};
+
 WzSanitize = function(InText){
     let outStr = InText;
 
     outStr = outStr.replace(/(<|>|"|'|`|;)/g, ``);
 
     return outStr;
-}
+};
+
+UseMarkdownParsing = function(FileName, HeaderStr, ContainerClass = `md_changelog`){
+    let out_ = ``;
+    
+    out_ += marked(
+        `# ${HeaderStr}\n` +
+        `# Table of Contents\n` +
+        markdown_toc(fs.readFileSync(`${dirBase}/docs/${FileName}.md`, 'utf8')).content +
+        fs.readFileSync(`${dirBase}/docs/${FileName}.md`, 'utf8'));
+    
+    return `<div id="${ContainerClass}" class="md">${out_}</div>`;
+};
+UseMarkdownParsingOnURL = function(InURL, InHeaderStr, InContainerClass = `md_changelog`){
+    let outHTML = ``;
+    
+    fetchUrl(`${InURL}`, function(error, meta, body){
+            outHTML = marked(
+                `# ${InHeaderStr}\r\n` +
+                `\r\n---\r\n` +
+                `# Table of Contents\r\n` +
+                markdown_toc(body.toString()).content +
+                `\r\n---\r\n` +
+                body.toString()
+                );
+            document.getElementById(`${InContainerClass}`).innerHTML = outHTML;
+        }
+    );
+    
+    return `<div id="${InContainerClass}" class="md">${outHTML}</div>`;
+};

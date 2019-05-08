@@ -21,7 +21,9 @@
     //let _watcherPS;
     const mkpath = require('mkpath');
     const eConfig = require('electron-store');
-    //const marked = require('marked');
+    const marked = require('marked');
+    const markdown_toc = require('markdown-toc');
+    const fetchUrl = require("fetch").fetchUrl;
     //const fetchUrl = require("fetch").fetchUrl;
     const app = require('electron').remote.app;
     const {clipboard} = require('electron');

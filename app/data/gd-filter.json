@@ -13094,6 +13094,12 @@
                 } , {
                     "GroupName": "Core.Item.Legendary"
                 } , {
+                    "GroupName": "Core.MI.Rare"
+                } , {
+                    "GroupName": "Core.MI.Epic"
+                } , {
+                    "GroupName": "Core.MI.Legendary"
+                } , {
                     "GroupName": "Core.Quality.Common"
                 } , {
                     "GroupName": "Core.Quality.Magical"
@@ -13103,12 +13109,6 @@
                     "GroupName": "Core.Quality.Epic"
                 } , {
                     "GroupName": "Core.Quality.Legendary"
-                } , {
-                    "GroupName": "Core.MI.Rare"
-                } , {
-                    "GroupName": "Core.MI.Epic"
-                } , {
-                    "GroupName": "Core.MI.Legendary"
                 } , {
                     "GroupName": "Core.Property.Elemental"
                 } , {
@@ -13143,6 +13143,51 @@
             , "Data": [
                 {
                     "GroupName": "Core.Item.Common"
+                } , {
+                    "GroupName": "Core.Item.Magical"
+                } , {
+                    "GroupName": "Core.Item.Rare"
+                } , {
+                    "GroupName": "Core.Item.Epic"
+                } , {
+                    "GroupName": "Core.Item.Legendary"
+                } , {
+                    "GroupName": "Core.MI.Rare"
+                } , {
+                    "GroupName": "Core.MI.Epic"
+                } , {
+                    "GroupName": "Core.MI.Legendary"
+                } , {
+                    "GroupName": "Core.Quality.Common"
+                    , "ColorCode": "w"
+                } , {
+                    "GroupName": "Core.Quality.Magical"
+                    , "ColorCode": "y"
+                } , {
+                    "GroupName": "Core.Quality.Rare"
+                    , "ColorCode": "g"
+                } , {
+                    "GroupName": "Core.Quality.Epic"
+                    , "ColorCode": "b"
+                } , {
+                    "GroupName": "Core.Quality.Legendary"
+                    , "ColorCode": "i"
+                } , {
+                    "GroupName": "Core.Property.ElementalDirect"
+                } , {
+                    "GroupName": "Core.Property.ElementalOverTime"
+                } , {
+                    "GroupName": "Core.Property.PhysicalDirect"
+                } , {
+                    "GroupName": "Core.Property.PhysicalOverTime"
+                } , {
+                    "GroupName": "Core.Property.ChaosDirect"
+                } , {
+                    "GroupName": "Core.Property.ChaosOverTime"
+                } , {
+                    "GroupName": "Core.Property.Attribute"
+                } , {
+                    "GroupName": "Core.Property.Misc"
                 }
             ]
         }
@@ -13153,7 +13198,7 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Common"]
-                , "Type": ["Affix", "Regular Item"]
+                , "Type": ["Regular Item", "Affix"]
             }
         }
         , "Core.Item.Magical": {
@@ -13162,7 +13207,7 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Magical"]
-                , "Type": ["Affix", "Regular Item"]
+                , "Type": ["Regular Item", "Affix"]
             }
         }
         , "Core.Item.Rare": {
@@ -13171,7 +13216,7 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Rare"]
-                , "Type": ["Affix", "Regular Item"]
+                , "Type": ["Regular Item", "Affix"]
             }
         }
         , "Core.Item.Epic": {
@@ -13180,7 +13225,7 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Epic"]
-                , "Type": ["Affix", "Regular Item"]
+                , "Type": ["Regular Item", "Affix"]
             }
         }
         , "Core.Item.Legendary": {
@@ -13189,7 +13234,7 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Legendary"]
-                , "Type": ["Affix", "Regular Item"]
+                , "Type": ["Regular Item", "Affix"]
             }
         }
         , "Core.Quality.Common": {
@@ -13292,6 +13337,26 @@
                 , "Group": ["Elemental"]
             }
         }
+        , "Core.Property.ElementalDirect": {
+            "DisplayName": "Elemental Direct Damage Properties"
+            , "ColorCode": "b"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Damage Type"]
+                , "Type": ["Property"]
+                , "Group": ["Elemental", "Cold", "Fire", "Lightning"]
+            }
+        }
+        , "Core.Property.ElementalOverTime": {
+            "DisplayName": "Elemental Damage over Time Properties"
+            , "ColorCode": "z"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Damage Type"]
+                , "Type": ["Property"]
+                , "Group": ["Frostburn", "Burn", "Electrocute"]
+            }
+        }
         , "Core.Property.Cold": {
             "DisplayName": "Cold/Frostburn Properties"
             , "ColorCode": "c"
@@ -13332,6 +13397,26 @@
                 , "Group": ["Aether"]
             }
         }
+        , "Core.Property.ChaosDirect": {
+            "DisplayName": "Other Direct Damage Properties"
+            , "ColorCode": "i"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Damage Type"]
+                , "Type": ["Property"]
+                , "Group": ["Aether", "Chaos", "Acid", "Vitality"]
+            }
+        }
+        , "Core.Property.ChaosOverTime": {
+            "DisplayName": "Other Damage over Time Properties"
+            , "ColorCode": "f"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Damage Type"]
+                , "Type": ["Property"]
+                , "Group": ["Poison", "Decay"]
+            }
+        }
         , "Core.Property.Chaos": {
             "DisplayName": "Chaos Properties"
             , "ColorCode": "p"
@@ -13370,6 +13455,26 @@
                 "Classification": ["Damage Type"]
                 , "Type": ["Property"]
                 , "Group": ["Physical", "Trauma"]
+            }
+        }
+        , "Core.Property.PhysicalDirect": {
+            "DisplayName": "Physical Direct Damage Properties"
+            , "ColorCode": "y"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Damage Type"]
+                , "Type": ["Property"]
+                , "Group": ["Physical", "Pierce"]
+            }
+        }
+        , "Core.Property.PhysicalOverTime": {
+            "DisplayName": "Physical Damage over Time Properties"
+            , "ColorCode": "l"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Damage Type"]
+                , "Type": ["Property"]
+                , "Group": ["Trauma", "Bleeding"]
             }
         }
         , "Core.Property.Pierce": {

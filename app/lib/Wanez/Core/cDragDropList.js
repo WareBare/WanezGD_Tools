@@ -20,8 +20,10 @@ class cDragDropList extends libWZ.Core.cBase{
             LegendName: ``
             , elementGroup: `default` // similar to how name works for radioButtons
             , OnDrop: `` // Callback function name inside _cms
+            , OnClick: ``
             , bHasSearch: true
             , SearchTerm: ``
+            , Width: false
             , Lists: [{
                 Name: `Unset`
                 , Text: `Empty`
@@ -37,8 +39,8 @@ class cDragDropList extends libWZ.Core.cBase{
             Container: `<div class="DragDropList">{LISTS}</div>`
             , SearchField: `Search <input type="text" onchange="(function(el){_cms.SearchTerm = el.value;wzReloadCMS(10);})(this)" value="{SEARCH_TERM}" /><br />`
             , LegendContainer: `<div class="DragDropList"><fieldset><legend>{LEGEND_NAME}</legend>{SEARCH}{LISTS}</fieldset></div>`
-            , List: `<div class="List"><div class="Header">{HEADER}</div><div class="Content" wz-listKey="{LIST_KEY}" ondrop="(function(e){ if(_cms.ActiveGroup === '{ELEMENT_GROUP}') _cms.{CALLBACK}(e); })(event)" ondragover="(function(e){ if(_cms.ActiveGroup === '{ELEMENT_GROUP}') e.preventDefault();})(event)" ondragenter="(function(e){e.preventDefault(); if(_cms.ActiveGroup === '{ELEMENT_GROUP}') e.target.style.border = '3px dotted red';})(event)" ondragleave="(function(e){e.preventDefault(); e.target.style.border = '';})(event)">{ENTRIES}</div></div>`
-            , EntryField: `<div class="EntryField" draggable="true" wz-listKey="{LIST_KEY}" ondragstart="(function(e){e.target.style.opacity = '0.2'; _cms.ActiveGroup = '{ELEMENT_GROUP}';e.dataTransfer.setData('ActionData', '{ACTION_DATA}');e.dataTransfer.setData('ListKey', '{LIST_KEY}');})(event)" ondragend="wzReloadCMS(10);" ondragenter="(function(e){e.preventDefault(); if(_cms.ActiveGroup === '{ELEMENT_GROUP}') e.target.style.visibility = 'hidden';})(event)" ondragleave="(function(e){e.preventDefault(); if(_cms.ActiveGroup === '{ELEMENT_GROUP}') e.target.style.visibility = 'hidden';})(event)">{TEXT}</div>`
+            , List: `<div class="List" style="${InOpt.Width ? `width: ${InOpt.Width}px;` : ``}"><div class="Header">{HEADER}</div><div class="Content" wz-listKey="{LIST_KEY}" ondrop="(function(e){ if(_cms.ActiveGroup === '{ELEMENT_GROUP}') _cms.{CALLBACK}(e); })(event)" ondragover="(function(e){ if(_cms.ActiveGroup === '{ELEMENT_GROUP}') e.preventDefault();})(event)" ondragenter="(function(e){e.preventDefault(); if(_cms.ActiveGroup === '{ELEMENT_GROUP}') e.target.style.border = '3px dotted red';})(event)" ondragleave="(function(e){e.preventDefault(); e.target.style.border = '';})(event)">{ENTRIES}</div></div>`
+            , EntryField: `<div class="EntryField{B_CHECKED}" onclick="{ON_CLICK}" draggable="true" wz-listKey="{LIST_KEY}" ondragstart="(function(e){e.target.style.opacity = '0.2'; _cms.ActiveGroup = '{ELEMENT_GROUP}';e.dataTransfer.setData('ActionData', '{ACTION_DATA}');e.dataTransfer.setData('ListKey', '{LIST_KEY}');})(event)" ondragend="wzReloadCMS(10);" ondragenter="(function(e){e.preventDefault(); if(_cms.ActiveGroup === '{ELEMENT_GROUP}') e.target.style.visibility = 'hidden';})(event)" ondragleave="(function(e){e.preventDefault(); if(_cms.ActiveGroup === '{ELEMENT_GROUP}') e.target.style.visibility = 'hidden';})(event)"{AUTOFOCUS}>{TEXT}</div>`
         };
         
     }
@@ -71,6 +73,9 @@ class cDragDropList extends libWZ.Core.cBase{
                             , LIST_KEY: ListData.Name
                             , CALLBACK: iOpt.OnDrop
                             , ELEMENT_GROUP: iOpt.elementGroup
+                            , B_CHECKED: (ListItemData.bChecked) ? ` IsChecked` : ``
+                            , AUTOFOCUS: (ListItemData.bChecked) ? ` autofocus` : ``
+                            , ON_CLICK: ListItemData.OnClick || ``
                         });
                     }
                 });

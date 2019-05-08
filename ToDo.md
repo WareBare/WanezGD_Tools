@@ -28,11 +28,11 @@
 * [x] Sidebar using Library data.
   
   * [x] Reload Tag data (as this may change between filters)
-  
 * Presets:
   * [x] fullRainbow
-  * [ ] basicHighlighting
+  * [x] basicHighlighting
 * [x] Allow adding new Library Entry based on existing filter/preset.
+* [x] Coloring-Group Manager.
 
 ### Add Items/Affixes
 

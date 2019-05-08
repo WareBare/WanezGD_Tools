@@ -43,10 +43,79 @@ module.exports = {
             Super.UpdateLibrary(this.contentType, this.LibraryData);
         }
     },
+    OnDropListItem_GroupManage: function(e){
+        e.preventDefault();
+        try{
+            // Definitions
+            let SourceKey = e.dataTransfer.getData(`ListKey`).split(`::`)
+                , TargetKey = e.target.getAttribute(`wz-listKey`).split(`::`)
+                , ActionData = e.dataTransfer.getData(`ActionData`).split(`::`);
+            
+            Log(SourceKey);
+            Log(TargetKey);
+            Log(ActionData);
+            // Logic
+            if(SourceKey[0] === TargetKey[0] && SourceKey[0] === ActionData[0] && ActionData[1]){
+                // SourceKey --> TargetKey | ActionData[1] string to save.
+                // save to db
+                if(SourceKey[1] === `Default` && TargetKey[1] === `Library`){
+                    // Add to array.
+                    this.LibraryData.Data.push({
+                        GroupName: ActionData[1]
+                    });
+                    Super.UpdateLibrary(this.contentType, this.LibraryData);
+                }else if(SourceKey[1] === `Library` && TargetKey[1] === `Default`){
+                    // Remove from array.
+                    let dataIndex = this.LibraryData.Data.findIndex( x => x.GroupName === ActionData[1] );
+                    if(dataIndex !== -1){
+                        this.LibraryData.Data.splice(dataIndex, 1);
+                        Super.UpdateLibrary(this.contentType, this.LibraryData);
+                    }
+                    //Super.ChangeAssignments(this.CurrentlySelectedGroupName, ActionData);
+                }
+            }
+        }catch(err){Log(err);}
+
+        wzReloadCMS(10);
+    },
+
+    ActiveListItem: false,
+    OnClickListItem_GroupManage: function(el){
+        if(el.innerHTML !== this.ActiveListItem){
+            this.ActiveListItem = el.innerHTML;
+        }else{
+            this.ActiveListItem = false;
+        }
+
+        wzReloadCMS(10);
+    },
+    UpdateGroupIndexInLibrary: function(bInMoveUp){
+        let dataIndex = this.LibraryData.Data.findIndex( x => x.GroupName === this.ActiveListItem);
+
+        if(dataIndex === -1) return false;
+
+
+        if(bInMoveUp){
+            if(dataIndex === 0) return false;
+            this.LibraryData.Data.splice(dataIndex - 1, 0, this.LibraryData.Data[dataIndex]);
+            this.LibraryData.Data.splice(dataIndex + 1, 1);
+        }else{
+            if(dataIndex === this.LibraryData.Data.length - 1) return false;
+            this.LibraryData.Data.splice(dataIndex + 2, 0, this.LibraryData.Data[dataIndex]);
+            this.LibraryData.Data.splice(dataIndex, 1);
+            //Log(`Move DOWN`);
+        }
+        //Log(this.LibraryData);
+        //Log(Super.UpdateLibrary(this.contentType, this.LibraryData));
+    },
 
     Content_Header: function(InLibraryData, InGroupData){
         let outStr = ``
-            , tempFormItemOutput = ``;
+            , groupList = []
+            , groupItemsDefault = []
+            , groupItemsLibrary = []
+            , tempFormItemOutput = ``
+            , tempFormItemOutput2 = ``;
 
 
         // ---
@@ -76,16 +145,59 @@ module.exports = {
                 TEXT: this.LibraryData.Version || `Name Required!`
                 , ON_CHANGE_FN: `_cms.OnChangeText_LibraryVersion(this)`
                 , LABEL: `Version`
-                , TOOL_TIP: `<ul><li>Optional</li><li>Entirely up to you, what goes in this field.</li><li>this Added to archives if you intend to share the result as .zip.</li><li>Feature for later, unless you are using <i>Localizations</i>.</li></ul>`
+                , TOOL_TIP: `<img src="" onerror="console.log(\`test\`)" /><ul><li>Optional</li><li>Entirely up to you, what goes in this field.</li><li>this Added to archives if you intend to share the result as .zip.</li><li>Feature for later, unless you are using <i>Localizations</i>.</li></ul>`
                 , SETTINGS: ` style="width: 50px;"`
                 , ERROR_MSG: ``
             });
+
+            for(let groupKey in InGroupData){
+                if( InLibraryData.Data.findIndex( libData => libData[`GroupName`] == groupKey) === -1 ){
+                    groupItemsDefault.push({
+                        Text: `${groupKey}`
+                        , ActionData: `manage::${groupKey}`
+                        , bChecked: (this.ActiveListItem === groupKey)
+                    });
+                }
+            }
+            for(let i = 0; i < InLibraryData.Data.length; i++){
+                groupItemsLibrary.push({
+                    Text: `${InLibraryData.Data[i].GroupName}`
+                    , ActionData: `manage::${InLibraryData.Data[i].GroupName}`
+                    , bChecked: (this.ActiveListItem === InLibraryData.Data[i].GroupName)
+                    , OnClick: `_cms.OnClickListItem_GroupManage(this)`
+                });
+            }
+            groupList.push({
+                Name: `manage::Default`
+                , Text: `Not Assigned`
+                , Items: groupItemsDefault
+            });
+            groupList.push({
+                Name: `manage::Library`
+                , Text: `Assigned`
+                , Items: groupItemsLibrary
+            });
+            tempFormItemOutput2 += new WZ.Core.cDragDropList({
+                LegendName: `Manage Coloring-Groups`
+                , elementGroup: `groupmanage`
+                , OnDrop: `OnDropListItem_GroupManage`
+                , Lists: groupList
+                , SearchTerm: this.SearchTerm || ``
+                , Width: 300
+            }).create_();
+
+            if(this.ActiveListItem){
+                // ---
+                tempFormItemOutput2 += `<span class="Msg_Warn">Use Arrow Key Up/Down to move Coloring-Group.</span>`;
+            }
         }
         
         outStr += Super.tplContent.FormContainer.wzReplace({
             TITLE: `Manage Library Entry`
             , CONTENTS: `${tempFormItemOutput}`
         });
+
+        outStr += `<div style="display: inline-block;">${tempFormItemOutput2}</div>`;
 
         return outStr;
     },
@@ -148,6 +260,7 @@ module.exports = {
         if(this.LibraryData.PackageName !== this.contentType){
             Super.ReadData(this.LibraryData = {}, `LibraryData`, `PackageName`, `${this.contentType}`);
             this.CurrentPackageNameInput = this.contentType;
+            this.ActiveListItem = false;
         }
         
         
@@ -269,6 +382,8 @@ module.exports = {
     },
 
     ApplyColorInSourceData: function(OutSourceData, InFileName, InIndex, InColorCode, InKeywords){
+        //Log(InColorCode);
+        if(InColorCode === `Clear`) return false;
         //Log(OutSourceData[InFileName][InIndex].TagValue);
         let newValue = OutSourceData[InFileName][InIndex].TagValue
             , TypeSymbol = Super.MakeSymbol(`Type`, InKeywords)
