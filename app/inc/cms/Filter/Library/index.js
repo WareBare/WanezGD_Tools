@@ -145,7 +145,7 @@ module.exports = {
                 TEXT: this.LibraryData.Version || `Name Required!`
                 , ON_CHANGE_FN: `_cms.OnChangeText_LibraryVersion(this)`
                 , LABEL: `Version`
-                , TOOL_TIP: `<img src="" onerror="console.log(\`test\`)" /><ul><li>Optional</li><li>Entirely up to you, what goes in this field.</li><li>this Added to archives if you intend to share the result as .zip.</li><li>Feature for later, unless you are using <i>Localizations</i>.</li></ul>`
+                , TOOL_TIP: `<img src="" onerror="console.log(\`test\`)" /><ul><li>Optional</li><li>Entirely up to you, what goes in this field.</li><li>Feature for later, when you can package color codes for others.</li></ul>`
                 , SETTINGS: ` style="width: 50px;"`
                 , ERROR_MSG: ``
             });
@@ -244,6 +244,8 @@ module.exports = {
     
     content_: function(InContentType){
         let outStr = ``;
+
+        if(!Super.IsPathCorrect()) return `<span class="Msg_Warn">You must set the correct Path in "Settings" first, if you think you got it right please check if you have an ArchiveTool.exe inside that directory.</span>`;
         
         this.GroupData = Super.GetClassData(`GroupData`);
 
@@ -593,6 +595,8 @@ module.exports = {
     
     sidebarBtns_: function(){
         let outButtons = [];
+
+        if(!Super.IsPathCorrect()) return outButtons;
         
         if(appConfig.get(`GrimDawn.Paths.Game`)){
             outButtons.push({
@@ -620,6 +624,8 @@ module.exports = {
         return outButtons;
     },
     sidebarList_: function(){
+        if(!Super.IsPathCorrect()) return {};
+
         let OutList = {}
             , LibraryData = Super.GetLibraryData();
         

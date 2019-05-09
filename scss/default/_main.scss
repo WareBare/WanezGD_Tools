@@ -18,6 +18,11 @@ html{
     height: 100%;
 }
 
+a:link, span.Link{
+    cursor: pointer;
+    color: #6060C0;
+}
+
 #wzLoadingScreen{
     position: absolute;
     top: 0;

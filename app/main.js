@@ -2,8 +2,62 @@
  * Created by WareBare on 8/22/2016.
  */
 
-const {app, BrowserWindow} = require('electron');
+const {app, BrowserWindow, dialog} = require('electron');
 const {} = require('electron');
+const { autoUpdater }  = require("electron-updater");
+//AppUpdater = require(`./updater.js`);
+// Put the next line within the window creation function
+
+let PeriodicChecker = setInterval(() => {
+    autoUpdater.checkForUpdates();
+  }, 3600000);
+
+class AppUpdater {
+    constructor() {
+      //log.transports.file.level = 'info';
+      //autoUpdater.logger = log;
+      //autoUpdater.checkForUpdatesAndNotify();
+
+
+      autoUpdater.checkForUpdates();
+
+      autoUpdater.on('update-available', this.OnUpdateAvailable);
+      autoUpdater.on('update-not-available', this.OnUpdateNotAvailable);
+      autoUpdater.on('update-downloaded', this.OnUpdateDownloaded);
+    }
+
+
+    OnUpdateAvailable(){
+        clearInterval(PeriodicChecker);
+    }
+
+    OnUpdateNotAvailable(){
+        //setTimeout(() => autoUpdater.checkForUpdates(), 10000);
+    }
+
+    OnUpdateDownloaded(){
+        clearInterval(PeriodicChecker);
+        dialog.showMessageBox({
+            title: 'Update Ready to Install',
+            message: 'Update has been downloaded',
+            buttons: [
+                'Install Later',
+                'Install Now'
+            ],
+            defaultId: 1
+        }, (response) => {
+            if (response === 0) {
+                dialog.showMessageBox({
+                    title: 'Installing Later',
+                    message: 'Update will be installed when you exit the app'
+                });
+            } else {
+                autoUpdater.quitAndInstall();
+                setTimeout(() => app.quit(), 1000);
+            }
+        });
+    }
+}
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -43,6 +97,7 @@ function createWindow () {
         win = null;
     });
     
+    new AppUpdater();
 }
 
 // This method will be called when Electron has finished

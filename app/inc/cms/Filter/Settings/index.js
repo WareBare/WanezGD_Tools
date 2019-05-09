@@ -46,6 +46,10 @@ module.exports = {
         wzReloadCMS(10);
     },
 
+    OnSubmitForm_bEnableSymbols: function(el){
+        appConfig.set(`Filter.bEnableSymbols`, el.checked);
+    },
+
     MakeContentForLocaleManagement: function(){
         let outStr = ``
             , tempFormItemOutput = ``;
@@ -97,8 +101,7 @@ module.exports = {
 
             tempFormItemOutput += ``;
             tempFormItemOutput += Super.tplContent.CheckBox.wzReplace({
-                TEXT: Super.GetGrimDawnPath()
-                , ON_CLICK_FN: `_cms.OnSubmitForm_bZipChanges(this)`
+                ON_CLICK_FN: `_cms.OnSubmitForm_bZipChanges(this)`
                 , LABEL: `Zip Changes`
                 , B_CHECKED: (appConfig.get(`Filter.bZipChanges`)) ? ` CHECKED` : ``
                 //, SETTINGS: ` style="width: 750px;"`
@@ -130,7 +133,18 @@ module.exports = {
      */
     MakeContentForFilterManagement: function(){
         let outStr = ``
-            , tempFormItemOutput = `Coming Soon`;
+            , tempFormItemOutput = ``;
+
+        if(typeof appConfig.get(`Filter.bEnableSymbols`) === `undefined`) appConfig.set(`Filter.bEnableSymbols`, true);
+        
+        tempFormItemOutput += `Symbols are things like (S) for set items. Uncheck "Enable Symbols" if you don't want those.<br />`;
+        tempFormItemOutput += Super.tplContent.CheckBox.wzReplace({
+            ON_CLICK_FN: `_cms.OnSubmitForm_bEnableSymbols(this)`
+            , LABEL: `Enable Symbols`
+            , B_CHECKED: (appConfig.get(`Filter.bEnableSymbols`)) ? ` CHECKED` : ``
+            //, SETTINGS: ` style="width: 750px;"`
+            //, ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
+        });
 
         outStr += Super.tplContent.FormContainer.wzReplace({
             TITLE: `Filter Overview`
@@ -161,7 +175,7 @@ module.exports = {
         if(Super.IsPathCorrect()){
             outStr += this.MakeContentForLocaleManagement();
             outStr += `<br />`;
-            //outStr += this.MakeContentForFilterManagement();
+            outStr += this.MakeContentForFilterManagement();
         } 
 
         return outStr;

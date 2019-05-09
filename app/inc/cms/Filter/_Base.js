@@ -304,7 +304,7 @@ module.exports = {
     MakeSymbol: function(InKeywordKey, InKeywordValue){
         let outStr = ``;
 
-        if(typeof InKeywordValue !== `undefined`){
+        if(typeof InKeywordValue !== `undefined` && appConfig.get(`Filter.bEnableSymbols`)){
             // --- Super.GetClassData(`KeywordSymbols`)[`Type.${InKeywords.Type}`] || ``
             outStr = this.GetClassData(`KeywordSymbols`)[`${InKeywordKey}.${InKeywordValue[InKeywordKey]}`] || ``;
             //Log(InKeywordValue);
