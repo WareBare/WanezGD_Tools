@@ -15,7 +15,7 @@ A small program to add colors to item Nameplates on the ground and Tooltips. The
 # How To Use
 
 * Download the Setup.exe on the Releases page, it may trigger some anti-virus software due to the fact it is an unsigned app and anti-virus software is suspicious of those.
-* Go To "Settings" und "Filter" via the main Navigation on the left.
+* Go To "Settings" under "Filter" via the main Navigation on the left.
 * Set the Path to your Grim Dawn Directory.
   * **If you are using a Translation**: Check "Use Localization" to make the Select Box appear and select your language. 
     * *Note:* The program will create a new .zip when you save the color changes, however, it will be larger in size, if this is a problem - you may uncheck "Zip Changes" and the resulting files will be created inside /Grim Dawn/localization/ where you can move them into a .zip of your choosing.
