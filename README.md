@@ -18,7 +18,7 @@ A small program to add colors to item Nameplates on the ground and Tooltips. The
 * Go To "Settings" under "Filter" via the main Navigation on the left.
 * Set the Path to your Grim Dawn Directory.
   * **If you are using a Translation**: Check "Use Localization" to make the Select Box appear and select your language. 
-    * *Note:* The program will create a new .zip when you save the color changes, however, it will be larger in size, if this is a problem - you may uncheck "Zip Changes" and the resulting files will be created inside /Grim Dawn/localization/ where you can move them into a .zip of your choosing.
+    * *Note:* The program will create a new .zip when you save the color changes - you may uncheck "Zip Changes" and the resulting files will be created inside /Grim Dawn/localization/ where you can move them into a .zip of your choosing.
 * You may now go to "Library" via the main Navigation on the left.
 * Select the ColorCoding Preset from the list on the right (Full Rainbow or Basic Highlighting).
   * **ReadOnly** entries can be copied into a new Library entry, where you can change the colors. This is just to assure future changes to "Core" entries won't be affected by personal adjustments for Colors & Categorizations, this way you will always have an entry to go back to if an update made one of yours unusable (just in case).
