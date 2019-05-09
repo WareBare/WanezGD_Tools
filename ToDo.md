@@ -6,115 +6,41 @@
 
 ---
 
-# v0.1
-
-## New Major Features
-
-### Source Files
-
-* [x] Extract Game files to UserData (only text_en.arc).
-  * [x] Parse files and prepare for editing.
-  * [x] Edit Parsed Data. (Using information from Library)
-  * [x] Save Edited Data (Only those that have been changed).
-* [x] Translation support.
-
-  * [x] Change necessary files and save a new zip.
-  * [x] Change Name for selection in in-game options.
-* [x] Update Database.
-
-### Library
-
-* [x] New System to manage "Custom Filters" and "Presets".
-* [x] Sidebar using Library data.
-  
-  * [x] Reload Tag data (as this may change between filters)
-* Presets:
-  * [x] fullRainbow
-  * [x] basicHighlighting
-* [x] Allow adding new Library Entry based on existing filter/preset.
-* [x] Coloring-Group Manager.
-
-### Add Items/Affixes
-
-* [x] Data Storage overhaul.
-* [x] End-User can add custom tags (MI, Affixes). This is the new way of determining colors in groups.
-
-  * [x] Step 1: Enter Name (in language) into Filter field to narrow down the available selections
-  * [x] Step 2: [Type]
-  * [x] Step 2: [Classification]
-  * [x] Step 4: [Group]
-
-### Additional Customization
-
-* [x] Custom Color-Groups.
-
-  * [x] Drag & Drop to manage Type, Classification and Group.
-  
-
-## UI
-
-### Navigation
-
-* [x] Settings
-
-  * General
-
-    * [x] Path to Grim Dawn and check if exist.
-    * [x] Language/Localization select.
-    
-  * Tag Manager
-    * [x] New Items.
-    * [x] Add Type to Item.
-    * [x] Add Classification to Item.
-    * [x] Add Group to Item.
-  
-* Filter Groups
-    * [x] Group Selection
-    * [x] Create / Update / Delete Group
-    * [x] Edit Group Name/Default ColorCode
-    * [x] Edit Group Data (Type, Classification, Group)
-* [x] Library
-  * [x] New UI based on new "Grouping-System". (Keep the "Color Selection Boxes").
-
-### Optional
-
-* Visual Improvements!
-  * [x] List/Select Box (improve visibility for Hover/Select)
-  * [x] CheckBox/RadioButton (part 1) 
----
-
 # v0.2
 
 ## Major Features
 
 ### Additional Customization
 
-- [ ] Group Symbols.
+- Group Symbols:
+  * [ ] Add new Symbols.
+  
+  * [ ] Edit existing Symbols.
+  
+### Workflow improvements
+* Additional Tag Updater
+  
+  * [ ] Being able to copy&paste a list of new items (instead of adding them one by one)
+  
+### InTool Information
+* [ ] ChangeLog
 
 ## UI
 
 ### Data Display
-- [ ] Show tags with missing colors in Libraries.
+- [ ] List tags with missing colors in Libraries.
 - [ ] List all information in a nice overview.
-### Optional
-* Visual Improvements!
-
-  * [ ] CheckBox/RadioButton (part 2)
-  * [ ] All Buttons
-  * - [ ] 
-
-## Documentation
-
-### ReadMe
-- [ ] Soon
-
-### Wiki
-- [ ] Soon
-
-### Forum
-- [ ] Soon
+### Visual Improvements
+* [ ] CheckBox/RadioButton (part 2)
+* All Buttons
+  * [ ] Sidebar Buttons (performs action for content)
+  * [ ] Sidebar List-Buttons (changes contentType)
 
 ## DevTools (speed up Database updates & data integrity checks)
 
 - [ ] Merge Tag Info from AppData & UserData.
   - [ ] Check for duped entries and add them to all Libraries as Customizations. (more of a global feature which applies to program updates)
+
+---
+
+# v0.3
