@@ -81,7 +81,7 @@ function createWindow () {
     });
 
     win.maximize();
-    win.setMenu(null);
+    if(app.getName() !== `Electron`) win.setMenu(null);
 
     // and load the index.html of the app.
     win.loadURL(`file://${__dirname}/index.html`);

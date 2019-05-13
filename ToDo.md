@@ -23,7 +23,7 @@
   * [ ] Being able to copy&paste a list of new items (instead of adding them one by one)
   
 ### InTool Information
-* [ ] ChangeLog
+* [x] ChangeLog
 
 ## UI
 

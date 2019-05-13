@@ -7,7 +7,9 @@
         "ID": "app_Nav",
         "CONTENT": "myNav",
         "Items":{
-            "News":{}
+            "News":{
+                "Change Log": []
+            }
             , "Filter":{
                 "Settings":[]
                 , "Library":[]

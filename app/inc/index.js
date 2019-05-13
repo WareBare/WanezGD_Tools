@@ -129,3 +129,14 @@ UseMarkdownParsingOnURL = function(InURL, InHeaderStr, InContainerClass = `md_ch
     
     return `<div id="${InContainerClass}" class="md">${outHTML}</div>`;
 };
+UseMarkdownParsingOnContent = function(InContentMD, HeaderStr, ContainerClass = `md_changelog`){
+    let out_ = ``;
+    
+    out_ += marked(
+        `# ${HeaderStr}\n` +
+        `# Table of Contents\n` +
+        markdown_toc(InContentMD).content +
+        InContentMD);
+    
+    return `<div id="${ContainerClass}" class="md">${out_}</div>`;
+};
