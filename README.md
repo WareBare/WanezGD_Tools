@@ -1,4 +1,4 @@
-# WanezGD_Tools (v0.1)
+# WanezGD_Tools
 
 *Unofficial Filter Tool for Grim Dawn using Color Coding to quickly see useful stats for your current build*.
 

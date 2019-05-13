@@ -20,6 +20,12 @@ module.exports = {
 
         wzReloadCMS(10);
     },
+    OnSubmitForm_GdPathAdd: function(el){
+        appConfig.set(`GrimDawn.Paths.UserData`, el.value);
+        Super.Init();
+
+        wzReloadCMS(10);
+    },
 
     OnSubmitForm_bUseLanguage: function(el){
         appConfig.set(`Filter.bUseLocale`, el.checked);
@@ -166,6 +172,16 @@ module.exports = {
             , SETTINGS: ` style="width: 750px;"`
             , ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
         });
+        if(Super.IsPathCorrect() && !Super.IsUsingLocale()){
+            tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
+                TEXT: appConfig.get(`GrimDawn.Paths.UserData`) || ``
+                , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPathAdd(this)`
+                , LABEL: `Grim Dawn - User Data Path [optional]`
+                , SETTINGS: ` style="width: 750px;"`
+                , TOOL_TIP: `<ul><li>Optional</li><li>Localizations are not affected by this.</li><li>This can be used if you are experiencing tag issues</li><li>Example: C:/Users/Ware/Documents/My Games/Grim Dawn</li></ul>`
+                , ERROR_MSG: ``
+            });
+        }
 
         outStr += Super.tplContent.FormContainer.wzReplace({
             TITLE: `Settings`

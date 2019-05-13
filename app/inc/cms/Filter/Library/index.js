@@ -145,7 +145,7 @@ module.exports = {
                 TEXT: this.LibraryData.Version || `Name Required!`
                 , ON_CHANGE_FN: `_cms.OnChangeText_LibraryVersion(this)`
                 , LABEL: `Version`
-                , TOOL_TIP: `<img src="" onerror="console.log(\`test\`)" /><ul><li>Optional</li><li>Entirely up to you, what goes in this field.</li><li>Feature for later, when you can package color codes for others.</li></ul>`
+                , TOOL_TIP: `<ul><li>Optional</li><li>Entirely up to you, what goes in this field.</li><li>Feature for later, when you can package color codes for others.</li></ul>`
                 , SETTINGS: ` style="width: 50px;"`
                 , ERROR_MSG: ``
             });
@@ -394,7 +394,7 @@ module.exports = {
             , colorCode = `${TypeSymbol}${ClassificationSymbol}${GroupSymbol}{^${InColorCode.toUpperCase()}}`;
         
         if(newValue.includes(`{^E}`)){
-            newValue = `${newValue.replace(`{^E}`, colorCode)}`; // {^E}
+            newValue = `${newValue.replace(`{^E}`, `${colorCode}`)}{^E}`;
         }else if(newValue.match(/{\^[A-Za-z]}/g)){
             newValue = newValue.replace(/{\^[A-Za-z]}/g, colorCode);
         }else if(newValue.startsWith(`[`)){
@@ -402,6 +402,10 @@ module.exports = {
             //Log(newValue);
         }else if(newValue.match(RegexGlobalLetters)){
             newValue = `${colorCode}${newValue}`;
+            //Log(newValue);
+        }
+        if(OutSourceData[InFileName][InIndex].TagKey.includes(`Conversion`)){
+            newValue += `{^E}`;
             //Log(newValue);
         }
 
@@ -517,12 +521,15 @@ module.exports = {
             for(let fileKey in SourceData){
                 if(SourceData[fileKey][0].bUpdated){
                     wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
+                    if(appConfig.get(`GrimDawn.Paths.UserData`) && appConfig.get(`GrimDawn.Paths.UserData`) !== ``){
+                        wzIO.file_put_contents(`${appConfig.get(`GrimDawn.Paths.UserData`)}/text_en/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
+                    }
                 }
             }
             // ---
         }
         
-        Log(SourceData);
+        //Log(SourceData);
         /*
         fs.readFile(`${Super.GetGrimDawnPath()}/localization/community_russian_bak.zip`, function(err, data) {
             if (err) throw err;

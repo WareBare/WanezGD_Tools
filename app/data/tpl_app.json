@@ -36,7 +36,7 @@
         "hasConsole": true,
         "tpl": {
             "console": "<div id=\"footerConsole\"><div class=\"header\"></div></div>",
-            "body": "<div id=\"footerBody\"><div class=\"left\">v{VERSION}</div><div class=\"center\">{COPYRIGHT}</div><div class=\"right\">{CONTACT} | WanezProjects Discord Group: <span class=\"Link\" title=\"Opens link in Browser on click.\" onclick=\"require('electron').shell.openExternal(`https://discord.gg/ru6eU2p`)\">https://discord.gg/ru6eU2p</span></div></div>"
+            "body": "<div id=\"footerBody\"><div class=\"left\">v{VERSION}</div><div class=\"center\">{COPYRIGHT}</div><div class=\"right\">{CONTACT} | WanezProjects Discord Server: <span class=\"Link\" title=\"Opens link in Browser on click.\" onclick=\"require('electron').shell.openExternal(`https://discord.gg/ru6eU2p`)\">https://discord.gg/ru6eU2p</span></div></div>"
             , "oldUpdate": "<span id=\"installUpdate\">checking for Updates...</span>"
         }
     }
