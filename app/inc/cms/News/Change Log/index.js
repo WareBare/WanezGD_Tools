@@ -2,19 +2,24 @@
  * Created by WareBare on 05/13/2019.
  */
 
+
+
 module.exports = {
     tplContent: {},
     
+    
+
     content_: function($contentType){
         let url = `https://api.github.com/repos/WareBare/WanezGD_Tools/releases`;
         
+        // <span class=\"Link\" title=\"Opens link in Browser on click.\" onclick=\"require('electron').shell.openExternal(`https://discord.gg/ru6eU2p`)\">https://discord.gg/ru6eU2p</span>
         
         fetchUrl(`${url}`, function(err, meta, InBody){
             if(err){ console.error(err); return false; }
             let releasesData = JSON.parse(InBody.toString())
                 , contentMD = ``;
             for(let i = 0; i < releasesData.length; i++){
-                contentMD += `\r\n# ${releasesData[i].name}\r\n${releasesData[i].body}`;
+                contentMD += `\r\n---\r\n# ${releasesData[i].name}\r\n${releasesData[i].body}\r\n`;
             }
             document.getElementById(`md_changelog`).innerHTML = marked(
                 `# Change Log\r\n` +
@@ -29,11 +34,9 @@ module.exports = {
                 `---` +
                 `\r\n` +
                 `# Table of Contents\r\n` +
-                markdown_toc(contentMD).content +
-                `\r\n` +
-                `---` +
-                contentMD
+                markdown_toc(contentMD).content
             );
+            document.getElementById(`md_changelog`).innerHTML += SanitizeLinks(marked(contentMD));
         });
         
         return `<div id="md_changelog" class="md">Loading...</div>`;

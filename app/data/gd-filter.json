@@ -1,5 +1,40 @@
 {
     "Tags": {
+        "tagGDX2EndlessDungeon_S202": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2ItemTest2": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagGDX2ItemTest": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagGDX1_NPC_S_H": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "Set"
+        },
+        "tagGDX1_NPC_S_S": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "Set"
+        },
+        "tagGDX1_NPC_S_T": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "Set"
+        },
+        "tagGDX1_NPC_S_F": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "Set"
+        },
         "tagGDX2WeaponAxeB201": {
             "Classification": "Rare",
             "Type": "MI Item",
@@ -61,8 +96,8 @@
             "Group": "None"
         },
         "tagGDX2WeaponSwordD205": {
-            "Classification": "Rare",
-            "Type": "MI Item",
+            "Classification": "Legendary",
+            "Type": "Regular Item",
             "Group": "None"
         },
         "tagGDX2WeaponGun1hB201": {
@@ -13080,7 +13115,7 @@
         {
             "DisplayName": "Full Rainbow"
             , "PackageName": "fullRainbow"
-            , "Version": "0.1"
+            , "Version": "1.1.2.3"
             , "bReadOnly": true
             , "Data": [
                 {
@@ -13138,7 +13173,7 @@
         } , {
             "DisplayName": "Basic Highlighting"
             , "PackageName": "basicHighlighting"
-            , "Version": "0.1"
+            , "Version": "1.1.2.3"
             , "bReadOnly": true
             , "Data": [
                 {

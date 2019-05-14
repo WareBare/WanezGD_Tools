@@ -40,6 +40,39 @@ _app.create_();
 wzCMS(appConfig.get('cms'));
 
 
+RefreshNav = function(){
+    let navElement = document.getElementById(`app_Nav`);
+
+    navElement.innerHTML = _app.genNav(false).CONTENT;
+};
+
+SanitizeLinks = function(InHTML){
+    let outSanitizedHTML = ``
+        , div = document.createElement('div')
+        , loopElement;
+
+    div.innerHTML = InHTML.trim();
+
+    let linkElements = div.getElementsByTagName(`a`);
+
+    for(let i = 0; i < linkElements.length; i++){
+        loopElement = document.createElement(`span`);
+        loopElement.setAttribute(`class`, `Link`);
+        loopElement.setAttribute(`title`, `Opens in default Browser: ${linkElements[i].getAttribute(`href`)}`);
+        loopElement.setAttribute(`onClick`, `require('electron').shell.openExternal('${linkElements[i].getAttribute(`href`)}')`);
+        loopElement.setAttribute(`onContextMenu`, `require('electron').clipboard.writeText('${linkElements[i].getAttribute(`href`)}')`);
+        loopElement.innerHTML = linkElements[i].innerHTML;
+
+        linkElements[i].parentNode.replaceChild(loopElement, linkElements[i]);
+    }
+
+    //Log(div.innerHTML);
+
+    outSanitizedHTML = div.innerHTML;
+
+    return outSanitizedHTML;
+};
+
 
 let keyUp = (e) => {
     //console.log(e.keyCode);
@@ -120,12 +153,12 @@ UseMarkdownParsingOnURL = function(InURL, InHeaderStr, InContainerClass = `md_ch
                 `\r\n---\r\n` +
                 `# Table of Contents\r\n` +
                 markdown_toc(body.toString()).content +
-                `\r\n---\r\n` +
-                body.toString()
+                `\r\n---\r\n`
                 );
             document.getElementById(`${InContainerClass}`).innerHTML = outHTML;
+            document.getElementById(`${InContainerClass}`).innerHTML += SanitizeLinks(marked(body.toString()));
         }
     );
     
-    return `<div id="${InContainerClass}" class="md">${outHTML}</div>`;
+    return `<div id="${InContainerClass}" class="md">Loading...</div>`;
 };

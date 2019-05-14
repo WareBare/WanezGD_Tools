@@ -8,30 +8,34 @@
 
 # v0.2
 
-## Major Features
-
-### Additional Customization
+## Features
 
 - Group Symbols:
   * [ ] Add new Symbols.
   
   * [ ] Edit existing Symbols.
   
-### Workflow improvements
 * Additional Tag Updater
   
   * [ ] Being able to copy&paste a list of new items (instead of adding them one by one)
   
-### InTool Information
-* [x] ChangeLog
+* [x] ChangeLog.
+  * [x] Link security.
+* [x] Zip creation for Text_EN.
+* [x] Auto-Updater.
+* [x] Open Directory in Explorer.
 
 ## UI
+
+### Menus
+
+* [x] Main Menu updated to work with "Enablers".
 
 ### Data Display
 - [ ] List tags with missing colors in Libraries.
 - [ ] List all information in a nice overview.
 ### Visual Improvements
-* [ ] CheckBox/RadioButton (part 2)
+* [x] CheckBox/RadioButton (part 2)
 * All Buttons
   * [ ] Sidebar Buttons (performs action for content)
   * [ ] Sidebar List-Buttons (changes contentType)

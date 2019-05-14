@@ -8,7 +8,7 @@ module.exports = {
     content_: function($contentType){
         let url = `https://api.github.com/repos/WareBare/WanezGD_Tools/releases`;
         fetchUrl(`${url}`, function(error, meta, body){
-            Log(JSON.parse(body.toString()));
+            //Log(JSON.parse(body.toString()));
             /*
                 outHTML = marked(
                     `# News\r\n` +

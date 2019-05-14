@@ -5,38 +5,84 @@
 const {app, BrowserWindow, dialog} = require('electron');
 const {} = require('electron');
 const { autoUpdater }  = require("electron-updater");
+
+const ipc = require('electron').ipcMain;
 //AppUpdater = require(`./updater.js`);
 // Put the next line within the window creation function
 
 let PeriodicChecker = setInterval(() => {
     autoUpdater.checkForUpdates();
-  }, 3600000);
+  }, 600000); // 3600000
 
 class AppUpdater {
     constructor() {
-      //log.transports.file.level = 'info';
-      //autoUpdater.logger = log;
-      //autoUpdater.checkForUpdatesAndNotify();
+        //log.transports.file.level = 'info';
+        //autoUpdater.logger = log;
+        //autoUpdater.checkForUpdatesAndNotify();
 
+        ipc.on('quitAndInstall', function(event, data){
+            autoUpdater.quitAndInstall();
+            setTimeout(() => app.quit(), 1000);
+        });
 
-      autoUpdater.checkForUpdates();
+        autoUpdater.checkForUpdates();
 
-      autoUpdater.on('update-available', this.OnUpdateAvailable);
-      autoUpdater.on('update-not-available', this.OnUpdateNotAvailable);
-      autoUpdater.on('update-downloaded', this.OnUpdateDownloaded);
+        //autoUpdater.on('update-available', this.OnUpdateAvailable);
+        //autoUpdater.on('update-not-available', this.OnUpdateNotAvailable);
+        //autoUpdater.on('update-downloaded', this.OnUpdateDownloaded);
+
+        autoUpdater.on('update-available', () => {
+            clearInterval(PeriodicChecker);
+            ipc.on('invokeActionAvailable', function(event, data){
+                event.sender.send('updateAvailable', data);
+            });
+        });
+        autoUpdater.on('update-not-available', () => {
+            ipc.on('invokeActionUnavailable', function(event, data){
+                event.sender.send('updateNotAvailable', `data`);
+            });
+        });
+        autoUpdater.on('update-downloaded', (InInfo) => {
+            clearInterval(PeriodicChecker);
+            ipc.on('invokeActionReady', function(event, data){
+                event.sender.send('updateDownloaded', InInfo);
+            });
+        });
+        autoUpdater.on('error', (ev, err) => {
+            //event.sender.send('updateError', err);
+            
+            ipc.on('invokeActionError', function(event, data){
+                event.sender.send('updateError', err);
+            });
+        });
     }
 
 
     OnUpdateAvailable(){
         clearInterval(PeriodicChecker);
+        
+        ipc.on('invokeActionAvailable', function(event, data){
+            //let result = processData(data);
+            event.sender.send('updateAvailable', data);
+        });
     }
 
     OnUpdateNotAvailable(){
-        //setTimeout(() => autoUpdater.checkForUpdates(), 10000);
+        ipc.on('invokeActionUnavailable', function(event, data){
+            //let result = processData(data);
+            event.sender.send('updateNotAvailable', `data`);
+        });
     }
 
-    OnUpdateDownloaded(){
+    OnUpdateDownloaded(event, InInfo){
         clearInterval(PeriodicChecker);
+
+        ipc.on('invokeActionReady', function(event, data){
+            //let result = processData(data);
+            event.sender.send('updateDownloaded', InInfo.version);
+        });
+
+        /*
         dialog.showMessageBox({
             title: 'Update Ready to Install',
             message: 'Update has been downloaded',
@@ -56,6 +102,7 @@ class AppUpdater {
                 setTimeout(() => app.quit(), 1000);
             }
         });
+        */
     }
 }
 
@@ -87,6 +134,7 @@ function createWindow () {
     win.loadURL(`file://${__dirname}/index.html`);
 
     // Open the DevTools.
+    if(app.getName() === `Electron`) win.webContents.openDevTools();
     //win.webContents.openDevTools();
 
     // Emitted when the window is closed.
@@ -97,7 +145,7 @@ function createWindow () {
         win = null;
     });
     
-    new AppUpdater();
+    if(app.getName() !== `Electron`) new AppUpdater();
 }
 
 // This method will be called when Electron has finished

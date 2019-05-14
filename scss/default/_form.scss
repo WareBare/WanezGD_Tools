@@ -67,11 +67,73 @@
     */
     label.CheckBox{
         display: inline-block;
+        padding: 2px 5px 2px 5px;
+        margin: 10px;
+        input{
+            
+            &[type="checkbox"]{
+                //display: none;
+                position: absolute;
+                height: 18px;
+                width: 18px;
+                //border-radius: 15px;
+                //margin: -10px;
+            }
+            
+            // CheckBox - CHECKED
+            &:CHECKED + span{
+                color: $Radio_Color01_CHECKED;
+                background: $Radio_Gradient01_CHECKED;
+
+                //margin: 6px 6px -6px -6px;
+
+                text-shadow: 0 1px 1px rgba(255,255,255,.35);
+                //transform: translate(0, 5px);
+                //box-shadow: 1px -1px 0 rgba(0, 0, 0, .3);
+
+                &:HOVER{
+                    //margin: 3px 3px -3px -3px;
+                    //box-shadow: -3px 3px 0 rgba(0, 0, 0, .3);
+
+                    color: $Radio_Color01_CHECKED_HOVER;
+                    background: $Radio_Gradient01_CHECKED_HOVER;
+                }
+            }
+        }
+        span{
+            display: inline-block;
+            text-align: center;
+            border-width: 1px;
+            padding: 2px 5px 2px 30px;
+            transition: all .15s linear 0s;
+            cursor: pointer;
+
+            border-radius: 5px;
+
+            color: $Radio_Color01;
+            background: $Radio_Gradient01;
+
+            text-shadow: 0 1px 1px rgba(150, 150, 150, .35);
+            //box-shadow: -6px 6px 0 rgba(0, 0, 0, .3);
+
+            // CheckBox - HOVER
+            &:HOVER{
+                //margin: 3px 3px -3px -3px;
+                color: $Radio_Color01_HOVER;
+                background: $Radio_Gradient01_HOVER;
+
+                //box-shadow: -3px 3px 0 rgba(0, 0, 0, .3);
+            }
+        }
+    }
+    label.CheckBox_Large{
+        display: inline-block;
         padding: 10px;
         input{
             
             &[type="checkbox"]{
                 display: none;
+                //margin-left: 10px;
             }
             
             // CheckBox - CHECKED

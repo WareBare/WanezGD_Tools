@@ -14,7 +14,14 @@ let SourceData
     }
     , bPathCorrect = false
     , GrimDawnPath = false
-    , ExtractionPaths = [`resources\\Text_EN.arc`, `gdx1\\resources\\Text_EN.arc`, `gdx2\\resources\\Text_EN.arc`, `gdx3\\resources\\Text_EN.arc`];
+    , ExtractionPaths = [
+        `resources\\Text_EN.arc`
+        , `gdx1\\resources\\Text_EN.arc`
+        , `gdx2\\resources\\Text_EN.arc`
+        , `gdx3\\resources\\Text_EN.arc`
+        //, `survivalmode1\\resources\\Text_EN.arc`
+        //, `survivalmode2\\resources\\text_en.arc`
+    ];
 
 let FilterStorage = {
     GroupData: new eConfig({name: `gd-filter-groups`})
@@ -126,6 +133,7 @@ module.exports = {
         , TextField: `<label class="Default">{LABEL}<msg class="ErrorMsg">{ERROR_MSG}</msg><input type="text" value="{TEXT}" onChange="{ON_CHANGE_FN};" {SETTINGS} /></label>`
         , TextFieldWithTip: `<label data-wztip='{TOOL_TIP}' data-wztip-position="right" class="Default">{LABEL}<msg class="ErrorMsg">{ERROR_MSG}</msg><input type="text" value="{TEXT}" onChange="{ON_CHANGE_FN};" {SETTINGS} /></label>`
         , CheckBox: `<label class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
+        , CheckBoxWithTip: `<label data-wztip='{TOOL_TIP}' data-wztip-position="top" class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
         , CollapsibleContainer: `<fieldset class="Collapsible"><legend><span class="CollapsibleBTN" onClick="Super.OnClick_CollapsibleBTN(this);">+</span> {TITLE}</legend><div class="CollapsibleContents" style="display: none;">{CONTENTS}</div></fieldset>`
     },
 
@@ -171,13 +179,46 @@ module.exports = {
             OutResolve(Super.GatherTagFiles());
         }).then(function(){
             // only uncomment if source data is required on the first page. Will be ready in time otherwise.
-            //wzReloadCMS(10);
+            wzReloadCMS(10);
         });
 
     },
 
+    SetCMSForPathCorrect: function(bInPathCorrect){
+        let pathsToAdd = [`Filter/Settings/Manage Tags`, `Filter/Settings/Manage Groups`, `Filter/Library`]
+            , enablerData = appConfig.get(`Enablers`) || []
+            , loopIndex
+            , bForceReload = false;
+
+        for(let i = 0; i < pathsToAdd.length ; i++){
+            loopIndex = enablerData.findIndex( x => x === pathsToAdd[i] );
+            //Log(loopIndex);
+
+            
+            if(bInPathCorrect){
+                if(loopIndex === -1){
+                    enablerData.push(pathsToAdd[i]);
+                    bForceReload = true;
+                }
+            }else{
+                if(loopIndex !== -1){
+                    enablerData.splice(loopIndex, 1);
+                    bForceReload = true;
+                }
+            }
+        }
+
+        if(bForceReload){
+            appConfig.set(`Enablers`, enablerData);
+            //location.reload();
+            RefreshNav();
+        }
+    },
+
     OnLoad: function(){
         bPathCorrect = fs.pathExistsSync(`${this.GetGrimDawnPath()}\\ArchiveTool.exe`);
+
+        this.SetCMSForPathCorrect(bPathCorrect);
 
         if(!ClassData[`TagInfoData`]) ClassData[`TagInfoData`] = this.MakeTagInfoData();
         if(!ClassData[`Definitions`]) ClassData[`Definitions`] = this.MakeDefinitions();

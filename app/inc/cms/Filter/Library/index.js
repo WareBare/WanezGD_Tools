@@ -476,7 +476,7 @@ module.exports = {
             this.UpdateSourceTag(SourceData, `language`, `[C] {VALUE} ${this.contentType}`, true);
             if(appConfig.get(`Filter.bZipChanges`)){
                 // Save Filter as .zip using Locale in /localization/*.zip
-                Log(`Save Zip`);
+                //Log(`Save Zip`);
                 let zipSuffix = `_${this.contentType}_C_`;
                 // --- appConfig.get(`Filter.LocaleFileName`)
                 fs.readFile(`${savePath}/${appConfig.get(`Filter.LocaleFileName`)}`, function(err, data) {
@@ -502,13 +502,13 @@ module.exports = {
                             // JSZip generates a readable stream with a "end" event,
                             // but is piped here in a writable stream which emits a "finish" event.
                             wzNotify.save(`${appConfig.get(`Filter.LocaleFileName`).replace(`.zip`, `${zipSuffix}.zip`)}`);
-                            console.log("out.zip written.");
+                            //console.log("out.zip written.");
                         });
                     });
                 });
             }else{
                 // #ToDo Save Filter Files using Locale in /localization/
-                Log(`Save Locale Files`);
+                //Log(`Save Locale Files`);
                 for(let fileKey in SourceData){
                     if(SourceData[fileKey][0].bUpdated){
                         wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
@@ -518,15 +518,37 @@ module.exports = {
         }else{
             // Save Filter Files in /settings/
             savePath = `${Super.GetGrimDawnPath()}/settings/text_en`;
+            let zip = new JSZip()
+                , zipName = `${this.contentType}-${this.LibraryData.Version}.zip`;
+            
+            if(appConfig.get(`Filter.bMakeZipForTextEn`)){
+                //savePath = `${Super.GetGrimDawnPath()}/settings`;
+
+                Log(zipName);
+            }
             for(let fileKey in SourceData){
                 if(SourceData[fileKey][0].bUpdated){
                     wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
                     if(appConfig.get(`GrimDawn.Paths.UserData`) && appConfig.get(`GrimDawn.Paths.UserData`) !== ``){
                         wzIO.file_put_contents(`${appConfig.get(`GrimDawn.Paths.UserData`)}/text_en/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
                     }
+                    if(appConfig.get(`Filter.bMakeZipForTextEn`)){
+                        zip.file(`Grim Dawn/settings/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]));
+                    }
                 }
             }
             // ---
+            if(appConfig.get(`Filter.bMakeZipForTextEn`)){
+                zip
+                .generateNodeStream({type:'nodebuffer', streamFiles:true, compression: "DEFLATE"})
+                .pipe(fs.createWriteStream(`${Super.GetGrimDawnPath()}/settings/${zipName}`))
+                .on('finish', function () {
+                    // JSZip generates a readable stream with a "end" event,
+                    // but is piped here in a writable stream which emits a "finish" event.
+                    wzNotify.save(`settings/${zipName}`);
+                    //console.log("out.zip written.");
+                });
+            }
         }
         
         //Log(SourceData);
