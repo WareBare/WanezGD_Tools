@@ -135,6 +135,8 @@ module.exports = {
         , CheckBox: `<label class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
         , CheckBoxWithTip: `<label data-wztip='{TOOL_TIP}' data-wztip-position="top" class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
         , CollapsibleContainer: `<fieldset class="Collapsible"><legend><span class="CollapsibleBTN" onClick="Super.OnClick_CollapsibleBTN(this);">+</span> {TITLE}</legend><div class="CollapsibleContents" style="display: none;">{CONTENTS}</div></fieldset>`
+        , TextArea: `<label class="Default">{LABEL}<textarea onBlur="{ON_CHANGE_FN}">{VALUE}</textarea></label>`
+        , TextAreaWithTip: `<label class="Default" data-wztip='{TOOL_TIP}' data-wztip-position="bottom">{LABEL}<textarea onBlur="{ON_CHANGE_FN}" placeholder="{PLACEHOLDER}">{VALUE}</textarea></label>`
     },
 
     GrimDawnPath: false,
@@ -239,6 +241,7 @@ module.exports = {
         return outKeywordSymbols;
     },
     MakeTagInfoData: function(){
+        this.CheckIntegrityForTagData();
         let OutTagData = Object.assign({}, appData[`gd-filter`].Tags, FilterStorage[`TagInfoData`].store);
         
         return OutTagData;
@@ -633,6 +636,59 @@ module.exports = {
     },
     GetLibraryData: function(){
         return WzSanitizeJSON(ClassData[`LibraryData`]);
+    },
+
+    SaveParsedTagData: function(InData){
+        let newData = Object.assign({}, FilterStorage[`TagInfoData`].store, InData);
+
+        this.CheckIntegrityForTagData(newData, false, true);
+    },
+    FetchParsedTagData: function(){
+        let outStr = ``
+            , tagData = FilterStorage[`TagInfoData`].store;
+
+        for(let tagKey in tagData){
+            if(outStr !== ``) outStr += `\r\n`;
+            outStr += `${tagKey},${tagData[tagKey].Type},${tagData[tagKey].Classification}`;
+            if(tagData[tagKey].Group && tagData[tagKey].Group !== ``) outStr += `,${tagData[tagKey].Group}`;
+        }
+
+        return outStr;
+    },
+    CheckIntegrityForTagData: function(InNewData, bInCheckIfExists = false, bInAlwaysUpdate = false){
+        // ---
+        InNewData = InNewData || FilterStorage[`TagInfoData`].store;
+
+        let bChanged = bInAlwaysUpdate;
+
+        for(let tagKey in InNewData){
+            if(appData[`gd-filter`].Tags[tagKey]){
+                if(appData[`gd-filter`].Tags[tagKey].Type === InNewData[tagKey].Type &&
+                appData[`gd-filter`].Tags[tagKey].Classification === InNewData[tagKey].Classification){
+                    if(appData[`gd-filter`].Tags[tagKey].Group && InNewData[tagKey].Group){
+                        if(appData[`gd-filter`].Tags[tagKey].Group === InNewData[tagKey].Group){
+                            delete InNewData[tagKey];
+                            bChanged = true;
+                            //Log(InNewData[tagKey]);
+                        }
+                    }else{
+                        delete InNewData[tagKey];
+                        bChanged = true;
+                        //Log(InNewData);
+                    }
+                }
+            }
+        }
+
+        if(bChanged){
+            FilterStorage[`TagInfoData`].store = InNewData;
+            this.ResetClassData(`TagInfoData`);
+            wzReloadCMS(10);
+        }
+        
+    },
+    EmptyStorage: function(InStorageKey){
+        FilterStorage[InStorageKey].store = {};
     },
 
 

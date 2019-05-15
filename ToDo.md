@@ -17,7 +17,7 @@
   
 * Additional Tag Updater
   
-  * [ ] Being able to copy&paste a list of new items (instead of adding them one by one)
+  * [x] Being able to copy&paste a list of new items (instead of adding them one by one)
   
 * [x] ChangeLog.
   * [x] Link security.

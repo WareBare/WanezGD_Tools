@@ -243,11 +243,19 @@ module.exports = {
         
         return Output;
     },
+
+    OnClick_EmptyPersonalTagData: function(){
+        Super.EmptyStorage(`TagInfoData`);
+    },
     
     sidebarBtns_: function(){
         let outButtons = [];
 
         // ---
+        outButtons.push({
+            "ONCLICK": "_cms.OnClick_EmptyPersonalTagData()",
+            "TEXT": "Reset Tags"
+        });
 
         return outButtons;
     },

@@ -160,6 +160,86 @@ module.exports = {
         return outStr;
     },
 
+    
+
+    TagsAreaContents: ``,
+    ParseTagsArea: function(InContents){
+        if(InContents === ``) return false;
+
+        InContents = InContents.replace(/(<|>|"|'|`|;|\r)/g, ``);
+        let contentSplitByReturn = InContents.split(`\n`)
+            , loopSplit
+            , bError = false
+            , tagData = {};
+
+        for(let i = 0; i < contentSplitByReturn.length; i++){
+            // contentSplitByReturn[i]
+            loopSplit = contentSplitByReturn[i].split(`,`);
+            if(loopSplit.length >= 3 && loopSplit.length <= 4 && bError === false){
+                tagData[loopSplit[0].trim()] = {
+                    Type: loopSplit[1].trim()
+                    , Classification: loopSplit[2].trim()
+                    , Group: (loopSplit[3]) ? loopSplit[3].trim() : `None`
+                }
+            }else{
+                bError = true;
+            }
+        }
+
+        if(bError) {
+            wzNotify.err(`Data was invalid, please make sure it is the proper format.`, `Invalid Data!`);
+        }else{
+            Super.SaveParsedTagData(tagData);
+            wzNotify.save(`Data was saved successfully!`, `Data Saved!`);
+        }
+
+        return bError;
+
+        //Log(contentSplitByReturn);
+    },
+    OnClickTagsArea_AppendToUserData: function(el){
+        let bError = this.ParseTagsArea(this.TagsAreaContents);
+    },
+    OnClickTagsArea_LoadFromUserDataToClipboard: function(el){
+        clipboard.writeText(Super.FetchParsedTagData());
+    },
+    OnClickTagsArea_SaveToUserDataFromClipboard: function(el){
+        let bError = this.ParseTagsArea(clipboard.readText());
+
+    },
+    OnChangeArea_CheckTags: function(el){
+        this.TagsAreaContents = el.value;
+    },
+
+    MakeContent_AddTags: function(){
+        let outStr = ``
+            , tempFormItemOutput = ``;
+
+        tempFormItemOutput += `<span class="Msg_Warn">Existing personal tags will be overriden! The Data is merged using the new Data as priority.</span><br />`;
+
+        tempFormItemOutput += Super.tplContent.TextAreaWithTip.wzReplace({
+            VALUE: this.TagsAreaContents
+            , ON_CHANGE_FN: `_cms.OnChangeArea_CheckTags(this)`
+            , LABEL: `Text Area`
+            , PLACEHOLDER: `tagName,Type,Classification,Group\ntagGDX1_NPC_S_H,MI Item,Legendary,Set\ntagGDX2EndlessDungeon_S202,Regular Item,Legendary`
+            , TOOL_TIP: `Formatting is in CSV<br />New tags a seperated by a new line<br />tagName,Type,Classification,Group`
+            //, SETTINGS: ` style="width: 650px;"`
+            //, ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
+        });
+        //tempFormItemOutput += `<br />`;
+        tempFormItemOutput += `<span class="formBTN" onclick="_cms.OnClickTagsArea_AppendToUserData(this);" data-wztip='Saves Text Area contents to personal Tags (if formatted properly)' data-wztip-position="right">Save</span><br />`;
+        tempFormItemOutput += `<span class="formBTN" onclick="_cms.OnClickTagsArea_LoadFromUserDataToClipboard(this);" data-wztip='Writes all personal Tags to the clipboard' data-wztip-position="right">Export to Clipboard</span><br />`;
+        tempFormItemOutput += `<span class="formBTN" onclick="_cms.OnClickTagsArea_SaveToUserDataFromClipboard(this);" data-wztip='Saves the clipboard to personal Tags (if formatted properly)' data-wztip-position="right">Import from Clipboard</span><br />`;
+
+        // Finalize FORM
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Tag-Adder`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+
+        return outStr;
+    },
+
     MakeContent_Default: function(){
         let outStr = ``
             , tempFormItemOutput = ``;
@@ -174,7 +254,7 @@ module.exports = {
             TEXT: Super.GetGrimDawnPath()
             , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPath(this)`
             , LABEL: `Grim Dawn - Path`
-            , SETTINGS: ` style="width: 750px;"`
+            , SETTINGS: ` style="width: 650px;"`
             , ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
         });
         if(Super.IsPathCorrect() && !Super.IsUsingLocale()){
@@ -182,7 +262,7 @@ module.exports = {
                 TEXT: appConfig.get(`GrimDawn.Paths.UserData`) || ``
                 , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPathAdd(this)`
                 , LABEL: `Grim Dawn - User Data Path [optional]`
-                , SETTINGS: ` style="width: 750px;"`
+                , SETTINGS: ` style="width: 650px;"`
                 , TOOL_TIP: `<ul><li>Optional</li><li>Localizations are not affected by this.</li><li>This can be used if you are experiencing tag issues</li><li>Example: C:/Users/Ware/Documents/My Games/Grim Dawn</li></ul>`
                 , ERROR_MSG: ``
             });
@@ -197,6 +277,8 @@ module.exports = {
             outStr += this.MakeContentForLocaleManagement();
             outStr += `<br />`;
             outStr += this.MakeContentForFilterManagement();
+            outStr += `<br />`;
+            outStr += this.MakeContent_AddTags();
         } 
 
         return outStr;
