@@ -13115,7 +13115,7 @@
         {
             "DisplayName": "Full Rainbow"
             , "PackageName": "fullRainbow"
-            , "Version": "1.1.2.3"
+            , "Version": "1.1.2.4"
             , "bReadOnly": true
             , "Data": [
                 {
@@ -13173,7 +13173,7 @@
         } , {
             "DisplayName": "Basic Highlighting"
             , "PackageName": "basicHighlighting"
-            , "Version": "1.1.2.3"
+            , "Version": "1.1.2.4"
             , "bReadOnly": true
             , "Data": [
                 {
