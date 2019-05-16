@@ -64,7 +64,7 @@ module.exports = {
         wzReloadCMS(10);
     },
 
-    MakeContentForLocaleManagement: function(){
+    MakeContent_Localization: function(){
         let outStr = ``
             , tempFormItemOutput = ``;
 
@@ -91,6 +91,7 @@ module.exports = {
                 }
             }
             localeDefs = Super.MakeLocaleDefs(localeZips);
+            Log(localeDefs);
             for(let defIndex in localeDefs){
                 localeOptions.push({
                     TEXT: localeDefs[defIndex].Language || localeDefs[defIndex].language
@@ -130,7 +131,7 @@ module.exports = {
     /**
      * ex New Filter, Delete Filter, Rename Filter, ...
      */
-    MakeContentForFilterManagement: function(){
+    MakeContent_FilterOverview: function(){
         let outStr = ``
             , tempFormItemOutput = ``;
 
@@ -145,12 +146,15 @@ module.exports = {
             , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bEnableSymbols`)) ? `Add Symbols.` : `Not adding Symbols.`}</li><li>Symbols are used for sets and show as (S).</li></ul>`
         });
         
-        tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
-            ON_CLICK_FN: `_cms.OnClickCheckBox_bMakeZipForTextEn(this)`
-            , LABEL: `Create Zip`
-            , B_CHECKED: (appConfig.get(`Filter.bMakeZipForTextEn`)) ? ` CHECKED` : ``
-        , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bMakeZipForTextEn`)) ? `Creates Zip in addition to regular files.` : `Will not create Zip.`}</li><li>Creates a Zip for non-localized colors.</li><li class="Msg_Warn">Localizations have their own checkbox.</li></ul>`
-        });
+        if(!Super.IsUsingLocale()){
+            tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
+                ON_CLICK_FN: `_cms.OnClickCheckBox_bMakeZipForTextEn(this)`
+                , LABEL: `Create Zip`
+                , B_CHECKED: (appConfig.get(`Filter.bMakeZipForTextEn`)) ? ` CHECKED` : ``
+            , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bMakeZipForTextEn`)) ? `Creates Zip in addition to regular files.` : `Will not create Zip.`}</li><li>Creates a Zip for non-localized colors.</li><li class="Msg_Warn">Localizations have their own checkbox.</li></ul>`
+            });
+        }
+        
 
         outStr += Super.tplContent.FormContainer.wzReplace({
             TITLE: `Filter Overview`
@@ -274,9 +278,9 @@ module.exports = {
         });
 
         if(Super.IsPathCorrect()){
-            outStr += this.MakeContentForLocaleManagement();
+            outStr += this.MakeContent_Localization();
             outStr += `<br />`;
-            outStr += this.MakeContentForFilterManagement();
+            outStr += this.MakeContent_FilterOverview();
             outStr += `<br />`;
             outStr += this.MakeContent_AddTags();
         } 

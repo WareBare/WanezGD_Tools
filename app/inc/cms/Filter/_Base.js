@@ -393,7 +393,10 @@ module.exports = {
                         parsedData[`ZipName`] = InZipFile;
     
                         //Log(parsedData);
-                        LocaleDefs.push(parsedData);
+                        if(LocaleDefs.findIndex( x => x.ZipName === InZipFile ) === -1){
+                            LocaleDefs.push(parsedData);
+                        }
+                        
                         if(LocaleDefs.length == InMaxCount) wzReloadCMS(10);
                         //Log(LocaleDefs.length == InMaxCount);
                         //if()

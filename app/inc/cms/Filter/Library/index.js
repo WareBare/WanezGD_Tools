@@ -13,6 +13,7 @@ module.exports = {
     LibraryData: false,
     GroupData: false,
     CurrentPackageNameInput: ``,
+    bShowAdvancedOptions: false,
 
     CheckPackageNameDupe: function(){
         let bOutIsDupe = false, tempData;
@@ -105,8 +106,15 @@ module.exports = {
             this.LibraryData.Data.splice(dataIndex, 1);
             //Log(`Move DOWN`);
         }
+        Super.UpdateLibrary(this.contentType, this.LibraryData);
         //Log(this.LibraryData);
         //Log(Super.UpdateLibrary(this.contentType, this.LibraryData));
+    },
+
+    OnToggleCheckBox_ShowAdvancedOptions: function(el){
+        this.bShowAdvancedOptions = el.checked;
+
+        wzReloadCMS(10);
     },
 
     Content_Header: function(InLibraryData, InGroupData){
@@ -149,47 +157,59 @@ module.exports = {
                 , SETTINGS: ` style="width: 50px;"`
                 , ERROR_MSG: ``
             });
+            
+            tempFormItemOutput += Super.tplContent.CheckBox.wzReplace({
+                LABEL: `Show Advanced Options`
+                , ON_CLICK_FN: `_cms.OnToggleCheckBox_ShowAdvancedOptions(this)`
+                , VALUE: `ShowAdvancedOptions`
+                , B_CHECKED: (this.bShowAdvancedOptions) ? ` CHECKED` : ``
+            });
 
-            for(let groupKey in InGroupData){
-                if( InLibraryData.Data.findIndex( libData => libData[`GroupName`] == groupKey) === -1 ){
-                    groupItemsDefault.push({
-                        Text: `${groupKey}`
-                        , ActionData: `manage::${groupKey}`
-                        , bChecked: (this.ActiveListItem === groupKey)
+            /// ADVANCED OPTIONS
+            if(this.bShowAdvancedOptions){
+                for(let groupKey in InGroupData){
+                    if( InLibraryData.Data.findIndex( libData => libData[`GroupName`] == groupKey) === -1 ){
+                        groupItemsDefault.push({
+                            Text: `${groupKey}`
+                            , ActionData: `manage::${groupKey}`
+                            , bChecked: (this.ActiveListItem === groupKey)
+                        });
+                    }
+                }
+                for(let i = 0; i < InLibraryData.Data.length; i++){
+                    groupItemsLibrary.push({
+                        Text: `${InLibraryData.Data[i].GroupName}`
+                        , ActionData: `manage::${InLibraryData.Data[i].GroupName}`
+                        , bChecked: (this.ActiveListItem === InLibraryData.Data[i].GroupName)
+                        , OnClick: `_cms.OnClickListItem_GroupManage(this)`
                     });
                 }
-            }
-            for(let i = 0; i < InLibraryData.Data.length; i++){
-                groupItemsLibrary.push({
-                    Text: `${InLibraryData.Data[i].GroupName}`
-                    , ActionData: `manage::${InLibraryData.Data[i].GroupName}`
-                    , bChecked: (this.ActiveListItem === InLibraryData.Data[i].GroupName)
-                    , OnClick: `_cms.OnClickListItem_GroupManage(this)`
+                groupList.push({
+                    Name: `manage::Default`
+                    , Text: `Not Assigned`
+                    , Items: groupItemsDefault
                 });
+                groupList.push({
+                    Name: `manage::Library`
+                    , Text: `Assigned`
+                    , Items: groupItemsLibrary
+                });
+                tempFormItemOutput2 += new WZ.Core.cDragDropList({
+                    LegendName: `Manage Coloring-Groups`
+                    , elementGroup: `groupmanage`
+                    , OnDrop: `OnDropListItem_GroupManage`
+                    , Lists: groupList
+                    , SearchTerm: this.SearchTerm || ``
+                    , Width: 300
+                }).create_();
+    
+                if(this.ActiveListItem){
+                    // ---
+                    tempFormItemOutput2 += `<span class="Msg_Warn">Use Arrow Key Up/Down to move Coloring-Group.</span>`;
+                }
             }
-            groupList.push({
-                Name: `manage::Default`
-                , Text: `Not Assigned`
-                , Items: groupItemsDefault
-            });
-            groupList.push({
-                Name: `manage::Library`
-                , Text: `Assigned`
-                , Items: groupItemsLibrary
-            });
-            tempFormItemOutput2 += new WZ.Core.cDragDropList({
-                LegendName: `Manage Coloring-Groups`
-                , elementGroup: `groupmanage`
-                , OnDrop: `OnDropListItem_GroupManage`
-                , Lists: groupList
-                , SearchTerm: this.SearchTerm || ``
-                , Width: 300
-            }).create_();
 
-            if(this.ActiveListItem){
-                // ---
-                tempFormItemOutput2 += `<span class="Msg_Warn">Use Arrow Key Up/Down to move Coloring-Group.</span>`;
-            }
+            
         }
         
         outStr += Super.tplContent.FormContainer.wzReplace({
@@ -397,7 +417,7 @@ module.exports = {
             newValue = `${newValue.replace(`{^E}`, `${colorCode}`)}{^E}`;
         }else if(newValue.match(/{\^[A-Za-z]}/g)){
             newValue = newValue.replace(/{\^[A-Za-z]}/g, colorCode);
-        }else if(newValue.startsWith(`[`)){
+        }else if(newValue.startsWith(`[`) || newValue.startsWith(`\$[`)){
             newValue = newValue.replace(/(\[[a-zA-Z]+])/g, `$1${colorCode}`);
             //Log(newValue);
         }else if(newValue.match(RegexGlobalLetters)){
