@@ -91,7 +91,7 @@ module.exports = {
                 }
             }
             localeDefs = Super.MakeLocaleDefs(localeZips);
-            Log(localeDefs);
+            //Log(localeDefs);
             for(let defIndex in localeDefs){
                 localeOptions.push({
                     TEXT: localeDefs[defIndex].Language || localeDefs[defIndex].language

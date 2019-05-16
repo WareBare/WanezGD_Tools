@@ -8,11 +8,13 @@
 
 # v0.2.1
 
-- ***Fixed*** - Polish coloring issues ( [Forum Post](https://www.grimdawn.com/forums/showthread.php?p=744146#post744146 "https://www.grimdawn.com/forums/showthread.php?p=744146#post744146") ).
+- ***Fixed*** - Polish Localization coloring issues ( [Forum Post](https://www.grimdawn.com/forums/showthread.php?p=744146#post744146 "https://www.grimdawn.com/forums/showthread.php?p=744146#post744146") ).
 - ***Fixed*** - Issue with Localization SelectBox (duplicating entries & leaving out others).
+- ***Fixed*** - The "Create Zip" Checkbox should only appear when "Use Localization" is unchecked.
 - ***Fixed*** - Issue with the Group-Manager inside a Library entry not updating properly when moving a group up/down.
-- ***Added*** - Library now has a CheckBox to show advanced options, if you want to edit groups you have to check this.
-- 
+- ***Added*** - Library now has a Checkbox to show advanced options, if you want to edit groups you have to check this.
+- ***Fixed*** - Issue when multiple links appeared inside the Change Log.
+- ***Updated*** - Version for ReadOnly Libraries to 1.1.2.4
 
 # v0.2
 

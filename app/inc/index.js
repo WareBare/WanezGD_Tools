@@ -55,7 +55,7 @@ SanitizeLinks = function(InHTML){
 
     let linkElements = div.getElementsByTagName(`a`);
 
-    for(let i = 0; i < linkElements.length; i++){
+    for(let i = linkElements.length - 1; i >= 0; i--){
         loopElement = document.createElement(`span`);
         loopElement.setAttribute(`class`, `Link`);
         loopElement.setAttribute(`title`, `Opens in default Browser: ${linkElements[i].getAttribute(`href`)}`);
