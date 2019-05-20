@@ -389,7 +389,8 @@ module.exports = {
 
     ApplyColorInSourceData: function(OutSourceData, InFileName, InIndex, InColorCode, InKeywords){
         //Log(InColorCode);
-        if(InColorCode === `Clear`) return false;
+        if(InColorCode === `Clear` || !InColorCode) return false;
+        //Log(InColorCode);
         //Log(OutSourceData[InFileName][InIndex].TagValue);
         let newValue = OutSourceData[InFileName][InIndex].TagValue
             , TypeSymbol = Super.MakeSymbol(`Type`, InKeywords)
