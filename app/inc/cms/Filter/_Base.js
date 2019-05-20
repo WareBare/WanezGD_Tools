@@ -63,52 +63,16 @@ let RunArchiveTool = function(){
 let RunLocaleExtract = function(InZipFile){
     let zip = new JSZip();
 
-    //Log(`Extract Locale: ${GrimDawnPath}/localization/${InZipFile}`);
-
     fs.readFile(`${GrimDawnPath}/localization/${InZipFile}`, function(err, data) {
         if (err) throw err;
         zip.loadAsync(data).then(function (zip) {
-            //Log(zip.files);
             for(let fileName in zip.files){
                 if(fileName.includes(`tags`) || fileName.endsWith(`.def`)){
                     zip.file(fileName).async(`string`).then(function(InText){
-                        //Log(fileName);
                         Super.ParseTagText(InText, SourceData, fileName, false);
                     });
-                    //Log(fileName);
-                    //Log(zip.files[fileName]);
                 }
             }
-            //Log(SourceData);
-            /*
-            zip.file("language.def").async("string").then(function (data) {
-                let dataRows = data.split(`\n`), tempSplit, parsedData = {};
-
-
-                for(let rowIndex in dataRows){
-                    tempSplit = dataRows[rowIndex].split(`=`);
-                    if(tempSplit[0] !== ``) parsedData[tempSplit[0]] = tempSplit[1];
-                }
-                parsedData[`ZipName`] = InZipFile;
-
-                Log(parsedData);
-                LocaleDefs.push(parsedData);
-                if(LocaleDefs.length == InMaxCount) wzReloadCMS(10);
-                //Log(LocaleDefs.length == InMaxCount);
-                //if()
-                //if(bInReload) wzReloadCMS(10);
-            });
-            */
-            /*
-            zip
-            .generateNodeStream({type:'nodebuffer', streamFiles: true})
-            .pipe(fs.createWriteStream(`${Super.GetGrimDawnPath()}/localization/community_russian_bak5.zip`))
-            .on('finish', function () {
-                // JSZip generates a readable stream with a "end" event,
-                // but is piped here in a writable stream which emits a "finish" event.
-                console.log("out.zip written.");
-            });
-            */
         });
     });
 };
@@ -247,13 +211,17 @@ module.exports = {
         return OutTagData;
     },
     MakeLibraryData: function(){
-        //Log(`Making Library Data!`);
-        let outLibraryData = appData[`gd-filter`].Library
+        //Log(`Making Library Data!`); new eConfig({name: `gd-filter-library`})
+        //FilterStorage[`LibraryData`] = new eConfig({name: `gd-filter-library`});
+        let outLibraryData = []
             , LibraryStore = FilterStorage[`LibraryData`].get(`Main`);
 
+        for(let i = 0; i < appData[`gd-filter`].Library.length; i++){
+            outLibraryData.push(appData[`gd-filter`].Library[i]);
+        }
         if(LibraryStore && LibraryStore.length){
-            for(let i = 0; i <= LibraryStore.length -1; i++){
-                if(!outLibraryData.includes( LibData => LibData.PackageName === `${LibraryStore[i].PackageName}`)) outLibraryData.push(LibraryStore[i]);
+            for(let i = 0; i < LibraryStore.length; i++){
+                if(outLibraryData.findIndex( LibData => LibData.PackageName === `${LibraryStore[i].PackageName}`) === -1) outLibraryData.push(LibraryStore[i]);
             }
         }
 
@@ -719,6 +687,7 @@ module.exports = {
             bOutSuccess = false;
         }
 
+        //Log(FilterStorage[`LibraryData`].store);
         if(bOutSuccess){
             FilterStorage[`LibraryData`].set(`Main`, LibraryStore);
             if(bInReload){

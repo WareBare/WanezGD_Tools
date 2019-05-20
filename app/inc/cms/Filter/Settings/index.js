@@ -15,7 +15,7 @@ module.exports = {
 
     OnSubmitForm_GdPath: function(el){
         //Log(el.value);
-        appConfig.set(`GrimDawn.Paths.Game`, el.value);
+        appConfig.set(`GrimDawn.Paths.Game`, el.value.replace(/\\/g, `/`));
         Super.Init();
 
         wzReloadCMS(10);
@@ -246,11 +246,12 @@ module.exports = {
 
     MakeContent_Default: function(){
         let outStr = ``
+            , bPathCorrect = Super.IsPathCorrect()
             , tempFormItemOutput = ``;
 
         tempFormItemOutput = ``;
 
-        if(Super.IsPathCorrect()) {
+        if(bPathCorrect) {
             tempFormItemOutput += `<span class="formBTN" onclick="require('electron').shell.openExternal('${Super.GetGrimDawnPath()}')">Open in Explorer</span><br />`;
         }
 
@@ -259,9 +260,9 @@ module.exports = {
             , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPath(this)`
             , LABEL: `Grim Dawn - Path`
             , SETTINGS: ` style="width: 650px;"`
-            , ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
+            , ERROR_MSG: (bPathCorrect) ? `` : `Path must be wrong!`
         });
-        if(Super.IsPathCorrect() && !Super.IsUsingLocale()){
+        if(bPathCorrect && !Super.IsUsingLocale()){
             tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
                 TEXT: appConfig.get(`GrimDawn.Paths.UserData`) || ``
                 , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPathAdd(this)`
@@ -277,7 +278,7 @@ module.exports = {
             , CONTENTS: `${tempFormItemOutput}`
         });
 
-        if(Super.IsPathCorrect()){
+        if(bPathCorrect){
             outStr += this.MakeContent_Localization();
             outStr += `<br />`;
             outStr += this.MakeContent_FilterOverview();

@@ -289,23 +289,7 @@ module.exports = {
         /// OUTPUT
         outStr += this.Content_Header(this.LibraryData, this.GroupData);
         outStr += this.Content_ColorPicker(this.LibraryData, this.GroupData);
-        if(!this.LibraryData.bReadOnly){
-
-        }else{
-            
-        }
         
-        /*
-        let tempData = Super.GetSourceData();
-        if(Object.keys(tempData).length){
-            Log(tempData);
-            Log(Super.GetSourceData());
-        }
-        
-        if(Super.ReadData(LibraryData = {}, `LibraryData`, `PackageName`, `${this.contentType}`)){
-            Log(LibraryData);
-        }
-        */
 
         return outStr;
     },
@@ -496,25 +480,17 @@ module.exports = {
             this.UpdateSourceTag(SourceData, `language`, `[C] {VALUE} ${this.contentType}`, true);
             if(appConfig.get(`Filter.bZipChanges`)){
                 // Save Filter as .zip using Locale in /localization/*.zip
-                //Log(`Save Zip`);
                 let zipSuffix = `_${this.contentType}_C_`;
                 // --- appConfig.get(`Filter.LocaleFileName`)
                 fs.readFile(`${savePath}/${appConfig.get(`Filter.LocaleFileName`)}`, function(err, data) {
                     if (err) throw err;
                     zip.loadAsync(data).then(function (zip) {
-                        //Log(zip);
-                        //zip.file("hello.txt", "Hello World\n");
                         for(let fileKey in SourceData){
                             if(SourceData[fileKey][0].bUpdated){
                                 zip.file(`${fileKey}`, Super.StringifyTagData(SourceData[fileKey]));
                             }
                         }
-                        /*
-                        zip.file("language.def").async("string").then(function (data) {
-                            // data is "Hello World\n"
-                            Log(data);
-                          });
-                          */
+                        
                         zip
                         .generateNodeStream({type:'nodebuffer', streamFiles:true, compression: "DEFLATE"})
                         .pipe(fs.createWriteStream(`${savePath}/${appConfig.get(`Filter.LocaleFileName`).replace(`.zip`, `${zipSuffix}.zip`)}`))
@@ -527,8 +503,7 @@ module.exports = {
                     });
                 });
             }else{
-                // #ToDo Save Filter Files using Locale in /localization/
-                //Log(`Save Locale Files`);
+                // Save Filter Files using Locale in /localization/
                 for(let fileKey in SourceData){
                     if(SourceData[fileKey][0].bUpdated){
                         wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
@@ -541,11 +516,6 @@ module.exports = {
             let zip = new JSZip()
                 , zipName = `${this.contentType}-${this.LibraryData.Version}.zip`;
             
-            if(appConfig.get(`Filter.bMakeZipForTextEn`)){
-                //savePath = `${Super.GetGrimDawnPath()}/settings`;
-
-                Log(zipName);
-            }
             for(let fileKey in SourceData){
                 if(SourceData[fileKey][0].bUpdated){
                     wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
@@ -571,54 +541,6 @@ module.exports = {
             }
         }
         
-        //Log(SourceData);
-        /*
-        fs.readFile(`${Super.GetGrimDawnPath()}/localization/community_russian_bak.zip`, function(err, data) {
-            if (err) throw err;
-            zip.loadAsync(data).then(function (zip) {
-                //Log(zip);
-                //zip.file("hello.txt", "Hello World\n");
-                zip.file("language.def").async("string").then(function (data) {
-                    // data is "Hello World\n"
-                    Log(data);
-                  });
-                zip
-                .generateNodeStream({type:'nodebuffer',streamFiles:true})
-                .pipe(fs.createWriteStream(`${Super.GetGrimDawnPath()}/localization/community_russian_bak5.zip`))
-                .on('finish', function () {
-                    // JSZip generates a readable stream with a "end" event,
-                    // but is piped here in a writable stream which emits a "finish" event.
-                    console.log("out.zip written.");
-                });
-            });
-        });
-        Log(zip);
-        */
-        /*
-        try {
-            fs.copySync(`${dirUserData}/resources/text_en/tags_uimain.txt`, `${Super.GetGrimDawnPath()}/localization/community_russian_bak.rar/tags_uimain.txt`);
-            console.log('success!')
-          } catch (err) {
-            console.error(err)
-          }
-
-        let tempData = Super.GetSourceData();
-        tempData[`tags_achievements.txt`][1][`TagKey`] = `MyNewKey`;
-        Log(tempData);
-        Log(Super.GetSourceData());
-        Super.GatherTagFiles();
-        
-       let zip = new AdmZip(`${Super.GetGrimDawnPath()}/localization/community_russian.zip`);
-       Log(zip.getEntries());
-       Log(zip.getEntry(`tags_uimain.txt`));
-       //Log(zip.toBuffer());
-       //zip.deleteEntry(`tags_uimain.txt`);
-       // ${dirUserData}/resources/text_en/tags_uimain.txt
-       //let content = fs.readFileSync(`${dirUserData}/resources/text_en/tags_uimain.txt`, 'utf-8');
-       //zip.addFile(`tags_uimain.txt`, Buffer.alloc(content.length, content), "entry comment goes here");
-       zip.writeZip(`${Super.GetGrimDawnPath()}/localization/community_russian_bak3.zip`);
-       //Log(fs.readFileSync(`${Super.GetGrimDawnPath()}/localization/community_russian.zip/tags_uimain.txt`, 'utf-8'));
-       */
     },
 
     OnClick_CreateLibraryEntry: function(){
@@ -637,9 +559,15 @@ module.exports = {
     OnClick_UpdateLibraryEntry: function(){
         this.LibraryData.PackageName = this.CurrentPackageNameInput;
         Super.UpdateLibrary(this.contentType, this.LibraryData);
+        // load new entry after reload.
+        this.contentType = this.CurrentPackageNameInput;
     },
     OnClick_DeleteLibraryEntry: function(){
         Super.UpdateLibrary(this.contentType);
+        // load new entry after reload.
+        Super.ReadData(this.LibraryData = {}, `LibraryData`, 0);
+        this.CurrentPackageNameInput = this.LibraryData.PackageName;
+        this.contentType = this.CurrentPackageNameInput;
     },
     
     sidebarBtns_: function(){
@@ -662,6 +590,9 @@ module.exports = {
                         "ONCLICK": "_cms.OnClick_UpdateLibraryEntry()",
                         "TEXT": "Update Entry"
                     });
+                }
+            }else{
+                if(!this.LibraryData.bReadOnly){
                     outButtons.push({
                         "ONCLICK": "_cms.OnClick_DeleteLibraryEntry()",
                         "TEXT": "Delete Entry"
@@ -683,6 +614,7 @@ module.exports = {
                 text: `${LibraryData[libraryIndex].DisplayName}`
             }
         }
+        //Log(LibraryData);
         /*
         for(let kContenType in this.FilterConfig.store){
             mList[kContenType] = [];

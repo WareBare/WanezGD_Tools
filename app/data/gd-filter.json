@@ -3342,12 +3342,12 @@
         },
         "tagGDX1ShoulderB103": {
             "Classification": "Rare",
-            "Type": "Regular Item",
+            "Type": "MI Item",
             "Group": "None"
         },
         "tagGDX1ShoulderB104": {
             "Classification": "Rare",
-            "Type": "Regular Item",
+            "Type": "MI Item",
             "Group": "None"
         },
         "tagTorsoB003": {
@@ -13323,7 +13323,7 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Common"]
-                , "Type": ["MI Item", "Faction Item"]
+                , "Type": ["MI Item"]
             }
         }
         , "Core.MI.Magical": {
@@ -13332,7 +13332,7 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Magical"]
-                , "Type": ["MI Item", "Faction Item"]
+                , "Type": ["MI Item"]
             }
         }
         , "Core.MI.Rare": {
@@ -13341,7 +13341,7 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Rare"]
-                , "Type": ["MI Item", "Faction Item"]
+                , "Type": ["MI Item"]
             }
         }
         , "Core.MI.Epic": {
@@ -13350,10 +13350,55 @@
             , "bReadOnly": true
             , "Keywords": {
                 "Classification": ["Epic"]
-                , "Type": ["MI Item", "Faction Item"]
+                , "Type": ["MI Item"]
             }
         }
         , "Core.MI.Legendary": {
+            "DisplayName": "Legendary MI"
+            , "ColorCode": "f"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Legendary"]
+                , "Type": ["MI Item"]
+            }
+        }
+        , "Core.MIAndFaction.Common": {
+            "DisplayName": "Common MI"
+            , "ColorCode": "w"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Common"]
+                , "Type": ["MI Item", "Faction Item"]
+            }
+        }
+        , "Core.MIAndFaction.Magical": {
+            "DisplayName": "Magical MI"
+            , "ColorCode": "y"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Magical"]
+                , "Type": ["MI Item", "Faction Item"]
+            }
+        }
+        , "Core.MIAndFaction.Rare": {
+            "DisplayName": "Rare MI"
+            , "ColorCode": "l"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Rare"]
+                , "Type": ["MI Item", "Faction Item"]
+            }
+        }
+        , "Core.MIAndFaction.Epic": {
+            "DisplayName": "Epic MI"
+            , "ColorCode": "z"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Epic"]
+                , "Type": ["MI Item", "Faction Item"]
+            }
+        }
+        , "Core.MIAndFaction.Legendary": {
             "DisplayName": "Legendary MI"
             , "ColorCode": "f"
             , "bReadOnly": true
