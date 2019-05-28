@@ -31,11 +31,29 @@ let FilterStorage = {
 };
 
 let RunArchiveTool = function(){
+    let result;
 
     for(let pathIndex in ExtractionPaths){
-        if(fs.pathExistsSync(`${GrimDawnPath}\\${ExtractionPaths[pathIndex]}`)){
+        
+        if(fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`)){
+            child_process.execSync(`"${GrimDawnPath}\\ArchiveTool.exe" "${GrimDawnPath}\\${ExtractionPaths[pathIndex]}" -extract "${dirUserData}\\resources"`);
+            //Log(result.toString());
+        }
+        /*
+        try{
+            //Log(fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`));
+            if(fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`)){
+                child_process.execSync(`"${GrimDawnPath}\\ArchiveTool.exe" "${GrimDawnPath}\\${ExtractionPaths[pathIndex]}" -extract "${dirUserData}\\resources"`);
+            }
+        }catch(err){
+            //console.error(err);
+        }
+        */
+        /*
+        if(fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`)){
             child_process.execSync(`"${GrimDawnPath}\\ArchiveTool.exe" "${GrimDawnPath}\\${ExtractionPaths[pathIndex]}" -extract "${dirUserData}\\resources"`);
         }
+        */
         /*
         fs.pathExists(`${GrimDawnPath}\\${ExtractionPaths[pathIndex]}`, (err, bInExists) => {
             if(err){
@@ -107,6 +125,7 @@ module.exports = {
     Paths: false,
 
     Init: function(){
+
         this.InitPaths();
         this.InitData();
 
@@ -115,6 +134,7 @@ module.exports = {
 
     InitPaths: function(){
         GrimDawnPath = appConfig.get(`GrimDawn.Paths.Game`).replace(/\\/g, `/`);
+        //console.error(GrimDawnPath);
 
         this.Paths = {
             Source: `${GrimDawnPath}/source/text_en`
@@ -182,9 +202,23 @@ module.exports = {
     },
 
     OnLoad: function(){
-        bPathCorrect = fs.pathExistsSync(`${this.GetGrimDawnPath()}\\ArchiveTool.exe`);
-
+        //bPathCorrect = fs.pathExistsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`);
+        //bPathCorrect = fs.existsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`);
+        // fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`)
+        //bPathCorrect = false;
+        bPathCorrect = fs.existsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`);
+        
+        try{
+            //Log(`here`);
+            //Log(fs.existsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`));
+            fs.existsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`);
+            Log(`hehe`);
+        }catch(err){ console.error(err); }
         this.SetCMSForPathCorrect(bPathCorrect);
+        //Log(bPathCorrect);
+        //if(!Object.keys(SourceData).length) this.InitData();
+
+        //this.SetCMSForPathCorrect(bPathCorrect);
 
         if(!ClassData[`TagInfoData`]) ClassData[`TagInfoData`] = this.MakeTagInfoData();
         if(!ClassData[`Definitions`]) ClassData[`Definitions`] = this.MakeDefinitions();

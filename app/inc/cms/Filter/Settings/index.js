@@ -16,6 +16,14 @@ module.exports = {
     OnSubmitForm_GdPath: function(el){
         //Log(el.value);
         appConfig.set(`GrimDawn.Paths.Game`, el.value.replace(/\\/g, `/`));
+
+        /*
+        setTimeout(function(){
+            Super.Init();
+            wzReloadCMS(10);
+        }, 100);
+        */
+
         Super.Init();
 
         wzReloadCMS(10);
@@ -155,7 +163,6 @@ module.exports = {
             });
         }
         
-
         outStr += Super.tplContent.FormContainer.wzReplace({
             TITLE: `Filter Overview`
             , CONTENTS: `${tempFormItemOutput}`
@@ -273,6 +280,7 @@ module.exports = {
             });
         }
 
+        if(!bPathCorrect) outStr += `<span class="Msg_Warn">Make sure the game is closed (Grim Dawn). You must restart anyways for the tags to be in effect. You might as well close it before hand.</span>`;
         outStr += Super.tplContent.FormContainer.wzReplace({
             TITLE: `Settings`
             , CONTENTS: `${tempFormItemOutput}`
