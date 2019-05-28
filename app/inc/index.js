@@ -84,7 +84,7 @@ let keyUp = (e) => {
     }else if(e.keyCode === 113){
         wzCMS([`Docs`,`Change Log`]);
     }else if(e.keyCode === 117){
-        wzWND('Settings').refresh();
+        //wzWND('Settings').refresh();
     }else if(e.keyCode === 38){ // arrow UP
         if(_cms.ActiveListItem){
             //Log(`Enabled UP`);

@@ -1,7 +1,8 @@
 {
     "Header": {
         "ID": "app_Header",
-        "CONTENT": "<div id=\"notifyArea\"></div><div id=\"app_HeaderLoc\" class=\"left\"></div><div id=\"app_HeaderApps\" class=\"center\"></div><div class=\"right\"><img src=\"img/settings.png\" onclick=\"wzWND('Settings').refresh();\" title=\"Settings (F6)\"></img><img src=\"img/refresh.png\" onclick=\"location.reload();\" title=\"Reload (F5)\"></img></div>"
+        "CONTENT": "<div id=\"notifyArea\"></div><div id=\"app_HeaderLoc\" class=\"left\"></div><div id=\"app_HeaderApps\" class=\"center\"></div><div class=\"right\"></img><img src=\"img/refresh.png\" onclick=\"location.reload();\" title=\"Reload (F5)\"></img></div>"
+        , "OLD": "<img src=\"img/settings.png\" onclick=\"wzWND('Settings').refresh();\" title=\"Settings (F6)\">"
     },
     "Nav": {
         "ID": "app_Nav",

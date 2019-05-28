@@ -208,12 +208,14 @@ module.exports = {
         //bPathCorrect = false;
         bPathCorrect = fs.existsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`);
         
+        /*
         try{
             //Log(`here`);
             //Log(fs.existsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`));
             fs.existsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`);
-            Log(`hehe`);
+            //Log(`hehe`);
         }catch(err){ console.error(err); }
+        */
         this.SetCMSForPathCorrect(bPathCorrect);
         //Log(bPathCorrect);
         //if(!Object.keys(SourceData).length) this.InitData();
