@@ -6,9 +6,17 @@
 
 ---
 
-# v0.2.2
+# v0.2.3 - UI Improvements & Grim Dawn v1.1.3.0
 
-- ***Fixed*** - 
+*In the spirit of transparency:*
+*I have added a Modules Pack I've been working on for my (private) modding tools, it mostly changes back-end. It helps clean up spaghetti code over the next versions and adds better integration of VSCode intellisense. I don't do this in one go, because I think it will avoid unexpected issues when I do it step by step.*
+
+- [ ] ***added*** - native support for Grim Dawn v1.1.3.0 Items.
+- ***added*** - information to close Grim Dawn if path could not be found. (this does not change how the tool works)
+- ***removed*** - Settings-Button (gear icon in the top right), as it added no functionality and was a remainder from the old tools. The only settings of importance are accessible from the left-hand side menu.
+- ***mixed*** - Various UI improvements.
+  * includes <kbd>Tag-Adder</kbd> in <kbd>Settings</kbd>, no functionality changes - only UI and in-tool information.
+
 
 # v0.2
 

@@ -955,6 +955,7 @@ div.WzToolTip{
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(155, 155, 155, 0.5);
     color: $ToolTip_Color01;
+    z-index: 1000;
 
     ul{
         margin-left: 20px;
@@ -1057,3 +1058,118 @@ table.TagsList{
     color: $Warn_Color01;
 }
 
+
+.DefaultBtn{
+    display: inline-block;
+    cursor: pointer;
+    margin: 3px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+
+    min-width: 120px;
+    padding: 5px 10px 5px 10px;
+
+    text-shadow: 0 1px 1px rgba(150,150,150,.35);
+    background: $gradientBTN-001;
+    color: $fontColor-001;
+    &:HOVER{
+        background: $gradientBTN-001b;
+    }
+    &:ACTIVE{
+        background: $gradientBTN-001c;
+        color: $fontColor-001b;
+        text-shadow: 0 1px 1px rgba(255,255,255,.35);
+        transform: translate(0, 5px);
+        box-shadow:0 1px 1px rgba(0,0,0,.3);
+    }
+}
+
+.DefaultDetails{
+    //background: $Details_Gradient01;
+    padding: 0;
+    margin: 5px;
+    color: $DetailsSummary_Color01;
+    border-radius: 5px;
+
+    
+    .Msg_Warn{
+        padding: 2px 5px 2px 5px;
+        border-width: 1px;
+        background: #101010;
+        color: $Warn_Color01;
+        //text-shadow: 0 0 10px rgba(0,0,0,1);
+    }
+    p{
+        padding: 0 10px 0 10px;
+        
+    }
+    ul{
+        margin-left: 25px;
+        li{
+
+        }
+    }
+
+    summary{
+        //width: 90%;
+        display: block;
+        cursor: pointer;
+        margin: 3px;
+        //text-align: center;
+        border-width: 1px;
+        border-radius: 5px;
+    
+        min-width: 120px;
+        padding: 5px 10px 5px 10px;
+    
+        text-shadow: 0 1px 1px rgba(150,150,150,.35);
+        background: $DetailsSummary_Gradient01;
+        color: $DetailsSummary_Color01;
+        &:HOVER{
+            background: $DetailsSummary_Gradient01_HOVER;
+            color: $DetailsSummary_Color01_HOVER;
+        }
+        &:ACTIVE{
+            background: $DetailsSummary_Gradient01_ACTIVE;
+            color: $DetailsSummary_Color01_ACTIVE;
+            text-shadow: 0 1px 1px rgba(255,255,255,.35);
+            //transform: translate(0, 5px);
+            box-shadow:0 1px 1px rgba(0,0,0,.3);
+        }
+        &::-webkit-details-marker{
+            //background: red;
+            color: $DetailsSummay_Arrow01;
+        }
+    }
+    
+    &[open]{
+        background: $Details_Gradient01_OPEN;
+        border-width: 1px;
+        summary::-webkit-details-marker{
+            //background: red;
+            color: $DetailsSummay_Arrow01b;
+
+        }
+    }
+}
+
+kbd{
+    background: $KBD_Gradient01;
+    color: $KBD_Color01;
+    //text-transform: uppercase;
+    font-style: normal;
+    //padding: 2px 5px 2px 5px;
+    border-width: 1px;
+    border-radius: 5px;
+
+    box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    margin: 0 .1em;
+    padding: .1em .6em;
+    text-shadow: 0 1px 0 $KBD_Color01b;
+}

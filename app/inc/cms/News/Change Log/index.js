@@ -25,16 +25,18 @@ module.exports = {
                 `# Change Log\r\n` +
                 `---` +
                 `\r\n` +
-                `*Change Log Archive, same as on the /releases/ page on GitHub*\r\n` +
+                `*Same as on the /releases/ page on GitHub*\r\n` +
                 `\r\n` +
-                `*You can open links in a new window with ctrl+click, but try to stay away from opening websites with the tool as it poses security risks. Secure links to Websites will tell you they open a browser on click.*\r\n` +
+                `*You may use <kbd>Left-Click</kbd> on a link to open it in your default browser.*\r\n` +
                 `\r\n` +
-                `*ctrl+click could also be used to navigate through the Table of Contents (this is secure btw as it doesn't load a website)*\r\n` +
+                `*You may use <kbd>Right-Click</kbd> on a link to copy its URL to Clipboard.*\r\n` +
                 `\r\n` +
                 `---` +
                 `\r\n` +
                 `# Table of Contents\r\n` +
-                markdown_toc(contentMD).content
+                `<details><summary>List</summary>` +
+                marked(markdown_toc(contentMD).content) +
+                `</details>`
             );
             document.getElementById(`md_changelog`).innerHTML += SanitizeLinks(marked(contentMD));
         });

@@ -6,6 +6,8 @@
 
 Discord Server: https://discord.gg/ru6eU2p
 
+Forum Thread: https://forums.crateentertainment.com/t/wip-item-filter-via-colorcoding/42765
+
 ---
 
 # What Is This?

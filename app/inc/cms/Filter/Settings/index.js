@@ -3,6 +3,9 @@
  */
 
 
+const $ = require(`../../../../lib/WanezProjects`);
+const { TMap, TButton } = require(`../../../../lib/WanezProjects/Classes`);
+
 module.exports = {
     SubPageName: `Settings`,
     Forms: {},
@@ -208,6 +211,7 @@ module.exports = {
 
         //Log(contentSplitByReturn);
     },
+    /*
     OnClickTagsArea_AppendToUserData: function(el){
         let bError = this.ParseTagsArea(this.TagsAreaContents);
     },
@@ -218,16 +222,41 @@ module.exports = {
         let bError = this.ParseTagsArea(clipboard.readText());
 
     },
+    */
     OnChangeArea_CheckTags: function(el){
         this.TagsAreaContents = el.value;
+    },
+
+    OnClickBtn_SaveAddedTags: function(){
+        let bError = this.ParseTagsArea(this.TagsAreaContents);
+    },
+    OnClickBtn_ExportAddedTags: function(){
+        clipboard.writeText(Super.FetchParsedTagData());
+    },
+    OnClickBtn_ImportAddedTags: function(){
+        let bError = this.ParseTagsArea(clipboard.readText());
     },
 
     MakeContent_AddTags: function(){
         let outStr = ``
             , tempFormItemOutput = ``;
+            
+        let actionBtnMap = new TButton();
 
-        tempFormItemOutput += `<span class="Msg_Warn">Existing personal tags will be overriden! The Data is merged using the new Data as priority.</span><br />`;
+        tempFormItemOutput += `<details class="DefaultDetails"><summary>Information</summary>`;
+        tempFormItemOutput += `<p class="Msg_Warn">Existing personal tags will be overriden! Existing data is merged with imported data.</p>`;
+        tempFormItemOutput += `<p>${marked(
+            `* Missing native item tags can be added from here or in <kbd>Manage Tags</kbd>.\r\n` +
+            `* You should use Tag-Adder for bulk adding from text source (such as a forum post).\r\n` +
+            `* You should use <kbd>Manage Tags</kbd> for manually adding individual items, because the search/filter function and comboboxes make it easier.\r\n` +
+            `* Tag-Adder is using CSV format.\r\n` +
+            `* You may use a Text Area and either type in item tag data or paste it.\r\n` +
+            `* You may use the clipboard to import/export item tag data.`
+        )}</p>`;
+        tempFormItemOutput += `</details>`;
 
+        
+        tempFormItemOutput += `<details class="DefaultDetails"><summary>Import/Export using Text Area.</summary>`;
         tempFormItemOutput += Super.tplContent.TextAreaWithTip.wzReplace({
             VALUE: this.TagsAreaContents
             , ON_CHANGE_FN: `_cms.OnChangeArea_CheckTags(this)`
@@ -238,9 +267,38 @@ module.exports = {
             //, ERROR_MSG: (Super.IsPathCorrect()) ? `` : `Path must be wrong!`
         });
         //tempFormItemOutput += `<br />`;
+
+        actionBtnMap.Add(`SaveAddedTags`, {
+            Text: `Save`
+            , Tip: `<ul><li>Saves Text Area contents to personal Tags (if formatted properly).</li></ul>`
+            , TipPos: `right`
+        });
+
+        /*
         tempFormItemOutput += `<span class="formBTN" onclick="_cms.OnClickTagsArea_AppendToUserData(this);" data-wztip='Saves Text Area contents to personal Tags (if formatted properly)' data-wztip-position="right">Save</span><br />`;
         tempFormItemOutput += `<span class="formBTN" onclick="_cms.OnClickTagsArea_LoadFromUserDataToClipboard(this);" data-wztip='Writes all personal Tags to the clipboard' data-wztip-position="right">Export to Clipboard</span><br />`;
         tempFormItemOutput += `<span class="formBTN" onclick="_cms.OnClickTagsArea_SaveToUserDataFromClipboard(this);" data-wztip='Saves the clipboard to personal Tags (if formatted properly)' data-wztip-position="right">Import from Clipboard</span><br />`;
+        */
+       
+        tempFormItemOutput += `<br />`;
+        tempFormItemOutput += actionBtnMap.MakeOutput();
+        tempFormItemOutput += `</details>`;
+        
+
+        actionBtnMap = new TButton();
+        actionBtnMap.Add(`ExportAddedTags`, {
+            Text: `Export to Clipboard`
+            , Tip: `<ul><li>Writes all personal Tags to the clipboard.</li></ul>`
+            , TipPos: `top`
+        });
+        actionBtnMap.Add(`ImportAddedTags`, {
+            Text: `Import from Clipboard`
+            , Tip: `<ul><li>Saves the clipboard to personal Tags (if formatted properly).</li></ul>`
+            , TipPos: `top`
+        });
+        tempFormItemOutput += `<details class="DefaultDetails"><summary>Import/Export using Clipboard.</summary>`;
+        tempFormItemOutput += actionBtnMap.MakeOutput();
+        tempFormItemOutput += `</details>`;
 
         // Finalize FORM
         outStr += Super.tplContent.FormContainer.wzReplace({
@@ -251,16 +309,29 @@ module.exports = {
         return outStr;
     },
 
+    OnClickBtn_OpenInExplorer: function(){
+        require('electron').shell.openExternal(`${Super.GetGrimDawnPath()}`);
+    },
+
     MakeContent_Default: function(){
         let outStr = ``
             , bPathCorrect = Super.IsPathCorrect()
             , tempFormItemOutput = ``;
+            
+        let actionBtnMap = new TButton();
 
         tempFormItemOutput = ``;
 
         if(bPathCorrect) {
-            tempFormItemOutput += `<span class="formBTN" onclick="require('electron').shell.openExternal('${Super.GetGrimDawnPath()}')">Open in Explorer</span><br />`;
+            actionBtnMap.Add(`OpenInExplorer`, {
+                Text: `Open in Explorer`
+                , Tip: `<ul><li>Opens Grim Dawn - Path in Explorer.</li></ul>`
+            });
+            //tempFormItemOutput += `<span class="formBTN" onclick="require('electron').shell.openExternal('${Super.GetGrimDawnPath()}')">Open in Explorer</span><br />`;
         }
+
+        tempFormItemOutput += actionBtnMap.MakeOutput();
+        tempFormItemOutput += `<br />`;
 
         tempFormItemOutput += Super.tplContent.TextField.wzReplace({
             TEXT: Super.GetGrimDawnPath()

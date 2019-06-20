@@ -90,6 +90,7 @@ $Error_BGColor01b: #8F1010;
 $Error_BGColor01c: #6F0000;
 
 $Warn_Color01: #c9b12b;
+$Warn_Color02: #635402;
 
 // Gradient
 $Error_Gradient01: linear-gradient($Error_BGColor01a , $Error_BGColor01b);
@@ -141,4 +142,49 @@ $Radio_Gradient01_HOVER: linear-gradient($Radio_BGColor01b , $Radio_BGColor01a);
 $Radio_Gradient01_CHECKED: linear-gradient($Radio_BGColor02a , $Radio_BGColor02b);
 $Radio_Gradient01_CHECKED_HOVER: linear-gradient($Radio_BGColor02a , $Radio_BGColor02b);
 
+
+
+// KBD \\
+// FONT
+$KBD_Color01: #000000;
+$KBD_Color01b: #AFAFAF;
+
+
+// BG
+$KBD_BGColor01a: #8F8F8F;
+$KBD_BGColor01b: #AFAFAF;
+
+// Gradient
+$KBD_Gradient01: linear-gradient($KBD_BGColor01a , $KBD_BGColor01b);
+
+
+// DETAILS \\
+// FONT
+
+$DetailsSummary_Color01: #101010;
+$DetailsSummary_Color01_HOVER: #202020;
+$DetailsSummary_Color01_ACTIVE: #050505;
+
+// BG
+$Details_BGColor01a: #202020;
+$Details_BGColor01b: #2F2F2F;
+$Details_BGColor02a: #8F8F8F;
+$Details_BGColor02b: #7F7F7F;
+
+$DetailsSummary_BGColor01a: #8F8F8F;
+$DetailsSummary_BGColor01b: #7F7F7F;
+$DetailsSummary_BGColor02a: #7F7F7F;
+$DetailsSummary_BGColor02b: #8F8F8F;
+$DetailsSummary_BGColor03a: #8F8F8F;
+$DetailsSummary_BGColor03b: #9F9F9F;
+
+$DetailsSummay_Arrow01: #5F0000;
+$DetailsSummay_Arrow01b: #005F00;
+
+// Gradient
+$Details_Gradient01: linear-gradient($Details_BGColor01a , $Details_BGColor01b);
+$Details_Gradient01_OPEN: linear-gradient($Details_BGColor02a , $Details_BGColor02b);
+$DetailsSummary_Gradient01: linear-gradient($DetailsSummary_BGColor01a , $DetailsSummary_BGColor01b);
+$DetailsSummary_Gradient01_HOVER: linear-gradient($DetailsSummary_BGColor02a , $DetailsSummary_BGColor02b);
+$DetailsSummary_Gradient01_ACTIVE: linear-gradient($DetailsSummary_BGColor03a , $DetailsSummary_BGColor03b);
 
