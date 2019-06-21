@@ -66,6 +66,9 @@ Extract the contents into you Grim Dawn directory, if done right, you will end u
 [details="3"]
 ![003|405x432](upload://3fLLRra2K5hiiskNbTa5pHhvJHa.jpeg)
 [/details]
+[details="Basic Highlighting"]
+![BasicHighlighting_Example|376x464](upload://zpQ7KVlAEr6Qhc5PS0Jv3OZbXt5.jpeg)
+[/details]
 
 ---
 <a name="section-tool"></a>
@@ -94,10 +97,8 @@ You may create your own color settings with the help of the tool I use myself an
         </ul></li>
     </ul>
 </details>
+
 <details><summary><kbd>Basic Highlighting</kbd></summary>
-    <details><summary><kbd>Example Picture</kbd></summary>
-        ![BasicHighlighting_Example|376x464](upload://zpQ7KVlAEr6Qhc5PS0Jv3OZbXt5.jpeg)
-    </details>
     <ul>
         <li>Item Names<ul>
             <li>MI have the same color as items of the same rarity.</li>
@@ -110,6 +111,7 @@ You may create your own color settings with the help of the tool I use myself an
         </ul></li>
     </ul>
 </details>
+
 <details>
     <summary><kbd>Diablo &amp; PoE</kbd></summary>
     <em>Note: Sets don't have the prefixed (S) Symbol, they have a different color.</em>
@@ -123,4 +125,5 @@ You may create your own color settings with the help of the tool I use myself an
         <li>Properties are the same as with Full Rainbow.</li>
     </ul>
 </details>
+
 

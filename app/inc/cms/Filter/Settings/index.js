@@ -3,8 +3,8 @@
  */
 
 
-const $ = require(`../../../../lib/WanezProjects`);
-const { TMap, TButton } = require(`../../../../lib/WanezProjects/Classes`);
+const $ = require(`./../../../../lib/WanezProjects`);
+const { TMap, TButton } = require(`./../../../../lib/WanezProjects/Classes`);
 
 module.exports = {
     SubPageName: `Settings`,

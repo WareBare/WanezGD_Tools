@@ -6,6 +6,10 @@
 
 ---
 
+v0.3.1 - Hotfix
+
+- ***Bug Fix:*** Fixed an issue preventing to load <kbd>Settings</kbd>
+
 # v0.3.0 - Deletion, UI & Grim Dawn v1.1.3.0
 
 - ***New:***  Added native support for Grim Dawn v1.1.3.0 Items.
@@ -22,6 +26,15 @@
   * <kbd>Library</kbd> updated in the same way.
 - ***Bug Fix:*** Fixed an issue with optional User Data Path, where the path required `/Settings` at the end. If it worked for you, nothing you need to change, the tool will check if `/Settings` is at the end of the path and add it if not.
 
+
+
+# Forum Post
+
+[details="Tool has been updated to v0.3.0"]
+
+[/details]
+
+---
 
 
 # Diablo Preset

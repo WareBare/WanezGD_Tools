@@ -13,12 +13,12 @@ const GrimDawn = require(`./Modules/GrimDawn`);
 // Classes
 const Classes = require(`./Classes`);
 
-const _DataPath = `C:/Users/Ware/source/repos/WanezModTools/app/lib/WanezProjects/Json`;
+const _DataPath = `C:/Users/Ware/source/repos/WanezModTools/app/lib/WanezProjects/Json2`;
 
 /**
  * Stores Data from /_Modules/data.json; use GetData() to get it and WriteData() to save.
  */
-let _Data = fs.readJsonSync(`${_DataPath}/data.json`);
+//let _Data = fs.readJsonSync(`${_DataPath}/data.json`);
 
 /**
  * [1.5, 1.7] 
