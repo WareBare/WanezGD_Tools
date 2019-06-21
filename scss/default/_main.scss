@@ -1089,7 +1089,7 @@ table.TagsList{
     //background: $Details_Gradient01;
     padding: 0;
     margin: 5px;
-    color: $DetailsSummary_Color01;
+    //color: $DetailsSummary_Color01;
     border-radius: 5px;
 
     
@@ -1115,7 +1115,7 @@ table.TagsList{
         //width: 90%;
         display: block;
         cursor: pointer;
-        margin: 3px;
+        margin: 5px;
         //text-align: center;
         border-width: 1px;
         border-radius: 5px;
@@ -1144,8 +1144,10 @@ table.TagsList{
     }
     
     &[open]{
-        background: $Details_Gradient01_OPEN;
+        //background: $Details_Gradient01_OPEN;
         border-width: 1px;
+        //border-color: $Details_BorderColor01;
+        box-shadow: 1px 1px 5px $Details_BorderColor01;
         summary::-webkit-details-marker{
             //background: red;
             color: $DetailsSummay_Arrow01b;

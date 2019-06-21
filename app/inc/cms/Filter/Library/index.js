@@ -269,10 +269,13 @@ module.exports = {
         
         this.GroupData = Super.GetClassData(`GroupData`);
 
+
         if(InContentType !== this.contentType && this.contentType !== `undefined`){
             // Reset TagInfo when different Library is loaded, as it may change it.
             Super.ResetClassData(`TagInfoData`);
         }
+        
+        this.contentType = this.contentType || appConfig.get(`GrimDawn.ColorLibrary`);
         // first load used library in slot 1, then sets contentType and can use ContentType to load data.
         if(typeof this.contentType === `undefined`) {
             Super.ReadData(this.LibraryData = {}, `LibraryData`, 0);
@@ -285,6 +288,7 @@ module.exports = {
             this.ActiveListItem = false;
         }
         
+        appConfig.set(`GrimDawn.ColorLibrary`, this.contentType);
         
         /// OUTPUT
         outStr += this.Content_Header(this.LibraryData, this.GroupData);
@@ -387,17 +391,31 @@ module.exports = {
         return colorCode;
     },
 
+    IsSymbolDisabledByLibrary: function(InKeywords, InKeywordGroupName){
+        let bIsDisabled = false;
+
+        if(this.LibraryData.DisabledSymbols){
+            // #WiP
+            if(this.LibraryData.DisabledSymbols.includes(`${InKeywordGroupName}.${InKeywords[InKeywordGroupName]}`)){
+                bIsDisabled = true;
+            }
+        }
+
+        return bIsDisabled;
+    },
+
     ApplyColorInSourceData: function(OutSourceData, InFileName, InIndex, InColorCode, InKeywords){
         //Log(InColorCode);
         if(InColorCode === `Clear` || !InColorCode) return false;
         //Log(InColorCode);
         //Log(OutSourceData[InFileName][InIndex].TagValue);
         let newValue = OutSourceData[InFileName][InIndex].TagValue
-            , TypeSymbol = Super.MakeSymbol(`Type`, InKeywords)
-            , ClassificationSymbol = Super.MakeSymbol(`Classification`, InKeywords)
-            , GroupSymbol = Super.MakeSymbol(`Group`, InKeywords)
+            , TypeSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Type`) ) ? `` : Super.MakeSymbol(`Type`, InKeywords)
+            , ClassificationSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Classification`) ) ? `` : Super.MakeSymbol(`Classification`, InKeywords)
+            , GroupSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Group`) ) ? `` : Super.MakeSymbol(`Group`, InKeywords)
             , colorCode = `${TypeSymbol}${ClassificationSymbol}${GroupSymbol}{^${InColorCode.toUpperCase()}}`;
         
+
         if(newValue.includes(`{^E}`)){
             newValue = `${newValue.replace(`{^E}`, `${colorCode}`)}{^E}`;
         }else if(newValue.match(/{\^[A-Za-z]}/g)){
@@ -449,7 +467,6 @@ module.exports = {
                 }
             }
         }
-
 
     },
 
@@ -512,6 +529,9 @@ module.exports = {
                 }
             }
         }else{
+            if(appConfig.get(`Filter.bEnableAutoDelete`)){
+                Super.OnDeleteOldFiles();
+            }
             // Save Filter Files in /settings/
             savePath = `${Super.GetGrimDawnPath()}/settings/text_en`;
             let zip = new JSZip()
@@ -521,7 +541,7 @@ module.exports = {
                 if(SourceData[fileKey][0].bUpdated){
                     wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
                     if(appConfig.get(`GrimDawn.Paths.UserData`) && appConfig.get(`GrimDawn.Paths.UserData`) !== ``){
-                        wzIO.file_put_contents(`${appConfig.get(`GrimDawn.Paths.UserData`)}/text_en/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
+                        wzIO.file_put_contents(`${appConfig.get(`GrimDawn.Paths.UserData`).replace(/\\/g, `/`).replace(`/Settings`, ``)}/Settings/text_en/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
                     }
                     if(appConfig.get(`Filter.bMakeZipForTextEn`)){
                         zip.file(`Grim Dawn/settings/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]));

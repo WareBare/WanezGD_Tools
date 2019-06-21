@@ -5,6 +5,121 @@
             "Type": "Regular Item",
             "Group": "None"
         },
+        "tagGDX2WeaponBluntD206": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2WeaponBluntD205": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2WeaponBluntD204": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2HeadD216": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2ShoulderD215": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2TorsoD214": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2TorsoD215": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2NecklaceD214": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2TorsoD216": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2TorsoD217": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2TorsoD218": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2ShoulderD216": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2ShoulderD217": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2ShoulderD218": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2HeadD217": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2HeadD218": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2HeadD219": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2HeadD220": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2FocusD208": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2ShieldD205": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2WeaponBluntD203": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2WeaponSwordD206": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2WeaponSwordD207": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
         "tagGDX2ItemTest2": {
             "Classification": "Legendary",
             "Type": "MI Item",
@@ -13225,6 +13340,78 @@
                     "GroupName": "Core.Property.Misc"
                 }
             ]
+        }, {
+            "DisplayName": "Diablo & PoE"
+            , "PackageName": "diablo"
+            , "Version": "1.1.3.0"
+            , "bReadOnly": true
+            , "DisabledSymbols": [
+                "Group.Set"
+            ]
+            , "Data": [
+                {
+                    "GroupName": "Core.Item.Set"
+                } , {
+                    "GroupName": "Core.Item.Common"
+                } , {
+                    "GroupName": "Core.Item.Magical"
+                    , "ColorCode": "b"
+                } , {
+                    "GroupName": "Core.Item.Rare"
+                    , "ColorCode": "y"
+                } , {
+                    "GroupName": "Core.Item.Epic"
+                    , "ColorCode": "i"
+                } , {
+                    "GroupName": "Core.Item.Legendary"
+                    , "ColorCode": "o"
+                } , {
+                    "GroupName": "Core.MI.Set"
+                } , {
+                    "GroupName": "Core.MI.Rare"
+                    , "ColorCode": "l"
+                } , {
+                    "GroupName": "Core.MI.Epic"
+                    , "ColorCode": "f"
+                } , {
+                    "GroupName": "Core.MI.Legendary"
+                    , "ColorCode": "r"
+                } , {
+                    "GroupName": "Core.Quality.Common"
+                } , {
+                    "GroupName": "Core.Quality.Magical"
+                } , {
+                    "GroupName": "Core.Quality.Rare"
+                } , {
+                    "GroupName": "Core.Quality.Epic"
+                } , {
+                    "GroupName": "Core.Quality.Legendary"
+                } , {
+                    "GroupName": "Core.Property.Elemental"
+                } , {
+                    "GroupName": "Core.Property.Cold"
+                } , {
+                    "GroupName": "Core.Property.Fire"
+                } , {
+                    "GroupName": "Core.Property.Lightning"
+                } , {
+                    "GroupName": "Core.Property.Aether"
+                } , {
+                    "GroupName": "Core.Property.Chaos"
+                } , {
+                    "GroupName": "Core.Property.Acid"
+                } , {
+                    "GroupName": "Core.Property.Vitality"
+                } , {
+                    "GroupName": "Core.Property.Physical"
+                } , {
+                    "GroupName": "Core.Property.Pierce"
+                } , {
+                    "GroupName": "Core.Property.Attribute"
+                } , {
+                    "GroupName": "Core.Property.Misc"
+                }
+            ]
         }
     ] , "FilterGroups": {
         "Core.Item.Common": {
@@ -13270,6 +13457,26 @@
             , "Keywords": {
                 "Classification": ["Legendary"]
                 , "Type": ["Regular Item", "Affix"]
+            }
+        }
+        , "Core.Item.Set": {
+            "DisplayName": "Set (Regular Items)"
+            , "ColorCode": "g"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Legendary", "Epic"]
+                , "Type": ["Regular Item"]
+                , "Group": ["Set"]
+            }
+        }
+        , "Core.MI.Set": {
+            "DisplayName": "Set (MI)"
+            , "ColorCode": "x"
+            , "bReadOnly": true
+            , "Keywords": {
+                "Classification": ["Legendary", "Epic"]
+                , "Type": ["MI Item"]
+                , "Group": ["Set"]
             }
         }
         , "Core.Quality.Common": {

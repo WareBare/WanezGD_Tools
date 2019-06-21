@@ -75,6 +75,12 @@ module.exports = {
         wzReloadCMS(10);
     },
 
+    OnClickCheckBox_bEnableAutoDelete: function(el){
+        appConfig.set(`Filter.bEnableAutoDelete`, el.checked);
+
+        wzReloadCMS(10);
+    },
+
     MakeContent_Localization: function(){
         let outStr = ``
             , tempFormItemOutput = ``;
@@ -148,6 +154,7 @@ module.exports = {
 
         if(typeof appConfig.get(`Filter.bEnableSymbols`) === `undefined`) appConfig.set(`Filter.bEnableSymbols`, true);
         if(typeof appConfig.get(`Filter.bMakeZipForTextEn`) === `undefined`) appConfig.set(`Filter.bMakeZipForTextEn`, false);
+        if(typeof appConfig.get(`Filter.bEnableAutoDelete`) === `undefined`) appConfig.set(`Filter.bEnableAutoDelete`, false);
         
         tempFormItemOutput += ``;
         tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
@@ -163,6 +170,13 @@ module.exports = {
                 , LABEL: `Create Zip`
                 , B_CHECKED: (appConfig.get(`Filter.bMakeZipForTextEn`)) ? ` CHECKED` : ``
             , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bMakeZipForTextEn`)) ? `Creates Zip in addition to regular files.` : `Will not create Zip.`}</li><li>Creates a Zip for non-localized colors.</li><li class="Msg_Warn">Localizations have their own checkbox.</li></ul>`
+            });
+            
+            tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
+                ON_CLICK_FN: `_cms.OnClickCheckBox_bEnableAutoDelete(this)`
+                , LABEL: `Auto-Delete Old Files`
+                , B_CHECKED: (appConfig.get(`Filter.bEnableAutoDelete`)) ? ` CHECKED` : ``
+            , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bEnableAutoDelete`)) ? `Deletes filter files before creating new ones.` : `Overwrites old files.`}</li><li>This is needed when color presets do not require the same files to be edited.</li><li>You can manually delete files with the button on the right-hand side <kbd class="DefaultBtn">Delete Old Files</kbd>.</li><li class="Msg_Warn">Deletes all files in /settings/text_en/ when you use <kbd class="DefaultBtn">Save Colors</kbd>.<ul><li>if coloring files are the only files, you have nothing to worry about.</li></ul></li></ul>`
             });
         }
         
@@ -377,11 +391,25 @@ module.exports = {
         
         return Output;
     },
+
+    OnClickSidebarBtn_DeleteOldColorFiles: function(){
+        Super.OnDeleteOldFiles();
+    },
     
     sidebarBtns_: function(){
         let outButtons = [];
 
         // ---
+        if(Super.IsPathCorrect()){
+            if(!Super.IsUsingLocale()){
+                /// Path is correct and using Locale
+                outButtons.push({
+                    "ONCLICK": "_cms.OnClickSidebarBtn_DeleteOldColorFiles()",
+                    "TEXT": "Delete Old Files"
+                });
+            }
+        }
+        
 
         return outButtons;
     },

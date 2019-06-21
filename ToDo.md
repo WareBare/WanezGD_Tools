@@ -6,17 +6,34 @@
 
 ---
 
-# v0.2.3 - UI Improvements & Grim Dawn v1.1.3.0
+# v0.3.0 - Deletion, UI & Grim Dawn v1.1.3.0
 
-*In the spirit of transparency:*
-*I have added a Modules Pack I've been working on for my (private) modding tools, it mostly changes back-end. It helps clean up spaghetti code over the next versions and adds better integration of VSCode intellisense. I don't do this in one go, because I think it will avoid unexpected issues when I do it step by step.*
+- ***New:***  Added native support for Grim Dawn v1.1.3.0 Items.
+  * New sets are being recognized as such.
+- ***New:*** Deletion of ColorCoding files.
+  * This is useful if you do not want to use ColorCoding or when you save a different color preset. (not every preset will use the same files, so overwriting them won't be enough to remove certain color changes)
+  * A new button was added to <kbd>Settings</kbd> that will delete ColorCoding files for non-localization.
+  * A new checkbox was added (<kbd>Auto-Delete Old Files</kbd>) to <kbd>Settings</kbd>, this will delete old ColorCoding files automatically when you use <kbd>Save Colors</kbd>. (disabled by default)
+- ***New:*** Added information to close Grim Dawn if path could not be found. (this does not change how the tool works)
+- ***New:*** <kbd>Library</kbd> now remembers your last used Color Preset.
+- ***Removed:*** Removed Settings-Button (gear icon in the top right), as it added no functionality and was a remainder from the old tools. The only settings of importance are accessible from the left-hand side menu.
+- ***Improvement:*** Various UI & information text improvements.
+  * <kbd>Tag-Adder</kbd> in <kbd>Settings</kbd>, no functionality changes - only UI and in-tool information.
+  * <kbd>Library</kbd> updated in the same way.
+- ***Bug Fix:*** Fixed an issue with optional User Data Path, where the path required `/Settings` at the end. If it worked for you, nothing you need to change, the tool will check if `/Settings` is at the end of the path and add it if not.
 
-- [ ] ***added*** - native support for Grim Dawn v1.1.3.0 Items.
-- ***added*** - information to close Grim Dawn if path could not be found. (this does not change how the tool works)
-- ***removed*** - Settings-Button (gear icon in the top right), as it added no functionality and was a remainder from the old tools. The only settings of importance are accessible from the left-hand side menu.
-- ***mixed*** - Various UI improvements.
-  * includes <kbd>Tag-Adder</kbd> in <kbd>Settings</kbd>, no functionality changes - only UI and in-tool information.
 
+
+# Diablo Preset
+
+*Note: Sets don't have the prefixed (S) Symbol, they have a different color.*
+
+* <span style="background-color:#0F0F0F"><font color="#FFFFFF">Common</font></span>
+* <span style="background-color:#0F0F0F"><font color="#39ABCF">Magic</font></span>
+* <span style="background-color:#0F0F0F"><font color="#FFF62C">Rare</font></span> | <span style="background-color:#0F0F0F"><font color="#92CC00">MI - Rare</font></span>
+* <span style="background-color:#0F0F0F"><font color="#5A039A">Epic</font></span> | <span style="background-color:#0F0F0F"><font color="#FF69B5">MI - Epic</font></span>
+* <span style="background-color:#0F0F0F"><font color="#F3A44D">Legendary</font></span> | <span style="background-color:#0F0F0F"><font color="#FF4200">MI - Legendary</font></span>
+* <span style="background-color:#0F0F0F"><font color="#10EB5D">Set (Epic/Legendary)</font></span> | <span style="background-color:#0F0F0F"><font color="#38592E">MI - Set (Epic/Legendary)</font></span>
 
 # v0.2
 

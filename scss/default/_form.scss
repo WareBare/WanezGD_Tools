@@ -13,6 +13,15 @@
 
     display: block;
 
+    fieldset{
+        background-color: $backgroundColor-000;
+
+        legend{
+            color: $fontColor-000;
+        }
+    }
+    
+
     /*
     .colorPicker{
         background-color: #0D0D0F; // 353631

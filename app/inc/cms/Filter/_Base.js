@@ -116,7 +116,8 @@ module.exports = {
         , TextFieldWithTip: `<label data-wztip='{TOOL_TIP}' data-wztip-position="right" class="Default">{LABEL}<msg class="ErrorMsg">{ERROR_MSG}</msg><input type="text" value="{TEXT}" onChange="{ON_CHANGE_FN};" {SETTINGS} /></label>`
         , CheckBox: `<label class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
         , CheckBoxWithTip: `<label data-wztip='{TOOL_TIP}' data-wztip-position="top" class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
-        , CollapsibleContainer: `<fieldset class="Collapsible"><legend><span class="CollapsibleBTN" onClick="Super.OnClick_CollapsibleBTN(this);">+</span> {TITLE}</legend><div class="CollapsibleContents" style="display: none;">{CONTENTS}</div></fieldset>`
+        , CollapsibleContainer: `<details class="DefaultDetails"><summary>{TITLE}</summary>{CONTENTS}</details>`
+        //, CollapsibleContainer: `<fieldset class="Collapsible"><legend><span class="CollapsibleBTN" onClick="Super.OnClick_CollapsibleBTN(this);">+</span> {TITLE}</legend><div class="CollapsibleContents" style="display: none;">{CONTENTS}</div></fieldset>`
         , TextArea: `<label class="Default">{LABEL}<textarea onBlur="{ON_CHANGE_FN}">{VALUE}</textarea></label>`
         , TextAreaWithTip: `<label class="Default" data-wztip='{TOOL_TIP}' data-wztip-position="right">{LABEL}<textarea onBlur="{ON_CHANGE_FN}" placeholder="{PLACEHOLDER}">{VALUE}</textarea></label>`
     },
@@ -810,6 +811,16 @@ module.exports = {
         }
 
         return bOutFound;
+    },
+
+    OnDeleteOldFiles: function(){
+        //Log(`delete old files: ${this.GetGrimDawnPath()}/settings/text_en/`);
+        fs.emptyDirSync(`${this.GetGrimDawnPath()}/settings/text_en`);
+        
+        let userDataPath = appConfig.get(`GrimDawn.Paths.UserData`);
+        if(userDataPath && userDataPath !== ``){
+            fs.emptyDirSync(`${userDataPath.replace(/\\/g, `/`).replace(`/Settings`, ``)}/Settings/text_en`);
+        }
     },
 
     content_: function(){
