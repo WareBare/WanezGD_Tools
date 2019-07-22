@@ -19,6 +19,7 @@ const _DataPath = `C:/Users/Ware/source/repos/WanezModTools/app/lib/WanezProject
  * Stores Data from /_Modules/data.json; use GetData() to get it and WriteData() to save.
  */
 //let _Data = fs.readJsonSync(`${_DataPath}/data.json`);
+//let _Data;
 
 /**
  * [1.5, 1.7] 

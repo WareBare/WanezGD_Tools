@@ -348,7 +348,7 @@ module.exports = {
         tempFormItemOutput += `<br />`;
 
         tempFormItemOutput += Super.tplContent.TextField.wzReplace({
-            TEXT: Super.GetGrimDawnPath()
+            TEXT: Super.GetGrimDawnPath() || ``
             , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPath(this)`
             , LABEL: `Grim Dawn - Path`
             , SETTINGS: ` style="width: 650px;"`

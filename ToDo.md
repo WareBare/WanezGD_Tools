@@ -6,9 +6,18 @@
 
 ---
 
-v0.3.1 - Hotfix
+# v0.4.0
 
-- ***Bug Fix:*** Fixed an issue preventing to load <kbd>Settings</kbd>
+- [ ] ***New:*** Symbols can now be adjusted for customized presets when showing advanced options in <kbd>Library</kbd>.
+
+
+
+# v0.3.2 - Bugfixes & Grim Dawn v1.1.4.0
+
+- ***Changed:*** Preset <kbd>Basic Highlighting</kbd> now has symbols for `Set Items` disabled, any existing copies you have based on the old preset won't be affected, however, creating a copy now and making changes will disable said symbol for it.
+- ***Bug Fix:*** Creating a Zip ready for uploading was creating the wrong directory structure inside the Zip.
+- ***Bug Fix:*** Text field for setting Grim Dawn Path no is empty when no path is set, instead of false (this has no functional changes only visually to avoid confusion).
+- ***Bug Fix:*** Fixed an issue where `Cold Properties` were not receiving color changes.
 
 # v0.3.0 - Deletion, UI & Grim Dawn v1.1.3.0
 

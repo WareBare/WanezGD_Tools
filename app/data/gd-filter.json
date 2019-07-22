@@ -1,5 +1,10 @@
 {
     "Tags": {
+        "tagGDX2WaistD208": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
         "tagGDX2EndlessDungeon_S202": {
             "Classification": "Legendary",
             "Type": "Regular Item",
@@ -13230,7 +13235,7 @@
         {
             "DisplayName": "Full Rainbow"
             , "PackageName": "fullRainbow"
-            , "Version": "1.1.3.0"
+            , "Version": "1.1.4.0"
             , "bReadOnly": true
             , "Data": [
                 {
@@ -13288,8 +13293,11 @@
         } , {
             "DisplayName": "Basic Highlighting"
             , "PackageName": "basicHighlighting"
-            , "Version": "1.1.3.0"
+            , "Version": "1.1.4.0"
             , "bReadOnly": true
+            , "DisabledSymbols": [
+                "Group.Set"
+            ]
             , "Data": [
                 {
                     "GroupName": "Core.Item.Common"
@@ -13343,7 +13351,7 @@
         }, {
             "DisplayName": "Diablo & PoE"
             , "PackageName": "diablo"
-            , "Version": "1.1.3.0"
+            , "Version": "1.1.4.0"
             , "bReadOnly": true
             , "DisabledSymbols": [
                 "Group.Set"

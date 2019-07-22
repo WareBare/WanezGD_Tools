@@ -449,13 +449,20 @@ module.exports = {
         //Log(`${InTagKey} --- ${InColorCode}`);
         // loop files with previous changes, ignore others.
         for(let fileKey in OutSourceData){
+            //Log(fileKey);
             if(OutSourceData[fileKey][0].bUpdated && foundIndex === -1){
                 foundIndex = OutSourceData[fileKey].findIndex( x => x.TagKey === InTagKey );
                 if(foundIndex !== -1) this.ApplyColorInSourceData(OutSourceData, fileKey, foundIndex, InColorCode, InKeywords);
+                // #BugFix - Russian Localization
+                if(fileKey === `tags_gmreplacer.txt` && foundIndex !== -1){
+                    //Log(`found match`);
+                    foundIndex = -1;
+                }
+                //foundIndex = -1;
                 //if(foundIndex !== -1) fileName = fileKey;
             }
         }
-
+        
         // loopt files without previous changes if no entry found yet.
         if(foundIndex === -1){
             for(let fileKey in OutSourceData){
@@ -463,6 +470,12 @@ module.exports = {
                 if(!OutSourceData[fileKey][0].bUpdated && foundIndex === -1){
                     foundIndex = OutSourceData[fileKey].findIndex( x => x.TagKey === InTagKey );
                     if(foundIndex !== -1) this.ApplyColorInSourceData(OutSourceData, fileKey, foundIndex, InColorCode, InKeywords);
+                    // #BugFix - Russian Localization
+                    if(fileKey === `tags_gmreplacer.txt` && foundIndex !== -1){
+                        //Log(`found match`);
+                        foundIndex = -1;
+                    }
+                    //foundIndex = -1;
                     //if(foundIndex !== -1) fileName = fileKey;
                 }
             }
@@ -544,7 +557,7 @@ module.exports = {
                         wzIO.file_put_contents(`${appConfig.get(`GrimDawn.Paths.UserData`).replace(/\\/g, `/`).replace(`/Settings`, ``)}/Settings/text_en/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
                     }
                     if(appConfig.get(`Filter.bMakeZipForTextEn`)){
-                        zip.file(`Grim Dawn/settings/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]));
+                        zip.file(`Grim Dawn/settings/text_en/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]));
                     }
                 }
             }
