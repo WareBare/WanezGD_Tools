@@ -1,7 +1,7 @@
 *Change colors for Affixes, Item names and MI to quickly see a difference. Rare Affixes will be colored as such, without changing the color of the Item's name itself and MI will appear different from their rarity's default color. You may also see Properties such as Damage Types in different colors, this allows you to decide at a glance if an item is good for your build.*
 
 ---
-Keywords for Search: Rainbow Mod, Rainbow Filter, Color Coding, Item Filter, Font Highlighting
+Keywords for Search: Grim Dawn, Rainbow Mod, Rainbow Filter, Color Coding, Item Filter, Font Highlighting
 
 ---
 # Table of Contents
@@ -239,10 +239,10 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.3.1](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.1/WanezGD_Tools-Setup-0.3.1.exe "Link from GitHub Releases") |
-| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.3.1](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.1/fullRainbow-1.1.3.1.zip) |
-| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.3.1](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.1/diablo-1.1.3.1.zip) |
-| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.3.1](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.1/basicHighlighting-1.1.3.1.zip) |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.3.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.2/WanezGD_Tools-Setup-0.3.2.exe "Link from GitHub Releases") |
+| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.4.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.2/fullRainbow-1.1.4.0.zip) |
+| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.4.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.2/diablo-1.1.4.0.zip) |
+| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.4.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.2/basicHighlighting-1.1.4.0.zip) |
 
 *___Note:___  Files are only for the English version of the game (Main Campaign and Custom Game), the Tool can be used for all Languages.*
 

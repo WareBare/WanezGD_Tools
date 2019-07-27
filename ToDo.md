@@ -6,9 +6,11 @@
 
 ---
 
-# v0.4.0
+# v0.4.0 - QoL & Debugging Help
 
 - [ ] ***New:*** Symbols can now be adjusted for customized presets when showing advanced options in <kbd>Library</kbd>.
+- [ ] ***New:*** Filter Build number will show on the Filter Window (for reference if filter was installed properly).
+- [ ] ***New:*** Files are being checked and updated on filter start (using the last saved preset).
 
 
 
@@ -16,8 +18,8 @@
 
 - ***Changed:*** Preset <kbd>Basic Highlighting</kbd> now has symbols for `Set Items` disabled, any existing copies you have based on the old preset won't be affected, however, creating a copy now and making changes will disable said symbol for it.
 - ***Bug Fix:*** Creating a Zip ready for uploading was creating the wrong directory structure inside the Zip.
-- ***Bug Fix:*** Text field for setting Grim Dawn Path no is empty when no path is set, instead of false (this has no functional changes only visually to avoid confusion).
-- ***Bug Fix:*** Fixed an issue where `Cold Properties` were not receiving color changes.
+- ***Bug Fix:*** Text field for setting Grim Dawn Path is now empty when no path is set, instead of false (this has no functional changes only visually to avoid confusion).
+- ***Bug Fix:*** Fixed an issue where `Cold Properties` were not receiving color changes. (Russian Localization)
 
 # v0.3.0 - Deletion, UI & Grim Dawn v1.1.3.0
 
@@ -35,6 +37,14 @@
   * <kbd>Library</kbd> updated in the same way.
 - ***Bug Fix:*** Fixed an issue with optional User Data Path, where the path required `/Settings` at the end. If it worked for you, nothing you need to change, the tool will check if `/Settings` is at the end of the path and add it if not.
 
+
+# Reddit
+
+If you are seeing `Tag Not Found` it's probably due to an outdated Rainbow Filter.
+
+You can find all download links in the [forum thread](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) 
+
+If you're still seeing missing tags, let me know about them.
 
 
 # Forum Post
