@@ -239,14 +239,14 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.3.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.2/WanezGD_Tools-Setup-0.3.2.exe "Link from GitHub Releases") |
-| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.4.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.2/fullRainbow-1.1.4.0.zip) |
-| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.4.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.2/diablo-1.1.4.0.zip) |
-| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.4.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.2/basicHighlighting-1.1.4.0.zip) |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.3.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.3/WanezGD_Tools-Setup-0.3.3.exe "Link from GitHub Releases") |
+| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.4.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.3/fullRainbow-1.1.4.2.zip) |
+| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.4.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.3/diablo-1.1.4.2.zip) |
+| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.4.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.3/basicHighlighting-1.1.4.2.zip) |
 
 *___Note:___  Files are only for the English version of the game (Main Campaign and Custom Game), the Tool can be used for all Languages.*
 
-*___Note:___ The tool has an Auto-Updater which will download and install the most recent version for you.*
+*___Note:___ The tool has an Auto-Updater which will download and install the most recent Setup.exe version for you.*
 
 *__Note:__ Downloads are being hosted on GitHub, if you wish to start the download from there, you may go to the `GitHub - Releases` page. You can find the link below in Useful Links.*
 
