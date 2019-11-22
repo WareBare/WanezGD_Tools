@@ -1,5 +1,160 @@
 {
     "Tags": {
+        "TagQualityOld": {
+            "Classification": "Common",
+            "Type": "Quality",
+            "Group": "None"
+        },
+        "tagGDX2FeetD205": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2LegsD204": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2HandsD205": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2TorsoD219": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2ShoulderD219": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2HeadD221": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set"
+        },
+        "tagGDX2WeaponMelee2hB207": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagGDX2HeadB209": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagGDX2ShoulderB206": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagGDX2TorsoB205": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagGDX2RingC203": {
+            "Classification": "Epic",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagGDX2RingC209": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingC208": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingC207": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingC206": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingC205": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingC204": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2WeaponMelee2hC203": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingD208": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagGDX2RingD214": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingD213": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingD212": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingD211": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingD210": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingD209": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2WeaponMelee2hD204": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2WaistD209": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2RingD215": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2FocusD210": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2FocusD209": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
         "tagGDX2WaistD208": {
             "Classification": "Legendary",
             "Type": "Regular Item",
@@ -13240,7 +13395,7 @@
         {
             "DisplayName": "Full Rainbow"
             , "PackageName": "fullRainbow"
-            , "Version": "1.1.4.2"
+            , "Version": "1.1.5.0"
             , "bReadOnly": true
             , "Data": [
                 {
@@ -13298,7 +13453,7 @@
         } , {
             "DisplayName": "Basic Highlighting"
             , "PackageName": "basicHighlighting"
-            , "Version": "1.1.4.2"
+            , "Version": "1.1.5.0"
             , "bReadOnly": true
             , "DisabledSymbols": [
                 "Group.Set"
@@ -13356,7 +13511,7 @@
         }, {
             "DisplayName": "Diablo & PoE"
             , "PackageName": "diablo"
-            , "Version": "1.1.4.2"
+            , "Version": "1.1.5.0"
             , "bReadOnly": true
             , "DisabledSymbols": [
                 "Group.Set"

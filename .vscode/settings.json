@@ -36,7 +36,7 @@
 			, "iconColour": "#A05050"
 			, "type": "tag"
 			, "rulerColour": "#BF6F6F"
-		}
+		},
 		"#WiP": {
 			"icon": "squirrel"
 			, "foreground": "#0F0F0F"

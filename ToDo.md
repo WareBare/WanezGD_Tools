@@ -14,9 +14,9 @@
 
 
 
-# v0.3.3 - Grim Dawn v1.1.4.2
+# v0.3.4 - Grim Dawn v1.1.5.0
 
-- ***Updated:*** Item Data file.
+- ***New:*** Added native support for Grim Dawn v1.1.5.0 Items.
 
 # v0.3.0 - Deletion, UI & Grim Dawn v1.1.3.0
 
@@ -35,13 +35,16 @@
 - ***Bug Fix:*** Fixed an issue with optional User Data Path, where the path required `/Settings` at the end. If it worked for you, nothing you need to change, the tool will check if `/Settings` is at the end of the path and add it if not.
 
 
-# Reddit
 
-If you are seeing `Tag Not Found` it's probably due to an outdated Rainbow Filter.
 
-You can find all download links in the [forum thread](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) 
 
-If you're still seeing missing tags, let me know about them.
+# Forum Reply
+
+Files and Tool updated for Grim Dawn v1.1.5.0
+
+Tool updates itself, keep in mind colors need to be changed manually after it has finished updating.
+
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.3.3).
 
 
 # Forum Post
