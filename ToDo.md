@@ -44,7 +44,7 @@ Files and Tool updated for Grim Dawn v1.1.5.0
 
 Tool updates itself, keep in mind colors need to be changed manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.3.3).
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.3.4).
 
 
 # Forum Post
