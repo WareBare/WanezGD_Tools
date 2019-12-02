@@ -11,6 +11,7 @@ let SourceData
         , GroupData: false
         , TagInfoData: false
         , KeywordSymbols: false
+        , ImportantTags: false
     }
     , bPathCorrect = false
     , GrimDawnPath = false
@@ -28,6 +29,7 @@ let FilterStorage = {
     , TagInfoData: new eConfig({name: `gd-filter-tags`})
     , LibraryData: new eConfig({name: `gd-filter-library`})
     , KeywordSymbols: new eConfig({name: `gd-filter-symbols`})
+    , ImportantTags: new eConfig({name: `gd-filter-important`})
 };
 
 let RunArchiveTool = function(){
@@ -109,6 +111,9 @@ module.exports = {
         }
     },
 
+    GrimDawnVersion: `1.1.5.1`,
+    LastItemVersion: `1.1.5.0`,
+
     //  data-wztip="{TOOL_TIP}" data-wztip-position="top"
     tplContent: {
         FormContainer: `<div id="WzForm"><fieldset><legend>{TITLE}</legend>{CONTENTS}</fieldset></div>`
@@ -116,7 +121,7 @@ module.exports = {
         , TextFieldWithTip: `<label data-wztip='{TOOL_TIP}' data-wztip-position="right" class="Default">{LABEL}<msg class="ErrorMsg">{ERROR_MSG}</msg><input type="text" value="{TEXT}" onChange="{ON_CHANGE_FN};" {SETTINGS} /></label>`
         , CheckBox: `<label class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
         , CheckBoxWithTip: `<label data-wztip='{TOOL_TIP}' data-wztip-position="top" class="CheckBox"><input type="checkbox" value="{VALUE}" onClick="{ON_CLICK_FN}" {B_CHECKED} /><span>{LABEL}</span></label>`
-        , CollapsibleContainer: `<details class="DefaultDetails"><summary>{TITLE}</summary>{CONTENTS}</details>`
+        , CollapsibleContainer: `<details class="DefaultDetails"{B_OPEN}><summary>{TITLE}</summary><div>{CONTENTS}</div></details>`
         //, CollapsibleContainer: `<fieldset class="Collapsible"><legend><span class="CollapsibleBTN" onClick="Super.OnClick_CollapsibleBTN(this);">+</span> {TITLE}</legend><div class="CollapsibleContents" style="display: none;">{CONTENTS}</div></fieldset>`
         , TextArea: `<label class="Default">{LABEL}<textarea onBlur="{ON_CHANGE_FN}">{VALUE}</textarea></label>`
         , TextAreaWithTip: `<label class="Default" data-wztip='{TOOL_TIP}' data-wztip-position="right">{LABEL}<textarea onBlur="{ON_CHANGE_FN}" placeholder="{PLACEHOLDER}">{VALUE}</textarea></label>`
@@ -172,7 +177,7 @@ module.exports = {
     },
 
     SetCMSForPathCorrect: function(bInPathCorrect){
-        let pathsToAdd = [`Filter/Settings/Manage Tags`, `Filter/Settings/Manage Groups`, `Filter/Library`]
+        let pathsToAdd = [`Filter/Settings/Manage Tags`, `Filter/Settings/Manage Groups`, `Filter/Library`, `Filter/Library/Special Highlighting`]
             , enablerData = appConfig.get(`Enablers`) || []
             , loopIndex
             , bForceReload = false;
@@ -233,9 +238,16 @@ module.exports = {
 
         // KeywordSymbols
         if(!ClassData[`KeywordSymbols`]) ClassData[`KeywordSymbols`] = this.MakeFilterKeywordSymbols();
+        if(!ClassData[`ImportantTags`]) ClassData[`ImportantTags`] = this.MakeImportantTags();
         //AddToolTips();
     },
 
+    MakeImportantTags: function()
+    {
+        let outTags = FilterStorage[`ImportantTags`].store || {};
+
+        return outTags;
+    },
     MakeFilterKeywordSymbols: function(){
         let outKeywordSymbols = Object.assign({}, appData[`gd-filter`].KeywordSymbols, FilterStorage[`KeywordSymbols`].store);
         
@@ -583,12 +595,12 @@ module.exports = {
      * @param {string} InGroupKey Group Key (need escaping for dots).
      * @param {string} InSelectedColorCode currently selected color code.
      */
-    MakeColorPicker: function(InLabel, InGroupKey, InSelectedColorCode, bInDisabled = false){
+    MakeColorPicker: function(InLabel, InGroupKey, InSelectedColorCode, bInDisabled = false, InCustomEvent = false){
         let ColorBox_,
             ColorBoxItems_ = ``,
             ColorCodeData = appData[`gd-colorcodes`],
             tplColorBox = `<fieldset class="ColorPicker_Container"><legend>{LABEL}</legend><div class="ColorPicker">{BOX_ITEMS}</div></fieldset>`,
-            tplColorBoxItem = `<label data-wztip="{COLOR_NAME} ({COLOR_CODE})" data-wztip-position="bottom"><input onChange="Super.OnChange_ColorPicker(this, ${InLabel === `Default Color`})" value="{COLOR_CODE}" type="radio" name="${InGroupKey}" {B_DISABLED}{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
+            tplColorBoxItem = `<label data-wztip="{COLOR_NAME} ({COLOR_CODE})" data-wztip-position="bottom"><input onChange="${(InCustomEvent == false) ? `Super.OnChange_ColorPicker(this, ${InLabel === `Default Color`})` : `${InCustomEvent}`}" value="{COLOR_CODE}" type="radio" name="${InGroupKey}" {B_DISABLED}{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
     
         ColorBoxItems_ += ColorBoxItems_ += tplColorBoxItem.wzReplace({
             COLOR_HEX: `background-color:transparent`
@@ -646,6 +658,10 @@ module.exports = {
         return WzSanitizeJSON(ClassData[`LibraryData`]);
     },
 
+    ReplaceClassData: function(InDataKey, InNewData)
+    {
+        FilterStorage[InDataKey].store = InNewData;
+    },
     SaveParsedTagData: function(InData){
         let newData = Object.assign({}, FilterStorage[`TagInfoData`].store, InData);
 

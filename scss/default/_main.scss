@@ -1091,6 +1091,10 @@ table.TagsList{
     margin: 5px;
     //color: $DetailsSummary_Color01;
     border-radius: 5px;
+    
+    div{
+        vertical-align: top;
+    }
 
     
     .Msg_Warn{

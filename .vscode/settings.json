@@ -64,5 +64,65 @@
 	}
 	, "todo-tree.tags": ["#ToDo", "#FixMe", "#WiP", "#ToTest", "#Switch"]
 	, "todo-tree.showCountsInTree": true
-	, "todo-tree.labelFormat": "${after} [${line}] ${filename}"
+	,
+	"todo-tree.labelFormat": "${after} [${line}] ${filename}",
+	"todo-tree.highlights.customHighlight": {
+		"#ToDo": {
+			"icon": "checklist",
+			"foreground": "#0F0F0F",
+			"background": "#6FBF6F",
+			"type": "tag",
+			"rulerColour": "#6FBF6F"
+		},
+		"#FixMe": {
+			"icon": "issue-opened",
+			"foreground": "#0F0F0F",
+			"background": "#BF6F6F",
+			"iconColour": "#A05050",
+			"type": "tag",
+			"rulerColour": "#BF6F6F"
+		},
+		"#WiP": {
+			"icon": "squirrel",
+			"foreground": "#0F0F0F",
+			"background": "yellow",
+			"iconColour": "yellow",
+			"type": "tag",
+			"rulerColour": "yellow"
+		},
+		"#ToTest": {
+			"icon": "alert",
+			"foreground": "#0F0F0F",
+			"background": "#AF5FAF",
+			"iconColour": "#AF5FAF",
+			"type": "tag",
+			"rulerColour": "#AF5FAF"
+		},
+		"#Switch": {
+			"icon": "arrow-both",
+			"foreground": "#AFAFAF",
+			"background": "#5F5FAF",
+			"iconColour": "#5F5FAF",
+			"type": "tag",
+			"rulerColour": "#5F5FAF"
+		}
+	},
+	"todo-tree.highlights.defaultHighlight": {
+		"icon": "globe",
+		"type": "text",
+		"foreground": "red",
+		"background": "white",
+		"opacity": 50,
+		"iconColour": "green",
+		"rulerLane": "full"
+	},
+	"todo-tree.tree.labelFormat": "${after} [${line}] ${filename}",
+	"todo-tree.tree.showCountsInTree": true,
+	"todo-tree.general.tags": [
+		"#ToDo",
+		"#FixMe",
+		"#WiP",
+		"#ToTest",
+		"#Switch"
+	]
 }

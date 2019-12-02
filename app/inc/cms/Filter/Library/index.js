@@ -10,6 +10,8 @@ module.exports = {
     Forms: {},
     tplContent: {},
 
+    SpecialTags: false,
+
     LibraryData: false,
     GroupData: false,
     CurrentPackageNameInput: ``,
@@ -269,6 +271,14 @@ module.exports = {
         
         this.GroupData = Super.GetClassData(`GroupData`);
 
+        /*
+        if(!this.SpecialTags){
+            this.SpecialTags = Super.GetClassData(`ImportantTags`);
+            this.SpecialTags.Groups = this.SpecialTags.Groups || {};
+            this.SpecialTags.Tags = this.SpecialTags.Tags || {};
+            //this.SpecialTags.Collapsibles = this.SpecialTags.Collapsibles || [];
+        }
+        */
 
         if(InContentType !== this.contentType && this.contentType !== `undefined`){
             // Reset TagInfo when different Library is loaded, as it may change it.
@@ -405,15 +415,41 @@ module.exports = {
     },
 
     ApplyColorInSourceData: function(OutSourceData, InFileName, InIndex, InColorCode, InKeywords){
+        const tagName = OutSourceData[InFileName][InIndex].TagKey
+            , specialGroupName = this.SpecialTags.Tags[tagName];
+
+        let TypeSymbol = ``;
+        if (specialGroupName) {
+            const groupObject = this.SpecialTags.Groups[specialGroupName];
+            TypeSymbol = groupObject.Symbol;
+            //InColorCode = groupObject.ColorCode;
+            // only change param color code if it is not set to 'Clear'
+            InColorCode = (!groupObject.ColorCode || groupObject.ColorCode === `Clear`) ? InColorCode : groupObject.ColorCode;
+            //Log(`test`);
+        }
+
+        if (TypeSymbol === ``) {
+            if (!this.IsSymbolDisabledByLibrary(InKeywords, `Type`)) {
+                TypeSymbol += Super.MakeSymbol(`Type`, InKeywords);
+            }
+            if (!this.IsSymbolDisabledByLibrary(InKeywords, `Classification`)) {
+                TypeSymbol += Super.MakeSymbol(`Classification`, InKeywords);
+            }
+            if (!this.IsSymbolDisabledByLibrary(InKeywords, `Group`)) {
+                TypeSymbol += Super.MakeSymbol(`Group`, InKeywords);
+            }
+            //
+        }
+        
         //Log(InColorCode);
-        if(InColorCode === `Clear` || !InColorCode) return false;
+        if( (InColorCode === `Clear` || !InColorCode) && TypeSymbol === `` ) return false;
         //Log(InColorCode);
         //Log(OutSourceData[InFileName][InIndex].TagValue);
         let newValue = OutSourceData[InFileName][InIndex].TagValue
-            , TypeSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Type`) ) ? `` : Super.MakeSymbol(`Type`, InKeywords)
-            , ClassificationSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Classification`) ) ? `` : Super.MakeSymbol(`Classification`, InKeywords)
-            , GroupSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Group`) ) ? `` : Super.MakeSymbol(`Group`, InKeywords)
-            , colorCode = `${TypeSymbol}${ClassificationSymbol}${GroupSymbol}{^${InColorCode.toUpperCase()}}`;
+            //, TypeSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Type`) ) ? `` : Super.MakeSymbol(`Type`, InKeywords)
+            //, ClassificationSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Classification`) ) ? `` : Super.MakeSymbol(`Classification`, InKeywords)
+            //, GroupSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Group`) ) ? `` : Super.MakeSymbol(`Group`, InKeywords)
+            , colorCode = `${TypeSymbol}${(InColorCode !== `Clear`) ? `{^${InColorCode.toUpperCase()}}` : `{}`}`;
         
 
         if(newValue.includes(`{^E}`)){
@@ -500,6 +536,10 @@ module.exports = {
     OnClick_WriteColors: function(){
         let SourceData = Super.GetSourceData()
             , savePath;
+
+        this.SpecialTags = Super.GetClassData(`ImportantTags`);
+        this.SpecialTags.Groups = this.SpecialTags.Groups || {};
+        this.SpecialTags.Tags = this.SpecialTags.Tags || {};
 
         this.UpdateSourceData(SourceData);
 

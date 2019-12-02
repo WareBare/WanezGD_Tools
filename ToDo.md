@@ -8,9 +8,9 @@
 
 # v0.4.0 - QoL & Debugging Help
 
-- [ ] ***New:*** Symbols can now be adjusted for customized presets when showing advanced options in <kbd>Library</kbd>.
-- [ ] ***New:*** Filter Build number will show on the Filter Window (for reference if filter was installed properly).
-- [ ] ***New:*** Files are being checked and updated on filter start (using the last saved preset).
+- [ ] ***Filter:*** Symbols can now be adjusted for customized presets when showing advanced options in <kbd>Library</kbd>.
+- [ ] ***Filter:*** Filter Build number will show on the Filter Window (for reference if filter was installed properly).
+- [ ] ***Tool:*** Files are being checked and updated on program start (using the last saved preset).
 
 
 
@@ -40,11 +40,25 @@
 
 # Forum Reply
 
-Files and Tool updated for Grim Dawn v1.1.5.0
+## Files and Tool updated for Grim Dawn v1.1.5.2
 
 Tool updates itself, keep in mind colors need to be changed manually after it has finished updating.
 
 You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.3.4).
+
+## New Tool Feature
+
+I've had an itch to finish up on a few ideas, so the next Rainbow Tool update (v0.4.0) will come with new features. The exact number will come down to when the next Grim Dawn update hits us. For this first feature, the goal was to give users a quick & easy way to highlight certain tags, you could already achieve similar things in various ways, but it was complicated and I'm not sure anybody even used it, so let's dive into it:
+
+Those of you using the tool will be able to use a new feature to highlight important items or affixes even further. <kbd>Special Highlighting</kbd> is a new section accessible through the left hand side navigation and will take you to this new feature's settings page. Create a new `Group` and give it a `Symbol` and `Color` (either are optional). Use the Search to find an Item or Affix by name and set its `Group` to one of your created groups. Next time you <kbd>Save Colors</kbd>, those changes will be applied and ready for play (remember to close Grim Dawn before doing this).
+
+The full range of this powerful new feature is available on the initially loaded overview page, however, you may select one of the subcategories on the right hand side to narrow it down and keep your workspace nice and clean. The Filter functionality will search for item and affix names in any of the subcategories, make sure to clear the field if you want to see all your selected Items & Affixes again.
+
+In the future you will see all information you can hope for with complete language support. The plan was initially to start with an Item Database, but I decided searching for items on GT is perfectly fine to get started or browse through items on GT and search for the name in the Rainbow Tool. Having all the information within the tool is a nice QoL, but not really a requirement.
+
+**Note:** Removing a Group by clearing its name field will remove all items assigned to that group. You could create a Group for the most recent Update and assign all new Items & Affixes you're interested in to it, once you don't care about them anymore you can just delete the group.
+
+**Note:** You may create as many groups with as many Items & Affixes assigned as you like.
 
 
 # Forum Post
@@ -55,6 +69,13 @@ You can find all downloads in the [First Post](https://forums.crateentertainment
 
 ---
 
+# v0.x.0
+
+* ***ItemDB:*** Core Implementation.
+* ***Filter:*** Important Item/Affix Highlighting.
+* ***Filter:*** Display Mastery for skills.
+
+---
 
 # Diablo Preset
 

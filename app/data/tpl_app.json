@@ -16,7 +16,9 @@
                     ".Manage Tags"
                     , ".Manage Groups"
                 ]
-                , ".Library":[]
+                , ".Library":[
+                    ".Special Highlighting"
+                ]
             }
         },
         "Disabled":{

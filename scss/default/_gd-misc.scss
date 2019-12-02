@@ -2,7 +2,7 @@
 
 #appGD_RunicInscriptions{
     .runesList, .inscriptionsList{
-        display:inline-block;
+        display: inline-block;
         vertical-align: top;
     }
     .runesList{
@@ -13,5 +13,27 @@
     }
     .materia{
         background-color: #3F3F3F;
+    }
+}
+
+.ListItemPreview
+{
+    display: inline-block;
+    border-width: 1px;
+    background-color: #2F2F2F;
+
+    margin: 2px;
+
+    ul{
+        margin: 5px;
+        li{
+            list-style: none;
+        }
+        
+    }
+
+    select{
+        background-color: #4F4F4F;
+        width: 245px;
     }
 }
