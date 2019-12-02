@@ -8,9 +8,11 @@
 
 # v0.4.0 - QoL & Debugging Help
 
-- [ ] ***Filter:*** Symbols can now be adjusted for customized presets when showing advanced options in <kbd>Library</kbd>.
-- [ ] ***Filter:*** Filter Build number will show on the Filter Window (for reference if filter was installed properly).
-- [ ] ***Tool:*** Files are being checked and updated on program start (using the last saved preset).
+- ***New Feature:*** Special Highlighting.
+  * Improve visibility of Items & Affixes with the new feature by using a new color or symbol.
+  * Post for more information can be found on the [official Grim Dawn Forums](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/354)
+- ***New Preset:*** Added a new `Clean Preset` for those that only want to highlight their "Special Items & Affixes".
+- ***BugFix:*** Items from 1.1.5.0 will show up according to information on GrimTools.
 
 
 
@@ -56,9 +58,34 @@ The full range of this powerful new feature is available on the initially loaded
 
 In the future you will see all information you can hope for with complete language support. The plan was initially to start with an Item Database, but I decided searching for items on GT is perfectly fine to get started or browse through items on GT and search for the name in the Rainbow Tool. Having all the information within the tool is a nice QoL, but not really a requirement.
 
-**Note:** Removing a Group by clearing its name field will remove all items assigned to that group. You could create a Group for the most recent Update and assign all new Items & Affixes you're interested in to it, once you don't care about them anymore you can just delete the group.
+**Note:** Removing a Group by clearing its name field will remove all items assigned to that group. You could create a Group for the most recent Update or your current build and assign to it all Items & Affixes you're interested in, once you don't care about them anymore you can just delete the group.
 
 **Note:** You may create as many groups with as many Items & Affixes assigned as you like.
+
+## Some Screenshots
+
+[details=Inside the Rainbow Tool]
+![Tools_040_RainbowPreview-SpecialHighlighting|690x377](upload://ew0y88LqIwEZ2jBQYEBr2kEe9km.png)
+[/details]
+
+---
+[details=Fellblade (Build X)]
+![Tools_040_RainbowScreenshot-SpecialHighlighting_01|270x187](upload://biwiRwmaY41rm5WxqudDouTgGQL.jpeg) 
+[/details]
+
+---
+[details=Magi Visage (Important MI)]
+![Tools_040_RainbowScreenshot-SpecialHighlighting_02|485x360](upload://dLqYvkYeTMNbup7O3WCQoXTeyjI.jpeg)
+
+**Note:** The color of the asterisk (*) is using the red color placed infront of it in the Symbol Input field. This is entirely optional, but demonstrates what would be possible with Symbols.
+[/details]
+
+---
+[details=Hallanx's Head (Newly Added)]
+ ![Tools_040_RainbowScreenshot-SpecialHighlighting_03|382x500](upload://qmDU9b3P0LNB121EkR4jleJfWbI.jpeg)
+[/details]
+
+---
 
 
 # Forum Post

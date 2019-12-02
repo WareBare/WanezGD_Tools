@@ -99,6 +99,31 @@ module.exports = {
         Super.ReplaceClassData(`ImportantTags`, this.TagData);
     },
 
+    UpdateGroupAssigedTags: function(InNewGroupName, InOldGroupName)
+    {
+        for (const kTagName in this.TagData.Tags) {
+            if (this.TagData.Tags.hasOwnProperty(kTagName)) {
+                const groupName = this.TagData.Tags[kTagName];
+                if (InOldGroupName === groupName) {
+                    if (InNewGroupName === ``) {
+                        delete this.TagData.Tags[kTagName];
+                        this.bResetTags = true;
+                    }else{
+                        this.TagData.Tags[kTagName] = InNewGroupName;
+                    }
+                    // also remove the old Collapsible entry.
+                    //Log(`GroupSettings.${InOldGroupName}`);
+                    //Log( (this.TagData.Collapsibles).indexOf(`GroupSettings.${InOldGroupName}`) );
+                    if (this.TagData.Collapsibles.indexOf(`GroupSettings.${InOldGroupName}`) !== -1) {
+                        this.TagData.Collapsibles.splice(this.TagData.Collapsibles.indexOf(`GroupSettings.${InOldGroupName}`), 1);
+                    }
+                    
+                }
+            }
+        }
+        
+    },
+
     OnChangeText_GroupName: function(InEl, InGroupName)
     {
         let newGroupData = this.TagData.Groups[InGroupName] || {}
@@ -110,8 +135,11 @@ module.exports = {
         }else if(InEl.value == ``){
             bAllowDelete = true;
         }
+
         this.OnUpdateState_Collapsible(`GroupSettings.${InGroupName}`);
         this.OnUpdateState_Collapsible(`GroupSettings.${InEl.value}`, false);
+        
+        this.UpdateGroupAssigedTags(InEl.value, InGroupName);
 
         if (InGroupName != `` && bAllowDelete) {
             delete this.TagData.Groups[InGroupName];
@@ -143,7 +171,7 @@ module.exports = {
     OnChangeCB_TagListItem: function(InEl, InTagKey)
     {
         /// ---
-        Log(InEl.value);
+        //Log(InEl.value);
         if (InEl.value != ``) {
             this.TagData.Tags[InTagKey] = InEl.value;
         }else{
@@ -562,7 +590,7 @@ module.exports = {
                 text: `Special Items & Affixes`
             }
             outButtons[`NewTags`] = {
-                text: `New Item & Affixes`
+                text: `New Items & Affixes`
             }
             outButtons[`RegularTags`] = {
                 text: `All Items & Affixes`

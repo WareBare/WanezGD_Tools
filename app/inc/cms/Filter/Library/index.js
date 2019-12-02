@@ -441,6 +441,7 @@ module.exports = {
             //
         }
         
+        InColorCode = InColorCode || `Clear`;
         //Log(InColorCode);
         if( (InColorCode === `Clear` || !InColorCode) && TypeSymbol === `` ) return false;
         //Log(InColorCode);
@@ -449,7 +450,7 @@ module.exports = {
             //, TypeSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Type`) ) ? `` : Super.MakeSymbol(`Type`, InKeywords)
             //, ClassificationSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Classification`) ) ? `` : Super.MakeSymbol(`Classification`, InKeywords)
             //, GroupSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Group`) ) ? `` : Super.MakeSymbol(`Group`, InKeywords)
-            , colorCode = `${TypeSymbol}${(InColorCode !== `Clear`) ? `{^${InColorCode.toUpperCase()}}` : `{}`}`;
+            , colorCode = `${TypeSymbol}${(InColorCode !== `Clear`) ? `{^${InColorCode.toUpperCase()}}` : ``}`;
         
 
         if(newValue.includes(`{^E}`)){
@@ -588,7 +589,7 @@ module.exports = {
             // Save Filter Files in /settings/
             savePath = `${Super.GetGrimDawnPath()}/settings/text_en`;
             let zip = new JSZip()
-                , zipName = `${this.contentType}-${this.LibraryData.Version}.zip`;
+                , zipName = `${this.contentType}-${(this.LibraryData.Version !== ``) ? this.LibraryData.Version : Super.GrimDawnVersion}.zip`;
             
             for(let fileKey in SourceData){
                 if(SourceData[fileKey][0].bUpdated){
