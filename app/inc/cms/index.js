@@ -5,6 +5,8 @@
 _cms = false;
 Super = _cms.Base; // simulating C++ Inheritance for module content (force of habit)
 
+_Subsystems = {};
+
 /**
  * loads content from a js function
  * @param {Array} $optCMS
@@ -184,4 +186,29 @@ wzLoadingCMS = function(bInStartLoading){
         LoadingScreen = document.getElementById(`wzLoadingScreen`);
         document.body.removeChild(LoadingScreen);
     }
+};
+
+let CreateSubsystem = function(InSubsystem, InParams)
+{
+    let outSubsystem;
+
+    try{
+        let subsystem = require(`${dirBase}/inc/subsystems/${InSubsystem}/S${InSubsystem}.js`);
+        InParams.SubsystemName = InSubsystem;
+
+        outSubsystem = new subsystem(InParams);
+    
+        _Subsystems[InSubsystem] = outSubsystem;
+    }catch(err){
+        console.error(`Unable to initialize Subsystem: '${InSubsystem}'!`);
+        console.error(err);
+        outSubsystem = false;
+    }
+
+    return outSubsystem;
+};
+
+wzGetSubsystem = function(InSubsystem, InParams = {})
+{
+    return _Subsystems[InSubsystem] || CreateSubsystem(InSubsystem, InParams);
 };

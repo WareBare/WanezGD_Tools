@@ -6,11 +6,14 @@
 
 ---
 
-# v0.4.0 - QoL & Debugging Help
+# v0.4.0 - Improved Visuals
 
-- ***New Feature:*** Special Highlighting.
+- ***New Feature:*** Special Highlighting
   * Improve visibility of Items & Affixes with the new feature by using a new color or symbol.
-  * Post for more information can be found on the [official Grim Dawn Forums](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/354)
+  * Post for more information can be found on the [official Grim Dawn Forums](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/354).
+- ***New Feature:*** Mastery Marker ([as result of a request](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/299))
+  * Adds Mastery Name after their respective Skill Names on items.
+  * Also allows coloring and support of Special Highlighting for Skill Names.
 - ***New Preset:*** Added a new `Clean Preset` for those that only want to highlight their "Special Items & Affixes".
 - ***BugFix:*** Items from 1.1.5.0 will show up according to information on GrimTools.
 
@@ -47,6 +50,8 @@
 Tool updates itself, keep in mind colors need to be changed manually after it has finished updating.
 
 You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.3.4).
+
+# New Feature "Special Highlighting" (Post)
 
 ## New Tool Feature
 
@@ -86,6 +91,31 @@ In the future you will see all information you can hope for with complete langua
 [/details]
 
 ---
+
+
+
+# New Feature "Mastery Marker" & "Versioning" (Post)
+
+## Mastery Marker
+
+As mentioned in a previous post I'm working on new Rainbow Tool features and as such adding a Mastery text after the skill name as [requested some time ago](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/299). The uploaded preset files won't have these texts added, because I don't intend to force it on anyone who doesn't want it.
+
+You can find the new section <kbd>Mastery Marker</kbd> on the left hand side navigation and make all the wanted changes from there. The possible options currently are the Mastery Name after the Skill Name and the usual colors. It is possible to use both, one of the two or neither. This is a global setting, which means the program will save your selections alongside any selected Filter. Global availability also means `Special Highlighting` will affect Skill Texts and they take priority over colors set inside the `Mastery Marker`.
+
+**Note:** Coloring only affects your active Masteries, the game overrides inactive Masteries in grey.
+
+[ScreenShots]
+
+## Versioning
+
+A Version number for `Rainbow Tool` and the targeted `Grim Dawn release` will be shown on the ToolTip for the button opening the in-game Filter Window. This should make it easier to keep track of the currently active version and allow everyone to check if their update worked as planned.
+
+[ScreenShots]
+
+
+
+
+
 
 
 # Forum Post

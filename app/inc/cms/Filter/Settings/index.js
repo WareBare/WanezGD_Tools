@@ -155,6 +155,7 @@ module.exports = {
         if(typeof appConfig.get(`Filter.bEnableSymbols`) === `undefined`) appConfig.set(`Filter.bEnableSymbols`, true);
         if(typeof appConfig.get(`Filter.bMakeZipForTextEn`) === `undefined`) appConfig.set(`Filter.bMakeZipForTextEn`, false);
         if(typeof appConfig.get(`Filter.bEnableAutoDelete`) === `undefined`) appConfig.set(`Filter.bEnableAutoDelete`, false);
+        if(typeof appConfig.get(`Filter.bEnableClassNames`) === `undefined`) appConfig.set(`Filter.bEnableClassNames`, false);
         
         tempFormItemOutput += ``;
         tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({

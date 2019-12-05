@@ -1,61 +1,5 @@
 /**
- * Created by WareBare on 3/24/2017.
- */
-
- /**
-  * "ImportantTags": [
-        {
-            "Name": "Recently Added"
-            , "Symbol": "*"
-            , "ColorCode": "r"
-        }
-    ]
-  */
-
-/**
- * ## Possible MI [Let MI?!?]
-(Leg) --- tagGDX2FocusD209=Jarinthor's Head
-(Leg) --- tagGDX2FocusD210=Hallanx's Head
-(Leg) --- tagGDX2RingD215=Prime Ring of Morgoneth
-(Leg) --- tagGDX2WaistD209=String of Maggots
-(Leg) --- tagGDX2WeaponMelee2hD204=Nightbringer
-
-(Leg) --- tagGDX2RingD209=Ring of Orissia
-(Leg) --- tagGDX2RingD210=Ring of Anubar
-(Leg) --- tagGDX2RingD211=Ring of Tawrot
-(Leg) --- tagGDX2RingD212=Ring of Basti
-(Leg) --- tagGDX2RingD213=Ring of Shuroth
-(Leg) --- tagGDX2RingD214=Ring of Khonsar
-
-## Possible Set
-(Epic) --- tagGDX2WeaponMelee2hC203=Morgoneth's Wrath
-
-(Epic) --- tagGDX2RingC204=Seal of Orissia
-(Epic) --- tagGDX2RingC205=Seal of Anubar
-(Epic) --- tagGDX2RingC206=Seal of Tawrot
-(Epic) --- tagGDX2RingC207=Seal of Basti
-(Epic) --- tagGDX2RingC208=Seal of Shuroth
-(Epic) --- tagGDX2RingC209=Seal of Khonsar
-
-## 4 New MI
-(Rare MI) --- tagGDX2WeaponMelee2hB207=Korvan Celestial Halberd 
-(Rare MI) --- tagGDX2HeadB209=Magi Visage
-(Rare MI) --- tagGDX2ShoulderB206=Magi Mantle 
-(Rare MI) --- tagGDX2TorsoB205=Magi Armor 
-
-(Epic MI) --- tagGDX2RingC203=Seal of Sethris
-(Leg MI) --- tagGDX2RingD208=Ring of Sethris
-
-
-## SET
-tagGDX2ItemSetD219Name=Armor of the Eternal Night
-
-(Leg Set) --- tagGDX2HeadD221=Morgoneth's Visage
-(Leg Set) --- tagGDX2ShoulderD219=Morgoneth's Dark Mantle
-(Leg Set) --- tagGDX2TorsoD219=Morgoneth's Black Heart
-(Leg Set) --- tagGDX2HandsD205=Morgoneth's Grip
-(Leg Set) --- tagGDX2LegsD204=Morgoneth's Legplates
-(Leg Set) --- tagGDX2FeetD205=Morgoneth's Step
+ * Created by WareBare on 12/02/2019.
  */
 
 module.exports = {
@@ -468,7 +412,7 @@ module.exports = {
         let Output = ``;
 
         if(!this.TagData){
-            this.TagData = Super.GetClassData(`ImportantTags`);
+            this.TagData = Super.GetClassData(`ImportantTags`, false);
             this.TagData.Groups = this.TagData.Groups || {};
             this.TagData.Tags = this.TagData.Tags || {};
             this.TagData.Collapsibles = this.TagData.Collapsibles || [];
@@ -569,7 +513,7 @@ module.exports = {
     
     sidebarBtns_: function()
     {
-        let outButtons = [];
+        let outButtons = Super.sidebarBtns_();
 
         // ---
 

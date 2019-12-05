@@ -97,6 +97,10 @@ let RunLocaleExtract = function(InZipFile){
     });
 };
 
+let MasteryNames = false;
+let bInitializedSource = false;
+let bInitializedMasteryNames = false;
+
 
 module.exports = {
     OnClick_CollapsibleBTN: function(el){
@@ -135,6 +139,8 @@ module.exports = {
         this.InitPaths();
         this.InitData();
 
+        wzGetSubsystem(`RainbowFilter`);
+
         //Log(LocaleDefs);
     },
 
@@ -153,6 +159,7 @@ module.exports = {
     InitData: function(){
         // reset source data.
         SourceData = {};
+        bInitializedMasteryNames = false;
 
         try{
             // remove old files.
@@ -171,13 +178,14 @@ module.exports = {
             OutResolve(Super.GatherTagFiles());
         }).then(function(){
             // only uncomment if source data is required on the first page. Will be ready in time otherwise.
+            bInitializedSource = true;
             wzReloadCMS(10);
         });
 
     },
 
     SetCMSForPathCorrect: function(bInPathCorrect){
-        let pathsToAdd = [`Filter/Settings/Manage Tags`, `Filter/Settings/Manage Groups`, `Filter/Library`, `Filter/Library/Special Highlighting`]
+        let pathsToAdd = [`Filter/Settings/Manage Tags`, `Filter/Settings/Manage Groups`, `Filter/Library`, `Filter/Library/Special Highlighting`, `Filter/Library/Mastery Marker`]
             , enablerData = appConfig.get(`Enablers`) || []
             , loopIndex
             , bForceReload = false;
@@ -240,6 +248,60 @@ module.exports = {
         if(!ClassData[`KeywordSymbols`]) ClassData[`KeywordSymbols`] = this.MakeFilterKeywordSymbols();
         if(!ClassData[`ImportantTags`]) ClassData[`ImportantTags`] = this.MakeImportantTags();
         //AddToolTips();
+        //if (!MasteryNames) MasteryNames = this.MakeMasteryNames();
+    },
+
+    GetMasteryNames: function()
+    {
+        if (!bInitializedMasteryNames) MasteryNames = false;
+        if (!bInitializedSource) return false;
+        if (MasteryNames) return MasteryNames;
+        if (typeof SourceData[`tags_skills.txt`] === `undefined`) return false;
+
+        const skillFileNames = [
+            `tags_skills`
+            , `${(this.IsUsingLocale() ? `aom/` : ``)}tagsgdx1_skills`
+            , `${(this.IsUsingLocale() ? `fg/` : ``)}tagsgdx2_skills`
+        ];
+        let outNames = {};
+
+        /// Base Game
+        //Log(SourceData[`tags_skills.txt`].findIndex( elTagData => elTagData.TagKey === `tagSkillClassName01` ));
+        Log(`Initialize Mastery Names!`);
+
+        let loopTagIndex
+            , MasteryTag;
+        for (let i = 0; i < 10; i++) {
+            loopTagIndex = -1;
+            MasteryTag = `tagSkillClassName${(`00${i}`).slice(-2)}`;
+
+            skillFileNames.every(elFileIndex => {
+                //if (loopTagIndex !== -1) break;
+                if (typeof SourceData[`${elFileIndex}.txt`] === `undefined`) return true;
+
+                loopTagIndex = SourceData[`${elFileIndex}.txt`].findIndex(
+                    elTagData => elTagData.TagKey === MasteryTag
+                );
+
+                if (loopTagIndex !== -1) {
+                    outNames[MasteryTag] = SourceData[`${elFileIndex}.txt`][loopTagIndex].TagValue;
+
+                    // Check if Mastery has different genders, only use first gender.
+                    if(outNames[MasteryTag].startsWith(`[`)){
+                        outNames[MasteryTag] = outNames[MasteryTag].split(`[`)[1].split(`]`)[1];
+                    }
+                    
+                    // Ensure Mastery is not called '?'.
+                    if (outNames[MasteryTag] !== `?`) return false;
+                }
+                return true;
+            });
+        }
+
+        MasteryNames = outNames;
+        bInitializedMasteryNames = true;
+
+        return outNames;
     },
 
     MakeImportantTags: function()
@@ -651,8 +713,11 @@ module.exports = {
     GetGrimDawnPath: function() { return GrimDawnPath || false; },
     GetSourceData: function() { return WzSanitizeJSON(SourceData) },
 
-    GetClassData: function(InDataEntryStr){
-        return WzSanitizeJSON(ClassData[InDataEntryStr]);
+    GetClassData: function(InDataEntryStr, bInSanitize = true){
+        if(bInSanitize){
+            return WzSanitizeJSON(ClassData[InDataEntryStr]);
+        }
+        return ClassData[InDataEntryStr];
     },
     GetLibraryData: function(){
         return WzSanitizeJSON(ClassData[`LibraryData`]);
@@ -839,6 +904,13 @@ module.exports = {
         }
     },
 
+    OnClick_WriteColors: function()
+    {
+        const filterSubsystem = wzGetSubsystem(`RainbowFilter`);
+
+        filterSubsystem.OnWriteColors();
+    },
+
     content_: function(){
         let Output = ``;
         
@@ -848,7 +920,22 @@ module.exports = {
         let Output = ``;
         
         return Output;
-    }
+    },
+    sidebarBtns_: function()
+    {
+        let outButtons = [];
+
+        if(!this.IsPathCorrect()) return outButtons;
+        
+        if(appConfig.get(`GrimDawn.Paths.Game`)){
+            outButtons.push({
+                "ONCLICK": "Super.OnClick_WriteColors()",
+                "TEXT": "Save Colors"
+            });
+        }
+
+        return outButtons;
+    },
     
 };
 

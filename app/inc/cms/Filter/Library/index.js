@@ -271,6 +271,9 @@ module.exports = {
         
         this.GroupData = Super.GetClassData(`GroupData`);
 
+        // Prepare Mastery Names to speed up color creation later.
+        Super.GetMasteryNames();
+
         /*
         if(!this.SpecialTags){
             this.SpecialTags = Super.GetClassData(`ImportantTags`);
@@ -418,39 +421,46 @@ module.exports = {
         const tagName = OutSourceData[InFileName][InIndex].TagKey
             , specialGroupName = this.SpecialTags.Tags[tagName];
 
-        let TypeSymbol = ``;
+        let CustomPrefix = ``
+            , CustomSuffix = ``;
+
         if (specialGroupName) {
             const groupObject = this.SpecialTags.Groups[specialGroupName];
-            TypeSymbol = groupObject.Symbol;
+            CustomPrefix = groupObject.Symbol;
             //InColorCode = groupObject.ColorCode;
             // only change param color code if it is not set to 'Clear'
             InColorCode = (!groupObject.ColorCode || groupObject.ColorCode === `Clear`) ? InColorCode : groupObject.ColorCode;
-            //Log(`test`);
         }
 
-        if (TypeSymbol === ``) {
+        if (CustomPrefix === ``) {
             if (!this.IsSymbolDisabledByLibrary(InKeywords, `Type`)) {
-                TypeSymbol += Super.MakeSymbol(`Type`, InKeywords);
+                CustomPrefix += Super.MakeSymbol(`Type`, InKeywords);
             }
             if (!this.IsSymbolDisabledByLibrary(InKeywords, `Classification`)) {
-                TypeSymbol += Super.MakeSymbol(`Classification`, InKeywords);
+                CustomPrefix += Super.MakeSymbol(`Classification`, InKeywords);
             }
             if (!this.IsSymbolDisabledByLibrary(InKeywords, `Group`)) {
-                TypeSymbol += Super.MakeSymbol(`Group`, InKeywords);
+                CustomPrefix += Super.MakeSymbol(`Group`, InKeywords);
             }
             //
+        }
+
+        if (CustomSuffix === ``) {
+            if (InKeywords.Type === `Skill` && InKeywords.Classification === `Mastery`) {
+                CustomSuffix = ` (${Super.GetMasteryNames()[InKeywords.Group]})`;
+            }
         }
         
         InColorCode = InColorCode || `Clear`;
         //Log(InColorCode);
-        if( (InColorCode === `Clear` || !InColorCode) && TypeSymbol === `` ) return false;
+        if( (InColorCode === `Clear` || !InColorCode) && CustomPrefix === `` && CustomSuffix === `` ) return false;
         //Log(InColorCode);
         //Log(OutSourceData[InFileName][InIndex].TagValue);
         let newValue = OutSourceData[InFileName][InIndex].TagValue
             //, TypeSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Type`) ) ? `` : Super.MakeSymbol(`Type`, InKeywords)
             //, ClassificationSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Classification`) ) ? `` : Super.MakeSymbol(`Classification`, InKeywords)
             //, GroupSymbol = ( this.IsSymbolDisabledByLibrary(InKeywords, `Group`) ) ? `` : Super.MakeSymbol(`Group`, InKeywords)
-            , colorCode = `${TypeSymbol}${(InColorCode !== `Clear`) ? `{^${InColorCode.toUpperCase()}}` : ``}`;
+            , colorCode = `${CustomPrefix}${(InColorCode !== `Clear`) ? `{^${InColorCode.toUpperCase()}}` : ``}`;
         
 
         if(newValue.includes(`{^E}`)){
@@ -467,6 +477,9 @@ module.exports = {
         if(OutSourceData[InFileName][InIndex].TagKey.includes(`Conversion`)){
             newValue += `{^E}`;
             //Log(newValue);
+        }
+        if (CustomSuffix !== ``) {
+            newValue += `${CustomSuffix}`;
         }
 
         if(OutSourceData[InFileName][InIndex].TagValue !== newValue){
@@ -523,6 +536,8 @@ module.exports = {
     UpdateSourceData: function(OutSourceData){
         let outNewSourceData = OutSourceData
             , tagInfoData = Super.GetClassData(`TagInfoData`);
+
+        //Log(tagInfoData[`tagClass01SkillName01A`]);
         
         for(let tagKey in tagInfoData){
             // Applies color to tag inside sourceData and gets the colorCode for tag from group
@@ -534,7 +549,7 @@ module.exports = {
         return outNewSourceData;
     },
 
-    OnClick_WriteColors: function(){
+    OnClick_WriteColors__DEPRECIATED: function(){
         let SourceData = Super.GetSourceData()
             , savePath;
 
@@ -543,6 +558,10 @@ module.exports = {
         this.SpecialTags.Tags = this.SpecialTags.Tags || {};
 
         this.UpdateSourceData(SourceData);
+
+        //Log(SourceData);
+
+        //return false;
 
         if(Super.IsUsingLocale()){
             let zip = new JSZip();
@@ -646,15 +665,17 @@ module.exports = {
     },
     
     sidebarBtns_: function(){
-        let outButtons = [];
+        let outButtons = Super.sidebarBtns_();
 
         if(!Super.IsPathCorrect()) return outButtons;
         
         if(appConfig.get(`GrimDawn.Paths.Game`)){
+            /*
             outButtons.push({
                 "ONCLICK": "_cms.OnClick_WriteColors()",
                 "TEXT": "Save Colors"
             });
+            */
             if(!this.CheckPackageNameDupe() && this.contentType !== this.CurrentPackageNameInput){
                 outButtons.push({
                     "ONCLICK": "_cms.OnClick_CreateLibraryEntry()",

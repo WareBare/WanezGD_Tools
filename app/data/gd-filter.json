@@ -13427,6 +13427,1606 @@
             "Classification": "Misc",
             "Type": "Property",
             "Group": "Misc"
+        },
+        "tagClass01SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName01D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName02C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName02D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName03B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName05C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName09A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName09B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName10A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName12A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName15A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName15B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName16": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName17": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass01SkillName18": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName01"
+        },
+        "tagClass02SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName01D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName03B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName03C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName03D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName03E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName03F": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName05C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName05D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName05E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName06C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName06D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName07B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName08B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName08C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName08D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName09A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName09B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName09C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName12A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName12B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName13B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName10A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName10B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass02SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName02"
+        },
+        "tagClass03SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName01D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName01E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName02C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName02D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName02E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName02F": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName03B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName05C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName010A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName10B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName11B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName11C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName11D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName11E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName12A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName13B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName13C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName13D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName08B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName09A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass03SkillName15A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName03"
+        },
+        "tagClass04SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName01X": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName01D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName02C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName05C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName05D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName05E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName05F": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName06C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName06D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName07B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName11B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName10A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName10B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName13B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName13C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName14B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName14C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName15A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass04SkillName15B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName04"
+        },
+        "tagClass05SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName01D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName01E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName02C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName02D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName03B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName03C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName06C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName09A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName10A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName12A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName13B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName13C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName15A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName15B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName16A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass05SkillName16B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName05"
+        },
+        "tagClass06SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName01D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName02C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName02D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName03B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName03C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName05C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName05D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName06C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName06D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName06E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName09A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName09B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName09C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName10A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName12A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName15A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName15B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName15C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName15D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName16A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName16B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName17A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagClass06SkillName17B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName06"
+        },
+        "tagGDX1Class07SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName02C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName03B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName03C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName03D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName04D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName04E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName05C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName06C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName07B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName09A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName10A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName12A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName15A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class07SkillName16A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName07"
+        },
+        "tagGDX1Class08SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName01D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName02C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName02D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName02E": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName03B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName03C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName03D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName05C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName05D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName07B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName07C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName09A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName10A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName12A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX1Class08SkillName15A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName08"
+        },
+        "tagGDX2Class09SkillName01A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName01B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName01C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName01D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName02A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName02B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName02C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName02D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName03A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName03B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName03C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName04A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName04B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName04C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName04D": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName05A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName05B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName05C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName06A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName06B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName07A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName07B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName08A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName08B": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName08C": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName09A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName10A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName11A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName12A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName13A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
+        },
+        "tagGDX2Class09SkillName14A": {
+            "Classification": "Mastery",
+            "Type": "Skill",
+            "Group": "tagSkillClassName09"
         }
     } , "Library": [
         {
