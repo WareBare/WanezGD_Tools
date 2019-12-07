@@ -31,6 +31,11 @@ ExecuteProgramGD = function(InExecutable){
     }
 };
 
+wzUpdateHeader = function(InMessage, bInUseNotify = false)
+{
+    InMessage = (InMessage !== ``) ? InMessage : `...`;
+    document.getElementById(`App_HeaderNotify`).innerHTML = InMessage;
+}
 
 require(`./cms`);
 require(`./wnd`);
@@ -39,9 +44,12 @@ _app = new WZ.Core.cApp();
 _app.create_();
 wzCMS(appConfig.get('cms'));
 
+_app.PostLoad();
+
+
 
 RefreshNav = function(){
-    let navElement = document.getElementById(`app_Nav`);
+    let navElement = document.getElementById(`App_Navigation`);
 
     navElement.innerHTML = _app.genNav(false).CONTENT;
 };
@@ -162,3 +170,4 @@ UseMarkdownParsingOnURL = function(InURL, InHeaderStr, InContainerClass = `md_ch
     
     return `<div id="${InContainerClass}" class="md">Loading...</div>`;
 };
+

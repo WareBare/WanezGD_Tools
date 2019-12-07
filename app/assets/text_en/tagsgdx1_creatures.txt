@@ -1,0 +1,513 @@
+
+#CreatureFriendly
+
+tagGDX1FriendlyMalmouth_Guard01=Malmouth Resistance ~ Skirmisher
+tagGDX1FriendlyMalmouth_Guard02=Malmouth Resistance ~ Guardian
+
+tagGDX1FriendlyMalmouth_MeleeA01=Malmouth Resistance ~ Fighter
+tagGDX1FriendlyMalmouth_MeleeB01=Malmouth Resistance ~ Demolitionist
+tagGDX1FriendlyMalmouth_RangeA01=Malmouth Resistance ~ Ranger
+tagGDX1FriendlyMalmouth_CasterB01=Malmouth Resistance ~ Arcanist
+tagGDX1FriendlyMalmouth_CasterB02=Malmouth Resistance ~ Medic
+tagGDX1FriendlyMalmouth_ChampionC01=Malmouth Resistance ~ Captain
+
+tagGDX1FriendlyCoven_Guard01=Coven Guardian
+tagGDX1FriendlyCoven_Guard02=Coven Hexxer
+
+
+#CreatureFaction
+
+tagGDX1FactionCult_Guard_A01=Barrowholm Guard
+
+tagGDX1FactionCult_Melee_A01=Cult of the Wendigo ~ Aspirant
+tagGDX1FactionCult_Ranged_A01=Cult of the Wendigo ~ Aspirant
+tagGDX1FactionCult_Caster_B01=Cult of the Wendigo ~ Bloodmancer
+tagGDX1FactionCult_Champion_C01=Cult of the Wendigo ~ Chosen
+
+tagGDX1FactionCult_Hero_H01=Handaar Bloodweaver
+tagGDX1FactionCult_Hero_H02=Jakala Bonesinger
+tagGDX1FactionCult_Hero_H03=Tridia the Skorned
+tagGDX1FactionCult_Hero_H04=Verona Bloodskewer
+
+tagGDX1WendigoWard=Active Ward
+tagGDX1WendigoWard01=Destroyed Ward
+
+tagGDX1HumanFodder=Stubborn Survivor
+
+
+#CreatureAetherial
+tagGDX1EnemyAetherialBloater_A01=Aetherial Bloater
+tagGDX1EnemyAetherialBloater_B01=Aetherial Bileeater
+tagGDX1EnemyAetherialBloater_C01=Aetherial Regurgitator
+
+tagGDX1EnemyAetherialColossus_A01=Aetherial Behemoth
+tagGDX1EnemyAetherialColossus_B01=Aetherial Colossus
+tagGDX1EnemyAetherialColossus_C01=Aetherial Titan
+tagGDX1EnemyAetherialColossus_C02=Aetherial Stormbearer
+
+tagGDX1EnemyAetherialCorruption_A01=Fleshwarped Corruption
+tagGDX1EnemyAetherialCorruption_B01=Fleshwarped Chilled One
+tagGDX1EnemyAetherialCorruption_B02=Fleshwarped Stormwalker
+tagGDX1EnemyAetherialCorruption_B03=Fleshwarped Scorcher
+tagGDX1EnemyAetherialCorruption_C01=Fleshwarped Aberration
+
+tagGDX1EnemyAetherialFleshshaper_A01=Fleshshaper 
+tagGDX1EnemyAetherialFleshshaper_B01=Fleshweaver
+tagGDX1EnemyAetherialFleshshaper_C01=Architect of Flesh
+
+tagGDX1EnemyAetherialImp_A00=Aetherial Crawler
+tagGDX1EnemyAetherialImp_A01=Aetherial Scamp
+tagGDX1EnemyAetherialImp_B01=Aetherial Imp
+
+tagGDX1EnemyAetherialSentry_A01=Aetherial Guardian
+tagGDX1EnemyAetherialSentry_B01=Aetherial Sentinel
+
+tagGDX1EnemyAetherialWorm_A00=Aetherial Gutburrower
+tagGDX1EnemyAetherialWorm_A01=Aetherial Bloatworm
+tagGDX1EnemyAetherialWorm_B01=Aetherial Rotbellower
+tagGDX1EnemyAetherialWorm_B02=Aetherial Blazedrinker
+tagGDX1EnemyAetherialWorm_B03=Aetherial Iceburrower
+tagGDX1EnemyAetherialWorm_B04=Aetherial Stormdrinker
+
+tagGDX1HeroAetherialBloater_H01=Balgargol the Plaguebearer
+tagGDX1HeroAetherialBloater_H02=Hauldros the Burningbile
+tagGDX1HeroAetherialBloater_H03=Fragh ~ Frozen
+tagGDX1HeroAetherialBloater_H04=Verkazol ~ Vampiric
+
+
+tagGDX1HeroAetherialColossus_H01=Stormfist ~ Electrified
+tagGDX1HeroAetherialColossus_H02=Embrallis ~ Burning
+tagGDX1HeroAetherialColossus_H03=Hungeron ~ Vampiric
+tagGDX1HeroAetherialColossus_H04=Archanis ~ Arcane
+
+tagGDX1HeroAetherialCorruption_H01=Challdrus the Coldheart
+tagGDX1HeroAetherialCorruption_H02=Vanallius the Voracious
+tagGDX1HeroAetherialCorruption_H03=Disallus ~ Diseased
+tagGDX1HeroAetherialCorruption_H04=Chromallus ~ Timewarped
+
+tagGDX1HeroAetherialFleshshaper_H01=Frenazad ~ Burning
+tagGDX1HeroAetherialFleshshaper_H02=Noxraderad ~ Frozen
+tagGDX1HeroAetherialFleshshaper_H03=Joxallus ~ Electrified
+tagGDX1HeroAetherialFleshshaper_H04=Oppressius ~ Unstoppable
+
+tagGDX1HeroAetherialImp_H01=Phigillius Stormbile
+tagGDX1HeroAetherialImp_H02=Phanolg the Iceborn
+tagGDX1HeroAetherialImp_H03=Wourble ~ Reflective
+tagGDX1HeroAetherialImp_H04=Ghalbar ~ Regenerator
+
+tagGDX1HeroAetherialTheodin=Theodin's Creation
+
+
+#CreatureBasilisk
+tagGDX1EnemyBasilisk_A01=Juvenile Basilisk
+tagGDX1EnemyBasilisk_B01=Venomgaze Basilisk
+tagGDX1EnemyBasilisk_C01=Stonegaze Basilisk
+
+tagGDX1HeroBasilisk_H01=Stormslither
+tagGDX1HeroBasilisk_H02=Rotmouth
+tagGDX1HeroBasilisk_H03=Aregos ~ Corrupted
+tagGDX1HeroBasilisk_H04=Ranaxus ~ Voidtouched
+
+
+#CreatureChthonian
+tagGDX1EnemyChthonicCultistSpecial_A01=Rift-Claimed Adherent
+
+tagGDX1EnemyChthonianWretch_A01=Voidlurker
+tagGDX1EnemyChthonianWretch_B01=Voidlurker Blightbearer
+tagGDX1EnemyChthonianWretch_C01=Voidlurker Pestilence
+
+tagGDX1EnemyChthonianRylok_A01=Void Rylok
+tagGDX1EnemyChthonianRylok_B01=Void Taskmaster
+tagGDX1EnemyChthonianRylok_C01=Void Oppressor
+
+tagGDX1EnemyChthonianServitor_A01=Chthonian Drone
+tagGDX1EnemyChthonianServitor_B01=Chthonian Servitor
+tagGDX1EnemyChthonianServitor_B02=Chthonian Harvester
+tagGDX1EnemyChthonianServitor_C01=Chthonian Bloodkeeper
+
+tagGDX1HeroChthonianRylok_H01=Wallon'Aldos the Voidbringer
+tagGDX1HeroChthonianRylok_H02=Odus'Aldos ~ Swift
+tagGDX1HeroChthonianRylok_H03=Rydal'Aldos ~ Vampiric
+tagGDX1HeroChthonianRylok_H04=Haval'Aldos ~ Arcane
+
+tagGDX1HeroChthonianServitor_H01=Metasis'Mal the Mageblood
+tagGDX1HeroChthonianServitor_H02=Olithot'Mal the Tormentor
+tagGDX1HeroChthonianServitor_H03=Gawok'Mal ~ Electrified
+tagGDX1HeroChthonianServitor_H04=Yakwa'Mal ~ Arcane
+
+
+#CreatureAscended
+tagGDX1EnemyAscended_A01=Ascended Attendant
+tagGDX1EnemyAscended_A02=Ascended Attendant
+tagGDX1EnemyAscended_B01=Ascended Spellbreaker
+tagGDX1EnemyAscended_C01=Ascended Myrmidon
+
+tagGDX1HeroAscended_H01=Pavros Undylon, Flamespeaker
+tagGDX1HeroAscended_H02=Hagras Aetherflame
+tagGDX1HeroAscended_H03=Ounasteria Stormtouch ~ Electrified
+tagGDX1HeroAscended_H04=Ullana Everfreeze ~ Frozen
+
+
+#CreatureLivingPlant
+tagGDX1EnemyLivingPlant_A00=Venomous Vines
+tagGDX1EnemyLivingPlant_A01=Carnivorous Plant
+tagGDX1EnemyLivingPlant_A02=Singed Plant
+tagGDX1EnemyLivingPlant_B00=Poisonous Bloom
+tagGDX1EnemyLivingPlant_B01=Voracious Growth
+
+tagGDX1HeroLivingPlant_H01=Bloodthirsty Bloom
+tagGDX1HeroLivingPlant_H02=Burning Bloom
+tagGDX1HeroLivingPlant_H03=Thunderbloom ~ Electrified
+tagGDX1HeroLivingPlant_H04=Virulent Growth ~ Diseased
+
+
+#CreatureSlith
+tagGDX1Enemy_SlithWarriorA01=Bloodscale Warrior
+tagGDX1Enemy_SlithWarriorB01=Bloodscale Berserker
+tagGDX1Enemy_SlithWarriorC01=Bloodscale Conqueror
+tagGDX1Enemy_SlithShamanB01=Bloodscale Witch Doctor
+tagGDX1Enemy_SlithShamanC01=Bloodscale Warlock
+
+tagGDX1HeroSlith_H01=Tuvalliss Aetherstorm
+tagGDX1HeroSlith_H02=Jarllass the Bloodseeker
+tagGDX1HeroSlith_H03=Phalaxna ~ Supporter
+tagGDX1HeroSlith_H04=Slixiss ~ Unstoppable
+
+
+#CreatureSwampCrab
+tagGDX1EnemySwampCrab_A01=Ugdenbog Crab
+tagGDX1EnemySwampCrab_B01=Ugdenbog Spikeshell
+tagGDX1EnemySwampCrab_C01=Ugdenbog Stoneshell
+tagGDX1EnemySwampCrab_A00Summon=Ugdenbog Crabling
+
+tagGDX1EnemyGhostCrab_A01=Haunted Crab
+tagGDX1EnemyGhostCrab_B01=Haunted Spikeshell
+tagGDX1EnemyGhostCrab_C01=Haunted Stoneshell
+
+tagGDX1HeroSwampCrab_H01=Iceskorn
+tagGDX1HeroSwampCrab_H02=Vileclaw
+tagGDX1HeroSwampCrab_H03=Mudflinger ~ Reflective
+tagGDX1HeroSwampCrab_H04=Chaosshell ~ Voidtouched
+
+tagGDX1HeroGhostCrab_H01=Foll the Burningshell
+tagGDX1HeroGhostCrab_H02=Goll the Stormshell
+tagGDX1HeroGhostCrab_H03=Mudrock ~ Defender
+tagGDX1HeroGhostCrab_H04=Corrupshell ~ Corrupted
+
+tagGDX1EnemyMineCrab=Ugdenbog Pitcreeper 
+
+#CreatureSwampGolem
+tagGDX1EnemySwampGolem_A01=Ugdenbog Golem
+tagGDX1EnemySwampGolem_B01=Ugdenbog Mossflinger
+tagGDX1EnemySwampGolem_C01=Ugdenbog Overgrowth
+
+tagGDX1HeroSwampGolem_H01=Ferrosius ~ Swift
+tagGDX1HeroSwampGolem_H02=Titanius Steelskin ~ Defender
+tagGDX1HeroSwampGolem_H03=Jormundur ~ Diseased
+tagGDX1HeroSwampGolem_H04=Garrl ~ Voidtouched
+
+
+#CreatureWendigo
+tagGDX1EnemyHumanWendigo_A01=Ugdenbog Cannibal ~ Fleshcrazed
+tagGDX1EnemyHumanWendigo_B01=Ugdenbog Cannibal ~ Bloodsinger
+tagGDX1EnemyHumanWendigo_C01=Ugdenbog Cannibal ~ Wraithspeaker
+
+tagGDX1EnemyWendigo_A01=Wendigo
+tagGDX1EnemyWendigo_B01=Wendigo ~ Flayer
+tagGDX1EnemyWendigo_B02=Wendigo ~ Marroweater
+tagGDX1EnemyWendigo_C01=Wendigo ~ Ancient
+
+tagGDX1EnemyWendigoCannibal_A01=Ugdenbog Wretch
+tagGDX1EnemyWendigoCannibal_A02=Ugdenbog Wretch
+tagGDX1EnemyWendigoCannibal_B01=Ugdenbog Turned
+tagGDX1EnemyWendigoCannibal_C01=Ugdenbog Marked
+
+tagGDX1EnemyWendigoCannibal_Special01=Silvie
+tagGDX1EnemyWendigoCannibal_Special02=Nuana
+
+tagGDX1HeroHumanWendigo_H01=Javos Bonesplinter
+tagGDX1HeroHumanWendigo_H02=Tollia Splittongue
+tagGDX1HeroHumanWendigo_H03=Ignafius Mageblood ~ Arcane
+tagGDX1HeroHumanWendigo_H04=Bellia Everthirst ~ Vampiric
+
+tagGDX1HeroWendigo_H01=Vollarius ~ Arcane
+tagGDX1HeroWendigo_H02=Anaxius ~ Corrupted
+tagGDX1HeroWendigo_H03=Waraplius ~ Timewarped
+tagGDX1HeroWendigo_H04=Ravagrad ~ Unstoppable
+
+tagGDX1HeroWendigoCannibal_H01=Ulda Emberclaw
+tagGDX1HeroWendigoCannibal_H02=Haldra the Bloodlust
+tagGDX1HeroWendigoCannibal_H03=Palros, Protector of the Pack ~ Defender
+tagGDX1HeroWendigoCannibal_H04=Allcadius the Unburied ~ Reflective
+
+
+#CreatureWraith
+tagGDX1EnemyWraith_A01=Wraith
+tagGDX1EnemyWraith_B01=Spiteful Wraith
+tagGDX1EnemyWraith_C01=Ancient Wraith
+
+tagGDX1HeroWraith_H01=Arcanom the Soulthief
+tagGDX1HeroWraith_H02=Obliterus
+tagGDX1HeroWraith_H03=Tildoom ~ Timewarped
+tagGDX1HeroWraith_H04=Sulvar the Endless Hungerer ~ Vampiric
+
+
+#CreatureYetiSwamp
+
+tagGDX1EnemyYetiSwampA01=Leafmane Brute
+tagGDX1EnemyYetiSwampB01=Leafmane Rager
+tagGDX1EnemyYetiSwampB02=Leafmane Rotbreather
+tagGDX1EnemyYetiSwampC01=Leafmane Alpha
+
+tagGDX1YetiSwampHeroH01=Rotspew
+tagGDX1YetiSwampHeroH02=Bonegnash
+tagGDX1YetiSwampHeroH03=Rotblood ~ Vampiric
+tagGDX1YetiSwampHeroH04=Aethermane ~ Corrupted
+
+#CreatureBeastRoguelike
+tagGDX1EnemyBasiliskAetherA01=Aethertongue Basilisk
+tagGDX1EnemyBasiliskAetherB01=Aethergaze Basilisk
+tagGDX1EnemyBasiliskAetherC01=Aetherblood Basilisk
+
+tagGDX1EnemyBasiliskChthonicA01=Voidtongue Basilisk
+tagGDX1EnemyBasiliskChthonicB01=Voidgaze Basilisk
+tagGDX1EnemyBasiliskChthonicC01=Voidblood Basilisk
+
+tagGDX1EnemyBoarChthonicB01=Voidtusk
+tagGDX1EnemyBoarChthonicC01=Gargantuan Voidtusk
+
+tagGDX1EnemyManticoreChthonicA01=Void-Tainted Manticore
+tagGDX1EnemyManticoreChthonicB01=Void-Tainted Wastestalker
+tagGDX1EnemyManticoreChthonicC01=Void-Tainted Alpha
+
+tagGDX1EnemyManticoreD01=Manticore Deathstalker
+
+tagGDX1EnemySwampCrabAetherA01=Fleshwarped Crab
+tagGDX1EnemySwampCrabAetherB01=Fleshwarped Spikeshell
+tagGDX1EnemySwampCrabAetherC01=Fleshwarped Stoneshell
+
+tagGDX1EnemyThornedHorrorAetherA01=Aetherthorn Horror
+tagGDX1EnemyThornedHorrorAetherB01=Aetherthorn Terror
+tagGDX1EnemyThornedHorrorAetherC01=Aetherthorn Monstrosity
+
+tagGDX1EnemyYetiChthonicB01=Voidmane Rager
+tagGDX1EnemyYetiChthonicB02=Voidmane Bloodbreather
+tagGDX1EnemyYetiChthonicC01=Voidmane Alpha
+
+
+#CreatureTraps
+
+tagGDX1EnemyTrapA01=Ugdenbog Gas Cloud
+tagGDX1EnemyTrapA02=Ugdenbog Mushroom
+
+
+#Pets
+
+tagGDX1PetArcaneSeal=Arcane Seal
+tagGDX1PetConcussiveRune=Concussive Rune
+tagGDX1PetIceRune=Chillsurge Rune
+tagGDX1PetManticore02=Deathstalker
+
+tagGDX1PetBlightBeast=Blight Beast
+tagGDX1PetBlightBeastB=Unstable Anomaly
+tagGDX1PetMaggot=Maggot
+tagGDX1PetWraith=Sundered Wraith
+tagGDX1PetSkeleton01=Skeletal Warrior
+tagGDX1PetSkeleton01b=Skeletal Archer
+tagGDX1PetSkeleton01c=Skeletal Arcanist
+tagGDX1PetSkeleton01d=Skeletal Revenant
+
+tagGDX1DevotionPet_ArcaneCurrent=Arcane Current
+
+tagGDX1ItemPetGhostCrab=Crab Spirit
+tagGDX1ItemPetSkeletalGolem=Skeletal Servant
+tagGDX1ItemPetWraith=Bound Wraith
+tagGDX1ItemPetKasparov=Purified Crystal
+tagGDX1ItemPetHargate=Aether Crystal
+tagGDX1ItemPetKasparovSkill=Crystallized
+tagGDX1ItemPetFireDevil=Cinderwind
+tagGDX1ItemPetFireDevil_Skill=Living Blaze
+tagGDX1ItemPetBloodWraith=Soul of Lord Nazaran
+tagGDX1ItemPetBloodWraith_Skill=Vampiric Touch
+tagGDX1ItemPetBloodWraith_Skill02=Vampiric Presence
+tagGDX1ItemPetBloodSkeleton=Bloodbathed Servant
+tagGDX1ItemPetBloodSkeleton_Skill=Blood Rite
+
+#EnemySummons
+
+tagGDX1EnemySummon_ObsidianBeacon=Obsidian Pylon
+tagGDX1EnemySummon_AetherialSpirit=Aetherial Spirit
+tagGDX1EnemySummon_BurningBlood=Burning Blood
+
+
+#Boss&Quest
+
+tagGDX1Boss_FactoryGuardian01=Hagalvar, the Bone Monger
+tagGDX1Boss_FactoryGuardian02=Rodalgar, the Flesh Collector
+tagGDX1Boss_Final01=The Master of Flesh ~ Theodin Marcell
+
+tagGDX1Boss_Aetherial01=Fleshweaver Krieg
+tagGDX1Boss_Aetherial02=Allostria, the Mindthief
+tagGDX1Boss_Aetherial03=Bollag, Keeper of the Gates
+tagGDX1Boss_Aetherial04=Fleshweaver Haraxis
+
+tagGDX1MiniBoss_Aetherial01=Fleshshaper Hinissius 
+tagGDX1MiniBoss_Aetherial02=Galakros, the Mountain
+tagGDX1MiniBoss_Aetherial03=Terrnox
+tagGDX1MiniBoss_Aetherial04=Valaxteria
+tagGDX1MiniBoss_Aetherial05=Hagarond
+tagGDX1MiniBoss_Aetherial06=Agalgaraz
+tagGDX1MiniBoss_Aetherial07=Fleshshaper Igilvur
+tagGDX1MiniBoss_Aetherial08=Dralgar, the Keeper of Burrwitch
+
+tagGDX1MiniBoss_Bog01=Kra'vall, Ancient of the Waters
+tagGDX1MiniBoss_Bog01_Tentacle01=Kra'vall's Tentacle
+tagGDX1MiniBoss_Bog01_Tentacle02=Kra'vall's Tentacle
+tagGDX1MiniBoss_Bog02=Sylvarria, Queen of the Undergrowth
+tagGDX1MiniBoss_Bog02_Vine01=Sylvarria's Vine
+tagGDX1MiniBoss_Bog02_Vine02=Sylvarria's Vine
+tagGDX1MiniBoss_Bog02_VineCluster=Vine Cluster
+tagGDX1MiniBoss_Bog03=Ugdall, Wrath of the Ugdenbog
+tagGDX1MiniBoss_Bog04=Janaxia, the Betrayer
+tagGDX1MiniBoss_Bog05=Larria, the Hexxer
+tagGDX1MiniBoss_Bog06=Bargoll, the Mouldering Mound
+tagGDX1MiniBoss_Bog07=Carraxus Foul
+tagGDX1MiniBoss_Bog08=Trapped Wraith
+tagGDX1MiniBoss_Bog09=Avris Marrowill
+tagGDX1MiniBoss_Bog10=Naxen Shade
+tagGDX1MiniBoss_Bog11=Scorv, Servant of Ravager
+
+tagGDX1MiniBoss_Bog12=Alya Dugald
+tagGDX1MiniBoss_Bog13=Phris Dugald
+tagGDX1MiniBoss_Bog14=Neak Dugald
+
+tagGDX1WitchBoss_Basilisk=Stone Basilisk
+tagGDX1WitchBoss_Spirit=Vile Soul
+
+tagGDX1Boss_Chthonian01=Lunal'Valgoth, Steward of Darkness
+tagGDX1Boss_Chthonian02=Ekket'Zul, Progenitor of Darkness
+
+tagGDX1MiniBoss_Chthonian01=Gabal'Thunn, the Visage of Madness
+
+tagGDX1MiniBoss_Chthonian02=Rakka'Valgoth the Fleshdrinker
+
+tagGDX1Boss_Wendigo01=Ravager of Minds
+tagGDX1Boss_Wendigo02=Ravager of Souls
+tagGDX1Boss_Wendigo03=Ravager of Flesh
+tagGDX1Boss_Wendigo04=Namadea, the Screecher
+
+tagGDX1MiniBoss_Wendigo01=Handarroth
+tagGDX1MiniBoss_Wendigo02=Ollivioth
+tagGDX1MiniBoss_Wendigo03=Yuvolloth
+tagGDX1MiniBoss_Wendigo04=Packla, the Turning
+
+tagGDX1Boss_Roguelike01=Slathsarr Aethergaze
+tagGDX1Boss_Roguelike02=Ragarroth the Tormented
+tagGDX1Boss_Roguelike03=Gargabol, Heart of the Wild
+tagGDX1Boss_Roguelike04=Gulgazor
+tagGDX1Boss_Roguelike05=Vilgazor
+
+tagGDX1EnclaveBoss01=Dreven Cole
+tagGDX1EnclaveBoss02=Alberran Rein
+tagGDX1EnclaveBoss03=Cyrian Marcan
+
+tagGDX1DravisBoss01=Bandragos, Thrall of Dravis
+tagGDX1DravisThrall01=Minion of Dravis
+tagGDX1DravisThrall02=Minion of Dravis
+
+
+#Nemesis
+tagGDX1Nemesis_Aetherial01=Archmage Aleksander
+tagGDX1Nemesis_Aetherial01_Crystal=Aleksander's Shard
+tagGDX1Nemesis_Chthonian01=Grava'Thul, the Voiddrinker
+tagGDX1Nemesis_Beast01=Kubacabra, the Endless Menace
+tagGDX1Nemesis_Beast01B=Kubacabra, the Enduring
+tagGDX1Nemesis_Beast01C=Kubacabra, the Tenacious
+tagGDX1Nemesis_Wendigo01=Reaper of the Lost
+
+tagGDX1Nemesis_Plant=Root of All Evil
+tagGDX1Nemesis_NotClone=Not a Clone of John Bourbon
+tagGDX1Nemesis_Zombie=Flameond Bleu
+
+
+
+#Devotion
+tagGDX1DevotionAetherialBloater_H01=Barrthnas the Plagueborn
+tagGDX1DevotionAetherialBloater_H02=Ignos
+tagGDX1DevotionAetherialBloater_H03=Frozdar ~ Frozen
+tagGDX1DevotionAetherialBloater_H04=Draklon ~ Vampiric
+
+tagGDX1DevotionAetherialColossus_H01=Thunderfist ~ Electrified
+tagGDX1DevotionAetherialColossus_H02=Infernox ~ Burning
+tagGDX1DevotionAetherialColossus_H03=Oblaigon ~ Vampiric
+tagGDX1DevotionAetherialColossus_H04=Speldrakus ~ Arcane
+
+tagGDX1DevotionAetherialCorruption_H01=Chillian
+tagGDX1DevotionAetherialCorruption_H02=Naragon the Manhunter
+tagGDX1DevotionAetherialCorruption_H03=Peuglis ~ Diseased
+tagGDX1DevotionAetherialCorruption_H04=Tirendal ~ Timewarped
+
+tagGDX1DevotionAetherialFleshshaper_H01=Filnaderzad ~ Burning
+tagGDX1DevotionAetherialFleshshaper_H02=Noxus ~ Frozen
+tagGDX1DevotionAetherialFleshshaper_H03=Karthallas ~ Swift
+tagGDX1DevotionAetherialFleshshaper_H04=Porendallos ~ Unstoppable
+
+tagGDX1DevotionBasilisk_H01=Lagarslin Stormskin
+tagGDX1DevotionBasilisk_H02=Venomnius
+tagGDX1DevotionBasilisk_H03=Colplur ~ Corrupted
+tagGDX1DevotionBasilisk_H04=Volaxius ~ Voidtouched
+
+tagGDX1DevotionChthonianRylok_H01=Balg'Gawtok the Voidbringer
+tagGDX1DevotionChthonianRylok_H02=Garu'Doth ~ Swift
+tagGDX1DevotionChthonianRylok_H03=Zuuth'Aglathon ~ Vampiric
+tagGDX1DevotionChthonianRylok_H04=Nurdul'Siin ~ Arcane
+
+tagGDX1DevotionChthonianServitor_H01=Ishthu'Gal the Dreadblood
+tagGDX1DevotionChthonianServitor_H02=Lank'Zuul the Torturer
+tagGDX1DevotionChthonianServitor_H03=Ukog'Dal ~ Electrified
+tagGDX1DevotionChthonianServitor_H04=Unatu'Ukog ~ Arcane
+
+tagGDX1DevotionSwampCrab_H01=Iceclaw
+tagGDX1DevotionSwampCrab_H02=Bileclaw
+tagGDX1DevotionSwampCrab_H03=Sheldrock ~ Reflective
+tagGDX1DevotionSwampCrab_H04=Voidshell ~ Voidtouched
+
+tagGDX1DevotionSwampGolem_H01=Swiftrock ~ Swift
+tagGDX1DevotionSwampGolem_H02=Phanatos ~ Defender
+tagGDX1DevotionSwampGolem_H03=Gigartus ~ Diseased
+tagGDX1DevotionSwampGolem_H04=Rawk ~ Voidtouched
+
+tagGDX1DevotionWendigo_H01=Hegamon ~ Arcane
+tagGDX1DevotionWendigo_H02=Colporrus ~ Corrupted
+tagGDX1DevotionWendigo_H03=Spiritbane ~ Timewarped
+tagGDX1DevotionWendigo_H04=Reapressad ~ Unstoppable
+
+tagGDX1DevotionWraith_H01=Soulshreak
+tagGDX1DevotionWraith_H02=Oblegon
+tagGDX1DevotionWraith_H03=Dolsarr ~ Timewarped
+tagGDX1DevotionWraith_H04=Endearon ~ Vampiric
+
+
+
+
+#Bounties
+tagGDX1BountyCU04=Vanoxxis Bile
+tagGDX1BountyCU05=Crognoth, the Blazing Vanguard
+tagGDX1BountyCU06=Habnor the Void-Chosen
+tagGDX1BountyCU07=Sllancar the Tainted
+tagGDX1BountyCU08=Chillpincer
+tagGDX1BountyCU09=Vagarroth the Insatiable
+
+tagGDX1BountyCW04=Dar'Vagol the Mageclaw
+tagGDX1BountyCW05=Rhidal'Gulvor the Stormblood
+tagGDX1BountyCW06=Swillius
+tagGDX1BountyCW07=Polterrios
+tagGDX1BountyCW08=Vladris
+tagGDX1BountyCW09=Yoknar
+
+tagGDX1BountyPM05=Bluggraag Blazebarf
+tagGDX1BountyPM06=Stormtitan
+tagGDX1BountyPM07=Blazragarus
+tagGDX1BountyPM08=Torraxsteria
+
+

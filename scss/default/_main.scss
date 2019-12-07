@@ -2,25 +2,353 @@
 
 
 *{
-    border: solid $border-000 0;
-    padding: 2px;
-    -webkit-user-select: none;
-    cursor: default;
-    //-webkit-app-region: drag;
-}
-body{
-    height: 90%;
-}
-html{
-    padding: 0;
-    background-color: $backgroundColor-000;
-    color: $fontColor-000;
-    height: 100%;
+    //border: solid $border-000 0;
+    //padding: 2px;
+    //-webkit-user-select: none;
+    //cursor: default;
 }
 
-a:link, span.Link{
+html
+{
+    //padding: 0;
+    //background-color: $backgroundColor-000;
+    //color: $fontColor-000;
+    //height: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+
+    overflow: hidden;
+}
+
+body
+{
+    //height: 90%;
+    padding: 0px;
+    margin: 0px;
+    
+	background-color: $Base_BackgroundColor_00;
+	border: 1px solid #68217A;
+    //border-bottom: 24px solid  #68217A;
+    
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+a, span.Link{
     cursor: pointer;
-    color: #6060C0;
+    //color: #6060C0;
+
+    color: #68217A;
+}
+
+#App_GeneratedContent
+{
+    padding: 12px;	
+    color: #CCCCCC;
+    
+}
+
+#App_TitleBar
+{
+    -webkit-app-region: drag;
+
+    border-width: 1px;
+
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    color: #ADADAD;
+    font-family: sans-serif;
+
+    #App_TitleText
+    {
+        position: fixed;
+        top: 0px;
+        left: 12px;	
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    #App_TitleButtons
+    {
+        -webkit-app-region: no-drag;
+
+        position: fixed;
+        top: 1px;
+        right: 0;
+    
+        button
+        {
+            height: 32px;
+            width: 32px;
+            background-color: transparent;
+            border: none;
+            color: #F1F1F1;
+            font-size: 16px;
+            &:hover
+            {
+                background-color: #3F3F41;
+            }
+        }
+    }
+}
+
+#App_GeneratedContent
+{
+    //height: 90%;
+    position: absolute;
+
+    top: 32px;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+
+    overflow: hidden;
+}
+
+#App_Navigation
+{
+    //display: inline-block;
+    position: absolute;
+    //float: left;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 250px;
+
+    border: 1px solid black;
+
+    //overflow: auto;
+
+    background-color: $Base_BackgroundColor_01;
+    
+    .navActive{
+        border-left: 3px solid $borderColor-ButtonActive;
+    }
+    .navItem{
+        //border-width: 1px;
+        margin: 2px 0 2px 0;
+        //background-color: $Base_BackgroundColor_00;
+        padding: 0;
+    }
+    ul{
+        margin: 0;
+        list-style: none;
+        //background-color: $Base_BackgroundColor_00;
+        padding: 0 0 0 10px;
+        li{
+            cursor: pointer;
+            padding: 0 0 0 10px;
+            ul{
+                margin: 0;
+            }
+        }
+        &:HOVER >li{
+            display: block;
+        }
+    }
+    span{
+        display: block;
+        cursor: pointer;
+        padding: 2px 5px 2px 5px;
+        border-left: 3px solid transparent;
+        &:HOVER{
+            border-left: 3px solid $borderColor-ButtonHover;
+        }
+    }
+}
+
+
+#App_SideBar
+{
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 250px;
+
+    border: 1px solid black;
+
+    background-color: $Base_BackgroundColor_01;
+}
+
+#App_Body
+{
+    //display: inline-block;
+    //float: left;
+    position: absolute;
+
+    top: 0;
+    right: 250px;
+    bottom: 0;
+    left: 250px;
+    //height: 90%;
+
+    border: 1px solid black;
+
+    overflow: hidden;
+
+
+    #App_Header
+    {
+        position: absolute;
+
+        height: 32px;
+
+        top: 0;
+        right: 0;
+        left: 0;
+
+        text-align: center;
+
+        img
+        {
+            //display: inline-block;
+            float: right;
+            margin: 2px;
+            padding: 1px;
+            height: 27px;
+            width: 27px;
+            cursor: pointer;
+
+            border: 2px solid #000000;
+            box-shadow: 0px 1px 1px rgba(100, 100, 100,.3);
+
+            &:HOVER
+            {
+                box-shadow: 2px 1px 1px rgba(100, 100, 100,.3);
+            }
+        }
+
+        #App_HeaderNotify
+        {
+            display: inline-block;
+            padding: 3px 10px 3px 10px;
+            margin: 2px;
+
+            background-color: #2F2F2F;
+
+            min-width: 300px;
+
+            border: 1px solid #2F2F2F;
+            border-radius: 15px;
+            
+            box-shadow: inset -1px -1px 1px rgba(200, 200, 200,.3);
+        }
+    }
+
+    #App_Content
+    {
+        position: absolute;
+        padding: 5px 10px 5px 10px;
+
+        top: 32px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        //clear: both;
+        overflow: auto;
+    }
+}
+
+#App_Footer
+{
+    color: #ADADAD;
+    font-family: sans-serif;
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    padding: 0 5px 0 5px;
+    //border-width: 1px;
+
+    #footerBody{
+        div{
+            display:inline-block;
+            padding: 0;
+            &.left{
+                //border-width: 1px;
+                float:left;
+                width: 250px;
+                text-align: left;
+                padding: 0;
+            }
+            &.center{
+                display:inline-block;
+                //border-width: 1px;
+                text-align: center;
+                padding: 0;
+            }
+            &.right{
+                //border-width: 1px;
+                float:right;
+                //width: 250px;
+                text-align:right;
+                padding: 0;
+            }
+        }
+    }
+}
+
+
+// ------------------------------ \\
+
+#app_Nav
+{
+    position: absolute;
+    
+    top: 55px;
+    left: 0;
+    bottom: 25px;
+    border-width: 1px;
+    width: 200px;
+    
+    .navActive{
+        border-left-color: $borderColor-ButtonActive;
+    }
+    .navItem{
+        //border-width: 1px;
+        margin: 2px 0 2px 0;
+        background-color: #2F2F2F;
+        padding: 0;
+    }
+    ul{
+        margin: 0;
+        list-style: none;
+        background-color: $backgroundColor-000;
+        padding: 0 0 0 10px;
+        li{
+            cursor: pointer;
+            padding: 0 0 0 10px;
+            ul{
+                margin: 0;
+            }
+        }
+        &:HOVER >li{
+            display: block;
+        }
+    }
+    span{
+        display: block;
+        cursor: pointer;
+        padding: 2px 5px 2px 5px;
+        border-left: {
+            color: transparent;
+            width: 3px;
+        }
+        &:HOVER{
+            border-left-color: $borderColor-ButtonHover;
+        }
+    }
 }
 
 #wzLoadingScreen{
@@ -177,146 +505,7 @@ div.MergerDBR, div.wndMasterySkillEdit{
     margin: 5px;
 }
 
-#app_Header{
-    //border-width: 1px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    //height: 50px;
 
-    text-align:center;
-    div{
-        display:inline-block;
-        &.left{
-            //border-width: 1px;
-            float:left;
-            width: 550px;
-            text-align: left;
-            padding: 0;
-            span{
-                position: relative;
-                text-indent: 30px;
-                text-align: left;
-                height: 26px;
-                background-color: #767676;
-                display: inline-block;
-                //border-width: 1px;
-
-                cursor: pointer;
-
-                margin-left: 0;
-                padding: 10px 10px 10px 30px;
-                //color: $fontColor-001;
-                color: #AFAFAF;
-                font-size: 19px;
-                line-height: 26px;
-                &:AFTER{
-                    content: "";
-                    position: absolute;
-                    width: 0;
-                    height: 0;
-                    border-top: 23px solid transparent;
-                    border-left: 30px solid #000000;
-                    border-bottom: 23px solid transparent;
-                    margin: -10px 90px 0 10px;
-                    z-index: 100;
-                }
-            }
-            span.headerCMS_0{
-                //background-color: $backgroundColor-003;
-                background: $gradientBTN-nav000;
-                &:AFTER{
-                    //background-color: #000000;
-                    border-left-color: $backgroundColor-003;
-                }
-            }
-            span.headerCMS_1{
-                //background-color: $backgroundColor-004;
-                background: $gradientBTN-nav001;
-                &:AFTER{
-                    border-left-color: $backgroundColor-008;
-                }
-            }
-            span.headerCMS_2{
-                //background-color: $backgroundColor-005;
-                background: $gradientBTN-nav002;
-                &:AFTER{
-                    border-left-color: $backgroundColor-010;
-                }
-            }
-        }
-        &.center{
-            //border-width: 1px;
-            img{
-                cursor: pointer;
-                margin: 0 3px 0 3px;
-                &:hover{
-                    background-color: #00A000;
-                }
-            }
-        }
-        &.right{
-            //border-width: 1px;
-            float:right;
-            width: 350px;
-            img{
-                cursor: pointer;
-                margin: 0 3px 0 3px;
-                &:hover{
-                    background-color: #005000;
-                }
-            }
-        }
-    }
-}
-#app_Nav{
-    position: absolute;
-    //background-color: #2F2F2F;
-    top: 55px;
-    left: 0;
-    bottom: 25px;
-    border-width: 1px;
-    width: 200px;
-    //.navInActive{}
-    .navActive{
-        border-left-color: $borderColor-ButtonActive;
-    }
-    .navItem{
-        //border-width: 1px;
-        margin: 2px 0 2px 0;
-        background-color: #2F2F2F;
-        padding: 0;
-    }
-    ul{
-        margin: 0;
-        list-style: none;
-        background-color: $backgroundColor-000;
-        padding: 0 0 0 10px;
-        li{
-            cursor: pointer;
-            padding: 0 0 0 10px;
-            ul{
-                margin: 0;
-            }
-        }
-        &:HOVER >li{
-            display: block;
-        }
-    }
-    span{
-        display: block;
-        cursor: pointer;
-        padding: 2px 5px 2px 5px;
-        border-left: {
-            color: transparent;
-            width: 3px;
-        }
-        &:HOVER{
-            border-left-color: $borderColor-ButtonHover;
-        }
-    }
-}
 #installUpdate{
     display: inline-block;
     background-color: #AFAFAF;
@@ -803,6 +992,20 @@ wztip{
     }
 }
 
+[wz-btn="SidebarAction"]{
+    display: inline-block;
+    text-align: center;
+
+    margin: 3px;
+    font-size: 12px;
+
+    line-height: 25px;
+    height: 15px;
+    width: 75px;
+
+    border-radius: 15px;
+}
+
 [wz-btn="list"]{
     display: block;
     margin: 2px 0 2px 0;
@@ -818,10 +1021,14 @@ wztip{
     position: relative;
     display: block;
     width: auto;
-    margin: 2px 0 2px 0;
-    line-height: 34px;
-    height: 24px;
-    padding: 0 10px 11px;
+    //margin: 2px 0 2px 0;
+    margin: 0;
+    line-height: 20px;
+    height: 5px;
+    font-size: 13px;
+    //padding: 0 10px 11px 0;
+    padding: 10px 0 10px 20px;
+
     & input{
         width:100%;
         height:100%;
@@ -844,23 +1051,24 @@ wztip{
             bottom:1px;
             left:1px;
             cursor: pointer;
-            border-width: 1px;
+            //border-width: 1px;
             box-shadow:0 4px 5px rgba(0,0,0,.3);
             text-shadow: 0 1px 1px rgba(150,150,150,.35);
             background: $gradientBTN-000;
-            padding: 0 10px 11px;
+            //padding: 0 10px 11px;
+            padding: 2px 0 2px 10px;
         }
         &:HOVER + label{
             //background-color: #005000;
-            background: $gradientBTN-000b;
+            background: $SideBarList_BackgroundColor_00_HOVER;
             //color: #000000;
         }
         &:CHECKED + label{
-            background: $gradientBTN-000c;
-            color: #000000;
-            text-shadow: 0 1px 1px rgba(255,255,255,.35);
-            transform: translate(0, 4px);
-            box-shadow:0 1px 1px rgba(0,0,0,.3);
+            background: $SideBarList_BackgroundColor_00_ACTIVE;
+            color: $SideBarList_FontColor_00_ACTIVE;
+            //text-shadow: 0 1px 1px rgba(255,255,255,.35);
+            //transform: translate(0, 4px);
+            //box-shadow:0 1px 1px rgba(0,0,0,.3);
         }
     }
 }
@@ -1088,7 +1296,8 @@ table.TagsList{
 .DefaultDetails{
     //background: $Details_Gradient01;
     padding: 0;
-    margin: 5px;
+    margin: 15px 5px 15px 5px;
+    padding: 5px;
     //color: $DetailsSummary_Color01;
     border-radius: 5px;
     
@@ -1137,7 +1346,7 @@ table.TagsList{
         &:ACTIVE{
             background: $DetailsSummary_Gradient01_ACTIVE;
             color: $DetailsSummary_Color01_ACTIVE;
-            text-shadow: 0 1px 1px rgba(255,255,255,.35);
+            text-shadow: 0 1px 1px rgba(155,155,155,.35);
             //transform: translate(0, 5px);
             box-shadow:0 1px 1px rgba(0,0,0,.3);
         }

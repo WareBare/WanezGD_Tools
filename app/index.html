@@ -8,12 +8,22 @@
     <link rel="stylesheet" href="themes/default-gd01.css" type="text/css">
 </head>
 <body>
-    <div>Loading...</div>
+    <div id="App_TitleBar">
+        <div id="App_TitleText">Wanez Tools :: Grim Dawn</div>
+        <div id="App_TitleButtons">
+            <button id="AppBtn_Minimize">-</button>
+            <button id="AppBtn_Maximize">+</button>
+            <button id="AppBtn_Close">x</button>
+        </div>
+        
+    </div>
+    <div id="App_GeneratedContent">Loading...</div>
 <script>
     const electron = require('electron');
     const AdmZip = require('adm-zip');
     const JSZip = require("jszip");
     const fs = require(`fs-extra`);
+    const psList = require('ps-list'); // read running processes to detect Grim Dawn
     const child_process = require('child_process'); // .execFile
     //const chokidar = require('chokidar');
     //let _watcher;

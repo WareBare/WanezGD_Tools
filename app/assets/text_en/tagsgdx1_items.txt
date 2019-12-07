@@ -1,0 +1,1910 @@
+
+#Weapons
+
+
+tagGDX1WeaponSwordB101=Wendigo Claw
+tagGDX1WeaponSwordB101Desc="The claw reeks of decay."
+tagGDX1WeaponSwordB102=Wendigo Barb
+tagGDX1WeaponSwordB102Desc="The claw drips with filth."
+
+tagGDX1WeaponSwordC101=Cleansed Blade of Elgoloth
+tagGDX1WeaponSwordC101_Desc="Once tainted by the corrupting touch of Chthonians, this blade was restored to its former glory by the Luminari."
+tagGDX1WeaponSwordC104=Legionnaire's Pride
+
+tagGDX1WeaponSwordD101=Edge of Death
+tagGDX1WeaponSwordD102=Pagar's Betrayal
+tagGDX1WeaponSwordD102_Desc="No betrayal was felt more deeply than the day Inquisitor Pagar revealed himself to be in league with the powers of the void at a Luminari training facility."
+tagGDX1WeaponSwordD105=Misery
+tagGDX1WeaponSwordD106=Blazeheart
+tagGDX1WeaponSwordD106_Desc="A letter D is etched onto the hilt in blood."
+tagGDX1WeaponSwordD107=Belgothian's Slicer
+
+tagGDX1WeaponSwordF101=Malmouth Slicer
+tagGDX1WeaponSwordF102=Malmouth Blade
+tagGDX1WeaponSwordF103=Wendigo Claw
+tagGDX1WeaponSwordF104=Redeemer of Malmouth
+
+
+tagGDX1WeaponBluntB101=Bargoll's Heart
+tagGDX1WeaponBluntB101Desc="The stone heart of Bargoll emanates a deadly chill."
+tagGDX1WeaponBluntB102=Bargoll's Core
+tagGDX1WeaponBluntB102Desc="The once living core of Bargoll thirsts for life essence so that the creature can be reborn once more."
+
+tagGDX1WeaponBluntC101=Deadbeater
+
+tagGDX1WeaponBluntD101=Malakor's Infusion
+tagGDX1WeaponBluntD101_Desc="Arcanist Malakor, a close ally of the Luminari, forged this weapon in elemental flames to combat Eldritch beings on their own terms."
+tagGDX1WeaponBluntD103=Amarastan Crusher
+tagGDX1WeaponBluntD104=The Pummeler
+tagGDX1WeaponBluntD105=Stoneguard Pummeler
+
+tagGDX1WeaponBluntF101=Malmouth Warhammer
+tagGDX1WeaponBluntF102=Malmouth Mace
+tagGDX1WeaponBluntF103=Wendigo Mace
+tagGDX1WeaponBluntF104=Howl of the Wendigo
+
+tagGDX1WeaponAxeB101=Servitor's Slicer
+tagGDX1WeaponAxeB102=Servitor's Corruptor
+tagGDX1WeaponAxeB103=Bloodspill Cleaver
+
+tagGDX1WeaponAxeC101=Halvor's Skinner
+
+tagGDX1WeaponAxeD101=Ravager's Bite
+tagGDX1WeaponAxeD101_Desc="Formed from the claw of a past manifestation of the great Ravager."
+tagGDX1WeaponAxeD103=Nightclaw
+tagGDX1WeaponAxeD104=Edge of Sanity
+tagGDX1WeaponAxeD104_Desc="It is uncertain whether this weapon ultimately drives the victims mad...or the bearer."
+tagGDX1WeaponAxeD105=Korba's Decapitator
+tagGDX1WeaponAxeD106=Korba's Frenzy
+
+tagGDX1WeaponAxeF101=Coven Cleaver
+tagGDX1WeaponAxeF102=Coven Axe
+tagGDX1WeaponAxeF103=Wendigo Cleaver
+tagGDX1WeaponAxeF104=Witch Moon
+
+
+tagGDX1WeaponGun1hB101=Ugdenbog Howler
+tagGDX1WeaponGun1hB101Desc="Infused with the spirit of the Wendigo."
+tagGDX1WeaponGun1hB102=Ugdenbog Venom Launcher
+tagGDX1WeaponGun1hB102Desc="Each bullet is dipped into a unique concoction crafted from the various beasts inhabiting Ugdenbog."
+tagGDX1WeaponGun1hB103=Stormsurge Pistol
+
+tagWeaponGun1hC013B=Mediator
+tagGDX1WeaponGun1hC101=The Dissenter
+tagGDX1WeaponGun1hC101B=Dissenter
+tagGDX1WeaponGun1hC102=Aldur's Inquisition
+tagGDX1WeaponGun1hC102_Desc="Sidearm of Inquisitor Aldur, renowned hunter of heretics and slayer of Galbar'Thuul."
+tagGDX1WeaponGun1hC103=Core of Gargabol
+tagGDX1WeaponGun1hC103_Desc="A flicker of the once mighty guardian's flame still glows within its core."
+tagGDX1WeaponGun1hC108=Stormlauncher of Ultos
+tagGDX1WeaponGun1hC110=Luminari Sidearm
+
+tagGDX1WeaponGun1hD101=Morguul's Mortality
+tagGDX1WeaponGun1hD101_Desc="Master Morguul perfected the ammunition for this pistol, combining necrotic powers with deadly toxins to create an agent that greatly accelerates rot and decay."
+tagGDX1WeaponGun1hD102=Anderos' Amplifier
+tagGDX1WeaponGun1hD102_Desc="Sidearm specifically devised by Inquisitor Anderos to amplify his already formidable mastery over arcane runes."
+tagGDX1WeaponGun1hD103=Arcanum Electrollis
+tagGDX1WeaponGun1hD103_Desc="Crafted to the exact specifications of Master Agrivix, Grand Arcanist of the Silver Tower."
+tagGDX1WeaponGun1hD107=Cindercore
+tagGDX1WeaponGun1hD108=Stronghold Revolver
+tagGDX1WeaponGun1hD109=Darkblaze Incinerator
+tagGDX1WeaponGun1hD110=Dagallon's Destroyer
+tagGDX1WeaponGun1hD110_Desc="The barrels are runed on the inside to propel the bullets with supernatural force."
+tagGDX1WeaponGun1hD111=Dagallon's Annihilator
+tagGDX1WeaponGun1hD112=Hagarradian Enforcer
+tagGDX1WeaponGun1hD112_Desc="The cylinder is loaded with a fragment of the original Rune of Hagarrad, infusing every shot with a bonechilling cold."
+tagGDX1WeaponGun1hD114=Corruption of Gargabol
+tagGDX1WeaponGun1hD114_Desc="The once proud guardian of nature, forever marred by the corrupting touch of the Void."
+
+tagGDX1WeaponGun1hF101=Coven Handcannon
+tagGDX1WeaponGun1hF101_Desc="Though crude in design, Coven secrets imbue this weapon."
+tagGDX1WeaponGun1hF102=Coven Venomlauncher
+tagGDX1WeaponGun1hF102_Desc="Though crude in design, Coven secrets imbue this weapon."
+tagGDX1WeaponGun1hF103=Wendigo Repeater
+tagGDX1WeaponGun1hF104=Hex Launcher
+
+
+tagGDX1WeaponGun2hB101=Ugdenbog Sparkthrower
+tagGDX1WeaponGun2hB101Desc="The stone core of a swamp golem has proven to be surprisingly malleable when exposed to arcane energies, allowing it to be forged into armor, tools or even guns."
+tagGDX1WeaponGun2hB102=Ugdenbog Bilelauncher
+tagGDX1WeaponGun2hB103=Ugdenbog Boltthrower
+tagGDX1WeaponGun2hB104=Ugdenbog Arcaneweaver
+tagGDX1WeaponGun2hB105=Flamewarder Rifle
+
+tagGDX1WeaponGun2hC101=The Interrogator
+tagGDX1WeaponGun2hC101B=Interrogator
+tagGDX1WeaponGun2hC102=Spirit Cannon
+tagGDX1WeaponGun2hC102_Desc="Forged in the essence of tormented souls."
+tagGDX1WeaponGun2hC103=Burning Purifier
+tagGDX1WeaponGun2hC106=Amarastan Bladethrower
+tagGDX1WeaponGun2hC106_Desc="An unconventional design created by the nightblade master, Amarasta."
+tagGDX1WeaponGun2hC110=Cosmic Torrent
+
+tagWeaponGun2hD001B=Adversary
+tagWeaponCrossbow2hD003B=Northern Wyrm
+tagGDX1WeaponGun2hD101=Evoker of Elgoloth
+tagGDX1WeaponGun2hD102=Dreadscorcher
+tagGDX1WeaponGun2hD102_Desc="The intense blaze emitted by this weapon is nearly as dangerous to the user as the intended target."
+tagGDX1WeaponGun2hD104=Gildor's Pulverizer
+tagGDX1WeaponGun2hD104_Desc="Infused with Luminari secrets, this weapon unloads an unfathomable amount of force with every shot."
+tagGDX1WeaponGun2hD106=Venomlance
+tagGDX1WeaponGun2hD107=Runebinder's Spellthrower
+
+tagGDX1WeaponGun2hF101=Malmouth Carbine
+tagGDX1WeaponGun2hF102=Malmouth Rifle
+tagGDX1WeaponGun2hF103=Wendigo Stakethrower
+tagGDX1WeaponGun2hF104=The Desolator
+tagGDX1WeaponGun2hF104_Desc="Every foe a mere delay to the desolation that follows."
+
+
+tagGDX1WeaponMelee2hB101=Fleshwarped Core
+tagGDX1WeaponMelee2hB102=Fleshwarped Shard
+tagGDX1WeaponMelee2hB103=Gutcrush Warmaul
+
+tagGDX1WeaponMelee2hC101=Soulsplitter
+tagGDX1WeaponMelee2hC101_Desc="The blade of this scythe is said to cleave more than just flesh."
+tagGDX1WeaponMelee2hC102=Cesarin's Conviction
+tagGDX1WeaponMelee2hC107=Fist of Ultos
+
+tagWeaponMelee2hD002B=Guillotine
+tagGDX1WeaponMelee2hD101=Death's Reach
+tagGDX1WeaponMelee2hD102=Guardian of Death's Gates
+tagGDX1WeaponMelee2hD102_Desc="Rumored to have once been wielded by Uroboruuk himself, this weapon's edge traps souls with the slightest touch."
+tagGDX1WeaponMelee2hD103=Arcanor, Blade of the Luminari
+tagGDX1WeaponMelee2hD103_Desc="Ceremonial blade of the Luminari order that has passed from Headmaster to Headmaster for centuries."
+tagGDX1WeaponMelee2hD107=Gutsmasher
+tagGDX1WeaponMelee2hD107_Desc="Eternally dripping wet with the innards of past victims."
+tagGDX1WeaponMelee2hD108=Avenger's Crusher
+
+tagGDX1WeaponMelee2hF101=Coven Headcrusher
+tagGDX1WeaponMelee2hF102=Malmouth Greatsword
+tagGDX1WeaponMelee2hF103=Wendigo Decapitator
+tagGDX1WeaponMelee2hF104=Blazerush
+
+
+tagGDX1WeaponCaster1hA101=Preserver Scepter
+tagGDX1WeaponCaster1hA102=Redeemer Scepter
+tagGDX1WeaponCaster1hA103=Preserver Dagger
+tagGDX1WeaponCaster1hA104=Redeemer Dagger
+
+tagGDX1WeaponCaster1hB101=Ugdenbog Flamestrife
+tagGDX1WeaponCaster1hB102=Ugdenbog Chillstrife
+tagGDX1WeaponCaster1hB103=Ugdenbog Stormstrife
+tagGDX1WeaponCaster1hB104=Ascendant Conduit
+tagGDX1WeaponCaster1hB105=Ascendant Source
+tagGDX1WeaponCaster1hB106=Rime-Rotten Wand
+tagGDX1WeaponCaster1hB107=Deathborne Scepter
+tagGDX1WeaponCaster1hB108=Heart of Theodin Marcell
+tagGDX1WeaponCaster1hB108_Desc="A fragment of its master's power still beats within."
+
+tagGDX1WeaponCaster1hC101=Ravager's Barb
+tagGDX1WeaponCaster1hC102=Jaravuuk's Bite
+tagGDX1WeaponCaster1hC102_Desc="Master Jaravuuk's ritual blade is said to cleave through the veil itself."
+tagGDX1WeaponCaster1hC103=Ulzaad's Channeler
+tagGDX1WeaponCaster1hC103_Desc="A celestial's breath, trapped eternally within the scepter."
+tagGDX1WeaponCaster1hC104=Arcane Storm Evoker
+tagGDX1WeaponCaster1hC105=Finger of Gar'Dalvur
+tagGDX1WeaponCaster1hC105_Desc="The fallen Gar'Dalvur had only one thing to say to his executioners."
+tagGDX1WeaponCaster1hC113=Rageflame Spellblade
+tagGDX1WeaponCaster1hC114=Cyclonic Invoker
+tagGDX1WeaponCaster1hC115=Dreadwalker Carver
+tagGDX1WeaponCaster1hC116=Scepter of Malmouth
+tagGDX1WeaponCaster1hC116_Desc="Visions of the fallen city of Port Valbury flood your mind."
+
+tagGDX1WeaponCaster1hD101=Dreadfire
+tagGDX1WeaponCaster1hD102=Veilpiercer
+tagGDX1WeaponCaster1hD102_Desc="The blade slips between realities with strange ease, as if a key fitting into its lock."
+tagGDX1WeaponCaster1hD103=Dreadweaver
+tagGDX1WeaponCaster1hD104=Chillflame Evoker
+tagGDX1WeaponCaster1hD105=Rune of Elgoloth
+tagGDX1WeaponCaster1hD105_Desc="A weapon inspired by the original Storm Box of Elgoloth, the runes of which now emblazon this scepter."
+tagGDX1WeaponCaster1hD106=Spelldrinker
+tagGDX1WeaponCaster1hD106_Desc="It hungers for spells to feed upon, but will just as readily feast upon its wielder."
+tagGDX1WeaponCaster1hD113=Pandemic
+tagGDX1WeaponCaster1hD114=Spark of Reality
+tagGDX1WeaponCaster1hD114_Desc="Gazing upon this weapon is like staring into the vast emptiness of the beyond, incredible and overwhelming."
+tagGDX1WeaponCaster1hD115=Beacon of Lost Souls
+tagGDX1WeaponCaster1hD116=Allagast's Stormbinder
+tagGDX1WeaponCaster1hD117=Deathguard Blade
+tagGDX1WeaponCaster1hD118=Decree of Malmouth
+tagGDX1WeaponCaster1hD118Desc="Visions of the fallen city of Port Valbury flood your mind."
+
+tagGDX1WeaponCaster1hF101=Coven Aetherspark
+tagGDX1WeaponCaster1hF102=Coven Biletouch
+tagGDX1WeaponCaster1hF103=Coven Spellweaver
+tagGDX1WeaponCaster1hF104=Malmouth Flamecaster
+tagGDX1WeaponCaster1hF105=Malmouth Stormcaster
+tagGDX1WeaponCaster1hF106=Malmouth Chillbearer
+tagGDX1WeaponCaster1hF107=Wendigo Blooddrinker
+tagGDX1WeaponCaster1hF108=Wendigo Chaosweaver
+tagGDX1WeaponCaster1hF109=Wendigo Aetherweaver
+tagGDX1WeaponCaster1hF110=Hexflame 
+tagGDX1WeaponCaster1hF111=Claw of Hagaraz
+
+
+#Shields
+tagGDX1ShieldB101=Colossal Fortress
+tagGDX1ShieldB101Desc="The shield's proportions require equally colossal strength."
+tagGDX1ShieldB102=Colossal Bulwark
+tagGDX1ShieldB103=Stonewall Defender
+
+tagGDX1ShieldC101=Dreadguard
+tagGDX1ShieldC102=Legionnaire's Rebuke
+tagGDX1ShieldC102_Desc="This shield's history is almost as long as the Black Legion's own."
+tagGDX1ShieldC107=Stormscourge Bulwark
+
+tagShieldD002B=Final Stop
+tagShieldD003B=Untouchable
+tagGDX1ShieldD101=Maw of the Damned
+tagGDX1ShieldD101_Desc="Forever damned are those that partake of the Wendigo's gift."
+tagGDX1ShieldD102=Watcher of Erulan
+tagGDX1ShieldD102_Desc="The stone face is said to only open its eyes when the empire is in dire need."
+tagGDX1ShieldD103=Turrion's Reprisal
+tagGDX1ShieldD107=The Grey Knight
+tagGDX1ShieldD107_Desc="Bulwark of the faceless defender of Menhir, who stood alone against a gathering of heretics and emerged the victor."
+tagGDX1ShieldD108=Bulwark of Octavius
+tagGDX1ShieldD109=Stronghold Defender
+tagGDX1ShieldD110=Spellscourge Bulwark
+tagGDX1ShieldD110_Desc="The shield channels through it devastating power."
+
+tagGDX1ShieldF101=Coven Protector
+tagGDX1ShieldF102=Malmouth Defender
+tagGDX1ShieldF103=Wendigo Spiritguard
+tagGDX1ShieldF104=Wrathguard
+
+
+#Focus
+tagGDX1FocusA101=Exalted Tome
+tagGDX1FocusA102=Exalted Effigy
+tagGDX1FocusA103=Preserver Archive
+tagGDX1FocusA104=Preserver Sphere
+
+tagGDX1FocusB101=Terrnox's Aether Tome
+tagGDX1FocusB101Desc="Filled with knowledge of the Aether, much of which cannot be deciphered."
+tagGDX1FocusB102=Terrnox's Arcane Tome
+tagGDX1FocusB102Desc="Filled with arcane knowledge known only to Terrnox."
+tagGDX1FocusB103=Bound Wraith
+tagGDX1FocusB104=Enslaved Wraith
+tagGDX1FocusB105=Fleshwarped Tome
+tagGDX1FocusB105Desc="The tome writhes in your hands."
+tagGDX1FocusB106=Fleshwarped Codex
+tagGDX1FocusB107=Fleshwarped Archive
+tagGDX1FocusB108=Spellshock Tome
+tagGDX1FocusB109=Smoldering Tome
+tagGDX1FocusB110=Leafmane Horn
+tagGDX1FocusB111=Leafmane Trophy
+
+tagGDX1FocusC101=Padala's Will
+tagGDX1FocusC102=Virulent Maw
+tagGDX1FocusC102_Desc="The rotting head emits a foul stench, but the toxins it produces are even more vile."
+tagGDX1FocusC103=Codex of Malligosta
+tagGDX1FocusC103_Desc="Malligosta was a master of the art of channeling spiritual energies into devastating spells. She was equal parts necromancer and arcanist."
+tagGDX1FocusC104=Word of Inquisitor Abalon
+tagGDX1FocusC104_Desc="Inquisitor Abalon was one of the most daring inquisitors of his time, willing to make use of any relic so long as it ultimately served the security of the empire. Some would later call his methods heresy."
+tagGDX1FocusC105=Tome of Frigid Winds
+tagGDX1FocusC113=Helltome
+tagGDX1FocusC114=Sphere of Many Blades
+tagGDX1FocusC114_Desc="The real trick is to hold the sphere without injuring oneself."
+tagGDX1FocusC115=Dreadwalker Tome
+
+tagGDX1FocusD101=Reaper of the Accursed
+tagGDX1FocusD101_Desc="The scythe subtly vibrates when lingering spirits are near."
+tagGDX1FocusD102=Contagion
+tagGDX1FocusD103=Fiendgaze Tome
+tagGDX1FocusD104=Codex of Truths
+tagGDX1FocusD104_Desc="Sacred truths of Empyrion, catalogued by Agathia Haggar, the first Archon."
+tagGDX1FocusD105=Ixillor's Rageflame
+tagGDX1FocusD105_Desc="The arcane flame is fickle and difficult to control. A single lapse in concentration and the flame could pass on to a new master."
+tagGDX1FocusD111=Farath's Cube
+tagGDX1FocusD111_Desc="Farath's puzzle cube has only been solved once before, but the bearer was said to have gone blind upon witnessing the arcane splendors contained within."
+tagGDX1FocusD112=Hellscourge
+tagGDX1FocusD113=Cataclysm's Eye
+tagGDX1FocusD114=Valguur's Focus
+tagGDX1FocusD115=Uroboruuk's Effigy
+tagGDX1FocusD116=Diviner's Codex
+
+tagGDX1FocusF101=Coven Vile Effigy
+tagGDX1FocusF102=Coven Arcane Effigy
+tagGDX1FocusF103=Coven Venom Effigy
+tagGDX1FocusF104=Malmouth Void Tome
+tagGDX1FocusF105=Malmouth Corrupted Tome
+tagGDX1FocusF106=Malmouth Infernal Tome
+tagGDX1FocusF107=Wendigo Life Effigy
+tagGDX1FocusF108=Wendigo Chilling Effigy
+tagGDX1FocusF109=Wendigo Caustic Effigy
+tagGDX1FocusF110=Stormbringer of Malmouth
+
+
+#ItemStyles
+tagGDX1ArmorStyle001=Preserver
+tagGDX1ArmorStyle002=Redeemer
+tagGDX1WeaponQuality001=Exalted
+tagGDX1WeaponQuality002=Preserver
+
+#ArmorHead
+tagGDX1HeadB101=Ascendant Hood
+tagGDX1HeadB102=Ascendant Cowl
+tagGDX1HeadB103=Packla's Skins
+tagGDX1HeadB103_Desc="You have no idea how many victims this mask consists of."
+tagGDX1HeadB104=Packla's Visage
+tagGDX1HeadB104_Desc="The stench coming off this mask is unbearable."
+
+
+tagGDX1HeadC101=Wreath of Souls
+tagGDX1HeadC101_Desc="The spirits trapped within the circlet sometimes whisper secrets to the bearer, though perhaps not always with the bearer's best interests in mind."
+tagGDX1HeadC102=Rotmender's Hat
+tagGDX1HeadC103=Purging Gaze
+tagGDX1HeadC103_Desc="The world is filled with heathens and heretics and so, by the grace of the Luminari, it shall be purged of this damnation."
+tagGDX1HeadC104=Bounty Hunter's Hat
+tagGDX1HeadC105=Horns of Ekket'Zul
+tagGDX1HeadC105_Desc="The horns are still teeming with a palpable darkness."
+tagGDX1HeadC106=Soulless Gaze
+tagGDX1HeadC107=Tainted Gaze
+tagGDX1HeadC108=Ravager's Gaze
+tagGDX1HeadC108_Desc="Though vanquished from the physical realm, some part of the Ravager spirit remains within the twisted mask."
+tagGDX1HeadC109=Corruptor's Mask
+tagGDX1HeadC110=Silver Sentinel's Mask
+tagGDX1HeadC115=Stormherald's Visage
+tagGDX1HeadC122=Dreadwalker Cowl
+tagGDX1HeadC123=Luminari Hat
+tagGDX1HeadC124=Cauldron of Excitement
+tagGDX1HeadC124_Desc="Too much excitement, one could say."
+
+tagGDX1HeadD101=Necrolord's Gaze
+tagGDX1HeadD102=Venomancer's Guile
+tagGDX1HeadD103=Spellgaze
+tagGDX1HeadD104=Wyrmbone Mask
+tagGDX1HeadD109=Voice of Dreeg
+tagGDX1HeadD109_Desc="A blessing, and a curse, bestowed upon the bearer of Dreeg's word, the one voice through which the Witch God echoes his cryptic messages."
+tagGDX1HeadD110=Gaze of Empyrion
+tagGDX1HeadD110_Desc="The divine light of Empyrion shines down upon the bearer of this crown."
+tagGDX1HeadD111=Ravager's Dreadgaze
+tagGDX1HeadD111_Desc="Though vanquished from the physical realm, some part of the Ravager spirit remains within the twisted mask."
+tagGDX1HeadD112=Krieg's Mask
+tagGDX1HeadD113=Mask of Lost Souls
+tagGDX1HeadD114=Visor of Octavius
+tagGDX1HeadD115=Korba's Hood
+tagGDX1HeadD116=Darkblaze Headguard
+tagGDX1HeadD117=Spellscourge Visor
+tagGDX1HeadD118=Mageslayer's Hood
+tagGDX1HeadD119=Valguur's Gems
+tagGDX1HeadD120=Runebinder's Hat
+tagGDX1HeadD121=Uroboruuk's Visage
+tagGDX1HeadD122=Dagallon's Faceguard
+tagGDX1HeadD123=Deathguard Hood
+tagGDX1HeadD124=Diviner's Mask
+tagGDX1HeadD125=Dark One's Hood
+tagGDX1HeadD126=Belgothian's Mask
+tagGDX1HeadD127=Radaggan's Mask
+tagGDX1HeadD128=Rimetongue Mask
+tagGDX1HeadD129=Blood Knight's Visage
+
+tagGDX1HeadF101=Coven Mindbender Hood
+tagGDX1HeadF102=Coven Tamer's Hood
+tagGDX1HeadF103=Coven Arcane Hood
+tagGDX1HeadF104=Coven Combatant Casque
+tagGDX1HeadF105=Coven Flameweaver Casque
+tagGDX1HeadF106=Coven Defender Casque
+tagGDX1HeadF107=Malmouth Enforcer Headguard
+tagGDX1HeadF108=Malmouth Destroyer Headguard
+tagGDX1HeadF109=Malmouth Chilling Headguard
+tagGDX1HeadF110=Malmouth Flamewarder Casque
+tagGDX1HeadF111=Malmouth Dread Casque
+tagGDX1HeadF112=Malmouth Defender Casque
+tagGDX1HeadF113=Wendigo Dread Mask
+tagGDX1HeadF114=Wendigo Vile Mask
+tagGDX1HeadF115=Wendigo Spellweaver Mask
+tagGDX1HeadF116=Wendigo Bladed Headguard
+tagGDX1HeadF117=Wendigo Vile Headguard
+tagGDX1HeadF118=Wendigo Tempered Headguard
+
+
+#ArmorShoulders
+tagGDX1ShoulderB101=Ascendant Pauldrons
+tagGDX1ShoulderB102=Ascendant Shoulderguards
+tagGDX1ShoulderB103=Kra'vall Shoulderguards
+tagGDX1ShoulderB103_Desc="The tough skin of an Ugdenbog kraken may be difficult to work with, but it is prized among craftsmen for good reason."
+tagGDX1ShoulderB104=Kra'vall Shoulderpads
+
+tagGDX1ShoulderC101=Wraithcaller's Mantle
+tagGDX1ShoulderC102=Wraith Knight's Pauldrons
+tagGDX1ShoulderC103=Stormscorched Shoulderguards
+tagGDX1ShoulderC103_Desc="Not even the fury of a hundred storms was enough to shatter this armor."
+tagGDX1ShoulderC104=Bounty Hunter's Shoulderguards
+tagGDX1ShoulderC105=Corruptor's Mantle
+tagGDX1ShoulderC106=Silver Sentinel's Shoulderguard
+tagGDX1ShoulderC111=Spellstalker's Mantle
+
+tagGDX1ShoulderD101=Lifeblaze Mantle
+tagGDX1ShoulderD102=Dread Knight's Guard
+tagGDX1ShoulderD103=The Cortosian Scrolls
+tagGDX1ShoulderD103B=Cortosian Scrolls
+tagGDX1ShoulderD103_Desc="The scrolls are lined with spells and techniques written down by generations of Cortosian Arcanists."
+tagGDX1ShoulderD104=Blazeborn Mantle
+tagGDX1ShoulderD109=Venomtongue Mantle
+tagGDX1ShoulderD110=Embercore Shoulderguard
+tagGDX1ShoulderD110_Desc="The armor fills the wearer with a fiery rage that never subsides."
+tagGDX1ShoulderD111=Krieg's Shoulderguards
+tagGDX1ShoulderD112=Avenger's Pauldrons
+tagGDX1ShoulderD113=Mantle of Lost Souls
+tagGDX1ShoulderD114=Pauldrons of Octavius
+tagGDX1ShoulderD115=Spellscourge Vanguard
+tagGDX1ShoulderD116=Mageslayer's Shoulderguard
+tagGDX1ShoulderD117=Runebinder's Shoulderguard
+tagGDX1ShoulderD118=Uroboruuk's Mantle
+tagGDX1ShoulderD119=Allagast's Mantle
+tagGDX1ShoulderD120=Diviner's Mantle
+tagGDX1ShoulderD121=Dark One's Mantle
+tagGDX1ShoulderD122=Belgothian's Shoulderguard
+tagGDX1ShoulderD123=Deathguard Mantle
+tagGDX1ShoulderD124=Radaggan's Mantle
+tagGDX1ShoulderD125=Rimetongue Shoulderguard
+tagGDX1ShoulderD126=Blood Knight's Scrolls
+
+tagGDX1ShoulderF101=Coven Wrath Mantle
+tagGDX1ShoulderF102=Coven Lifebinder Mantle
+tagGDX1ShoulderF103=Coven Arcane Mantle
+tagGDX1ShoulderF104=Coven Combatant's Spaulders
+tagGDX1ShoulderF105=Coven Warder Spaulders
+tagGDX1ShoulderF106=Coven Arcane Spaulders
+tagGDX1ShoulderF107=Malmouth Chilling Mantle
+tagGDX1ShoulderF108=Malmouth Aetherblaze Mantle
+tagGDX1ShoulderF109=Malmouth Tainted Mantle
+tagGDX1ShoulderF110=Malmouth Vanguard Pauldrons
+tagGDX1ShoulderF111=Malmouth Void Pauldrons
+tagGDX1ShoulderF112=Malmouth Defender Pauldrons
+tagGDX1ShoulderF113=Wendigo Bladed Pauldrons
+tagGDX1ShoulderF114=Wendigo Vile Spaulders
+tagGDX1ShoulderF115=Wendigo Spellweaver Spaulders
+tagGDX1ShoulderF116=Wendigo Tempered Pauldrons
+tagGDX1ShoulderF117=Wendigo Vile Pauldrons
+tagGDX1ShoulderF118=Wendigo Guardian Pauldrons
+
+
+#ArmorTorso
+tagGDX1TorsoB101=Galakros Singed Plating
+tagGDX1TorsoB102=Galakros Dread Plating
+tagGDX1TorsoB103=Valaxteria's Arcane Robes
+tagGDX1TorsoB103_Desc="The robes shimmer with finely woven arcane runes."
+tagGDX1TorsoB104=Valaxteria's Skytorn Robes
+
+tagGDX1TorsoC101=Deathbringer Raiment
+tagGDX1TorsoC102=Darkflame Chestguard
+tagGDX1TorsoC103=Astral Robes
+tagGDX1TorsoC103_Desc="Often worn by spirit guides, the robes were a sign of gifted diviners, though given the fickle nature of fate's strands, they could just as easily be mistaken for charlatans."
+tagGDX1TorsoC104=High Consillar's Coat
+tagGDX1TorsoC104_Desc="Evidently crafted for an Erulan nobleman, the cloth feels very soft, and yet resilient."
+tagGDX1TorsoC105=Corruptor's Robe
+tagGDX1TorsoC106=Silver Sentinel's Armor
+tagGDX1TorsoC111=Infector's Shade
+tagGDX1TorsoC114=Dreadwalker Raiment
+tagGDX1TorsoC115=Luminari Jacket
+
+tagGDX1TorsoD101=Venomancer's Raiment
+tagGDX1TorsoD102=Necrolord's Shroud
+tagGDX1TorsoD103=Rune Armor of Ignaffar
+tagGDX1TorsoD103_Desc="Though the original bearer of this armor perished in a devastating blaze invoked by a rogue arcanist, the armor miraculously emerged from the inferno unscathed."
+tagGDX1TorsoD104=Stormweave Armor
+tagGDX1TorsoD109=Fateweaver's Raiment
+tagGDX1TorsoD109_Desc="Fickle and always changing, the strands of fate weave mankind's destiny into the unknown."
+tagGDX1TorsoD110=Gildor's Guard
+tagGDX1TorsoD111=Krieg's Chestguard
+tagGDX1TorsoD112=Avenger's Armor
+tagGDX1TorsoD113=Platemail of Octavius
+tagGDX1TorsoD114=Korba's Furs
+tagGDX1TorsoD115=Valguur's Raiment
+tagGDX1TorsoD116=Runebinder's Armor
+tagGDX1TorsoD117=Uroboruuk's Robes
+tagGDX1TorsoD118=Allagast's Robe
+tagGDX1TorsoD119=Dagallon's Armor
+tagGDX1TorsoD120=Deathguard Shroud
+tagGDX1TorsoD121=Diviner's Raiment
+tagGDX1TorsoD122=Dark One's Raiment
+tagGDX1TorsoD123=Belgothian's Armor
+tagGDX1TorsoD124=Radaggan's Shroud
+tagGDX1TorsoD125=Rimetongue Chestguard
+tagGDX1TorsoD126=Blood Knight's Armor
+
+tagGDX1TorsoF101=Coven Wrath Vestments
+tagGDX1TorsoF102=Coven Lifebinder Vestments
+tagGDX1TorsoF103=Coven Arcane Vestments
+tagGDX1TorsoF104=Coven Combatant's Chestguard
+tagGDX1TorsoF105=Coven Warder Chestguard
+tagGDX1TorsoF106=Coven Arcane Chestguard
+tagGDX1TorsoF107=Malmouth Chilling Vestments
+tagGDX1TorsoF108=Malmouth Aetherblaze Vestments
+tagGDX1TorsoF109=Malmouth Tainted Vestments
+tagGDX1TorsoF110=Malmouth Vanguard Cuirass
+tagGDX1TorsoF111=Malmouth Void Cuirass
+tagGDX1TorsoF112=Malmouth Defender Cuirass
+tagGDX1TorsoF113=Wendigo Bladed Chestguard
+tagGDX1TorsoF114=Wendigo Vile Chestguard
+tagGDX1TorsoF115=Wendigo Spellweaver Chestguard
+tagGDX1TorsoF116=Wendigo Tempered Cuirass
+tagGDX1TorsoF117=Wendigo Vile Cuirass
+tagGDX1TorsoF118=Wendigo Guardian Cuirass
+
+
+#ArmorHands
+tagGDX1HandsC101=Haruud's Frigid Grip
+tagGDX1HandsC101_Desc="Haruud's grasp was said to carry the chill of death itself with it."
+tagGDX1HandsC102=Touch of Command
+tagGDX1HandsC103=Runesinged Handguards
+tagGDX1HandsC104=Purging Touch
+tagGDX1HandsC104_Desc="With a mere touch, evil recedes in fear."
+tagGDX1HandsC111=Bloodrite Gauntlets
+
+tagGDX1HandsD101=Riftwarped Grasp
+tagGDX1HandsD101_Desc="Having reached into the void itself, these gloves are forever changed by the encounter."
+tagGDX1HandsD102=Overlord's Iron Grip
+tagGDX1HandsD103=Gauntlets of Ignaffar
+tagGDX1HandsD104=Chilling Grip of Hagarrad
+tagGDX1HandsD109=The Crimson Claws
+tagGDX1HandsD109_Desc="Dripping with gore and thirsting for more, the claws eagerly seek out fresh victims."
+tagGDX1HandsD110=Cindertouch
+tagGDX1HandsD111=Mageslayer's Armguard
+tagGDX1HandsD112=Valguur's Touch
+tagGDX1HandsD113=Krieg's Grip
+tagGDX1HandsD114=Dark One's Grasp
+
+
+#ArmorLegs
+tagGDX1LegsB101=Aleksander's Legguards
+tagGDX1LegsB102=Aleksander's Chausses
+tagGDX1LegsB103=Grava'Thul's Leggings
+tagGDX1LegsB104=Grava'Thul's Legguards
+tagGDX1LegsB105=Kubacabra's Legguards
+tagGDX1LegsB106=Kubacabra's Chausses
+tagGDX1LegsB107=Reaper's Leggings
+tagGDX1LegsB108=Reaper's Legguards
+
+tagGDX1LegsC101=Scorchrune Legwraps
+tagGDX1LegsC102=Dreadrune Legguards
+tagGDX1LegsC103=Shadoweave Leggings
+tagGDX1LegsC103_Desc="Somehow the shadows themselves have been woven into the fabric of this armor."
+tagGDX1LegsC104=Runeward Legguards
+tagGDX1LegsC111=Spellstalker's Legwraps
+
+tagLegsD013B=Really Great Pants
+tagLegsD013BDesc="Turns out, still ok."
+
+tagGDX1LegsD101=Wendigomane Leggings
+tagGDX1LegsD101_Desc="The fur stinks of old blood, uncertain whether it is from the wendigo itself or from its past victims."
+tagGDX1LegsD102=Dread Knight's Legplates
+tagGDX1LegsD103=Runeplates of Ignaffar
+tagGDX1LegsD104=Mageguard Legguards
+tagGDX1LegsD109=Venomskin Legwraps
+tagGDX1LegsD110=Feralmane Legplates
+tagGDX1LegsD110_Desc="The beast which gave up its fur for the creation of this armor does not appear to be local to Erulan."
+
+
+#ArmorFeet
+tagGDX1FeetB101=Intrepid Warboots
+tagGDX1FeetB102=Stoneplate Greaves
+
+tagGDX1FeetC101=Grim Harvest Boots
+tagGDX1FeetC102=Deadwalker Footpads
+tagGDX1FeetC102_Desc="It is uncertain whether the bones attached to these boots belong to beast...or man."
+tagGDX1FeetC103=Sellecor's March
+tagGDX1FeetC104=Emberstone Treads
+tagGDX1FeetC111=Stormstep Footguards
+
+tagGDX1FeetD101=Fiendflesh Greaves
+tagGDX1FeetD102=Greaves of Ill Omens
+tagGDX1FeetD103=Timewarped Walkers
+tagGDX1FeetD103_Desc="Legend goes that these boots can transcend the infinite timelines, but nobody has yet figured out how to harness this power."
+tagGDX1FeetD104=Runeguard Greaves
+tagGDX1FeetD109=Galewind Treads
+tagGDX1FeetD110=Stormbearers
+tagGDX1FeetD110_Desc="The boots bore the full brunt of a lightning storm, and yet do not discharge completely into the earth beneath them."
+tagGDX1FeetD111=Krieg's Boots
+
+
+#ArmorWaist
+tagGDX1WaistA101=Preserver Belt
+tagGDX1WaistA102=Redeemer Waistguard
+
+tagGDX1WaistB101=Ugdenbog Girdle
+tagGDX1WaistB102=Ugdenbog Waistguard
+tagGDX1WaistB103=Lunal'Valgoth's Girdle
+tagGDX1WaistB104=Lunal'Valgoth's Waistguard
+tagGDX1WaistB105=Trollheart Waistguard
+tagGDX1WaistB106=Puppetmaster Links
+tagGDX1WaistB107=Stoneplate Waistguard
+
+tagGDX1WaistC101=Spitewraith Girdle
+tagGDX1WaistC102=Soulweave Girdle
+tagGDX1WaistC102_Desc="Bound spirits were woven into the threads of this belt."
+tagGDX1WaistC103=Shadowfiend's Cord
+tagGDX1WaistC104=Star Seer's Cord
+tagGDX1WaistC105=Chains of the Hungering Void
+tagGDX1WaistC106=Arcanoweave Cord
+tagGDX1WaistC115=Scorchbearer Sash
+tagGDX1WaistC116=Sanguinus
+tagGDX1WaistC116_Desc="Each plate drenched in the blood spilled upon the battlefield."
+tagGDX1WaistC117=Blazeseer Girdle
+
+tagGDX1WaistD101=Cord of Violent Decay
+tagGDX1WaistD102=Gladiator's Distinction
+tagGDX1WaistD103=Spiritseeker Cord
+tagGDX1WaistD103_Desc="Wandering spirits are drawn to the weave of this belt."
+tagGDX1WaistD104=Pack of Treacherous Means
+tagGDX1WaistD104_Desc="A collection of powders and toxins ideal for the chemical reactions that made gunpowder weaponry a worthy challenge to the arcane arts."
+tagGDX1WaistD105=Cord of Deception
+tagGDX1WaistD106=Scales of Beronath
+tagGDX1WaistD106_Desc="The scales from the great beast Beronath have not faded after centuries, and likely never will."
+tagGDX1WaistD113=Cinderplate Girdle
+tagGDX1WaistD114=Lacerator Girdle
+tagGDX1WaistD115=Avenger's Girdle
+tagGDX1WaistD116=Cataclysm's Pact
+tagGDX1WaistD117=Stoneguard Girdle
+tagGDX1WaistD118=Stronghold Waistguard
+tagGDX1WaistD119=Darkblaze Ammo Belt
+
+tagGDX1WaistF101A=Coven Vile Waistguard
+tagGDX1WaistF101B=Coven Vile Girdle
+tagGDX1WaistF102A=Coven Lethal Waistguard
+tagGDX1WaistF102B=Coven Lethal Girdle
+tagGDX1WaistF103A=Malmouth Bladed Waistguard
+tagGDX1WaistF103B=Malmouth Bladed Girdle
+tagGDX1WaistF104A=Malmouth Arcane Waistguard
+tagGDX1WaistF104B=Malmouth Arcane Girdle
+tagGDX1WaistF105A=Wendigo Tainted Waistguard
+tagGDX1WaistF105B=Wendigo Tainted Girdle
+tagGDX1WaistF106A=Wendigo Warder Waistguard
+tagGDX1WaistF106B=Wendigo Warder Girdle
+
+
+#Rings
+tagGDX1RingA101=Exalted Ring
+tagGDX1RingA102=Exalted Band
+tagGDX1RingA103=Preserver Ring
+tagGDX1RingA104=Preserver Band
+
+tagGDX1RingB101=Living Ring
+tagGDX1RingB101_Desc="The thorns along the band draw blood, but that seems to revitalize the vines."
+tagGDX1RingB102=Vine Ring
+tagGDX1RingB103=Gargabol's Ring
+tagGDX1RingB103_Desc="The burning band is painful to the touch, but yet does not inflict physical harm."
+
+tagGDX1RingC101=Cursebearer
+tagGDX1RingC101_Desc="This twisted ring is rumored to have borne a terrifying curse for its master, the effects of which still linger within it to this day."
+tagGDX1RingC102=Wraithstalker Band
+tagGDX1RingC103=Rotmender's Ring
+tagGDX1RingC104=Signet of the Runefather
+tagGDX1RingC104_Desc="Mark of the Runefather, creator of the original runic tongue now commonly used by the Luminari."
+tagGDX1RingC105=Signet of Astral Ruminations
+tagGDX1RingC105_Desc="Secrets of the stars whisper from this ring, but they are incomprehensible to untrained ears."
+tagGDX1RingC106=Widow's Sting
+tagGDX1RingC115=Nightscorn
+tagGDX1RingC116=Hysteria
+tagGDX1RingC117=Blazeseer Signet
+tagGDX1RingC118=Magelord Signet
+tagGDX1RingC119=Magelord Band
+
+tagGDX1RingD101=Deathlord's Band
+tagGDX1RingD102=Spiritbinder Glyph
+tagGDX1RingD102_Desc="The glyph upon this ring is said to be the most powerful spiritbinding symbol known to the Order of Death's Vigil."
+tagGDX1RingD103=Voidwhisper Band
+tagGDX1RingD103_Desc="Whispers emanate from this ring that threaten your very sanity."
+tagGDX1RingD104=Combustion Band
+tagGDX1RingD105=Jaxxon's Lucky Bullet
+tagGDX1RingD106=Reign of Ice and Fire
+tagGDX1RingD113=Bladetwister Signet
+tagGDX1RingD114=Voidheart
+tagGDX1RingD115=Allagast's Stormgem
+tagGDX1RingD116=Deathguard Sigil
+
+tagGDX1RingF101=Coven Storm Seal
+tagGDX1RingF102=Coven Sky Seal
+tagGDX1RingF103=Coven Defender Seal
+tagGDX1RingF104=Malmouth Arcane Seal
+tagGDX1RingF105=Malmouth Blade Seal
+tagGDX1RingF106=Malmouth Aetherblaze Seal
+tagGDX1RingF107=Wendigo Warped Seal
+tagGDX1RingF108=Wendigo Conjuring Seal
+
+
+
+#Necklaces
+tagGDX1NecklaceA101=Exalted Amulet
+tagGDX1NecklaceA102=Exalted Pendant
+tagGDX1NecklaceA103=Preserver Amulet
+tagGDX1NecklaceA104=Preserver Pendant
+
+tagGDX1NecklaceB100=Sahdina's Memento
+tagGDX1NecklaceB100_Desc="A simple pendant, warded against evil. An inscription on it reads: The Web we weave carries with it the portents of Evil imagery. - Jay Peggins"
+tagGDX1NecklaceB101=Gulgazor's Heart
+tagGDX1NecklaceB102=Vilgazor's Heart
+
+tagGDX1NecklaceC101=Whispers of the Dead
+tagGDX1NecklaceC102=Dismember Stone
+tagGDX1NecklaceC103=Withered Heart
+tagGDX1NecklaceC103_Desc="At rare moments, the heart still beats."
+tagGDX1NecklaceC104=Serenity Stone
+tagGDX1NecklaceC104_Desc="Despite the turmoil and suffering upon Cairn, the stone fills you with undue tranquility."
+tagGDX1NecklaceC105=Weeping Ruby
+tagGDX1NecklaceC106=Runed Topaz of Gillad
+tagGDX1NecklaceC106_Desc="Warding amulet of Inquisitor Gillad, thought lost after his body was never recovered following a failed excursion into a fringe village on the empire's borders accused of harboring occultists."
+tagGDX1NecklaceC115=Aspirant's Ward
+tagGDX1NecklaceC116=Runefather's Gem
+
+tagNecklaceD005B=Peerless Eye of Beronath
+tagGDX1NecklaceD101=Soulcatcher
+tagGDX1NecklaceD101_Desc="The soul of every slain enemy is quickly captured within this necklace."
+tagGDX1NecklaceD102=Flames of Wrath
+tagGDX1NecklaceD103=Vigar's Hunger
+tagGDX1NecklaceD103_Desc="The phial is filled with blood from the wendigo Ravager itself."
+tagGDX1NecklaceD104=Tainted Ruby of Gar'dal
+tagGDX1NecklaceD105=Executioner's judgment
+tagGDX1NecklaceD106=Stormseer Sapphire
+tagGDX1NecklaceD113A=Conduit of Warring Whispers
+tagGDX1NecklaceD113B=Conduit of Destructive Whispers
+tagGDX1NecklaceD113C=Conduit of Eldritch Whispers
+tagGDX1NecklaceD113D=Conduit of Night Whispers
+tagGDX1NecklaceD113E=Conduit of Arcane Whispers
+tagGDX1NecklaceD113F=Conduit of Wild Whispers
+tagGDX1NecklaceD113G=Conduit of Runic Whispers
+tagGDX1NecklaceD113H=Conduit of Undying Whispers
+tagGDX1NecklaceD113_Desc="Peering into the eye reveals images of a vast and strange land, teeming with creatures and fiends unlike any native to Cairn."
+tagGDX1NecklaceD114=Shard of the Eternal Flame
+tagGDX1NecklaceD114_Desc="The flame given off by this crystal never fully goes out."
+tagGDX1NecklaceD115=Shard of Lost Souls
+tagGDX1NecklaceD116=Cataclysm's Catalyst
+tagGDX1NecklaceD117=Stoneguard Ward
+tagGDX1NecklaceD118=Darkblaze Source
+tagGDX1NecklaceD119=Spellscourge Deflector
+tagGDX1NecklaceD120=Mageslayer's Protector
+tagGDX1NecklaceD121=Runebinder's Gem
+tagGDX1NecklaceD122=Uroboruuk's Eye
+tagGDX1NecklaceD123=Radaggan's Gem
+tagGDX1NecklaceD124=Rimetongue Pendant
+tagGDX1NecklaceD125=Blood Knight's Pendant
+
+tagGDX1NecklaceF101=Coven Darkener Pendant
+tagGDX1NecklaceF102=Coven Manipulator Pendant
+tagGDX1NecklaceF103=Coven Blade Pendant
+tagGDX1NecklaceF104=Malmouth Stormbinder Pendant
+tagGDX1NecklaceF105=Malmouth Warped Pendant
+tagGDX1NecklaceF106=Malmouth Defender Pendant
+tagGDX1NecklaceF107=Wendigo Vile Pendant
+tagGDX1NecklaceF108=Wendigo Sky Pendant
+tagGDX1NecklaceF109=Aetherbolt Pendant
+tagGDX1NecklaceF110=Heart of Malmouth
+tagGDX1NecklaceF111=Reaver's Hunger
+
+
+#Medals
+tagGDX1MedalA101=Exalted Star
+tagGDX1MedalA102=Preserver Crest
+
+tagGDX1MedalB101=Basilisk Crest
+tagGDX1MedalB101_Desc="The fangs still drip with petrifying venom."
+tagGDX1MedalB102=Basilisk Mark
+tagGDX1MedalB102_Desc="The fangs still drip with hemorrhaging venom."
+tagGDX1MedalB103=Rylok Crest
+tagGDX1MedalB103_Desc="The Chthonian scale thirsts for blood."
+tagGDX1MedalB104=Rylok Mark
+tagGDX1MedalB104_Desc="The Chthonian scale is teeming with the darkness of the void."
+tagGDX1MedalB105=Wendigo Eye
+tagGDX1MedalB105_Desc="The bloodshot eye still moves when blood is nearby."
+tagGDX1MedalB106=Wendigo Gaze
+tagGDX1MedalB106_Desc="The bloodshot eye bewilders any lesser creature that gazes upon it."
+tagGDX1MedalB107=Nimble Crest
+tagGDX1MedalB108=Watcher Crest
+tagGDX1MedalB109=Slathsarr's Crest
+tagGDX1MedalB109_Desc="The fangs drip with aetherwarped venom."
+
+tagGDX1MedalC101=Solemn Mark
+tagGDX1MedalC102=Mark of Impurity
+tagGDX1MedalC103=Mark of Forgotten Spirits
+tagGDX1MedalC103_Desc="A reminder of those lost and forgotten."
+tagGDX1MedalC104=Mark of Broken Oaths
+tagGDX1MedalC104_Desc="This medal once belonged to an inquisitor whose name was stricken from the record, his reputation tarnished for a vile betrayal of all that the Luminari represent."
+tagGDX1MedalC105=Vaultkeeper's Mark
+tagGDX1MedalC105_Desc="Mark of the Vaultkeepers, sacred guardians of the Vault of the Luminari."
+tagGDX1MedalC106=Sanctus Crest
+tagGDX1MedalC115=Mark of Infernal Misery
+tagGDX1MedalC116=Mark of Stone Will
+tagGDX1MedalC117=Blazeseer Crest
+tagGDX1MedalC118=Luminari Commendation
+
+tagGDX1MedalD101=Mark of the Dreadblade
+tagGDX1MedalD102=Dreadchill Mark
+tagGDX1MedalD103=Rotdrinker Crest
+tagGDX1MedalD104=Gildam Arcanum Commendation
+tagGDX1MedalD104_Desc="Commendation bestowed upon members of the Gildam Arcanum who look past the tensions between the Luminari and the Arcanists and choose to see the bigger picture: ensuring the survival of mankind."
+tagGDX1MedalD105=Serenir's Commendation
+tagGDX1MedalD105_Desc="Commendation once given to High Inquisitor Serenir, who valiantly wielded the Horn of Gandarr to vanquish an occult coven singlehandedly."
+tagGDX1MedalD106=Mark of Kalastor
+tagGDX1MedalD113=Mark of Ulzuin
+tagGDX1MedalD113_Desc="Used by the faithful of Ulzuin to sear their flesh and dedicate themselves to the wrathful god."
+tagGDX1MedalD114=Mark of Consumption
+
+tagGDX1MedalF101=Coven Mark of Blades
+tagGDX1MedalF102=Coven Mark of the Arcane
+tagGDX1MedalF103=Malmouth Badge of Desecration
+tagGDX1MedalF104=Malmouth Badge of the Elements
+tagGDX1MedalF105=Wendigo Tainted Mark
+tagGDX1MedalF106=Wendigo Defender's Mark
+tagGDX1MedalF107=Mark of Lethal Intents
+tagGDX1MedalF108=The Overseer
+tagGDX1MedalF109=Mark of the Voracious One
+
+
+#Blueprints
+tagGDX1Blueprint_RelicB101=Blueprint: Relic - Gluttony
+tagGDX1Blueprint_RelicB102=Blueprint: Relic - Specter
+tagGDX1Blueprint_RelicB103=Blueprint: Relic - Fervor
+tagGDX1Blueprint_RelicB104=Blueprint: Relic - Fortitude
+tagGDX1Blueprint_RelicB105=Blueprint: Relic - Hysteria
+
+tagGDX1Blueprint_RelicC101=Blueprint: Relic - Mortality
+tagGDX1Blueprint_RelicC102=Blueprint: Relic - Vendetta
+
+tagGDX1Blueprint_RelicD101=Blueprint: Relic - Impurity
+tagGDX1Blueprint_RelicD102=Blueprint: Relic - Vengeance
+tagGDX1Blueprint_RelicD103=Blueprint: Relic - Dirge of Arkovia
+tagGDX1Blueprint_RelicD104=Blueprint: Relic - Bane
+tagGDX1Blueprint_RelicD105=Blueprint: Relic - Doom
+tagGDX1Blueprint_RelicD106=Blueprint: Relic - Korvaak's Deception
+tagGDX1Blueprint_RelicD107=Blueprint: Relic - Eldritch Pact
+tagGDX1Blueprint_RelicD108=Blueprint: Relic - Nidalla's Outbreak
+tagGDX1Blueprint_RelicD109=Blueprint: Relic - Eternity
+tagGDX1Blueprint_RelicD110=Blueprint: Relic - Massacre
+tagGDX1Blueprint_RelicD111=Blueprint: Relic - Uroboruuk's Reaping
+tagGDX1Blueprint_RelicD112=Blueprint: Relic - Ignaffar's Combustion
+tagGDX1Blueprint_RelicD113=Blueprint: Relic - Mogdrogen's Ardor
+tagGDX1Blueprint_RelicD114=Blueprint: Relic - Deathstalker
+
+
+tagGDX1Blueprint_ComponentA101=Blueprint: Seal of Might
+tagGDX1Blueprint_ComponentA102=Blueprint: Seal of Blades
+tagGDX1Blueprint_ComponentA103=Blueprint: Seal of Skies
+tagGDX1Blueprint_ComponentA104=Blueprint: Seal of Blight
+tagGDX1Blueprint_ComponentA105=Blueprint: Seal of Corruption
+tagGDX1Blueprint_ComponentA106=Blueprint: Seal of the Void
+tagGDX1Blueprint_ComponentA107=Blueprint: Seal of the Night
+tagGDX1Blueprint_ComponentA108=Blueprint: Seal of Destruction
+tagGDX1Blueprint_ComponentA109=Blueprint: Seal of Shadows
+tagGDX1Blueprint_ComponentA110=Blueprint: Seal of Resonance
+tagGDX1Blueprint_ComponentA111=Blueprint: Tainted Heart
+tagGDX1Blueprint_ComponentA112=Blueprint: Blazing Ruby
+tagGDX1Blueprint_ComponentA113=Blueprint: Runebound Topaz
+tagGDX1Blueprint_ComponentA114=Blueprint: Bloodied Crystal
+tagGDX1Blueprint_ComponentA115=Blueprint: Enchanted Earth
+tagGDX1Blueprint_ComponentA116=Blueprint: Spellscorched Plating
+tagGDX1Blueprint_ComponentA117=Blueprint: Bladed Plating
+tagGDX1Blueprint_ComponentA118=Blueprint: Ugdenbog Leather
+
+tagGDX1Blueprint_ComponentC101=Blueprint: Sacred Plating
+tagGDX1Blueprint_ComponentC102=Blueprint: Living Armor
+tagGDX1Blueprint_ComponentC103=Blueprint: Titan Plating
+tagGDX1Blueprint_ComponentC104=Blueprint: Eldritch Mirror
+tagGDX1Blueprint_ComponentC105=Blueprint: Seal of Annihilation
+tagGDX1Blueprint_ComponentC106=Blueprint: Seal of Ancestry
+
+
+tagGDX1Blueprint_WaistF101A=Blueprint: Coven Vile Waistguard
+tagGDX1Blueprint_WaistF101B=Blueprint: Coven Vile Girdle
+tagGDX1Blueprint_WaistF102A=Blueprint: Coven Lethal Waistguard
+tagGDX1Blueprint_WaistF102B=Blueprint: Coven Lethal Girdle
+tagGDX1Blueprint_WaistF103A=Blueprint: Malmouth Bladed Waistguard
+tagGDX1Blueprint_WaistF103B=Blueprint: Malmouth Bladed Girdle
+tagGDX1Blueprint_WaistF104A=Blueprint: Malmouth Arcane Waistguard
+tagGDX1Blueprint_WaistF104B=Blueprint: Malmouth Arcane Girdle
+tagGDX1Blueprint_WaistF105A=Blueprint: Wendigo Tainted Waistguard
+tagGDX1Blueprint_WaistF105B=Blueprint: Wendigo Tainted Girdle
+tagGDX1Blueprint_WaistF106A=Blueprint: Wendigo Warder Waistguard
+tagGDX1Blueprint_WaistF106B=Blueprint: Wendigo Warder Girdle
+
+
+tagGDX1Blueprint_WeaponB101=Blueprint: Stormsurge Pistol
+tagGDX1Blueprint_WeaponB102=Blueprint: Flamewarder Rifle
+tagGDX1Blueprint_WeaponB103=Blueprint: Bloodspill Cleaver
+tagGDX1Blueprint_WeaponB104=Blueprint: Gutcrush Warmaul
+tagGDX1Blueprint_WeaponB105=Blueprint: Stonewall Defender
+tagGDX1Blueprint_WeaponB106=Blueprint: Spellshock Tome
+tagGDX1Blueprint_WeaponB107=Blueprint: Smoldering Tome
+tagGDX1Blueprint_WeaponB108=Blueprint: Rime-Rotten Wand
+tagGDX1Blueprint_WeaponB109=Blueprint: Deathborne Scepter
+
+tagGDX1Blueprint_WeaponC101=Blueprint: The Dissenter
+tagGDX1Blueprint_WeaponC102=Blueprint: Mythical Aldur's Inquisition
+tagGDX1Blueprint_WeaponC103=Blueprint: Cosmic Torrent
+tagGDX1Blueprint_WeaponC104=Blueprint: Rageflame Spellblade
+tagGDX1Blueprint_WeaponC105=Blueprint: Mythical Burrwitch Peacekeeper
+tagGDX1Blueprint_WeaponC106=Blueprint: Mythical Hellmaw Shotgun
+tagGDX1Blueprint_WeaponC107=Blueprint: Mythical Doomsaw of Gluttony
+tagGDX1Blueprint_WeaponC108=Blueprint: Mythical Blessed Torch
+tagGDX1Blueprint_WeaponC109=Blueprint: Mythical Duelist's Sabre
+tagGDX1Blueprint_WeaponC110=Blueprint: Mythical Wrathmourne
+tagGDX1Blueprint_WeaponC111=Blueprint: Mythical Hellrune Carver
+tagGDX1Blueprint_WeaponC112=Blueprint: Mythical Tainted Blade of Nera'Val
+tagGDX1Blueprint_WeaponC113=Blueprint: Mythical Lichguard
+tagGDX1Blueprint_WeaponC114=Blueprint: Mythical Banshee's Misery
+
+tagGDX1Blueprint_WeaponD101=Blueprint: Cindercore
+tagGDX1Blueprint_WeaponD102=Blueprint: Venomlance
+tagGDX1Blueprint_WeaponD103=Blueprint: Mythical Edge of Death
+tagGDX1Blueprint_WeaponD104=Blueprint: Mythical Chillflame Evoker
+tagGDX1Blueprint_WeaponD105=Blueprint: Mythical Deathdealer's Sidearm
+tagGDX1Blueprint_WeaponD106=Blueprint: Mythical Northern Wyrm
+tagGDX1Blueprint_WeaponD107=Blueprint: Mythical Vortex of Souls
+tagGDX1Blueprint_WeaponD108=Blueprint: Mythical Crescent Moon
+tagGDX1Blueprint_WeaponD109=Blueprint: Mythical Plaguebearer of Dreeg
+tagGDX1Blueprint_WeaponD110=Blueprint: Mythical Beronath, Reforged
+tagGDX1Blueprint_WeaponD111=Blueprint: Mythical Stormreaver
+tagGDX1Blueprint_WeaponD112=Blueprint: Mythical Temporal Arcblade
+tagGDX1Blueprint_WeaponD113=Blueprint: Mythical Shard of Asterkarn
+tagGDX1Blueprint_WeaponD114=Blueprint: Mythical Fang of Ch'thon
+tagGDX1Blueprint_WeaponD115=Blueprint: Mythical Zolhan's Revenge
+tagGDX1Blueprint_WeaponD116=Blueprint: Mythical Blood Orb of Ch'thon
+tagGDX1Blueprint_WeaponD117=Blueprint: Mythical Wretched Tome of Nar'adin
+
+tagGDX1Blueprint_WeaponF101=Blueprint: Hex Launcher
+tagGDX1Blueprint_WeaponF102=Blueprint: The Desolator
+tagGDX1Blueprint_WeaponF103=Blueprint: Witch Moon
+tagGDX1Blueprint_WeaponF104=Blueprint: Howl of the Wendigo
+tagGDX1Blueprint_WeaponF105=Blueprint: Redeemer of Malmouth
+tagGDX1Blueprint_WeaponF106=Blueprint: Blazerush
+tagGDX1Blueprint_WeaponF107=Blueprint: Hexflame
+tagGDX1Blueprint_WeaponF108=Blueprint: Claw of Hagaraz
+tagGDX1Blueprint_WeaponF109=Blueprint: Wrathguard
+tagGDX1Blueprint_WeaponF110=Blueprint: Stormbringer of Malmouth
+
+
+
+tagGDX1Blueprint_ArmorB101=Blueprint: Intrepid Warboots
+tagGDX1Blueprint_ArmorB102=Blueprint: Stoneplate Greaves
+
+tagGDX1Blueprint_ArmorC101=Blueprint: Stormherald's Visage
+tagGDX1Blueprint_ArmorC102=Blueprint: Mythical Bounty Hunter's Shoulderguard
+tagGDX1Blueprint_ArmorC103=Blueprint: Dreadwalker Cowl
+tagGDX1Blueprint_ArmorC104=Blueprint: Luminari Hat
+tagGDX1Blueprint_ArmorC105=Blueprint: Mythical Magelord's Greaves
+tagGDX1Blueprint_ArmorC106=Blueprint: Mythical Rifthound Leather Boots
+tagGDX1Blueprint_ArmorC107=Blueprint: Mythical Soul's Touch
+tagGDX1Blueprint_ArmorC108=Blueprint: Mythical Quickdraw Gloves
+tagGDX1Blueprint_ArmorC109=Blueprint: Mythical Spellweave Legwraps
+tagGDX1Blueprint_ArmorC110=Blueprint: Mythical Amarastan Pauldrons
+tagGDX1Blueprint_ArmorC111=Blueprint: Mythical Nighthunter's Chestguard
+tagGDX1Blueprint_ArmorC112=Blueprint: Mythical Doomforged Breastplate
+tagGDX1Blueprint_ArmorC113=Blueprint: Mythical Cowl of the Blind Assassin
+tagGDX1Blueprint_ArmorC114=Blueprint: Mythical Sharpshooter's Glass Eye
+tagGDX1Blueprint_ArmorC115=Blueprint: Mythical Unholy Visage of the Covenant
+tagGDX1Blueprint_ArmorC116=Blueprint: Mythical Dawnguard Helm
+tagGDX1Blueprint_ArmorC117=Blueprint: Mythical Flame Keeper's Jacket
+tagGDX1Blueprint_ArmorC118=Blueprint: Mythical Callidor's Vestments
+tagGDX1Blueprint_ArmorC119=Blueprint: Mythical Myrmidon Visor
+tagGDX1Blueprint_ArmorC120=Blueprint: Mythical Cowl of Mogdrogen
+tagGDX1Blueprint_ArmorC121=Blueprint: Mythical Cowl of the Paragon
+
+tagGDX1Blueprint_ArmorD101=Blueprint: Necrolord's Gaze
+tagGDX1Blueprint_ArmorD102=Blueprint: Venomancer's Guile
+tagGDX1Blueprint_ArmorD103=Blueprint: Spellgaze
+tagGDX1Blueprint_ArmorD104=Blueprint: Wyrmbone Mask
+tagGDX1Blueprint_ArmorD105=Blueprint: Mythical Necrolord's Gaze
+tagGDX1Blueprint_ArmorD106=Blueprint: Mythical Venomancer's Guile
+tagGDX1Blueprint_ArmorD107=Blueprint: Mythical Spellgaze
+tagGDX1Blueprint_ArmorD108=Blueprint: Mythical Wyrmbone Mask
+tagGDX1Blueprint_ArmorD109=Blueprint: Voice of Dreeg
+tagGDX1Blueprint_ArmorD110=Blueprint: Gaze of Empyrion
+tagGDX1Blueprint_ArmorD113=Blueprint: Mask of Lost Souls
+tagGDX1Blueprint_ArmorD114=Blueprint: Visor of Octavius
+tagGDX1Blueprint_ArmorD115=Blueprint: Korba's Hood
+tagGDX1Blueprint_ArmorD116=Blueprint: Darkblaze Headguard
+tagGDX1Blueprint_ArmorD117=Blueprint: Spellscourge Visor
+tagGDX1Blueprint_ArmorD118=Blueprint: Mageslayer's Hood
+tagGDX1Blueprint_ArmorD119=Blueprint: Valguur's Gems
+tagGDX1Blueprint_ArmorD120=Blueprint: Runebinder's Hat
+tagGDX1Blueprint_ArmorD121=Blueprint: Uroboruuk's Visage
+tagGDX1Blueprint_ArmorD122=Blueprint: Dagallon's Faceguard
+tagGDX1Blueprint_ArmorD123=Blueprint: Deathguard Hood
+tagGDX1Blueprint_ArmorD124=Blueprint: Diviner's Mask
+
+tagGDX1Blueprint_ArmorD125=Blueprint: Mythical Maw of Despair
+tagGDX1Blueprint_ArmorD126=Blueprint: Mythical Dread-Mask of Gurgoth
+tagGDX1Blueprint_ArmorD127=Blueprint: Mythical Whisperer of Secrets
+tagGDX1Blueprint_ArmorD128=Blueprint: Mythical Abyssal Mask
+tagGDX1Blueprint_ArmorD129=Blueprint: Mythical Circlet of the Great Serpent
+tagGDX1Blueprint_ArmorD130=Blueprint: Mythical Mask of Infernal Truth
+tagGDX1Blueprint_ArmorD131=Blueprint: Mythical Faceguard of Justice
+tagGDX1Blueprint_ArmorD132=Blueprint: Mythical Beastcaller Cowl
+tagGDX1Blueprint_ArmorD133=Blueprint: Mythical Mask of the Harbinger
+tagGDX1Blueprint_ArmorD134=Blueprint: Mythical Demonslayer's Hat
+tagGDX1Blueprint_ArmorD135=Blueprint: Mythical Clairvoyant's Hat
+tagGDX1Blueprint_ArmorD136=Blueprint: Mythical Markovian's Visor
+tagGDX1Blueprint_ArmorD137=Blueprint: Mythical Ulzuin's Headguard
+tagGDX1Blueprint_ArmorD138=Blueprint: Mythical Hood of Dreeg
+tagGDX1Blueprint_ArmorD139=Blueprint: Mythical Deathmarked Hood
+tagGDX1Blueprint_ArmorD140=Blueprint: Mythical Iskandra's Hood
+tagGDX1Blueprint_ArmorD141=Blueprint: Mythical Ultos' Hood
+tagGDX1Blueprint_ArmorD142=Blueprint: Mythical Crown of the Winter King
+tagGDX1Blueprint_ArmorD143=Blueprint: Mythical Trozan's Hat
+tagGDX1Blueprint_ArmorD144=Blueprint: Mythical Valdun's Hat
+tagGDX1Blueprint_ArmorD145=Blueprint: Eldritch Gaze
+tagGDX1Blueprint_ArmorD146=Blueprint: Covenant of the Three
+tagGDX1Blueprint_ArmorD147=Blueprint: Mythical Cowl of the Venomblade
+tagGDX1Blueprint_ArmorD148=Blueprint: Mythical Visage of the Black Flame
+tagGDX1Blueprint_ArmorD149=Blueprint: Mythical Light's Defender Helm
+tagGDX1Blueprint_ArmorD150=Blueprint: Mythical Infernal Knight's Faceguard
+tagGDX1Blueprint_ArmorD151=Blueprint: Mythical Warborn Visor
+tagGDX1Blueprint_ArmorD152=Blueprint: Mythical Bloodrager's Cowl
+
+tagGDX1Blueprint_ArmorD153=Blueprint: Mythical Blazeborn Mantle
+tagGDX1Blueprint_ArmorD154=Blueprint: Mythical Stormweave Armor
+tagGDX1Blueprint_ArmorD155=Blueprint: Avenger's Armor
+tagGDX1Blueprint_ArmorD156=Blueprint: Allagast's Robe
+tagGDX1Blueprint_ArmorD157=Blueprint: Mythical Windshear Greaves
+tagGDX1Blueprint_ArmorD158=Blueprint: Mythical Footpads of the Grey Magi
+tagGDX1Blueprint_ArmorD159=Blueprint: Mythical Wyrmbone Handguards
+tagGDX1Blueprint_ArmorD160=Blueprint: Mythical Iceskorn Talons
+tagGDX1Blueprint_ArmorD161=Blueprint: Mythical Arcane Harmony Leggings
+tagGDX1Blueprint_ArmorD162=Blueprint: Really Great Pants
+tagGDX1Blueprint_ArmorD163=Blueprint: Mythical Titan Pauldrons
+tagGDX1Blueprint_ArmorD164=Blueprint: Mythical Vileblood Mantle
+tagGDX1Blueprint_ArmorD165=Blueprint: Mythical Dread Armor of Azragor
+tagGDX1Blueprint_ArmorD166=Blueprint: Mythical Divinesteel Hauberk
+
+tagGDX1Blueprint_ArmorD167=Blueprint: Belgothian's Mask
+
+tagGDX1Blueprint_ArmorD168=Blueprint: Radaggan's Mask
+tagGDX1Blueprint_ArmorD169=Blueprint: Rimetongue Mask
+tagGDX1Blueprint_ArmorD170=Blueprint: Blood Knight's Visage
+
+tagGDX1Blueprint_AccessoryB101=Blueprint: Nimble Crest
+tagGDX1Blueprint_AccessoryB102=Blueprint: Watcher Crest
+tagGDX1Blueprint_AccessoryB103=Blueprint: Trollheart Waistguard
+tagGDX1Blueprint_AccessoryB104=Blueprint: Puppetmaster Links
+tagGDX1Blueprint_AccessoryB105=Blueprint: Stoneplate Waistguard
+
+tagGDX1Blueprint_AccessoryC101=Blueprint: Mythical Serenity Stone
+tagGDX1Blueprint_AccessoryC102=Blueprint: Runefather's Gem
+tagGDX1Blueprint_AccessoryC103=Blueprint: Sanguinus
+tagGDX1Blueprint_AccessoryC104=Blueprint: Mythical Sanctus Crest
+tagGDX1Blueprint_AccessoryC105=Blueprint: Mythical Widow's Sting
+tagGDX1Blueprint_AccessoryC106=Blueprint: Mythical Shard of Command
+tagGDX1Blueprint_AccessoryC107=Blueprint: Mythical Amulet of Scorched Earth
+tagGDX1Blueprint_AccessoryC108=Blueprint: Mythical Chains of Anguish
+tagGDX1Blueprint_AccessoryC109=Blueprint: Mythical Alchemist's Belt
+tagGDX1Blueprint_AccessoryC110=Blueprint: Mythical Volcanum
+tagGDX1Blueprint_AccessoryC111=Blueprint: Mythical Combat Medic's Mark
+tagGDX1Blueprint_AccessoryC112=Blueprint: Mythical Amarastan Sigil
+tagGDX1Blueprint_AccessoryC113=Blueprint: Mythical Goliath Signet
+tagGDX1Blueprint_AccessoryC114=Blueprint: Mythical Ruby of Elemental Balance
+tagGDX1Blueprint_AccessoryC115=Blueprint: Mythical Sapphire of Elemental Balance
+
+tagGDX1Blueprint_AccessoryD101=Blueprint: Mythical Stormseer Sapphire
+tagGDX1Blueprint_AccessoryD102=Blueprint: Mythical Pack of Treacherous Means
+tagGDX1Blueprint_AccessoryD103=Blueprint: Cinderplate Girdle
+tagGDX1Blueprint_AccessoryD104=Blueprint: Mythical Mark of Kalastor
+tagGDX1Blueprint_AccessoryD105=Blueprint: Mark of Consumption
+tagGDX1Blueprint_AccessoryD106=Blueprint: Mythical Reign of Ice and Fire
+tagGDX1Blueprint_AccessoryD107=Blueprint: Stoneguard Girdle
+tagGDX1Blueprint_AccessoryD108=Blueprint: Stronghold Waistguard
+tagGDX1Blueprint_AccessoryD109=Blueprint: Mythical Avatar of Mercy
+tagGDX1Blueprint_AccessoryD110=Blueprint: Mythical Pestilence of Dreeg
+tagGDX1Blueprint_AccessoryD111=Blueprint: Mythical Avenger of Cairn
+tagGDX1Blueprint_AccessoryD112=Blueprint: Mythical Tinker's Ingenuity
+tagGDX1Blueprint_AccessoryD113=Blueprint: Mythical Hammerfall Girdle
+tagGDX1Blueprint_AccessoryD114=Blueprint: Mythical Sash of the Immortal Sage
+tagGDX1Blueprint_AccessoryD115=Blueprint: Mythical Mark of Dark Dreams
+tagGDX1Blueprint_AccessoryD116=Blueprint: Mythical Mark of Anathema
+tagGDX1Blueprint_AccessoryD117=Blueprint: Mythical Glyph of Kelphat'Zoth
+tagGDX1Blueprint_AccessoryD118=Blueprint: Mythical Time-Flux Band
+tagGDX1Blueprint_AccessoryD119=Blueprint: Mythical Band of the Eternal Haunt
+tagGDX1Blueprint_AccessoryD120=Blueprint: Cataclysm's Pact
+tagGDX1Blueprint_AccessoryD121A=Blueprint: Conduit of Warring Whispers
+tagGDX1Blueprint_AccessoryD121B=Blueprint: Conduit of Destructive Whispers
+tagGDX1Blueprint_AccessoryD121C=Blueprint: Conduit of Eldritch Whispers
+tagGDX1Blueprint_AccessoryD121D=Blueprint: Conduit of Night Whispers
+tagGDX1Blueprint_AccessoryD121E=Blueprint: Conduit of Arcane Whispers
+tagGDX1Blueprint_AccessoryD121F=Blueprint: Conduit of Wild Whispers
+tagGDX1Blueprint_AccessoryD121G=Blueprint: Conduit of Runic Whispers
+tagGDX1Blueprint_AccessoryD121H=Blueprint: Conduit of Undying Whispers
+
+tagGDX1Blueprint_AccessoryF101=Blueprint: Aetherbolt Pendant
+tagGDX1Blueprint_AccessoryF102=Blueprint: Heart of Malmouth
+tagGDX1Blueprint_AccessoryF103=Blueprint: Reaver's Hunger
+tagGDX1Blueprint_AccessoryF104=Blueprint: Mark of Lethal Intents
+tagGDX1Blueprint_AccessoryF105=Blueprint: The Overseer
+tagGDX1Blueprint_AccessoryF106=Blueprint: Mark of the Voracious One
+
+#Relics
+tagGDX1RelicB101=Gluttony
+tagGDX1RelicB101Desc="Endless hunger."
+tagGDX1RelicB102=Specter
+tagGDX1RelicB102Desc="A tormented soul stirs within this stone."
+tagGDX1RelicB103=Fervor
+tagGDX1RelicB103Desc="Fury in all things."
+tagGDX1RelicB104=Fortitude
+tagGDX1RelicB104Desc="Bravery in battle."
+tagGDX1RelicB105=Hysteria
+tagGDX1RelicB105Desc="Madness beyond death."
+
+tagGDX1RelicC101=Mortality
+tagGDX1RelicC101Desc="The unrelenting feeling that all things must end."
+tagGDX1RelicC102=Vendetta
+tagGDX1RelicC102Desc="Relentless pursuit of an ancient foe."
+
+tagGDX1RelicD101=Impurity
+tagGDX1RelicD101Desc="Raw arcane energy, tainted by vile desires."
+tagGDX1RelicD102=Vengeance
+tagGDX1RelicD102Desc="Revenge is best served cold."
+tagGDX1RelicD103=Dirge of Arkovia
+tagGDX1RelicD103Desc="A terrifying song emanates from this stone."
+tagGDX1RelicD104=Bane
+tagGDX1RelicD104Desc="Ruin upon your foes."
+tagGDX1RelicD105=Doom
+tagGDX1RelicD105Desc="Become the hand of fate and seal the destinies of your foes."
+tagGDX1RelicD106=Korvaak's Deception
+tagGDX1RelicD106Desc="To serve me is to serve Cairn.  -Empyrion"
+tagGDX1RelicD107=Eldritch Pact
+tagGDX1RelicD107Desc="A binding with the Three cannot be undone."
+tagGDX1RelicD108=Nidalla's Outbreak
+tagGDX1RelicD108Desc="Treacherous venom, or tool of the trade."
+tagGDX1RelicD109=Eternity
+tagGDX1RelicD109Desc="Entirety of existence, in the blink of an eye."
+tagGDX1RelicD110=Massacre
+tagGDX1RelicD110Desc="Revel in the bloodshed."
+tagGDX1RelicD111=Uroboruuk's Reaping
+tagGDX1RelicD111Desc="Passed down by the master of undeath himself."
+tagGDX1RelicD112=Ignaffar's Combustion
+tagGDX1RelicD112Desc="The Stone of Ignaffar was not the only artifact recovered by the Luminari from an ancient burial and later purified."
+tagGDX1RelicD113=Mogdrogen's Ardor
+tagGDX1RelicD113Desc="The lonely wolf dies, the pack survives."
+tagGDX1RelicD114=Deathstalker
+tagGDX1RelicD114Desc="A vicious spirit yearns to be free"
+
+
+#Crafting
+tagGDX1CraftRandomLegendaryDesc2=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94. Characters below level 58 may craft an Epic item instead.
+tagGDX1CraftRandomLegendaryAccessoryDesc2=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94. Characters below level 58 will craft an Epic item instead.
+tagGDX1CraftRandomLegendaryItemDesc2=The blacksmith crafts an enchanted item appropriate to your level of Legendary quality, up to level 94.
+
+tagGDX1CraftMaterial_AetherialVanguard=Aetherial Missive
+tagGDX1CraftMaterial_AetherialVanguard_Desc="Arcane texts infused with Aetherial energies. Likely used to transport information too sensitive for mortal eyes."
+
+tagGDX1CraftMaterial_AetherialVanguard02=Aetherial Mutagen
+tagGDX1CraftMaterial_AetherialVanguard02_Desc="A viscous aether-infused fluid that moves violently within the container when living flesh is near."
+
+tagGDX1CraftMaterial_Wendigo=Wendigo Spirit
+tagGDX1CraftMaterial_Wendigo_Desc="A vile spirit teeming with dark potential. It whispers to you with promises of power."
+
+tagGDX1CraftMaterial_Ugdenbloom=Ugdenbloom
+tagGDX1CraftMaterial_Ugdenbloom_Desc="For having such vibrant colors, it emits a truly rotten stench."
+
+tagGDX1CraftMaterial_HeartOfDarkness=Heart of Darkness
+tagGDX1CraftMaterial_HeartOfDarkness_Desc="Teeming with vile energies that hunger for an ashen altar."
+
+#Consumables
+
+tagGDX1ConsumableBlueprintA01=Recipe: Flamedrinker Ointment
+
+tagGDX1ConsumableA101=Hargate's Crystal
+tagGDX1ConsumableA101Desc="It hums with strange energy, as if something is trying to escape..."
+
+tagGDX1ConsumableA102=Kasparov's Crystal
+tagGDX1ConsumableA102Desc="It hums with strange energy, as if something is trying to escape..."
+
+tagGDX1ConsumableBlueprintB101=Recipe: Ugdenjuice
+tagGDX1ConsumableBlueprintB102=Recipe: Ugdensalve
+tagGDX1ConsumableBlueprintB103=Recipe: Vilescar Ointment
+tagGDX1ConsumableBlueprintB104=Recipe: Elixir of the Dranghoul
+tagGDX1ConsumableBlueprintB105=Recipe: Elixir of Mogdrogen
+
+tagGDX1ConsumableB101=Ugdenjuice
+tagGDX1ConsumableB101Desc="A sweet-smelling concoction made from Ugdenbloom extract."
+tagGDX1ConsumableB102=Ugdensalve
+tagGDX1ConsumableB102Desc="A soothing concoction made from concentrated Ugdenbloom."
+tagGDX1ConsumableB103=Vilescar Ointment
+tagGDX1ConsumableB103Desc="A viscous concoction that accelerates coagulation."
+tagGDX1ConsumableB104=Elixir of the Dranghoul
+tagGDX1ConsumableB104Desc="A powerful elixir derived from the stem of Ugdenbloom."
+tagGDX1ConsumableB105=Elixir of Mogdrogen
+tagGDX1ConsumableB105Desc="A powerful elixir concocted by Mogdrogen himself."
+
+tagGDX1ConsumableF101=Hex Oil
+tagGDX1ConsumableF101Desc="An oil infused with the foul curses of the Coven."
+tagGDX1ConsumableF102=Cursed Tincture
+tagGDX1ConsumableF102Desc="Shatter the vial, releasing a cruel curse upon nearby foes."
+tagGDX1ConsumableF103=Aetherward Oil
+tagGDX1ConsumableF103Desc="An oil that wards your weapon against the Aether."
+tagGDX1ConsumableF104=Stormflame Tincture
+tagGDX1ConsumableF104Desc="Shatter the vial, releasing an explosion of electrified flames."
+tagGDX1ConsumableF105=Hungerer Oil
+tagGDX1ConsumableF105Desc="An oil that infuses your weapons with the hunger of a wendigo."
+tagGDX1ConsumableF106=Vile Tincture
+tagGDX1ConsumableF106Desc="Shatter the vial, releasing a vile spirit to haunt your foes."
+tagGDX1ConsumableF107=Potion of Clarity
+tagGDX1ConsumableF107Desc="A viscous fluid teeming with potential."^oCan be placed in the Transfer Stash to use on other characters.
+
+tagGDX1Consumable_AttributeReset=Tonic of Reshaping
+tagGDX1Consumable_AttributeReset_Desc="Fills you with an uncomfortable warmth as your entire body seemingly reshapes itself."
+
+
+
+#ItemEnchantment
+
+tagGDX1EnchantA101A=Stardust
+tagGDX1EnchantA101Desc="Dust from a passing star, carefully collected so that its arcane properties would not wane."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA102A=Potent Stardust
+tagGDX1EnchantA102Desc="Dust from a passing star, carefully collected so that its arcane properties would not wane."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA103A=Whipvine Powder
+tagGDX1EnchantA103Desc="Whipvine is difficult to harvest, and sometimes deadly, but its many uses for both medicine and magic make it worth the effort."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA104A=Potent Whipvine Powder
+tagGDX1EnchantA104Desc="Whipvine is difficult to harvest, and sometimes deadly, but its many uses for both medicine and magic make it worth the effort."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA105A=Hexxer's Kiss
+tagGDX1EnchantA105Desc="A potent powder used by the Coven to dispose of particularly undesirable pests."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA106A=Potent Hexxer's Kiss
+tagGDX1EnchantA106Desc="A potent powder used by the Coven to dispose of particularly undesirable pests."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA107A=Blight Beast Pustules
+tagGDX1EnchantA107Desc="Though necromancy is seldom used among the Coven, it has its uses. The pus from blight beasts in particular has arcane properties if extracted properly."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA108A=Potent Blight Beast Pustules
+tagGDX1EnchantA108Desc="Though necromancy is seldom used among the Coven, it has its uses. The pus from blight beasts in particular has arcane properties if extracted properly."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA109A=Rotflesh Powder
+tagGDX1EnchantA109Desc="The creator insisted that it is simply powdered flesh from the bloated human corpses floating about Ugdenbog. Nobody really wants to know for certain."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA110A=Void Tongue
+tagGDX1EnchantA110Desc="Powdered tongue from a Chthonian fiend."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA111A=Magecap Powder
+tagGDX1EnchantA111Desc="Magecaps thrive in the damp earth of Ugdenbog, providing the Coven both with sustenance and materials for their craft."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA112A=Hexxer's Bloom
+tagGDX1EnchantA112Desc="This plant appears to be new to Cairn, likely having traveled through the weakening barrier between realities as the rifthounds and other beasts had, but its arcane properties quickly earned it a place in the Coven's stockpiles."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA113A=Bloodrose Thorn
+tagGDX1EnchantA113Desc="So named for its incredibly sharp thorns and vibrant red color, the bloodrose thorn makes a potent hemorrhaging poison when concentrated."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA114A=Hexxer's Delight
+tagGDX1EnchantA114Desc="Powder derived from a rare mushroom growing in Ugdenbog. It is considered a delicacy by the common folk, and a powerful ingredient by the Coven."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA115A=Machinist Powder
+tagGDX1EnchantA115Desc="Made famous by Malmouth's once booming industry, the enchanting powder strengthens metal to withstand even greater punishment."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA116A=Potent Machinist Powder
+tagGDX1EnchantA116Desc="Made famous by Malmouth's once booming industry, the enchanting powder strengthens metal to withstand even greater punishment."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA117A=Void Tar
+tagGDX1EnchantA117Desc="Though difficult to work with and highly unstable, Malmouth's arcanists had discovered a use for this dense material in their enchantments."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA118A=Potent Void Tar
+tagGDX1EnchantA118Desc="Though difficult to work with and highly unstable, Malmouth's arcanists had discovered a use for this dense material in their enchantments."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA119A=Imp Eye Powder
+tagGDX1EnchantA119Desc="Powder extracted from the bloated eyes of Aetherial imps."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA120A=Potent Imp Eye Powder
+tagGDX1EnchantA120Desc="Powder extracted from the bloated eyes of Aetherial imps."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA121A=Sparkbloom Powder
+tagGDX1EnchantA121Desc="Powder from a vibrant flower found growing in the outskirts of Malmouth, known for its fire-tinted petals."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA122A=Potent Sparkbloom Powder
+tagGDX1EnchantA122Desc="Powder from a vibrant flower found growing in the outskirts of Malmouth, known for its fire-tinted petals."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA123A=Blazecore Powder
+tagGDX1EnchantA123Desc="Powder extracted from the blazing hearts of fiery beasts."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA124A=Fleshwarp Powder
+tagGDX1EnchantA124Desc="This enchanting powder must be carefully handled such that it never touches human flesh, but acquiring the materials from Aetherial corruptions is perhaps the most difficult part."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA125A=Void Ash
+tagGDX1EnchantA125Desc="Ashes from the Chthonian realm, sometimes found on the bodies of slain Chthonians. You would not find anyone foolish enough to actually enter a Chthonian rift."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA126A=Nightsteel Polish
+tagGDX1EnchantA126Desc="A Malmouth specialty, highly coveted by the nightblades of Erulan."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA127A=Mender's Powder
+tagGDX1EnchantA127Desc="Concocted by the survivors of Malmouth to quickly mend wounds on the fields of battle."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA128A=Colossus Spine
+tagGDX1EnchantA128Desc="Aetherial colossi are nothing to be trifled with, but even bringing one down provides enough material to create several month's supply."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantA129A=Wendigo Fur
+tagGDX1EnchantA129Desc="Powder derived from tufts of wendigo fur, gift from the Ravager."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA130A=Potent Wendigo Fur
+tagGDX1EnchantA130Desc="Powder derived from tufts of wendigo fur, gift from the Ravager."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA131A=Bloodscale Powder
+tagGDX1EnchantA131Desc="Powder derived from the scales of the Bloodscale Slith sometimes seen roaming parts of Ugdenbog."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA132A=Potent Bloodscale Powder
+tagGDX1EnchantA132Desc="Powder derived from the scales of the Bloodscale Slith sometimes seen roaming parts of Ugdenbog."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA133A=Spikeshell Powder
+tagGDX1EnchantA133Desc="Powder derived from the hard carapace of Ugdenbog spikeshell. It takes many hours and great strength to crush the shell into such a fine material."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA134A=Potent Spikeshell Powder
+tagGDX1EnchantA134Desc="Powder derived from the hard carapace of Ugdenbog spikeshell. It takes many hours and great strength to crush the shell into such a fine material."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantA135A=Haunted Powder
+tagGDX1EnchantA135Desc="Powder left behind by the ghostly apparitions sometimes seen around Ugdenbog."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantA136A=Potent Haunted Powder
+tagGDX1EnchantA136Desc="Powder left behind by the ghostly apparitions sometimes seen around Ugdenbog."^w^n(Applied to all two-handed weapons)
+
+
+tagGDX1EnchantB101A=Coven's Wit
+tagGDX1EnchantB101Desc="A special enchanting powder crafted by the Coven to empower their dark arts."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB102A=Potent Coven's Wit
+tagGDX1EnchantB102Desc="A special enchanting powder crafted by the Coven to empower their dark arts."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB103A=Coven's Guile
+tagGDX1EnchantB103Desc="A special enchanting powder crafted by the Coven to sharpen the senses."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB104A=Potent Coven's Guile
+tagGDX1EnchantB104Desc="A special enchanting powder crafted by the Coven to sharpen the senses."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB105A=Coven's Terror
+tagGDX1EnchantB105Desc="A special poison imbued by Coven hexes to overwhelm the minds of their foes with terrifying visions."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB106A=Potent Coven's Terror
+tagGDX1EnchantB106Desc="A special poison imbued by Coven hexes to overwhelm the minds of their foes with terrifying visions."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB107A=Coven's Bane
+tagGDX1EnchantB107Desc="A vile toxin derived from various plants in Ugdenbog, combined with Coven magic to maximize its efficacy."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB108A=Potent Coven's Bane
+tagGDX1EnchantB108Desc="A vile toxin derived from various plants in Ugdenbog, combined with Coven magic to maximize its efficacy."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB109A=Witch's Black Flame
+tagGDX1EnchantB109Desc="Often associated with rituals performed by the cults of the three Witch Gods, the Coven often makes use of this vile powder when a ritual calls for it."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB110A=Wraith's Scream
+tagGDX1EnchantB110Desc="Through a terrifying binding ritual, a Coven hexxer is capable of trapping and disintegrating an Ugdenbog wraith."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB111A=Skyshard Powder
+tagGDX1EnchantB111Desc="Originally created by the Arcanist Master Trozan, the Coven has made great use of the arcane potential of sky borne objects."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB112A=Basilisk's Bite
+tagGDX1EnchantB112Desc="A powerful toxin extracted from the venom glands of Ugdenbog basilisks."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB113A=Basilisk's Gaze
+tagGDX1EnchantB113Desc="A powerful toxin extracted from the petrifying eyes of Ugdenbog basilisks."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB114A=Sylvarria's Essence
+tagGDX1EnchantB114Desc="Legends speak of a mythical entity growing within Ugdenbog whose roots span the entirety of the swamp. So named after this creature, the enchantment derives its properties from many plants in the region."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB115A=Heart of Ugdenbog
+tagGDX1EnchantB115Desc="A potent enchantment crafted from the stone hearts of Ugdenbog's mightiest golems."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB116A=Malmouth's Redemption
+tagGDX1EnchantB116Desc="A potent enchantment crafted by the survivors of Malmouth to defend themselves from the Aetherials."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB117A=Potent Malmouth's Redemption
+tagGDX1EnchantB117Desc="A potent enchantment crafted by the survivors of Malmouth to defend themselves from the Aetherials."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB118A=Malmouth's Will
+tagGDX1EnchantB118Desc="A potent enchantment created by Malmouth's smiths to strengthen their swing, but it serves equally well in battle."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB119A=Potent Malmouth's Will
+tagGDX1EnchantB119Desc="A potent enchantment created by Malmouth's smiths to strengthen their swing, but it serves equally well in battle."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB120A=Malmouth's Soul
+tagGDX1EnchantB120Desc="An empowering powder instilled with the iron will of the people."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB121A=Potent Malmouth's Soul
+tagGDX1EnchantB121Desc="An empowering powder instilled with the iron will of the people."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB122A=Malmouth's Heart
+tagGDX1EnchantB122Desc="A surprisingly potent powder created out of desperation during the initial assault on Malmouth. Though it borrows from the Aether and may ultimately prove to be mankind's undoing, for now it serves a valuable purpose."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB123A=Potent Malmouth's Heart
+tagGDX1EnchantB123Desc="A surprisingly potent powder created out of desperation during the initial assault on Malmouth. Though it borrows from the Aether and may ultimately prove to be mankind's undoing, for now it serves a valuable purpose."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB124A=Arcane Heart Powder
+tagGDX1EnchantB124Desc="An unstable sorcerous powder that burns so hot it can even damage armor, but its potency makes the risks worth it for many arcane practitioners."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB125A=Hammerfall Powder
+tagGDX1EnchantB125Desc="Powder gathered from the cinder remnants of arcane forged steel."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB126A=Steelbloom Powder
+tagGDX1EnchantB126Desc="An enchanting powder derived from the unusual Steelbloom, a flower found to have large quantities of metallic particles in its stem that it draws from the earth through a deep root structure."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB127A=Typhoon Powder
+tagGDX1EnchantB127Desc="The power of a devastating typhoon, trapped in a sorcerous powder."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB128A=Forgefire
+tagGDX1EnchantB128Desc="A favorite of Malmouth smiths, this powder is often used in forges to make the flames burn hotter, but serves equally well as an enchantment."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB129A=Rotgut Venom
+tagGDX1EnchantB129Desc="A deadly poison crafted by the nightblades, many of the necessary materials are only available from Malmouth."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB130A=Arcanum Dust
+tagGDX1EnchantB130Desc="Specially derived for the Gildam Arcanum, this enchantment serves to empower the arcane capabilities of the user."^w^n(Applied to rings and amulets)
+
+tagGDX1EnchantB131A=Ravager's Harvest
+tagGDX1EnchantB131Desc="A gift bestowed by the Ravager upon his cursed worshippers. It instills an insatiable hunger."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB132A=Potent Ravager's Harvest
+tagGDX1EnchantB132Desc="A gift bestowed by the Ravager upon his cursed worshippers. It instills an insatiable hunger."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB133A=Ravager's Eye
+tagGDX1EnchantB133Desc="A gift bestowed by the Ravager upon his cursed worshippers. It inspires unmatched loyalty."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB134A=Potent Ravager's Eye
+tagGDX1EnchantB134Desc="A gift bestowed by the Ravager upon his cursed worshippers. It inspires unmatched loyalty."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB135A=Ravager's Rage
+tagGDX1EnchantB135Desc="A gift bestowed by the Ravager upon his cursed worshippers. It evokes uncontrollable rage."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB136A=Potent Ravager's Rage
+tagGDX1EnchantB136Desc="A gift bestowed by the Ravager upon his cursed worshippers. It evokes uncontrollable rage."^w^n(Applied to all two-handed weapons)
+
+tagGDX1EnchantB137A=Ravager's Breath
+tagGDX1EnchantB137Desc="A gift bestowed by the Ravager upon his cursed worshippers. Its touch inflicts grievous wounds and blisters upon flesh."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX1EnchantB138A=Potent Ravager's Breath
+tagGDX1EnchantB138Desc="A gift bestowed by the Ravager upon his cursed worshippers. Its touch inflicts grievous wounds and blisters upon flesh."^w^n(Applied to all two-handed weapons)
+
+
+tagGDX1EnchantC101A=Coven Warding Powder
+tagGDX1EnchantC101Desc="Sorcerous powder crafted by the Coven to protect them during rituals."^w^n(Applied to all armor)
+tagGDX1EnchantC102A=Coven Black Ash
+tagGDX1EnchantC102Desc="Ashes infused by the Coven with the blood of Chthonians."^w^n(Applied to all armor)
+tagGDX1EnchantC103A=Coven Bloodied Ash
+tagGDX1EnchantC103Desc="Ashes infused by the Coven with the blood of Wendigos."^w^n(Applied to all armor)
+tagGDX1EnchantC104A=Malmouth Soulguard Powder
+tagGDX1EnchantC104Desc="Sorcerous powder crafted in Malmouth to protect the survivors from Aetherial possession. Nobody's been bold enough to test its effectiveness though."^w^n(Applied to all armor)
+tagGDX1EnchantC105A=Malmouth Woundsear Powder
+tagGDX1EnchantC105Desc="Sorcerous powder often used to singe wounds in an emergency. A painful process, but still more desirable than bleeding out."^w^n(Applied to all armor)
+tagGDX1EnchantC106A=Malmouth Fortifying Powder
+tagGDX1EnchantC106Desc="Sorcerous powder used to renew strength even after hours of exhausting combat."^w^n(Applied to all armor)
+tagGDX1EnchantC107A=Wendigo Bloodscent Powder
+tagGDX1EnchantC107Desc="A gift from the Ravager to stifle blood loss and make the user more difficult to track."^w^n(Applied to all armor)
+tagGDX1EnchantC108A=Wendigo Soulscent Powder
+tagGDX1EnchantC108Desc="A gift from the Ravager to ward the soul against wraiths."^w^n(Applied to all armor)
+tagGDX1EnchantC109A=Wendigo Lifescent Powder
+tagGDX1EnchantC109Desc="A gift from the Ravager to strengthen the mortal coil."^w^n(Applied to all armor)
+
+
+
+
+#ItemComponents
+
+tagGDX1CompA101Name=Seal of Might
+tagGDX1CompA101Desc="The seal, emblazoned by Ulgard the Mighty, focused the creator's considerable arcane power into unmatched physical might."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA102Name=Seal of Blades
+tagGDX1CompA102Desc="The seal, devised by the legendary nightblade Belgothian, amplified the assassin's already deadly attacks and stimulated bleeding in the target."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA103Name=Seal of Skies
+tagGDX1CompA103Desc="The seal, first emblazoned by the arcane master Trozan, calls forth power from the celestial skies themselves."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA104Name=Seal of Blight
+tagGDX1CompA104Desc="The seal, infused with the power of the Three, evokes every disease the victim ever suffered in the past."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA105Name=Seal of Corruption
+tagGDX1CompA105Desc="Though the creator of this seal lies forgotten to history, its ability to tap into the Aether cannot be overstated."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA106Name=Seal of the Void
+tagGDX1CompA106Desc="The creation of this seal required unspeakable acts to be committed. Those found using it are looked upon as power hungry and corrupt."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA107Name=Seal of the Night
+tagGDX1CompA107Desc="Devised by the nightblade Amarasta in preparation for a particularly elusive target."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA108Name=Seal of Destruction
+tagGDX1CompA108Desc="A seal created in the honor of Ulzuin and the blazing ends promised upon those who scorn the celestial being."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA109Name=Seal of Shadows
+tagGDX1CompA109Desc="A favorite of the nightblade Nidalla, the seal infuses weapons with biting acid."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA110Name=Seal of Resonance
+tagGDX1CompA110Desc="Crafted to the precise specifications of the Luminari, this seal empowers the magical properties of a weapon even when wielded by those not versed in the arcane."^w^n(Used in all weapons, shields and caster off-hands)
+
+tagGDX1CompA111Name=Tainted Heart
+tagGDX1CompA111Desc="A still beating heart throbbing with Aether corruption."^w^n(Used in amulets and medals)
+
+tagGDX1CompA112Name=Blazing Ruby
+tagGDX1CompA112Desc="A brilliant flame dances within the facets of this gem."^w^n(Used in amulets and medals)
+
+tagGDX1CompA113Name=Runebound Topaz
+tagGDX1CompA113Desc="A rune emblazoned upon the side of this gem empowers it with protective properties."^w^n(Used in rings, amulets and medals)
+
+tagGDX1CompA114Name=Bloodied Crystal
+tagGDX1CompA114Desc="The once pearl-white crystal has absorbed unspeakable bloodshed."^w^n(Used in rings, amulets and medals)
+
+tagGDX1CompA115Name=Enchanted Earth
+tagGDX1CompA115Desc="The earth was infused with life essence to stimulate growth and health."^w^n(Used in all armor)
+
+tagGDX1CompA116Name=Spellscorched Plating
+tagGDX1CompA116Desc="Remnants of armor that survived a deadly arcane attack; the magical energies appear to be trapped within the metal."^w^n(Used in all armor)
+
+tagGDX1CompA117Name=Bladed Plating
+tagGDX1CompA117Desc="Armor plated fitted with rows of deadly blades. A favorite amongst brigands and ruthless tyrants."^w^n(Used in all armor)
+
+tagGDX1CompA118Name=Ugdenbog Leather
+tagGDX1CompA118Desc="Leather from the beasts inhabiting the region known as Ugdenbog. The bog's deadly properties create some of the toughests beasts ever to roam Cairn."^w^n(Used in all armor)
+
+
+tagGDX1CompB101Name=^kSacred Plating
+tagGDX1CompB101Desc="Plating from a once mighty set of armor, rumored to be blessed by Empyrion himself."^w^n(Used in shoulder, chest and head armor)
+
+tagGDX1CompB102Name=^kLiving Armor
+tagGDX1CompB102Desc="The armor plate is more flesh than metal now as it writhes within your hands, clearly by the manipulation of Aetherials."^w^n(Used in shoulder, chest and head armor)
+
+tagGDX1CompB103Name=^kTitan Plating
+tagGDX1CompB103Desc="An incredibly thick armor plating. The full set must have weighed more than any normal man could ever bear and still be able to move."^w^n(Used in chest and head armor)
+
+tagGDX1CompB104Name=^kEldritch Mirror
+tagGDX1CompB104Desc="The surface of the mirror shifts with a spectrum of colors, peering into it induces a painful headache, as if staring into another realm of reality."^w^n(Used in chest and head armor)
+
+tagGDX1CompB105Name=^kSeal of Annihilation
+tagGDX1CompB105Desc="The arcane seal evokes feelings of violence and carnage at the slightest touch. It hungers for death."^w^n(Used in amulets)
+
+tagGDX1CompB106Name=^kSeal of Ancestry
+tagGDX1CompB106Desc="The arcane seal evokes memories of your ancestors, even ones whom you never could have met in life."^w^n(Used in amulets)
+
+
+
+#ItemFactionBoosters
+tagGDX1BoosterCU_A01=Writ of the Coven of Ugdenbog
+tagGDX1BoosterCU_B01=Mandate of the Coven of Ugdenbog
+tagGDX1BoosterCW_A01=Writ of Barrowholm
+tagGDX1BoosterCW_B01=Mandate of Barrowholm
+tagGDX1BoosterPM_A01=Writ of the People of Malmouth
+tagGDX1BoosterPM_B01=Mandate of the People of Malmouth
+
+tagGDX1BoosterAetherialVanguard_C01=Aetherial Vanguard Warrant
+tagGDX1BoosterWendigo_C01=Barrowholm Warrant
+tagGDX1BoosterBeast_C01=Beast "Warrant"
+tagGDX1BoosterBeastDesc=It's clearly "written" by a groble, but it looks angry and you're pretty sure the scribbled picture is of you.
+
+#Misc
+
+
+# Bonuses
+
+#Devotion
+
+#Attributes
+tagAttributeReset={^E}Use to Reset your Attributes
+tagAttributeNoPointsUsed={^r}[No Attribute Points to Reset]
+tagAttributeResetConfirmation=Reset all your Attributes?
+
+#ItemSets
+tagGDX1ItemSetC018CName=Misery of Alkamos
+
+tagGDX1ItemSetC101Name=Corruptor of Spirits
+tagGDX1ItemSetC101BName=Corruptor of Souls
+tagGDX1ItemSetC101Desc="The spirits bend to your will."
+
+tagGDX1ItemSetC102Name=The Silver Guardian
+tagGDX1ItemSetC102BName=The Silver Sentinel
+tagGDX1ItemSetC102Desc="Warded against magic, the silver guardians of the imperial throne stood ever vigilant to occult threats."
+
+tagGDX1ItemSetC103Name=Blazeseer
+tagGDX1ItemSetC103Desc="Your heart is a blazing ember, unquenchable and hungry for destruction."
+
+tagGDX1ItemSetC104Name=The Magelord
+tagGDX1ItemSetC104Desc="Regalia once worn by Holgus Evellion, esteemed member of the imperial court, and an arcanist."
+
+tagGDX1ItemSetC105Name=Dreadwalker
+tagGDX1ItemSetC105Desc="The very presence of a Dreadwalker causes nearby life to fall seemingly and unexplainably ill."
+
+tagGDX1ItemSetC106Name=Luminari Regalia
+tagGDX1ItemSetC106Desc="Special issue Luminari equipment, gifted upon high ranking members for dangerous assignments."
+
+tagItemSetC009BName=The Unseeing Gaze
+tagItemSetC010BName=Sharpshooter's Duty
+tagItemSetC011BName=Desecrator Covenant
+tagItemSetC016BName=The Paragon of Panetti
+tagItemSetC017BName=Dawnshield
+tagItemSetC021BName=The Eastern Oath
+tagItemSetC024BName=Keeper of the Blaze
+tagItemSetC025BName=Callidor's Defense
+tagItemSetC026BName=Myrmidon Bastion
+tagItemSetC027BName=Mogdrogen's Peace
+tagItemSetC028BName=The Arcane Tempest
+tagItemSetC029BName=Elemental Harmony
+
+
+tagGDX1ItemSetD101Name=Krieg's Armament
+tagGDX1ItemSetD101Desc="The armor of the old Burrwitch Warden is permanently warped by the Aetherial's tainted essence."
+
+tagGDX1ItemSetD102Name=Nature's Avenger
+tagGDX1ItemSetD102Desc="Armor blessed by Mogdrogen, to be worn by his champions in the defense of the natural order."
+
+tagGDX1ItemSetD103Name=Shepherd of Lost Souls
+tagGDX1ItemSetD103Desc="Great power lies beyond the veil. Learn to harness it, and death itself will be but a distraction. - Uroboruuk"
+
+tagGDX1ItemSetD104Name=Ardor of Octavius
+tagGDX1ItemSetD104Desc="Octavius Gallador was one of the Luminari's most decorated hunters, even serving as the Citadel's Headmaster until his final breath."
+
+tagGDX1ItemSetD105Name=The Cataclysm
+tagGDX1ItemSetD105Desc="For the safety of all, these artifacts were scattered and hidden by the Luminari, lest someone gather them once more and unleash their cataclysmic power."
+
+tagGDX1ItemSetD106Name=Stoneguard
+tagGDX1ItemSetD106Desc="Implements of the Stoneguard, a staunch defender of the Faith of Menhir."
+
+tagGDX1ItemSetD107Name=Stronghold of the Legion
+tagGDX1ItemSetD107Desc="Implements of Palliona Dar, shieldmaiden of the Black Legion."
+
+tagGDX1ItemSetD108Name=Korba's Fury
+tagGDX1ItemSetD108Desc="Armor of Korba, the untamed daughter of Hrothnar who earned herself the moniker Fang of the Great White Wolf."
+
+tagGDX1ItemSetD109Name=Darkblaze Garb
+tagGDX1ItemSetD109Desc="Implements marked by the Witch God Solael, bestowed upon his servants during the bitter wars between the Three."
+
+tagGDX1ItemSetD110Name=The Spellscourge
+tagGDX1ItemSetD110Desc="The unlikely marriage between martial and arcane prowess, emblazoned upon this warplate."
+
+tagGDX1ItemSetD111Name=The Mageslayer
+tagGDX1ItemSetD111Desc="Armor of the Mageslayers, a subgroup of the Luminari trained by nightblades to exterminate rogue spellcasters within the empire."
+
+tagGDX1ItemSetD112Name=Valguur's Hunger
+tagGDX1ItemSetD112Desc="Valguur was cursed with insatiable hunger for the life of others, but in becoming so he became blessed by Ravager, the wendigo spirit."
+
+tagGDX1ItemSetD113Name=The Runebinder
+tagGDX1ItemSetD113Desc="The warded armor of Tallios the Runebinder, the original caretaker of the Vault of the Luminari."
+
+tagGDX1ItemSetD114Name=Uroboruuk's Guise
+tagGDX1ItemSetD114Desc="Vestments of the immortal necromancer, Uroboruuk, during his time in Arkovia; thought lost to history but still teeming with hidden potential."
+
+tagGDX1ItemSetD115Name=Allagast's Masterpiece
+tagGDX1ItemSetD115Desc="Master Allagast was a close ally of the Luminari, having contributed much in the interest of studying and unlocking the potential of their artifacts."
+
+tagGDX1ItemSetD116Name=Dagallon's Destruction
+tagGDX1ItemSetD116Desc="Dagallon was an unorthodox inquisitor whose methods earned many reprimands, but few Luminari truly cared about how heretics were brought to justice."
+
+tagGDX1ItemSetD117Name=Deathguard
+tagGDX1ItemSetD117Desc="Keeper of the vale, guardian of the final gate."
+
+tagGDX1ItemSetD118Name=Diviner's Vision
+tagGDX1ItemSetD118Desc="The stars hold many secrets, whispered only to those daring enough to listen."
+
+tagGDX1ItemSetD119Name=Dark One's Gift
+tagGDX1ItemSetD119Desc="A gift from Ch'thon upon those mortals embracing his return."
+
+tagGDX1ItemSetD120Name=Belgothian's Slaughter
+tagGDX1ItemSetD120Desc="Armor once worn by the infamous master Nightblade, Belgothian, whose reckless carnage and thirst for blood made even his employers uneasy."
+
+tagGDX1ItemSetD121Name=Radaggan's Folly
+tagGDX1ItemSetD121Desc="Armor of Astor Radaggan, heretic and betrayer to the Luminari, turned loyal servant of the Great Guardian."
+
+tagGDX1ItemSetD122Name=Rimetongue
+tagGDX1ItemSetD122Desc="Armor of the Rimetongue, elusive member of the emperor's court, master of infiltration and political sabotage."
+
+tagGDX1ItemSetD123Name=The Blood Knight
+tagGDX1ItemSetD123Desc="The bloodied armor of Lord Nazaran, the King in Crimson, formerly known as the Blood Knight."
+
+
+tagItemSetD001BName=Justicar Guard
+tagItemSetD002BName=The Sacred Harmony
+tagItemSetD003BName=Nature's Call Regalia
+tagItemSetD004BName=Dawnseeker's Light
+tagItemSetD005BName=The Harbinger's Message
+tagItemSetD006BName=Judicator's Seals
+tagItemSetD007BName=Demonslayer's Armament
+tagItemSetD008BName=Barrelsmith's Destroyers
+tagItemSetD009BName=Wildheart Vanguard
+tagItemSetD010BName=The Clairvoyant's Focus
+tagItemSetD011BName=Invoker's Will
+tagItemSetD012BName=Markovian's Bastion
+tagItemSetD013BName=Ulzuin's Infernal Avatar
+tagItemSetD014BName=Deception of Dreeg
+tagItemSetD015BName=Deathmark's Shadow
+tagItemSetD016BName=Iskandra's Unification
+tagItemSetD017BName=Ultos' Tempest
+tagItemSetD018BName=Trozan's Skybreach
+tagItemSetD019BName=Valdun's Betrayal
+tagItemSetD020BName=The Vileblade Pact
+tagItemSetD021BName=Black Scorch Covenant
+tagItemSetD022BName=Light's Guardian
+tagItemSetD023BName=The Infernal Champion
+tagItemSetD024BName=Rage of Agrivix
+tagItemSetD025BName=Warborn Bastion
+tagItemSetD026BName=Bloodrager's Endless Frenzy
+tagItemSetD027BName=Dread Sigils of Alkamos
+
+
+#Prefixes
+tagGDX1PrefixAA101=Enlightening
+
+tagGDX1PrefixAA022=Inquisitor's
+tagGDX1PrefixAA023=Necromancer's
+
+tagGDX1PrefixAD101=Impenetrable
+
+tagGDX1PrefixAO101=Superior
+
+tagGDX1PrefixB101_WpnMelee1h_A=Essence Drinker's
+tagGDX1PrefixB102_WpnMelee1h_A=Stonefaced
+tagGDX1PrefixB103_WpnMelee1h_A=Runecarved
+tagGDX1PrefixB104_WpnMelee1h_A=Wraithbound
+tagGDX1PrefixB105_WpnMelee1h_A=Magestorm
+
+tagGDX1PrefixB101_Ar_A=Stonefaced
+tagGDX1PrefixB102_Ar_A=Runecarved
+tagGDX1PrefixB103_Ar_A=Wraithbound
+tagGDX1PrefixB104_Ar_A=Magestorm
+
+tagPrefixB022_Class_A=Tactician's
+tagPrefixB023_Class_A=Purifier's
+tagPrefixB024_Class_A=Deceiver's
+tagPrefixB025_Class_A=Infiltrator's
+tagPrefixB026_Class_A=Mage Hunter's
+tagPrefixB027_Class_A=Vindicator's
+tagPrefixB028_Class_A=Apostate's
+tagPrefixB029_Class_A=Death Knight's
+tagPrefixB030_Class_A=Defiler's
+tagPrefixB031_Class_A=Cabalist's
+tagPrefixB032_Class_A=Reaper's
+tagPrefixB033_Class_A=Spellbinder's
+tagPrefixB034_Class_A=Ritualist's
+tagPrefixB035_Class_A=Interrogator's
+tagPrefixB036_Class_A=Theurgist's
+
+tagGDX1PrefixB101_Sh_A=Essence Drinker's
+tagGDX1PrefixB102_Sh_A=Bileridden
+tagGDX1PrefixB103_Sh_A=Runecarved
+tagGDX1PrefixB104_Sh_A=Magestorm
+tagGDX1PrefixB105_Sh_A=Wraithbound
+tagGDX1PrefixB106_Sh_A=Wraithwarded
+tagGDX1PrefixB107_Sh_A=Stonefaced
+
+
+#Suffixes
+tagGDX1SuffixA101=of 
+
+tagGDX1SuffixB101_Wpn_A=of Tormented Souls
+tagGDX1SuffixB102_Wpn_A=of Soulwarding
+tagGDX1SuffixB103_Wpn_A=of Scorched Runes
+tagGDX1SuffixB104_Wpn_A=of Caged Souls
+tagGDX1SuffixB105_Wpn_A=of Celestial Wrath
+
+tagGDX1SuffixB101_Ar_A=of Tormented Souls
+tagGDX1SuffixB102_Ar_A=of Tormented Souls
+tagGDX1SuffixB103_Ar_A=of Soulwarding
+tagGDX1SuffixB104_Ar_A=of Scorched Runes
+tagGDX1SuffixB105_Ar_A=of Caged Souls
+tagGDX1SuffixB106_Ar_A=of Caged Souls
+
+tagGDX1SuffixB101_Sh_A=of Tormented Souls
+tagGDX1SuffixB102_Sh_A=of Scorched Runes
+tagGDX1SuffixB103_Sh_A=of Caged Souls
+tagGDX1SuffixB104_Sh_A=of Celestial Wrath
+tagGDX1SuffixB105_Sh_A=of Arcane Barriers
+tagGDX1SuffixB106_Sh_A=of Imposing Presence
+
+
+#ItemSkills
+
+
+#LootChests
+
+tagGDX1ChestWoodA01=Weathered Chest
+tagGDX1ChestAltarD01=Wendigo Altar
+tagGDX1ChestMalmouthC01=Steel Chest
+tagGDX1ChestMalmouthD01=Ornate Chest
+tagGDX1ChestFleshC01=Fleshformed Chest
+tagGDX1ChestFleshD01=Fleshwarped Chest
+
+tagGDX1ChestSpecial01=Distinguished Chest
+tagGDX1ChestBucket01=Unfortunate Corpse
+
+tagGDX1ChestFleshshaper=The Master's Trove
+tagGDX1ChestNemesis03=Gladiator's Trove
+
+tagGDX1ChestSecret01=Hidden Fleshwarped Spoils
+
+tagGDX1BreakableA01=Rotting Stump
+tagGDX1BreakableA02=Coven Cache
+tagGDX1Breakable_UgdenbogA01=Ugdenbog Mushroom
+tagGDX1Breakable_WendigoDoor=Wendigo Cage
+
+tagGDX1ChestBoss_Kraken=Water-Logged Chest
+tagGDX1Chest_Barrowholm=Scorv's Personal Items
+tagGDX1Chest_DravisClue=Old Lectern
+
+tagGDX1ChestBossOneShot_Fleshshaper=The Master's Collection
+tagGDX1ChestOneShot_Flesh=Fleshwarped Stash
+tagGDX1ChestOneShot_GloomwaldHidden=Nane's Stash
+tagGDX1ChestOneShot_MalmouthHidden=Rictor's Stash
+
+tagGDX1Chest_MadRamblingsReward=Ivonda's Gift
+tagGDX1Chest_MadRamblingsLoot=Ivonda's Stash
+tagGDX1Chest_MadRamblingsNote=Ivonda's Chest
+
+tagGDX1Chest_KatrineCorpse=Katrine's Remains
+tagGDX1Chest_RenochCorpse=Renoch's Remains
+tagGDX1Chest_UnknownCorpse=Rotting Corpse
+
+tagGDX1ChestGauntletChestD01=Lost Reliquary
+
+
+#Interactive Objects
+
+tagGDX1DoorWendigoLocked= {^R} ~ Locked by Scorv Egdenor
+tagGDX1DoorPuppetmasterLocked= {^R} ~ Locked by the Aetherials
+tagGDX1DoorSlumsLocked= {^R} ~ Locked by the Resistance
+tagGDX1DoorDocksLocked= {^R} ~ Locked by the Aetherials
+tagGDX1DoorEnclaveLocked= {^R} ~ Locked by the Aetherials
+
+tagGDX1LeverFleshFactory=Aether Crystal
+tagGDX1AetherialRift=Aetherial Rift
+
+
+#Quest Items
+
+
+#Breakables
+tagGDX1Quest_CorpseWagon_01=Aetherial Corpse Wagon
+tagGDX1Quest_FactoryVent=Fleshbound Vent
+tagGDX1Quest_ObsidianCrystal=Runed Obsidian
+
+#Dungeon Doors
+tagGDX1UGDoorFactoryEntrance=Fleshbound Entrance
+tagGDX1UGDoorSlums=Candle District
+tagGDX1UGDoorIndust=Steelcap District
+tagGDX1UGDoorHideout=Resistance Refuge
+tagGDX1UGDoorFactoryGeneric=Fleshbound Door
+tagGDX1UGDoorFactoryHeart=The Heart
+tagGDX1UGDoorSewerGeneric=Sewer Pipe
+tagGDX1RiftVoidExit=Void Exit
+tagGDX1WendioDoor=Cellar Entrance
+tagGDX1WitchDoor=Dwelling Entrance
+tagGDX1FleshFactoryDoor=Fleshy Entrance
+tagGDX1DoorMapleStump01=Hollowed Entrance
+tagGDX1DoorOvergrownCave=Overgrown Cave Entrance
+tagGDX1DoorLighthouse=Lighthouse Entrance
+tagGDX1CarraxusDoor=Den of Carraxus
+
+tagGDX1DoorOneWayAncientGrove=Escape the Grove
+tagGDX1EpicDoor_AncientGrove=Ancient Grove Gate
+tagGDX1EpicDoor_AncientGroveLocked= {^R} ~ Sealed by Mogdrogen (Requires a Skeleton Key)
+
+#Doors
+tagGDX1Door_Vine=Vines
+tagGDX1Door_Flesh=Living Flesh Door
+tagGDX1Door_Puppetmaster=Living Flesh Door
+
+
+#DLC
+tagGDX1DLCIllusionA01=Illusion: Black Knight Armor
+tagGDX1DLCA01=Black Knight Armor
+tagGDX1DLCA01Desc="The sinister Black Knight Armor."
+
+tagGDX1DLCIllusionA02=Illusion: Silver Knight Armor
+tagGDX1DLCA02=Silver Knight Armor
+tagGDX1DLCA02Desc="The sacred Silver Knight Armor."
+
+tagGDX1DLCIllusionA03=Illusion: Dragon General Collection
+tagGDX1DLCA03=Dragon General Collection
+tagGDX1DLCA03Desc="The venerable General collection."
+
+tagGDX1DLCIllusionA04=Illusion: White Wizard
+tagGDX1DLCA04=White Wizard Attire
+tagGDX1DLCA04Desc="The enigmatic White Wizard's attire."
+
+tagGDX1DLCIllusionA05=Illusion: Dark Wizard
+tagGDX1DLCA05=Dark Wizard Attire
+tagGDX1DLCA05Desc="The vile Dark Wizard's attire."
+
+tagGDX1DLCIllusionA06=Illusion: Great Wolf Armor
+tagGDX1DLCA06=Great Wolf Armor
+tagGDX1DLCA06Desc="The savage Great Wolf Armor."
+
+tagGDX1DLCIllusionHelmInvisible=Invisible Helm
+tagGDX1DLCIllusionHelmInvisibleDesc="100% of the protection with 0% of the weight. Now also dairy-free."
+
+tagGDX1DLCIllusionShouldersInvisible=Invisible Shoulderguards
+tagGDX1DLCIllusionShouldersInvisibleDesc="100% of the protection with 0% of the weight. Now also dairy-free."
+
+tagGDX1DLCIllusionMedalInvisible=Invisible Medal
+tagGDX1DLCIllusionMedalInvisibleDesc="100% of the recognition with none of the pins. Now also dairy-free."
+
+

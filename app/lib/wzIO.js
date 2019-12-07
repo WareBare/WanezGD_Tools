@@ -19,7 +19,7 @@ module.exports = {
                 console.warn(err);
                 log.error(`${err}`);
             } else {
-                wzNotify.save(`${$filepath.replace($removeFromPath,``)}`);
+                //wzNotify.save(`${$filepath.replace($removeFromPath,``)}`);
                 console.info(`File Saved: ${$filepath.replace($removeFromPath,``)}`);
             }
         });

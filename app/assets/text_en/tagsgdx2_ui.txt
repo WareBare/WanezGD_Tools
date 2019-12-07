@@ -1,0 +1,159 @@
+#Faction
+
+tagFactionUser13=Cult of Bysmiel
+tagFactionUser13Info=Headquarters: Conclave of the Three {^n}{^n} Worshipping the elusive Lady of Whispers, the Cult of Bysmiel prides itself on manipulation and subterfuge. {^n}{^n} It was by Bysmiel's machinations that the empire's inquisitors spent centuries aimlessly hunting for the Witch God cults, their efforts confounded by the endless weave of decoys and lies. {^n}{^n} All this is made possible through a vast network of spies and informants, known as Bysmiel's web. Only a select few are trusted in knowing the full span of Bysmiel's schemes.
+tagFactionUser13Rewards1=N/A
+tagFactionUser13Rewards2=N/A
+tagFactionUser13Rewards3=N/A
+tagFactionUser13Rewards4=Empty
+tagFactionUser13Rewards5=Access to Faction Vendor
+tagFactionUser13Rewards6=Access to Bounty Table {^n}Faction Weapons {^n}Faction Armor {^n}Faction Blueprints
+tagFactionUser13Rewards7=New Quest (If Allied) {^n}Faction Augments {^n}Faction Weapons {^n}Faction Accessories {^n}Faction Writs {^n}Faction Blueprints
+tagFactionUser13Rewards8=Rare Augments {^n}Faction Mandates {^n}Elite Faction Armor {^n}Legendary Faction Blueprints
+tagFactionUser14=Cult of Dreeg
+tagFactionUser14Info=Headquarters: Conclave of the Three {^n}{^n} Bestowed true sight by the Great Guardian, the worshippers of Dreeg are consumed by visions of possible futures. Many are driven mad by the whispers, but those that endure become invaluable assets capable of altering future events in the pursuit of the Witch Gods' goals. {^n}{^n} Dreeg's worshippers say that to stand before the Great Guardian is a blessing without match. His words of wisdom echo through the eons as he seeks to strike a balance in the tumultuous strands of fate woven by the celestials themselves. It is said that none can witness Dreeg's warped form in person without their feeble mortal mind shattering.
+tagFactionUser14Rewards1=N/A
+tagFactionUser14Rewards2=N/A
+tagFactionUser14Rewards3=N/A
+tagFactionUser14Rewards4=Empty
+tagFactionUser14Rewards5=Access to Faction Vendor
+tagFactionUser14Rewards6=Access to Bounty Table {^n}Faction Weapons {^n}Faction Armor {^n}Faction Blueprints
+tagFactionUser14Rewards7=New Quest (If Allied) {^n}Faction Augments {^n}Faction Weapons {^n}Faction Accessories {^n}Faction Writs {^n}Faction Blueprints
+tagFactionUser14Rewards8=Rare Augments {^n}Faction Mandates {^n}Elite Faction Armor {^n}Legendary Faction Blueprints
+tagFactionUser15=Cult of Solael
+tagFactionUser15Info=Headquarters: Conclave of the Three {^n}{^n} The very essence of the Eldritch Realm is for Solael to mold as he sees fit, and he shares this knowledge with his loyal servants. But such power does not come without sacrifice. Some must die so that others can bask in his glory, the ultimate display of loyalty. {^n}{^n} The worshippers of Solael would pay any price to taste of Solael's gifts. They say that the Eldritch Fire is without equal and worth spilling a little blood, even if it has to be the blood of their own...or their allies.
+tagFactionUser15Rewards1=N/A
+tagFactionUser15Rewards2=N/A
+tagFactionUser15Rewards3=N/A
+tagFactionUser15Rewards4=Empty
+tagFactionUser15Rewards5=Access to Faction Vendor
+tagFactionUser15Rewards6=Access to Bounty Table {^n}Faction Weapons {^n}Faction Armor {^n}Faction Blueprints
+tagFactionUser15Rewards7=New Quest (If Allied) {^n}Faction Augments {^n}Faction Weapons {^n}Faction Accessories {^n}Faction Writs {^n}Faction Blueprints
+tagFactionUser15Rewards8=Rare Augments {^n}Faction Mandates {^n}Elite Faction Armor {^n}Legendary Faction Blueprints
+tagFactionUser16=Eldritch Horrors
+tagFactionUser16Info= Eldritch creatures were capable of entering Cairn through tears in the veil for centuries, but in the Korvan lands the barrier between realities seems to be at its weakest. {^n}{^n} Here the terrors are numerous and their forms unlike any seen in other parts of Cairn. They strike with tooth and claw teeming with Eldritch energies and swoop down on unsuspecting prey upon armored wings. {^n}{^n} The Eldritch Realm is said to be the domain of the Witch Gods, but in the Korvan lands there appear to be others vying for control of its secrets, and their servants are merely awaiting the summons.
+tagFactionUser16Rewards1=Nemesis Spawns
+tagFactionUser16Rewards2=Additional Hero Spawns
+tagFactionUser16Rewards3=Extra Spawns
+tagFactionUser16Rewards4=Empty
+tagFactionUser16Rewards5=N/A
+tagFactionUser16Rewards6=N/A
+tagFactionUser16Rewards7=N/A
+tagFactionUser16Rewards8=N/A
+
+
+#Quest
+tagCodexJournalSubHeadingWitchGods=Survivors - Witch God Cults
+tagCodexJournalSubHeadingKorvan=History - Korvan
+
+
+#Challenge Areas
+tagChallengeArea_Easy=Dangerous Domain
+tagChallengeArea_Easy_Desc=You have entered a dangerous area dominated by your foes. Monsters here are more powerful and a Mutator is active, but loot drops are improved.
+
+tagChallengeArea_Hard=Treacherous Domain
+tagChallengeArea_Hard_Desc=You have entered an extremely treacherous area teeming with your foes. Monsters here are empowered and several Mutators are active, but loot drops are significantly improved.
+
+tagChallengeArea_Roguelike=Forbidden Domain
+tagChallengeArea_Roguelike_Desc=You have entered a Roguelike Dungeon. Monsters here are infused with vile powers, making them much more powerful, and several Mutators are active. Re-entry is also impossible in the current game session. However, loot drops are significantly improved.
+
+#Endless Dungeon
+tagEndlessFloorNotComplete=Conquer your foes and gather their Shattered Souls
+tagEndlessFloorComplete=Proceed to the next Portal
+tagEndlessFloorBoss=Defeat your enemies
+tagEndlessFloorBossDead=Speak to Mazaan to Proceed
+tagEndlessFloorLoot=Gather your Reward
+tagEndlessDungeonCounterName=Shard
+tagEndlessDungeonCounterInfo=Current Shard of the Shattered Realm
+tagEndlessFloorCounterName=Chunk
+tagEndlessFloorCounterInfo=Current Chunk within a Shard
+tagEndlessTimerName=Timer
+tagEndlessTimerNameInfo=Time remaining before the Shattered Realm destabilizes. ^n^nEarn bonus time by defeating powerful foes and rapidly eliminating large groups of enemies. ^n^nDefeat the boss of the Shard before time runs out to earn bonus rewards in the Splendors of the Shattered Realm!
+tagEndlessDungeonBonusTime=Carnage: {%d0} enemies slain!^n^n+{%.0f1} seconds to the clock!
+tagEndlessDungeonHeroBonusTime=Powerful foe slain!^n^n+{%.0f0} seconds to the clock!
+
+#Inventor - Transmute
+tagConvertCost=Transmute Cost:
+tagConvertSameSet=
+tagConvertSameSetInfo=Transmute a Set Piece into another part of the Same Set.
+tagConvertRandomSet=
+tagConvertRandomSetInfo=Transmute a Set Piece into part of another Random Set of a comparable level.
+tagConvert=Transmute
+tagConvertCreateInfo=Choosing to Transmute will destroy this item. ^o(Set items that drop from fixed sources are not eligible)
+tagConvertInfo=The transmutation chamber is used to turn powerful items that belong to a set into other parts of the same set or new set pieces entirely. The Inventor has not yet learned this ability.
+tagConvertInfoB=The transmutation chamber is used to turn powerful items that belong to a set into other parts of the same set or new set pieces entirely. This process requires some potent arcane energies, so the inventor has gone straight to the source.
+tagConvertBlacklist=This item cannot be transmuted.
+
+#Crafter - Subheadings
+tagCraftingRunes=RUNES
+
+#Mutators
+Mutator_Monster_01=Aetherwarped
+Mutator_Monster_01Desc=Monsters are resistant to the Aether, but more Susceptible to Chaos.
+Mutator_Monster_02=Armored
+Mutator_Monster_02Desc=Monsters are nearly impervious to Physical harm and armor Piercing, but are more Susceptible to the Elements.
+Mutator_Monster_03=Berserking
+Mutator_Monster_03Desc=Monsters are berserking, Attacking faster but also becoming more Susceptible to Attacks.
+Mutator_Monster_04=Brutal
+Mutator_Monster_04Desc=Monsters land Critical Strikes more often, but deal Reduced Damage.
+Mutator_Monster_05=Corrupted
+Mutator_Monster_05Desc=Monsters are resistant to Chaos, but more Susceptible to the Aether.
+Mutator_Monster_06=Crippling
+Mutator_Monster_06Desc=Monster attacks Slow opponents, but attack Slower.
+Mutator_Monster_07=Cruel
+Mutator_Monster_07Desc=Monster Critical Strikes are extra lethal, but attacks are more likely to Miss.
+Mutator_Monster_08=Ignited
+Mutator_Monster_08Desc=Monsters are infused with Fire, dealing additional Fire damage and Retaliating Fire damage, but are more Susceptible to the Cold.
+Mutator_Monster_09=Time-Warped
+Mutator_Monster_09Desc=Monsters have greatly reduced Spell Cooldowns and increased Casting Speed, but deal Reduced Physical Damage.
+Mutator_Monster_10=Leeching
+Mutator_Monster_10Desc=Monsters leech health back with every attack, but have Reduced Health.
+Mutator_Monster_11=Poisonous
+Mutator_Monster_11Desc=Monsters are tainted with poison, dealing additional Poison damage and Retaliating Poison damage, but are more Susceptible to Vitality draining attacks.
+Mutator_Monster_12=Regenerating
+Mutator_Monster_12Desc=Monsters have highly enhanced health and energy regeneration, but are more Susceptible to Acid, Poison and Bleeding.
+Mutator_Monster_13=Resistant
+Mutator_Monster_13Desc=Monsters are nearly impervious to Magical attacks, but are more Susceptible to Physical harm.
+Mutator_Monster_14=Toughened
+Mutator_Monster_14Desc=Monsters have greatly increased Health, but have reduced Health Regeneration.
+Mutator_Monster_15=Unstoppable
+Mutator_Monster_15Desc=Monsters are highly resistant to Crowd Control, but Move Slowly.
+Mutator_Monster_16=Vengeful
+Mutator_Monster_16Desc=Monsters have greatly enhanced Retaliation effects, but have Reduced Armor.
+Mutator_Monster_17=Swift
+Mutator_Monster_17Desc=Monsters have greatly increased Movement Speed, but are more susceptible to Crowd Control.
+
+Mutator_Player_01=Aethermarked
+Mutator_Player_01Desc=Players experience slowed Attacks, but are more Resistant to the Aether.
+Mutator_Player_02=Voidmarked
+Mutator_Player_02Desc=Players experience slowed Casting but are more Resistant to Chaos.
+Mutator_Player_03=Marked
+Mutator_Player_03Desc=Players have reduced Defensive Ability, but Damage is Magnified.
+Mutator_Player_04=Drained
+Mutator_Player_04Desc=Players have reduced Health Regeneration, but are more Resistant to Poison and Bleeding.
+Mutator_Player_05=Shattered
+Mutator_Player_05Desc=Players have reduced Damage and Retaliation effects, but Armor is Increased.
+Mutator_Player_06=Afflicted
+Mutator_Player_06Desc=Players have reduced Health, but are more Resistant to Vitality drains.
+Mutator_Player_07=Slowed
+Mutator_Player_07Desc=Player Movement Speed is greatly reduced, but Crowd Control doesn't last as long.
+Mutator_Player_08=Tainted
+Mutator_Player_08Desc=Players are Slowed, but Critical Damage is Increased.
+Mutator_Player_09=Exposed
+Mutator_Player_09Desc=Players have reduced Armor, but Cooldowns are Reduced.
+Mutator_Player_10=Weakened
+Mutator_Player_10Desc=Player Critical Attacks are weakened, but attacks are more likely to hit.
+
+SkillRetaliationDamageFormat={%.0f0%} {^E}of Retaliation Damage added to Attack
+SkillRetaliationDamageFormatNumbers={%.0f0%} {^E}of Retaliation Damage added to Attack ({^H}{%.0f1} - {%.0f2}{^E})
+
+tagCharHealIncreaseModifier={^E}Healing Effects Increased by {^H}{%.0f0}%
+tagCharHealIncreaseModifierR={^E}Healing Effects Increased by {^H}{%.0f0}% - {%.0f1}%
+
+#Char Stats Tab 2
+
+#Character
+tagCharStatsHealIncrease=Healing Increase
+tagCharStatsHealIncreaseInfo=The percent bonus to all healing effects, including Potions and Attack Damage Converted to Health. Does not increase Health Regeneration.
+tagCharStatsOathkeeperSkillsBonus=Oathkeeper Skills
+tagCharStatsOathkeeperSkillsBonusInfo=Bonus to all learned skills in the Oathkeeper Mastery.

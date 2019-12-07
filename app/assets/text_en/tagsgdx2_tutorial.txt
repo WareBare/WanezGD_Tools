@@ -1,0 +1,43 @@
+#Loading Tips
+
+
+#Tutorial Pages
+
+
+#Tutorials
+tagTutorialTip66Title=Shattered Realm Exploration
+tagTutorialTip66TextA=You have entered the Shattered Realm, a treacherous plane of reality that connects countless shattered fragments of existence. Here, you will gather Shattered Souls from the realm's denizens to proceed deeper and deeper into its madness.
+tagTutorialTip66SubtitleA=Shattered Souls
+tagTutorialTip66TextB=Every enemy you slay in the Shattered Realm will progress you towards unlocking the rift to the next Chunk. Once the bar is full, all remaining foes will perish and the rift to the next Chunk will open somewhere nearby.
+tagTutorialTip66TextC=More powerful foes have a chance to drop a Shattered Soul. When you collect this item, you will gain a bonus to the Progress Bar and gain a temporary buff that increases your Damage and Survivability.{^n}{^n}Collecting another soul refreshes the duration of this effect and makes it stronger. The deeper you are in the Shattered Realm, the more stacks of this buff you can collect at once.
+tagTutorialTip66SubtitleB=The Clock is Ticking
+tagTutorialTip66TextD=The Shattered Realm is inherently unstable. If you spend too long gathering the souls of its damned denizens, then some of the wealth will destabilize and vanish forever into nothingness. Move quickly, the clock is ticking!
+tagTutorialTip66SubtitleC=Shattered Guardians
+tagTutorialTip66TextE=At the end of each Shard awaits a the Shattered Guardian's Domain. There you must defeat all of the powerful foes that await you in order to claim your prize!
+tagTutorialTip66SubtitleD=Sealing the Shattered Realm
+tagTutorialTip66TextF=Should you find the dangers within the Shattered Realm too risky, you may speak to Mazaan at the Conclave of the Three to seal the rift and begin anew.
+
+tagTutorialTip67Title=Shattered Realm Conquered
+tagTutorialTip67TextA=You have vanquished all of the dangers of this Shard. Mazaan awaits you nearby to make a decision.
+tagTutorialTip67SubtitleA=Splendors of the Shattered Realm 
+tagTutorialTip67TextB=You may now claim your rewards, if you wish. You will be transported to collect the treasures you've secured on your journey, but will not be able to proceed deeper into the Shattered Realm.
+tagTutorialTip67SubtitleB=Sealing the Shattered Realm
+tagTutorialTip67TextC=Once you are finished gathering your rewards, you may speak to Mazaan at the Conclave of the Three to seal the rift and begin anew. Note that any unclaimed chests will be lost.
+tagTutorialTip67SubtitleC=Delve Deeper...
+tagTutorialTip67TextD=Rather than claiming your rewards, you may instead proceed deeper into the Shattered Realm and tackle the foes in another of its Shards. Your foes will be stronger, but the rewards that await at the end will be equally more valuable.
+tagTutorialTip67SubtitleD=Waystones
+tagTutorialTip67TextE=As you delve deeper into the Shattered Realm, you will uncover the secret to creating Waystones at a Blacksmith. These Waystone allow you to start a Shattered Realm run at a more difficult shard.
+tagTutorialTip67TextF=Each Waystone has a range of Shards it grants access to, based on how far your character has progressed. The Waystone is consumed upon use.
+
+tagTutorialTip68Title=Set Transmutation
+tagTutorialTip68TextA=Visit the Inventor to Transmute items that are parts of Sets into other Set Items.
+tagTutorialTip68SubtitleA=Same-Set Transmutation
+tagTutorialTip68TextB=To Transmute your Set Item into one from the same Set, select the Same-Set option. Upon pressing the Transmute button, the required Materials and iron bits cost are deducted from your inventory and the item is transmuted into a Random one from a Same Set.{^N}{^N}You will never get the same item you put in back.
+tagTutorialTip68SubtitleB=Random Transmutation
+tagTutorialTip68TextC=To Transmute your Set Item into one from another Set, select the Random Set option. Upon pressing the Transmute button, the required Materials and iron bits cost are deducted from your inventory and the item is transmuted into a Random one from a Different Set.{^N}{^N}This will never result in an item from the same Set the original item was a part of.
+
+
+#Quick Tips
+tagQuickTip66={^z}The Shattered Realm awaits...{^-}{^n}{^n}You must slay the foes trapped within the Shattered Realm to gather Shattered Souls. Gather enough Shattered Souls, and a way forward will open.{^n}{^n}Click here for more information on the Shattered Realm.
+tagQuickTip67={^z}Conquering the Shattered Realm{^-}{^n}{^n}You have bested the guardian of this Shard.{^n}{^n}You may now speak to Mazaan to explore deeper or claim your rewards!
+tagQuickTip68={^z}Set Transmutation{^-}{^n}{^n}The Transmute Window allows you to convert items that are parts of Sets into other Set Items.

@@ -1,0 +1,225 @@
+#Region Names
+tagGDX2MapEndlessDungeon=The Shattered Realm
+tagGDX2MapEndlessBoss=Shattered Guardian's Domain
+tagGDX2MapEndlessTreasure=Splendors of the Shattered Realm
+
+#Shattered Bosses
+tagGDX2EndlessDungeon_Boss01=Warden Kriev, Shattered Guardian
+tagGDX2EndlessDungeon_Boss02=Darius Connolay, Shattered Soul
+tagGDX2EndlessDungeon_Boss03=Karriv the Broken
+tagGDX2EndlessDungeon_Boss03B=Karriv's Soul
+tagGDX2EndlessDungeon_Boss04=Ekket'Zal, Harbinger of Yugol
+tagGDX2EndlessDungeon_Boss05=Theodin Maurin, Shaper of the Shattered
+tagGDX2EndlessDungeon_Boss06=Shattered Steward
+tagGDX2EndlessDungeon_Boss07=Lucian, Commander of the Shattered
+tagGDX2EndlessDungeon_Boss08=Alkamir, Shattered Executioner
+tagGDX2EndlessDungeon_Boss09=Shar'Zal, Scion of Yugol
+tagGDX2EndlessDungeon_Boss10=Gargaban, Shattered Heart
+tagGDX2EndlessDungeon_Boss11=Shattered Sentinel
+tagGDX2EndlessDungeon_Boss12=Shattered Outcast
+tagGDX2EndlessDungeon_Boss13=Salazin the Shattered Blade
+tagGDX2EndlessDungeon_Boss14=Shatteredshaper Hinass
+tagGDX2EndlessDungeon_Boss15=Keeper of the Shattered Gates
+tagGDX2EndlessDungeon_Boss16=Manifestation of Hunger
+tagGDX2EndlessDungeon_Boss16_Tentacle=Hungering Tentacle
+tagGDX2EndlessDungeon_Boss16_Void=Hungering Void
+
+tagGDX2EndlessDungeon_Special01=Fanatic ~ Cult of the Mine
+tagGDX2EndlessDungeon_Special02=Gazer Prime
+tagGDX2EndlessDungeon_Special03=Seeker of the Damned
+tagGDX2EndlessDungeon_Special04=Crate of Entertainment
+tagGDX2EndlessDungeon_Special05=Unassuming Crate
+tagGDX2EndlessDungeon_Special06=NAME ME
+tagGDX2EndlessDungeon_Special07=Perfectly Usual Oversized Maggot
+tagGDX2EndlessDungeon_Special07B=Oversized Maggot
+tagGDX2EndlessDungeon_Special08=Spirit of Crate
+tagGDX2EndlessDungeon_Special09=Bonebleach Dromedary
+tagGDX2EndlessDungeon_Special10=Bonebleach Dromedary ~ Champion
+tagGDX2EndlessDungeon_Special11=Bonebleach Dromedary ~ Watcher
+tagGDX2EndlessDungeon_Special12=Starved Maggot
+tagGDX2EndlessDungeon_Special13=Fired Up Maggot
+tagGDX2EndlessDungeon_Special14=Bloated Maggot
+tagGDX2EndlessDungeon_Special15=Overfed Maggot
+tagGDX2EndlessDungeon_Special16=Unstable Devourer
+tagGDX2EndlessDungeon_Special17=Bloated Devourer
+tagGDX2EndlessDungeon_Special18=Hungerling
+
+tagGDX2EndlessDungeon_Lever01=Red Lever
+tagGDX2EndlessDungeon_Lever02=Green Lever
+tagGDX2EndlessDungeon_Lever03=Blue Lever
+tagGDX2EndlessDungeon_Lever04=Yellow Lever
+tagGDX2EndlessDungeon_Lever05=Purple Lever
+tagGDX2EndlessDungeon_Lever06=White Lever
+tagGDX2EndlessDungeon_Door01=Enchanted Portcullis
+tagGDX2EndlessDungeon_Door01_Lock= {^R} ~ Locked by nearby Levers
+
+
+tagGDX2EndlessDungeon_Boss_Skill01=Hungering Presence
+tagGDX2EndlessDungeon_Boss_Skill01_Desc=The hungering darkness draws you in, reducing your Health.
+
+tagGDX2EndlessDungeon_Boss_Summon01=Celestial Maggot
+tagGDX2EndlessDungeon_Boss_Summon02=Hungering Darkness
+tagGDX2EndlessDungeon_Boss_Summon02_Skill=Hungering Darkness
+tagGDX2EndlessDungeon_Boss_Summon02_Skill_Desc=The hungering chill of the infinite darkness consumes you...slowly...
+
+tagGDX2EndlessDungeon_S201=Totally Normal Shield
+tagGDX2EndlessDungeon_S201_Desc="Southpaws will understand."
+tagGDX2EndlessDungeon_S202=Bonebleach Halberd
+tagGDX2EndlessDungeon_S203=Leovinus' Ring
+tagGDX2EndlessDungeon_S203_Desc="A spectacularly preserved ring made of a strange very malleable material. Seems rather silly."
+
+
+#NPCs
+tagGDX2EndlessDungeon_NPC_Event01=Mazaan, Keeper of Portals
+
+tagGDX2EndlessDungeon_NPC_Merchant01=Ullana
+tagGDX2EndlessDungeon_ StoreTitle_Merchant01=Shattered Peddler
+tagGDX2EndlessDungeon_ StoreTitle_Merchant02=Shattered Squire
+tagGDX2EndlessDungeon_ StoreTitle_Merchant03=Shattered Knight
+tagGDX2EndlessDungeon_ StoreTitle_Merchant04=Shattered Maiden
+tagGDX2EndlessDungeon_ StoreTitle_Merchant05=Shattered Guardian
+
+
+tagGDX2EndlessDungeon_NPC_Smith01=Ikarrod
+tagGDX2EndlessDungeon_StoreTitle_Smith01=Cursed Smith
+tagGDX2EndlessDungeon_StoreDesc_Smith01_1={}Gift of Unlife
+tagGDX2EndlessDungeon_StoreDesc_Smith01_2=Ikarrod is gifted with centuries of smithing knowledge, bolstered by his rather unique...state of existence.
+tagGDX2EndlessDungeon_StoreDesc_Smith01_3= 
+tagGDX2EndlessDungeon_StoreDesc_Smith01_4=Crafted Weapons, Armor and Accessories are imbued with one of the following properties:
+
+tagGDX2EndlessDungeon_NPC_Smuggler01=Agnath
+tagGDX2EndlessDungeon_StoreTitle_Smuggler01=Immortal Smuggler
+
+tagGDX2EndlessDungeon_NPC_Reallocator01=Rathia
+tagGDX2EndlessDungeon_StoreTitle_Reallocator01=Spirit Guide
+
+tagGDX2EndlessDungeon_NPC_Inventor01=Laduna
+tagGDX2EndlessDungeon_StoreTitle_Inventor01=Shattered Inventor
+
+tagGDX2EndlessDungeon_NPC_PowerUps01=Callagadra, Scion of the Sands
+
+#Shrines
+tagGDX2EndlessDungeon_Shrine01=Shrine of Azrakaa
+tagGDX2EndlessDungeon_Shrine01_Desc=Make a pact with Azrakaa, granting you Increased Resistance to Slow and Crowd Control effects, but your Critical Strikes are Weakened.
+tagGDX2EndlessDungeon_Shrine01Skill=Azrakaa's Bargain
+tagGDX2EndlessDungeon_Shrine01Skill_Desc=You've made a bargain with Azrakaa, granting you Increased Resistance to Slow and Crowd Control effects, but your Critical Strikes are Weakened.
+
+tagGDX2EndlessDungeon_Shrine02=Shrine of Oleron
+tagGDX2EndlessDungeon_Shrine02_Desc=Fill yourself with OIeron's Bloodlust, granting you Increased Damage, but you become more Vulnerable to Physical attacks.
+tagGDX2EndlessDungeon_Shrine02Skill=Oleron's Bloodlust
+tagGDX2EndlessDungeon_Shrine02Skill_Desc=You are filled with Oleron's Bloodlust, granting you Increased Damage, but you become more Vulnerable to Physical attacks.
+
+tagGDX2EndlessDungeon_Shrine03=Shrine of Rattosh
+tagGDX2EndlessDungeon_Shrine03_Desc=Split your soul between this reality and the one beyond the veil, granting you Increased Resistance against All Damage, but your Health is reduced.
+tagGDX2EndlessDungeon_Shrine03Skill=Rattosh's Veil
+tagGDX2EndlessDungeon_Shrine03Skill_Desc=Your soul becomes split between this reality and the one beyond the veil, granting you Increased Resistance against All Damage, but your Health is reduced.
+
+tagGDX2EndlessDungeon_Shrine04=Shrine of Vire
+tagGDX2EndlessDungeon_Shrine04_Desc=Make your skin as stone, granting you Increased Armor, but at the cost of Offensive Ability.
+tagGDX2EndlessDungeon_Shrine04Skill=Vire's Monolith
+tagGDX2EndlessDungeon_Shrine04Skill_Desc=Your skin becomes as stone, granting you Increased Armor, but at the cost of Offensive Ability.
+
+tagGDX2EndlessDungeon_Shrine05=Shrine of Death
+tagGDX2EndlessDungeon_Shrine05_Desc=Sttike a bargain with death, granting you astonishing Offensive Power and Regeneration, but at the cost of Resistances.
+tagGDX2EndlessDungeon_Shrine05Skill=Mortal Desires
+tagGDX2EndlessDungeon_Shrine05Skill_Desc=You struck a bargain with death, granting you astonishing Offensive Power and Regeneration, but at the cost of Resistances.
+
+
+#Powerups
+tagGDX2EndlessDungeon_Powerup01=Essence of the Shattered Realm
+tagGDX2EndlessDungeon_Powerup01_Desc=You have absorbed a soul of the Shattered Realm, granting you vast power and toughness for a brief period. ^oThis effect stacks up to 5 times, with more stacks possible in higher Shards.
+tagGDX2EndlessDungeon_Powerup02_Desc=You have absorbed a soul of the Shattered Realm, granting you vast power and toughness for a brief period. ^oThis effect stacks up to 8 times, with more stacks possible in higher Shards.
+tagGDX2EndlessDungeon_Powerup03_Desc=You have absorbed a soul of the Shattered Realm, granting you vast power and toughness for a brief period. ^oThis effect stacks up to 9 times, with more stacks possible in higher Shards.
+tagGDX2EndlessDungeon_Powerup04_Desc=You have absorbed a soul of the Shattered Realm, granting you vast power and toughness for a brief period. ^oThis effect stacks up to 10 times.
+
+
+#Items
+tagGDX2EndlessDungeon_Essence_01=Shattered Soul
+tagGDX2EndlessDungeon_Essence_02=Mighty Shattered Soul
+tagGDX2EndlessDungeon_Essence_03=Celestial Shattered Soul
+tagGDX2EndlessDungeon_Essence_04=Overwhelming Shattered Soul
+
+tagGDX2EndlessDungeon_Key_01=Shattered Waystone
+tagGDX2EndlessDungeon_Key_01_Desc=The Shattered Waystone once offered incredible potential. It enables Mazaan to open the way to at least the 5th Shard, up to the 15th Shard, of the Shattered Realm.
+tagGDX2EndlessDungeon_Key_01_Blueprint=Blueprint: Shattered Waystone
+
+tagGDX2EndlessDungeon_Key_02=Resonating Waystone
+tagGDX2EndlessDungeon_Key_02_Desc=The Resonating Waystone shimmers with a fragment of its former power. It enables Mazaan to open the way to at least the 20th Shard, up to the 30th Shard, of the Shattered Realm.
+tagGDX2EndlessDungeon_Key_02_Blueprint=Blueprint: Resonating Waystone
+
+tagGDX2EndlessDungeon_Key_03=Haunted Waystone
+tagGDX2EndlessDungeon_Key_03_Desc=The Haunted Waystone has been infused with the spirits of the dead. It enables Mazaan to open the way to at least the 35th Shard, up to the 45th Shard, of the Shattered Realm.
+tagGDX2EndlessDungeon_Key_03_Blueprint=Blueprint: Haunted Waystone
+
+tagGDX2EndlessDungeon_Key_04=Desecrated Waystone
+tagGDX2EndlessDungeon_Key_04_Desc=The Desecrated Waystone has been anointed in tainted blood. It enables Mazaan to open the way to at least the 50th Shard, up to the 60th Shard, of the Shattered Realm.
+tagGDX2EndlessDungeon_Key_04_Blueprint=Blueprint: Desecrated Waystone
+
+tagGDX2EndlessDungeon_Key_05=Celestial Waystone
+tagGDX2EndlessDungeon_Key_05_Desc=The Celestial Waystone has been fully restored to its divine potential. It enables Mazaan to open the way to at least the 65th Shard, up to the 75th Shard, of the Shattered Realm. ^n^nThis waystone should not be used by the faint of heart.
+tagGDX2EndlessDungeon_Key_05_Blueprint=Blueprint: Celestial Waystone
+
+tagGDX2EndlessDungeon_Key_06=Death's Waystone
+tagGDX2EndlessDungeon_Key_06_Desc=Tainted with the power of death, the Waystone now opens the way forward to unfathomable dangers where no reward awaits but for the glory of conquest. ^n^nIt enables Mazaan to open the way to at least the 80th Shard of the Shattered Realm, and beyond. ^n^nThis waystone should not be used by the faint of heart.
+tagGDX2EndlessDungeon_Key_06_Blueprint=Blueprint: Death's Waystone
+
+tagGDX2ItemTest=Miss Gazer Man
+tagGDX2ItemTestDesc="A crowning achievement in Gazer wear."
+tagGDX2ItemTest2=Mildly Amusing Box
+tagGDX2ItemTest2Desc="Inspired by real life events."
+
+#Traps
+tagGDX2Trap_A01=Frost Pylon
+tagGDX2Trap_A02=Infernal Pylon
+tagGDX2Trap_A03=Death Pylon
+tagGDX2Trap_A04=Toxic Pylon
+tagGDX2Trap_A09=Eldritch Pylon
+
+tagGDX2Trap_A09_Skill01=Eldritch Aura
+tagGDX2Trap_A09_Skill01_Desc=Raw eldritch energies surround this crystal, empowering your enemies and harming you.
+
+
+#Notifications
+tagGDX2Notification_FloorActive=Gather Shattered Souls from your Foes
+tagGDX2Notification_FloorFinished=Proceed to the next Portal
+tagGDX2Notification_BossActive=Eliminate all Enemies
+tagGDX2Notification_BossFinished=Speak to Mazaan to Proceed
+tagGDX2Notification_Reward=Your Reward awaits you beyond the next Portal
+tagGDX2Notification_Reset=(Optional) Speak to Mazaan within the Conclave of the Three for another attempt
+
+tagGDX2Notification_ArkovianPrison_01=A nearby Portcullis opens!
+tagGDX2Notification_TreasureTrap_01=A soul manifests nearby!
+tagGDX2Notification_Special=Something seems to have gone wrong...
+tagGDX2Notification_Special02=You hear the sound of stone shifting nearby...
+
+
+#Doors
+tagGDX2EndlessDungeonEntrance=Portal to the Shattered Realm
+tagGDX2EndlessDungeonFloorEntrance=Shattered Realm Portal
+tagGDX2EndlessDungeonNextFloor=Proceed Further
+tagGDX2EndlessDungeonTreasureRoom=Portal to Eternal Wealth
+tagGDX2EndlessDungeonExit=Escape to Cairn
+
+
+#Rewards
+tagGDX2Item_ChestA01=Journeyman's Chest
+tagGDX2Item_ChestB01=Champion's Chest
+tagGDX2Item_ChestC01=Triumphant Chest
+tagGDX2Item_ChestD01=Ornate Chest
+tagGDX2Item_ChestE01=Heroic Chest
+tagGDX2Item_ChestF01=Valorous Chest
+tagGDX2Item_ChestG01=Grand Chest
+tagGDX2Item_ChestH01=Supreme Chest
+tagGDX2Item_ChestI01=Magnificent Chest
+tagGDX2Item_ChestJ01=Glorious Chest
+tagGDX2Item_ChestK01=Transcendent Chest
+tagGDX2Item_ChestL01=Nemesis Trove
+tagGDX2Item_ChestM01=Ascended Trove
+tagGDX2Item_ChestN01=Eldritch Trove
+tagGDX2Item_ChestO01=Celestial Trove
+tagGDX2Item_ChestP01=Primordial Trove
+tagGDX2Item_ChestQ01=Eternal Trove
+
+tagGDX2Item_SpecialChestA01=Secrets of the Shattered Realms
+tagGDX2Item_SpecialChestA02=Gifts of the Shattered Realms
+

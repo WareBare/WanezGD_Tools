@@ -6,7 +6,7 @@
 
 ---
 
-# v0.4.0 - Improved Visuals
+# v0.4.0 - New Toys
 
 - ***New Feature:*** Special Highlighting
   * Improve visibility of Items & Affixes with the new feature by using a new color or symbol.
@@ -14,7 +14,11 @@
 - ***New Feature:*** Mastery Marker ([as result of a request](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/299))
   * Adds Mastery Name after their respective Skill Names on items.
   * Also allows coloring and support of Special Highlighting for Skill Names.
+  * Post for more information can be found on the [official Grim Dawn Forums](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/361).
 - ***New Preset:*** Added a new `Clean Preset` for those that only want to highlight their "Special Items & Affixes".
+- ***New/Changed:*** Rainbow Tool behavior changes and Version Numbers will now be visible in-game. ([More information at this forum post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/361))
+- ***New:*** The tool can now check if Grim Dawn is running, this allows for better error handling.
+- ***BugFix:*** Implemented a workaround for an error concerning `ArchiveTool.exe`. [Forum Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/349)
 - ***BugFix:*** Items from 1.1.5.0 will show up according to information on GrimTools.
 
 
@@ -50,6 +54,14 @@
 Tool updates itself, keep in mind colors need to be changed manually after it has finished updating.
 
 You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.3.4).
+
+## Rainbow Tool updated to v0.4.0
+
+*Tool updates itself, if you don't have the tool yet, you can find the link in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.0).*
+
+If you cannot see the new sections (Special Highlighting/Mastery Marker) upon loading the new version for the first time, try a reload (F5).
+
+There is a potential fix for [a reported error](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/349), however, since I cannot reproduce it, I cannot test it.
 
 # New Feature "Special Highlighting" (Post)
 
@@ -96,23 +108,37 @@ In the future you will see all information you can hope for with complete langua
 
 # New Feature "Mastery Marker" & "Versioning" (Post)
 
+*Second and last preview for v0.4.0. I plan on uploading the new version over the weekend.*
+
 ## Mastery Marker
 
-As mentioned in a previous post I'm working on new Rainbow Tool features and as such adding a Mastery text after the skill name as [requested some time ago](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/299). The uploaded preset files won't have these texts added, because I don't intend to force it on anyone who doesn't want it.
+As mentioned in a previous post, I'm currently working on new Rainbow Tool features and as such adding a Mastery text after the skill name as [requested some time ago](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/299). The uploaded preset files won't have these texts added, because I don't intend to force it on anyone who doesn't want it.
 
-You can find the new section <kbd>Mastery Marker</kbd> on the left hand side navigation and make all the wanted changes from there. The possible options currently are the Mastery Name after the Skill Name and the usual colors. It is possible to use both, one of the two or neither. This is a global setting, which means the program will save your selections alongside any selected Filter. Global availability also means `Special Highlighting` will affect Skill Texts and they take priority over colors set inside the `Mastery Marker`.
+You can find the new section <kbd>Mastery Marker</kbd> on the left hand side navigation and make all the wanted changes from there. The possible options currently are the Mastery Name after the Skill Name and the usual colors. It is possible to use both, one of the two or neither. This is a global setting, which means the program will save your selections alongside any selected Filter. Global availability also means `Special Highlighting` will affect Skill Texts and they'll take priority over colors set inside the `Mastery Marker`.
 
 **Note:** Coloring only affects your active Masteries, the game overrides inactive Masteries in grey.
 
-[ScreenShots]
+[details="Screenshot"]
+![Tools_040_RainbowScreenshot-MasteryMarker_01|438x500](upload://kXf4HePpHwEAWTWAe9euTOYlaVm.jpeg) 
+[/details]
 
+---
 ## Versioning
 
 A Version number for `Rainbow Tool` and the targeted `Grim Dawn release` will be shown on the ToolTip for the button opening the in-game Filter Window. This should make it easier to keep track of the currently active version and allow everyone to check if their update worked as planned.
 
-[ScreenShots]
+[details="Screenshot"]
+![Tools_040_RainbowScreenshot-Versioning_01|459x263](upload://kbNfjUktSUQqVbltVpLgBRCuiD8.jpeg) 
+[/details]
 
+---
+## Program Overhaul
 
+`Wanez Tools` got a new look, the default window frame is part of the past and it will now be minimized to System Tray as  many other programs do when using the close button inside the app. However, there is a difference to most apps out there. The different ways to close a program in windows are still viable, which means you can quickly close Rainbow Tool with Alt+F4 if you don't want to click on `Quit` inside the Tray Menu.
+
+If you're wondering why you would want the program to continue running after creating your filter... . Well, things might change with some new features in the future or have already changed with the addition of `Special Highlighting`. You will also be able to start the game with v0.4.0. Starting the game is also possible through the Tray Menu.
+
+***Note:*** Starting the game will try doing so with Grim Internals first, if no Grim Internals was possible to run, it then starts the regular game. *(Let me know of any issues)*
 
 
 

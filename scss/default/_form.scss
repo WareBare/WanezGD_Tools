@@ -304,8 +304,7 @@
             label{
                 padding: 2px;
                 cursor: pointer;
-                border-width: 1px;
-                border-color: #5F5F5F;
+                border: 1px solid #5F5F5F;
                 
                 display: inline-block;
                 background: $gradientLabel-001;
@@ -320,23 +319,23 @@
                     height: 12px;
                     width: 12px;
                     margin: 1px;
-                    border-width: 1px;
+                    border: 1px solid #000000;
+                    //border-width: 1px;
                     cursor: pointer;
                     margin: 10px 0 0 0;
                     display: block;
                     height: 10px;
                     width: 15px;
-                    border-color: #000000;
                     padding: 2px 0 2px 0;
                     margin-left: -2px;
                 
                 }
                 input[type="radio"]{
                     display: none;
-                    border-color: #000000;
+                    border: 1px solid #000000;
                 }
                 input[type="radio"]:CHECKED{
-                    border-color: #FFFFFF;
+                    border: 1px solid #FFFFFF;
                 }
                 input[disabled]{
                     cursor: default;

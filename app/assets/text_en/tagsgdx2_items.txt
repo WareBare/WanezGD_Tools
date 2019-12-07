@@ -1,0 +1,1283 @@
+
+#Weapons
+tagGDX2WeaponSwordB201=Korvaak's Burning-Blade
+tagGDX2WeaponSwordB201_Desc="Bestowed by Korvaak upon his loyal chosen to command lesser minions."
+tagGDX2WeaponSwordB202=Korvaak's Storm-Blade
+tagGDX2WeaponSwordB202_Desc="Bestowed by Korvaak upon his loyal chosen to shatter enemy lines."
+tagGDX2WeaponSwordB203=Kymon's Sanctified Blade
+tagGDX2WeaponSwordB203_Desc="Sanctified in Korvaak's blood and bestowed upon his champion."
+tagGDX2WeaponSwordB204=Bloodlord's Vengeance
+
+tagGDX2WeaponSwordC201=Flame's Virtue
+
+tagGDX2WeaponSwordD201=Scion of Noxious Wounds
+tagGDX2WeaponSwordD201_Desc="The venom infused within this blade reeks of rot and bile."
+tagGDX2WeaponSwordD202=Soulblade
+tagGDX2WeaponSwordD205=Chillheart
+tagGDX2WeaponSwordD205_Desc="The words 'stuck in another reality, please send help' are hastily etched into the hilt."
+tagGDX2WeaponSwordD206=Dunefiend's Blade
+tagGDX2WeaponSwordD207=Dunefiend's Slicer
+
+tagGDX2WeaponSwordF201=Bysmiel Blade
+tagGDX2WeaponSwordF202=Solael Slicer
+tagGDX2WeaponSwordF203=Bloodrender
+
+
+tagGDX2WeaponBluntB201=Scorpius Pummeler
+tagGDX2WeaponBluntB202=Scorpius Bludgeon
+tagGDX2WeaponBluntB203=Gannar'vakkar's Sting
+tagGDX2WeaponBluntB204=Bargoll's Root
+tagGDX2WeaponBluntB204Desc="Bargoll's roots hungrily seek out sources of magic."
+
+tagGDX2WeaponBluntC201=Kalastorian Gavel
+
+tagGDX2WeaponBluntD201=Gavel of Ravenous Souls
+tagGDX2WeaponBluntD202=Herald of Amatok
+tagGDX2WeaponBluntD203=Targo's Mallet
+tagGDX2WeaponBluntD204=Totally Normal Buckler
+tagGDX2WeaponBluntD205=Totally Normal Dawnshard
+tagGDX2WeaponBluntD206=Totally Normal Bulwark
+
+tagGDX2WeaponBluntF201=Bysmiel Warhammer
+tagGDX2WeaponBluntF202=Solael Warhammer
+tagGDX2WeaponBluntF203=Bysmiel's Grasp
+
+
+tagGDX2WeaponAxeB201=Sandclaw Slicer
+tagGDX2WeaponAxeB202=Moltenclaw Slicer
+tagGDX2WeaponAxeB203=Riftclaw Slicer
+tagGDX2WeaponAxeB204=Boneslicer
+tagGDX2WeaponAxeB205=Servitor's Cleaver
+
+tagGDX2WeaponAxeC201=Veil's Edge
+
+tagGDX2WeaponAxeD201=Cinderscorn
+tagGDX2WeaponAxeD202=Scion of Crimson Wakes
+tagGDX2WeaponAxeD202_Desc="The very air ripples around the edge of this weapon's intense heat."
+
+tagGDX2WeaponAxeF201=Bysmiel Cleaver
+tagGDX2WeaponAxeF202=Dreeg Cleaver
+tagGDX2WeaponAxeF203=Corruptian
+
+
+tagGDX2WeaponGun1hB201=Viper Sandspitter
+tagGDX2WeaponGun1hB202=Viper Hemorrhager
+tagGDX2WeaponGun1hB203=Ugdenbog Repeater
+tagGDX2WeaponGun1hB103Desc="Infused with the spirit of the Wendigo."
+
+tagGDX2WeaponGun1hC201=Desert Sting
+tagGDX2WeaponGun1hC202=Shadowspine Enforcer
+
+tagGDX2WeaponGun1hD201=Scion of Burning Vengeance
+tagGDX2WeaponGun1hD202=Oathbearer
+tagGDX2WeaponGun1hD202_Desc="Marked by oaths unbroken, released by death."
+tagGDX2WeaponGun1hD203=Arcanum Frigus
+tagGDX2WeaponGun1hD204=Ludrigan's Sidearm
+
+tagGDX2WeaponGun1hF201=Bysmiel Handcannon
+tagGDX2WeaponGun1hF202=Dreeg Handcannon
+tagGDX2WeaponGun1hF203=Bloodborer
+
+tagGDX2WeaponGun2hB201=Messenger's Repeater
+tagGDX2WeaponGun2hB201_Desc="Each bolt a herald of Korvaak's destructive vengeance."
+tagGDX2WeaponGun2hB202=Messenger's Blaze Cannon
+tagGDX2WeaponGun2hB202_Desc="Each bolt a herald of Korvaak's burning vengeance."
+tagGDX2WeaponGun2hB203=Ugdenbog Flamethrower
+
+tagGDX2WeaponGun2hC201=Sangvinar
+
+tagGDX2WeaponGun2hD201=Korvan Wyrm
+tagGDX2WeaponGun2hD201_Desc="The great wyrm turns all it touches to ash."
+tagGDX2WeaponGun2hD202=Soullance
+tagGDX2WeaponGun2hD202_Desc="Each shot infused with the eternal torment of a Korvan soul."
+
+tagGDX2WeaponGun2hF201=Dreeg Arbalest
+tagGDX2WeaponGun2hF202=Solael Arbalest
+tagGDX2WeaponGun2hF203=Solael's Devourer
+
+
+tagGDX2WeaponMelee2hB201=Korvan Burning Halberd
+tagGDX2WeaponMelee2hB202=Korvan Storm Halberd
+tagGDX2WeaponMelee2hB203=Steward's Halberd
+tagGDX2WeaponMelee2hB203_Desc="Teeming with the impossible power of the stars themselves."
+tagGDX2WeaponMelee2hB204=Barthollem's Gavel
+tagGDX2WeaponMelee2hB205=Korvan Eldritch Halberd
+tagGDX2WeaponMelee2hB206=Korvan Reaping Halberd
+tagGDX2WeaponMelee2hB207=Korvan Celestial Halberd
+tagGDX2WeaponMelee2hB207_Desc="The edge of the blade starves for something to consume."
+
+tagGDX2WeaponMelee2hC201=Revenant's Edge
+tagGDX2WeaponMelee2hC202=Bladefury
+tagGDX2WeaponMelee2hC203=Morgoneth's Wrath
+tagGDX2WeaponMelee2hC203_Desc="Mighty hammer wielded by Morgoneth before his fall to darkness."
+
+tagGDX2WeaponMelee2hD201=Dreegal'anore
+tagGDX2WeaponMelee2hD201_Desc="Prized weapon of Athul the Plagued, second champion of the Great Guardian."
+tagGDX2WeaponMelee2hD202=Nadaan's Reach
+tagGDX2WeaponMelee2hD202_Desc="Legendary blade forged in honor of the patron of thieves and assassins, wielded by countless nightblades over centuries before becoming lost to the ages."
+tagGDX2WeaponMelee2hD203=Wrath of Tenebris
+tagGDX2WeaponMelee2hD203_Desc="The Lifestealer of Tenebris, the Blood Drinker, sanctified in the heart of the void."
+tagGDX2WeaponMelee2hD204=Nightbringer
+tagGDX2WeaponMelee2hD204_Desc="Great weapon of Morgoneth, forged within a dying star."
+
+tagGDX2WeaponMelee2hF201=Dreeg Greatsword
+tagGDX2WeaponMelee2hF202=Solael Beheader
+tagGDX2WeaponMelee2hF203=Rancor
+tagGDX2WeaponMelee2hF203_Desc="The blade rumored to have been wielded by Dreeg in his mortal lifetime."
+tagGDX2WeaponMelee2hF204=Spite
+tagGDX2WeaponMelee2hF204_Desc="Fang of the Cult of Dreeg."
+
+tagGDX2WeaponCaster1hB201=Segarius' Tainted Blade
+tagGDX2WeaponCaster1hB201_Desc="A once sacred blade, tainted by the touch of the void."
+tagGDX2WeaponCaster1hB202=Segarius' Sacred Blade
+tagGDX2WeaponCaster1hB202_Desc="A sacred blade handed down by Father Kymon himself."
+tagGDX2WeaponCaster1hB203=Crimson's Vile Scepter
+tagGDX2WeaponCaster1hB204=Crimson's Arcane Scepter
+tagGDX2WeaponCaster1hB205=Ascendant Authority
+
+tagGDX2WeaponCaster1hC201=Twilight's Veil
+tagGDX2WeaponCaster1hC202=Alakrian's Invoker
+tagGDX2WeaponCaster1hC202_Desc="Alakrian's unorthodox practice of turning life essence into raw arcane force was not met with much enthusiasm at the Gildam Arcanum."
+
+tagGDX2WeaponCaster1hD201=Alladrah's Spellblade
+tagGDX2WeaponCaster1hD201_Desc="A single phoenix feather forms the core of this blade."
+tagGDX2WeaponCaster1hD202=Decree of the Circle of Five
+tagGDX2WeaponCaster1hD202_Desc="Their will, their voice, their command..."
+tagGDX2WeaponCaster1hD203=Scion of Bitter Winds
+tagGDX2WeaponCaster1hD203_Desc="The scepter echoes with the bitter winds of a mountain pass."
+tagGDX2WeaponCaster1hD204=Empyrion's Mercy
+tagGDX2WeaponCaster1hD205=Chillwhisper Blade
+tagGDX2WeaponCaster1hD206=Judgment of the Three
+tagGDX2WeaponCaster1hD207=Blightlord's Carver
+
+tagGDX2WeaponCaster1hF201=Bysmiel Stormbreaker
+tagGDX2WeaponCaster1hF202=Bysmiel Soulbreaker
+tagGDX2WeaponCaster1hF203=Dreeg Veilweaver
+tagGDX2WeaponCaster1hF204=Dreeg Venomweaver
+tagGDX2WeaponCaster1hF205=Solael Flamebearer
+tagGDX2WeaponCaster1hF206=Solael Bloodweaver
+tagGDX2WeaponCaster1hF207=Bysmiel's Mindweaver
+tagGDX2WeaponCaster1hF208=Vampirris
+
+
+
+#Shields
+tagGDX2ShieldB201=Scarab Shell
+tagGDX2ShieldB202=Scarab Carapace
+tagGDX2ShieldB203=Colossal Defender
+tagGDX2ShieldB204=Fleshwarped Defender
+tagGDX2ShieldB205=Obsidian Defender
+
+tagGDX2ShieldC201=Stormguard
+tagGDX2ShieldC201_Desc="Brimming with the captured power of a mighty thunderstorm."
+tagGDX2ShieldC202=Watcher of the Frozen North
+tagGDX2ShieldC203=Stonefather Bulwark
+
+tagGDX2ShieldD201=Bramblevine
+tagGDX2ShieldD202=Gravetouch
+tagGDX2ShieldD203=Virtue's Defender
+tagGDX2ShieldD204=Defender of the Three
+tagGDX2ShieldD205=Voidsoul Bulwark
+
+tagGDX2ShieldF201=Bysmiel Defender
+tagGDX2ShieldF202=Dreeg Protector
+tagGDX2ShieldF203=Occulant
+
+
+
+#Focus
+tagGDX2FocusB201=Groble Sand Effigy
+tagGDX2FocusB202=Groble Vile Effigy
+tagGDX2FocusB203=Compelled Wraith
+tagGDX2FocusB204=Coerced Wraith
+tagGDX2FocusB205=Zarthuzellan's Archive
+
+tagGDX2FocusC201=Codex of Reckoning
+tagGDX2FocusC202=Manifestarius
+tagGDX2FocusC203=Festerblaze Tome
+tagGDX2FocusC204=Fewmets of the Questing Beast
+tagGDX2FocusC204_Desc="This certainly is a lot of...excitement."
+
+tagGDX2FocusD201=Judgment of Empyrion
+tagGDX2FocusD201_Desc="A source of power once contained within the Spire of Empyrion, the location of which has become lost to time."
+tagGDX2FocusD202=Grasp of the Dead
+tagGDX2FocusD203=Codex of Violent Rifts
+tagGDX2FocusD204=Tome of Atonement
+tagGDX2FocusD204_Desc="Atonement through action."
+tagGDX2FocusD205=Inashkor's Head
+tagGDX2FocusD205_Desc="The mighty guardian of the Korvan people may have fallen, but its power remains eerily intact."
+tagGDX2FocusD206=Cyclone Effigy
+tagGDX2FocusD207=Inashkor's Corrupted Head
+tagGDX2FocusD207_Desc="The mighty guardian of the Korvan people fell to a Chthonian invader, its once glorious power forever tainted by the void."
+tagGDX2FocusD208=Pyran's Effigy
+tagGDX2FocusD209=Jarinthor's Head
+tagGDX2FocusD209_Desc="The head of the guardian of Korvan history best left forgotten."
+tagGDX2FocusD210=Hallanx's Head
+tagGDX2FocusD210_Desc="Though made of stone, the head of the guardian reeks of decay."
+
+tagGDX2FocusF201=Bysmiel Veilfire Effigy
+tagGDX2FocusF202=Bysmiel Tainted Effigy
+tagGDX2FocusF203=Dreeg Soulbearer Tome
+tagGDX2FocusF204=Dreeg Veilweaver Tome
+tagGDX2FocusF205=Solael Skyweaver Tome
+tagGDX2FocusF206=Solael Void Tome
+tagGDX2FocusF207=Word of Solael
+tagGDX2FocusF207_Desc="The cruel words of Solael, as passed down to his priests."
+
+
+
+#ArmorHead
+tagGDX2HeadB201=Chosen Visage
+tagGDX2HeadB202=Chosen Mask
+tagGDX2HeadB203=Korvan Casque
+tagGDX2HeadB204=Korvan Helm
+tagGDX2HeadB205=Chosen Gaze
+tagGDX2HeadB206=Korvan Gaze
+tagGDX2HeadB207=Gargoyle Visage
+tagGDX2HeadB208=Gargoyle Gaze
+tagGDX2HeadB209=Magi Visage
+
+tagGDX2HeadC201=Skytear Hat
+tagGDX2HeadC202=Crown of Infernal Gems
+tagGDX2HeadC203=Fiendbinder's Hood
+tagGDX2HeadC204=Fettan Mask
+tagGDX2HeadC204_Desc="The owner of this remarkable helm seems to have been slowly consumed over thousands of years."
+tagGDX2HeadC205=Baldir's Mask
+tagGDX2HeadC206=Stormserpent Mask
+tagGDX2HeadC207=Festerblaze Mask
+tagGDX2HeadC208=Daega's Hood
+tagGDX2HeadC209=Stonefather Helm
+tagGDX2HeadC210=Callagadra's Gaze
+tagGDX2HeadC210_Desc="Manifestation of the terror of the Korvan people as they fled devastation."
+
+tagGDX2HeadD201=Dawnshard Gaze
+tagGDX2HeadD201_Desc="Forged from the purest shard of soladrin crystal."
+tagGDX2HeadD202=Crown of the Revenant King
+tagGDX2HeadD202_Desc="Death bows before its king."
+tagGDX2HeadD203=Soulare's Helm
+tagGDX2HeadD203_Desc="The sun is just so grossly incandescent."
+tagGDX2HeadD204=Horns of Korvaak
+tagGDX2HeadD204_Desc="The horns of the Celestial Lord of the Eldritch Realm."
+tagGDX2HeadD205=Okaloth's Visage
+tagGDX2HeadD206=Shattered Realm Mask
+tagGDX2HeadD207=Vanquisher's Helm
+tagGDX2HeadD208=Chillwhisper Crown
+tagGDX2HeadD209=Ludrigan's Hat
+tagGDX2HeadD210=Bonemonger's Hood
+tagGDX2HeadD211=Virtue's Gaze
+tagGDX2HeadD212=Harra's Hood
+tagGDX2HeadD213=Cyclone Mask
+tagGDX2HeadD214=Blightlord's Hood
+tagGDX2HeadD215=Callagadra's Visage
+tagGDX2HeadD215_Desc="Manifestation of the terror of the Korvan people as they fled devastation."
+tagGDX2HeadD216=Dunefiend's Mask
+tagGDX2HeadD217=Pyran's Visage
+tagGDX2HeadD218=Targo's Helm
+tagGDX2HeadD219=Voidsoul Visage
+tagGDX2HeadD220=Rotgheist Mask
+tagGDX2HeadD221=Morgoneth's Visage
+
+tagGDX2HeadF201=Bysmiel Nightshroud Casque
+tagGDX2HeadF202=Bysmiel Dread Hood
+tagGDX2HeadF203=Bysmiel Stormshroud Headguard
+tagGDX2HeadF204=Bysmiel Flameshroud Headguard
+tagGDX2HeadF205=Dreeg Dread Casque
+tagGDX2HeadF206=Dreeg Combatant Casque
+tagGDX2HeadF207=Dreeg Venomshroud Hood
+tagGDX2HeadF208=Dreeg Defender Headguard
+tagGDX2HeadF209=Solael Combatant Casque
+tagGDX2HeadF210=Solael Void Hood
+tagGDX2HeadF211=Solael Black Flame Hood
+tagGDX2HeadF212=Solael Vile Headguard
+
+
+
+#ArmorShoulders
+tagGDX2ShoulderB201=Chosen Spaulders
+tagGDX2ShoulderB202=Chosen Epaulets
+tagGDX2ShoulderB203=Korvan Pauldrons
+tagGDX2ShoulderB204=Korvan Spaulders
+tagGDX2ShoulderB205=Gargoyle Spines
+tagGDX2ShoulderB206=Magi Mantle
+
+tagGDX2ShoulderC201=Cindervein Mantle
+tagGDX2ShoulderC202=Dustbrawler's Shoulderguards
+tagGDX2ShoulderC203=Baldir's Mantle
+tagGDX2ShoulderC204=Festerblaze Mantle
+tagGDX2ShoulderC205=Daega's Mantle
+
+tagGDX2ShoulderD201=Dawnshard Pauldrons
+tagGDX2ShoulderD201_Desc="Forged from the purest shard of soladrin crystal."
+tagGDX2ShoulderD202=Bonewraith Pauldrons
+tagGDX2ShoulderD203=Rimeforged Mantle
+tagGDX2ShoulderD204=Shattered Realm Mantle
+tagGDX2ShoulderD205=Vanquisher's Mantle
+tagGDX2ShoulderD206=Chillwhisper Mantle
+tagGDX2ShoulderD207=Bonemonger's Shoulderguard
+tagGDX2ShoulderD208=Virtue's Guard
+tagGDX2ShoulderD209=Shoulderguard of the Three
+tagGDX2ShoulderD210=Harra's Shoulderguards
+tagGDX2ShoulderD211=Cyclone Mantle
+tagGDX2ShoulderD212=Rah'Zin's Shoulderguards
+tagGDX2ShoulderD213=Blightlord's Mantle
+tagGDX2ShoulderD214=Ghol's Mantle
+tagGDX2ShoulderD215=Pyran's Mantle
+tagGDX2ShoulderD216=Targo's Shoulderguard
+tagGDX2ShoulderD217=Voidsoul Mantle
+tagGDX2ShoulderD218=Rotgheist Shoulderguard
+tagGDX2ShoulderD219=Morgoneth's Dark Mantle
+
+tagGDX2ShoulderF201=Bysmiel Arcane Spaulders
+tagGDX2ShoulderF202=Bysmiel Stormshroud Mantle
+tagGDX2ShoulderF203=Bysmiel Defender Pauldrons
+tagGDX2ShoulderF204=Bysmiel Flameshroud Pauldrons
+tagGDX2ShoulderF205=Dreeg Dread Spaulders
+tagGDX2ShoulderF206=Dreeg Combatant Spaulders
+tagGDX2ShoulderF207=Dreeg Vile Mantle
+tagGDX2ShoulderF208=Dreeg Venomshroud Pauldrons
+tagGDX2ShoulderF209=Solael Combatant Spaulders
+tagGDX2ShoulderF210=Solael Bloodshroud Mantle
+tagGDX2ShoulderF211=Solael Black Flame Mantle
+tagGDX2ShoulderF212=Solael Vile Pauldrons
+
+
+
+#ArmorTorso
+tagGDX2TorsoB201=Chosen Robes
+tagGDX2TorsoB201_Desc="The robes are interwoven with stolen powers from Korvaak's many foes."
+tagGDX2TorsoB202=Chosen Raiment
+tagGDX2TorsoB203=Korvan Plating
+tagGDX2TorsoB204=Korvan Armor
+tagGDX2TorsoB205=Magi Armor
+
+tagGDX2TorsoC201=Cortosian Chestguard
+tagGDX2TorsoC202=Runeforged Chestguard
+tagGDX2TorsoC203=Baldir's Armor
+tagGDX2TorsoC204=Stormserpent Armor
+tagGDX2TorsoC205=Festerblaze Vestments
+tagGDX2TorsoC206=Daega's Raiment
+tagGDX2TorsoC207=Stonefather Armor
+
+tagGDX2TorsoD201=Dawnshard Hauberk
+tagGDX2TorsoD201_Desc="Forged from the purest shard of soladrin crystal."
+tagGDX2TorsoD202=Vestments of Severed Faith
+tagGDX2TorsoD202_Desc="Disillusioned by the broken promises of the Menhirian Priesthood, Thalia had found a different voice that answered her prayers."
+tagGDX2TorsoD203=Heart of Yugol
+tagGDX2TorsoD203_Desc="Darkness made manifest, the vile heart beats in tune with the celestial tapestry."
+tagGDX2TorsoD204=Shattered Realm Armor
+tagGDX2TorsoD205=Vanquisher's Armor
+tagGDX2TorsoD206=Chillwhisper Vestments
+tagGDX2TorsoD207=Ludrigan's Jacket
+tagGDX2TorsoD208=Bonemonger's Chestguard
+tagGDX2TorsoD209=Virtue's Armor
+tagGDX2TorsoD210=Armor of the Three
+tagGDX2TorsoD211=Harra's Chestguard
+tagGDX2TorsoD212=Rah'Zin's Armor
+tagGDX2TorsoD213=Ghol's Raiment
+tagGDX2TorsoD214=Dunefiend's Jacket
+tagGDX2TorsoD215=Pyran's Vestments
+tagGDX2TorsoD216=Targo's Chestguard
+tagGDX2TorsoD217=Voidsoul Armor
+tagGDX2TorsoD218=Rotgheist Chestguard
+tagGDX2TorsoD219=Morgoneth's Black Heart
+
+tagGDX2TorsoF201=Bysmiel Nightshroud Chestguard
+tagGDX2TorsoF202=Bysmiel Vile Vestments
+tagGDX2TorsoF203=Bysmiel Stormshroud Cuirass
+tagGDX2TorsoF204=Bysmiel Flameshroud Cuirass
+tagGDX2TorsoF205=Dreeg Dread Chestguard
+tagGDX2TorsoF206=Dreeg Combatant Chestguard
+tagGDX2TorsoF207=Dreeg Arcane Vestments
+tagGDX2TorsoF208=Dreeg Defender Cuirass
+tagGDX2TorsoF209=Solael Combatant Chestguard
+tagGDX2TorsoF210=Solael Void Vestments
+tagGDX2TorsoF211=Solael Black Flame Vestments
+tagGDX2TorsoF212=Solael Vile Cuirass
+
+
+
+#ArmorHands
+tagGDX2HandsB201=Plagueguard Grips
+tagGDX2HandsB202=Emberguard Gauntlets
+
+tagGDX2HandsC201=Turin's Grips
+tagGDX2HandsC201_Desc="Gauntlets of Turin, Shieldbreaker of Ikon, who perished in the service of Empyrion."
+tagGDX2HandsC202=Deathrite Handguards
+tagGDX2HandsC203=Fewmet Grips
+tagGDX2HandsC203_Desc="These are certainly...effective at containing excitement."
+tagGDX2HandsC204=Vilescorn Bracers
+
+tagGDX2HandsD201=Voidrend Talons
+tagGDX2HandsD201_Desc="Dipped in the bleeding heart of a rylok."
+tagGDX2HandsD202=Dawnshard Grip
+tagGDX2HandsD202_Desc="Forged from the purest shard of soladrin crystal."
+tagGDX2HandsD203=Sandreaver Bracers
+tagGDX2HandsD203_Desc="The bearer of these gloves has spilled blood upon the endless sands more times than could be counted."
+tagGDX2HandsD204=Ghol's Reach
+tagGDX2HandsD205=Morgoneth's Grip
+
+
+
+#ArmorLegs
+tagGDX2LegsB201=Stormguard Leggings
+tagGDX2LegsB202=Rimeguard Chausses
+
+tagGDX2LegsC201=Vilescorn Legplates
+tagGDX2LegsC202=Astral Legwraps
+
+tagGDX2LegsD201=Rimestone Legguards
+tagGDX2LegsD202=Runebrand Legwraps
+tagGDX2LegsD203=Leggings of Arcane Currents
+tagGDX2LegsD204=Morgoneth's Legplates
+
+
+
+#ArmorFeet
+tagGDX2FeetC201=Turin's Step
+tagGDX2FeetC201_Desc="Turin, Shieldbreaker of Ikon, took his final bloodied steps bearing these boots in the service of Empyrion."
+tagGDX2FeetC202=Rift-Torn Greaves
+tagGDX2FeetC203=Vilescorn Greaves
+
+tagGDX2FeetD201=Boots of Primordial Rage
+tagGDX2FeetD202=Stonetreaders
+tagGDX2FeetD203=Amatok's Step
+tagGDX2FeetD203_Desc="Blessed upon a frozen peak when Amatok's star was visible in the night sky."
+tagGDX2FeetD204=Deathwalker's Grace
+tagGDX2FeetD205=Morgoneth's Step
+
+
+
+#ArmorWaist
+tagGDX2WaistB201=Gargoyle Girdle
+tagGDX2WaistB202=Gargoyle Waistguard
+
+tagGDX2WaistC201=Steelheart Girdle
+tagGDX2WaistC202=Fiendleather Girdle
+tagGDX2WaistC203=Stormserpent Loop
+
+tagGDX2WaistD201=Storm Shepherd
+tagGDX2WaistD202=Crimson Lotus
+tagGDX2WaistD202_Desc="Brand of the Crimson Lotus, who would see the world consumed in flame."
+tagGDX2WaistD203=Chains of Nightfire
+tagGDX2WaistD204=White Lotus
+tagGDX2WaistD204_Desc="Brand of the White Lotus, caretakers of the celestial flower that blooms within the Korvan lands."
+tagGDX2WaistD205=Nosferattis
+tagGDX2WaistD206=Rah'Zin's Waistguard
+tagGDX2WaistD207=Murmur's Kiss
+tagGDX2WaistD208=Pack of Deadly Means
+tagGDX2WaistD208_Desc="Rumored to have once belonged to the nightblade Nidalla, each vial is filled with a unique toxin. Some can even be combined to create entirely different results."
+tagGDX2WaistD209=String of Maggots
+tagGDX2WaistD209_Desc="A proud trophy of conquests."
+
+tagGDX2WaistF201A=Bysmiel Lethal Waistguard
+tagGDX2WaistF201B=Bysmiel Lethal Girdle
+tagGDX2WaistF202A=Dreeg Venomspine Waistguard
+tagGDX2WaistF202B=Dreeg Venomspine Girdle
+tagGDX2WaistF203A=Solael Vile Waistguard
+tagGDX2WaistF203B=Solael Vile Girdle
+
+
+
+#Rings
+tagGDX2RingB201=Creeping Ring
+
+tagGDX2RingC201=Crimsonbriar Band
+tagGDX2RingC202=Veilwarden Band
+tagGDX2RingC203=Seal of Sethris
+tagGDX2RingC203_Desc="One of the seven seals of the Korvan Magi. A trinket to mark their status among the Korvan people."
+tagGDX2RingC204=Seal of Orissia
+tagGDX2RingC205=Seal of Anubar
+tagGDX2RingC206=Seal of Tawrot
+tagGDX2RingC207=Seal of Basti
+tagGDX2RingC208=Seal of Shuroth
+tagGDX2RingC209=Seal of Khonsar
+
+tagGDX2RingD201=Menhirian
+tagGDX2RingD201_Desc="Sigil of the Temple of Menhir, bestowed upon its most zealous followers."
+tagGDX2RingD202=Light's Oath
+tagGDX2RingD203=Yugol's Ichor
+tagGDX2RingD203_Desc="Dripping with darkness that threatens to consume your flesh."
+tagGDX2RingD204=Band of the Eternal Pyre
+tagGDX2RingD205=Glyph of the Storm Witch
+tagGDX2RingD206=Bysmiel's Authority
+tagGDX2RingD207=Bysmiel's Influence
+tagGDX2RingD208=Ring of Sethris
+tagGDX2RingD208_Desc="One of the seven rings of the Korvan Magi. By its power, the magi were bound to darkness."
+tagGDX2RingD209=Ring of Orissia
+tagGDX2RingD210=Ring of Anubar
+tagGDX2RingD211=Ring of Tawrot
+tagGDX2RingD212=Ring of Basti
+tagGDX2RingD213=Ring of Shuroth
+tagGDX2RingD214=Ring of Khonsar
+tagGDX2RingD215=Prime Ring of Morgoneth
+tagGDX2RingD215_Desc="The Ring of Grand Magus Morgoneth whispers to you in a cursed tongue. Through this ring, Morgoneth's command over the other magi was said to be absolute."
+
+tagGDX2RingF201=Bysmiel Vile Seal
+tagGDX2RingF202=Bysmiel Chilling Seal
+tagGDX2RingF203=Dreeg Venom Seal
+tagGDX2RingF204=Dreeg Blade Seal
+tagGDX2RingF205=Solael Stormfire Seal
+tagGDX2RingF206=Solael Warped Seal
+
+
+
+#Necklaces
+tagGDX2NecklaceB200=Wilhelm's Wondrous Wargem
+tagGDX2NecklaceB200_Desc="Ahhhhhhhhhh."
+tagGDX2NecklaceB201=Kaisan's Burning Eye
+tagGDX2NecklaceB201_Desc="The immortal eye of Kaisan peers at you from within the pendant."
+tagGDX2NecklaceB202=Kaisan's Eldritch Eye
+tagGDX2NecklaceB202_Desc="The immortal eye of Kaisan peers at you from within the pendant."
+
+tagGDX2NecklaceD113I=Conduit of Divine Whispers
+
+tagGDX2NecklaceC201=Gems of Arcane Chill
+tagGDX2NecklaceC202=Chaosgaze
+
+tagGDX2NecklaceD201=Avatar of Order
+tagGDX2NecklaceD201_Desc="Second of the seven sacred virtues of humanity."
+tagGDX2NecklaceD202=Azrakaa's Sands
+tagGDX2NecklaceD203=Avatar of Chaos
+tagGDX2NecklaceD203_Desc="Third of the seven sacred virtues of humanity, warped beyond measure by the void."
+tagGDX2NecklaceD204=Will of the Blade
+tagGDX2NecklaceD205=Heart of the Sand King
+tagGDX2NecklaceD205_Desc="Heart of Gannar'vakkar, king of the Korvan Sands."
+tagGDX2NecklaceD206=Shattered Realm Ward
+tagGDX2NecklaceD207=Vanquisher's Gem
+tagGDX2NecklaceD208=Bonemonger's Gem
+tagGDX2NecklaceD209=Virtue's Ward
+tagGDX2NecklaceD210=Harra's Ward
+tagGDX2NecklaceD211=Rah'Zin's Gem
+tagGDX2NecklaceD212=Blightlord's Vector
+tagGDX2NecklaceD213=Bysmiel's Iris
+tagGDX2NecklaceD214=Rotgheist Emblem
+
+tagGDX2NecklaceF201=Bysmiel Champion Pendant
+tagGDX2NecklaceF202=Bysmiel Veiled Pendant
+tagGDX2NecklaceF203=Dreeg Arcane Pendant
+tagGDX2NecklaceF204=Dreeg Venomspine Pendant
+tagGDX2NecklaceF205=Solael Stormfire Pendant
+tagGDX2NecklaceF206=Solael Void Pendant
+tagGDX2NecklaceF207=Nightstalker Pendant
+tagGDX2NecklaceF208=Venomfire
+tagGDX2NecklaceF209=Bloodsurge
+
+
+
+#Medals
+tagGDX2MedalA200=Badge of Perseverance
+
+tagGDX2MedalB201=Basilisk Fang
+tagGDX2MedalB201_Desc="The fangs still drip with toxic venom."
+tagGDX2MedalB202=Wendigo Glare
+tagGDX2MedalB202_Desc="The bloodshot eye stares eagerly at your prey."
+
+tagGDX2MedalC201=Mark of Anguished Lies
+tagGDX2MedalC202=Death's Wail Mark
+tagGDX2MedalC203=Stonefather Mark
+
+tagGDX2MedalD201=Crest of Winter Fortitude
+tagGDX2MedalD202=Korvaak's Brand
+tagGDX2MedalD202_Desc="Searing hot to mark loyal subjects."
+tagGDX2MedalD203=Mark of Bloody Ends
+tagGDX2MedalD204=Mark of Calamitous Desires
+tagGDX2MedalD204_Desc="By a sovereign command."
+tagGDX2MedalD205=Mark of Unlife
+tagGDX2MedalD206=Ludrigan's Mark
+tagGDX2MedalD207=Cyclone Mark
+tagGDX2MedalD208=Ghol's Mark
+tagGDX2MedalD209=Bysmiel's Mark
+
+tagGDX2MedalF201=Bysmiel Mark of Manipulation 
+tagGDX2MedalF202=Bysmiel Mark of Storms
+tagGDX2MedalF203=Dreeg Mark of Chills
+tagGDX2MedalF204=Dreeg Mark of the Black Flame
+tagGDX2MedalF205=Solael Mark of Slaughter
+tagGDX2MedalF206=Solael Mark of Blood
+tagGDX2MedalF207=Mark of the Shadow Queen
+tagGDX2MedalF208=Mark of the Farseer
+tagGDX2MedalF209=Mark of Burning Shadows
+
+
+
+#Blueprints
+tagGDX2Blueprint_RelicC201=Blueprint: Relic - Endurance
+
+tagGDX2Blueprint_RelicD201=Blueprint: Relic - Meditation
+tagGDX2Blueprint_RelicD202=Blueprint: Relic - Honor
+tagGDX2Blueprint_RelicD203=Blueprint: Relic - Azrakaa's Epoch
+tagGDX2Blueprint_RelicD204=Blueprint: Relic - Yugol's Hunger
+tagGDX2Blueprint_RelicD205=Blueprint: Relic - Serenity
+tagGDX2Blueprint_RelicD206=Blueprint: Relic - Absolution
+
+tagGDX2Blueprint_WaistF201A=Blueprint: Bysmiel Lethal Waistguard
+tagGDX2Blueprint_WaistF201B=Blueprint: Bysmiel Lethal Girdle
+tagGDX2Blueprint_WaistF202A=Blueprint: Dreeg Venomspine Waistguard
+tagGDX2Blueprint_WaistF202B=Blueprint: Dreeg Venomspine Girdle
+tagGDX2Blueprint_WaistF203A=Blueprint: Solael Vile Waistguard
+tagGDX2Blueprint_WaistF203B=Blueprint: Solael Vile Girdle
+
+tagGDX2Blueprint_WeaponD201=Blueprint: Mythical Scion of Bitter Winds
+tagGDX2Blueprint_WeaponD202=Blueprint: Judgment of the Three
+
+tagGDX2Blueprint_WeaponF201=Blueprint: Bloodborer
+tagGDX2Blueprint_WeaponF202=Blueprint: Bysmiel's Grasp
+tagGDX2Blueprint_WeaponF203=Blueprint: Bysmiel's Mindweaver
+tagGDX2Blueprint_WeaponF204=Blueprint: Corruptian
+tagGDX2Blueprint_WeaponF205=Blueprint: Rancor
+tagGDX2Blueprint_WeaponF206=Blueprint: Occulant
+tagGDX2Blueprint_WeaponF207=Blueprint: Bloodrender
+tagGDX2Blueprint_WeaponF208=Blueprint: Solael's Devourer
+tagGDX2Blueprint_WeaponF209=Blueprint: Word of Solael
+tagGDX2Blueprint_WeaponF210=Blueprint: Vampirris
+tagGDX2Blueprint_WeaponF211=Blueprint: Spite
+
+tagGDX2Blueprint_ArmorB201=Blueprint: Plagueguard Grips
+tagGDX2Blueprint_ArmorB202=Blueprint: Emberguard Gauntlets
+tagGDX2Blueprint_ArmorB203=Blueprint: Stormguard Leggings
+tagGDX2Blueprint_ArmorB204=Blueprint: Rimeguard Chausses
+
+tagGDX2Blueprint_ArmorC201=Blueprint: Mythical Faceguard of Perdition
+tagGDX2Blueprint_ArmorC202=Blueprint: Stonefather Helm 
+
+tagGDX2Blueprint_ArmorD201=Blueprint: Dawnshard Gaze
+tagGDX2Blueprint_ArmorD202=Blueprint: Crown of the Revenant King
+tagGDX2Blueprint_ArmorD203=Blueprint: Soulare's Helm
+tagGDX2Blueprint_ArmorD204=Blueprint: Mythical Dawnshard Gaze
+tagGDX2Blueprint_ArmorD205=Blueprint: Mythical Crown of the Revenant King
+tagGDX2Blueprint_ArmorD206=Blueprint: Mythical Soulare's Helm
+tagGDX2Blueprint_ArmorD207=Blueprint: Chillwhisper Crown
+tagGDX2Blueprint_ArmorD208=Blueprint: Ludrigan's Hat
+tagGDX2Blueprint_ArmorD209=Blueprint: Bonemonger's Hood
+tagGDX2Blueprint_ArmorD210=Blueprint: Virtue's Gaze
+tagGDX2Blueprint_ArmorD211=Blueprint: Harra's Hood
+tagGDX2Blueprint_ArmorD212=Blueprint: Cyclone Mask
+tagGDX2Blueprint_ArmorD213=Blueprint: Rah'Zin's Armor
+tagGDX2Blueprint_ArmorD214=Blueprint: Blightlord's Hood
+tagGDX2Blueprint_ArmorD215=Blueprint: Ghol's Raiment
+tagGDX2Blueprint_ArmorD216=Blueprint: Dunefiend's Mask
+tagGDX2Blueprint_ArmorD217=Blueprint: Pyran's Visage
+tagGDX2Blueprint_ArmorD218=Blueprint: Targo's Helm
+tagGDX2Blueprint_ArmorD219=Blueprint: Voidsoul Visage
+tagGDX2Blueprint_ArmorD220=Blueprint: Rotgheist Mask
+
+tagGDX1Blueprint_AccessoryD121I=Blueprint: Conduit of Divine Whispers
+
+tagGDX2Blueprint_AccessoryD201=Blueprint: White Lotus
+tagGDX2Blueprint_AccessoryD202=Blueprint: Mythical Crimson Lotus
+tagGDX2Blueprint_AccessoryD203=Blueprint: Mythical Mark of Calamitous Desires
+tagGDX2Blueprint_AccessoryD204=Blueprint: Mythical Yugol's Ichor
+
+tagGDX2Blueprint_AccessoryF201=Blueprint: Nightstalker Pendant
+tagGDX2Blueprint_AccessoryF202=Blueprint: Venomfire
+tagGDX2Blueprint_AccessoryF203=Blueprint: Bloodsurge
+tagGDX2Blueprint_AccessoryF204=Blueprint: Mark of the Shadow Queen
+tagGDX2Blueprint_AccessoryF205=Blueprint: Mark of the Farseer
+tagGDX2Blueprint_AccessoryF206=Blueprint: Mark of Burning Shadows
+
+
+tagGDX2Blueprint_RuneC201=Blueprint: Emblem of Korvan Swiftness
+tagGDX2Blueprint_RuneC202=Blueprint: Glyph of Korvan Swiftness
+tagGDX2Blueprint_RuneC203=Blueprint: Rune of Korvan Swiftness
+tagGDX2Blueprint_RuneC204=Blueprint: Emblem of Dreeg's Vector
+tagGDX2Blueprint_RuneC205=Blueprint: Glyph of Dreeg's Vector
+tagGDX2Blueprint_RuneC206=Blueprint: Rune of Dreeg's Vector
+tagGDX2Blueprint_RuneC207=Blueprint: Emblem of Rahn's Might
+tagGDX2Blueprint_RuneC208=Blueprint: Glyph of Rahn's Might
+tagGDX2Blueprint_RuneC209=Blueprint: Rune of Rahn's Might
+
+tagGDX2Blueprint_RuneC210=Blueprint: Glyph of the Ravenous Wendigo
+tagGDX2Blueprint_RuneC211=Blueprint: Glyph of the Northern Ram
+tagGDX2Blueprint_RuneC212=Blueprint: Glyph of Incorporeal Winds
+tagGDX2Blueprint_RuneC213=Blueprint: Glyph of Seismic Strength
+tagGDX2Blueprint_RuneC214=Blueprint: Glyph of the Stormclap
+tagGDX2Blueprint_RuneC215=Blueprint: Glyph of the Pouncing Manticore
+tagGDX2Blueprint_RuneC216=Blueprint: Glyph of Arcane Insights
+tagGDX2Blueprint_RuneC217=Blueprint: Glyph of Burning Rifts
+tagGDX2Blueprint_RuneC218=Blueprint: Glyph of Spontaneous Blades
+tagGDX2Blueprint_RuneC219=Blueprint: Glyph of Disorder
+tagGDX2Blueprint_RuneC220=Blueprint: Glyph of the Winter Fox
+tagGDX2Blueprint_RuneC221=Blueprint: Glyph of the Rising Phoenix
+tagGDX2Blueprint_RuneC222=Blueprint: Glyph of Ghastly Retreats
+tagGDX2Blueprint_RuneC223=Blueprint: Glyph of the Elusive Assassin
+tagGDX2Blueprint_RuneC224=Blueprint: Glyph of Ashen Wastes
+tagGDX2Blueprint_RuneC225=Blueprint: Glyph of Sudden Strikes
+tagGDX2Blueprint_RuneC226=Blueprint: Glyph of the Scorpion Tail
+tagGDX2Blueprint_RuneC227=Blueprint: Glyph of Wayward Souls
+
+tagGDX2Blueprint_RuneD201=Blueprint: Rune of Amatok's Breath
+tagGDX2Blueprint_RuneD202=Blueprint: Rune of Fallen Kings
+tagGDX2Blueprint_RuneD203=Blueprint: Rune of Violent Delights
+tagGDX2Blueprint_RuneD204=Blueprint: Rune of Ulzuin's Fall
+tagGDX2Blueprint_RuneD205=Blueprint: Rune of Eldritch Instability
+tagGDX2Blueprint_RuneD206=Blueprint: Rune of the Dark Progenitor
+tagGDX2Blueprint_RuneD207=Blueprint: Rune of the Dreadnought
+tagGDX2Blueprint_RuneD208=Blueprint: Rune of Dreeg's Wounds
+tagGDX2Blueprint_RuneD209=Blueprint: Rune of Nadaan's Strike
+tagGDX2Blueprint_RuneD210=Blueprint: Rune of Ultos' Arrival
+tagGDX2Blueprint_RuneD211=Blueprint: Rune of Astral Rifts
+tagGDX2Blueprint_RuneD212=Blueprint: Rune of Displacement
+tagGDX2Blueprint_RuneD213=Blueprint: Rune of the Typhoon
+tagGDX2Blueprint_RuneD214=Blueprint: Rune of Ulzaad's Madness
+tagGDX2Blueprint_RuneD215=Blueprint: Rune of Wretched Desires
+tagGDX2Blueprint_RuneD216=Blueprint: Rune of Murmur's Kiss
+tagGDX2Blueprint_RuneD217=Blueprint: Rune of Ishtak's Mercy
+tagGDX2Blueprint_RuneD218=Blueprint: Rune of Vampiric Shadows
+tagGDX2Blueprint_RuneD219=Blueprint: Rune of Dark Desires
+tagGDX2Blueprint_RuneD220=Blueprint: Rune of the Stormtitan
+tagGDX2Blueprint_RuneD221=Blueprint: Rune of Blazing Ends
+
+
+#Relics
+tagGDX2RelicC201=Endurance
+tagGDX2RelicC201Desc="The will to carry on through all adversity."
+
+tagGDX2RelicD201=Meditation
+tagGDX2RelicD201Desc="The presence of mind to see the greater picture."
+
+tagGDX2RelicD202=Honor
+tagGDX2RelicD202Desc="The ceaseless pursuit of righteousness in a world devoid of it."
+
+tagGDX2RelicD203=Azrakaa's Epoch
+tagGDX2RelicD203Desc="A wrinkle in the folds of time."
+
+tagGDX2RelicD204=Yugol's Hunger
+tagGDX2RelicD204Desc="A voracity unmatched in all creation."
+
+tagGDX2RelicD205=Serenity
+tagGDX2RelicD205Desc="Peace within oneself."
+
+tagGDX2RelicD206=Absolution
+tagGDX2RelicD206Desc="The strength of will to carry out true justice."
+
+
+
+#Crafting
+tagCraftTabArtifactA=Relics and Runes
+tagCraftTabArtifactB=Talismans, relics and artifacts of great power. Runes that bestow new abilities upon you.
+
+tagGDX1CraftRandomLegendaryDesc2=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94, not including objects forged by the Forgotten Gods. Characters below level 58 may craft an Epic item instead.
+tagGDX1CraftRandomLegendaryAccessoryDesc2=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94, not including objects forged by the Forgotten Gods. Characters below level 58 will craft an Epic item instead.
+tagGDX1CraftRandomLegendaryItemDesc2=The blacksmith crafts an enchanted item appropriate to your level of Legendary quality, up to level 94, not including objects forged by the Forgotten Gods.
+
+tagGDX2CraftRandomCraftingMaterial=Crafting Material
+tagGDX2CraftRandomCraftingMaterialDesc=From the essence of creation itself, the blacksmith forges a potent material useful for crafting mighty equipment and relics.
+
+tagGDX2CraftRandomLegendaryDesc3=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94, even including objects forged by the Forgotten Gods themselves. Characters below level 58 may craft an Epic item instead.
+tagGDX2CraftRandomLegendaryAccessoryDesc3=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94, even including objects forged by the Forgotten Gods themselves. Characters below level 58 will craft an Epic item instead.
+tagGDX2CraftRandomLegendaryItemDesc3=The blacksmith crafts an enchanted item appropriate to your level of Legendary quality, up to level 94, even including objects forged by the Forgotten Gods themselves.
+
+tagGDX2CraftMaterial_Eldritch=Eldritch Essence
+tagGDX2CraftMaterial_Eldritch_Desc="Viscous and dripping with raw magical power from the Eldritch Realm."
+
+tagGDX2CraftMaterial_Lotus=Celestial Lotus
+tagGDX2CraftMaterial_Lotus_Desc="A bloom found only around the Korvan Plateau and its mysterious ruins. Those believed to have been touched by the gods glimmer with celestial starlight and are considered an omen of good luck."
+
+tagGDX2CraftMaterial_Sacrifice=Celestial Essence
+tagGDX2CraftMaterial_Sacrifice_Desc="The essence of reality, of existence itself. May be used in powerful rituals if a sufficient site is found for such questionable deeds."
+
+tagGDX2CraftMaterial_IronExchange_01=Iron Bar
+tagGDX2CraftMaterial_IronExchange_01_Desc=A valuable resource in a world ravaged by death.^w^n^nGarrus, the Keeper of Iron, at the Conclave of the Three will gladly exchange 50000 Iron Bits for this.
+
+tagGDX2CraftMaterial_IronExchange_02=Stack of Premium Iron Bars
+tagGDX2CraftMaterial_IronExchange_02_Desc=A valuable resource in a world ravaged by death.^w^n^nGarrus, the Keeper of Iron, at the Conclave of the Three will gladly exchange 500000 Iron Bits for this.
+
+#Consumables
+tagGDX2Consumable_01=Mysterious Orb
+tagGDX2Consumable_01_Desc="The orb's purpose, or even origins, are a mystery. Would it be wise to use such a thing..."
+
+tagGDX2Consumable_02=Celestial Orb
+tagGDX2Consumable_02_Desc="A remnant of the Shattered Realm. But what purpose does it serve..."
+
+tagGDX2Consumable_03=Void Orb
+tagGDX2Consumable_03_Desc="This orb shimmers with void energies. It's probably not safe to handle..."
+
+
+#ItemEnchantment
+tagGDX2EnchantA201A=Korvan Sunpowder
+tagGDX2EnchantA201Desc="Crystals infused with the scorching sun of the Korvan Plateau."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA202A=Potent Korvan Sunpowder
+tagGDX2EnchantA202Desc="Crystals infused with the scorching sun of the Korvan Plateau."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA203A=Viper Venom
+tagGDX2EnchantA203Desc="Venom from the Korvan viper, carefully extracted and stored in an enchanted pouch so as not to dissolve the container."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA204A=Potent Viper Venom
+tagGDX2EnchantA204Desc="Venom from the Korvan viper, carefully extracted and stored in an enchanted pouch so as not to dissolve the container."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA205A=Sandclaw Fang
+tagGDX2EnchantA205Desc="A fang finely ground into enchanting powder, gathered from the sandclaws roaming the Korvan dunes."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA206A=Potent Sandclaw Fang
+tagGDX2EnchantA206Desc="A fang finely ground into enchanting powder, gathered from the sandclaws roaming the Korvan dunes."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA207A=Sandclaw Scale
+tagGDX2EnchantA207Desc="When sandclaw matriarchs molt, some of their scales have absorbed more of the ambient eldritch energies in the region than others. Those make for the most potent enchantments."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA208A=Viper Scale
+tagGDX2EnchantA208Desc="Scales collected from the Korvan vipers, almost as challenging to gather as their venomous fangs."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA209A=Cinderbark Powder
+tagGDX2EnchantA209Desc="Cinders from the trees incinerated by a forgotten god's wrath."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA210A=Rotvine Powder
+tagGDX2EnchantA210Desc="The stench coming from the powder is merely a sampling of the grotesque scents emitted by the actual plant."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA211A=Korvan Cactus Powder
+tagGDX2EnchantA211Desc="Korvan cacti greedily retain precious water in the Korvan Plateau, and absorb the eldritch energies that teem within."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA212A=Potent Korvan Cactus Powder
+tagGDX2EnchantA212Desc="Korvan cacti greedily retain precious water in the Korvan Plateau, and absorb the eldritch energies that teem within."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA213A=Eldritch Bloom Powder
+tagGDX2EnchantA213Desc="Powder derived from a rare plant found only within the Korvan Plateau, its biology seems to be unlike any other fauna in the region."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA214A=Potent Eldritch Bloom Powder
+tagGDX2EnchantA214Desc="Powder derived from a rare plant found only within the Korvan Plateau, its biology seems to be unlike any other fauna in the region."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA215A=Scarabshell Powder
+tagGDX2EnchantA215Desc="The shells of the Korvan scarabs make for fine enchanting powder, if you can actually manage to crush them."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA216A=Potent Scarabshell Powder
+tagGDX2EnchantA216Desc="The shells of the Korvan scarabs make for fine enchanting powder, if you can actually manage to crush them."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA217A=Gargoyle Fang
+tagGDX2EnchantA217Desc="Fang from a mythical eldritch creature rarely seen outside of the Eldritch Realm."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA218A=Sagethorn Powder
+tagGDX2EnchantA218Desc="The sagethorn is considered invaluable among scholars for its dark red ink, but those harvesting it must take care around the thorny exterior lest they suffer lesions that never truly heal."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA219A=Veilworm Powder
+tagGDX2EnchantA219Desc="Powder derived from disturbing manifestations of the void that seemingly feed on the barrier between realities."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA220A=Void Salt
+tagGDX2EnchantA220Desc="Enchanting powder derived from the ashes within the Void itself. You sense a hint of human souls within the mix, but can't be sure if that's an addition, or another unpleasant aspect of the void."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA221A=Gargoyle Scale
+tagGDX2EnchantA221Desc="Teeming with eldritch energies and nearly impossible to turn to powder without arcane tools."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA222A=Potent Gargoyle Scale
+tagGDX2EnchantA222Desc="Teeming with eldritch energies and nearly impossible to turn to powder without arcane tools."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA223A=Duskbloom
+tagGDX2EnchantA223Desc="The powdered petals of a potent plant found growing near now seldom seen pools of water within the Korvan Plateau."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA224A=Potent Duskbloom
+tagGDX2EnchantA224Desc="The powdered petals of a potent plant found growing near now seldom seen pools of water within the Korvan Plateau."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA225A=Gryphon Talon
+tagGDX2EnchantA225Desc="Powder derived from the talons of gryphons inhabiting the Korvan Plateau."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantA226A=Potent Gryphon Talon
+tagGDX2EnchantA226Desc="Powder derived from the talons of gryphons inhabiting the Korvan Plateau."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantA227A=Desert Tongue
+tagGDX2EnchantA227Desc="Powder derived from a vibrant red plant found growing within the Korvan Plateau."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA228A=Scorpius Venom
+tagGDX2EnchantA228Desc="Venom from the tail glands of the deadly creatures roaming the desert sands."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA229A=Keeper's Essence
+tagGDX2EnchantA229Desc="Arcane essence from the various guardians roaming the temples of the Korvan Plateau."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantA230A=Soulwarp Powder
+tagGDX2EnchantA230Desc="The essence of a wraithlike spirit bound into bonemeal for enchanting purposes."^w^n(Applied to rings and amulets)
+
+
+tagGDX2EnchantB201A=Bysmiel's Control
+tagGDX2EnchantB201Desc="A gift from the witch god Bysmiel, perfectly attuned to the minds of minions."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB202A=Potent Bysmiel's Control
+tagGDX2EnchantB202Desc="A gift from the witch god Bysmiel, perfectly attuned to the minds of minions."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB203A=Bysmiel's Cunning
+tagGDX2EnchantB203Desc="A gift from the witch god Bysmiel to give her servants an edge in physical combat, when retreating into the shadows is not an option."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB204A=Potent Bysmiel's Cunning
+tagGDX2EnchantB204Desc="A gift from the witch god Bysmiel to give her servants an edge in physical combat, when retreating into the shadows is not an option."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB205A=Bysmiel's Shroud
+tagGDX2EnchantB205Desc="A gift from the witch god Bysmiel, attuned to the veil that divides the living from the dead."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB206A=Potent Bysmiel's Shroud
+tagGDX2EnchantB206Desc="A gift from the witch god Bysmiel, attuned to the veil that divides the living from the dead."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB207A=Ateph's Will
+tagGDX2EnchantB207Desc="A potent enchanting powder derived from the relics found within the Temple of Ateph, intended to bolster the bond between master and minion."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB208A=Ateph's Glare
+tagGDX2EnchantB208Desc="A potent enchanting powder derived from the relics found within the Temple of Ateph which infuses equipment with a chilling touch."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB209A=Ateph's Command
+tagGDX2EnchantB209Desc="A potent enchanting powder derived from the relics found within the Temple of Ateph that grants the wielder a taste for blood."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB210A=Ateph's Promise
+tagGDX2EnchantB210Desc="A potent enchanting powder derived from the relics found within the Temple of Ateph that shields the wielder from harm."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB211A=Dreeg's Foresight
+tagGDX2EnchantB211Desc="A gift from the witch god Dreeg that bestows upon the bearer a mere taste of the Great Guardian's vision for Cairn."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB212A=Potent Dreeg's Foresight
+tagGDX2EnchantB212Desc="A gift from the witch god Dreeg that bestows upon the bearer a mere taste of the Great Guardian's vision for Cairn."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB213A=Dreeg's Spinedust
+tagGDX2EnchantB213Desc="A gift from the witch god Dreeg derived from one of the Great Guardian's spines, ever dripping with acid."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB214A=Potent Dreeg's Spinedust
+tagGDX2EnchantB214Desc="A gift from the witch god Dreeg derived from one of the Great Guardian's spines, ever dripping with acid."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB215A=Dreeg's Terror
+tagGDX2EnchantB215Desc="A gift, or perhaps a curse, from the witch god Dreeg that grants the bearer a fragment of a possible future where the void reigns supreme over all creation."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB216A=Potent Dreeg's Terror
+tagGDX2EnchantB216Desc="A gift, or perhaps a curse, from the witch god Dreeg that grants the bearer a fragment of a possible future where the void reigns supreme over all creation."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB217A=Osyr's Temper
+tagGDX2EnchantB217Desc="A dense enchanting powder derived from the desiccated remains of Osyr's priesthood, tainted by a darkness without name."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB218A=Osyr's Fortitude
+tagGDX2EnchantB218Desc="A dense enchanting powder derived from the desiccated remains of Osyr's priesthood, still blessed by the lost god's word."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB219A=Osyr's Guidance
+tagGDX2EnchantB219Desc="A dense enchanting powder derived from the desiccated remains of Osyr's priesthood, attuned to the mastery of conjured creatures."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB220A=Osyr's Wisdom
+tagGDX2EnchantB220Desc="A dense enchanting powder derived from the desiccated remains of Osyr's priesthood, still teeming with raw arcane energies."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB221A=Solael's Vision
+tagGDX2EnchantB221Desc="A gift from the witch god Solael, promising untold destruction upon his enemies."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB222A=Potent Solael's Vision
+tagGDX2EnchantB222Desc="A gift from the witch god Solael, promising untold destruction upon his enemies."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB223A=Solael's Voracity
+tagGDX2EnchantB223Desc="A gift from the witch god Solael, granting the bearer a taste of the Eldritch Flame's endless hunger."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB224A=Potent Solael's Voracity
+tagGDX2EnchantB224Desc="A gift from the witch god Solael, granting the bearer a taste of the Eldritch Flame's endless hunger."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB225A=Solael's Glare
+tagGDX2EnchantB225Desc="A gift from the witch god Solael, infused with the essence of the Eldritch Flame's will."^w^n(Applied to all one-handed weapons, shields and caster off-hands)
+
+tagGDX2EnchantB226A=Potent Solael's Glare
+tagGDX2EnchantB226Desc="A gift from the witch god Solael, infused with the essence of the Eldritch Flame's will."^w^n(Applied to all two-handed weapons)
+
+tagGDX2EnchantB227A=Irrah's Soulfire
+tagGDX2EnchantB227Desc="A fine enchanting powder derived from the ashes of the pyres within Irrah's temple, still infused with soul fragments of sacrificial victims."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB228A=Irrah's Patience
+tagGDX2EnchantB228Desc="A fine enchanting powder derived from the ashes of the pyres within Irrah's temple that fills the bearer with an unnatural calm."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB229A=Irrah's Venomtongue
+tagGDX2EnchantB229Desc="A fine enchanting powder derived from the ashes of the pyres within Irrah's temple, infused with various toxins found among the flora and fauna of the Korvan Plateau."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantB230A=Irrah's Blood
+tagGDX2EnchantB230Desc="A fine enchanting powder derived from the ashes of the pyres within Irrah's temple, said to be infused with celestial blood."^w^n(Applied to rings and amulets)
+
+tagGDX2EnchantC201A=Bysmiel's Silversand
+tagGDX2EnchantC201Desc="A gift from the witch god Bysmiel, an incredibly fine silver powder often used in illusions, but also handy for protective wards."^w^n(Applied to all armor)
+
+tagGDX2EnchantC202A=Bysmiel's Desert Barb
+tagGDX2EnchantC202Desc="A gift from the witch god Bysmiel, the Schemer's deadly kiss infused within the enchanting powder."^w^n(Applied to all armor)
+
+tagGDX2EnchantC203A=Bysmiel's Veiltouch
+tagGDX2EnchantC203Desc="A gift from the witch god Bysmiel, a powder magically linked to the very veil that divides the living and the dead."^w^n(Applied to all armor)
+
+tagGDX2EnchantC204A=Dreeg's Omen
+tagGDX2EnchantC204Desc="A gift from the witch god Dreeg that offers the bearer brief flashes of the future."^w^n(Applied to all armor)
+
+tagGDX2EnchantC205A=Dreeg's Veilward
+tagGDX2EnchantC205Desc="A gift from the witch god Dreeg intended to shield the mind from the mind-altering visions imparted by the Great Guardian upon his followers."^w^n(Applied to all armor)
+
+tagGDX2EnchantC206A=Dreeg's Fiendblood
+tagGDX2EnchantC206Desc="A gift from the witch god Dreeg, derived from the chthonic fiends the Great Guardian has crushed at the gates of the Eldritch Realm."^w^n(Applied to all armor)
+
+tagGDX2EnchantC207A=Solael's Bloodbinding
+tagGDX2EnchantC207Desc="A gift from the witch god Solael, a foul powder used in rituals that bind the recipients to Solael's covenant."^w^n(Applied to all armor)
+
+tagGDX2EnchantC208A=Solael's Voidward
+tagGDX2EnchantC208Desc="A gift from the witch god Solael intended to shield the mind from the ravages of the void so that the Eldritch Flame may study its secrets unhindered."^w^n(Applied to all armor)
+
+tagGDX2EnchantC209A=Solael's Soulbinding
+tagGDX2EnchantC209Desc="A gift from the witch god Solael, a vile powder used in spirit-binding rituals for the Eldritch Flame to devour."^w^n(Applied to all armor)
+
+#Mobility Runes
+tagGDX2RuneBDesc="A common symbol of power used by the Witch God cults."^w^n(Applied to Medals)
+tagGDX2RuneCDesc="A formidable symbol of power found across the far reaches of Cairn."^w^n(Applied to Medals)
+tagGDX2RuneDDesc="An ancient symbol of power thought lost to a shattered reality."^w^n(Applied to Medals)
+
+tagGDX2RuneB201=Emblem of the Shadowy Assassin
+tagGDX2RuneB202=Emblem of the Leaping Mantis
+tagGDX2RuneB203=Emblem of Focused Rage
+tagGDX2RuneB204=Emblem of the Riftstalker
+tagGDX2RuneB205=Emblem of the Charging Bull
+tagGDX2RuneB206=Emblem of the Agile Huntress
+
+tagGDX2RuneC201=Emblem of Korvan Swiftness
+tagGDX2RuneC202=Glyph of Korvan Swiftness
+tagGDX2RuneC203=Rune of Korvan Swiftness
+tagGDX2RuneC204=Emblem of Dreeg's Vector
+tagGDX2RuneC205=Glyph of Dreeg's Vector
+tagGDX2RuneC206=Rune of Dreeg's Vector
+tagGDX2RuneC207=Emblem of Rahn's Might
+tagGDX2RuneC208=Glyph of Rahn's Might
+tagGDX2RuneC209=Rune of Rahn's Might
+tagGDX2RuneC210=Glyph of the Ravenous Wendigo
+tagGDX2RuneC211=Glyph of the Northern Ram
+tagGDX2RuneC212=Glyph of Incorporeal Winds
+tagGDX2RuneC213=Glyph of Seismic Strength
+tagGDX2RuneC214=Glyph of the Stormclap
+tagGDX2RuneC215=Glyph of the Pouncing Manticore
+tagGDX2RuneC216=Glyph of Arcane Insights
+tagGDX2RuneC217=Glyph of Burning Rifts
+tagGDX2RuneC218=Glyph of Spontaneous Blades
+tagGDX2RuneC219=Glyph of Disorder
+tagGDX2RuneC220=Glyph of the Winter Fox
+tagGDX2RuneC221=Glyph of the Rising Phoenix
+tagGDX2RuneC222=Glyph of Ghastly Retreats
+tagGDX2RuneC223=Glyph of the Elusive Assassin
+tagGDX2RuneC224=Glyph of Ashen Wastes
+tagGDX2RuneC225=Glyph of Sudden Strikes
+tagGDX2RuneC226=Glyph of the Scorpion Tail
+tagGDX2RuneC227=Glyph of Wayward Souls
+
+tagGDX2RuneD201=Rune of Amatok's Breath
+tagGDX2RuneD202=Rune of Fallen Kings
+tagGDX2RuneD203=Rune of Violent Delights
+tagGDX2RuneD204=Rune of Ulzuin's Fall
+tagGDX2RuneD205=Rune of Eldritch Instability
+tagGDX2RuneD206=Rune of the Dark Progenitor
+tagGDX2RuneD207=Rune of the Dreadnought
+tagGDX2RuneD208=Rune of Dreeg's Wounds
+tagGDX2RuneD209=Rune of Nadaan's Strike
+tagGDX2RuneD210=Rune of Ultos' Arrival
+tagGDX2RuneD211=Rune of Astral Rifts
+tagGDX2RuneD212=Rune of Displacement
+tagGDX2RuneD213=Rune of the Typhoon
+tagGDX2RuneD214=Rune of Ulzaad's Madness
+tagGDX2RuneD215=Rune of Wretched Desires
+tagGDX2RuneD216=Rune of Murmur's Kiss
+tagGDX2RuneD217=Rune of Ishtak's Mercy
+tagGDX2RuneD218=Rune of Vampiric Shadows
+tagGDX2RuneD219=Rune of Dark Desires
+tagGDX2RuneD220=Rune of the Stormtitan
+tagGDX2RuneD221=Rune of Blazing Ends
+
+
+#ItemComponents
+
+
+#ItemFactionBoosters
+tagGDX2BoosterWGB_A01=Writ of Bysmiel
+tagGDX2BoosterWGB_B01=Mandate of Bysmiel
+tagGDX2BoosterWGD_A01=Writ of Dreeg
+tagGDX2BoosterWGD_B01=Mandate of Dreeg
+tagGDX2BoosterWGS_A01=Writ of Solael
+tagGDX2BoosterWGS_B01=Mandate of Solael
+
+tagGDX2BoosterEldritch_C01=Korvaak's Warrant
+
+
+#Misc
+
+
+
+#ItemSets
+tagItemSetC008CName=Amnesty
+
+tagGDX2ItemSetC201Name=Baldir's Plate
+tagGDX2ItemSetC201BName=Baldir's Regalia
+tagGDX2ItemSetC201Desc="Baldir stood as a paragon of virtue and Erulan faith. He swore an oath on the steps of the emperor's palace to defend the helpless and the meek from the evils of the world. That oath was never broken."
+
+tagGDX2ItemSetC202Name=The Stormserpent
+tagGDX2ItemSetC202Desc="Heathen worship of a celestial serpent was stamped out long ago by the Luminari, but relics of this forgotten religion remain."
+
+tagGDX2ItemSetC203Name=Festerblaze
+tagGDX2ItemSetC203Desc="Cruel desires festered within Idria's heart, and so she let the whole world burn as she did."
+
+tagGDX2ItemSetC204Name=Daega's Oath
+tagGDX2ItemSetC204Desc="Daega sought questions the priests of Empyrion could not answer, but in her desperation she discovered a deeper truth through Dreeg."
+
+tagGDX2ItemSetC205Name=Stonefather
+tagGDX2ItemSetC205Desc="Armor of the Stonefather, steadfast and unmoving protector of Menhir's faith."
+
+tagGDX2ItemSetD201Name=Shattered Guardian
+tagGDX2ItemSetD201Desc="Guardian of a realm consumed by darkness, devoid of its patron and protector."
+
+tagGDX2ItemSetD202Name=The Vanquisher
+tagGDX2ItemSetD202Desc="Conqueror of the forbidden, triumphant over all foes."
+
+tagGDX2ItemSetD203Name=Chillwhisper
+tagGDX2ItemSetD203Desc="The chilling whispers of death's revenants echo within this armor. To don it is to become death's champion."
+
+tagGDX2ItemSetD204Name=Ludrigan's Pride
+tagGDX2ItemSetD204Desc="Pride of the Luminari legend, Ludrigan, who employed shamanistic relics to vanquish foes of the Erulan empire."
+
+tagGDX2ItemSetD205Name=Bonemonger
+tagGDX2ItemSetD205Desc="Armor of the Bonemonger, betrayer of the faith and collector of grisly trophies."
+
+tagGDX2ItemSetD206Name=Virtue's Light
+tagGDX2ItemSetD206Desc="Said to be blessed by Empyrion, the greatest among the gods, the Virtue's Light is a beacon of hope and justice in a world desperate for both."
+
+tagGDX2ItemSetD207Name=Sentinel of the Three
+tagGDX2ItemSetD207Desc="Armor of the Sentinel, oathbound guardian of the Three and their mortal interests."
+
+tagGDX2ItemSetD208Name=Harra's Artifice
+tagGDX2ItemSetD208Desc="Harra relished in the combination of blade and magic, having trained under both the secretive Nightblades and the Gildam Arcanum."
+
+tagGDX2ItemSetD209Name=The Cyclone
+tagGDX2ItemSetD209Desc="Galaron preached of a cataclysmic end to Cairn where the very air turned to flames and the sky rippled with eternal storms. With his dying words, he proclaimed the return of the forgotten one."
+
+tagGDX2ItemSetD210Name=Rah'Zin's Torment
+tagGDX2ItemSetD210Desc="Rah'Zin's nightmares were consumed by the void, warping his very thoughts and wishes until he became an agent of the very thing he feared."
+
+tagGDX2ItemSetD211Name=The Blightlord
+tagGDX2ItemSetD211Desc="None knew the Blightlord's true identity, only the crimes he had committed. When at last he was caught, his face was so warped by disease and rot, none could recognize him."
+
+tagGDX2ItemSetD212Name=Ghol's Malice
+tagGDX2ItemSetD212Desc="Ghol was savage, yet brilliant; precisely the traits that attracted the attention of the Lady of Whispers and gained her blessing."
+
+tagGDX2ItemSetD213Name=Bysmiel's Trinkets
+tagGDX2ItemSetD213Desc="In her mortal days, the Lady of Whispers was known to gather powerful objects that enhanced her control over lesser creatures. After ascending to her throne, she no longer had need for such petty trinkets."
+
+tagGDX2ItemSetD214Name=The Korvan Dunefiend
+tagGDX2ItemSetD214Desc=The Korvan Dunefiend aspired to be as the vipers of the Korvan Sands, elusive...swift...and deadly.
+
+tagGDX2ItemSetD215Name=Pyran's Ruminations
+tagGDX2ItemSetD215Desc=Scorned by his teachers, Pyran vowed to leave his mark upon the history of the arcane, even as his experiments warped and twisted his own flesh.
+
+tagGDX2ItemSetD216Name=Targo's Craft
+tagGDX2ItemSetD216Desc=Said to be forged by the very forgemaster of the stars themselves, the armor embodies strength of body and will.
+
+tagGDX2ItemSetD217Name=The Voidsoul
+tagGDX2ItemSetD217Desc=This once blessed armor now teems with sinister energies, the void having corrupted its heart for all eternity.
+
+tagGDX2ItemSetD218Name=Rotgheist
+tagGDX2ItemSetD218Desc=Rotgheist reveled in slaughter of man and creature alike, and even wore the flesh of his prey long after it had begun to rot.
+
+tagGDX2ItemSetD219Name=Armor of the Eternal Night
+tagGDX2ItemSetD219Desc="Morgoneth peered into the darkness, until the darkness stared back."
+
+
+
+#LootChests
+
+
+tagGDX2KorvanChestB01=Worn Chest
+tagGDX2KorvanChestC01=Glamorous Chest
+tagGDX2KorvanChestD01=Opulent Chest
+
+tagGDX2EldritchChestB01=Eldritch Stores
+tagGDX2EldritchChestC01=Eldritch Cache
+tagGDX2EldritchChestD01=Eldritch Trove
+tagGDX2EldritchChestD02=Korvan Secrets
+tagGDX2EldritchChestD03=Crate Collections
+
+tagGDX2KorvanSarcophagusB01=Noble's Sarcophagus
+tagGDX2KorvanSarcophagusC01=Royal Sarcophagus
+tagGDX2KorvanSarcophagusD01=Celestial Sarcophagus
+
+tagGDX2BloodSwornCorpse=Bloodsworn Corpse
+
+tagGDX2Breakable_Beetle=Scarab Nest
+tagGDX2Breakable_Eggs=Reptile Eggs
+
+tagGDX2ChestKorvaak=Korvaak's Trove
+tagGDX2ChestTombOfHeretic=Morgoneth's Collection
+
+tagGDX2ChestOneShot_=Korvan Stash
+tagGDX2ChestBossOneShot_Korvaak=Korvaak's Essence
+
+tagGDX2InventorsApprenticeCorpse=Canen's Corpse
+
+tagGDX2UroboruukRemains=Uroboruuk's Possessions
+
+tagGDX2ChestGauntletChestD01=Forgotten Reliquary
+
+tagGDX2ChestMawOfEnaht_01=Carmac's Remains
+
+
+#Interactive Objects
+
+tagGDX2DoorLocked_Korvaak= {^R} ~ Locked by a powerful guardian
+tagGDX2DoorLocked_Roguelike= {^R} ~ sealed by a powerful rune
+
+
+
+#Breakables
+tagGDX2Quest_BindingConduit_01=Binding Conduit
+tagGDX2Crate=Unassuming Crate
+
+#Dungeon Doors
+tagGDX2UGDoorEntrance= Entrance
+
+tagGDX2UGDoorBeetle=Beetle Nest Entrance
+tagGDX2UGDoorSolaelFaction=Map Room of Rahn
+tagGDX2UGDoorBlocked= {^R} ~ Blocked
+tagGDX2UGDoorTombEntrance=Tomb Entrance
+tagGDX2UGDoorTombDoor=Tomb Door
+tagGDX2UGDoorKorvaakTomb=Tomb of the Eldritch Sun Entrance
+tagGDX2UGDoorMessenger=Pit of Atonement
+tagGDX2UGDoorKymonExit=Approach to the Eldritch Gate
+tagGDX2UGDoorKorvaakFinal=Descend to the Eldritch Thrones
+
+tagGDX2UGDoorFort=Fort Entrance
+tagGDX2UGDoorMaw=Maw Entrance
+
+
+tagGDX2POI_AREAG_MeatTunnelA=Maw of Enhat Entrance
+tagGDX2POI_AREAG_MeatTunnelB=Maw of Enhat Exit
+tagGDX2POI_AREAG_MeatTunnelC=Maw Passage
+tagGDX2UGDoorLostOasisPassage=Lost Oasis Passage
+tagGDX2UGDoorLostOasisGardenEntrance=Court of the Magi Entrance
+tagGDX2UGDoorLostOasisGardenExit=Court of the Magi Exit
+tagGDX2UGDoorLostOasisPathEntrance=Path of the Damned Entrance
+tagGDX2UGDoorLostOasisPathExit=Path of the Damned Exit
+tagGDX2UGDoorSandFort_Entrance=Forlorn Bastion Entrance
+tagGDX2UGDoorSandFort_Exit=Forlorn Bastion Exit
+tagGDX2UGDoorSandFort_StairsUp=Fort Stairs Up
+tagGDX2UGDoorSandFort_StairsDown=Fort Stairs Down
+tagGDX2UGDoor_HowlingDepthsA=Howling Depths Entrance
+tagGDX2UGDoor_HowlingDepthsB=Howling Depths Exit
+tagGDX2UGDoor_HowlingDepthsC=Howling Depths Passage
+
+
+
+#Doors
+tagGDX2Door_PortcullisGold=Golden Portcullis
+tagGDX2Door_Lava=Magma Barrier
+tagGDX2EldritchRift=Eldritch Rift
+tagGDX2TombOfHereticDoor=Manifested Darkness
+tagGDX2TombOfHereticSeal=Seal of the Heretic
+
+tagGDX2DoorOneWayTombOfHeretic=Escape the Night
+tagGDX2EpicDoor_TombOfHeretic=Seal to Morgoneth's Folly
+tagGDX2EpicDoor_TombOfHereticLocked= {^R} ~ Sealed by the darkness (Requires a Skeleton Key)
+
+
+tagPrefixB037_Class_A=Warlord's
+tagPrefixB038_Class_A=Shieldbreaker's
+tagPrefixB039_Class_A=Sentinel's
+tagPrefixB040_Class_A=Dervish's
+tagPrefixB041_Class_A=Templar's
+tagPrefixB042_Class_A=Archon's
+tagPrefixB043_Class_A=Paladin's
+tagPrefixB044_Class_A=Oppressor's
+tagPrefixB045_Class_A=Redeemer's
+
+
+#Affixes
+tagGDX2PrefixAA024=Oathkeeper's
+
+#Difficulty Unlocks
+tagGDX2DifficultyUnlock01=Champion's Merit
+tagGDX2DifficultyUnlock01_Desc=Proof of conquering Cairn's terrors and earning Elite Difficulty status. Beware: entering higher difficulties prematurely will pose grave challenges! ^oCan be placed in the Transfer Stash to use on other characters.
+tagGDX2DifficultyUnlock02=Savior's Merit
+tagGDX2DifficultyUnlock02_Desc=Proof of vanquishing Cairn's terrors and earning Ultimate Difficulty status. Beware: entering higher difficulties prematurely will pose grave challenges! ^oCan be placed in the Transfer Stash to use on other characters.
+tagGDX2DifficultyUnlockStats={^E}Unlocks Attribute/Skill rewards from quests on lower difficulties
+tagGDX2DifficultyUnlockTeleporters={^E}Unlocks Riftgates on lower difficulties
+tagGDX2DifficultyUnlockBags={^E}Unlocks all Inventory Bags
+
+
+

@@ -15,6 +15,9 @@ let SourceData
     }
     , bPathCorrect = false
     , GrimDawnPath = false
+    , ExtractionPaths2 = [
+        `Text_EN.arc`
+    ]
     , ExtractionPaths = [
         `resources\\Text_EN.arc`
         , `gdx1\\resources\\Text_EN.arc`
@@ -32,54 +35,27 @@ let FilterStorage = {
     , ImportantTags: new eConfig({name: `gd-filter-important`})
 };
 
-let RunArchiveTool = function(){
-    let result;
+const { RunArchiveTool } = LoadSubModule(`GrimDawn_ArchiveTool`);
 
-    for(let pathIndex in ExtractionPaths){
-        
-        if(fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`)){
-            child_process.execSync(`"${GrimDawnPath}\\ArchiveTool.exe" "${GrimDawnPath}\\${ExtractionPaths[pathIndex]}" -extract "${dirUserData}\\resources"`);
-            //Log(result.toString());
-        }
-        /*
-        try{
-            //Log(fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`));
-            if(fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`)){
-                child_process.execSync(`"${GrimDawnPath}\\ArchiveTool.exe" "${GrimDawnPath}\\${ExtractionPaths[pathIndex]}" -extract "${dirUserData}\\resources"`);
+const CheckForGameProcess = function(InCallbackFnPtr)
+{
+    let psPromise = psList();
+    let bFoundProcess = false;
+
+    psPromise.then( (InProcesses) => {
+        if(Array.isArray(InProcesses)){
+            if(InProcesses.findIndex( (el) => el.name.includes(`Grim Dawn.exe`) ) !== -1 ){
+                //console.log(`found process`);
+                bFoundProcess = true;
             }
-        }catch(err){
-            //console.error(err);
+            //console.log(InProcesses);
         }
-        */
-        /*
-        if(fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`)){
-            child_process.execSync(`"${GrimDawnPath}\\ArchiveTool.exe" "${GrimDawnPath}\\${ExtractionPaths[pathIndex]}" -extract "${dirUserData}\\resources"`);
-        }
-        */
-        /*
-        fs.pathExists(`${GrimDawnPath}\\${ExtractionPaths[pathIndex]}`, (err, bInExists) => {
-            if(err){
-                console.error(err);
-                return;
-            }
-            if(bInExists){
-                child_process.exec(`"${GrimDawnPath}\\ArchiveTool.exe" "${GrimDawnPath}\\${ExtractionPaths[pathIndex]}" -extract "${dirUserData}\\resources"`
-                , function(err, InData) {
-                    if(err){
-                        console.error(err);
-                        return;
-                    }
-                    //Log(JSON.parse(InData));
-                    for(let dataIndex in InData){
-                        //Super.AppendSourceData(Super.MakeData(`${InData[dataIndex]}`));
-                    }
-                });
-            }
-          });
-        */
-    }
-    
+    } );
+    psPromise.finally( () => {
+        InCallbackFnPtr(bFoundProcess);
+    });
 };
+
 let RunLocaleExtract = function(InZipFile){
     let zip = new JSZip();
 
@@ -100,7 +76,8 @@ let RunLocaleExtract = function(InZipFile){
 let MasteryNames = false;
 let bInitializedSource = false;
 let bInitializedMasteryNames = false;
-
+let bUsingInternalTags = false;
+let bGameIsRunning = false;
 
 module.exports = {
     OnClick_CollapsibleBTN: function(el){
@@ -115,7 +92,7 @@ module.exports = {
         }
     },
 
-    GrimDawnVersion: `1.1.5.2`,
+    GrimDawnVersion: `1.1.5.1`,
     LastItemVersion: `1.1.5.0`,
 
     //  data-wztip="{TOOL_TIP}" data-wztip-position="top"
@@ -168,9 +145,33 @@ module.exports = {
 
         // load new files, depending on locale settings.
         if(this.IsUsingLocale()){
+            bUsingInternalTags = false;
+            bGameIsRunning = false;
             RunLocaleExtract(appConfig.get(`Filter.LocaleFileName`));
         }else{
-            RunArchiveTool();
+            bGameIsRunning = false;
+            bUsingInternalTags = false;
+            RunArchiveTool(GrimDawnPath, dirUserData, ExtractionPaths2, (bInError) => {
+                wzUpdateHeader(`Extracting Text Files...`);
+                if (bInError){
+                    //console.error(`finished Extraction but ran into some errors`);
+                    CheckForGameProcess( (bInFoundGame) => {
+                        if(bInFoundGame){
+                            //console.warn(`game found`);
+                            bGameIsRunning = true;
+                        }else{
+                            //console.log(`no game is running`);
+                        }
+                        wzUpdateHeader(`Copying Text Files...`);
+                        fs.copySync('./app/assets/text_en', `${dirUserData}\\resources\\text_en`);
+                        bUsingInternalTags = true;
+                        
+                        wzReloadCMS(10);
+                    } );
+                }else{
+                    //console.log(`finished Extraction without errors`);
+                }
+            });
         }
         
 
@@ -216,6 +217,29 @@ module.exports = {
     },
 
     OnLoad: function(){
+        bGameIsRunning = false;
+        CheckForGameProcess( (bInFoundGame) => {
+            if(bInFoundGame){
+                //console.warn(`game found`);
+                bGameIsRunning = true;
+                if (bUsingInternalTags){
+                    wzUpdateHeader(`Currently using internal Texts. Close Grim Dawn and reload the tool to extract up-to-date files.`);
+                }else{
+                    wzUpdateHeader(`You should close Grim Dawn for full functionality!`);
+                }
+            }else{
+                //console.log(`no game is running`);
+                if (bUsingInternalTags){
+                    wzUpdateHeader(`Currently using internal Texts. This is a workaround for an error.`);
+                }else{
+                    wzUpdateHeader(`No Errors!`);
+                }
+                
+                
+            }
+        } );
+
+
         //bPathCorrect = fs.pathExistsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`);
         //bPathCorrect = fs.existsSync(`${this.GetGrimDawnPath()}/ArchiveTool.exe`);
         // fs.pathExistsSync(`${GrimDawnPath}/${ExtractionPaths[pathIndex]}`)
@@ -665,7 +689,7 @@ module.exports = {
             tplColorBoxItem = `<label data-wztip="{COLOR_NAME} ({COLOR_CODE})" data-wztip-position="bottom"><input onChange="${(InCustomEvent == false) ? `Super.OnChange_ColorPicker(this, ${InLabel === `Default Color`})` : `${InCustomEvent}`}" value="{COLOR_CODE}" type="radio" name="${InGroupKey}" {B_DISABLED}{B_IS_CHECKED} /><span style="{COLOR_HEX}"></span></label>`;
     
         ColorBoxItems_ += ColorBoxItems_ += tplColorBoxItem.wzReplace({
-            COLOR_HEX: `background-color:transparent`
+            COLOR_HEX: `background-color:transparent; border: 0px;`
             , COLOR_NAME: `Clear`
             , COLOR_CODE: `Clear`
             , B_IS_CHECKED: ` checked`
@@ -902,13 +926,44 @@ module.exports = {
         if(userDataPath && userDataPath !== ``){
             fs.emptyDirSync(`${userDataPath.replace(/\\/g, `/`).replace(`/Settings`, ``)}/Settings/text_en`);
         }
+
+        CheckForGameProcess( (bInFoundGame) => {
+            if(bInFoundGame){
+                bGameIsRunning = true;
+                wzUpdateHeader(`Removed Colors! You need to restart the Grim Dawn to see the changes!`);
+            }else{
+                console.log(`no game is running`);
+                wzUpdateHeader(`Removed Colors!`);
+            }
+        } );
+        
     },
 
     OnClick_WriteColors: function()
     {
         const filterSubsystem = wzGetSubsystem(`RainbowFilter`);
 
-        filterSubsystem.OnWriteColors();
+        wzUpdateHeader(`Writing Colors...`);
+
+        setTimeout( () => {
+            filterSubsystem.OnWriteColors();
+            
+            CheckForGameProcess( (bInFoundGame) => {
+                if(bInFoundGame){
+                    bGameIsRunning = true;
+                    wzUpdateHeader(`Colors Saved! You need to restart Grim Dawn to see the changes!`);
+                }else{
+                    //console.log(`no game is running`);
+                    wzUpdateHeader(`Colors Saved!`);
+                }
+            } );
+            
+        }, 10);
+        
+    },
+
+    OnClickSidebarBtn_DeleteOldColorFiles: function(){
+        this.OnDeleteOldFiles();
     },
 
     content_: function(){
@@ -932,6 +987,16 @@ module.exports = {
                 "ONCLICK": "Super.OnClick_WriteColors()",
                 "TEXT": "Save Colors"
             });
+        }
+
+        if(this.IsPathCorrect()){
+            if(!this.IsUsingLocale()){
+                /// Path is correct and using Locale
+                outButtons.push({
+                    "ONCLICK": "Super.OnClickSidebarBtn_DeleteOldColorFiles()",
+                    "TEXT": "Remove Colors"
+                });
+            }
         }
 
         return outButtons;

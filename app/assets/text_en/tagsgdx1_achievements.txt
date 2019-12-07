@@ -1,0 +1,155 @@
+# Achievement Groups
+
+achGDX1Group1=Ashes of Malmouth
+
+# Achievements
+
+achGDX1001Title=The Fight Continues
+achGDX1001Desc=Clear the Aetherial Barrier north of Burrwitch.
+
+achGDX1002Title=Embrace New Friendships
+achGDX1002Desc=Choose to remain friendly with the people of Barrowholm.
+
+achGDX1003Title=Embrace New Foes
+achGDX1003Desc=Choose to be hostile with the people of Barrowholm.
+
+achGDX1004Title=Into the Void
+achGDX1004Desc=Activate the Altar of Rattosh.
+
+achGDX1005Title=It's Me, Your Friend
+achGDX1005Desc=Convince an old friend that you are on his side.
+
+achGDX1006Title=Friendly Brawl
+achGDX1006Desc=Beat some sense into an old friend.
+
+achGDX1007Title=For Malmouth
+achGDX1007Desc=Retake the Malmouth Resistance Base in the Steelcap District.
+
+achGDX1008Title=Centennial Legend
+achGDX1008Desc=Reach level 100.
+
+achGDX1009Title=Monomythic Centennial
+achGDX1009Desc=Reach level 100 in Hardcore Mode.
+
+achGDX1010Title=A Stab in the Dark
+achGDX1010Desc=Slay Ekket'Zul, Progenitor of Darkness at the Void's Edge.
+
+achGDX1011Title=An End to the Darkness
+achGDX1011Desc=Slay Ekket'Zul, Progenitor of Darkness at the Void's Edge on Ultimate Difficulty.
+
+achGDX1012Title=Knock Knock
+achGDX1012Desc=Slay Bollag, Keeper of the Gates at the Malmouth Bridge.
+
+achGDX1013Title=Gate Crasher
+achGDX1013Desc=Slay Bollag, Keeper of the Gates at the Malmouth Bridge on Ultimate Difficulty.
+
+achGDX1014Title=So Others May Grow
+achGDX1014Desc=Slay Sylvarria in the Undergrowth.
+
+achGDX1015Title=Weed Killer
+achGDX1015Desc=Slay Sylvarria in the Undergrowth on Ultimate Difficulty.
+
+achGDX1016Title=It's You Again!
+achGDX1016Desc=Slay Fleshshaper Krieg in the Fleshworks.
+
+achGDX1017Title=Remember Me?
+achGDX1017Desc=Slay Fleshshaper Krieg in the Fleshworks on Ultimate Difficulty.
+
+achGDX1018Title=No Strings on Me
+achGDX1018Desc=Settle the score with the Aetherial that possessed you.
+
+achGDX1019Title=I'm My Own Master
+achGDX1019Desc=Settle the score with the Aetherial that possessed you on Ultimate Difficulty.
+
+achGDX1020Title=Crush the Mountain
+achGDX1020Desc=Slay Galakros, the Mountain in the Malmouth Sewers.
+
+achGDX1021Title=Mountain Slayer
+achGDX1021Desc=Slay Galakros, the Mountain in the Malmouth Sewers on Ultimate Difficulty.
+
+achGDX1022Title=The Scourge of Malmouth
+achGDX1022Desc=Slay Theodin Marcell, the Shaper of Flesh in the Sanctum of Flesh.
+
+achGDX1023Title=Revenge for the Fallen
+achGDX1023Desc=Slay Theodin Marcell, the Shaper of Flesh in the Sanctum of Flesh on Ultimate Difficulty.
+
+achGDX1024Title=Ravaged
+achGDX1024Desc=Defeat one of the manifestations of Ravager, the Wendigo Spirit.
+
+achGDX1025Title=The Jewel in the Mud
+achGDX1025Desc=Reach Revered reputation with Barrowholm.
+
+achGDX1026Title=Ugdenbog Rituals
+achGDX1026Desc=Reach Revered reputation with the Coven of Ugdenbog.
+
+achGDX1027Title=Hero of the People
+achGDX1027Desc=Reach Revered reputation with the Malmouth Resistance.
+
+achGDX1028Title=Revered Champion
+achGDX1028Desc=Become Revered with 9 Factions.
+
+achGDX1029Title=Defender of Malmouth
+achGDX1029Desc=Complete the Ashes of Malmouth.
+
+achGDX1030Title=Champion of Malmouth
+achGDX1030Desc=Complete the Ashes of Malmouth on Elite Difficulty.
+
+achGDX1031Title=Savior of Malmouth
+achGDX1031Desc=Complete the Ashes of Malmouth on Ultimate Difficulty.
+
+achGDX1032Title=Mass Extermination
+achGDX1032Desc=Rid Cairn of 200000 Monsters.
+
+achGDX1033Title=Unequaled Slayer
+achGDX1033Desc=Eradicate 2000 Heroic Monsters (marked by a Star).
+
+achGDX1034Title=A Mad Stash
+achGDX1034Desc=Raid Ivonda's Hidden Stash.
+
+achGDX1035Title=Nemesis More Like MEHmesis
+achGDX1035Desc=Slay Ten Nemesis monsters on Elite or Ultimate Difficulty.
+
+achGDX1036Title=Pet Hoarder
+achGDX1036Desc=Summon 18 pets at the same time.
+
+achGDX1037Title=Ashen Devotion
+achGDX1037Desc=Restore 55 Devotion Shrines.
+
+achGDX1038Title=Exceptional Explorer
+achGDX1038Desc=Open 25 One-Shot Chests.
+
+achGDX1039Title=Loremaster
+achGDX1039Desc=Collect 70 Lore Notes.
+
+achGDX1040Title=Immortal Savior of Malmouth
+achGDX1040Desc=Complete the Ashes of Malmouth on Ultimate Difficulty, Hardcore Mode.
+
+achGDX1041Title=Trial of Corruption
+achGDX1041Desc=Endure the Trial of Corruption in the Ancient Grove.
+
+achGDX1042Title=The Wild Tamed
+achGDX1042Desc=Slay Gargabol, Heart of the Wild in the Ancient Grove.
+
+achGDX1043Title=Taming the Untamed
+achGDX1043Desc=Slay Gargabol, Heart of the Wild in the Ancient Grove on Ultimate Difficulty.
+
+achGDX1044Title=Immortal Wild Tamer
+achGDX1044Desc=Slay Gargabol, Heart of the Wild in the Ancient Grove on Hardcore Mode.
+
+achGDX1045Title=The Ancient of Ugdenbog
+achGDX1045Desc=Slay Kra'vall, Ancient of the Waters.
+
+achGDX1046Title=Slayer of Myths
+achGDX1046Desc=Slay Kra'vall, Ancient of the Waters on Ultimate Difficulty.
+
+achGDX1047Title=
+achGDX1047Desc=
+
+achGDX1048Title=
+achGDX1048Desc=
+
+achGDX1049Title=
+achGDX1049Desc=
+
+achGDX1050Title=
+achGDX1050Desc=

@@ -6,6 +6,184 @@ class cApp extends libWZ.Core.cBase{
     
     constructor(){
         super();
+
+        /// ---
+    }
+
+    PostLoad()
+    {
+        const window = remote.getCurrentWindow();
+
+        document.getElementById(`AppBtn_Minimize`).addEventListener(`click`, function(e){
+            window.minimize();
+        });
+
+        document.getElementById(`AppBtn_Maximize`).addEventListener(`click`, function(e){
+            if (window.isMaximized()) {
+                window.unmaximize();
+            }else{
+                window.maximize();
+            }
+        });
+
+        document.getElementById(`AppBtn_Close`).addEventListener(`click`, function(e){
+            //window.close();
+            window.hide();
+        });
+
+        const fnRunGame = function(InEvent){
+            Log(`start`);
+            const pathGrimDawn = appConfig.get(`GrimDawn.Paths.Game`);
+            const bPathGameFileExists = fs.existsSync(`${pathGrimDawn}/Grim Dawn.exe`);
+
+            if (bPathGameFileExists) {
+                try{
+                    //Log(`"${pathGrimDawn}/GrimInternals64.exe"`);
+                    child_process.execSync(`cd "${pathGrimDawn}" && "GrimInternals64.exe"`);
+                    window.hide();
+                }catch(err){
+                    console.error(err);
+
+                    try{
+                        child_process.execSync(`"${pathGrimDawn}/Grim Dawn.exe"`);
+                        window.hide();
+                    }catch(err2){
+                        console.error(err2);
+                    }
+                }
+            }else{
+                console.log(`wrong path`);
+                window.show();
+            }
+        }
+
+        require('electron').ipcRenderer.on(`ShowWindow`, (InEvent) => {
+            window.show();
+            //console.log(`Showing Window again`);
+            wzReloadCMS(10);
+        });
+        require('electron').ipcRenderer.on(`RunGame`, fnRunGame);
+
+        document.getElementById(`App_RunGrimDawn`).addEventListener(`click`, () => {
+            fnRunGame(false)
+        });
+
+
+        
+
+        /*
+        let psPromise = new Promise( (InResolve, InError) => {
+            if (InError) {
+                throw new Error(InError);
+            }
+
+            InResolve(Log(`starting 01`));
+        }).then( () => {
+            Log(`finished 01`);
+        });
+        */
+        /*
+        ps.lookup({
+            command: `GrimInternals64`
+        }, (InError, InResultList) => {
+            if (InError) {
+                throw new Error(InError);
+            }
+            // 33152
+            Log(`starting 01`);
+            InResultList.forEach( (InProcess) => {
+                if (InProcess) {
+                    console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', InProcess.pid, InProcess.command, InProcess.arguments );
+                }
+            });
+            Log(`finished 01`);
+        });
+
+        ps.lookup({
+            command: `Grim Dawn`
+        }, (InError, InResultList) => {
+            if (InError) {
+                throw new Error(InError);
+            }
+            // 33152
+            Log(`starting 02`);
+            InResultList.forEach( (InProcess) => {
+                if (InProcess) {
+                    console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', InProcess.pid, InProcess.command, InProcess.arguments );
+                }
+            });
+            Log(`finished 02`);
+        });
+        */
+    }
+
+    GenerateTitleBar()
+    {
+        let outTitleBar = {}
+            , tmpTitleButton = `<div id="{ID}" class="TitleBarBTN">{TEXT}</div>`
+            , windowButtons = ``
+            , TitleBarContent = ``;
+        
+        const TitleBarId = this.appData.tpl_app.TitleBar.ID
+            , tmpTitleBarContent = this.appData.tpl_app.TitleBar.CONTENT
+            , titleBarSettings = this.appData.tpl_app.TitleBar.Settings;
+
+        if (titleBarSettings.bUseButton_Minimize) {
+            windowButtons += tmpTitleButton.wzReplace({
+                ID: `AppBtn_Minimize`
+                , TEXT: `-`
+            });
+        }
+        if (titleBarSettings.bUseButton_Maximize) {
+            windowButtons += tmpTitleButton.wzReplace({
+                ID: `AppBtn_Maximize`
+                , TEXT: `+`
+            });
+        }
+        if (titleBarSettings.bUseButton_Close) {
+            windowButtons += tmpTitleButton.wzReplace({
+                ID: `AppBtn_Close`
+                , TEXT: `x`
+            });
+        }
+
+        TitleBarContent += tmpTitleBarContent.wzReplace({
+            WINDOW_BUTTONS: windowButtons
+        });
+
+        outTitleBar = {
+            "ID": TitleBarId
+            , "CONTENT": TitleBarContent
+        };
+
+        // return full nav string with all navItems, menuItems and subMenuItems
+        return outTitleBar;
+    }
+
+    GenerateHeader()
+    {
+        let outHeader = {
+            ID: `App_Header`
+            , CONTENT: ``
+        };
+        
+        //const contentTexts = (`${appConfig.get('cms')}`).split(`,`);
+        const tmpNotifyAreaContent = `<div id="notifyArea"></div>`;
+        const tmpHeaderTitleContent = `<div id="app_HeaderApps">{TEXT}</div>`;
+        const tmpHeaderNotifyContent = `<div id="App_HeaderNotify">Loading...</div>`;
+        const tmpRefreshButton = `<img src="img/refresh.png" onclick="location.reload();" title="Reload (F5)"></img>`;
+        const runGrimDawnGame = `<img id="App_RunGrimDawn" src="img/Grim Dawn.png" title="Start Grim Dawn"></img>`;
+
+        outHeader.CONTENT += tmpNotifyAreaContent;
+        outHeader.CONTENT += tmpHeaderTitleContent.wzReplace({
+            //TEXT: `${contentTexts[contentTexts.length - 1]}`
+            TEXT: ``
+        });
+        outHeader.CONTENT += tmpHeaderNotifyContent;
+        outHeader.CONTENT += tmpRefreshButton;
+        outHeader.CONTENT += runGrimDawnGame;
+        
+        return outHeader;
     }
 
     AllowNavItem(InNavPath){
@@ -164,12 +342,14 @@ class cApp extends libWZ.Core.cBase{
         });
         
         return super.create_(this.appData.tpl.App,{
-            'HEADER': this.appData.tpl.Container.wzOut(this.appData.tpl_app.Header), // tmpData.app.Header.wzOut(tmpApp.Header)
+            //'TITLE': this.appData.tpl.Container.wzOut(this.GenerateTitleBar()),
+            //'HEADER': this.appData.tpl.Container.wzOut(this.appData.tpl_app.Header), // tmpData.app.Header.wzOut(tmpApp.Header)
+            'HEADER': this.appData.tpl.Container.wzOut(this.GenerateHeader()),
             'NAV': this.appData.tpl.Container.wzOut(this.genNav($opt.Nav)),
             'CONTENT': this.appData.tpl.Container.wzOut(this.appData.tpl_app.Content),
             'SIDEBAR': this.appData.tpl.Container.wzOut(this.appData.tpl_app.SideBar),
             'FOOTER': this.appData.tpl.Container.wzOut(this.genFooter())
-        },document.body);
+        }, document.getElementById(`App_GeneratedContent`)); // document.body
     }
     
 }

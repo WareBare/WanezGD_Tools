@@ -1,0 +1,228 @@
+# Achievement Groups
+
+achGroupAct1=Act I
+achGroupAct2=Act II
+achGroupAct3=Act III
+achGroupChallenges=Challenges
+achGroupCharacter=Character
+achGroupMonsters=Monsters
+achGroupStory=Story
+achGroupWorld=World
+
+# Achievements
+
+ach001Title=Monster Slayer
+ach001Desc=Eradicate 25 Heroic Monsters (marked by a Star).
+
+ach002Title=Heroic Slayer
+ach002Desc=Eradicate 100 Heroic Monsters (marked by a Star).
+
+ach003Title=Legendary Slayer
+ach003Desc=Eradicate 1000 Heroic Monsters (marked by a Star).
+
+ach004Title=Nemesis
+ach004Desc=Slay a Nemesis monster on Elite or Ultimate Difficulty.
+
+ach005Title=Unstoppable
+ach005Desc=Slay Six Nemesis monsters on Elite or Ultimate Difficulty.
+
+ach006Title=Cleansing the World
+ach006Desc=Rid Cairn of 25000 Monsters.
+
+ach007Title=A Wake of Carnage
+ach007Desc=Rid Cairn of 50000 Monsters.
+
+ach008Title=An Ocean of Blood
+ach008Desc=Rid Cairn of 100000 Monsters.
+
+ach009Title=Friends in the Apocalypse
+ach009Desc=Become Revered with a Faction.
+
+ach010Title=Paragon of Cairn
+ach010Desc=Become Revered with 6 Factions.
+
+ach011Title=Servant of Empyrion
+ach011Desc=Reach Revered reputation with Kymon's Chosen.
+
+ach012Title=Follower of Uroboruuk
+ach012Desc=Reach Revered reputation with the Order of Death's Vigil.
+
+ach013Title=The End to Depravity
+ach013Desc=Slay Salazar, Blade of Ch'thon in the Depraved Sanctuary.
+
+ach014Title=Shattering the Blade of Ch'thon
+ach014Desc=Slay Salazar, Blade of Ch'thon in the Depraved Sanctuary on Ultimate Difficulty.
+
+ach015Title=The Executioner Executed
+ach015Desc=Slay Alkamos, Lord Executioner in the Steps of Torment.
+
+ach016Title=The End of Torment
+ach016Desc=Slay Alkamos, Lord Executioner in the Steps of Torment on Ultimate Difficulty.
+
+ach017Title=Immortal Executioner
+ach017Desc=Slay Alkamos, Lord Executioner in the Steps of Torment on Hardcore Mode.
+
+ach018Title=Delivering Justice
+ach018Desc=Slay Warden Krieg in the Hidden Laboratory.
+
+ach019Title=An Old Threat
+ach019Desc=Slay Darius Cronley.
+
+ach020Title=Blood for Blood
+ach020Desc=Slay Karroz, Sigil of Ch'thon.
+
+ach021Title=The Bane of Cairn
+ach021Desc=Slay the Loghorrean, Voice of Ch'thon.
+
+ach022Title=Cleansing the Conflagration
+ach022Desc=Slay the Herald of Flame in the Conflagration.
+
+ach023Title=Not Afraid of a Little Fire
+ach023Desc=Slay the Herald of Flame in the Conflagration on Ultimate Difficulty.
+
+ach024Title=Gutting Gutworm
+ach024Desc=Slay Gutworm in Smuggler's Basin.
+
+ach025Title=You've Got Guts
+ach025Desc=Slay Gutworm in Smuggler's Basin on Ultimate Difficulty.
+
+ach026Title=Tinkering is Her Specialty
+ach026Desc=Rescue Darlet in Burrwitch.
+
+ach027Title=By the Malleum Menhir
+ach027Desc=Enlist the help of a Blacksmith.
+
+ach028Title=No Soup for You
+ach028Desc=Rescue Ulgrim in the Burrwitch Outskirts.
+
+ach029Title=Apprentice Crafter
+ach029Desc=Craft 10 items.
+
+ach030Title=Expert Crafter
+ach030Desc=Craft 100 items.
+
+ach031Title=Master Crafter
+ach031Desc=Craft 1000 items.
+
+ach032Title=Relics from the Past
+ach032Desc=Craft a Relic.
+
+ach033Title=Transcendent Power
+ach033Desc=Craft a Transcendent Relic.
+
+ach034Title=Mythic Power
+ach034Desc=Craft a Mythical Relic.
+
+ach035Title=Junior Explorer
+ach035Desc=Open 10 One-Shot Chests.
+
+ach036Title=To the Explorer Go the Spoils
+ach036Desc=Open 20 One-Shot Chests.
+
+ach037Title=Seeking the Stars
+ach037Desc=Restore 10 Devotion Shrines.
+
+ach038Title=True Devotion
+ach038Desc=Restore 50 Devotion Shrines.
+
+ach039Title=Survivor
+ach039Desc=Reach level 10.
+
+ach040Title=Champion
+ach040Desc=Reach level 35.
+
+ach041Title=Hero
+ach041Desc=Reach level 50.
+
+ach042Title=Legend
+ach042Desc=Reach level 85.
+
+ach043Title=Immortal Legend
+ach043Desc=Reach level 85 in Hardcore Mode.
+
+ach044Title=Savior of Cairn
+ach044Desc=Complete the Game on Ultimate Difficulty.
+
+ach045Title=Immortal Savior
+ach045Desc=Complete the Game on Ultimate Difficulty, Hardcore Mode.
+
+ach046Title=Difficult Decisions
+ach046Desc=Resolve the situation in New Harbor without resorting to violence.
+
+ach047Title=No Exceptions
+ach047Desc=Slay Anasteria.
+
+ach048Title=I Was Not Expecting You, Human
+ach048Desc=Slay Warden Krieg on Veteran mode without your character hitting level 11.
+
+ach049Title=Securing Burrwitch
+ach049Desc=Secure the Burrwitch Riftgate on Veteran Mode.
+
+ach050Title=Hidden in the Flooded Passage
+ach050Desc=Discover what is concealed behind the collapsed rocks in the Flooded Passage.
+
+ach051Title=Cronley's Secret
+ach051Desc=Uncover Darius Cronley's Secret.
+
+ach052Title=Hidden Wealth
+ach052Desc=Find the buried treasure in the farmlands near Homestead.
+
+ach053Title=In the Depths, He Lived Forgotten
+ach053Desc=Slay Gollus, the Deepdweller
+
+ach054Title=The Death Room
+ach054Desc=Survive the Chamber of Souls.
+
+ach055Title=Let Me Gather My Notes
+ach055Desc=Collect 5 Lore Notes.
+
+ach056Title=Note Collector
+ach056Desc=Collect 20 Lore Notes.
+
+ach057Title=Lorekeeper
+ach057Desc=Collect 50 Lore Notes.
+
+ach058Title=The Fields of Despair
+ach058Desc=Survive the Fields of Despair.
+
+ach059Title=Celestial Bane
+ach059Desc=Defeat the Avatar of Mogdrogen.
+
+ach060Title=Shar'Zul Extinguished
+ach060Desc=Slay Shar'Zul, Harbinger of Chaos in the Bastion of Chaos.
+
+ach061Title=The Bastion Conquered
+ach061Desc=Slay Shar'Zul, Harbinger of Chaos in the Bastion of Chaos on Ultimate Difficulty.
+
+ach062Title=Immortal Conqueror of Chaos
+ach062Desc=Slay Shar'Zul, Harbinger of Chaos in the Bastion of Chaos in Hardcore Mode.
+
+ach063Title=The Order's Champion
+ach063Desc=Slay Archon Barthollem in the name of the Order of Death's Vigil on Ultimate Difficulty.
+
+ach064Title=The Chosen of Kymon
+ach064Desc=Slay Malkadarr in the name of Kymon's Chosen on Ultimate Difficulty.
+
+ach065Title=Cleansing the Immolation
+ach065Desc=Slay the Herald of Destruction in the Immolation.
+
+ach066Title=Grounding the Herald
+ach066Desc=Slay the Herald of Destruction in the Immolation on Ultimate Difficulty.
+
+ach067Title=Defender of Cairn
+ach067Desc=Complete the Game.
+
+ach068Title=Champion of Cairn
+ach068Desc=Complete the Game on Elite Difficulty.
+
+ach069Title=The Flames of Valbury
+ach069Desc=Survive the Flames of Valbury.
+
+ach070Title=The Overlord Vanquished
+ach070Desc=Slay Overlord Van Aldritch in Port Valbury.
+
+ach071Title=Port Valbury Avenged
+ach071Desc=Slay Overlord Van Aldritch in Port Valbury on Ultimate Difficulty.
+
+ach072Title=Immortal Vanquisher of Valbury
+ach072Desc=Slay Overlord Van Aldritch in Port Valbury in Hardcore Mode.

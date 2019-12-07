@@ -1,0 +1,695 @@
+tagSkillClassName09=Oathkeeper
+
+tagSkillClassName0109=Warlord
+tagSkillClassName0209=Shieldbreaker
+tagSkillClassName0309=Sentinel
+tagSkillClassName0409=Dervish
+tagSkillClassName0509=Templar
+tagSkillClassName0609=Archon
+tagSkillClassName0709=Paladin
+tagSkillClassName0809=Oppressor
+
+tagSkillClassDescription09=Whether they hail from the Temple of Menhir, or offer their souls to the Witch Gods, all Oathkeepers have two things in common: unflinching loyalty and zealous fury. Oathkeepers are the guardians of sacred tombs, keepers of the faithful and ardent enforcers of celestial will. They do not merely hide behind a shield or their divine powers; to Oathkeepers, these are weapons upon which they shall spill the blood of the unworthy and exact their righteous wrath.
+
+
+
+
+#Class09
+tagGDX2Class09SkillName00A=Oathkeeper
+tagGDX2Class09SkillDescription00A=Zealous embodiment of celestial will.
+
+tagGDX2Class09SkillName01A=Aegis of Menhir
+tagGDX2Class09SkillDescription01A=With the strength of the earth flowing through you by the blessings of Menhir, hurl a magical aegis that will home in upon your target and leave it staggered and dazed before returning to you. ^oRequires a shield.
+tagGDX2Class09SkillName01B=Avenging Shield
+tagGDX2Class09SkillDescription01B=The Aegis of Menhir reverberates with celestial might and echoes from your initial target to strike additional nearby foes before returning to you.
+tagGDX2Class09SkillName01C=Reprisal
+tagGDX2Class09SkillDescription01C=Tireless training with the Aegis of Menhir turns it into the vehicle of your vengeance, unhindered by your physical limitations.
+tagGDX2Class09SkillName01D=Aegis of Thorns
+tagGDX2Class09SkillDescription01D=Infused with the Great Guardian's suffering, the Aegis of Menhir becomes an extension of Dreeg's will, and of his thorns endlessly dripping with acid-blood.
+
+tagGDX2Class09SkillName02A=Righteous Fervor
+tagGDX2Class09SkillDescription02A=Oathkeepers charge into battle with prayers on their lips and righteousness in their hearts. When used as your default weapon attack, Righteous Fervor increases the intensity of your attacks with every strike. ^oBuilding up charges increases the potency of the bonuses.
+tagGDX2Class09SkillName02B=Consecration
+tagGDX2Class09SkillDescription02B=Your very essence becomes consecrated in celestial grace, filling you with unshakable determination.
+tagGDX2Class09SkillName02C=Retribution
+tagGDX2Class09SkillDescription02C=Your concentration is unflinching, every blow dealt to you returned a thousand-fold.
+tagGDX2Class09SkillName02D=Dreeg's Reproach
+tagGDX2Class09SkillDescription02D=Your prayers become twisted and dark, your fervor driven by the maddening whispers of Dreeg.
+
+tagGDX2Class09SkillName03A=Judgment
+tagGDX2Class09SkillDescription03A=Oathkeepers are the zealous enforcers of celestial judgment. By their will, heathenous foes are drawn in so that their final judgment may be rendered.
+tagGDX2Class09SkillName03B=Crushing Verdict
+tagGDX2Class09SkillDescription03B=Judged foes find their wills broken, their fates already sealed.
+tagGDX2Class09SkillName03C=Heart of Wrath
+tagGDX2Class09SkillDescription03C=Rendering judgment fills your heart with fiery purpose which burns nearby foes.
+
+tagGDX2Class09SkillName04A=Vire's Might
+tagGDX2Class09SkillDescription04A=First recorded in Arkovian texts when Agavold the Stalwart of the Temple of Vire selflessly charged through an entire legion of enemy forces, scattering their ranks and exposing them to an onslaught of arrows, all without taking a scratch. Vire's Might has since become a prime display of an Oathkeeper's strength, both physical and spiritual, in the face of seemingly impossible odds. ^oWhen used with a shield, the shield's damage is added.
+tagGDX2Class09SkillName04B=Volcanic Stride
+tagGDX2Class09SkillDescription04B=With fire in your heart and a prayer to Vire on your lips, your valiant charge leaves behind volcanic flames to incinerate your foes.
+tagGDX2Class09SkillName04C=Tectonic Shift
+tagGDX2Class09SkillDescription04C=You charge forth with the might of the earth, traveling further and inflicting even greater lasting harm.
+tagGDX2Class09SkillName04D=Volcanic Might
+tagGDX2Class09SkillDescription04D=When struck with an Oathkeeper's shield, the burning vengeance of Vire's Might knocks less resolute foes off their feet. ^oRequires a shield or two-handed melee weapon.
+
+tagGDX2Class09SkillName05A=Presence of Virtue
+tagGDX2Class09SkillDescription05A=Oathkeepers are paragons of virtue and faith, properties they inspire within nearby allies. Those that stand beside them cannot help but be inspired into feats of valor. ^oThis ability must be toggled to maintain its effect.
+tagGDX2Class09SkillName05B=Haven
+tagGDX2Class09SkillDescription05B=The Oathkeeper's presence becomes a haven on the battlefield, offering solace from relentless blows.
+tagGDX2Class09SkillName05C=Rebuke
+tagGDX2Class09SkillDescription05C=The hearts of the Oathkeeper and their allies are stoked with righteous fury. 
+
+tagGDX2Class09SkillName06A=Ascension
+tagGDX2Class09SkillDescription06A=Through deep contemplation and resolute faith, an Oathkeeper may experience, even if briefly, a fragment of their deity's presence within them. This guiding light offers solace in trying times, a taste of a god's true might.
+tagGDX2Class09SkillName06B=Clarity of Purpose
+tagGDX2Class09SkillDescription06B=Driven to destroy their foes without hesitation, an Oathkeeper becomes the embodiment of celestial fury.
+
+tagGDX2Class09SkillName07A=Eye of Reckoning
+tagGDX2Class09SkillDescription07A=When the first Oathkeepers looked upon the celestial vale and witnessed the astounding power of Empyrion's light, they sought to replicate its brilliance and might. The culmination of their prayers and training was the Eye of Reckoning, a devastating display of martial combat that rapidly cleaves through all nearby foes in a whirlwind of fire and light for as long as the Oathkeeper channels their focus into the attack. ^oRequires a melee weapon. At 100% Attack Speed, Eye of Reckoning deals damage and drains Energy every 0.16s.
+tagGDX2Class09SkillName07B=Soulfire
+tagGDX2Class09SkillDescription07B=Through the righteous fire burning with the Oathkeeper's soul, the light becomes as if a physical force, spiraling outward and piercing through unwary foes during the Eye of Reckoning.
+
+tagGDX2Class09SkillName08A=Summon Guardian of Empyrion
+tagGDX1Class09SkillTracker08A=Current Number of Guardians Conjured
+tagGDX2Class09SkillDescription08A=Call forth a loyal servant of Empyrion to cleave through your foes and render celestial judgment. ^oThe Celestial Guardian scales with player bonuses.
+tagGDX2Class09SkillName08B=Celestial Presence
+tagGDX2Class09SkillDescription08B=The guardian's very presence sears the souls of your heretical foes.
+tagGDX2Class09SkillName08C=Scion of Dreeg
+tagGDX2Class09SkillDescription08C=Tainted by the gaze of Dreeg, the Celestial Guardian becomes a scion of acid and decay, a mirror of the deity it now serves.
+tagGDX2Class09SkillName08A_PetSkillA=Empyrion's Cleave
+tagGDX2Class09SkillName08A_PetSkillB=Dreeg's Cleave
+
+tagGDX2Class09SkillName09A=Path of the Three
+tagGDX2Class09SkillDescription09A=Not all Oathkeepers swear fealty to deities blessing the Erulan empire. Some offer themselves before the three Witch Gods in the hopes of harnessing even a fraction of their terrible powers. These Oathkeepers consider themselves to be upon the true path, not deceived by empty promises of a light that has forsaken humanity. ^oThis ability must be toggled to maintain its effect.
+
+tagGDX2Class09SkillName10A=Divine Mandate
+tagGDX2Class09SkillDescription10A=Whether raising their shield in the name of Empyrion himself, or serving under the banners of a member of his celestial court, Oathkeepers that have risen in the ranks are considered to be an extension of divine will and heralds of celestial retribution. ^oThis ability must be toggled to maintain its effect.
+
+tagGDX2Class09SkillName11A=Safeguard
+tagGDX2Class09SkillDescription11A=In the hands of a trained Oathkeeper, a shield is not just an unbreakable defense, but also a formidable weapon. ^oThis is a shield bonus.
+tagGDX2Class09SkillName12A=Smite
+tagGDX2Class09SkillDescription12A=A precise strike fueled by the Oathkeeper's righteous fury leaves enemies staggered and broken. With sufficient practice, this technique can even be extended to a shield. ^oCan activate with all default weapon attacks. When used with a melee weapon and shield, will also strike with the shield.
+tagGDX2Class09SkillName13A=Shattering Smash
+tagGDX2Class09SkillDescription13A=Such is an Oathkeeper's prowess with a shield that the force of the blow resonates through the earth and sends an additional shockwave through your initial target. ^oThis is a shield combat technique that activates off of default weapon attacks. Requires a melee weapon and shield.
+
+tagGDX2Class09SkillName14A=Resilience
+tagGDX2Class09SkillDescription14A=For an Oathkeeper, resolute faith is the absolute defense. As life fades, so the spirit rises to oppose further harm.
+
+
+#ItemSkills
+tagGDX2ItemSkillB201Name=Blastwave
+tagGDX2ItemSkillB201Desc=A wave of fire erupts from your attack.
+
+tagGDX2ItemSkillC201Name=Poison Spine Nova
+tagGDX2ItemSkillC201Desc=Poisonous spines erupt around you, impaling nearby foes.
+
+tagGDX2ItemSkillC202Name=Stormserpent Orb
+tagGDX2ItemSkillC202Desc=An electrified orb of ice pierces through your foes and chills their movement.
+
+tagGDX2ItemSkillC203Name=Daega's Oath
+tagGDX2ItemSkillC203Desc=Daega's oath to Dreeg compels you.
+
+tagGDX2ItemSkillC204Name=Festerblaze
+tagGDX2ItemSkillC204Desc=A sorcerous blaze festers within your foes, destroying them from within.
+
+tagGDX2ItemSkillC205Name=Spill their Blood
+tagGDX2ItemSkillC205Desc=Spill the blood of the heathens that dare stand in your way.
+
+tagGDX2ItemSkillC206Name=Nightshroud
+tagGDX2ItemSkillC206Desc=Unleash a burst of violent hungering energies upon your foes.
+
+tagGDX2ItemSkillD201Name=Blood Spout
+tagGDX2ItemSkillD201Desc=A crimson spout erupts beneath your foes, showering them with blood and gore.
+
+tagGDX2ItemSkillD202Name=Guardian's Guidance
+tagGDX2ItemSkillD202Desc=Embrace the lessons of the Witch God Dreeg and turn your weapons into an extension of his will.
+
+tagGDX2ItemSkillD203Name=Shatterguard
+tagGDX2ItemSkillD203Desc=Being brought low merely stokes your rage.
+
+tagGDX2ItemSkillD204Name=Wake of Souls
+tagGDX2ItemSkillD204Desc=A wake of souls erupts from you, consuming all life before it.
+
+tagGDX2ItemSkillD205Name=Crimson Wake
+tagGDX2ItemSkillD205Desc=A wake of blood erupts from you, drowning your foes in crimson.
+
+tagGDX2ItemSkillD206Name=Noxious Wound
+tagGDX2ItemSkillD206Desc=Cleave your foe with a noxious edge, leaving a festering wound.
+
+tagGDX2ItemSkillD207Name=Phoenix Dive
+tagGDX2ItemSkillD207Desc=A fiery eruption consumes your foes.
+
+tagGDX2ItemSkillD208Name=Bone Lance
+tagGDX2ItemSkillD208Desc=Unleash a projectile of necromantic bone to pierce through your foes.
+
+tagGDX2ItemSkillD209Name=Celestial Presence
+tagGDX2ItemSkillD209Desc=You are filled with the graceful light of Empyrion. Your very presence sears your foes. ^oThis ability must be toggled to maintain its effect.
+
+tagGDX2ItemSkillD210Name=Sun Spot
+tagGDX2ItemSkillD210Desc=Blast your target with a heavenly ray of searing flames.
+
+tagGDX2ItemSkillD211Name=Spectral Guard
+tagGDX2ItemSkillD211Desc=Being brought low fills you with spectral resilience and fury.
+
+tagGDX2ItemSkillD211BName=Corrupted Guard
+tagGDX2ItemSkillD211BDesc=Being brought low fills you with corrupted resilience and fury.
+
+tagGDX2ItemSkillD212Name=Rewind Fate
+tagGDX2ItemSkillD212Desc=Rewind the strands of fate, undoing recent harm.
+
+tagGDX2ItemSkillD213Name=Entropic Presence
+tagGDX2ItemSkillD213Desc=Your very presence destabilizes your foes and shatters their reality. ^oThis ability must be toggled to maintain its effect.
+
+tagGDX2ItemSkillD214Name=Gift of the Lotus
+tagGDX2ItemSkillD214Desc=The lotus revitalizes your essence.
+
+tagGDX2ItemSkillD215Name=Korvaak's Brand
+tagGDX2ItemSkillD215Desc=Brand your foes with Korvaak's fury, incinerating them with the elements. ^oThis is a melee dual-wielding and ranged dual-wielding technique that activates off of default weapon attacks. Also enables the ability to dual wield weapons.
+
+tagGDX2ItemSkillD216Name=Unlife
+tagGDX2ItemSkillD216Desc=Being brought to the brink of death fills you with resilience of the undead.
+
+tagGDX2ItemSkillD217Name=Fire Lance
+tagGDX2ItemSkillD217Desc=A lance of pure flame pierces through your foes.
+
+tagGDX2ItemSkillD218Name=Stonetread
+tagGDX2ItemSkillD218Desc=The enchantment upon these boots shields you from physical harm.
+
+tagGDX2ItemSkillD219Name=Deathwalker
+tagGDX2ItemSkillD219Desc=You are resistant to the call of death, putting up a barrier whenever struck by abilities that seek to drain you of life's essence.
+
+tagGDX2ItemSkillD220Name=Dawnshard
+tagGDX2ItemSkillD220Desc=A shard of pure soladrin crystal erupts from you to sear your foes before returning to you.
+
+tagGDX2ItemSkillD221Name=Korvaak's Vengeance
+tagGDX2ItemSkillD221Desc=Wild eldritch energies erupt from you, searing all nearby foes.
+
+tagGDX2ItemSkillD222Name=Spectral Nova
+tagGDX2ItemSkillD222Desc=Spectral energies erupt from you, sapping nearby foes of their strength.
+
+tagGDX2ItemSkillD223Name=Ice Spread
+tagGDX2ItemSkillD223Desc=A cone of jagged icicles erupts from you.
+
+tagGDX2ItemSkillD224Name=Severed Faith
+tagGDX2ItemSkillD224Desc=Embrace the whispers of the Witch Gods, and forsake your old beliefs, to empower yourself and nearby allies. ^oThis ability must be toggled to maintain its effect.
+
+tagGDX2ItemSkillD225Name=Devouring Darkness
+tagGDX2ItemSkillD225Desc=The endless hunger of Yugol empowers you and nearby allies. ^oThis ability must be toggled to maintain its effect.
+
+tagGDX2ItemSkillD226Name=Virtue's Guardian
+tagGDX2ItemSkillD226Desc=A burst of divine light erupts around you, blinding nearby foes.
+
+tagGDX2ItemSkillD227Name=Eldritch blast
+tagGDX2ItemSkillD227Desc=A blast of eldritch energies erupts from you, staggering nearby foes.
+
+tagGDX2ItemSkillD228Name=Blightlord's Infection
+tagGDX2ItemSkillD228Desc=Infect your foe with a debilitating disease that weakens their resolve.
+
+tagGDX2ItemSkillD229Name=Conjure Eldritch Webweaver
+tagGDX2ItemSkillD229Desc=Warp ambient eldritch energies to conjure a webweaver from the Eldritch Realm. This creature's presence is unstable however and it will quickly seek to return to its home. ^oThe webweaver scales with Pet Bonuses.
+tagGDX2ItemSkillD229_Pet01=Spider Fangs
+
+tagGDX2ItemSkillD230Name=Eldritch Shard
+tagGDX2ItemSkillD230Desc=Conjure a shard bursting with eldritch energies to empower yourself and any allies that stand near its radiance while harming foes.
+tagGDX2ItemSkillD230_Pet01=Eldritch Radiance
+tagGDX2ItemSkillD230_Pet01Desc=Fighting near the shard empowers you with eldritch energies and harms nearby foes.
+tagGDX2ItemSkillD230_Pet02=Eldritch Sear
+tagGDX2ItemSkillD230_Pet02Desc=The eldritch shard radiates harmful energies.
+
+tagGDX2ItemSkillD231Name=Touch of Chaos
+tagGDX2ItemSkillD231Desc=Infuse your weapons with the corrupting powers of the void, unleashing vile energies with every blow. ^oWhen used as your default weapon attack, Touch of Chaos inflicts additional damage.
+
+tagGDX2ItemSkillD232Name=Blightlord's Gift
+tagGDX2ItemSkillD232Desc=Mark your foes with the Gift of the Blightlord, a debilitating curse that makes your enemies ever more susceptible to the blights you carry.
+
+tagGDX2ItemSkillD233Name=Summon Eldritch Talon
+tagGDX2ItemSkillD233Desc=Call forth an eldritch fiend to fight alongside you. The eldritch talon unravels the existence of nearby foes. ^oOnly one eldritch talon can be summoned at any one time. The eldritch talon scales with Pet Bonuses.
+tagGDX2ItemSkillD233_Pet01=Eldritch Claws
+tagGDX2ItemSkillD233_Pet02=Eldritch Instability
+tagGDX2ItemSkillD233_Pet02Desc=A nearby Eldritch Talon is unraveling nearby foes, diminishing their resistances and attacks.
+
+tagGDX2ItemSkillD234Name=Wake of Bones
+tagGDX2ItemSkillD234Desc=Unleash a wave of bones to impale your foes.
+
+tagGDX2ItemSkillD235Name=Wilhelm!
+tagGDX2ItemSkillD235Desc=Ahhhhhhh.
+
+tagGDX2ItemSkillD236Name=Aetherblaze
+tagGDX2ItemSkillD236Desc=A blaze of pure arcane fire erupts beneath your foes.
+
+tagGDX2ItemSkillD237Name=Murmur's Kiss
+tagGDX2ItemSkillD237Desc=Spew forth vile acid that penetrates your foes.
+
+tagGDX2ItemSkillD238Name=Blood of the Sands 
+tagGDX2ItemSkillD238Desc=A pool of blood bubbles up from the earth beneath your foes.
+
+tagGDX2ItemSkillD239Name=Flame Patch
+tagGDX2ItemSkillD239Desc=You ignite the very ground beneath your foes.
+
+tagGDX2ItemSkillD240Name=Bysmiel's Authority
+tagGDX2ItemSkillD240Desc=Invoke your authority over your minions, invigorating and empowering yourself and your allies.
+
+tagGDX2ItemSkillD241Name=Bitter Winds
+tagGDX2ItemSkillD241Desc=A rush of bitter winds erupts from you, chilling nearby foes to the bone.
+
+tagGDX2ItemSkillD242Name=Dunefiend Blades
+tagGDX2ItemSkillD242Desc=The Dunefiend's blades carry a caustic bite, which comes at your foes in a blur of steel. ^oThis is a melee dual-wielding passive bonus. Also enables the ability to dual wield melee weapons.
+
+tagGDX2ItemSkillD243Name=Pyran's Pyre
+tagGDX2ItemSkillD243Desc=Unleash a burst of violent flames at the target point.
+
+tagGDX2ItemSkillD244Name=Void Soul
+tagGDX2ItemSkillD244Desc=A tormented soul infests your foe and rapidly spreads its suffering to nearby enemies.
+
+tagGDX2ItemSkillD245Name=Phantasmal Blade
+tagGDX2ItemSkillD245Desc=A blade with a will of its own flies towards your foe and impales all in its way.
+
+tagGDX2ItemSkillD246Name=Deadly Means
+tagGDX2ItemSkillD246Desc=Death by any means. ^oThis is a melee dual-wielding and ranged dual-wielding passive bonus. Also enables the ability to dual wield weapons.
+
+tagGDX2ItemSkillD247Name=Targo's Hammer
+tagGDX2ItemSkillD247Desc=Targo's celestial hammer manifests and flies towards your foes before returning to you.
+
+tagGDX2ItemSkillD248Name=Nightbringer
+tagGDX2ItemSkillD248Desc=A rift in reality is torn from which erupt violent hungering energies.
+tagGDX2ItemSkillD248PetSkillName=Hungering Energies
+tagGDX2ItemSkillD248PetSkillDesc=Violent hungering energies erupt to consume your foes.
+
+tagGDX2ItemSkillD249Name=Eye of Sethris
+tagGDX2ItemSkillD249Desc=A cursed eye orbits around you and penetrates through the physical form of your foes to assault the spirit directly.
+tagGDX2ItemSkillD250Name=Eye of Orissia
+tagGDX2ItemSkillD251Name=Eye of Anubar
+tagGDX2ItemSkillD252Name=Eye of Tawrot
+tagGDX2ItemSkillD253Name=Eye of Basti
+tagGDX2ItemSkillD254Name=Eye of Shuroth
+
+tagGDX2ItemSkillD255Name=Gaze of Khonsar
+tagGDX2ItemSkillD255Desc=The Gaze of Khonsar falls upon your minions, filling them with fiery fury.
+
+tagGDX2ItemSkillD256Name=Invocation of Yugol
+tagGDX2ItemSkillD256Desc=Invoke the ritual that doomed the stars, calling forth a manifestation of the great celestial hunger. ^oThe manifestations scale with player bonuses.
+tagGDX2ItemSkillD256PetSkill_Name=Flail
+tagGDX2ItemSkillD256PetSkill2_Name=Dark Presence
+
+tagGDX2ItemSkillD257Name=Toxic Burst
+tagGDX2ItemSkillD257Desc=A burst of caustic toxins erupts around you.
+
+tagGDX2ItemSkillD258Name=Phantasmal Nova
+tagGDX2ItemSkillD258Desc=A burst of phantasmal blades erupts around you.
+
+
+#Component Skills
+tagGDX2CompSkillA033Name=Void Weapons
+tagGDX2CompSkillA033Desc=Empower your attacks with the corrupting void. ^oThis ability must be toggled to maintain its effect.
+
+
+#Relic Skills
+tagGDX1RelicSkillD106Name=Blazing Eruption
+tagGDX1RelicSkillD106Desc=Unleash a burst of Empyrion's divine fury upon your target, incinerating them and any foes foolish enough to stand too close.
+
+tagGDX2RelicSkillC201Name=Flame Burst
+tagGDX2RelicSkillC201Desc=Flames burst from you in a wave when struck, incinerating those foolish enough to strike in the first place.
+
+tagGDX2RelicSkillD201Name=Eldritch Ruminations
+tagGDX2RelicSkillD201Desc=Meditate upon the secrets of the Eldritch Realm, empowering your attacks and those of your nearby allies with the gifts of the Three. ^oThis ability must be toggled to maintain its effect.
+
+tagGDX2RelicSkillD202Name=Vire's Cascade
+tagGDX2RelicSkillD202Desc=Smash the ground, causing the earth to crack and erupt in a fan away from you.
+
+tagGDX2RelicSkillD203Name=Sand Devil
+tagGDX2RelicSkillD203Desc=Unleash a whirlwind of sand upon your foes. ^oSand Devils scale with player damage bonuses.
+
+tagGDX2RelicSkillD204Name=Voracious Reach
+tagGDX2RelicSkillD204Desc=Focus your fury into a whirlwind of voracious power that consumes the lifeblood of all near you for as long as you channel the effect. ^oRequires a melee weapon. At 100% Attack Speed, Voracious Reach deals damage and drains Energy every 0.16s.
+
+tagGDX2RelicSkillD205Name=Serenity
+tagGDX2RelicSkillD205Desc=Serenity fills you in time of need, offering respite from grievous wounds.
+
+tagGDX2RelicSkillD206Name=Absolution
+tagGDX2RelicSkillD206Desc=You prepare yourself to face every blow, all the while ready to absolve your enemies, by force if you must. ^oRequires a shield.
+
+
+#ConsumableSkills
+tagGDX2_SummonMiniLizardName=Summon Minivore
+tagGDX2_SummonMiniLizardDesc=Call forth the mighty Korvan Minivore, a ferocious beast in a tiny package. ^oOnly one Korvan Minivore can be summoned at any one time. Minivores are strictly non-violent.
+
+tagGDX2_SummonMaggotName=Summon Celestial Maggot
+tagGDX2_SummonMaggotDesc=Conjure a writhing maggot from the Shattered Realm. ^oOnly one Celestial Maggot can be summoned at any one time. Maggots are strictly non-violent.
+
+tagGDX2_SummonDevourer=Summon Hungerling
+tagGDX2_SummonDevourerDesc=Conjure a voracious hungerling from the void. ^oOnly one Hungerling can be summoned at any one time. Hungerlings are strictly non-violent.
+
+
+#SkillsQuest
+
+
+#SkillDevotion
+tagGDX2Devotion_A201=Nighttalon
+tagGDX2Devotion_A201Desc=The nighttalon is an elusive and agile hunter, stalking the night sky for easy prey.
+tagGDX2Devotion_A202=Mantis
+tagGDX2Devotion_A202Desc=The mantis hungrily tears at the celestial tapestry, eager for wallowing stars to devour.
+tagGDX2Devotion_A203=Scarab
+tagGDX2Devotion_A203Desc=The scarab scurries across the night sky, seeking Azrakaa's sands to burrow into.
+tagGDX2Devotion_A204=Lotus
+tagGDX2Devotion_A204Desc=A celestial omen of good fortune. Those born under its light are said to have lives of peace and happiness.
+
+tagGDX2Devotion_B201=Ulzaad, Herald of Korvaak
+tagGDX2Devotion_B201Desc=A titan loyal only to Korvaak, Ulzaad heralded the arrival of his patron to all his subjects. Without his master's command, Ulzaad became disillusioned and lost, eventually driven to madness and despair.
+tagGDX2Devotion_B202=Hyrian, Guardian of the Celestial Gates
+tagGDX2Devotion_B202Desc=Hyrian is the immortal creation of Targo the Builder, created millennia ago to stand eternal vigil over the celestial tapestry the primordial gods inhabit.
+
+tagGDX2Devotion_C201=Korvaak, the Eldritch Sun
+tagGDX2Devotion_C201Desc=The Eldritch Sun rises once again to claim its celestial throne.
+tagGDX2Devotion_C202=Azrakaa, the Eternal Sands
+tagGDX2Devotion_C202Desc=Azrakaa, the eternal companion of Aeon, crafts the very sands with which the keeper of time decides the fates of mortals. She is his consort, and most trusted advisor, often tempering Aeon's harsh judgment and offering solace to the mortals she cherishes.
+tagGDX2Devotion_C203=Yugol, the Insatiable Night
+tagGDX2Devotion_C203Desc=When Empyrion's light first spread beyond creation, the gods discovered that a great darkness sweltered within the nothingness. It had but one name: Yugol. Yugol's insatiable hunger threatens to consume all that the primordials had painstakingly crafted, its advance thwarted only by the merciful light of a thousand-thousand stars.
+
+tagGDX2DevotionEffectB201=Ulzaad's Decree
+tagGDX2DevotionEffectB201Desc=The decree of Korvaak's Herald fills you with stone focus and determination.
+tagGDX2DevotionEffectB202=Hyrian's Glare
+tagGDX2DevotionEffectB202Desc=The blinding glare of the celestial guardian falls upon your foes, sowing confusion among their ranks.
+
+tagGDX2DevotionEffectC201=Eye of Korvaak
+tagGDX2DevotionEffectC201Desc=The eldritch gaze of Korvaak falls upon you in an expanding ring, piercing through any foes unfortunate enough to be in the way.
+tagGDX2DevotionEffectC202=Shifting Sands
+tagGDX2DevotionEffectC202Desc=The sands of Azrakaa ebb and flow across the battlefield, piercing through foes before returning to your position.
+tagGDX2DevotionEffectC203=Black Blood of Yugol
+tagGDX2DevotionEffectC203Desc=The black blood of Yugol spills from your wounds, festering upon the battlefield and seeking out foes to consume within its eternal darkness.
+tagGDX2DevotionEffectC203_PetSkill=Black Blood
+
+
+#Mobility Runes
+tagGDX2RuneSkillB201=Vanish
+tagGDX2RuneSkillB201Desc=In an instant, you vanish into the shadows, reappearing to strike a target foe. ^oRequires a melee weapon.
+
+tagGDX2RuneSkillB202=Leap
+tagGDX2RuneSkillB202Desc=Leap through the air to land towards the target point, sending a shockwave through the ground upon landing.
+
+tagGDX2RuneSkillB203=Charge
+tagGDX2RuneSkillB203Desc=Charge valiantly to strike a target foe. ^oRequires a melee weapon. When used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillB204=Rift Tear
+tagGDX2RuneSkillB204Desc=Tear through reality to instantly transport yourself towards a nearby target location.
+
+tagGDX2RuneSkillB205=Rush
+tagGDX2RuneSkillB205Desc=Letting nothing stand in your way, you rush through your enemies towards a nearby target destination, smashing anyone that stands in your way. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillB206=Disengage
+tagGDX2RuneSkillB206Desc=Quickly disengage from combat by leaping backwards away from your foes, leaving a blinding flash.
+
+
+tagGDX2RuneSkillC201=Korvan Swiftness
+tagGDX2RuneSkillC201Desc=Leap towards the target point with burning agility.
+
+tagGDX2RuneSkillC202=Empowered Korvan Swiftness
+tagGDX2RuneSkillC202Desc=Leap towards the target point with burning agility.
+
+tagGDX2RuneSkillC203=Masterful Korvan Swiftness
+tagGDX2RuneSkillC203Desc=Leap towards the target point with burning agility.
+
+tagGDX2RuneSkillC204=Dreeg's Vector
+tagGDX2RuneSkillC204Desc=Spontaneously transport yourself towards a target destination, spreading Dreeg's vile poisons to nearby foes.
+
+tagGDX2RuneSkillC205=Empowered Dreeg's Vector
+tagGDX2RuneSkillC205Desc=Spontaneously transport yourself towards a target destination, spreading Dreeg's vile poisons to nearby foes.
+
+tagGDX2RuneSkillC206=Masterful Dreeg's Vector
+tagGDX2RuneSkillC206Desc=Spontaneously transport yourself towards a target destination, spreading Dreeg's vile poisons to nearby foes.
+
+tagGDX2RuneSkillC207=Rahn's Might
+tagGDX2RuneSkillC207Desc=Charge valiantly through your foes towards a target destination with a prayer to Rahn on your lips. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillC208=Empowered Rahn's Might
+tagGDX2RuneSkillC208Desc=Charge valiantly through your foes towards a target destination with a prayer to Rahn on your lips. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillC209=Masterful Rahn's Might
+tagGDX2RuneSkillC209Desc=Charge valiantly through your foes towards a target destination with a prayer to Rahn on your lips. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillC210=Wendigo Rush
+tagGDX2RuneSkillC210Desc=Claw through your foes towards the target destination, leaving all in your path bleeding and broken. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillC211=Ramming Speed
+tagGDX2RuneSkillC211Desc=Ram through your foes towards the target destination, scattering their ranks and chilling them to the bone. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillC212=Incorporeal Winds
+tagGDX2RuneSkillC212Desc=Become as if a ghost, charging through your foes towards the target destination as if they were not there. Your ghostly passage leaves all you've touched unsettled. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillC213=Seismic Leap
+tagGDX2RuneSkillC213Desc=Leap towards a target destination and shatter the very earth around you.
+
+tagGDX2RuneSkillC214=Stormclap
+tagGDX2RuneSkillC214Desc=Leap towards a target destination with a thunderous clap.
+
+tagGDX2RuneSkillC215=Manticore Pounce
+tagGDX2RuneSkillC215Desc=Pounce through the air towards a target destination and spray caustic acid upon all nearby.
+
+tagGDX2RuneSkillC216=Arcane Rift
+tagGDX2RuneSkillC216Desc=Tear through reality to instantly transport yourself towards a target destination and erupt with arcane energies.
+
+tagGDX2RuneSkillC217=Burning Rift
+tagGDX2RuneSkillC217Desc=Tear a burning hole in reality to instantly transport yourself towards a target destination and erupt with flames from the Chthonic void.
+
+tagGDX2RuneSkillC218=Bladed Rift
+tagGDX2RuneSkillC218Desc=Vanish into thin air and instantly transport yourself towards a target destination to unleash a flurry of blades upon your foes.
+
+tagGDX2RuneSkillC219=Disorder
+tagGDX2RuneSkillC219Desc=Reality bends to your will as you instantly transport yourself towards a target destination.
+
+tagGDX2RuneSkillC220=Outfox
+tagGDX2RuneSkillC220Desc=Like a wily snow fox, disengage away from combat in a flash of frost that leaves your enemies chilled.
+
+tagGDX2RuneSkillC221=Phoenix Rise
+tagGDX2RuneSkillC221Desc=Rise from the battle like a phoenix, disengaging away from combat in blazing glory.
+
+tagGDX2RuneSkillC222=Ghastly Retreat
+tagGDX2RuneSkillC222Desc=Disengage away from battle as if a restless spirit, confounding the foes you leave behind with the veil of death.
+
+tagGDX2RuneSkillC223=Assassin's Evasion
+tagGDX2RuneSkillC223Desc=Dexterously disengage away from battle, but not before shredding your foes with vicious blades.
+
+tagGDX2RuneSkillC224=Chaos Strike
+tagGDX2RuneSkillC224Desc=Tear through the void to strike at a target foe with the destructive power of the chaos. ^oRequires a melee weapon.
+
+tagGDX2RuneSkillC225=Sudden Strike
+tagGDX2RuneSkillC225Desc=Strike a target foe with sudden crushing force. ^oRequires a melee weapon.
+
+tagGDX2RuneSkillC226=Scorpion Strike
+tagGDX2RuneSkillC226Desc=Charge a target and impale them like a vicious scorpion. ^oRequires a melee weapon. When used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillC227=Soul Strike
+tagGDX2RuneSkillC227Desc=Charge a target foe and unmake them with the will of the ravenous dead. ^oRequires a melee weapon. When used with a shield, the shield's damage is added.
+
+
+tagGDX2RuneSkillD201=Amatok's Breath
+tagGDX2RuneSkillD201Desc=Charge through your foes towards a target destination, leaving them chilled with Amatok's breath. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillD202=Will of the Fallen Kings
+tagGDX2RuneSkillD202Desc=Filled with the determination of kings, charge through your foes towards a target destination.  ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillD203=Violent Delights
+tagGDX2RuneSkillD203Desc=Relish in the carnage as your charge through your foes towards a target destination. ^oWhen used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillD204=Ulzuin's Fall
+tagGDX2RuneSkillD204Desc=Leap through the air towards a target destination and descend upon your foes in a fiery crash.
+
+tagGDX2RuneSkillD205=Eldritch Instability
+tagGDX2RuneSkillD205Desc=Leap through the air towards a target destination and destabilize reality where you land.
+
+tagGDX2RuneSkillD206=Upon Rylok Wings
+tagGDX2RuneSkillD206Desc=Leap through the air towards a target destination and crash down in a chaotic eruption.
+
+tagGDX2RuneSkillD207=Dreadnought's Might
+tagGDX2RuneSkillD207Desc=Leap through the air towards a target destination with devastating might and smash any foes unfortunate enough to be where you land.
+
+tagGDX2RuneSkillD208=Dreeg's Wounds
+tagGDX2RuneSkillD208Desc=Leap through the air towards a target destination and deliver grievous wounds reminiscent of the suffering of the Great Guardian upon your foes.
+
+tagGDX2RuneSkillD209=Nadaan's Strike
+tagGDX2RuneSkillD209Desc=Shift through the shadows to instantly transport yourself towards a target destination and assault nearby foes with a ring of blades.
+
+tagGDX2RuneSkillD210=Ultos' Arrival
+tagGDX2RuneSkillD210Desc=Instantly travel through reality itself towards a target destination and arrive in a fiery blaze.
+
+tagGDX2RuneSkillD211=Astral Rift
+tagGDX2RuneSkillD211Desc=Warp the veil to instantly travel towards a target destination and unleash a surge of arcane energies.
+
+tagGDX2RuneSkillD212=Displacement
+tagGDX2RuneSkillD212Desc=Reality becomes a plaything as you instantly warp towards a target destination.
+
+tagGDX2RuneSkillD213=Typhoon
+tagGDX2RuneSkillD213Desc=Disengage from battle with the destructive force of a typhoon.
+
+tagGDX2RuneSkillD214=Ulzaad's Madness
+tagGDX2RuneSkillD214Desc=Sow the confusion and rage of a mad titan as you disengage from battle.
+
+tagGDX2RuneSkillD215=Wretched Desires
+tagGDX2RuneSkillD215Desc=Disengage from battle in a surge of vile void energies.
+
+tagGDX2RuneSkillD216=Murmur's Kiss
+tagGDX2RuneSkillD216Desc=Disengage from battle in a surge of toxic energies that leave your foes shaken and demoralized.
+
+tagGDX2RuneSkillD217=Ishtak's Mercy
+tagGDX2RuneSkillD217Desc=Instill the peace of Ishtak upon your foes as you disengage from battle.
+
+tagGDX2RuneSkillD218=Vampiric Shadows
+tagGDX2RuneSkillD218Desc=Tear through the shadows to strike a target foe with vampiric voracity. ^oRequires a melee weapon.
+
+tagGDX2RuneSkillD219=Dark Desires
+tagGDX2RuneSkillD219Desc=Tear through the veil to strike a foe with the destabilizing force of chaos. ^oRequires a melee weapon.
+
+tagGDX2RuneSkillD220=Stormtitan's Charge
+tagGDX2RuneSkillD220Desc=Charge a target foe with the crushing might of a stormtitan. ^oRequires a melee weapon. When used with a shield, the shield's damage is added.
+
+tagGDX2RuneSkillD221=Blazing Charge
+tagGDX2RuneSkillD221Desc=Charge forth into battle and incinerate your foe with the flames of a dying god. ^oRequires a melee weapon. When used with a shield, the shield's damage is added.
+
+
+#FactionSkills
+tagGDX2FactionSkillA01=Presence of Bysmiel
+tagGDX2FactionSkillA01_Desc=A priest of Bysmiel toughens your flesh against physical blows and grants you increased Critical chance against the enemies of the Witch Gods.
+
+tagGDX2FactionSkillA02=Presence of Dreeg
+tagGDX2FactionSkillA02_Desc=A priest of Dreeg allows you to predict incoming blows and grants you increased Critical chance against the enemies of the Witch Gods.
+
+tagGDX2FactionSkillA03=Presence of Soalel
+tagGDX2FactionSkillA03_Desc=A priest of Solael grants you enhanced vitality and grants you increased Critical chance against the enemies of the Witch Gods.
+
+tagGDX2FactionSkillA04=Blood of Dreeg
+tagGDX2FactionSkillA04_Desc=A Cult of Dreeg occultist has granted you a blessing from the mad Witch God.
+
+
+
+#EnemySkills
+
+tagGDX2EnemySkillA01=Sand Storm
+tagGDX2EnemySkillA01_Desc=Conjured sands cloud your vision and batter your armor.
+
+tagGDX2EnemySkillA02=Lightning Net
+tagGDX2EnemySkillA02_Desc=A net of lightning binds you to the target, reducing your Defensive Ability.
+
+tagGDX2EnemySkillA03=Fire Net
+tagGDX2EnemySkillA03_Desc=A net of flames binds you to the target, reducing your Armor.
+
+tagGDX2EnemySkillA04=Eldritch Ground
+tagGDX2EnemySkillA04_Desc=The ground you stand on is tainted with Eldritch Energies, empowering Eldritch creatures while harming you and reducing your health.
+
+tagGDX2EnemySkillA05=Gargoyle's Screech
+tagGDX2EnemySkillA05_Desc=A gargoyle's screech has shattered your defenses and slowed your actions.
+
+tagGDX2EnemySkillA06=Distortion
+tagGDX2EnemySkillA06_Desc=Your existence has become distorted by an eldritch creature, reducing Elemental Resistance.
+
+tagGDX2EnemySkillA07=Eldritch Rift
+tagGDX2EnemySkillA07_Desc=An eldritch rift sears your essence and reduces your ability to focus.
+
+tagGDX2EnemySkillA08=Guardian's Roar
+tagGDX2EnemySkillA08_Desc=A stone gryphon's roar shattered your Physical Resistance and Regeneration.
+
+tagGDX2EnemySkillA09=Burning Presence
+tagGDX2EnemySkillA09_Desc=A nearby eldritch wraith singes your flesh, reducing resists and Offensive Ability.
+
+tagGDX2EnemySkillA10=Incinerating Presence
+tagGDX2EnemySkillA10_Desc=A nearby eldritch wraith singes your very soul, reducing damage dealt and resists.
+
+tagGDX2EnemySkillA11=Eruption of Flame
+tagGDX2EnemySkillA11_Desc=The wraith's violent end burns you, exposing your Physical and Elemental defenses.
+
+tagGDX2EnemySkillA12=Guardian's Presence
+tagGDX2EnemySkillA12_Desc=A stone gryphon guards this area, making you uneasy and reducing your ability to focus.
+
+tagGDX2EnemySkillA13=Burning Furnace
+tagGDX2EnemySkillA13_Desc=The blazing fury within a nearby Ascendant singes your flesh and hinders attacks and regeneration.
+
+tagGDX2EnemySkillA14=Storm Furnace
+tagGDX2EnemySkillA14_Desc=The storm fury within a nearby Ascendant shocks your flesh and hinders casting and regeneration.
+
+tagGDX2EnemySkillA15=Mark of Korvaak
+tagGDX2EnemySkillA15_Desc=You are cursed by the servants of Korvaak, shattering your defenses and burning you alive.
+
+tagGDX2EnemySkillA16=Eldritch Mark
+tagGDX2EnemySkillA16_Desc=An eldritch curse hangs over your head, severely crippling your Attack and Casting speed.
+
+tagGDX2EnemySkillA17=Sapping Nova
+tagGDX2EnemySkillA17_Desc=A Servant of Korvaak has sapped your essence, draining you of life.
+
+tagGDX2EnemySkillA18=Melting
+tagGDX2EnemySkillA18_Desc=A wraith's flame is melting your armor.
+
+tagGDX2EnemySkillA19=Bysmiel's Aura
+tagGDX2EnemySkillA19_Desc=The presence of a nearby Priest of Bysmiel empowers you, granting defenses and Offensive Ability.
+
+tagGDX2EnemySkillA20=Dreeg's Aura
+tagGDX2EnemySkillA20_Desc=The presence of a nearby Priest of Dreeg empowers you, granting defenses and Offensive Ability.
+
+tagGDX2EnemySkillA21=Solael's Aura
+tagGDX2EnemySkillA21_Desc=The presence of a nearby Priest of Solael empowers you, granting defenses and Offensive Ability.
+
+tagGDX2EnemySkillA22=Blood of the Guardian
+tagGDX2EnemySkillA22_Desc=You are marked by Dreeg's Blood, restoring health and bolstering Retaliation Effects.
+
+tagGDX2EnemySkillA23=Impaling Spines
+tagGDX2EnemySkillA23_Desc=Inarah has trapped you within a cage of poison spines.
+
+tagGDX2EnemySkillA24=Sand Tornado
+tagGDX2EnemySkillA24_Desc=A massive whirlwind of sand clouds your vision and batters your armor.
+
+
+tagGDX2EnemySkillD01=Curse of Rahn
+tagGDX2EnemySkillD01A_Desc=You insulted the guardians of Rahn and have been marked by their curse, crippling your Offensive Ability.
+tagGDX2EnemySkillD01B_Desc=You insulted the guardians of Rahn and have been marked by their curse, crippling your Defensive Ability.
+tagGDX2EnemySkillD01C_Desc=You insulted the guardians of Rahn and have been marked by their curse, crippling your Armor.
+
+tagGDX2EnemySkillD02=Eldritch Destabilization
+tagGDX2EnemySkillD02_Desc=Eldritch energies are pouring into you from a nearby Eldritch Shard. So long as the link is maintained, you will suffer severe damage.
+
+tagGDX2EnemySkillD03=Burning Omen
+tagGDX2EnemySkillD03_Desc=A burning spirit's wrath is upon you, exposing you to Dravis' attacks.
+
+tagGDX2EnemySkillD04=Korvaak's Gaze
+tagGDX2EnemySkillD04_Desc=The gaze of Kymon's patron deity is upon you. You feel a great sense of dread and visions of your own demise cloud your judgment, reducing Offensive and Defensive Ability and exposing you to Eldritch magic as Korvaak's wrath periodically rains down from the heavens.
+
+tagGDX2EnemySkillD05=Rahn's Rage
+tagGDX2EnemySkillD05_Desc=The gaze of a forgotten god is upon you, burning your flesh and exposing you to physical attacks.
+
+tagGDX2EnemySkillD06=Aura of Death
+tagGDX2EnemySkillD06_Desc=Ketan'Thunn's presence drains of the will to live, reducing Defensive Ability and Speed.
+
+tagGDX2EnemySkillD07=Distortion
+tagGDX2EnemySkillD07_Desc=Your existence has become distorted by Onarix's claws, reducing Chaos Resistance.
+
+tagGDX2EnemySkillD08=Lightning Discharge
+tagGDX2EnemySkillD08_Desc=The scarab is teeming with lightning energy, which it emits whenever it is struck. The air around this creature is heavily charged.
+
+tagGDX2EnemySkillD09=Posthaste
+tagGDX2EnemySkillD09_Desc=The presence of a nearby Crate is slowing your actions and causing physical discomfort.
+
+tagGDX2EnemySkillD10=Nerfed
+tagGDX2EnemySkillD10_Desc=You've been slightly nerfed.
+
+tagGDX2EnemySkillD11=Lazy Design
+tagGDX2EnemySkillD11_Desc=Arbitrarily debuffs the player because designers couldn't make the effort to give the boss interesting skills. Or it actually does nothing, it's honestly hard to tell.
+
+tagGDX2EnemySkillD12=Horrifying Vision
+tagGDX2EnemySkillD12_Desc=Visions of Cairn consumed by fire unravel your mind, reducing Resists and Cast Speed.
+
+tagGDX2EnemySkillD13=Impaling Spikes
+tagGDX2EnemySkillD13_Desc=Impaled by poisoned spikes, pinning you to the ground.
+
+tagGDX2EnemySkillD14=Celestial Presence
+tagGDX2EnemySkillD14_Desc=You stand awe of a celestial being
+
+tagGDX2EnemySkillD15=Celestial Effigy
+tagGDX2EnemySkillD15_Desc=An nearby effigy empowers Korvaak and harms mortals.
+
+tagGDX2EnemySkillD16=Howling Wind
+tagGDX2EnemySkillD16_Desc=A powerful wind chills you to the bone and causes some projectiles to miss their intended target.
+
+tagGDX2EnemySkillD17=Visions of Terror
+tagGDX2EnemySkillD17_Desc=You have witnessed the infinite hunger of the encroaching darkness, sapping you of all strength.
+
+tagGDX2EnemySkillD18=Hungering Night
+tagGDX2EnemySkillD18_Desc=A dark sorcerer has sapped your essence, draining you of life and compromosing your resistances.
+
+tagGDX2EnemySkillD19=Unraveled Mind
+tagGDX2EnemySkillD19_Desc=Your mind cannot process the horrors it has witnessed, crippling your aim and casting ability.

@@ -1,0 +1,17 @@
+#Loading Tips
+
+
+#Tutorial Pages
+
+tagGDX1TutorialTip65Title=Illusionist
+tagGDX1TutorialTip65TextA=Illusionist are able to transform the appearance of your equipment, replacing it with the appearance of similar items you had previously acquired. This catalog of illusions is stored across characters (separated by Normal and Hardcore mode).
+tagGDX1TutorialTip65SubtitleA=Changing Appearances
+tagGDX1TutorialTip65TextB=To change an item's appearance, select the gear slot on the right side, then the desired illusion in the catalog on the left. Once you are satisfied with your changes, press the Apply Illusion button to pay the Iron Bits cost and apply your new look!
+tagGDX1TutorialTip65SubtitleB=Resetting Appearances
+tagGDX1TutorialTip65TextC=Should you decide to restore an item to its original appearance, simply right-click the desired gear slot to toggle between its current and default appearance. To confirm the change, press the Apply Illusion button.
+tagGDX1TutorialTip65TextD=Applying an item's default appearance has no Iron Bits cost.
+
+
+#Quick Tips
+
+tagGDX1QuickTip65={^z}Illusionist{^-}{^n}{^n}The Illusionist allows you to change the appearance of your items with other similar items you have acquired.

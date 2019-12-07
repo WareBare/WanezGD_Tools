@@ -1,0 +1,94 @@
+#Faction
+tagFactionBeasts=Beasts
+tagFactionBeastsInfo= Creatures of fur and claw, of scale and venom, of carapace and spine; they are all a part of Cairn. And through one of the most brutal laws of nature, survival of the fittest, they become stronger with each generation. {^n}{^n} Whether through the forces of nature or the ignorant machinations of mankind, the beasts of Cairn will endure, become stronger, fiercer and bolder.
+tagFactionBeastsRewards1=Nemesis Spawns
+tagFactionBeastsRewards2=Additional Hero Spawns
+tagFactionBeastsRewards3=Extra Spawns
+tagFactionBeastsRewards4=Empty
+tagFactionBeastsRewards5=N/A
+tagFactionBeastsRewards6=N/A
+tagFactionBeastsRewards7=N/A
+tagFactionBeastsRewards8=N/A
+tagFactionUser9=Coven of Ugdenbog
+tagFactionUser9Info=Headquarters: Ugdenbog {^n}{^n} Not much is known about the mysterious Coven of Ugdenbog. A congregation of witches and warlocks, the coven seeks to shield its persecuted brothers and sisters from a society that does not understand and thus (often rightfully) fears their powers. {^n}{^n} Having successfully evaded the pursuit of the empire's Luminari for decades, the witches created a place of respite deep within the treacherous Ugdenbog, a place not even their determined pursuers dare to tread. This comes with its own dangers however. {^n}{^n} Those who found refuge with the coven must remain ever vigilant as new threats, whether from lost travelers stumbling upon their hideout or from the deadly wildlife of the bog itself, continue to arise. {^n}{^n} Worse still, there are secrets within the bog which even the coven avoids, lest mistakes of the past be repeated and the Luminari rediscover their trail.
+tagFactionUser9Rewards1=N/A
+tagFactionUser9Rewards2=N/A
+tagFactionUser9Rewards3=N/A
+tagFactionUser9Rewards4=Empty
+tagFactionUser9Rewards5=Access to Faction Vendor
+tagFactionUser9Rewards6=New Quest {^n}Access to Bounty Table {^n}Faction Weapons {^n}Faction Armor {^n}Faction Blueprints
+tagFactionUser9Rewards7=New Quests {^n}Faction Augments {^n}Faction Weapons {^n}Faction Accessories {^n}Faction Writs {^n}Faction Blueprints
+tagFactionUser9Rewards8=Rare Augments {^n}Faction Mandates {^n}Elite Faction Armor {^n}Legendary Faction Blueprints
+tagFactionUser10=Barrowholm
+tagFactionUser10Info=Headquarters: Ugdenbog {^n}{^n} Barrowholm, a veritable jewel in the mud, offers a stark contrast to the dangers of the surrounding bog with its nearly immaculate structures and peaceful existence. Its denizens are rightfully protective of their home and offer an unusual mix of caution and warm hospitality to new visitors. {^n}{^n} After all, in a world ravaged by Aetherials and Chthonians, something this perfect must be protected at all costs.
+tagFactionUser10Rewards1=Nemesis Spawns
+tagFactionUser10Rewards2=Additional Hero Spawns
+tagFactionUser10Rewards3=Extra Spawns
+tagFactionUser10Rewards4=Empty
+tagFactionUser10Rewards5=Access to Faction Vendor
+tagFactionUser10Rewards6=New Quest {^n}Access to Bounty Table {^n}Faction Weapons {^n}Faction Armor {^n}Faction Blueprints
+tagFactionUser10Rewards7=New Quest {^n}Faction Augments {^n}Faction Weapons {^n}Faction Accessories {^n}Faction Writs {^n}Faction Blueprints
+tagFactionUser10Rewards8=Rare Augments {^n}Faction Mandates {^n}Elite Faction Armor {^n}Legendary Faction Blueprints
+tagFactionUser11=Malmouth Resistance
+tagFactionUser11Info=Headquarters: Malmouth {^n}{^n} Once the pride of the east, Malmouth was an industrial marvel in the Erulan empire, with a bustling naval port and a thriving economy. It was also one of the first cities to fall during the events that unfolded on the day of the Grim Dawn. {^n}{^n} Shattered from within by manipulative Aetherials, within mere weeks Malmouth turned from a proud beacon of the empire into a living nightmare for its denizens. But not all citizens of Malmouth perished when the fighting broke out. Some survived...endured...resisted. {^n}{^n} These people now form the backbone of a resistance fighting to take back their city from the scheming invaders; but their resources are running low and human lives are finite when compared to the nigh infinite armies of the Aetherials that have entrenched themselves within Malmouth.
+tagFactionUser11Rewards1=N/A
+tagFactionUser11Rewards2=N/A
+tagFactionUser11Rewards3=N/A
+tagFactionUser11Rewards4=Empty
+tagFactionUser11Rewards5=Access to Faction Vendor
+tagFactionUser11Rewards6=New Quest {^n}Access to Bounty Table {^n}Faction Weapons {^n}Faction Armor {^n}Faction Blueprints
+tagFactionUser11Rewards7=New Quest {^n}Faction Augments {^n}Faction Weapons {^n}Faction Accessories {^n}Faction Writs {^n}Faction Blueprints
+tagFactionUser11Rewards8=Rare Augments {^n}Faction Mandates {^n}Elite Faction Armor {^n}Legendary Faction Blueprints
+tagFactionUser12=Aetherial Vanguard
+tagFactionUser12Info= Among the Aetherials that crumbled humanity's empire, in a devastating event now called the Grim Dawn, there were those who reached out beyond the veil first, the ones that would become the heralds of mankind's destruction. {^n}{^n} They were the first to infiltrate the ranks of Erulan, the first to manipulate the unwitting humans to undermine their own cities and governments. This Aetherial Vanguard now spreads its corrupting influence from the ruins that once stood as proud beacons of the fallen empire. {^n}{^n} But all this carnage was merely the beginning of their machinations. At the hands of the Aetherial fleshshapers, vile new creations stir within the depths of Malmouth. Whatever comes next may well mark the end of humanity's resistance.
+tagFactionUser12Rewards1=Nemesis Spawns
+tagFactionUser12Rewards2=Additional Hero Spawns
+tagFactionUser12Rewards3=Extra Spawns
+tagFactionUser12Rewards4=Empty
+tagFactionUser12Rewards5=N/A
+tagFactionUser12Rewards6=N/A
+tagFactionUser12Rewards7=N/A
+tagFactionUser12Rewards8=N/A
+
+#Quest
+tagCodexJournalSubHeadingUgdenbog=Survivors - Ugdenbog
+tagCodexJournalSubHeadingBarrowholm=Survivors - Barrowholm
+tagCodexJournalSubHeadingMalmouth=Survivors - Malmouth
+
+#SkillUI
+
+tagSkillUndoClass=Undo Class
+
+#Transmuter
+tagTransmuterWindow=Illusionist
+tagTransmuteButton=Apply Illusion
+tagTransmuteNew=You have gained a new Illusion: {%s0}
+tagTransmutePageFormat={%d0} / {%d1}
+tagTransmuteNoItems=You are not wearing any equipment which the Illusionist can service.
+tagTransmuteTotalGold=Total Iron Bits:
+tagTransmuteCost=Iron Bits Cost:
+
+SkillDamageAbsorptionReflectPercent={%.0f0}% {^E}Damage Absorbed Reflected
+
+tagGDX1w=GrimDawn/images/evil
+
+#Maps
+
+tagMapSymbolTransmuteNpc=Illusionist
+tagMapSymbolTransmuteNpcDesc=Illusionist illusions.
+
+#Skills
+tagItemSkillModified= {^E}to {^Z}{%s0}
+
+#Char Stats Tab 2
+tagCharStatsInquisitorSkillsBonus=Inquisitor Skills
+tagCharStatsInquisitorSkillsBonusInfo=Bonus to all learned skills in the Inquisitor Mastery.
+tagCharStatsNecroSkillsBonus=Necromancer Skills
+tagCharStatsNecroSkillsBonusInfo=Bonus to all learned skills in the Necromancer Mastery.
+
+#Caravan
+tagCaravanSearchBoxInfo=Enter search parameters to filter items based on item names or desired stats.
+tagMoveComponents=Move Components from the Inventory to the Currently Open Stash page.
+
+tagStorageInfo01=Toggle to go to the Item Stash. The Item Stash is an extension of your inventory. Right click or drag and drop items to and from the Item Stash. Items stored this way are accessible from any Smuggler in the game.
+tagTransferInfo02=Toggle to go to the Item Transfer stash. Place items in the transfer area to have the Smuggler make them available to all your characters.

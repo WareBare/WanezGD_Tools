@@ -2,7 +2,7 @@
  * Created by WareBare on 8/22/2016.
  */
 
-const {app, BrowserWindow, dialog} = require('electron');
+const {app, BrowserWindow, dialog, Menu, Tray} = require('electron');
 const {} = require('electron');
 const { autoUpdater }  = require("electron-updater");
 
@@ -109,15 +109,17 @@ class AppUpdater {
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win;
+let tray = null;
 
 function createWindow () {
     // Create the browser window.
     win = new BrowserWindow({
-        width: 800,
-        height: 600,
-        minHeight: 600,
-        minWidth: 860,
-        backgroundColor: '#202020'
+        width: 800
+        , height: 600
+        , minHeight: 600
+        , minWidth: 860
+        , frame: false
+        , backgroundColor: '#202020'
         //, useContentSize: true
         , webPreferences: {
             //preload: path.join(app.getAppPath(), 'app/main.js')
@@ -136,6 +138,39 @@ function createWindow () {
     // Open the DevTools.
     if(app.getName() === `Electron`) win.webContents.openDevTools();
     //win.webContents.openDevTools();
+
+    tray = new Tray(`${__dirname}/img/Icon.png`);
+    const trayContextMenu = Menu.buildFromTemplate([
+        {
+            label: 'Show Rainbow Tool'
+            , type: 'normal'
+            , click: () => {
+                //win.show();
+                win.webContents.send(`ShowWindow`);
+            }
+            , enabled: true
+        },
+        {
+            label: 'Start Grim Dawn'
+            , type: 'normal'
+            , click: () => {
+                win.webContents.send(`RunGame`);
+            }
+            , enabled: true
+        },
+        { 
+            label: 'Quit Rainbow Tool'
+            , type: 'normal'
+            , role: `quit`
+            , enabled: true
+        }
+    ]);
+    tray.setTitle(`test`);
+    tray.setToolTip(`Rainbow Tool (Wanez Tool for Grim Dawn)`);
+    tray.setContextMenu(trayContextMenu);
+    tray.on(`click`, () => {
+        win.webContents.send(`ShowWindow`);
+    })
 
     // Emitted when the window is closed.
     win.on('closed', () => {

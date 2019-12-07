@@ -1,0 +1,460 @@
+
+#CreatureFriendly
+
+tagGDX2FriendlyCultBysmiel_Guard01=Cult of Bysmiel ~ Sentinel
+tagGDX2FriendlyCultBysmiel_Guard02=Cult of Bysmiel ~ Seeker
+
+tagGDX1FriendlyCultBysmiel_MeleeA01=Cult of Bysmiel ~ Aspirant
+tagGDX1FriendlyCultBysmiel_MeleeB01=Cult of Bysmiel ~ Witchblade
+tagGDX1FriendlyCultBysmiel_RangeA01=Cult of Bysmiel ~ Aspirant
+tagGDX1FriendlyCultBysmiel_CasterB01=Cult of Bysmiel ~ Occultist
+tagGDX1FriendlyCultBysmiel_CasterB02=Cult of Bysmiel ~ Weaver
+tagGDX1FriendlyCultBysmiel_ChampionC01=Cult of Bysmiel ~ Priest
+
+tagGDX2FriendlyCultDreeg_Guard01=Cult of Dreeg ~ Sentinel
+tagGDX2FriendlyCultDreeg_Guard02=Cult of Dreeg ~ Seeker
+
+tagGDX1FriendlyCultDreeg_MeleeA01=Cult of Dreeg ~ Aspirant
+tagGDX1FriendlyCultDreeg_MeleeB01=Cult of Dreeg ~ Witchblade
+tagGDX1FriendlyCultDreeg_RangeA01=Cult of Dreeg ~ Aspirant
+tagGDX1FriendlyCultDreeg_CasterB01=Cult of Dreeg ~ Occultist
+tagGDX1FriendlyCultDreeg_CasterB02=Cult of Dreeg ~ Seer
+tagGDX1FriendlyCultDreeg_ChampionC01=Cult of Dreeg ~ Priest
+
+tagGDX2FriendlyCultSolael_Guard01=Cult of Solael ~ Sentinel
+tagGDX2FriendlyCultSolael_Guard02=Cult of Solael ~ Seeker
+
+tagGDX1FriendlyCultSolael_MeleeA01=Cult of Solael ~ Aspirant
+tagGDX1FriendlyCultSolael_MeleeB01=Cult of Solael ~ Witchblade
+tagGDX1FriendlyCultSolael_RangeA01=Cult of Solael ~ Aspirant
+tagGDX1FriendlyCultSolael_CasterB01=Cult of Solael ~ Occultist
+tagGDX1FriendlyCultSolael_CasterB02=Cult of Solael ~ Bloodmender
+tagGDX1FriendlyCultSolael_ChampionC01=Cult of Solael ~ Priest
+
+
+#CreatureBeetle
+tagGDX2EnemyBeetleMaggot=Korvan Maggot
+tagGDX2EnemyBeetleMaggot_Fire=Fire Maggot
+tagGDX2EnemyBeetle_A00=Korvan Scarab ~ Nymph
+tagGDX2EnemyBeetle_A01=Korvan Scarab ~ Scavenger
+tagGDX2EnemyBeetle_B01=Korvan Scarab ~ Gorger
+tagGDX2EnemyBeetle_B02=Korvan Scarab ~ Incubator
+tagGDX2EnemyBeetle_C01=Korvan Scarab ~ Goliath
+
+tagGDX2HeroBeetle_H01=Riknix
+tagGDX2HeroBeetle_H02=Bargox
+tagGDX2HeroBeetle_H03=Sagrax ~ Defender
+tagGDX2HeroBeetle_H04=Mirg ~ Reflective
+
+tagGDX2EnemyMaggot_A01=Maggot
+tagGDX2EnemyMaggot_B01=Bloated Maggot
+
+
+#CreatureCelestial
+tagGDX2EnemyCelestial_Armor_A01=Korvan Cursed
+tagGDX2EnemyCelestial_Armor_B01=Korvan Cursed ~ Forsaken
+tagGDX2EnemyCelestial_Armor_C01=Korvan Cursed ~ Ancient
+
+tagGDX2EnemyCelestial_Gryphon_A01=Celestial Gryphon
+tagGDX2EnemyCelestial_Gryphon_B01=Celestial Gryphon Skytalon
+tagGDX2EnemyCelestial_Gryphon_C01=Celestial Gryphon Matriarch
+
+tagGDX2EnemyCelestial_Hound_A01=Celestial Mongrel ~ Runt
+tagGDX2EnemyCelestial_Hound_B01=Celestial Mongrel ~ Stalker
+tagGDX2EnemyCelestial_Hound_C01=Celestial Mongrel ~ Alpha
+
+tagGDX2EnemyCelestial_Leech_A01=Embodiment of Hunger
+tagGDX2EnemyCelestial_Leech_B01=Embodiment of Famine
+
+tagGDX2EnemyCelestial_Lizard_A01=Nightclaw
+tagGDX2EnemyCelestial_Lizard_B01=Nightclaw ~ Flayer
+tagGDX2EnemyCelestial_Lizard_C01=Nightclaw ~ Matriarch
+
+tagGDX2EnemyCelestial_Monstrosity_C01=Scion of Hunger
+tagGDX2EnemyCelestial_Monstrosity_D01=Scion of Famine
+
+tagGDX2EnemyCelestial_Mummy_A01=Korvan Damned ~ Desiccated
+tagGDX2EnemyCelestial_Mummy_B01=Korvan Damned ~ Festering
+tagGDX2EnemyCelestial_Mummy_C01=Korvan Damned ~ Reaper
+
+tagGDX2EnemyCelestial_Statue_A01=Animated Keeper of the Damned
+tagGDX2EnemyCelestial_Statue_B01=Animated Watcher of the Damned
+tagGDX2EnemyCelestial_Statue_C01=Animated Preserver of the Damned
+
+
+#CreatureEldritchArmor
+tagGDX2EnemyArmor_A01=Possessed Armor
+tagGDX2EnemyArmor_B01=Eldritch Armor
+tagGDX2EnemyArmor_C01=Ancient Armor
+
+tagGDX2HeroArmor_H01=Arkinux
+tagGDX2HeroArmor_H02=Vlakinux
+tagGDX2HeroArmor_H03=Halganux ~ Supporter
+tagGDX2HeroArmor_H04=Tilkinux ~ Timewarped
+
+
+#CreatureEldritchHound
+tagGDX2EnemyEldritchHound_A01=Eldritch Mongrel ~ Runt
+tagGDX2EnemyEldritchHound_B01=Eldritch Mongrel ~ Stalker
+tagGDX2EnemyEldritchHound_B02=Eldritch Mongrel ~ Guardian
+tagGDX2EnemyEldritchHound_C01=Eldritch Mongrel ~ Alpha
+
+tagGDX2HeroEldritchHound_H01=Vendrog
+tagGDX2HeroEldritchHound_H02=Steeljaw
+tagGDX2HeroEldritchHound_H03=Fervall ~ Swift
+tagGDX2HeroEldritchHound_H04=Nosferantis ~ Vampiric
+
+
+#CreatureEldritchSpore
+tagGDX2EnemyEldritchSpore_A01=Toxic Spore
+tagGDX2EnemyEldritchSpore_B01=Eldritch Spore
+
+
+#CreatureEldritchWraith
+tagGDX2EnemyEldritchWraith_A01=Eldritch Spirit
+tagGDX2EnemyEldritchWraith_B01=Eldritch Spirit ~ Haunt
+tagGDX2EnemyEldritchWraith_C01=Eldritch Spirit ~ Ancient
+
+tagGDX2HeroEldritchWraith_H01=Algandir
+tagGDX2HeroEldritchWraith_H02=Ulzaar
+tagGDX2HeroEldritchWraith_H03=Rygundir ~ Reflective
+tagGDX2HeroEldritchWraith_H04=Pazgadaar ~ Regenerator
+
+
+#CreatureGargoyle
+tagGDX2EnemyGargoyle_A01=Eldritch Gargoyle
+tagGDX2EnemyGargoyle_B01=Forsaken Gargoyle
+tagGDX2EnemyGargoyle_C01=Ancient Gargoyle
+
+tagGDX2HeroGargoyle_H01=Hudsar ~ Frozen
+tagGDX2HeroGargoyle_H02=Broagwan ~ Diseased
+tagGDX2HeroGargoyle_H03=Goliant ~ Burning
+tagGDX2HeroGargoyle_H04=Xanatan ~ Electrified
+
+
+#CreatureGroble
+tagGDX2EnemyGroble_A01=Groble ~  Korvan Clan Scavenger
+tagGDX2EnemyGroble_A02=Groble ~  Korvan Clan Tracker
+tagGDX2EnemyGroble_B01=Groble ~  Korvan Clan Warrior
+tagGDX2EnemyGroble_B02=Groble ~  Korvan Clan Shaman
+tagGDX2EnemyGroble_C01=Groble ~  Korvan Clan Champion
+tagGDX2EnemyGroble_C02=Groble ~  Korvan Clan Elder
+
+tagGDX2HeroGroble_H01=Galgar
+tagGDX2HeroGroble_H02=Nazbak
+tagGDX2HeroGroble_H03=Drollig ~ Vampiric
+tagGDX2HeroGroble_H04=Knol ~ Swift
+
+
+#CreatureGryphon
+tagGDX2EnemyGryphon_A01=Gryphon
+tagGDX2EnemyGryphon_B01=Gryphon Sandstalker
+tagGDX2EnemyGryphon_C01=Gryphon Matriarch
+
+tagGDX2HeroGryphon_H01=Dreadtalon
+tagGDX2HeroGryphon_H02=Rendtalon
+tagGDX2HeroGryphon_H03=Screech ~ Unstoppable
+tagGDX2HeroGryphon_H04=Juraz the Tenacious ~ Regenerator
+
+tagGDX2EnemyGryphonStone_A01=Stone Gryphon
+tagGDX2EnemyGryphonStone_B01=Stone Gryphon ~ Guardian
+tagGDX2EnemyGryphonStone_C01=Stone Gryphon ~ Vigilant
+
+tagGDX2HeroGryphonStone_H01=Askazor ~ Burning
+tagGDX2HeroGryphonStone_H02=Isanzor ~ Frozen
+tagGDX2HeroGryphonStone_H03=Saprizor ~ Electrified
+tagGDX2HeroGryphonStone_H04=Balganzor ~ Diseased
+
+
+#CreatureHumanKorvaak
+tagGDX2EnemyHumanKorvaak_A01=Korvaak's Chosen ~ Zealot
+tagGDX2EnemyHumanKorvaak_B01=Korvaak's Chosen ~ Fanatic
+tagGDX2EnemyHumanKorvaak_C01=Korvaak's Chosen ~ Flamebearer
+
+tagGDX2HeroHumanKorvaak_H01=Everynn Flametongue
+tagGDX2HeroHumanKorvaak_H02=Havos Emberspark
+tagGDX2HeroHumanKorvaak_H03=Nivond the Enlightened ~ Supporter
+tagGDX2HeroHumanKorvaak_H04=Oolga the Everbound ~ Timewarped
+
+
+#CreatureKorvaakAscended
+tagGDX2EnemyKorvaakAscended_A01=Korvaak's Ascended 
+tagGDX2EnemyKorvaakAscended_B01=Korvaak's Rageflame
+tagGDX2EnemyKorvaakAscended_C01=Korvaak's Champion
+
+tagGDX2HeroKorvaakAscended_H01=Plagurius ~ Diseased
+tagGDX2HeroKorvaakAscended_H02=Wauld the Skorn ~ Frozen
+tagGDX2HeroKorvaakAscended_H03=Pandrith the Unquenchable ~ Unstoppable
+tagGDX2HeroKorvaakAscended_H04=Vengethor ~ Reflective
+
+
+#CreatureKorvaakServant
+tagGDX2EnemyKorvaakServant_A01=Korvaak's Drudge
+tagGDX2EnemyKorvaakServant_B01=Korvaak's Servant
+tagGDX2EnemyKorvaakServant_C01=Korvaak's Scion
+
+tagGDX2HeroKorvaakServant_H01=Nagalrok
+tagGDX2HeroKorvaakServant_H02=Garalrok
+tagGDX2HeroKorvaakServant_H03=Ordenrok ~ Vampiric
+tagGDX2HeroKorvaakServant_H04=Purganrok ~ Arcane
+
+
+#CreatureMummy
+tagGDX2EnemyMummy_A01=Mummy ~ Desiccated
+tagGDX2EnemyMummy_B01=Mummy ~ Festering
+tagGDX2EnemyMummy_C01=Mummy ~ Rotter
+tagGDX2EnemyMummy_C02=Mummy ~ Scorcher
+
+tagGDX2HeroMummy_H01=Annothar
+tagGDX2HeroMummy_H02=Tutenthon
+tagGDX2HeroMummy_H03=Imhonar ~ Burning
+tagGDX2HeroMummy_H04=Cassiana ~ Timewarped
+
+
+#CreatureSandLizard
+tagGDX2EnemySandLizard_A00=Sandclaw ~ Hatchling
+tagGDX2EnemySandLizard_A01=Sandclaw
+tagGDX2EnemySandLizard_B01=Sandclaw ~ Flayer
+tagGDX2EnemySandLizard_B02=Sandclaw ~ Nest Guardian
+tagGDX2EnemySandLizard_C01=Sandclaw ~ Matriarch
+
+tagGDX2HeroSandLizard_H01=Blazetalon
+tagGDX2HeroSandLizard_H02=Sanguirex
+tagGDX2HeroSandLizard_H03=Plagnius ~ Diseased
+tagGDX2HeroSandLizard_H04=Matriona ~ Supporter
+tagGDX2HeroSandLizard_H05=Velociir ~ Swift
+tagGDX2HeroSandLizard_H06=Stromscale ~ Electrified
+
+tagGDX2EnemySandLizardB_A01=Moltenclaw
+tagGDX2EnemySandLizardB_B01=Moltenclaw ~ Flayer
+tagGDX2EnemySandLizardB_B02=Moltenclaw ~ Nest Guardian
+tagGDX2EnemySandLizardB_C01=Moltenclaw ~ Matriarch
+
+tagGDX2EnemySandLizardC_A01=Riftclaw
+tagGDX2EnemySandLizardC_B01=Riftclaw ~ Flayer
+tagGDX2EnemySandLizardC_B02=Riftclaw ~ Nest Guardian
+tagGDX2EnemySandLizardC_C01=Riftclaw ~ Matriarch
+
+tagGDX2HeroSandLizardC_H01=Bizarris
+tagGDX2HeroSandLizardC_H02=Venillius
+tagGDX2HeroSandLizardC_H03=Wirgaun ~ Unstoppable
+tagGDX2HeroSandLizardC_H04=Arcanex ~ Shielded
+
+
+#CreatureScorpion
+tagGDX2EnemyScorpion_A01=Korvan Scorpius
+tagGDX2EnemyScorpion_B01=Korvan Scorpius ~ Sandcreeper
+tagGDX2EnemyScorpion_C01=Korvan Scorpius ~ Deathsting
+
+tagGDX2HeroScorpion_H01=Scarprinx the Suneater
+tagGDX2HeroScorpion_H02=Garprinx the Mooneater
+tagGDX2HeroScorpion_H03=Ragalprinx ~ Swift
+tagGDX2HeroScorpion_H04=Eleprinx ~ Electrified
+
+
+#CreatureStatue
+tagGDX2EnemyStatue_A01=Animated Keeper
+tagGDX2EnemyStatue_B01=Animated Watcher
+tagGDX2EnemyStatue_B01B=Infused Animated Watcher
+tagGDX2EnemyStatue_C01=Animated Preserver
+
+tagGDX2HeroStatue_H01=Tyrox ~ Timewarped
+tagGDX2HeroStatue_H02=Arcanis ~ Arcane
+tagGDX2HeroStatue_H03=Molteus ~ Burning
+tagGDX2HeroStatue_H04=Ezerog ~ Frozen
+
+
+#CreatureViper
+tagGDX2EnemyViper_A01=Korvan Viper
+tagGDX2EnemyViper_B01=Korvan Viper ~ Sandstalker
+tagGDX2EnemyViper_C01=Korvan Viper ~ Deathvenom
+
+tagGDX2HeroViper_H01=Zartox
+tagGDX2HeroViper_H02=Arashor
+tagGDX2HeroViper_H03=Serpentior ~ Regenerator
+tagGDX2HeroViper_H04=Cespal ~ Arcane
+
+#CreatureWorm
+tagGDX2EnemyWormA01=Gutsifter
+tagGDX2EnemyWormB01=Gutrager
+
+
+
+
+#Pets
+tagGDX2Pet_CelestialGuardian01=Servant of Empyrion
+tagGDX2Pet_CelestialGuardian01B=Scion of Dreeg
+
+tagGDX2Pet_Item_SandDevil01=Sand Devil
+tagGDX2Pet_Item_EldritchSpider=Eldritch Webweaver
+tagGDX2Pet_Item_EldritchLizard=Eldritch Talon
+tagGDX2Pet_Item_EldritchShard=Eldritch Shard
+tagGDX2Pet_Item_NightRift=Nightbringer
+tagGDX2Pet_Item_YugolTentacle=Tentacle of Yugol
+tagGDX2Pet_Item_Mini=Korvan Minivore
+tagGDX2Pet_Item_Mini_Skill=Miniroar
+tagGDX2Pet_Item_Maggot=Celestial Maggot
+tagGDX2Pet_Item_Maggot_Skill=Writhe
+tagGDX2Pet_Item_Devourer=Hungerling
+tagGDX2Pet_Item_Devourer_Skill=Hungry!
+
+tagGDX2Pet_Devotion_BlackBlood=Black Blood of Yugol
+
+
+
+#EnemySummons
+tagGDX2EnemySummon_EldritchCrystal=Eldritch Crystal
+tagGDX2EnemySummon_EldritchShard=Eldritch Shard
+tagGDX2EnemySummon_SandTornado=Sand Tornado
+tagGDX2EnemySummon_EldritchRift=Eldritch Rift
+tagGDX2EnemySummon_EldritchThrone=Eldritch Throne
+tagGDX2EnemySummon_CelestialEffigy=Celestial Effigy
+tagGDX2EnemySummon_Dravis=Thrall of Dravis
+tagGDX2EnemySummon_FlameJet=Magma Burst
+tagGDX2EnemySummon_Volcano=Volcano
+tagGDX2EnemySummon_LightningOrb=Storm Orb
+tagGDX2EnemySummon_NightRift=Celestial Rift
+tagGDX2EnemySummon_NightCrystal=Celestial Conduit
+tagGDX2EnemySummon_FireHound=Blazehound
+
+
+#Boss&Quest
+tagGDX2Quest_BysmielSummon_01=Spawn of Ateph
+tagGDX2Quest_WitchGodAlly=Bound Beast
+
+tagGDX2Boss_Dravis_01=Dravis, Son of Uroboruuk
+tagGDX2Boss_TombGuardian_01=The Steward
+tagGDX2Boss_Final01=Manifestation of Korvaak, the Eldritch Sun
+tagGDX2Boss_FatherKymon=Father Kymon, Avatar of Korvaak
+
+tagGDX2Boss_Special=Callagadra, Scion of the Sands
+tagGDX2Boss_Messenger=Okaloth ~ "The Messenger"
+
+tagGDX2Boss_Roguelike_MiniBoss_01=Magi Sethris
+tagGDX2Boss_Roguelike_MiniBoss_01B=Shade of Sethris
+tagGDX2Boss_Roguelike_MiniBoss_02=Magi Orissia
+tagGDX2Boss_Roguelike_MiniBoss_02B=Shade of Orissia
+tagGDX2Boss_Roguelike_MiniBoss_03=Magi Anubar
+tagGDX2Boss_Roguelike_MiniBoss_03B=Shade of Anubar
+tagGDX2Boss_Roguelike_MiniBoss_04=Magi Tawrot
+tagGDX2Boss_Roguelike_MiniBoss_04B=Shade of Tawrot
+tagGDX2Boss_Roguelike_MiniBoss_05=Magi Basti
+tagGDX2Boss_Roguelike_MiniBoss_05B=Shade of Basti
+tagGDX2Boss_Roguelike_MiniBoss_06=Magi Shuroth
+tagGDX2Boss_Roguelike_MiniBoss_06B=Shade of Shuroth
+tagGDX2Boss_Roguelike_MiniBoss_07=Magi Khonsar
+tagGDX2Boss_Roguelike_MiniBoss_07B=Shade of Khonsar
+tagGDX2Boss_Roguelike_Boss_01=Keeper of the Seal
+tagGDX2Boss_Roguelike_Boss_02=Grand Magus Morgoneth
+
+tagGDX2Boss_RoguelikePath_Boss_01=Jarinthor the Sandstorm
+tagGDX2Boss_RoguelikePath_Boss_02=Hallanx the Forgotten
+tagGDX2Boss_RoguelikePath_Boss_03=Gurblix the Digested
+
+tagGDX2Boss_RiggsCollector_01="Associate" of Riggs
+
+
+tagGDX2Miniboss_Kymon_01=Brother Segarius, Vengeance of Kymon
+tagGDX2Miniboss_Kymon_02=Sister Crimson, Vengeance of Kymon
+tagGDX2Miniboss_Kymon_03=Ramzul, High Priest of Osyr
+
+tagGDX2Miniboss_Beast_01=Gannar'vakkar, King of the Sands
+tagGDX2Miniboss_Beast_02=Korvan Titanovore
+tagGDX2Miniboss_Beast_03=Grimmaw, Packhound Alpha
+tagGDX2Miniboss_Beast_04=Azaleon, Gryphon Sovereign
+tagGDX2Miniboss_Beast_05=Durg the Stormborn
+tagGDX2Miniboss_Beast_06=Margul the Rotting
+
+tagGDX2Quest_EldritchHound_01=Galfang, Night Terror
+tagGDX2Quest_EldritchHound_02=Packhound of Galfang
+tagGDX2Quest_EldritchWraith_01=Okaloth's Unchained
+tagGDX2Quest_EldritchLizard_01=Onarix, the Razorhide
+tagGDX2Quest_EldritchArmor_01=Ishtal, the Mind Reaper
+tagGDX2Quest_EldritchArmor_02=Guardian of Ishtal
+tagGDX2Quest_EldritchScorpion=The Duskreaper
+tagGDX2Quest_Human_BoundSpirts_01=Tirgan, the Mad Priest
+tagGDX2Quest_Human_BoundSpirts_02=Tirgan the Unbound
+tagGDX2Quest_Human_DreegUsurper_01=Navan, the Usurper
+tagGDX2Quest_Human_MadWitch_01=Inarah, the Afflicted
+tagGDX2Quest_Statue_TempleGuard_01=Risen Stone, Temple Guardian
+tagGDX2Quest_StoneGryphon_TempleGuard_02=Inashkor, Temple Guardian
+tagGDX2Quest_ChthonianRylock_01=Ketan'Thunn
+tagGDX2Quest_SolaelFaction=Bell'oq, Guardian of Rahn
+tagGDX2Quest_SolaelFactionGuardian=Map Room Protector
+
+#Nemesis
+tagGDX2Nemesis_Eldritch01=Kaisan, the Eldritch Scion
+
+#Devotion
+tagGDX2DevotionBeetle_H01=Riknithan
+tagGDX2DevotionBeetle_H02=Baroganx
+tagGDX2DevotionBeetle_H03=Sagaranx ~ Defender
+tagGDX2DevotionBeetle_H04=Mlargg ~ Reflective
+
+tagGDX2DevotionEldritchArmor_H01=Akanax
+tagGDX2DevotionEldritchArmor_H02=Volkanax
+tagGDX2DevotionEldritchArmor_H03=Hallanax ~ Supporter
+tagGDX2DevotionEldritchArmor_H04=Tilkanax ~ Timewarped
+
+tagGDX2DevotionEldritchHound_H01=Vengrall
+tagGDX2DevotionEldritchHound_H02=Titanjaw
+tagGDX2DevotionEldritchHound_H03=Ferantis ~ Swift
+tagGDX2DevotionEldritchHound_H04=Noseferan ~ Vampiric
+
+tagGDX2DevotionEldritchWraith_H01=Alagandris
+tagGDX2DevotionEldritchWraith_H02=Ulzimaar
+tagGDX2DevotionEldritchWraith_H03=Rygonaunt ~ Reflective
+tagGDX2DevotionEldritchWraith_H04=Pazaguun ~ Regenerator
+
+tagGDX2DevotionGargoyle_H01=Hadsarin ~ Frozen
+tagGDX2DevotionGargoyle_H02=Bragwarr ~ Diseased
+tagGDX2DevotionGargoyle_H03=Golgant ~ Burning
+tagGDX2DevotionGargoyle_H04=Xanix ~ Electrified
+
+tagGDX2DevotionGryphonStone_H01=Astranzor ~ Burning
+tagGDX2DevotionGryphonStone_H02=Isvanzor ~ Frozen
+tagGDX2DevotionGryphonStone_H03=Sarpanzor ~ Electrified
+tagGDX2DevotionGryphonStone_H04=Bolvinzor ~ Diseased
+
+tagGDX2DevotionKorvaakAscended_H01=Bluguth ~ Diseased
+tagGDX2DevotionKorvaakAscended_H02=Skron ~ Frozen
+tagGDX2DevotionKorvaakAscended_H03=Pallondrin ~ Unstoppable
+tagGDX2DevotionKorvaakAscended_H04=Reapnagal ~ Reflective
+
+tagGDX2DevotionKorvaakServant_H01=Nagnorok
+tagGDX2DevotionKorvaakServant_H02=Garunrok
+tagGDX2DevotionKorvaakServant_H03=Orgerok ~ Vampiric
+tagGDX2DevotionKorvaakServant_H04=Purigalrok ~ Arcane
+
+tagGDX2DevotionScorpion_H01=Scourpinx
+tagGDX2DevotionScorpion_H02=Karalinx
+tagGDX2DevotionScorpion_H03=Razgalinx ~ Swift
+tagGDX2DevotionScorpion_H04=Elgandinx ~ Electrified
+
+tagGDX2DevotionStatue_H01=Tyrgandor ~ Timewarped
+tagGDX2DevotionStatue_H02=Arclossus ~ Arcane
+tagGDX2DevotionStatue_H03=Moltreax ~ Burning
+tagGDX2DevotionStatue_H04=Ezgannar ~ Frozen
+
+tagGDX2DevotionViper_H01=Zaranux
+tagGDX2DevotionViper_H02=Alrashar
+tagGDX2DevotionViper_H03=Serepin ~ Regenerator
+tagGDX2DevotionViper_H04=Cesaprin ~ Arcane
+
+
+#Bounties
+tagGDX2BountyWG04=Razorfeather, Gryphon Matriarch
+tagGDX2BountyWG05=Varnox, The Molten
+tagGDX2BountyWG06=Gallanor
+tagGDX2BountyWG07=Avronath
+tagGDX2BountyWG08=Reynar, The Loathed
+tagGDX2BountyWG09=Keynen, Burntheart
+tagGDX2BountyWG10=Guardian Yaharum
+tagGDX2BountyWG11=Guardian Ulazor
+
+
+#Races
+
+tagRace017=Empowered
+tagRace017P=Empowered
+

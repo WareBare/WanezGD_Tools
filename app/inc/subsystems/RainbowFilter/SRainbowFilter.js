@@ -306,8 +306,10 @@ module.exports = class SRainbowFilter extends Parent{
                         .on('finish', function () {
                             // JSZip generates a readable stream with a "end" event,
                             // but is piped here in a writable stream which emits a "finish" event.
-                            wzNotify.save(`${appConfig.get(`Filter.LocaleFileName`).replace(`.zip`, `${zipSuffix}.zip`)}`);
+                            //wzNotify.save(`${appConfig.get(`Filter.LocaleFileName`).replace(`.zip`, `${zipSuffix}.zip`)}`);
                             //console.log("out.zip written.");
+                            
+                            //wzUpdateHeader(`Saved: ${appConfig.get(`Filter.LocaleFileName`).replace(`.zip`, `${zipSuffix}.zip`)}`);
                         });
                     });
                 });
@@ -347,8 +349,9 @@ module.exports = class SRainbowFilter extends Parent{
                 .on('finish', function () {
                     // JSZip generates a readable stream with a "end" event,
                     // but is piped here in a writable stream which emits a "finish" event.
-                    wzNotify.save(`settings/${zipName}`);
+                    //wzNotify.save(`settings/${zipName}`);
                     //console.log("out.zip written.");
+                    //wzUpdateHeader(`Saved: ${zipName}`);
                 });
             }
         }

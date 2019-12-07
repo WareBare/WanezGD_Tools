@@ -68,7 +68,7 @@ wzLoadApps = function(){
     /*
      <img src=\"app/img/AssetManager_0000.png\" onclick=\"wzOpenExe('AssetManager')\" /><span class=\"formBTN\" onclick=\"getDBR();\">Load DBR</span><span class=\"formBTN\" onclick=\"wzTest();\">TEST</span><span class=\"formBTN\" onclick=\"wzCMS(['DevDemo','Form']);\">DemoForm</span>
      */
-    let el = document.getElementById('app_HeaderApps'),
+    let el = document.getElementById('App_HeaderApps'),
         tmp = '<img src="app/img/{BTN_NAME}.png" title="{BTN_NAME}.exe" onclick="wzOpenExe(\'{BTN_NAME}\');" />',
         out_ = '';
     

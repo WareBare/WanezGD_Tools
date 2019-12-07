@@ -1,0 +1,297 @@
+#Loading Tips
+tagLoadingTip01={^g}Tip: {^w}You can access powerful Loot Filters using the Loot Filter button on the left end of the HUD.
+tagLoadingTip02={^g}Tip: {^w}If you find a Devotion Shrine you cannot restore yet, its location will be marked on the World Map.
+tagLoadingTip03={^g}Tip: {^w}You can view Tutorial Tips again at any time in the Codex Window, default hotkey: H.
+tagLoadingTip04={^g}Tip: {^w}Enemies significantly below your level do not grant Experience or Faction Reputation.
+tagLoadingTip05={^g}Tip: {^w}Remember to invest in the Mastery Bar. It provides core stats that will help you survive and gear up.
+tagLoadingTip06={^g}Tip: {^w}Visit www.GrimDawn.com to read the Game Guide, which has a wealth of information on game mechanics.
+tagLoadingTip07={^g}Tip: {^w}Hero Monsters (marked by a Star) are powerful foes with unique abilities, but also better loot.
+tagLoadingTip08={^g}Tip: {^w}Enemies significantly below your level will not drop Rare Crafting Materials such as Ancient Hearts.
+tagLoadingTip09={^g}Tip: {^w}On Elite Difficulty, your core resistances are reduced by 25%. That penalty goes up to 50% on Ultimate.
+tagLoadingTip10={^g}Tip: {^w}There are many secret places in the world of Cairn. Look closely and you may find hidden treasure!
+tagLoadingTip11={^g}Tip: {^w}On Veteran Difficulty and above, Bosses will regain a portion of their health if you are killed.
+tagLoadingTip12={^g}Tip: {^w}Explore the world to find One-Shot Chests, which will always drop an Epic item, once per character.
+tagLoadingTip13={^g}Tip: {^w}Epic and Legendary items can grant you unique abilities that can complement, or even define, your build.
+tagLoadingTip14={^g}Tip: {^w}Some monsters can drop equipment unique to them, known as Monster Infrequents.
+tagLoadingTip15={^g}Tip: {^w}Legendary items are very rare, but also incredibly powerful. They start dropping at level 50+.
+tagLoadingTip16={^g}Tip: {^w}Set items have powerful bonuses if worn together and can even grant new skills.
+tagLoadingTip17={^g}Tip: {^w}Components used on weapons grant an activated skill that you can use to complement your build.
+tagLoadingTip18={^g}Tip: {^w}Relics are special items that can only be created by a skilled Blacksmith.
+tagLoadingTip19={^g}Tip: {^w}Many Components can only be crafted. Learn new Blueprints by gaining favor with Cairn's Factions.
+tagLoadingTip20={^g}Tip: {^w}You have a better chance of finding great loot on higher difficulties, but the challenge is also greater.
+tagLoadingTip21={^g}Tip: {^w}You can rotate the camera at any time by holding down the middle mouse button. Or you can set keyboard bindings.
+
+#Tutorial Pages
+
+tagTutorialTip06Title=Untouched Meals
+tagTutorialTip06TextA=Abandoned meals are found throughout the world of Cairn. Likely left behind by less fortunate adventurers, they can be consumed to restore some of your lost Constitution.
+
+tagTutorialTip08Title=Welcome to Grim Dawn
+tagTutorialTip08TextA=Thank you for supporting us and our work. Grim Dawn was made possible by the generosity of our backers, whether through our Website, Kickstarter or Steam Early Access.
+tagTutorialTip08TextB=Should you encounter a bug, please report it on our forums at www.grimdawn.com.
+tagTutorialTip08SubtitleA=Tutorial Tips
+tagTutorialTip08TextC=You can enable or disable in game tutorial tips at any time on the options menu. The options menu can be accessed in-game by pressing {^x}[Escape]{^-}.
+
+tagTutorialTip09Title=Merchant Window
+tagTutorialTip09TextA=Merchants buy and sell weapons and equipment necessary to survive the dangers of Cairn.
+tagTutorialTip09TextB=In these desperate times, good equipment doesn't come cheap. Merchants won't pay much for common items, but magically imbued gear can fetch a good price.
+
+tagTutorialTip10Title=Riftgates
+tagTutorialTip10TextA=Secured Riftgates allow you to traverse quickly between locations. Left-click on a Riftgate to open the World Map and select a destination.
+tagTutorialTip10SubtitleA=Personal Riftgate
+tagTutorialTip10TextB=As an Aether-touched human, you are capable of opening Personal Riftgates. To activate your Personal Riftgate, click on the Rift Travel button located to the right of your skill bar, or press {^x}[%t0]{^-}.
+tagTutorialTip10TextC=Personal Riftgates can be opened almost anywhere in the world, and are linked to the main Riftgate network. Your Riftgate will remain open until you return to it, and while it remains open your party members may travel to it as well. You can only have one Personal Riftgate open at any given time.
+
+tagTutorialTip14Title=Potions
+tagTutorialTip14TextA=Health and Energy Potions restore your character's health and energy, respectively. To drink a potion, click on its image on the skill bar or press the assigned hotkey.
+tagTutorialTip14TextB=Potions are initially assigned to the last two Skill Bar Slots. You can manually assign Potions to any Skill Bar slot by right-clicking on an empty slot and selecting a potion from the menu.
+tagTutorialTip14TextC=To drink a Potion, click on its image in the Skill Bar or press the assigned hotkey.
+tagTutorialTip14TextD=You will find potions in chests and from monsters, but you can always purchase more from any merchant if you find yourself running low.
+
+tagTutorialTip15Title=Leveling
+tagTutorialTip15TextA=Each time your character levels up, you will earn Skill and Attribute points.
+tagTutorialTip15TextB=Attribute points can be used to increase your Cunning, Physique and Spirit by 8 per point.
+tagTutorialTip15TextC=Skill points can be used to increase your mastery level, unlock new skills, or improve skills you have already unlocked.
+tagTutorialTip15TextD=Initially, you will earn 3 skill points per level, but as you achieve higher levels, the number of skills points gained goes down to 2 (at level 51+) and finally 1 per level.
+tagTutorialTip15SubtitleA=Assigning Points
+tagTutorialTip15TextE=Attribute points are assigned in the Character Window. Click the icon to the left of the skill bar, or press {^x}[%t0]{^-}. To assign an attribute point, click the "+" next to the appropriate attribute.
+tagTutorialTip15TextF=Skill points are assigned by opening the Skill Window. Click the icon to the left of the skill bar, or press {^x}[%t0]{^-}.
+tagTutorialTip15SubtitleB=Experience
+tagTutorialTip15TextG=You can track your experience on the yellow bar below your health and energy, and in the Character Window. The bar shows your current experience, experience gain, and experience required to reach the next level. When the bar fills up, you gain a level.
+
+tagTutorialTip16Title=Character Window
+tagTutorialTip16TextA=Use the Character Window to equip items, organize your inventory, spend attribute points and see a summary of your character's stats. Hover over stats for additional information.
+tagTutorialTip16SubtitleA=Inventory Management
+tagTutorialTip16TextB=To equip an item, right-click it from your inventory or move it to an appropriate equipment slot. You may drop an item by moving it out of the character window, or by clicking on it and pressing the {^x}[{%t0}]{^-} key.
+tagTutorialTip16SubtitleB=Attribute Points 
+tagTutorialTip16TextC=Spend attribute points by clicking on the "+" buttons to the left of the desired attribute. Each attribute point increases the attribute by 8.
+
+tagTutorialTip17Title=Masteries
+tagTutorialTip17TextA=Choosing a mastery is a character-defining decision. Different masteries cater to very different play styles, so choose wisely.
+tagTutorialTip17TextB=Once you choose a mastery and apply skill points, you will not be able to revert your mastery selection.
+tagTutorialTip17TextC=You will have the option to select a second mastery when your character reaches level 10.
+
+tagTutorialTip20Title=Components
+tagTutorialTip20TextA=Components can be used to upgrade your equipment. They always come in fragments, which can be combined for more potent bonuses. Rare components are denoted by a light yellow border.
+tagTutorialTip20SubtitleA=Attaching Components
+tagTutorialTip20TextB=Right-click a component to select it, then left-click on the item you wish to attach it to. Note that each component can only go in certain item types.
+tagTutorialTip20SubtitleB=Combining Components
+tagTutorialTip20TextC=You can combine component fragments of the same name to create more powerful bonuses.
+tagTutorialTip20TextD=Component fragments of the same type may be attached to items after the first fragment has been applied.
+
+tagTutorialTip22Title=Skill Window
+tagTutorialTip22TextA=You will earn additional skill points each time you gain a level. Invest these skill points in your mastery level or unlocked skills.
+tagTutorialTip22SubtitleA=Mastery Level
+tagTutorialTip22TextB=If you invest skill points in your skill mastery, you will unlock new tiers of skills. You can increase your mastery level by clicking on the mastery button in the lower left of the Skill Window.
+tagTutorialTip22TextC=You must have at least one point in your mastery level to unlock the first skill tier.
+tagTutorialTip22SubtitleB=Skill Level
+tagTutorialTip22TextD=Click on an unlocked skill icon to add points to that skill. The first skill point will allow you to use the ability. Additional skill points will make the ability more powerful.
+tagTutorialTip22TextE=Green lines indicate connections to that skill's modifiers. You must have at least one point in the base skill before you can invest in its modifiers.
+
+tagTutorialTip23Title=Assigning Skills
+tagTutorialTip23TextA=Active skills (square icons) need to be assigned to your mouse buttons or skill bar before you can use them.
+tagTutorialTip23TextB=To assign a skill, right-click on a slot in the skill bar or on the mouse buttons to the right of it and select the desired skill from the menu.
+tagTutorialTip23SubtitleA=Using Skills
+tagTutorialTip23TextC=Activate skills on the skill bar by left-clicking the icon, or by pressing the assigned shortcut.
+tagTutorialTip23TextD=Passive skills (circular icons) are always active and do not need to be assigned to the skill bar. Once you assign points to them, they will immediately provide their benefits.
+
+tagTutorialTip24Title=Death
+tagTutorialTip24TextA=When your health reaches zero, your character will die. Dying costs experience and returns your character to the last sanctuary you visited. You can regain some of your lost experience by recovering your Grave Marker.
+tagTutorialTip24TextB=To avoid death, take advantage of your character's rapid health regeneration, which activates when out of combat for a few seconds. When your constitution has been depleted, remember to use potions and skills to stay alive.
+
+tagTutorialTip26Title=Chat
+tagTutorialTip26TextA=You can use the Chat Window to send messages to other players in your game session. To send a private message, choose a recipient by clicking on the "Send To" button.
+tagTutorialTip26SubtitleA=Linking Items
+tagTutorialTip26TextB=To link items in the chat, shift-click on the desired item with the chat open. A message will be automatically sent with a link to the item.
+
+tagTutorialTip27Title=Multiplayer
+tagTutorialTip27TextA=Joining a party with other players allows you to share experience and loot. You can access the Group Window by clicking the icon, or by pressing {^x}[%t0]{^-}. Parties are also important for PvP sessions.
+tagTutorialTip27TextB=You can initiate a trade with another player in your party by right-clicking on their portrait and choosing "Trade".
+tagTutorialTip27TextC=You can also chat with other players in the game by using the Chat Window, which can be opened by pressing {^x}[%t0]{^-}.
+
+tagTutorialTip28Title=Player Trading
+tagTutorialTip28TextA=You can trade items by placing them within your side of the trade window. You can trade iron bits by typing a value next to the icon at the top of the window.
+tagTutorialTip28TextB=Both players must accept the trade before an exchange will take place. If the trade is cancelled, all items and iron bits are returned to player inventories.
+
+tagTutorialTip33Title=Learning Skills
+tagTutorialTip33TextA=When leveling up it's important to allocate points to skills as well as putting points in your class mastery bar. Learning new skills can provide you with powerful offensive and defensive abilities.
+tagTutorialTip33TextB=To apply skill points to an ability, click on an unlocked skill icon in the Skill Window. The first skill point will allow you to use the ability. Additional skill points will make the ability more powerful.
+
+tagTutorialTip34Title=Buying and Selling
+tagTutorialTip34TextA=If your inventory becomes full, you may wish to visit a merchant and sell unwanted items.
+tagTutorialTip34TextB=Merchants can be found in human-controlled sanctuaries, but you may also encounter traveling merchants out in the world. Look for the merchant symbol on the Compass or in the Map Window.
+
+tagTutorialTip35Title=Pets
+tagTutorialTip35TextA=Pets automatically travel and fight alongside you. If you wish to give your pets direct commands, you can hold down {^x}[{%t0}]{^-} while clicking on the desired pet in the upper left of the screen, then select a target.
+tagTutorialTip35TextB=You can dismiss your pets at any time by right-clicking their portraits and selecting "Disband Pet".
+tagTutorialTip35TextC=You can order all pets to attack or move to a target by commanding them using the Pet Attack skill. To assign this skill, right-click on a slot in the Skill Bar or on the mouse buttons to the right of it and select it from the menu.
+
+tagTutorialTip36Title=Skill Reallocation
+tagTutorialTip36TextA=Spirit Guides allow you to undo your skill point selections. Click on a skill icon in the Spirit Guide's UI to remove one point from that skill. The cost of doing so increases as you remove subsequent skill points.
+tagTutorialTip36TextB=You cannot remove points invested in your Mastery level. In addition, you cannot remove the last point from a skill that has any modifiers with points invested in them.
+
+tagTutorialTip37Title=Smuggler Window
+tagTutorialTip37TextA=The Smuggler can store your items, and even exchange them between your characters! You can access your stash at any Smuggler you find throughout Cairn.
+tagTutorialTip37TextB=Items can be transferred quickly using Shift-Left Click.
+tagTutorialTip37TextC=Click on Item Transfer to share items with your other characters.
+
+tagTutorialTip38Tile=Item Transfer
+tagTutorialTip38TextA=Items placed in the Smuggler's Item Transfer Window are shared between all your characters (separated by Normal and Hardcore mode).
+tagTutorialTip38TextB=You can expand your shared storage by purchasing additional tabs for iron bits. These additional tabs are visible along the left side of the transfer window.
+tagTutorialTip38SubtitleA=Transfer Between Characters
+tagTutorialTip38TextC=To transfer items, place them in the Item Transfer Window. When you load another character, you can access these items from the Smuggler.
+tagTutorialTip38SubtitleB=Transfer Between Players
+tagTutorialTip38TextD=In order to trade items with other player's characters in multiplayer games, you must use the Trade function instead. Right click the player's portrait, and choose "Trade".
+
+tagTutorialTip39Title=Inventor
+tagTutorialTip39TextA=Inventors are capable of removing Components and Augments from items. Either the item or the component is preserved in the process. Any Augments are lost.
+tagTutorialTip39SubtitleA=Removing Components
+tagTutorialTip39TextB=The removal of Components from items costs a fee proportional to the combined value of the item, Augment and the Component. Place an item with a Component in the Salvage Window to begin.
+tagTutorialTip39TextC=You can recover either the item or the component, but the other is destroyed in the process.
+tagTutorialTip39SubtitleB=Removing Augments Only
+tagTutorialTip39TextD=Whenever you choose to remove just an Augment, the item and Component are unchanged. If a Soulbound Augment is removed this way, and the item was not originally Soulbound, the Soulbound status will be removed as well.
+
+tagTutorialTip42Title=Blacksmith
+tagTutorialTip42TextA=The Blacksmith is capable of crafting items of great power. He is already an experienced craftsman and everything he creates comes with a small crafting stat bonus, but his knowledge can be expanded upon with the discovery of new blueprints.
+tagTutorialTip42SubtitleA=Blueprints
+tagTutorialTip42TextB=The Blacksmith will learn to craft new items when you discover new blueprints. Blueprints can be earned from quests, or found out in the world.
+tagTutorialTip42SubtitleB=Crafting
+tagTutorialTip42TextC=To begin crafting an item, select a recipe in the Crafting UI. Items are automatically placed in the crafting UI, taken from your Personal Stash, Shared Stash, Inventory and Equipped items, in that order.
+tagTutorialTip42TextD=If you have all the required materials, you can press the Combine button to craft the item.
+
+tagTutorialTip43Title=Blueprints
+tagTutorialTip43TextA=Blueprints are forgotten templates for the creation of powerful items, which a Blacksmith can study.
+tagTutorialTip43TextB=To learn a blueprint, right-click on it. If you have not yet learned this blueprint, it will be added to your Blacksmith's list of items.
+tagTutorialTip43TextC=Blueprints are stored across all characters (separated by Normal and Hardcore mode) and you can only learn each Blueprint once.
+
+tagTutorialTip44Title=The Blacksmith is Missing!
+tagTutorialTip44TextA=You have learned a new blueprint, but you do not have a Blacksmith capable of crafting the item for you.{^n}{^n}You must first find a Blacksmith before you can craft items.{^n}{^n}The Blacksmith will know how to craft this new blueprint immediately.
+tagTutorialTip44TextB=
+
+tagTutorialTip45Title=Constitution
+tagTutorialTip45TextA=When combat ends and your health bar is not full, a secondary regeneration system activates called Constitution.
+tagTutorialTip45TextB=Constitution will rapidly refill your health bar, but will also be drained in the process. The yellow indicator over your health bar is your Constitution.{^N}{^N}
+tagTutorialTip45TextC=Constitution automatically refills when you find Food Rations or Vital Essence, and when you reach the next Character Level or Die.
+tagTutorialTip45TextD=If your Constitution runs out, you will no longer rapidly regenerate health outside of combat.
+
+tagTutorialTip46Title=Out of Constitution
+tagTutorialTip46TextA=You have run out of Constitution and will no longer rapidly regenerate health out of combat. You can restore your Constitution with Food Rations or Vital Essence.
+
+tagTutorialTip47Title=Dismantling
+tagTutorialTip47TextA=Visit the Inventor to break down items into Scrap, with a chance of generating a Component piece. The more powerful the item, the more likely it will generate powerful Components.
+tagTutorialTip47SubtitleA=Dismantling an Item
+tagTutorialTip47TextB=To Dismantle an item, you will require Dynamite and iron bits. A Dismantled item is destroyed forever. Place an item of at least Magical quality in the Dismantling Window to begin.
+tagTutorialTip47TextC=Upon pressing the Dismantle button, the required Dynamite and iron bits cost is deducted from your inventory and the item is converted to its basic parts.
+
+tagTutorialTip49Title=Weapon Comparison
+tagTutorialTip49TextA=When you hover over an item in your inventory. You will see a side-by-side comparison of that item with what you currently have equipped. In the case of weapons, you will also see additional information comparing the Damage per Second (DPS).
+tagTutorialTip49SubtitleA=Comparing without Components
+tagTutorialTip49TextB=You can compare the two weapons without any attached components by holding the {^x}[Ctrl]{^-} key.
+
+tagTutorialTip50Title=Augments
+tagTutorialTip50TextA=Augments come in the form of enchanted powders, which can be used to upgrade your equipment. The creation of Augments is a carefully guarded secret of Cairn's various Factions.
+tagTutorialTip50TextB=To use an augment, right-click on it. You can then apply it to an appropriate item. Once applied, an Augment cannot be removed, but it can be replaced with another.
+
+tagTutorialTip51Title=Applying Augments
+tagTutorialTip51TextA=Right-click an Augment to select it, then left-click on the item you wish to apply it to.
+tagTutorialTip51TextB=Note that Augments can only be applied to specific item types and cannot be removed once applied; but you can overwrite an existing Augment with another.
+
+tagTutorialTip53Title=Faction Quartermaster
+tagTutorialTip53TextA=Faction Quartermasters sell items exclusively available from his or her faction. This equipment is only available to those who have proven themselves to their faction.
+tagTutorialTip53SubtitleA=Soulbound Equipment
+tagTutorialTip53TextB=Equipment sold by Faction Quartermasters is soulbound to your character and cannot be traded or placed in the Transfer UI.
+tagTutorialTip53TextC=If a Soulbound Augment is applied to an item, that item becomes soulbound as well.
+
+tagTutorialTip55Title=Faction Window
+tagTutorialTip55TextA=Use the Faction Window to keep track of your progress with Cairn's various factions and to determine what you need to do in order to gain their favor.
+tagTutorialTip55SubtitleA=Gaining Reputation
+tagTutorialTip55TextB=Each faction has unique desires and goals. You can see how to earn their respect by looking at the "Reputation Gained From" section.
+tagTutorialTip55TextC=Your reputation levels determine how the various factions in the world of Cairn act towards you. Higher reputation levels entitle you to discounted goods at all of the faction's merchants and access to better equipment from their Faction Quartermaster.
+tagTutorialTip55TextD=As your rise through the different reputation levels new quests may become available. Don't forget to seek them out.
+tagTutorialTip55TextE=Note that as you become more renowned, you will need to defeat tougher monsters to gain reputation from kills.
+
+tagTutorialTip56Title=Bounties
+tagTutorialTip56TextA=Bounties are an excellent way to raise your reputation with the various factions of Cairn. Bounty quests send you on tasks of varying difficulty and reward and are generally unguided. You must hunt down your prey with limited assistance.
+tagTutorialTip56SubtitleA=Bounties are Repeatable
+tagTutorialTip56TextB=Unlike regular quests, Bounty quests are not limited to once per character. Each Faction will offer you up to 5 Bounties per game session, and you may discover Bounties you have completed in previous sessions.{^N}{^N}
+
+tagTutorialTip59Title=Devotion Shrines
+tagTutorialTip59TextA=Devotion Shrines are ancient remnants of a long-lost empire, monuments dedicated to various gods and celestial symbols. Shrines must either be cleansed by defeating a corrupting presence trapped within or restored by placing an offering of rare crafting materials. The requirements vary from shrine to shrine.
+tagTutorialTip59CaptionA=Restoring Shrines
+tagTutorialTip59TextB=To Restore a ruined shrine, you must have the required materials in your Personal Stash, Shared Stash, Inventory and Equipped items, taken automatically in that order. If you have all the required materials, you can press the Offer button to restore the Shrine.
+tagTutorialTip59CaptionB=Devotion Points
+tagTutorialTip59TextC=When a shrine is cleansed you earn a devotion point. To allocate your Devotion Points visit the Devotion Window, which can be accessed through the Skill Window. Click the icon located to the left of the skill bar, or press {^x}[%t0]{^-}.
+
+tagTutorialTip60Title=Devotion Window
+tagTutorialTip60TextA=The Devotion Window allows you to dedicate your Devotion Points to various deities and celestial symbols of Cairn.
+tagTutorialTip60TextB=As you complete Constellations, you will earn Affinity, which will in-turn earn you access to more powerful Constellations.
+tagTutorialTip60SubtitleA=Affinity
+tagTutorialTip60TextC=The Constellations are aligned to five different Affinities, representing different celestial aspects. Different Constellations require different amounts of Affinity to unlock.
+tagTutorialTip60SubtitleB=Spending Devotion Points
+tagTutorialTip60TextD=The entry Constellations all give significant Affinity bonuses, while the most powerful Constellations do not give any at all.
+tagTutorialTip60TextE=Note that if you unlearn a piece of a completed Constellation, you will lose its Affinity bonus.
+tagTutorialTip60TextF=Bright blue stars indicate where you can put a Devotion Point in next. Left-click on a star to unlock its bonus.
+tagTutorialTip60TextG=The Halo Stars mark the locations of Celestial Powers, which you can unlock to enhance your primary skills with new effects.
+
+tagTutorialTip61Title=Celestial Powers
+tagTutorialTip61TextA=Celestial Powers are powerful auto-activated abilities which can be assigned to your primary skills from your Masteries and Equipment. Celestial Powers assigned to your skills will earn experience from combat and quests, which will cause them to rank up and increase in strength. When assigned to pet skills, they will scale with the pet's damage.
+tagTutorialTip61SubtitleA=Assigning a Primary Skill
+tagTutorialTip61TextB=To assign a Celestial Power, you must first unlock it in the Devotion Window, then select a valid Primary Skill from the drop-down list. You can re-assign a Celestial Power at any time without penalty. If you unassign a Celestial Power, it will retain any experience or ranks it has earned.
+
+tagTutorialTip69Title=Loot Filter
+tagTutorialTip69TextA=The Loot Filter window allows you to control what items are displayed on the ground. This powerful tool simplifies the vast variety of loot in Grim Dawn by focusing your attention on the loot your character needs most.
+tagTutorialTip69SubtitleA=Quality Filters
+tagTutorialTip69TextB=You can show or hide items based on their Quality. If a box us unchecked here, items of that quality will not appear on the ground regardless of what is checked under the other Categories. The exceptions to this rule are Monster Infrequents and Sets, as they are a subset of Rare and Epic/Legendary items, respectively, and are used only if you wish to fine-tune your filter further.{^n}{^n}By default, all options are checked in this section.
+tagTutorialTip69SubtitleB=Type Filters
+tagTutorialTip69TextC=You can show or hide items based on their Equipment Slot. If a box is unchecked here, items of that type will not appear on the ground regardless of what is checked in the Damage and Character Categories.{^n}{^n}By default, all options are checked in this section.
+tagTutorialTip69SubtitleC=Damage and Character Filters
+tagTutorialTip69TextD=You can show or hide items based on their attributes. If any boxes are checked under these Categories, only items that meet at least one of these filters will appear on the ground.{^n}{^n}By default, all options are unchecked in this section.
+
+
+#Quick Tips
+
+tagQuickTipMainMenu={^z}Welcome to Grim Dawn!{^-}{^n}{^n}{^w}Tutorial Tips{^-} are currently enabled. You can disable them at any time via the options menu.{^n}{^n}{^w}Normal Difficulty{^-} is intended for less experienced ARPG players.{^n}{^n}For a more challenging experience select {^w}Veteran Difficulty{^-}.
+tagQuickTip06={^z}Untouched Meal{^-}Collecting an untouched meal restores a large amount of Constitution, which allows you to regenerate Health quickly when out of combat.
+tagQuickTip07={^z}You Unlocked a Riftgate!{^-}{^n}{^n}{^w}Rift Travel{^-} {^x}[%t0]{^-} allows you to create a portal which you can use to teleport to the Riftgates found throughout the world of Cairn.
+tagQuickTip08={^z}Tutorial Tips{^-}{^n}{^n}{^s}Tutorial Tips{^-} are currently enabled. You can disable them at any time via the options menu. For more information, simply left click on a tip as it appears, or right click to close it. In game help is accessible at any time in the Codex Window {^x}[%t0]{^-}.
+tagQuickTip09={^z}Merchants{^-}{^n}{^n}Merchants allow you to sell your collected loot and buy equipment and potions. Right clicking an item is a the quickest way to buy or sell.
+tagQuickTip11={^z}Personal Riftgate{^-}{^n}{^n}Use the Personal Riftgate to open the World Map and select a Riftgate to travel to.
+tagQuickTip14={^z}Potions{^-}{^n}{^n}Potions have long cooldowns, but they can be used to quickly restore your Health or Energy. To drink a potion, click on the potion icon on the skill bar or press the assigned hotkey. 
+tagQuickTip15={^z}Leveling{^-}{^n}{^n}When you level up you gain Skill and Attribute points which can be assigned in the Skill and Character Windows.
+tagQuickTip16={^z}Character Window{^-}{^n}{^n}The Character Window allows you to manage your Inventory, Equipment, and view your Stats.
+tagQuickTip20={^z}Components{^-}{^n}{^n}Components apply bonuses to items and equipment, and can be combined for an increase in power.
+tagQuickTip21={^z}Secondary Mastery{^-}{^n}{^n}You reached level 10, and can now select a second Mastery.
+tagQuickTip22={^z}Skill Window{^-}{^n}{^n}The Skill Window {^x}[%t0]{^-} allows you to spend the Skill Points you earn when leveling up.
+tagQuickTip23={^z}Mastery & Skills{^-}{^n}{^n}Increasing the number of points spent in the Mastery Bar allows access to additional skills as well as providing stat bonuses. Remember to learn new skills as well as increasing your mastery.
+tagQuickTip24={^z}Death is Not The End!{^-}{^n}{^n}When you die you lose experience, but you can recover some of the experience you lost by collecting your Grave Marker.
+tagQuickTip26={^z}Chat{^-}{^n}{^n}Press {^x}[Enter]{^-} to chat to other players, or press "Send To" to send a Private Message. Shift-clicking an item sends a viewable link to that item to other players in the game.
+tagQuickTip27={^z}Multiplayer{^-}{^n}{^n}Access the Group Window {^x}[%t0]{^-} to form a party. Press {^x}[Enter]{^-} to chat with other players.
+tagQuickTip30={^z}Unassigned Skills!{^-}{^n}{^n}Active skills must be assigned to the skill bar before they can be used. Right click a slot on the bar to assign a skill to it.
+tagQuickTip31={^z}Health Potions{^-}{^n}{^n}When your health is low during combat, use a potion to restore it. Health Potions have a long cooldown but restore a large amount of health.
+tagQuickTip32={^z}Unassigned Points!{^-}{^n}{^n}You have unassigned attribute or skill points. Remember to spend your points when leveling up.
+tagQuickTip33={^z}Learning Skills{^-}{^n}{^n}It's important to learn Skills as well as increasing your Mastery bar. Skills provide you with powerful offensive and defensive abilities.
+tagQuickTip34={^z}Inventory Full!{^-}{^n}{^n}Open the Character Window to manage your inventory, or visit a merchant to sell the loot you have collected in exchange for iron bits.
+tagQuickTip35={^z}Summoned Pets{^-}{^n}{^n}You can order all pets to attack or move to a target by commanding them using the Pet Attack skill. They can also be set to aggressive/defensive, and desummoned when required.
+tagQuickTip36={^z}Spirit Guide{^-}{^n}{^n}The Spirit Guide allows you to change your skills and devotions in exchange for Iron Bits and Aether Crystals. Each point refunded increases the cost of the next point.
+tagQuickTip37={^z}Smuggler{^-}{^n}{^n}The Smuggler allows you to store items you wish to save for later in your Private Stash, as well as access the Transfer Stash.
+tagQuickTip38={^z}Transfer Stash{^-}{^n}{^n}The Transfer Stash can be used to transfer items between your character. Additional transfer space can be purchased for Iron Bits.
+tagQuickTip39={^z}Inventor{^-}{^n}{^n}The Inventor allows you to recover Components from items, and Dismantle unwanted items into crafting materials.
+tagQuickTip42={^z}Blacksmith{^-}{^n}{^n}The Blacksmith allows you to craft powerful items using the Blueprints you have learned and various crafting components found in the world.
+tagQuickTip43=^{z}Blueprints{^-}{^n}{^n}Visit the Blacksmith to craft items using the Blueprints you have learned, and the crafting materials you have found.
+tagQuickTip44={^z}Blueprints{^-}{^n}{^n}Blueprints require the services of a Blacksmith to craft. Any blueprints you collect will be stored until you recruit one.
+tagQuickTip45={^z}Fast Regen{^-}{^n}{^n}Constitution is converted into health when out of combat, allowing you to regenerate quickly between fights while your constitution lasts.
+tagQuickTip46={^z}Constitution Exhausted!{^-}{^n}{^n}When your Constitution runs out you can no longer regenerate Health quickly when out of combat. Collect Untouched Meals and Vital Essence in order to refill your constitution bar.
+tagQuickTip47={^z}Dismantling{^-}{^n}{^n}The Dismantle Window allows you to break unwanted items down into their component parts, which can then be used for crafting.
+tagQuickTip49={^z}Equipment Comparison{^-}{^n}{^n}Placing the cursor over an item will show a comparison of that item with your current equipment.
+tagQuickTip50={^z}Augments{^-}{^n}{^n}Augments can be used on equipment to add additional bonuses. They can be purchased from Faction Quartermasters when you have met the reputation requirements.
+tagQuickTip52={^z}Reputation Gained{^-}{^n}{^n}You have gained some reputation with one of Cairn's factions. You can view your reputation status in the in the Factions Window {^x}[%t0]{^-}.
+tagQuickTip53={^z}Faction Quartermaster{^-}{^n}{^n}Faction Quartermasters allow you to purchase faction related items and enhancements if your reputation meets their requirements.
+tagQuickTip54={^z}Reputation{^-}{^n}{^n}Your Reputation level has increased with one of Cairn's factions. The Factions Window {^x}[%t0]{^-} contains information on the rewards associated with higher reputation levels.
+tagQuickTip55={^z}Faction Window{^-}{^n}{^n}The Faction Window allows you to view your current Reputation with the various friendly and enemy factions, and learn background information about them.
+tagQuickTip56={^z}Bounties{^-}{^n}{^n}Unlike regular quests, bounties are repeatable. Each faction will offer you up to 5 bounties per game session.
+tagQuickTip57={^z}Devotion Shrines{^-}{^n}{^n}Cleansing shrines grants you Devotion Points which can be allocated by accessing the Skills Window {^x}[%t0]{^-}. Devotion is an additional layer of character customization in addition to the Mastery system.
+tagQuickTip58={^z}Cleansing Shrines{^-}{^n}{^n}Shrines can be cleansed by either making an offering to the gods, or defeating foes trapped within the shrine, depending on the type of shrine you encounter.
+tagQuickTip59={^z}Devotion Points{^-}{^n}{^n}Devotions Points earned from cleansing shrines can be spent in the Devotion Window, accessed via the Skills Window {^x}[%t0]{^-}.
+tagQuickTip60={^z}Devotion Window{^-}{^n}{^n}The Devotion Window allows you to spend Devotion points gained by cleansing shrines. Each spent point allows you to unlock new bonuses and skills.
+tagQuickTip61={^z}Celestial Powers{^-}{^n}{^n}Assign your Celestial Power to a skill by clicking the icon in the Devotion Window and selecting a skill from the list.
+tagQuickTip69={^z}Loot Filter{^-}{^n}{^n}Use the Loot Filter to control what loot drops are displayed on the ground.

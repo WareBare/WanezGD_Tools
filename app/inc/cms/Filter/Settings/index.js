@@ -392,25 +392,11 @@ module.exports = {
         
         return Output;
     },
-
-    OnClickSidebarBtn_DeleteOldColorFiles: function(){
-        Super.OnDeleteOldFiles();
-    },
     
     sidebarBtns_: function(){
-        let outButtons = [];
+        let outButtons = Super.sidebarBtns_();
 
         // ---
-        if(Super.IsPathCorrect()){
-            if(!Super.IsUsingLocale()){
-                /// Path is correct and using Locale
-                outButtons.push({
-                    "ONCLICK": "_cms.OnClickSidebarBtn_DeleteOldColorFiles()",
-                    "TEXT": "Delete Old Files"
-                });
-            }
-        }
-        
 
         return outButtons;
     },

@@ -1,11 +1,21 @@
 {
+    "TitleBar": {
+        "ID": "App_TitleBar"
+        , "CONTENT": "<div id=\"App_TitleText\">{TITLE}</div><div id=\"App_TitleButtons\">{WINDOW_BUTTONS}</div>"
+        , "Settings": {
+            "bUseButton_Minimize": true
+            , "bUseButton_Maximize": true
+            , "bUseButton_Close": true
+        }
+    },
     "Header": {
-        "ID": "app_Header",
-        "CONTENT": "<div id=\"notifyArea\"></div><div id=\"app_HeaderLoc\" class=\"left\"></div><div id=\"app_HeaderApps\" class=\"center\"></div><div class=\"right\"></img><img src=\"img/refresh.png\" onclick=\"location.reload();\" title=\"Reload (F5)\"></img></div>"
+        "ID": "App_Header"
+        , "CONTENT": ""
+        , "CONTENT_OLD": "<div id=\"notifyArea\"></div><div id=\"app_HeaderLoc\" class=\"left\"></div><div id=\"app_HeaderApps\" class=\"center\"></div><div class=\"right\"></img><img src=\"img/refresh.png\" onclick=\"location.reload();\" title=\"Reload (F5)\"></img></div>"
         , "OLD": "<img src=\"img/settings.png\" onclick=\"wzWND('Settings').refresh();\" title=\"Settings (F6)\">"
     },
     "Nav": {
-        "ID": "app_Nav",
+        "ID": "App_Navigation",
         "CONTENT": "myNav",
         "Items":{
             "News":{
@@ -31,15 +41,15 @@
         }
     },
     "Content": {
-        "ID": "app_Content",
+        "ID": "App_Content",
         "CONTENT": "myBody"
     },
     "SideBar": {
-        "ID": "app_SideBar",
+        "ID": "App_SideBar",
         "CONTENT": "mySideBar"
     },
     "Footer": {
-        "ID": "app_Footer",
+        "ID": "App_Footer",
         "hasConsole": true,
         "tpl": {
             "console": "<div id=\"footerConsole\"><div class=\"header\"></div></div>",

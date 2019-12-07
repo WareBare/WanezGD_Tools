@@ -1,0 +1,174 @@
+# Achievement Groups
+
+achGDX2Group1=Forgotten Gods
+
+# Achievements
+
+achGDX201Title=Faraway Lands
+achGDX201Desc=Enter the Emissary's portal to the land of the Korvan people.
+
+achGDX202Title=Pledging Loyalty
+achGDX202Desc=Side with one of the Witch God Cults.
+
+achGDX203Title=The Master of Necromancy
+achGDX203Desc=Learn Uroboruuk's Fate.
+
+achGDX204Title=Rahn's Secrets
+achGDX204Desc=Discover the secrets of Rahn.
+
+achGDX205Title=Byscilla's Schemes
+achGDX205Desc=Bind the Spawn of Ateph to Byscilla's will.
+
+achGDX206Title=A Select Future
+achGDX206Desc=Deal with the Mind Reaper.
+
+achGDX207Title=A Heart for Solael
+achGDX207Desc=Offer the Heart of Onarix to Solael.
+
+achGDX208Title=Juggernaut
+achGDX208Desc=Charge through 15 foes in a row using a Rush-type skill (ex. Vire's Might).
+
+achGDX209Title=The Gryphon Sovereign
+achGDX209Desc=Slay Azaleon, the Gryphon Sovereign at the Sunward Spire.
+
+achGDX210Title=Sovereign Skies
+achGDX210Desc=Slay Azaleon, the Gryphon Sovereign at the Sunward Spire on Ultimate Difficulty.
+
+achGDX211Title=Crag Hunter
+achGDX211Desc=Slay Grimmaw, the Packhound Alpha in the Basalt Crags.
+
+achGDX212Title=Hound Tracker
+achGDX212Desc=Slay Grimmaw, the Packhound Alpha in the Basalt Crags on Ultimate Difficulty.
+
+achGDX213Title=Korvan Rex
+achGDX213Desc=Slay the Korvan Titanovore in the Korvan Sands.
+
+achGDX214Title=Jurassic Hunt
+achGDX214Desc=Slay the Korvan Titanovore in the Korvan Sands on Ultimate Difficulty.
+
+achGDX215Title=Scion No More
+achGDX215Desc=Slay Kaisan, the Eldritch Scion.
+
+achGDX216Title=Nemesis of the Scion
+achGDX216Desc=Slay Kaisan, the Eldritch Scion on Ultimate Difficulty.
+
+achGDX217Title=Killing the Messenger
+achGDX217Desc=Silence Okaloth, the Messenger.
+
+achGDX218Title=End of Messages
+achGDX218Desc=Silence Okaloth, the Messenger on Ultimate Difficulty.
+
+achGDX219Title=Betrayer of Humanity
+achGDX219Desc=Slay Father Kymon in the Tomb of the Eldritch Sun.
+
+achGDX220Title=Silencing the Prophet
+achGDX220Desc=Slay Father Kymon in the Tomb of the Eldritch Sun on Ultimate Difficulty.
+
+achGDX221Title=Godslayer
+achGDX221Desc=Slay Korvaak, the Eldritch Sun in the Throne of the Three.
+
+achGDX222Title=Forever Forgotten
+achGDX222Desc=Slay Korvaak, the Eldritch Sun in the Throne of the Three on Ultimate Difficulty.
+
+achGDX223Title=Squelching the Scion
+achGDX223Desc=Summon and defeat Callagadra, Scion of the Sands
+
+achGDX224Title=Oh, the Web We Weave
+achGDX224Desc=Reach Revered reputation with the Cult of Bysmiel.
+
+achGDX225Title=Infinite Gaze
+achGDX225Desc=Reach Revered reputation with the Cult of Dreeg.
+
+achGDX226Title=Ultimate Sacrifice
+achGDX226Desc=Reach Revered reputation with the Cult of Solael.
+
+achGDX227Title=Exalted Champion
+achGDX227Desc=Become Revered with 12 Factions.
+
+achGDX228Title=Korvan Defender
+achGDX228Desc=Complete Forgotten Gods.
+
+achGDX229Title=Korvan Champion
+achGDX229Desc=Complete Forgotten Gods on Elite Difficulty.
+
+achGDX230Title=Celestial Conqueror
+achGDX230Desc=Complete Forgotten Gods on Ultimate Difficulty.
+
+achGDX231Title=Immortal Celestial Conqueror
+achGDX231Desc=Complete Forgotten Gods on Ultimate Difficulty in Hardcore Mode.
+
+achGDX232Title=Korvan Slayer
+achGDX232Desc=Eradicate 2500 Heroic Monsters (marked by a Star).
+
+achGDX233Title=Like Sand in a Desert
+achGDX233Desc=Rid Cairn of 250000 Monsters.
+
+achGDX234Title=Korvan Devotion
+achGDX234Desc=Restore 60 Devotion Shrines.
+
+achGDX235Title=Korvan Explorer
+achGDX235Desc=Open 30 One-Shot Chests.
+
+achGDX236Title=Korvan Loremaster
+achGDX236Desc=Collect 85 Lore Notes.
+
+achGDX237Title=Enter the Shattered Realm
+achGDX237Desc=Conquer the 5th Shard of the Shattered Realm.
+
+achGDX238Title=Braving the Shattered Realm
+achGDX238Desc=Conquer the 5th Shard of the Shattered Realm on Ultimate Difficulty.
+
+achGDX239Title=Shattered Explorer
+achGDX239Desc=Conquer the 15th Shard of the Shattered Realm.
+
+achGDX240Title=Shattered Pathfinder
+achGDX240Desc=Conquer the 15th Shard of the Shattered Realm on Ultimate Difficulty.
+
+achGDX241Title=Shattered Conqueror
+achGDX241Desc=Conquer the 25th Shard of the Shattered Realm.
+
+achGDX242Title=Shattered Vanquisher
+achGDX242Desc=Conquer the 25th Shard of the Shattered Realm on Ultimate Difficulty.
+
+achGDX243Title=Immortal Shattered Vanquisher
+achGDX243Desc=Conquer the 25th Shard of the Shattered Realm on Ultimate Difficulty in Hardcore Mode.
+
+achGDX244Title=Soul Diet
+achGDX244Desc=Absorb 50 Shattered Souls in the Shattered Realm.
+
+achGDX245Title=Feast of Souls
+achGDX245Desc=Absorb 300 Shattered Souls in the Shattered Realm.
+
+achGDX246Title=Souls Supreme
+achGDX246Desc=Absorb 8 stacks of Essence of the Shattered Realm in the Shattered Realm.
+
+achGDX247Title=Shattered Bargain
+achGDX247Desc=Gain the effects of one of the Shattered Realm's shrines.
+
+achGDX248Title=A Done Deal
+achGDX248Desc=Gain the effects of all five of the Shattered Realm's shrines.
+
+achGDX249Title=Hungering Darkness
+achGDX249Desc=Survive the Hungering Darkness in the Tomb of the Heretic.
+
+achGDX250Title=Banish the Night
+achGDX250Desc=Slay Grand Magus Morgoneth in the Tomb of the Heretic.
+
+achGDX251Title=A Light in the Dark
+achGDX251Desc=Slay Grand Magus Morgoneth in the Tomb of the Heretic on Ultimate Difficulty.
+
+achGDX252Title=Immortal Light in the Dark
+achGDX252Desc=Slay Grand Magus Morgoneth in the Tomb of the Heretic on Hardcore Mode.
+
+achGDX253Title=Bargain Help
+achGDX253Desc=Slay 5 Associates of Riggs in a single journey.
+
+achGDX254Title=Settled Debt
+achGDX254Desc=Settle your debt with Riggs.
+
+achGDX255Title=The Seven Magi
+achGDX255Desc=Slay all seven of the Korvan Magi in the Tomb of the Heretic.
+
+
+
+

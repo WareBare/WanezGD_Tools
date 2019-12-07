@@ -1,0 +1,1300 @@
+#CreatureAllSurvivors
+
+tagSurvivorGuardGenericRangedA01=Survivor ~ Scout
+tagSurvivorGuardGenericRangedB01=Survivor ~ Skirmisher
+tagSurvivorGuardGenericMeleeA01=Survivor ~ Defender
+tagSurvivorGuardGenericMeleeB01=Survivor ~ Guardian
+
+tagHumanRover_GuardGeneric_MeleeA01=Rover Protector
+
+tagBlackLegion_GuardMeleeA01=Black Legion ~ Footman
+tagBlackLegion_GuardRangedA01=Black Legion ~ Marksman
+
+tagBlackLegion_MeleeA01=Black Legion ~ Myrmidon
+tagBlackLegion_MeleeB01=Black Legion ~ Vanguard
+tagBlackLegion_RangedA01=Black Legion ~ Deathmark
+tagBlackLegion_CasterB01=Black Legion ~ Battlemage
+tagBlackLegion_CasterB02=Black Legion ~ Combat Medic
+tagBlackLegion_ChampionC01=Black Legion ~ Captain
+
+tagNecromancer_CasterA01=Death's Vigil ~ Neophyte
+tagNecromancer_MeleeA01=Death's Vigil ~ Neophyte
+tagNecromancer_CasterB01=Death's Vigil ~ Acolyte
+tagNecromancer_ChampionC01=Death's Vigil ~ Dreadlord
+tagNecromancerH01=Urokoraa, Speaker for the Dead
+tagNecromancerH02=Nokultaak, the Reaper
+tagNecromancerH03=Naakala ~ Regenerator
+tagNecromancerH04=Misonaak ~ Shielded
+tagNecromancer_Boss01=Master Ravok, the Death's Whisper
+tagNecromancer_Boss02=Malkadarr, Champion of Death's Vigil
+
+tagZealot_MeleeA01=Kymon's Chosen ~ Zealot
+tagZealot_RangedA01=Kymon's Chosen ~ Zealot
+tagZealot_CasterB01=Kymon's Chosen ~ Stormbearer
+tagZealot_ChampionC01=Kymon's Chosen ~ Blade Maiden
+tagZealotH01=Sister Oseltia, the Storm Maiden
+tagZealotH02=Brother Baldris, Charge of Empyrion
+tagZealotH03=Sister Thandria ~ Defender
+tagZealotH04=Brother Handrick ~ Burning
+tagZealot_Boss01=Sister Bravna, the Skybreaker
+tagZealot_Boss02=Sharanatu, Harbinger of the Void
+tagZealot_AncestralSpirit=Archon Barthollem
+
+#CreatureAetherial
+
+tagAetherCrystalA01=Aether Crystal
+tagAetherCrystalA02=Aether Crystal Cluster
+tagAetherCrystalA03=Aether Crystal Formation
+tagAnomalyB01=Warp Elemental
+tagWindDevil_PoisonA01=Poison Wind Devil
+tagAetherObeliskA01=Aetherial Obelisk
+tagAetherObeliskB01=Aetherial Terraformer
+
+tagBossAetherObelisk01=Herald of the Flame
+tagBossAetherObelisk02=Herald of Destruction
+tagBossAetherObelisk03=Herald of the Stars
+
+tagEnemyAetherialA01=Aetherial Watcher
+tagEnemyAetherialB01=Aetherial Wraith
+tagEnemyAetherialC01=Aetherial Spectre
+
+tagAetherialHeroH01=Azar, the Wrathful
+tagAetherialHeroH02=Mondrak, the Everburning
+tagAetherialHeroH03=Intesius
+
+tagEnemyAetherialAbominationB01=Aetherial Abomination
+tagEnemyAetherialAbominationC01=Fused Terror
+
+tagAetherialAbominationBoss01=The Amalgamation
+tagAetherialCommanderBoss01=Commander Lucius
+
+#CreatureBoar
+
+tagEnemyBoarA01=Stonetusk
+tagEnemyBoarA02=Gargantuan Stonetusk
+tagEnemyBoarB01=Ironhide Stonetusk
+
+tagEnemyBoarFrost_A01=Chilltusk
+tagEnemyBoarFrost_A02=Gargantuan Chilltusk
+tagEnemyBoarFrost_B01=Frosthide Chilltusk
+
+tagBoarHeroH01=Dreadtusk, the Hunter's Bane
+tagBoarHeroH02=Ragesnout ~ Swift
+tagBoarHeroH03=Hellmane ~ Burning
+tagBoarHeroH04=Rotmane ~ Diseased
+tagBoarHeroH05=Aetherean ~ Corrupted
+tagBoarHeroH06=Riftsnout ~ Voidtouched
+tagBoarFrostHeroH01=Mutallor ~ Regenerator
+tagBoarFrostHeroH02=Stonemane ~ Defender
+
+
+#CreatureBoneRat
+
+tagEnemyBoneRatMeleeA01=Boneback Gnasher
+tagEnemyBoneRatRangedA01=Boneback
+
+tagEnemyBoneRatMeleeB01=Rabid Boneback
+tagEnemyBoneRatMeleeB02=Boneback Plaguebearer
+
+tagEnemyBoneratWitchGodA01=Frenzied Plaguebeast
+tagEnemyBoneratWitchGodA02=Rotting Plaguebeast
+
+tagEnemyBoneRatMeleeB02_Summon=Halion's Wittle Rat
+
+tagBoneRatHeroH01=Maledictus
+tagBoneRatHeroH02=Razorback
+tagBoneRatHeroH03=Rotbite ~ Diseased
+tagBoneRatHeroH04=Bilewart ~ Swift
+tagBoneRatHeroH05=Rimeclaw ~ Frozen
+tagBoneRatHeroH06=Wrathclaw ~ Corrupted
+
+tagBoneRatMiniBoss01=Grundleplith the Hoarder
+tagBoneRatMiniBoss02=Pusquill the Hoarder
+
+#CreatureChthonian
+
+tagEnemyChthonianAbomination=Chthonian Unraveler
+
+tagEnemyChthonianMinionA01=Chthonian Harbinger
+tagEnemyChthonianMinionB01=Chthonian Bloodletter
+tagEnemyChthonianMinionC01=Chthonian Blightbringer
+
+tagChthonianMinionHeroH01=Charn'Daroth
+tagChthonianMinionHeroH02=Elnar'Daroth
+tagChthonianMinionHeroH03=Fos'Daroth
+tagChthonianMinionHeroH04=Ordran'Daroth
+tagChthonianMinionHeroH05=Pulv'Daroth
+tagChthonianMinionHeroH06=Maga'Lugal ~ Defender
+tagChthonianMinionHeroH07=Shar'Luthol ~ Shielded
+
+tagEnemyChthonianDreadguardA01=Chthonian Vanguard
+tagEnemyChthonianDreadguardB01=Chthonian Dreadguard
+tagEnemyChthonianDreadguardB01Logghorrean=Loghorrean's Dreadguard
+tagEnemyChthonianDreadguardC01=Chthonian Tyrant
+tagEnemyChthonianDreadguardC01Logghorrean=Loghorrean's Tyrant
+tagEnemyChthonianDreadguardD01=Loghorrean's Vanguard
+
+tagChthonianDreadguardHeroH01=Shar'Oruuth
+tagChthonianDreadguardHeroH02=Wen'Kazul, the Hungering Blade
+tagChthonianDreadguardHeroH03=Zalyth'Uthax ~ Electrified
+tagChthonianDreadguardHeroH04=Jugak'Siin ~ Reflective
+tagChthonianDreadguardHeroH05=Sarmaz'Din ~ Frozen
+
+tagEnemyChthonianLeechA01=Void Parasite
+tagEnemyChthonianLeechB01=Void Leech
+tagEnemyChthonianLeechB02=Void Souldrinker
+
+tagChthonianLeechHeroH01=Vom'Anatu
+tagChthonianLeechHeroH02=Gawtok'Anatu
+tagChthonianLeechHeroH03=Ekket'Anatu
+tagChthonianLeechHeroH04=Orudin'Anatu ~ Diseased
+tagChthonianLeechHeroH05=Yakwa'Anatu ~ Unstoppable
+
+tagChthonianBoss01=Lagoth'Ak, Harbinger of Blood
+tagChthonianBoss02=Shar'Zul, Harbinger of Chaos
+tagChthonianBoss03=Bane'Galgalor, Guardian of the Gates
+tagChthonianBoss04=Balok'Anatu, Bloodfiend
+tagChthonianBoss05=Galar'Bargok, the Black Fiend
+tagChthonianBoss06=Harak'Bargoth, Guardian of the Bastion
+tagChthonianBoss07=Zal'Naroth, Guardian of the Bastion
+
+#CreatureChthonianFiend
+
+tagEnemyVoidFiendA01=Voidfiend
+tagEnemyVoidFiendA02=Voidfiend Incinerator
+tagEnemyVoidFiendC01=Voidfiend Hellion
+
+tagVoidFiendHeroH01=Innugaru, Terror of the Void
+tagVoidFiendHeroH02=Hiln'Raz, the Dark Omen
+tagVoidFiendHeroH03=Sen'Thel Voidbringer
+tagVoidFiendHeroH04=Nii'Thel ~ Bruiser
+tagVoidFiendHeroH05=Gurgoth'Siin ~ Burning
+
+tagVoidFiendBoss01=Ballog'Nath, the Hellfire
+
+
+#CreatureChthonianDevourer
+
+tagEnemyChthonianDevourerA00=Chthonian Swarmer
+tagEnemyChthonianDevourerA01=Chthonian Hungerer
+tagEnemyChthonianDevourerB01=Chthonian Devourer
+tagEnemyChthonianDevourerB02=Chthonian Gorger
+
+tagChthonianDevourerHeroH01=Nur'Garu, Jaws of Oblivion
+tagChthonianDevourerHeroH02=Sargo'Din, the Hungering Maw
+tagChthonianDevourerHeroH03=Narl'Maash, the Engorged
+tagChthonianDevourerHeroH04=Nye'Kazul, the Maw of Fire
+tagChthonianDevourerHeroH05=Waban'Ak, the Sparkmaw
+
+tagChthonianDevourerBossB01=Rag'Nadar, the Great Maw
+
+
+#CreatureDranghoul
+
+tagEnemyDrangoulWarriorA01=Dranghoul Enforcer
+tagEnemyDrangoulWarriorB01=Dranghoul Tyrant
+
+tagDranghoulMiniBoss01=Gutworm, the Maneater
+tagDranghoulMiniBoss02=Bloodfeast the Ruthless
+
+tagDranghoulHeroH01=Ralture, the Untouchable
+tagDranghoulHeroH02=Rugaru, the Houndmaster
+tagDranghoulHeroH03=Ooglar ~ Unstoppable
+tagDranghoulHeroH04=Reeve ~ Burning
+tagDranghoulHeroH05=Wovaar ~ Frozen
+tagDranghoulHeroH06=Ravadaar ~ Corrupted
+tagDranghoulHeroH07=Vinaldaar ~ Voidtouched
+
+#CreatureFleshHulk
+
+tagEnemyFleshHulkA01=Flesh Hulk
+tagEnemyFleshHulkB01=Ironside Hulk
+tagEnemyFleshHulkC01=Rage Hulk
+
+tagFleshHulkHeroH01=Bonebreaker
+tagFleshHulkHeroH02=Faldonir Aetherborn
+tagFleshHulkHeroH03=Malnotris ~ Unstoppable
+tagFleshHulkHeroH04=Festerlis ~ Bruiser
+
+tagEnemyFleshHulkBoss01=Venarius, the Backbreaker
+
+#CreatureGazer
+
+tagEnemyGazerA01=Corruption
+tagEnemyGazerB01=Overseer
+tagEnemyGazerC01=Overmind
+tagEnemyGazerD01=Mindrager
+
+tagGazerHeroH01=Mesmer
+tagGazerHeroH02=Bane'Zal, the Hellborn
+tagGazerHeroH03=Darlax, Devourer of Dreams
+tagGazerHeroH04=Beholdan ~ Reflective
+tagGazerHeroH05=Garminix ~ Regenerator
+tagGazerHeroH06=Illumin ~ Electrified
+
+#CreatureGhost
+
+tagEnemyGhostA01=Apparition
+tagEnemyGhostB01=Haunted Noble
+tagEnemyGhostB02=Haunted Champion
+
+tagHeroGhostH01=Valavan, the Wandering Soul
+tagHeroGhostH02=Ballan Voros ~ Reflective
+tagHeroGhostH03=Rosena Malgos ~ Regenerator
+tagHeroGhostH04=Stormshriek ~ Electrified
+tagHeroGhostH05=Oldrakan Pald ~ Swift
+tagHeroGhostH06=Aetherwraith ~ Corrupted
+
+tagGhostBoss01=Baros Wradlith, Lord of the Lost Souls
+tagGhostBoss02=Nomos Dred
+tagGhostBoss03=Laudos Vagra
+tagGhostBoss04=Rhovena Kur
+tagGhostBoss05=Alkamos, Lord Executioner
+tagGhostBoss06=Wraith of Sorrows
+
+#Ghoul
+
+tagEnemyGhoulA01=Ghoul
+tagEnemyGhoulB01=Ghoul Corpse-eater
+tagEnemyGhoulB02=Ghoul Blood-drinker
+tagEnemyGhoulC01=Ghoul Necrolyte
+
+tagEnemyGhoulH01=Necrolask
+tagEnemyGhoulH02=Rot-Eye
+tagEnemyGhoulH03=Corpselick
+tagEnemyGhoulH04=Corpran ~ Corrupted
+tagEnemyGhoulH05=Vilnius ~ Voidtouched
+tagEnemyGhoulH06=Hungral ~ Electrified
+tagEnemyGhoulH07=Leperus ~ Burning
+
+tagGhoulBoss01=Nacrathan, the Timeless
+tagGhoulBoss02=Plagius, the Decrepit
+tagGhoulBoss03=Harvoul, the Earthshaker
+
+
+#CreatureGolem
+
+tagEnemyGolemRockA01=Earthen Shambler
+tagEnemyGolemRockB01=Mossy Shambler
+tagEnemyGolemRockC01=Stonewrought  Shambler
+tagEnemyGolemRockMiniBoss01=Ancient Shambler
+
+tagGolemRockHeroH01=Hammerton
+tagGolemRockHeroH02=Haldras Flamespitter
+tagGolemRockHeroH03=Stoneheart ~ Reflective
+tagGolemRockHeroH04=Stonegrinder ~ Charger
+tagGolemRockHeroH05=Rimestone ~ Frozen
+tagGolemRockHeroH06=Voidstone ~ Voidtouched
+
+#CreatureGrobles
+
+tagEnemySnakeClanScavengerA01=Groble ~ Snake Clan Scavenger
+tagEnemySnakeClanRangedA01=Groble ~ Snake Clan Tracker
+tagEnemySnakeClanWarriorA01=Groble ~ Snake Clan Warrior
+tagEnemySnakeClanWarriorB01=Groble ~ Snake Clan Champion
+
+tagEnemySnakeClanShamanA01=Groble ~ Snake Clan Witchdoctor
+tagEnemySnakeClanShamanB01=Groble ~ Snake Clan Venomancer
+
+tagEnemySkyClanScavengerA01=Groble ~ Sky Clan Scavenger
+tagEnemySkyClanRangedA01=Groble ~ Sky Clan Tracker
+tagEnemySkyClanWarriorA01=Groble ~ Sky Clan Warrior
+tagEnemySkyClanWarriorB01=Groble ~ Sky Clan Champion
+
+tagEnemySkyClanShamanA01=Groble ~ Sky Clan Witchdoctor
+tagEnemySkyClanShamanB01=Groble ~ Sky Clan Stormcaller
+
+tagEnemyStoneClanScavengerA01=Groble ~ Stone Clan Scavenger
+tagEnemyStoneClanRangedA01=Groble ~ Stone Clan Tracker
+tagEnemyStoneClanWarriorA01=Groble ~ Stone Clan Warrior
+tagEnemyStoneClanWarriorB01=Groble ~ Stone Clan Champion
+
+tagEnemyStoneClanShamanA01=Groble ~ Stone Clan Witchdoctor
+tagEnemyStoneClanShamanB01=Groble ~ Stone Clan Geomancer
+
+tagEnemyEmberClanScavengerA01=Groble ~ Ember Clan Scavenger
+tagEnemyEmberClanRangedA01=Groble ~ Ember Clan Tracker
+tagEnemyEmberClanRangedB01=Groble ~ Ember Clan Huntmaster
+tagEnemyEmberClanWarriorA01=Groble ~ Ember Clan Warrior
+tagEnemyEmberClanWarriorB01=Groble ~ Ember Clan Champion
+
+tagEnemyEmberClanShamanA01=Groble ~ Ember Clan Witchdoctor
+tagEnemyEmberClanShamanB01=Groble ~ Ember Clan Pyromancer
+
+tagEnemyDeathClanScavengerA01=Groble ~ Death Clan Scavenger
+tagEnemyDeathClanRangedA01=Groble ~ Death Clan Tracker
+tagEnemyDeathClanWarriorA01=Groble ~ Death Clan Warrior
+tagEnemyDeathClanWarriorB01=Groble ~ Death Clan Champion
+
+tagEnemyDeathClanShamanA01=Groble ~ Death Clan Witchdoctor
+tagEnemyDeathClanShamanB01=Groble ~ Death Clan Bonecaster
+
+tagGrobleShamanHeroH01=Deshigu Chillbane
+tagGrobleShamanHeroH02=Nabinok
+tagGrobleShamanHeroH03=Nirlamnack ~ Reflective
+tagGrobleHeroH01=Torgru, the Flametouched
+tagGrobleHeroH02=Arbagol, the Shank
+tagGrobleHeroH03=Uldagu Flame-Eater
+tagGrobleHeroH04=Molbagdal Stormcaller
+tagGrobleHeroH05=Holborack ~ Defender
+tagGrobleHeroH06=Pukesnot the Unwashed
+
+tagGrobleBoss01=Narbalgal, the Stormseeker
+
+#Harpy
+
+tagEnemyHarpyA01=Harpy Flesh Ripper
+tagEnemyHarpyB01=Harpy Death Wind
+tagEnemyHarpyC01=Harpy Accursed Oracle
+
+tagHarpyHeroH01=Malexna, the Stormweaver
+tagHarpyHeroH02=Blazewing
+tagHarpyHeroH03=Tyrronax, the Great Watcher
+tagHarpyHeroH04=Scyliss, the Stormtouched ~ Electrified
+tagHarpyHeroH05=Holdrexna, the Windwalker ~ Swift
+tagHarpyHeroH06=Wrathwing ~ Corrupted
+
+tagHarpyBossB01=Lutra the Abandoned
+
+#CreatureHarvestman
+
+tagEnemyHarvestmanA01=Haunted Scarecrow
+tagEnemyHarvestmanB01=Haunted Harvester
+
+tagHarvestmanHeroH01=Nemedian, the Reaper
+tagHarvestmanHeroH02=Effigus, the Infested
+tagHarvestmanHeroH03=Asper ~ Swift
+tagHarvestmanHeroH04=Crowfiend ~ Bruiser
+
+
+#Hellhound
+
+tagEnemyHellhoundA01=Hellhound
+
+tagEnemyHellHoundWitchGodA01=Eldritch Mongrel
+tagEnemyHellHoundWitchGodA02=Eldritch Stormchaser
+
+
+
+#CreatureHuman
+
+tagEnemyBloodswornA01=Bloodsworn Adulant
+tagEnemyBloodswornB01=Bloodsworn Zealot
+tagEnemyBloodswornB02=Bloodsworn Summoner
+tagEnemyBloodswornB03=Bloodsworn Void-Caller
+tagEnemyBloodswornC01=Bloodsworn Priest
+tagEnemyBloodswornC02=Bloodsworn Doomsayer
+
+
+tagHumanCultistHeroH01=Julius Crowley, the Mindbender
+tagHumanCultistHeroH02=Lucius Bloodboil
+tagHumanCultistHeroH03=Nathalian, the Houndcaller
+tagHumanCultistHeroH04=Ignacius ~ Burning
+tagHumanCultistHeroH05=Balvadar the Bloodthirsty ~ Regenerator
+tagEnemyBloodswornMiniBoss01=Salazar, Blade of Ch'thon
+tagEnemyBloodswornMiniBoss02=Bolvar, the Bloodbinder
+tagEnemyBloodswornMiniBoss03=Zaria, the Carver
+tagBloodswornBoss01=Bloodlord Thalonis
+tagBloodswornBoss02=Karroz, Sigil of Ch'thon
+
+tagEnemyHumanOutlaw_Wightmire_MeleeA01=Convict ~ Lackey
+tagEnemyHumanOutlaw_Wightmire_MeleeB01=Convict ~ Thug
+tagEnemyHumanOutlaw_Wightmire_MeleeB02=Convict ~ Brute
+tagEnemyHumanOutlaw_Wightmire_MeleeB03=Convict ~ Sadist
+tagEnemyHumanOutlaw_Wightmire_RangedA01=Convict ~ Gunman
+tagEnemyHumanOutlaw_Wightmire_RangedB01=Convict ~ Skirmisher
+
+tagEnemyHumanOutlaw_MeleeA01=Cronley's Gang ~ Lackey
+tagEnemyHumanOutlaw_MeleeB01=Cronley's Gang ~ Thug
+tagEnemyHumanOutlaw_MeleeB02=Cronley's Gang ~ Brute
+tagEnemyHumanOutlaw_MeleeB03=Cronley's Gang ~ Sadist
+tagEnemyHumanOutlaw_RangedA01=Cronley's Gang ~ Gunman
+tagEnemyHumanOutlaw_RangedB01=Cronley's Gang ~ Skirmisher
+tagEnemyHumanOutlaw_ArsonistC01=Cronley's Gang ~ Arsonist
+tagEnemyHumanOutlaw_MurdererC01=Cronley's Gang ~ Murderer
+tagEnemyHumanOutlaw_HereticC01=Cronley's Gang ~ Heretic
+
+tagEnemyHumanOutlaw_AetherA01=Cronley's Gang ~ Chosen
+tagEnemyHumanOutlaw_AetherA02=Cronley's Gang ~ Chosen
+tagEnemyHumanOutlaw_AetherB01=Cronley's Gang ~ Destined
+tagEnemyHumanOutlaw_AetherB02=Cronley's Gang ~ Champion
+tagEnemyHumanOutlaw_AetherC01=Cronley's Gang ~ Ascended
+
+tagHumanOutlawLeader01=Darius Cronley
+tagHumanOutlawMiniBoss01=Edmund "Shanks" Doyle
+tagHumanOutlawMiniBoss02=Silas "The Skinner"
+tagHumanOutlawMiniBoss03=Dravko "The Torch"
+tagHumanOutlawMiniBoss04="Madman" Wilcox
+tagHumanOutlawMiniBoss05=Sleyvak "The Breaker"
+tagHumanOutlawMiniBoss06="Boomer" Slocum
+tagHumanOutlawMiniBoss07=Ashe "The Wall" Farrell
+tagHumanOutlawMiniBoss08=Nicholas Balthazar
+
+tagHumanOutlawHeroH01=Leander "Blackwater" Greene
+tagHumanHeroH01=Bloody Jack
+tagHumanHeroH02=Delnar Black Eye
+tagHumanHeroH03=Hudson Fury
+tagHumanHeroH04=Nadra, the Shadow
+tagHumanHeroH05=Serul Shadesong
+tagHumanHeroH06=Wiley, the Slasher ~ Swift
+tagHumanHeroH07=Everett, the Bloodbound ~ Burning
+tagHumanHeroH08=Dred One-Eye
+tagHumanHeroH09=Meric Aether-Touched ~ Charger
+tagHumanHeroH10=Eldon "Snakeskin" ~ Regenerator
+tagHumanHeroH11=Roman, the Blade Dancer
+
+tagHumanBoss01="Moneybags" Martin
+tagHumanBoss02=Halion "The Rat"
+tagHumanBoss03=Nicholas Balthazar
+tagHumanBoss04=Boris, Master of the Pit
+
+tagHumanRoverA_A01=Rover
+tagHumanRoverA_B01=Rover Scout
+tagHumanRoverA_C01=Rover Protector
+
+#CreatureHumanPossessed
+
+tagHumanPossessedA01=Possessed Apprentice
+tagHumanPossessedA02=Possessed Arcanist
+tagHumanPossessedB01=Possessed Elementalist
+tagHumanPossessedC01=Possessed Archmage
+
+tagHumanPossessedHeroH01=Allara Starfire
+tagHumanPossessedHeroH02=Aetherblaze
+tagHumanPossessedHeroH03=Kamladris, the Rimeheart
+tagHumanPossessedHeroH04=Corpusia ~ Reflective
+tagHumanPossessedHeroH05=Espiria ~ Supporter
+
+tagHumanPossessedHeroH06=Loxmere Nightmage
+tagHumanPossessedBoss01=Noveria Stormfire
+tagHumanPossessedBoss02=Archivist Thelon
+tagHumanPossessedBoss03=Usterius Avelone
+
+#CreatureInsectDermapteran
+
+tagEnemyDermapteranA01=Dermapteran Weavil
+tagEnemyDermapteranB01=Dermapteran Sentinel
+tagEnemyDermapteranB02=Dermapteran Reaver
+tagEnemyDermapteranC01=Dermapteran Vizier
+tagEnemyDermapteranC02=Dermapteran Progenitor
+
+tagEnemySummonWeavilA01=Infestor
+
+tagDermapteranHeroH01=Harpallax, the Suneater
+tagDermapteranHeroH02=Corrosinax
+tagDermapteranHeroH03=Wasparex ~ Swift
+tagDermapteranHeroH04=Olmarix ~ Electrified
+tagDermapteranHeroH05=Vildrix ~ Voidtouched
+
+tagDermapteranBoss01=Grand Vizier Lozakal
+tagDermapteranBoss02=Grand Vizier Inixil
+tagDermapteranBoss03=Swarm Queen Ravna
+tagDermapteranBoss04=Hive Guard Anoxis, the Tainted
+tagDermapteranBoss05=Rashalga, the Mad Queen
+
+#CreatureInsectMosquito
+tagEnemyInsectMosquitoA01=Mireborn Bloodgorger
+tagEnemyInsectMosquitoB01=Mireborn Bloodfiend
+tagEnemyInsectMosquitoC01=Mireborn Matriarch
+tagEnemyInsectMosquitoA02=Festerborn Bloodgorger
+tagEnemyInsectMosquitoB02=Festerborn Bloodfiend
+tagEnemyInsectMosquitoC02=Festerborn Matriarch
+
+tagInsectMosquitoHeroH01=Vladox, the Bloodletter
+tagInsectMosquitoHeroH02=Sarlap ~ Electrified
+tagInsectMosquitoHeroH03=Jornax, the Voracious ~ Swift
+tagInsectMosquitoHeroH04=Narlax ~ Corrupted
+tagInsectMosquitoHeroH05=Oorlax ~ Voidtouched
+
+#CreatureInsectWasp
+
+tagEnemyInsectWaspA01=Venomwing Drone
+tagEnemyInsectWaspB01=Venomwing Stinger
+tagEnemyInsectWaspC01=Venomwing Queen
+
+tagInsectWaspHeroH01=Scarprax, the Frenzied
+tagInsectWaspHeroH02=Caraprax ~ Defender
+tagInsectWaspHeroH03=Harprax, the Queen's Will ~ Supporter
+tagInsectWaspHeroH04=Ralkara ~ Regenerator
+tagInsectWaspHeroH05=Folcrax ~ Frozen
+tagInsectWaspHeroH06=Walacrax ~ Corrupted
+tagInsectWaspHeroH07=Ooldacrax ~ Voidtouched
+
+tagInsectWaspBoss01=Ulraprax, the Hive Matriarch
+tagInsectWaspBoss02=Ronaprax, the Grand Queen
+
+#CreatureInsectSwarm
+
+tagEnemyInsectSwarmA01=Devouring Swarm
+tagEnemyInsectSwarmB01=Pestilent Swarm
+
+tagEnemyInsectSwarm_PossessedA01=Possessed Swarm
+
+tagInsectSwarmHeroH01=Issk, the Hive Mind
+tagInsectSwarmHeroH02=Avarix ~ Electrified
+tagInsectSwarmHeroH03=Omnol, the Blight ~ Diseased
+
+#CreatureManticores
+
+tagEnemyManticoreA01=Manticore Whitemane
+tagEnemyManticoreA02=Manticore Blackmane
+tagEnemyManticoreB01=Manticore Wastestalker
+tagEnemyManticoreB02=Manticore Nightstalker
+tagEnemyManticoreC01=Manticore Alpha
+
+tagEnemyManticoreAetherA01=Fleshwarped Manticore
+tagEnemyManticoreAetherB01=Fleshwarped Wastestalker
+tagEnemyManticoreAetherC01=Fleshwarped Aethermane
+
+tagManticoreHeroH01=Raxa, the Jade Huntress
+tagManticoreHeroH02=Neleron, the Eyes of Death
+tagManticoreHeroH03=Ar'kall, the Black Heart
+tagManticoreHeroH04=Uroxis Swiftclaw ~ Swift
+tagManticoreHeroH05=Waroxis Crimsonclaw ~ Bruiser
+tagManticoreHeroH06=Blazara Firemane
+
+tagManticoreBoss01=Mogara, the Prime Matriarch
+
+#CreatureObsidianDefiler
+
+tagEnemyObsidianDefilerA01=Obsidian Shaleborn
+tagEnemyObsidianDefilerB01=Obsidian Defiler
+tagEnemyObsidianDefilerC01=Obsidian Ravager
+tagEnemyObsidianDefilerC02=Obsidian Annihilator
+
+tagObsidianDefilerHeroH01=Obsidius, the Titan
+tagObsidianDefilerHeroH02=Ch'thallis, the Usurper
+tagObsidianDefilerHeroH03=Kelphat'Idoth ~ Electrified
+tagObsidianDefilerHeroH04=Orudin'Idoth ~ Frozen
+tagObsidianDefilerHeroH05=Drygol'Ukog ~ Charger
+
+tagObsidianDefilerBoss01=Bane'Gargoth
+
+#CreaturePrawns
+
+tagEnemyPrawnA01=Scrapheap Rift Scourge
+tagEnemyPrawnA02=Acidbile Rift Scourge
+tagEnemyPrawnB01=Stormscale Rift Scourge
+tagEnemyPrawnB02=Bladespine Rift Scourge
+tagEnemyPrawnC01=Infested Rift Scourge
+tagEnemyPrawnSummonA01=Swarmborn Rift Scourge
+
+tagEnemyCavePrawnA01=Pale Cavern Crawler
+tagEnemyCavePrawnA02=Terrorspark Cavern Crawler
+tagEnemyCavePrawnB01=Albino Cavern Crawler
+tagEnemyCavePrawnC01=Bursting Cavern Crawler
+tagEnemyCavePrawnSummonA01=Swarming Cavern Crawler
+
+tagEnemyPrawnWitchGodA01=Eldritch Swarmer
+tagEnemyPrawnWitchGodA02=Nightmare Crawler
+
+tagPrawnHeroH01=Ravacrix, the Ravenous
+tagPrawnHeroH02=Palacrix, the Ancient
+tagPrawnHeroH03=Velacrix, the Plagueswarm
+tagPrawnHeroH04=Elcrix ~ Electrified
+tagPrawnHeroH05=Flocrix ~ Burning
+
+tagCavePrawnHeroH01=Terrocrix
+tagCavePrawnHeroH02=Chiricrix ~ Frozen
+tagCavePrawnHeroH03=Blucrix ~ Defender
+
+tagCavePrawnBoss01=Ikrix, the Ravener
+
+#CreatureRaptor
+
+tagEnemyRaptorA_JuvenileA01=Carrion Raptor ~ Hatchling
+tagEnemyRaptorA_MeleeA01=Carrion Raptor ~ Hunter
+tagEnemyRaptorA_RangedA01=Carrion Raptor ~ Screecher
+tagEnemyRaptorA_ChampionA01=Carrion Raptor ~ Viper Lord
+
+tagEnemyRaptorB_JuvenileA01=Wind Raptor ~ Juvenile
+tagEnemyRaptorB_MeleeA01=Wind Raptor ~ Stalker
+tagEnemyRaptorB_RangedA01=Wind Raptor ~ Assassin
+tagEnemyRaptorB_ChampionA01=Wind Raptor ~ Sky Lord
+
+tagEnemyRaptorWitchGodA01=Winged Horror
+tagEnemyRaptorWitchGodA02=Eldritch Lifedrinker
+
+tagRaptorHeroH01=Soulrend
+tagRaptorHeroH02=Aragonax, the Spirit Eater
+tagRaptorHeroH03=Baldim, the Chaosbringer
+tagRaptorHeroH04=Bonesnarl ~ Unstoppable
+tagRaptorHeroH05=Idran, the Anomaly ~ Regenerator
+tagRaptorHeroH06=Balra ~ Voidtouched
+
+#CreatureRiftHound
+
+tagEnemyRiftHoundA01=Rifthound
+tagEnemyRiftHoundB01=Rifthound ~ Howler
+tagEnemyRiftHoundC01=Rifthound ~ Azure Matriarch
+tagEnemyRiftHoundA02=Plaguehound
+tagEnemyRiftHoundB02=Plaguehound ~ Roteater
+tagEnemyRiftHoundC02=Plaguehound ~ Alpha
+
+tagEnemyPlanesHoundA01=Planeshound
+tagEnemyPlanesHoundB01=Planeshound ~ Pack Leader
+
+tagEnemyVoidHoundA01=Voidhound
+tagEnemyVoidHoundB01=Voidhound ~ Pack Leader
+
+tagEnemyRiftHoundWitchGodA01=Eldritch Hound
+tagEnemyRiftHoundWitchGodA02=Eldritch Alpha
+
+tagRiftHoundHeroH01=Charrus
+tagRiftHoundHeroH02=Plaguelord
+tagRiftHoundHeroH03=Voidrage
+tagRiftHoundHeroH04=Wolvin, the Inferno
+tagRiftHoundHeroH05=Jarlax, Rage of the Swamp ~ Charger
+tagRiftHoundHeroH06=Garn, the Packhunter ~ Defender
+
+tagBossRifthoundB01=Kalis Ka, the Bonehunter
+
+#CreatureScavenger
+
+tagEnemyScavengerA01=Scavenger
+tagEnemyScavengerB01=Frenzied Scavenger
+tagEnemyScavengerC01=Scavenger Alpha
+
+tagScavengerHeroH01=Scarsnout, the Cannibal
+tagScavengerHeroH02=Bloodclaw
+tagScavengerHeroH03=Whitemane, the Thunderstruck
+tagScavengerHeroH04=Ernol Carrioneater ~ Diseased
+tagScavengerHeroH05=Crimsontail ~ Supporter
+tagScavengerHeroH06=Rav ~ Voidtouched
+
+#CreatureShadowman
+
+tagEnemyShadowmanA01=Shadowman
+tagEnemyShadowmanB01=Shadowman Deceiver
+tagEnemyShadowmanC01=Shadowman Eidolon
+
+#CreatureSkeletal Golem
+
+tagEnemySkeletalGolemB01=Skeletal Gargantuan
+tagEnemySkeletalGolemC01=Skeletal Monstrosity
+
+tagSkeletalGolemHeroH01=Grulgor, the Tormented ~ Diseased
+tagSkeletalGolemHeroH02=Falgarr, the Ice Watcher ~ Frozen
+tagSkeletalGolemHeroH03=Bralgarr, the Flame Watcher ~ Burning
+tagSkeletalGolemHeroH04=Wralgarr, the Aethertouched ~ Corrupted
+tagSkeletalGolemHeroH05=Olagarr, the Chaosbringer ~ Voidtouched
+
+
+tagSkeletalGolemBossB01=Ilgorr, the Eternal
+tagSkeletalGolemBossB02=Uroboruuk's Guardian
+
+#CreatureSkeleton
+
+tagEnemySkeletonA01=Skeletal Warrior
+tagEnemySkeletonA02=Skeletal Archer
+tagEnemySkeletonB01=Skeletal Deathbolt Archer
+tagEnemySkeletonB02=Skeletal Knight
+tagEnemySkeletonB03=Skeletal Priest
+tagEnemySkeletonB04=Skeletal Warlock
+tagEnemySkeletonC01=Flame Revenant
+tagEnemySkeletonC02=Frost Revenant
+tagEnemySkeletonC03=Storm Revenant
+tagEnemySkeletonC04=Death Revenant
+
+tagSkeletonHeroH01=Tenebris, the Blood Drinker
+tagSkeletonHeroH02=Balrazar, Eternal Servant of Dreeg
+tagSkeletonHeroH03=Harros Dred, the Damned
+tagSkeletonHeroH04=Hellwraith ~ Burning
+tagSkeletonHeroH05=Allos Sadarin ~ Reflective
+tagSkeletonHeroH06=Chillheart ~ Frozen
+
+tagSkeletonBoss01=Kilrian, the Tainted Soul
+tagSkeletonBoss02=Grand Priest Zarthuzellan
+tagSkeletonBoss03=Shade of Elnadrin
+tagSkeletonBoss04=High Priest Rolderathis
+
+tagGravestone_Skeleton01=Robert
+tagGravestone_Skeleton02=Rockford
+tagGravestone_Skeleton03=Ryan
+
+#CreatureSlith
+
+tagEnemyDeepMire_SlithWarriorA01=Deepmire Warrior
+tagEnemyDeepMire_SlithWarriorB01=Deepmire Vanguard
+tagEnemyDeepMire_SlithWarriorC01=Deepmire Champion
+tagEnemyDeepMire_SlithWarriorC02=Deepmire Tidehunter
+tagEnemyDeepMire_SlithShamanB01=Deepmire Shaman
+tagEnemyDeepMire_SlithShamanB02=Deepmire Scourge-Tamer
+tagEnemyDeepMire_SlithShamanC01=Deepmire Evocator
+tagEnemyDeepMire_SlithShamanC02=Deepmire Pureblood
+
+tagEnemyVenomtongue_SlithWarriorA01=Venomtongue Warrior
+tagEnemyVenomtongue_SlithWarriorB01=Venomtongue Vanguard
+tagEnemyVenomtongue_SlithWarriorC01=Venomtongue Champion
+tagEnemyVenomtongue_SlithShamanB01=Venomtongue Shaman
+tagEnemyVenomtongue_SlithShamanC01=Venomtongue Evocator
+
+tagEnemyBloodscale_SlithWarriorA01=Bloodscale Warrior
+tagEnemyBloodscale_SlithWarriorB01=Bloodscale Vanguard
+tagEnemyBloodscale_SlithWarriorC01=Bloodscale Champion
+tagEnemyBloodscale_SlithShamanB01=Bloodscale Shaman
+tagEnemyBloodscale_SlithShamanC01=Bloodscale Evocator
+
+tagSlithHeroH01=Igrixx, the Rimeheart
+tagSlithHeroH02=Jaron, Lord of the Storm
+tagSlithHeroH03=Lorkhan, Lord of the Deep
+tagSlithHeroH04=Farnlan, the Vile ~ Unstoppable
+tagSlithHeroH05=Eidonax ~ Swift
+tagSlithHeroH06=Avaladran ~ Corrupted
+
+tagSlithBossB01=Viloth, the Corruptor
+tagSlithBossB02=Primordian, the Forgotten One
+tagSlitbBossB03=Ellena, the First Slith
+
+tagEnemyMurkTide_SlithWarriorA01=Murktide Warrior
+tagEnemyMurkTide_SlithWarriorB01=Murktide Vanguard
+tagEnemyMurkTide_SlithWarriorC01=Murktide Champion
+tagEnemyMurkTide_SlithShamanB01=Murktide Shaman
+tagEnemyMurkTide_SlithShamanC01=Murktide Evocator
+
+#CreatureSpider
+
+tagEnemySpiderA01=Dreadweave Arachnid
+tagEnemySpiderA02=Dreadweave Spitter
+tagEnemySpiderB01=Dreadweave Leaper
+tagEnemySpiderB02=Dreadweave Widow
+tagEnemySpiderC01=Dreadweave Matriarch
+tagEnemySpiderSummon=Spiderling
+
+tagEnemySpiderWitchGodA01=Eldritch Arachnid
+tagEnemySpiderWitchGodA02=Eldritch Weaver
+tagEnemySpiderWitchGodA03=Eldritch Matriarch
+tagEnemySpiderWitchGodSummon=Eldritch Crawler
+
+tagSpiderHeroH01=Oldelon, the Molten
+tagSpiderHeroH02=Raglis, the Leaper
+tagSpiderHeroH03=Herna, the Dread Widow
+tagSpiderHeroH04=Triinix, the Weaver
+tagSpiderHeroH05=Larna, the Fateweaver ~ Shielded
+tagSpiderHeroH06=Uldina, the Broodmother ~ Defender
+
+#CreatureThornedHorror
+
+tagEnemyThornedHorrorA01=Briarthorn Horror
+tagEnemyThornedHorrorB01=Briarthorn Terror
+tagEnemyThornedHorrorC01=Briarthorn Monstrosity
+
+
+tagThornedHorrorHeroH01=Terrolean, the Pandemonium
+tagThornedHorrorHeroH02=Korplax, the Overgrown
+tagThornedHorrorHeroH03=Blackthorn ~ Reflective
+tagThornedHorrorHeroH04=Rotthorn ~ Diseased
+tagThornedHorrorHeroH05=Everbark ~ Regenerator
+tagThornedHorrorHeroH06=Rimebark ~ Frozen
+
+tagThornedHorrorBoss01=Ol' Bloodbriar
+
+tagEnemyAetherHorrorA01=Aetherthorn Horror
+
+tagAetherHorrorHeroH01=Aetheros
+
+
+#CreatureTraps
+
+tagEnemyTrapA01=Flare Trap
+tagEnemyTrapA02=Launcher Trap
+tagEnemyTrapA03=Obsidian Shard
+tagEnemyTrapA04=Obsidian Anomaly
+tagEnemyTrapA05=Floor Spikes
+
+#CreatureTrolls
+
+tagEnemyTrollHalfA01=Mistborn Brute
+tagEnemyTrollHalfA02=Mistborn Herder
+tagEnemyTrollHalfB01=Mistborn Hunter
+tagEnemyTrollHalfB02=Mistborn Warrior
+tagEnemyTrollHalfB03=Mistborn Shaman
+tagEnemyTrollHalfC01=Mistborn Elder
+
+tagEnemyTrollHalfSwampA01=Eastmire Brute
+tagEnemyTrollHalfSwampA02=Eastmire Herder
+tagEnemyTrollHalfSwampB01=Eastmire Hunter
+tagEnemyTrollHalfSwampB02=Eastmire Warrior
+tagEnemyTrollHalfSwampB03=Eastmire Shaman
+tagEnemyTrollHalfSwampC01=Eastmire Elder
+
+tagTrollHalfHeroH01=Balarr, the Rockeater
+tagTrollHalfHeroH02=Paldrak, the Warmonger
+tagTrollHalfHeroH03=Stonetooth ~ Defender
+tagTrollHalfHeroH04=Elloras, the Sun-Eater ~ Burning
+
+tagTrollHalfSwampHeroH01=Ragarr Stonecrusher
+tagTrollHalfSwampHeroH02=Toglokk the Ravener
+tagTrollHalfSwampHeroH03=Maglak ~ Shielded
+tagTrollHalfSwampHeroH04=Wallak ~ Supporter
+
+tagEnemyTrollA01=Stonewart Troll
+tagEnemyTrollB01=Stonewart Rager
+tagEnemyTrollC01=Stonewart Behemoth
+
+tagEnemyTrollSwampA01=Plaguewart Troll
+tagEnemyTrollSwampB01=Plaguewart Rager
+tagEnemyTrollSwampC01=Plaguewart Behemoth
+
+tagTrollHeroH01=Uglak, the Immortal
+tagTrollHeroH02=Surrlak, the Earthmover
+tagTrollHeroH03=Troglak ~ Unstoppable
+tagTrollHeroH04=Oldak, the Miasma ~ Diseased
+tagTrollHeroH05=Wontlak ~ Frozen
+
+tagTrollSwampHeroH01=Balglak, the Swamp Warden
+tagTrollSwampHeroH02=Rovos ~ Reflective
+tagTrollSwampHeroH03=Malgalok ~ Voidtouched
+tagTrollSwampHeroH04=Avalgal ~ Corrupted
+
+tagBossTrollB01=Gulgoth, the Rampaging
+tagBossTrollB02=Voldrak, the Destroyer
+tagBossTrollB03=Balegor, the Swamp King
+
+tagEnemyTrollCorruptedA01=Fleshwarped Troll
+tagEnemyTrollCorruptedB01=Fleshwarped Vanguard
+tagEnemyTrollCorruptedB02=Fleshwarped Deadeye
+tagEnemyTrollCorruptedB03=Fleshwarped Flameeye
+tagEnemyTrollCorruptedC01=Fleshwarped Commander
+
+tagTrollCorruptedD01=Hoarfrost Dreadguard
+
+tagTrollCorruptedHeroH01=Sulkarr, the Stormtouched
+tagTrollCorruptedHeroH02=Horcris, the Terror
+tagTrollCorruptedHeroH03=Corruptis
+tagTrollCorruptedHeroH04=Caladrak ~ Unstoppable
+tagTrollCorruptedHeroH05=Faldrak ~ Reflective
+
+tagTrollCorruptedBoss01=Harrath the Slaughterer
+
+#CreatureUnderdwellers
+
+tagEnemyCaveTrollHalfA01=Trog Blood Drinker
+tagEnemyCaveTrollHalfB01=Trog Flesh Ripper
+tagEnemyCaveTrollHalfB02=Trog Blood Mage
+tagEnemyCaveGrobleA01=Underdweller Runt
+tagEnemyCaveGrobleB01=Underdweller Ritualist
+tagEnemyCaveTrollB01=Underdweller Troll
+tagEnemyCaveTrollC01=Underdweller Behemoth
+tagEnemyCaveSpiderA01=Terrorweave Spiderling
+tagEnemyCaveSpiderB01=Terrorweave Arachnid
+tagEnemyCaveSpiderB02=Terrorweave Widow
+tagEnemyCaveSpiderC01=Terrorweave Matriarch
+
+tagCaveTrollHalfHeroH01=Glavrok, the Darkdweller
+tagCaveTrollHalfHeroH02=Algrok, the Blind Berserker
+tagCaveTrollHalfHeroH03=Savarok ~ Shielded
+tagCaveGrobleHeroH01=Akala ~ Swift
+tagCaveGrobleHeroH02=Ulbalak ~ Supporter
+tagCaveSpiderHeroH01=Shelleb, the Darkness
+tagCaveSpiderHeroH02=Vilaxna ~ Regenerator
+tagCaveSpiderHeroH03=Ravnix ~ Swift
+
+tagCaveSpiderBoss01=Ungoliax, the Gloomweaver
+tagCaveTrollHalfBoss01=Gollus, the Deepdweller
+
+#CreatureVultures
+
+tagEnemyVultureSummon=Arkovian Rocktalon
+tagEnemyVultureA01=Arkovian Rocktalon
+tagEnemyVultureB01=Arkovian Plaguebeak
+
+tagHeroVultureH01=Volaxna, the Bloodgorger
+tagHeroVultureH02=Plaguewing ~ Diseased
+tagHeroVultureH03=Harrowbeak ~ Unstoppable
+tagHeroVultureH04=Wrathtalon ~ Corrupted
+tagHeroVultureH05=Voidtalon ~ Voidtouched
+
+#CreatureWorm
+
+tagEnemyWormA01=Earthbreaker Burrower
+tagEnemyWormB01=Earthbreaker Rotworm
+
+tagEnemyWormDeepDwellerA01=Deepdweller Grub
+
+tagWormHeroH01=Gravner, the Bile-Eater
+tagWormHeroH02=Groundsplitter ~ Electrified
+tagWormHeroH03=Stonespitter ~ Shielded
+tagWormHeroH04=Wrathworm ~ Corrupted
+tagWormHeroH05=Riftworm ~ Voidtouched
+
+#CreatureYeti
+
+tagEnemyYetiA01=Chillmane Brute
+tagEnemyYetiB01=Chillmane Rager
+tagEnemyYetiB02=Chillmane Icesplitter
+tagEnemyYetiC01=Chillmane Alpha
+
+tagYetiHeroH01=Bonechill
+tagYetiHeroH02=Icesnap
+tagYetiHeroH03=Chillblood ~ Regenerator
+tagYetiHeroH04=Mallus ~ Corrupted
+
+tagYetiBoss01=Ragrathar Rageblood
+
+
+#CreatureZombie
+
+tagEnemyZombieA01=Walking Dead
+tagEnemyZombieB01=Wretcher
+tagEnemyZombieC01=Fury
+tagEnemyZombieD01=Cold One
+tagEnemyZombieE01=Night Terror
+tagEnemyZombieF01=Burning Dead
+tagEnemyZombieG01=Plague Walker
+tagEnemyZombieSoldierA01=Rotting Soldier
+tagEnemyZombieSoldierB01=Rotting Emberguard
+tagEnemyZombieSoldierC01=Fury Soldier
+tagEnemyZombieBerserkerA01=Corpsefiend
+
+tagEnemyZombieVoidA01=Chthonic Soulless
+
+tagEnemyZombieMutatedA01=Fleshwarped Butcher
+tagEnemyZombieMutatedB01=Fleshwarped Thrasher
+
+tagZombieMutatedBoss01=Barrog, the Bloodied
+
+tagZombieHeroH01=Abner, the Forsaken One
+tagZombieHeroH02=Crimson Bane
+tagZombieHeroH03=Gastris, the Foul
+tagZombieHeroH04=Gilisten, the Reborn
+tagZombieHeroH05=Bolvaris, the Glacierborn
+tagZombieHeroH06=Aldanar, the Undying
+tagZombieHeroH07=Gutripper ~ Unstoppable
+tagZombieHeroH08=Teselon ~ Electrified
+tagZombieHeroH09=Blightfeast ~ Charger
+tagZombieHeroH10=Alrick Magefire
+
+tagZombieMiniBoss01=Farros, the Rotted
+tagZombieMiniBoss02=Jillius, the Decayed
+tagZombieMiniBoss03=Neegan, the Withered
+tagZombieMiniBoss04=Balros, the Malformed
+tagZombieMiniBoss05=Hagra, the Tormented
+
+
+#CreatureZombieHound
+
+tagEnemyZombieHoundA01=Tainted Hound
+tagEnemyZombieHoundB01=Tainted Pack Leader
+
+tagZombieHoundHeroH01=Gornax, the Nightmare
+tagZombieHoundHeroH02=Sharn, the Cursed
+tagZombieHoundHeroH03=Furz Venomdrinker ~ Supporter
+tagZombieHoundHeroH04=Bloodhowl ~ Regenerator
+
+#CreatureReanimator
+
+tagEnemyReanimatorB01=Reanimator
+tagEnemyReanimatorC01=Dominator
+
+tagReanimatorHeroH01=Aethoran, the Plaguebearer ~ Diseased
+tagReanimatorHeroH02=Gollorg, the Undiminished ~ Unstoppable
+tagReanimatorHeroH03=Corpsefire ~ Reflective
+tagReanimatorHeroH04=Azgalogg, the Corruptor ~ Defender
+
+tagReanimatorBossH01=Gethrand, the Betrayed
+tagReanimatorBossH02=Zanbrandt, the Ascended
+tagReanimatorBossH03=Chilldread
+tagReanimatorBossH04=Nazagrad, the Fallen
+
+
+#Pets
+
+tagPetRavenA01=Great Raven
+tagPetHellhoundA01=Hellhound
+tagPetWhirlwindA01=Whirlwind
+tagPetThornedHorrorA01=Briarthorn
+tagPetManticoreA01=Primal Spirit
+tagPetWindDevilA01=Wind Devil
+tagPetTotemA01=Wendigo Totem
+tagPetTotemA02=Storm Totem
+tagPetTotemA02B=Corrupted Totem
+tagPetBlackScourge=Black Scourge
+tagPetGazeOfDreeg=Gaze of Dreeg
+tagPetEyeOfGuardian=Eye of the Guardian
+tagPetHeraldOfDoom=Banner of Doom
+tagPetSpirit=Bound Spirit
+tagPetRitualCircle=Ritual Circle
+tagPetStormShard=Storm Shard
+tagPetArcaneWisp=Arcane Wisp
+
+
+tagDevotionPet_Skeleton=Skeleton
+tagDevotionPet_ArcaneBomb=Arcane Bomb
+tagDevotionPet_Hound=Eldritch Hound
+tagDevotionPet_Hungerling=Hungerling
+tagDevotionPet_ElementalSeeker=Elemental Seeker
+tagDevotionPet_LivingShadow=Living Shadow
+tagDevotionPet_Volcano=Eruption
+
+tagPetIceWallA01=Ice Barrier
+
+tagPetBladeSwarmA01=Blade Spirit
+
+tagPetThermiteMineA01=Flare Mine
+tagPetMortarTrapA01=Mortar Trap
+
+tagItemFleshHulkA01=Flesh Hulk
+tagItemGuardianA01=Stalwart Guardian
+tagItemGuardianA02=Reckless Guardian
+tagItemAncestorA01=Ancestral Spirit
+tagItemRevenantA01=Revenant of Og'Napesh
+tagItemPrawnA01=Blighted Rift Scourge
+tagItemYetiA01=Chillmane Rocksplitter
+tagRelicStormhound=Stormhound
+tagRelicNemesis=Nemesis
+tagRelicSwarm=Swarmling
+
+
+tagDLCWisp=Will'O'Wisp
+tagDLCCrate=Sacred Crate
+
+#EnemySummons
+
+tagEnemySummonHellspawn=Hellspawn
+tagEnemySummonChthonianMinion=Salazar's Harbinger
+tagEnemySummonDariusAetherCrystal=Unstable Aether Formation
+tagEnemySummonRifthound=Azure Rifthound
+tagEnemySummonObsidianCluster=Obsidian Cluster
+tagEnemySummonRaven=Raven
+tagEnemySummonAetherTrap=Aether Trap
+tagEnemySummonIceCrystal=Ice Crystal
+tagEnemySummonTentacle=Writhing Tentacle
+tagEnemySummonVoid=Entropic Void
+tagEnemySummonWitchGodCrystal=Sentinel's Beacon
+
+tagEnemyMogdrogenBoar=Mogdrogen's Chilltusk
+tagEnemyMogdrogenRat=Mogdrogen's Boneback
+tagEnemyMogdrogenHorror=Mogdrogen's Briarthorn
+
+#Boss&Quest
+
+tagQuestEnemyReanimator=Kyzogg the Reanimator
+tagQuestEnemyMiltonHart=Milton Hart
+tagQuestEnemyBanditForge=Outlaw Forge
+tagQuestChthonianMonstrosity=Thall'Nosh, the Unraveler
+tagQuestBloodWagon=Blood Wagon
+
+tagBossTheWarden01=Warden Krieg
+tagBossLoghorrean01=Loghorrean, the Voice of Ch'thon
+tagBossLoghorreanTentacle01=Loghorrean's Tentacle
+tagBossLoghorreanTentacle02=Loghorrean's Tentacle
+tagBossLoghorreanTentacleCluster=Tentacle Cluster
+
+tagAetherialRoguelikeBoss01=Jarren the Plaguewarped
+tagAetherialRoguelikeBoss02=Overlord Van Aldritch
+tagAetherialRoguelikeBoss03=Councilman Hallos
+tagAetherialRoguelikeBoss04=Councilman Garl
+tagAetherialRoguelikeBoss05=Watcher Ygraad
+tagAetherialRoguelikeBoss06=Watcher Ordas
+tagAetherialRoguelikeBoss07=Watcher Brandis
+
+tagMiscTargetDummy=Training Dummy
+
+tagQuestWitchGod01=Guardian of Dreeg
+tagQuestWitchGod01_Summon=Eye of Dreeg
+tagQuestWitchGod02=Guardian of Solael
+tagQuestWitchGod03=Guardian of Bysmiel
+tagQuestWitchGod04=The Sentinel
+
+#Nemesis
+tagNemesis_Aetherial01=Valdaran, the Storm Scourge
+tagNemesis_Aetherial02=Obligious Foul
+tagNemesis_Aetherial03=The Pariah
+tagNemesis_Chthonian01=Jac'Aran, the Eternal Stone
+tagNemesis_Chthonian02=Benn'Jahr, the Colossal
+tagNemesis_Chthonian03=Balgoth'Zul, the Endless Hunger
+tagNemesis_Kymon01=Lord Infernus
+tagNemesis_Kymon02=The Iron Maiden
+tagNemesis_OrderDeathsVigil01=Zantarin, the Immortal
+tagNemesis_OrderDeathsVigil02=Cabala Rotweaver
+tagNemesis_Outlaw01=Fabius "the Unseen" Gonzar
+tagNemesis_Outlaw02=Thallion Vos
+tagNemesis_Outlaw03=Dead-Eye
+tagNemesis_Undead01=Allminoxius, the Artificer
+tagNemesis_Undead02=Moosilauke, the Chillwind
+tagNemesis_Undead03=Toxemus
+
+tagNemesis_Clone01=Clone of John Bourbon
+tagNemesis_Clone02=Burning Clone of John Bourbon
+tagNemesis_Clone03=Frozen Clone of John Bourbon
+tagNemesis_Clone04=Electrified Clone of John Bourbon
+tagNemesis_Clone05=Tainted Clone of John Bourbon
+tagNemesis_Clone06=Deathly Clone of John Bourbon
+tagNemesis_Clone07=Corrupted Clone of John Bourbon
+tagNemesis_Clone08=The Final Form of the Clone of John Bourbon
+tagNemesis_Clone09=The Actually Final Form of the Clone of John Bourbon
+
+
+#Devotion
+tagDevotion_AetherialH01=Athraz, the Watcher
+tagDevotion_AetherialH02=Naladrak, Essence of the Flame
+tagDevotion_AetherialH03=Idalazius, the Corruptor
+
+tagDevotion_ChthonianDevourerH01=Gal'Barok
+tagDevotion_ChthonianDevourerH02=Har'Nadiin
+tagDevotion_ChthonianDevourerH03=Ellon'Siin
+tagDevotion_ChthonianDevourerH04=Udal'Nadal
+tagDevotion_ChthonianDevourerH05=Balok'Grot
+tagDevotion_ChthonianDevourerH06=Orudin'Ak
+
+tagDevotion_ChthonianDreadguardH01=Serethal'Siin
+tagDevotion_ChthonianDreadguardH02=Wallan'Siin
+tagDevotion_ChthonianDreadguardH03=Zagal'Udal ~ Electrified
+tagDevotion_ChthonianDreadguardH04=Rigak'Doth ~ Reflective
+tagDevotion_ChthonianDreadguardH05=Palloth'Dar ~ Frozen
+
+tagDevotion_VoidFiendH01=Innal'Gargoth
+tagDevotion_VoidFiendH02=Udal'Thel
+tagDevotion_VoidFiendH03=Walloth'Dar
+tagDevotion_VoidFiendH04=Eldon'Siin ~ Electrified
+tagDevotion_VoidFiendH05=Sen'Udal ~ Burning
+tagDevotion_VoidFiendH06=Halloth'Siin
+
+tagDevotion_ChthonianMinionH01=Carath'Lud
+tagDevotion_ChthonianMinionH02=Elegor'Dar
+tagDevotion_ChthonianMinionH03=Fallim'Gargoth
+tagDevotion_ChthonianMinionH04=Ossius'Dar
+tagDevotion_ChthonianMinionH05=Blagal'Doth
+tagDevotion_ChthonianMinionH06=Mal'Thallon ~ Frozen
+tagDevotion_ChthonianMinionH07=Shogal'Gargoth ~ Shielded
+
+tagDevotion_ChthonianMonstrosityH01=Chthonian Unraveler
+
+tagDevotion_FleshHulkH01=Brognathar
+tagDevotion_FleshHulkH02=Aethollin
+tagDevotion_FleshHulkH03=Kollus ~ Burning
+tagDevotion_FleshHulkH04=Feseron ~ Electrified
+
+tagDevotion_GhostH01=Odellia Lanos
+tagDevotion_GhostH02=Marden Thal ~ Burning
+tagDevotion_GhostH03=Agalla Varos ~ Regenerator
+tagDevotion_GhostH04=Stormbane ~ Electrified
+tagDevotion_GhostH05=Baullos Gar ~ Electrified
+tagDevotion_GhostH06=Senal Thandris ~ Corrupted
+tagDevotion_GhostH07=Develos Ondal
+tagDevotion_GhostH08=Barrosa Namos
+tagDevotion_GhostH09=Aneria Thandris
+
+tagDevotion_CavePrawnH01=Direcrix
+tagDevotion_CavePrawnH02=Malocrix ~ Voidtouched
+tagDevotion_CavePrawnH03=Idricrix ~ Electrified
+tagDevotion_CaveSpiderH01=Shalloth
+tagDevotion_CaveSpiderH02=Troaxna ~ Regenerator
+tagDevotion_CaveSpiderH03=Waviix ~ Swift
+
+tagDevotion_SkeletalGolemH01=Grubwrath ~ Diseased
+tagDevotion_SkeletalGolemH02=Icesharn ~ Frozen
+tagDevotion_SkeletalGolemH03=Flamegore ~ Burning
+tagDevotion_SkeletalGolemH04=Aethergore ~ Corrupted
+tagDevotion_SkeletalGolemH05=Voidreach ~ Voidtouched
+
+tagDevotion_SkeletonH01=Elledar Bloodthirster
+tagDevotion_SkeletonH02=Priest Dagoll
+tagDevotion_SkeletonH03=Damnoth
+tagDevotion_SkeletonH04=Everon ~ Burning
+tagDevotion_SkeletonH05=Vengar the Vengeful ~ Reflective
+tagDevotion_SkeletonH06=Rimelord ~ Frozen
+tagDevotion_SkeletonH07=Tenethon
+tagDevotion_SkeletonH08=Alladon the Flamewatcher
+tagDevotion_SkeletonH09=Elagorian Darkmarrow
+tagDevotion_SkeletonH10=Ollegon the Icewatcher
+
+tagDevotion_SlithH01=Rexna
+tagDevotion_SlithH02=Balladra Stormscion
+tagDevotion_SlithH03=Sharath
+tagDevotion_SlithH04=Traglodan ~ Voidtouched
+tagDevotion_SlithH05=Wrallan ~ Electrified
+tagDevotion_SlithH06=Calladra ~ Corrupted
+tagDevotion_SlithH07=Bliegna
+tagDevotion_SlithH08=Lunorius
+
+tagDevotion_ZombieH01=Grubnar
+tagDevotion_ZombieH02=Follistad
+tagDevotion_ZombieH03=Flamewretch ~ Burning
+tagDevotion_ZombieH04=Palleod ~ Electrified
+tagDevotion_ZombieH05=Occullon
+tagDevotion_ZombieH06=Bloodwretch ~ Swift
+tagDevotion_ZombieH07=Icerot
+tagDevotion_ZombieH08=Vampireon
+tagDevotion_ZombieH09=Swiftrot ~ Swift
+
+#Bounties
+tagBountyBL08=Gluttrius'Maw
+tagBountyBL09=Sicrix, the Skittering
+tagBountyBL10=Emberjaw
+tagBountyBL17=Harrath, the Returned
+tagBountyBL18=Padmanestia
+tagBountyBL19=Corprus
+tagBountyBL20=Luthus'Balok
+tagBountyDC06="The Bruiser" Romanov
+tagBountyDC07=Bolla "The Raven"
+tagBountyDC08=Slathra, the Plagued
+tagBountyDC09=Ballior ~ Burning
+tagBountyDC10=Igor "The Brawler"
+tagBountyDC11=Caspis, the Blooddrinker
+tagBountyDC15=Rostov, the Aetherflame
+tagBountyDC17=Nalloth, the Frostbound
+tagBounyExile12=Nucus'Dal
+tagBounyExile13=Innu'Garbal
+tagBounyExile14=Conastaria
+tagBounyExile15=Ludia Starfire
+tagBountyHS09=Bogloth the Marrowdrinker
+tagBountyHS10=The Locust
+tagBountyHS11=Vizier Haxin
+tagBountyHS12=Glukrog Lifedrinker
+tagBountyHS13=Phabius
+tagBountyKC07=Holvuur Bonespeaker
+tagBountyKC08=Igniaa Venomtongue
+tagBountyKC09=Vom'Zul
+tagBountyKC10=Thullon, Chosen of Ch'thon
+tagBountyKC11=Abathis, the Withered
+tagBountyKC19=Ludia Bloodwhisper
+tagBountyODV06=Halvastra Wrathfire
+tagBountyODV07=Horvald Shieldbreaker
+tagBountyODV08=Olga Flamebearer
+tagBountyODV09=Narroth, the Behemoth
+tagBountyODV10=Barrostrandt, the Ascended
+tagBountyODV11=Gravvis, the Decayed
+tagBountyODV12=Narl'Sarroth
+tagBountyRO10=Oligeane Dar
+tagBountyRO11=Rixna Plaguefeather
+tagBountyRO12=Mortallis
+tagBountyRO19=Grum
+
+#Races
+
+tagRace001=Undead
+tagRace002=Beastkin
+tagRace003=Aetherial
+tagRace004=Chthonic
+tagRace005=Aether Corruption
+tagRace006=Bloodsworn
+tagRace007=Eldritch
+tagRace008=Insectoid
+tagRace009=Human
+tagRace010=Construct
+tagRace011=Riftspawn
+tagRace012=Beast
+tagRace013=Magical
+tagRace014=Celestial
+tagRace015=Arachnid
+tagRace016=Plant
+tagRace001P=Undead
+tagRace002P=Beastkin
+tagRace003P=Aetherials
+tagRace004P=Chthonics
+tagRace005P=Aether Corruptions
+tagRace006P=Bloodsworn
+tagRace007P=Eldritch
+tagRace008P=Insectoids
+tagRace009P=Humans
+tagRace010P=Constructs
+tagRace011P=Riftspawn
+tagRace012P=Beasts
+tagRace013P=Magical
+tagRace014P=Celestial
+tagRace015P=Arachnids
+tagRace016P=Plants
+
+

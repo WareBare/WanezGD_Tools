@@ -32,7 +32,11 @@ wzCMS = function($optCMS,$formData){
         CMS_2 = ($optCMS[2] && $optCMS[2] != '') ? '/'+$optCMS[2]+'.js' : '/index.js';
     
     // Load Content/SideBar ToDo: SideBar
-    const pathBase = `${dirBase}/inc/cms/${CMS_0}`,path = pathBase + CMS_1 + CMS_2,contentEl = document.getElementById('app_Content'),sidebarEl = document.getElementById('app_SideBar'),headerLocEl = document.getElementById('app_HeaderLoc');
+    const pathBase = `${dirBase}/inc/cms/${CMS_0}`;
+    const path = pathBase + CMS_1 + CMS_2,contentEl = document.getElementById('App_Content');
+    const sidebarEl = document.getElementById('App_SideBar');
+    //const headerLocEl = document.getElementById('App_HeaderTitle');
+    const headerLocEl = document.getElementById('App_TitleText');
     //console.log(path);
     try{
         fs.accessSync(path, fs.F_OK); // check if file exists
@@ -46,15 +50,8 @@ wzCMS = function($optCMS,$formData){
             //console.log($formData.id.split("::")[0]);
             return cms.Forms[$formData.id.split("::")[0]].validateForm($formData);
         }else{ // loadForm false will show the form
-            let headerTitle_ = '',headerOnClick = '';
-            for( let $_key in $optCMS ){
-                if(headerTitle_ != ''){
-                    headerTitle_ += '';
-                    headerOnClick += ',';
-                }
-                headerOnClick += '\''+$optCMS[$_key]+'\'';
-                headerTitle_ += '<span class="headerCMS_'+$_key+'" onclick="wzCMS(['+headerOnClick+']);">'+$optCMS[$_key]+'</span>';
-            }
+            const headerTitle_ = `${$optCMS[$optCMS.length - 1]} - ${document.title}`;
+
             try{
                 cms.Base = require(pathBase+'/_Base.js');
 
@@ -119,10 +116,10 @@ wzCMS = function($optCMS,$formData){
     }
 };
 wzSideBarDefault = function($btns_,$list_,$contentType,$tpl){
-    $btns_ = appData.tpl.Buttons.Default.wzParseTPL($btns_) || ``;
+    $btns_ = appData.tpl.Buttons.SidebarAction.wzParseTPL($btns_) || ``;
     $list_ = $list_ || ``;
     $contentType = $contentType || false;
-    $tpl = $tpl || "<div class='areaTop'>{BUTTONS}</div><div class='areaBottom'>{LIST}</div>";
+    $tpl = $tpl || "<details class='areaTop' open><summary>Actions</summary>{BUTTONS}</details><details class='areaBottom' open><summary>Content Sub-Categories</summary>{LIST}</details>";
     
     if(typeof $list_ !== 'string'){
         let aBTNs = [];
@@ -211,4 +208,20 @@ let CreateSubsystem = function(InSubsystem, InParams)
 wzGetSubsystem = function(InSubsystem, InParams = {})
 {
     return _Subsystems[InSubsystem] || CreateSubsystem(InSubsystem, InParams);
+};
+
+
+LoadSubModule = function(InSubmoduleName)
+{
+    
+    let outModule = {};
+    //console.log(`test`);
+    try{
+        outModule = require(`../submodules/M${InSubmoduleName}.js`);
+    }catch(err){
+        console.error(err);
+    }
+
+    return outModule;
+    
 };
