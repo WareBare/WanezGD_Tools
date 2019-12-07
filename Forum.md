@@ -157,6 +157,8 @@ All downloads and useful links are in the [section at the end](#section-assets).
 * Properties in tooltips:
   * Damage Types have different colors.
   * If you do not want this one - delete `tags_ui.txt` from the files.
+* Rainbow Tool can add Mastery names to skills. ([Mastery Marker](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/361))
+* Rainbow Tool can highlight certain texts differently if they are important. ([Special Highlighting](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/354))
 
 ---
 <a name="section-presets"></a>
@@ -239,7 +241,7 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.3.4](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.4/WanezGD_Tools-Setup-0.3.4.exe "Link from GitHub Releases") |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.4.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.0/WanezGD_Tools-Setup-0.4.0.exe "Link from GitHub Releases") |
 | ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.5.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.4/fullRainbow-1.1.5.0.zip) |
 | ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.5.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.4/diablo-1.1.5.0.zip) |
 | ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.5.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.3.4/basicHighlighting-1.1.5.0.zip) |
