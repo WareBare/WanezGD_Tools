@@ -175,7 +175,7 @@ module.exports = class SRainbowFilter extends Parent{
         let newValue = OutSourceData[InFileName][InIndex].TagValue
             , colorCode = `${CustomPrefix}${(InColorCode !== `Clear`) ? `{^${InColorCode.toUpperCase()}}` : ``}`;
         
-        if (this.bPolish && tagName.includes(`Prefix`)) {
+        if (this.bPolish && tagName.includes(`Prefix`) && !newValue.startsWith(`$`)) {
             //console.log(`is Polish`);
             newValue = `$${newValue}`;
         }
