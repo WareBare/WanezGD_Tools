@@ -6,20 +6,15 @@
 
 ---
 
-# v0.4.0 - New Toys
+# v0.4.1 - Fixes
 
-- ***New Feature:*** Special Highlighting
-  * Improve visibility of Items & Affixes with the new feature by using a new color or symbol.
-  * Post for more information can be found on the [official Grim Dawn Forums](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/354).
-- ***New Feature:*** Mastery Marker ([as result of a request](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/299))
-  * Adds Mastery Name after their respective Skill Names on items.
-  * Also allows coloring and support of Special Highlighting for Skill Names.
-  * Post for more information can be found on the [official Grim Dawn Forums](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/361).
-- ***New Preset:*** Added a new `Clean Preset` for those that only want to highlight their "Special Items & Affixes".
-- ***New/Changed:*** Rainbow Tool behavior changes and Version Numbers will now be visible in-game. ([More information at this forum post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/361))
-- ***New:*** The tool can now check if Grim Dawn is running, this allows for better error handling.
-- ***BugFix:*** Implemented a workaround for an error concerning `ArchiveTool.exe`. [Forum Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/349)
-- ***BugFix:*** Items from 1.1.5.0 will show up according to information on GrimTools.
+- ***BugFix:*** An error that occurred saving colored Localization. (I couldn't reproduce this, I put in a check to prevent the crash, but this may create other issues)
+- ***BugFix:*** Polish language sometimes had Dollar ($) signs.
+- ***BugFix:*** Polish language - prefixes were not capitalized.
+- ***BugFix:*** Internal Files were using a wrong Path, preventing to save colors if you had an "ArchiveTool" error
+  * This should finally be a working workaround for this issue, still have to figure out why ArchiveTool is crashing for some users in the first place.
+  * Keep in mind Internal Files means you are not saving colors based on current game files and the Rainbow Tool needs to be updated if there are any "Tag not found:" bugs after a Grim Dawn update.
+- ***BugFix:*** Added a <kbd>Load Source</kbd> button, it will show up if source files could not be loaded for some reason.
 
 
 
@@ -49,11 +44,11 @@
 
 # Forum Reply
 
-## Files and Tool updated for Grim Dawn v1.1.5.2
+## Files updated for Grim Dawn v1.1.5.2
 
-Tool updates itself, keep in mind colors need to be changed manually after it has finished updating.
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.0).
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.3.4).
+*Tool doesn't need an update, only updating the files because of the new item fixes that came with tool v0.4.0.*
 
 ## Rainbow Tool updated to v0.4.0
 
@@ -62,6 +57,8 @@ You can find all downloads in the [First Post](https://forums.crateentertainment
 If you cannot see the new sections (Special Highlighting/Mastery Marker) upon loading the new version for the first time, try a reload (F5).
 
 There is a potential fix for [a reported error](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/349), however, since I cannot reproduce it, I cannot test it.
+
+***Happy Bug Hunting!***
 
 # New Feature "Special Highlighting" (Post)
 

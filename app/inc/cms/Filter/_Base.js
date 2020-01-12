@@ -69,6 +69,7 @@ let RunLocaleExtract = function(InZipFile){
                     });
                 }
             }
+            wzReloadCMS(10);
         });
     });
 };
@@ -92,7 +93,7 @@ module.exports = {
         }
     },
 
-    GrimDawnVersion: `1.1.5.1`,
+    GrimDawnVersion: `1.1.5.2`,
     LastItemVersion: `1.1.5.0`,
 
     //  data-wztip="{TOOL_TIP}" data-wztip-position="top"
@@ -143,10 +144,13 @@ module.exports = {
             fs.removeSync(`${dirUserData}\\resources\\text_en`);
         }catch(err){ Log(err); };
 
+        bInitializedSource = false;
         // load new files, depending on locale settings.
         if(this.IsUsingLocale()){
             bUsingInternalTags = false;
             bGameIsRunning = false;
+            bInitializedSource = true;
+            wzUpdateHeader(`Parsing Localization...`);
             RunLocaleExtract(appConfig.get(`Filter.LocaleFileName`));
         }else{
             bGameIsRunning = false;
@@ -162,8 +166,8 @@ module.exports = {
                         }else{
                             //console.log(`no game is running`);
                         }
-                        wzUpdateHeader(`Copying Text Files...`);
-                        fs.copySync('./app/assets/text_en', `${dirUserData}\\resources\\text_en`);
+                        //wzUpdateHeader(`Copying Text Files...`);
+                        //fs.copySync('./app/assets/text_en', `${dirUserData}\\resources\\text_en`);
                         bUsingInternalTags = true;
                         
                         wzReloadCMS(10);
@@ -172,16 +176,17 @@ module.exports = {
                     //console.log(`finished Extraction without errors`);
                 }
             });
+            new Promise(function(OutResolve, OutErr){ 
+                OutResolve(Super.GatherTagFiles());
+            }).finally(function(){
+                // only uncomment if source data is required on the first page. Will be ready in time otherwise.
+                bInitializedSource = true;// console.log(SourceData);
+                wzReloadCMS(10);
+            });
         }
         
-
-        new Promise(function(OutResolve, OutErr){ 
-            OutResolve(Super.GatherTagFiles());
-        }).then(function(){
-            // only uncomment if source data is required on the first page. Will be ready in time otherwise.
-            bInitializedSource = true;
-            wzReloadCMS(10);
-        });
+        
+        
 
     },
 
@@ -219,7 +224,9 @@ module.exports = {
     OnLoad: function(){
         bGameIsRunning = false;
         CheckForGameProcess( (bInFoundGame) => {
-            if(bInFoundGame){
+            if(!bInitializedSource){
+                wzUpdateHeader(`ERROR: Text Source could not be generated!`);
+            }else if(bInFoundGame){
                 //console.warn(`game found`);
                 bGameIsRunning = true;
                 if (bUsingInternalTags){
@@ -230,12 +237,10 @@ module.exports = {
             }else{
                 //console.log(`no game is running`);
                 if (bUsingInternalTags){
-                    wzUpdateHeader(`Currently using internal Texts. This is a workaround for an error.`);
+                    wzUpdateHeader(`Currently using internal Texts. This is a workaround for an error. ("Run As Admin" might fix this)`);
                 }else{
                     wzUpdateHeader(`No Errors!`);
                 }
-                
-                
             }
         } );
 
@@ -292,6 +297,7 @@ module.exports = {
         /// Base Game
         //Log(SourceData[`tags_skills.txt`].findIndex( elTagData => elTagData.TagKey === `tagSkillClassName01` ));
         Log(`Initialize Mastery Names!`);
+        //console.error(`MasteryNames`);
 
         let loopTagIndex
             , MasteryTag;
@@ -588,18 +594,85 @@ module.exports = {
             , "tagsgdx2_tutorial.txt"
         ]
         
-        fs.readdir(`${dirUserData}\\resources\\text_en`, function(err, InFiles){
+        let baseTagPath = `${dirUserData}\\resources\\text_en`;
+        /*
+        bUsingInternalTags = false;
+        try{
+            fs.readdirSync(`${baseTagPath}`);
+        }catch(err){
+            baseTagPath = `${dirAssets}\\text_en`;
+            bUsingInternalTags = true;
+            console.error(err);
+            Log(`use internal`);
+        }
+
+        const self = this;
+        console.log(baseTagPath);
+        */
+       let bNeedToParseInternals = false;
+       const self = this;
+        try{
+            const foundFiles = fs.readdirSync(`${baseTagPath}`);
+            if(foundFiles.length <= 22) {
+                bNeedToParseInternals = true;
+            }else{
+                foundFiles.forEach( (InValue, InIndex) => {
+                    if(InValue.endsWith(`.txt`)){
+                        try{
+                            const tagFilePath = `${baseTagPath}\\${InValue}`;
+                            
+                            self.ParseTagText(fs.readFileSync(tagFilePath, 'utf-8'), SourceData, tagFilePath);
+                        }catch(err){ 
+                            console.error(err);
+                        }
+                    }
+                });
+            }
+        }catch(err){
+            console.error(err);
+        }
+
+        if(Object.entries(SourceData).length === 0 || bNeedToParseInternals){
+            baseTagPath = `${dirAssets}\\text_en`;
+            bUsingInternalTags = true;
+            try{
+                console.warn(`Need to parse internal files at: ${baseTagPath}`);
+                const foundFiles = fs.readdirSync(`${baseTagPath}`);
+                
+    
+                foundFiles.forEach( (InValue, InIndex) => {
+                    if(InValue.endsWith(`.txt`)){
+                        try{
+                            const tagFilePath = `${baseTagPath}\\${InValue}`;
+                            
+                            self.ParseTagText(fs.readFileSync(tagFilePath, 'utf-8'), SourceData, tagFilePath);
+                        }catch(err){ 
+                            console.error(err);
+                        }
+                    }
+                });
+            }catch(err){
+                console.error(err);
+            }
+        }
+        
+        /*
+        fs.readdir(`${baseTagPath}`, function(err, InFiles){
             for(let fileIndex in InFiles){
                 if(InFiles[fileIndex].endsWith(`.txt`)){ //  && !ignoreFiles.includes(InFiles[fileIndex])
-                    //Log(InFiles[fileIndex]);
+                    
                     try{
-                        Super.ParseTagText(fs.readFileSync(`${dirUserData}\\resources\\text_en\\${InFiles[fileIndex]}`, 'utf-8'), SourceData, `${dirUserData}\\resources\\text_en\\${InFiles[fileIndex]}`);
-                    }catch(err){ Log(err); }
+                        const tagFilePath = `${baseTagPath}\\${InFiles[fileIndex]}`;
+                        
+                        self.ParseTagText(fs.readFileSync(tagFilePath, 'utf-8'), SourceData, tagFilePath);
+                    }catch(err2){ 
+                        console.error(err2);
+                    }
                     
                 }
             }
         });
-        
+        */
         
         //Log(SourceData);
         return SourceData;
@@ -735,16 +808,16 @@ module.exports = {
 
     /// GETTER
     GetGrimDawnPath: function() { return GrimDawnPath || false; },
-    GetSourceData: function() { return WzSanitizeJSON(SourceData) },
+    GetSourceData: function() { return this.SanitizeJSON(SourceData) },
 
     GetClassData: function(InDataEntryStr, bInSanitize = true){
         if(bInSanitize){
-            return WzSanitizeJSON(ClassData[InDataEntryStr]);
+            return this.SanitizeJSON(ClassData[InDataEntryStr]);
         }
         return ClassData[InDataEntryStr];
     },
     GetLibraryData: function(){
-        return WzSanitizeJSON(ClassData[`LibraryData`]);
+        return this.SanitizeJSON(ClassData[`LibraryData`]);
     },
 
     ReplaceClassData: function(InDataKey, InNewData)
@@ -939,14 +1012,34 @@ module.exports = {
         
     },
 
+    SanitizeJSON(InJSONObj)
+    {
+        let outJSON = InJSONObj
+            , stringifiedJSON = JSON.stringify(InJSONObj);
+
+        outJSON = JSON.parse(stringifiedJSON);
+
+        return outJSON;
+    },
+
     OnClick_WriteColors: function()
     {
+        let sourceData = this.GetSourceData();
+        //sourceData = {}
+        if (Object.entries(sourceData).length === 0) {
+            wzUpdateHeader(`No Texts parsed to change, please report this.`);
+            return false;
+        }
+
         const filterSubsystem = wzGetSubsystem(`RainbowFilter`);
+
+        let groupData = this.GetClassData(`GroupData`, true);
+        let importantData = this.GetClassData(`ImportantTags`);
 
         wzUpdateHeader(`Writing Colors...`);
 
         setTimeout( () => {
-            filterSubsystem.OnWriteColors();
+            filterSubsystem.OnWriteColors(sourceData, groupData, importantData);
             
             CheckForGameProcess( (bInFoundGame) => {
                 if(bInFoundGame){
@@ -968,6 +1061,7 @@ module.exports = {
 
     content_: function(){
         let Output = ``;
+
         
         return Output;
     },
@@ -980,16 +1074,15 @@ module.exports = {
     {
         let outButtons = [];
 
+
         if(!this.IsPathCorrect()) return outButtons;
         
-        if(appConfig.get(`GrimDawn.Paths.Game`)){
+        
+        if (Object.entries(SourceData).length !== 0 && this.IsPathCorrect()) {
             outButtons.push({
                 "ONCLICK": "Super.OnClick_WriteColors()",
                 "TEXT": "Save Colors"
             });
-        }
-
-        if(this.IsPathCorrect()){
             if(!this.IsUsingLocale()){
                 /// Path is correct and using Locale
                 outButtons.push({
@@ -997,6 +1090,11 @@ module.exports = {
                     "TEXT": "Remove Colors"
                 });
             }
+        }else{
+            outButtons.push({
+                "ONCLICK": "Super.Init()",
+                "TEXT": "Load Source"
+            });
         }
 
         return outButtons;

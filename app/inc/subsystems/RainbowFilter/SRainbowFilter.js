@@ -44,7 +44,8 @@ module.exports = class SRainbowFilter extends Parent{
 
         if(bInUpdateDef){
             // check if updated before, only update if it wasn't before, no need to do it twice.
-            if(!OutSourceData[`language.def`][0].bUpdated){
+            //console.log(OutSourceData[`language.def`]);
+            if(OutSourceData[`language.def`] && OutSourceData[`language.def`][0] && !OutSourceData[`language.def`][0].bUpdated){
                 this.FindAndUpdateSourceEntry(OutSourceData, `language.def`, InKeyToFind, InTagValue);
             }
         }else{
@@ -63,9 +64,8 @@ module.exports = class SRainbowFilter extends Parent{
                 }
             }
         }
-
-        if(!bUpdated) Log(`Entry not found!`);
         
+        if(!bUpdated) Log(`Entry not found!`);
     }
 
     FetchColorFromGroup(InLibraryGroupEntry)
@@ -175,6 +175,11 @@ module.exports = class SRainbowFilter extends Parent{
         let newValue = OutSourceData[InFileName][InIndex].TagValue
             , colorCode = `${CustomPrefix}${(InColorCode !== `Clear`) ? `{^${InColorCode.toUpperCase()}}` : ``}`;
         
+        if (this.bPolish && tagName.includes(`Prefix`)) {
+            //console.log(`is Polish`);
+            newValue = `$${newValue}`;
+        }
+
         if(newValue.includes(`{^E}`)){
             newValue = `${newValue.replace(`{^E}`, `${colorCode}`)}{^E}`;
         }else if(newValue.match(/{\^[A-Za-z]}/g)){
@@ -182,6 +187,8 @@ module.exports = class SRainbowFilter extends Parent{
         }else if(newValue.startsWith(`[`) || newValue.startsWith(`\$[`)){
             newValue = newValue.replace(/(\[[a-zA-Z]+])/g, `$1${colorCode}`);
             //Log(newValue);
+        }else if(newValue.startsWith(`\$`)){
+            newValue = newValue.replace(`$`, `$${colorCode}`);
         }else if(newValue.match(RegexGlobalLetters)){
             newValue = `${colorCode}${newValue}`;
             //Log(newValue);
@@ -250,14 +257,17 @@ module.exports = class SRainbowFilter extends Parent{
     }
 
 
-    OnWriteColors()
+    OnWriteColors(InSourceData, InGroupData, InImportantData)
     {
-        this.GroupData = this.SanitizeJSON(Super.GetClassData(`GroupData`, false));
+        //this.GroupData = this.SanitizeJSON(Super.GetClassData(`GroupData`, false));
+        this.GroupData = InGroupData;
         //Log(Super.GetClassData(`GroupData`, false));
 
-        this.SourceData = Super.GetSourceData();
+        //this.SourceData = Super.GetSourceData();
+        this.SourceData = InSourceData;
 
-        this.SpecialTags = Super.GetClassData(`ImportantTags`);
+        //this.SpecialTags = Super.GetClassData(`ImportantTags`);
+        this.SpecialTags = InImportantData;
         this.SpecialTags.Groups = this.SpecialTags.Groups || {};
         this.SpecialTags.Tags = this.SpecialTags.Tags || {};
         this.SpecialTags.Masteries = this.SpecialTags.Masteries || {};
@@ -267,13 +277,27 @@ module.exports = class SRainbowFilter extends Parent{
         Super.ReadData(this.LibraryData = {}, `LibraryData`, `PackageName`, `${this.ColorLibrary}`);
 
         let savePath
-            , SourceData = this.SourceData;
+        //let SourceData = this.SourceData;
+        let SourceData = InSourceData;
+
+        console.info(`===== START =====`);
+        console.log(this.GroupData);
+        console.log(this.SpecialTags);
+        console.log(this.LibraryData);
+        console.log(SourceData);
+        console.info(`===== END =====`);
         
         const versioningBaseTextIndex = SourceData[`tags_ui.txt`].findIndex( el => el[`TagKey`] === `tagHUD_LootModeDescription` )
             , versioningBaseText = SourceData[`tags_ui.txt`][versioningBaseTextIndex].TagValue
             , versioningCustomText = `{^n}{^n}Rainbow Files Created with{^n}Rainbow Tool: v${app.getVersion()}{^n}for Grim Dawn: v${Super.GrimDawnVersion}{^n}{^o}An outdated version may cause issues in form of "Tag not found:...".`;
         
         //Log( `${versioningBaseText}${versioningCustomText}` );
+        this.bPolish = false;
+        if (Super.IsUsingLocale()) {
+            if(SourceData[`language.def`] && SourceData[`language.def`][1] && SourceData[`language.def`][1].TagValue === `Polski`){
+                this.bPolish = true;
+            }
+        }
         this.UpdateSourceData(SourceData);
         
         SourceData[`tags_ui.txt`].splice(1, 0, {

@@ -20,15 +20,37 @@ const RunArchiveTool = function(InPath_Source, InPath_Target, InPaths, InCallbac
             // #ToDo arz/tpl
         }
 
+        // debug
+        //bErrorOccured = true;
         for(let j = 0; j < subDirectories.length; j++){
             const elSubDirectory = subDirectories[j];
             if (bErrorOccured) break;
+            //break;
 
             try{
-                if(fs.pathExistsSync(`${InPath_Source}\\${elSubDirectory}\\${elFileName}`)) 
-                    child_process.execSync(
+                if(fs.pathExistsSync(`${InPath_Source}\\${elSubDirectory}\\${elFileName}`)) {
+                    
+                    let errorMaybe = child_process.execSync(
                         `"${InPath_Source}\\ArchiveTool.exe" "${InPath_Source}\\${elSubDirectory}\\${elFileName}" ${archiveMode} "${InPath_Target}\\resources"`
+                        , {
+                            //timeout: 10000
+                            //, stdio: 'inherit'
+                            windowsHide: true
+                        }
                     );
+                    
+                   /*
+                    let errorMaybe = child_process.spawnSync(
+                        `"${InPath_Source}\\ArchiveTool.exe"`
+                        , [`"${InPath_Source}\\${elSubDirectory}\\${elFileName}"`, `${archiveMode}`, `"${InPath_Target}\\resources"`]
+                        , {
+                            //timeout: 10000,
+                            windowsHide: true
+                        }
+                    );
+                    */
+                    //console.error(errorMaybe);
+                }
             }catch(err){
                 console.error(err);
                 bErrorOccured = true;

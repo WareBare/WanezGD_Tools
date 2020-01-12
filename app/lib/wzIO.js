@@ -16,8 +16,8 @@ module.exports = {
         $removeFromPath = $removeFromPath || ``;
         fs.outputFile($filepath, $content, 'utf8', function(err) {
             if(err) {
-                console.warn(err);
-                log.error(`${err}`);
+                console.error(err);
+                //log.error(`${err}`);
             } else {
                 //wzNotify.save(`${$filepath.replace($removeFromPath,``)}`);
                 console.info(`File Saved: ${$filepath.replace($removeFromPath,``)}`);
