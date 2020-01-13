@@ -9,6 +9,10 @@
 # v0.4.2 - Hotfix
 
 - ***BugFix:*** Polish Localization sometimes displayed all gender variations for prefixes.
+- ***Data:*** Added items to internal tag database.
+  * They will now be selectable through <kbd>Special Highlighting</kbd>.
+  * They will now be colored properly for their respective rarity when using a color different to the default.
+  * Added items includes Quest Rewards, Faction Items and Blueprint Results.
 
 
 

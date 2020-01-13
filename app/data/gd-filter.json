@@ -1,9 +1,2116 @@
 {
     "Tags": {
+        "tagGDX2MedalF209": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2MedalF208": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2MedalF207": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2MedalF206": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2MedalF205": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2MedalF204": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2MedalF203": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2MedalF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2MedalF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2NecklaceF209": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2NecklaceF208": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2NecklaceF207": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2NecklaceF206": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2NecklaceF205": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2NecklaceF204": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2NecklaceF203": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2NecklaceF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2NecklaceF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2RingF206": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2RingF205": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2RingF204": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2RingF203": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2RingF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2RingF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WaistF203B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WaistF203A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WaistF202B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WaistF202A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WaistF201B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WaistF201A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2TorsoF212": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF211": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF210": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF209": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF208": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF207": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF206": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF205": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF204": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF203": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF202": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2TorsoF201": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF212": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF211": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF210": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF209": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF208": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF207": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF206": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF205": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF204": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF203": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF202": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShoulderF201": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF212": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF211": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF210": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF209": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF208": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF207": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF206": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF205": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF204": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF203": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF202": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2HeadF201": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2FocusF207": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2FocusF206": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2FocusF205": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2FocusF204": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2FocusF203": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2FocusF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2FocusF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2FocusC204": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None"
+        },
+        "tagGDX2ShieldF203": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2ShieldF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2ShieldF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponCaster1hF208": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WeaponCaster1hF207": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WeaponCaster1hF206": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponCaster1hF205": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponCaster1hF204": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponCaster1hF203": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponCaster1hF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponCaster1hF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponMelee2hF203": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WeaponMelee2hF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponMelee2hF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponGun2hF203": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WeaponGun2hF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponGun2hF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponAxeF203": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WeaponAxeF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponAxeF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponBluntF203": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WeaponBluntF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponBluntF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponSwordF203": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX2WeaponSwordF202": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX2WeaponSwordF201": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1MedalF109": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1MedalF108": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1MedalF107": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1MedalF106": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1MedalF105": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1MedalF104": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1MedalF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1MedalF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1MedalF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1NecklaceF111": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1NecklaceF110": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1NecklaceF109": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1NecklaceF108": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1NecklaceF107": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1NecklaceF106": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1NecklaceF105": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1NecklaceF104": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1NecklaceF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1NecklaceF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1NecklaceF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1RingF108": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1RingF107": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1RingF106": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1RingF105": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1RingF104": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1RingF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1RingF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1RingF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WaistF106B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF106A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF105B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF105A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF104B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF104A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF103B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF103A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF102B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF102A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF101B": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WaistF101A": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1TorsoF118": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF117": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF116": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF115": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF114": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF113": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF112": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF111": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF110": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF109": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF108": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF107": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF106": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF105": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF104": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF103": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF102": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1TorsoF101": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF118": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF117": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF116": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF115": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF114": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF113": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF112": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF111": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF110": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF109": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF108": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF107": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF106": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF105": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF104": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF103": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF102": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShoulderF101": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF118": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF117": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF116": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF115": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF114": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF113": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF112": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF111": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF110": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF109": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF108": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF107": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF106": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF105": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF104": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF103": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF102": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1HeadF101": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF110": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1FocusF109": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF108": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF107": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF106": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF105": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF104": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1FocusF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShieldF104": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1ShieldF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShieldF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1ShieldF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF111": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WeaponCaster1hF110": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WeaponCaster1hF109": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF108": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF107": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF106": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF105": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF104": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponCaster1hF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponMelee2hF104": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WeaponMelee2hF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponMelee2hF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponMelee2hF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponGun2hF104": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WeaponGun2hF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponGun2hF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponGun2hF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponGun1hF104": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WeaponGun1hF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponGun1hF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponGun1hF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponAxeF104": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WeaponAxeF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponAxeF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponAxeF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponBluntF104": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagGDX1WeaponBluntF103": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponBluntF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponBluntF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponSwordF101": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponSwordF102": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponSwordF103": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagGDX1WeaponSwordF104": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagMedalF009": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagMedalF008": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagMedalF007": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagMedalF006": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagMedalF005": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagMedalF004": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagMedalF003": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagMedalF002": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagMedalF001": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF009": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF008": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF007": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF006": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF005": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF004": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF003": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF002": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagNecklaceF001": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF012": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF011": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF010": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF009": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF008": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF007": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF006": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF005": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF004": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF003": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF002": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagRingF001": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFeetF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFeetF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFeetF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFeetF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFeetF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHandsF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHandsF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHandsF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHandsF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWaistF018": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF017": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF016": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF015": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF014": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF013": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF012": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF011": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF010": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF009": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF008": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF007": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF006": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWaistF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagTorsoF021": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF020": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF019": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF018": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF017": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF016": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF015": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF014": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF013": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF012": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF011": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF010": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF009": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF008": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF007": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF006": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagTorsoF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF021": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF020": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF019": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF018": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF017": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF016": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF015": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF014": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF013": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF012": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF011": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF010": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF009": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF008": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF007": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF006": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShoulderF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF012": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF011": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF010": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF009": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF008": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF007": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF006": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagHeadF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF011": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagFocusF010": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagFocusF009": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF008": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF007": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF006": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagFocusF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShieldF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagShieldF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagShieldF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShieldF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagShieldF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF009": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF008": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF007": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF006": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCaster1hF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponMelee2hF006": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWeaponMelee2hF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWeaponMelee2hF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponMelee2hF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponMelee2hF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponMelee2hF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCrossbow2hF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWeaponCrossbow2hF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponCrossbow2hF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponGun2hF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponGun2hF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponGun1hF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWeaponGun1hF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponGun1hF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponGun1hF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponGun1hF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponAxeF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponAxeF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponAxeF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponBluntF005": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction",
+            "bBlueprint": true
+        },
+        "tagWeaponBluntF004": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponBluntF003": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponBluntF002": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagWeaponBluntF001": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Faction"
+        },
+        "tagItemTest": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "None"
+        },
+        "tagQuestItemBrothersAmulet": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Quest"
+        },
+        "tagQuestItemSlithRing": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "Quest"
+        },
         "tagGDX2WeaponMelee2hF204": {
             "Classification": "Legendary",
             "Type": "Regular Item",
-            "Group": "None",
+            "Group": "Faction",
+            "bBlueprint": true,
             "VersionNumber": "1.1.5.0"
         },
         "TagQualityOld": {
@@ -830,81 +2937,6 @@
         "tagGDX2NecklaceB200": {
             "Classification": "Legendary",
             "Type": "MI Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF207": {
-            "Classification": "Legendary",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF208": {
-            "Classification": "Legendary",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF209": {
-            "Classification": "Legendary",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF201": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF202": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF203": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF204": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF205": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2NecklaceF206": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2RingF201": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2RingF202": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2RingF203": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2RingF204": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2RingF205": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
-            "Group": "None"
-        },
-        "tagGDX2RingF206": {
-            "Classification": "Epic",
-            "Type": "Faction Item",
             "Group": "None"
         },
         "tagGDX2RingD206": {
