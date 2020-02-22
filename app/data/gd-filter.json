@@ -1,5 +1,129 @@
 {
     "Tags": {
+        "tagMedalB006": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagMedalB007": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagMedalB008": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagMedalB009": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2WeaponSwordD208": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2WeaponBluntD207": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2WeaponAxeD203": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2WeaponGun1hD205": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2WeaponMelee2hD205": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2WeaponMelee2hD206": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2WeaponCaster1hD208": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2ShieldD206": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2FocusD211": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "tagGDX2FocusD212": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.6.0"
+        },
+        "DamageBasePhysical": {
+            "Classification": "Damage Type",
+            "Type": "Property",
+            "Group": "Physical"
+        },
+        "tagDamageBaseFire": {
+            "Classification": "Damage Type",
+            "Type": "Property",
+            "Group": "Fire"
+        },
+        "tagDamageBaseLightning": {
+            "Classification": "Damage Type",
+            "Type": "Property",
+            "Group": "Lightning"
+        },
+        "tagDamageBaseCold": {
+            "Classification": "Damage Type",
+            "Type": "Property",
+            "Group": "Cold"
+        },
+        "tagDamageBaseVitality": {
+            "Classification": "Damage Type",
+            "Type": "Property",
+            "Group": "Vitality"
+        },
+        "tagDamageBasePoison": {
+            "Classification": "Damage Type",
+            "Type": "Property",
+            "Group": "Acid"
+        },
+        "tagDamageBaseChaos": {
+            "Classification": "Damage Type",
+            "Type": "Property",
+            "Group": "Chaos"
+        },
+        "tagDamageBaseAether": {
+            "Classification": "Damage Type",
+            "Type": "Property",
+            "Group": "Aether"
+        },
         "tagGDX2MedalF209": {
             "Classification": "Legendary",
             "Type": "Regular Item",

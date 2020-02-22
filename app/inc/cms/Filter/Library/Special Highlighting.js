@@ -70,7 +70,7 @@ module.exports = {
 
     OnChangeText_GroupName: function(InEl, InGroupName)
     {
-        let newGroupData = this.TagData.Groups[InGroupName] || {}
+        let newGroupData = this.TagData.Groups[InGroupName] || {Symbol: ``, ColorCode: `Clear`}
             , bAllowDelete = false;
         
         if (this.IsGroupUnique(InEl.value)) {
@@ -422,6 +422,16 @@ module.exports = {
         if(!this.AvailableTags){
             this.AvailableTags = Super.GetClassData(`TagInfoData`);
         }
+
+
+        if (Super.MustReloadSpecialHighlighting()){
+            console.warn("DEBUG: Reload Special Highlighting");
+            this.TagData = false;
+            this.AvailableTags = false;
+
+            wzReloadCMS(10);
+        }
+        
         let tempTagOutput;
         
         switch (this.contentType) {

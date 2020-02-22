@@ -56,6 +56,8 @@ const CheckForGameProcess = function(InCallbackFnPtr)
     });
 };
 
+let bMustReloadSpecialHighlighting = true;
+
 let RunLocaleExtract = function(InZipFile){
     let zip = new JSZip();
 
@@ -69,6 +71,7 @@ let RunLocaleExtract = function(InZipFile){
                     });
                 }
             }
+            bMustReloadSpecialHighlighting = true;
             wzReloadCMS(10);
         });
     });
@@ -93,8 +96,8 @@ module.exports = {
         }
     },
 
-    GrimDawnVersion: `1.1.5.2`,
-    LastItemVersion: `1.1.5.0`,
+    GrimDawnVersion: `1.1.6.0`,
+    LastItemVersion: `1.1.6.0`,
 
     //  data-wztip="{TOOL_TIP}" data-wztip-position="top"
     tplContent: {
@@ -278,6 +281,20 @@ module.exports = {
         if(!ClassData[`ImportantTags`]) ClassData[`ImportantTags`] = this.MakeImportantTags();
         //AddToolTips();
         //if (!MasteryNames) MasteryNames = this.MakeMasteryNames();
+    },
+
+    /**
+     * Returns TRUE when reload is required.
+     */
+    MustReloadSpecialHighlighting: function()
+    {
+        if (!bInitializedSource) return true;
+        if (typeof SourceData[`tags_skills.txt`] === `undefined`) return true;
+        if (!bMustReloadSpecialHighlighting) return false;
+
+        bMustReloadSpecialHighlighting = false;
+
+        return true;
     },
 
     GetMasteryNames: function()
@@ -674,6 +691,7 @@ module.exports = {
         });
         */
         
+       bMustReloadSpecialHighlighting = true;
         //Log(SourceData);
         return SourceData;
     },

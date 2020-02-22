@@ -241,7 +241,7 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.4.1](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.1/WanezGD_Tools-Setup-0.4.1.exe "Link from GitHub Releases") |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.4.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.2/WanezGD_Tools-Setup-0.4.2.exe "Link from GitHub Releases") |
 | ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.5.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.0/fullRainbow-1.1.5.2.zip) |
 | ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.5.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.0/diablo-1.1.5.2.zip) |
 | ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.5.2](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.0/basicHighlighting-1.1.5.2.zip) |
@@ -265,9 +265,10 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 ## Useful Links for Custom Game Mode (aka Mods)
 
-| Description              | Link                                                         |
-| ------------------------ | ------------------------------------------------------------ |
-| ***[Mod]*** Grimarillion | [Post with files and instructions](https://forums.crateentertainment.com/t/rel-grimarillion-v68/46587/1433) |
+| Description                   | Link                                                         |
+| ----------------------------- | ------------------------------------------------------------ |
+| ***[Mod]*** Grimarillion      | [Post with files and instructions](https://forums.crateentertainment.com/t/rel-grimarillion-v68/46587/1433) |
+| ***[Mod]*** Dawn of Masteries | [Post with files and instructions](https://forums.crateentertainment.com/t/dawn-of-masteries/94373/118) |
 
 *___Note:___ If a mod has files for Rainbow Filter and is not in the list, let me know about it.*
 

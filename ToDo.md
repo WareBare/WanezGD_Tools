@@ -2,17 +2,17 @@
 
 ---
 
-*Personal ToDo, trying out a different workflow, no reason for you to read this (curiosity killed the cat). This would be inside a private repo, but since this is open source, everyone can see it.*
+*Personal ToDo, no reason for you to read this (curiosity killed the cat). This would be inside a private repo, but since this is open source, everyone can see it.*
 
 ---
 
 # v0.4.2 - Hotfix
 
-- ***BugFix:*** Polish Localization sometimes displayed all gender variations for prefixes.
-- ***Data:*** Added items to internal tag database.
-  * They will now be selectable through <kbd>Special Highlighting</kbd>.
-  * They will now be colored properly for their respective rarity when using a color different to the default.
-  * Added items includes Quest Rewards, Faction Items and Blueprint Results.
+- [x] ***Tags:*** Added new tags (Items) from Grim Dawn 1.1.6.0
+- ***BugFix:*** Special Highlighing ([#ForumPost](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/387))
+  * [x] Was not updating properly when using Localizations.
+  * [x] Making a new group was causing an empty symbol to instead show `undefined`
+- [x] ***BugFix:*** Base Weapon Damage will now be shown as their respective type color. ([#ForumPost](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/399))
 
 
 
@@ -48,9 +48,9 @@ You can find all downloads in the [First Post](https://forums.crateentertainment
 
 *Tool doesn't need an update, only updating the files because of the new item fixes that came with tool v0.4.0.*
 
-## Rainbow Tool updated to v0.4.1
+## Rainbow Tool updated to v0.4.2
 
-*Tool updates itself, if you don't have the tool yet, you can find the link in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.1).*
+*Tool updates itself, if you don't have the tool yet, you can find the link in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.2).*
 
 # New Feature "Special Highlighting" (Post)
 

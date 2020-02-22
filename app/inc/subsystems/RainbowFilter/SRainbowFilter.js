@@ -182,6 +182,8 @@ module.exports = class SRainbowFilter extends Parent{
 
         if(newValue.includes(`{^E}`)){
             newValue = `${newValue.replace(`{^E}`, `${colorCode}`)}{^E}`;
+        }else if(newValue.includes(`{^S}`)){
+            newValue = `${newValue.replace(`{^S}`, `${colorCode}`)}{^S}`;
         }else if(newValue.match(/{\^[A-Za-z]}/g)){
             newValue = newValue.replace(/{\^[A-Za-z]}/g, colorCode);
         }else if(newValue.startsWith(`[`) || newValue.startsWith(`\$[`)){
