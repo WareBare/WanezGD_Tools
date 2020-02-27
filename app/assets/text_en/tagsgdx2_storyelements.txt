@@ -742,3 +742,25 @@ tagGDX2DevotionShrineN11=The Infestation
 tagGDX2DevotionShrineN12=The Conflagration
 
 tagGDX2DevotionShrineS04=???
+
+#Monster Totems
+tagGDX2MonsterTotemA01=Aetherwarped Totem
+tagGDX2MonsterTotemA01B=Forsaken Aetherwarped Totem
+tagGDX2MonsterTotemA01C=Ancient Aetherwarped Totem
+
+tagGDX2MonsterTotemA02=Voidtouched Totem
+tagGDX2MonsterTotemA02B=Forsaken Voidtouched Totem
+tagGDX2MonsterTotemA02C=Ancient Voidtouched Totem
+
+tagGDX2MonsterTotemA03=Savage Totem
+tagGDX2MonsterTotemA03B=Forsaken Savage Totem
+tagGDX2MonsterTotemA03C=Ancient Savage Totem
+
+tagGDX2MonsterTotemA04=Eldritch Totem
+tagGDX2MonsterTotemA04B=Forsaken Eldritch Totem
+tagGDX2MonsterTotemA04C=Ancient Eldritch Totem
+
+tagGDX2MonsterTotemA05=Spirit Totem
+tagGDX2MonsterTotemA05B=Forsaken Spirit Totem
+tagGDX2MonsterTotemA05C=Ancient Spirit Totem
+

@@ -297,6 +297,19 @@ tagGDX2ItemSkillD257Desc=A burst of caustic toxins erupts around you.
 tagGDX2ItemSkillD258Name=Phantasmal Nova
 tagGDX2ItemSkillD258Desc=A burst of phantasmal blades erupts around you.
 
+tagGDX2ItemSkillD259Name=Cryptstalker
+tagGDX2ItemSkillD259Desc=Your presence fills nearby enemies with the chilling dread of the crypt.
+
+tagGDX2ItemSkillD260Name=Veil Ripple
+tagGDX2ItemSkillD260Desc=A powerful force of aether energies ripples out from you.
+
+tagGDX2ItemSkillD261Name=Hyrian's Claw
+tagGDX2ItemSkillD261Desc=Lash out at your foes with the might of Hyrian infused into your shield.
+
+tagGDX2ItemSkillD262Name=World Gate
+tagGDX2ItemSkillD262Desc=Tear a rift in reality that unravels foes that stand within it. ^oWorld Gates scale with Pet Bonuses.
+tagGDX2ItemSkillD262PetSkill_Name=Unravel
+
 
 #Component Skills
 tagGDX2CompSkillA033Name=Void Weapons

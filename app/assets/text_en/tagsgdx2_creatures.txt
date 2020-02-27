@@ -291,6 +291,7 @@ tagGDX2Pet_Item_EldritchLizard=Eldritch Talon
 tagGDX2Pet_Item_EldritchShard=Eldritch Shard
 tagGDX2Pet_Item_NightRift=Nightbringer
 tagGDX2Pet_Item_YugolTentacle=Tentacle of Yugol
+tagGDX2Pet_Item_WorldGate=World Gate
 tagGDX2Pet_Item_Mini=Korvan Minivore
 tagGDX2Pet_Item_Mini_Skill=Miniroar
 tagGDX2Pet_Item_Maggot=Celestial Maggot

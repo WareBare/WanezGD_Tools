@@ -72,12 +72,9 @@ tagTutorialTip17TextB=Once you choose a mastery and apply skill points, you will
 tagTutorialTip17TextC=You will have the option to select a second mastery when your character reaches level 10.
 
 tagTutorialTip20Title=Components
-tagTutorialTip20TextA=Components can be used to upgrade your equipment. They always come in fragments, which can be combined for more potent bonuses. Rare components are denoted by a light yellow border.
+tagTutorialTip20TextA=Components can be used to upgrade your equipment. Rare components are denoted by a light yellow border.
 tagTutorialTip20SubtitleA=Attaching Components
 tagTutorialTip20TextB=Right-click a component to select it, then left-click on the item you wish to attach it to. Note that each component can only go in certain item types.
-tagTutorialTip20SubtitleB=Combining Components
-tagTutorialTip20TextC=You can combine component fragments of the same name to create more powerful bonuses.
-tagTutorialTip20TextD=Component fragments of the same type may be attached to items after the first fragment has been applied.
 
 tagTutorialTip22Title=Skill Window
 tagTutorialTip22TextA=You will earn additional skill points each time you gain a level. Invest these skill points in your mastery level or unlocked skills.

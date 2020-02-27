@@ -567,8 +567,8 @@ tagLootFilter37Info=Show items that increase Retaliation damage.
 
 tagLootFilter38=Components
 tagLootFilter38Info=Show/Hide Components.
-tagLootFilter39=Only Show Double Rare
-tagLootFilter39Info=Toggle this checkbox to only show items that have a Rare Prefix and Rare Suffix.{^N}{^N}Use this setting in conjunction with the Rare and/or Monster Infrequent filters when you only wish to search for the most potent Rare or Monster Infrequent items.
+tagLootFilter39=Always Show Double Rare
+tagLootFilter39Info=Toggle this checkbox to always show Double Rare items (Rare and Monster Infrequent Quality) regardless of your Filter Settings.{^N}{^N}Use this setting when you only wish to search for the most potent Rare or Monster Infrequent items.
 
 
 

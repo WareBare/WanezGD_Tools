@@ -1494,7 +1494,7 @@ tagItemSkillD052Name=Colossal Might
 tagItemSkillD052Desc=Mastery of shield combat has honed you into a lethal and unstoppable weapon. ^oThis is a shield passive bonus.
 
 tagItemSkillD053Name=Conjure Black Scourge
-tagItemSkillD053Desc=Your wanton slaughter calls to the void.
+tagItemSkillD053Desc=Your wanton slaughter calls to the void. Whenever a foe is slain by your hand, the sacrifice conjures forth a hungering devourer. ^oThe black scourge scales with Pet Bonuses.
 tagItemSkillD053_Pet01=Entropic End
 
 tagItemSkillD054Name=Eye of the Guardian
@@ -1515,7 +1515,7 @@ tagItemSkillD057Desc=Call out to the void and summon vile fiends to fight for yo
 tagItemSkillD057_Pet01=Chaos Flame
 
 tagItemSkillD058Name=Raise Spirit
-tagItemSkillD058Desc=Use the energy of a recent kill to call forth a tormented spirit to aid you. ^oThe spirit scales with Pet Bonuses.
+tagItemSkillD058Desc=Use the energy of a recent kill by your hand to call forth a tormented spirit to aid you. ^oThe spirit scales with Pet Bonuses.
 tagItemSkillD058_Pet01=Ghostly Touch
 
 tagItemSkillD059Name=Consumption of Agrivix
@@ -1597,7 +1597,7 @@ tagItemSkillD084Name=Exterminate
 tagItemSkillD084Desc=End your foe with a well-aimed shot.
 
 tagItemSkillD085Name=Fade from Reality
-tagItemSkillD085Desc=When a foe lands a particularly crippling blow, the protective nature of this mantle will fade you out of the physical realm so that you can recover. ^oRequires a Caster Off-Hand.
+tagItemSkillD085Desc=When danger strikes, the power of this mantle fades you out of the physical realm, granting you a brief reprieve.
 
 tagItemSkillD086Name=Falling Skies
 tagItemSkillD086Desc=The sky ripples with destructive power as a shower of falling stars crashes down upon your foes.

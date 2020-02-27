@@ -134,7 +134,7 @@ tagWeaponBluntC012=Bonesnap Gavel
 tagWeaponBluntC013=Black Hand of Sanar'Siin
 tagWeaponBluntC014=Progenitor
 tagWeaponBluntC015=War's Rebuke
-tagWeaponBluntC016=Gavel of Barthollem
+tagWeaponBluntC016=Barthollem's Verdict
 tagWeaponBluntC016Desc="Sacred gavel of Archon Barthollem, used to pass divine judgment upon the unworthy."
 tagWeaponBluntC017=Chillsteel Redeemer
 
@@ -1802,6 +1802,12 @@ tagMedalB002=Ranger's Badge
 tagMedalB003=Ikrix Scale
 tagMedalB004=Kymon's Badge
 tagMedalB005=Bloodsworn Sigil
+tagMedalB006=Ilgorr's Eternal Vigil
+tagMedalB006_Desc="The wardens of the Steps of Torment carried on their cruel vigil unto eternity."
+tagMedalB007=Ilgorr's Eternal Curse
+tagMedalB008=Lagoth'Ak's Voidbinding
+tagMedalB008_Desc="A mere echo of the vast power of the void and its master."
+tagMedalB009=Lagoth'Ak's Bloodbinding
 
 tagMedalC001=Beast Slayer's Mark
 tagMedalC002=Badge of Tenacity
@@ -3611,7 +3617,7 @@ tagItemSetC004NameB=Bloodreaper's Carnage
 tagItemSetC004Desc="Armor and weapons used only by the most bloodthirsty assassins of Cairn."
 
 tagItemSetC005Name=Marauder's Justice
-tagItemSetC005NameB=Marauder's judgment
+tagItemSetC005NameB=Marauder's Judgment
 tagItemSetC005Desc="Judge, jury, and executioner."
 
 tagItemSetC006Name=Herald's Regalia

@@ -6,13 +6,14 @@
 
 ---
 
-# v0.4.2 - Hotfix
+# v0.4.3 - Grim Dawn 1.1.6.0
 
-- [x] ***Tags:*** Added new tags (Items) from Grim Dawn 1.1.6.0
-- ***BugFix:*** Special Highlighing ([#ForumPost](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/387))
-  * [x] Was not updating properly when using Localizations.
-  * [x] Making a new group was causing an empty symbol to instead show `undefined`
-- [x] ***BugFix:*** Base Weapon Damage will now be shown as their respective type color. ([#ForumPost](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/399))
+- ***Tags:*** Added native support for Grim Dawn v1.1.6.0 Items.
+- ***BugFix:*** Special Highlighting ([BugReport Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/387))
+  * Was not updating properly when using Localizations.
+  * Making a new group was causing an empty symbol to instead show `undefined`
+- ***New:*** Base Weapon Damage will now be shown as their respective type color. ([Request Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/399))
+- ***UI:*** Various updates to texts to make features easier to understand.
 
 
 
@@ -42,11 +43,13 @@
 
 # Forum Reply
 
-## Files updated for Grim Dawn v1.1.5.2
+## Files updated for Grim Dawn v1.1.6.0
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.0).
+Tool updates itself, keep in mind colors need to be changed manually after it has finished updating.
 
-*Tool doesn't need an update, only updating the files because of the new item fixes that came with tool v0.4.0.*
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.3).
+
+
 
 ## Rainbow Tool updated to v0.4.2
 

@@ -1,4 +1,4 @@
-﻿tagTitleScreenText=Grim Dawn{^n}©2019 Crate Entertainment, LLC{^n}{^n}Please visit us at www.grimdawn.com to participate{^n}in the ongoing development of Grim Dawn!
+﻿tagTitleScreenText=Grim Dawn{^n}©2020 Crate Entertainment, LLC{^n}{^n}Please visit us at www.grimdawn.com to participate{^n}in the ongoing development of Grim Dawn!
 tagDemoScreenText=Thanks for playing!{^n}{^n}Grim Dawn is currently available on Steam, or via our website at www.grimdawn.com
 tagMenu01=Play Game
 tagMenu02=Custom Game

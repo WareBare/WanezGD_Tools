@@ -17,6 +17,7 @@ tagGDX2WeaponSwordD205=Chillheart
 tagGDX2WeaponSwordD205_Desc="The words 'stuck in another reality, please send help' are hastily etched into the hilt."
 tagGDX2WeaponSwordD206=Dunefiend's Blade
 tagGDX2WeaponSwordD207=Dunefiend's Slicer
+tagGDX2WeaponSwordD208=Noctirn
 
 tagGDX2WeaponSwordF201=Bysmiel Blade
 tagGDX2WeaponSwordF202=Solael Slicer
@@ -37,6 +38,7 @@ tagGDX2WeaponBluntD203=Targo's Mallet
 tagGDX2WeaponBluntD204=Totally Normal Buckler
 tagGDX2WeaponBluntD205=Totally Normal Dawnshard
 tagGDX2WeaponBluntD206=Totally Normal Bulwark
+tagGDX2WeaponBluntD207=Cryptstalker
 
 tagGDX2WeaponBluntF201=Bysmiel Warhammer
 tagGDX2WeaponBluntF202=Solael Warhammer
@@ -54,6 +56,8 @@ tagGDX2WeaponAxeC201=Veil's Edge
 tagGDX2WeaponAxeD201=Cinderscorn
 tagGDX2WeaponAxeD202=Scion of Crimson Wakes
 tagGDX2WeaponAxeD202_Desc="The very air ripples around the edge of this weapon's intense heat."
+tagGDX2WeaponAxeD203=Stormrend
+tagGDX2WeaponAxeD203_Desc="The edge rips through the air with the primal force of a storm."
 
 tagGDX2WeaponAxeF201=Bysmiel Cleaver
 tagGDX2WeaponAxeF202=Dreeg Cleaver
@@ -73,6 +77,8 @@ tagGDX2WeaponGun1hD202=Oathbearer
 tagGDX2WeaponGun1hD202_Desc="Marked by oaths unbroken, released by death."
 tagGDX2WeaponGun1hD203=Arcanum Frigus
 tagGDX2WeaponGun1hD204=Ludrigan's Sidearm
+tagGDX2WeaponGun1hD205=Phasebreaker
+tagGDX2WeaponGun1hD205_Desc="The shots fired from this firearm phase through reality as if it were air."
 
 tagGDX2WeaponGun1hF201=Bysmiel Handcannon
 tagGDX2WeaponGun1hF202=Dreeg Handcannon
@@ -119,6 +125,8 @@ tagGDX2WeaponMelee2hD203=Wrath of Tenebris
 tagGDX2WeaponMelee2hD203_Desc="The Lifestealer of Tenebris, the Blood Drinker, sanctified in the heart of the void."
 tagGDX2WeaponMelee2hD204=Nightbringer
 tagGDX2WeaponMelee2hD204_Desc="Great weapon of Morgoneth, forged within a dying star."
+tagGDX2WeaponMelee2hD205=Scion of Arcane Force
+tagGDX2WeaponMelee2hD206=Scion of the Screaming Veil
 
 tagGDX2WeaponMelee2hF201=Dreeg Greatsword
 tagGDX2WeaponMelee2hF202=Solael Beheader
@@ -149,6 +157,7 @@ tagGDX2WeaponCaster1hD204=Empyrion's Mercy
 tagGDX2WeaponCaster1hD205=Chillwhisper Blade
 tagGDX2WeaponCaster1hD206=Judgment of the Three
 tagGDX2WeaponCaster1hD207=Blightlord's Carver
+tagGDX2WeaponCaster1hD208=Voidspire
 
 tagGDX2WeaponCaster1hF201=Bysmiel Stormbreaker
 tagGDX2WeaponCaster1hF202=Bysmiel Soulbreaker
@@ -178,6 +187,7 @@ tagGDX2ShieldD202=Gravetouch
 tagGDX2ShieldD203=Virtue's Defender
 tagGDX2ShieldD204=Defender of the Three
 tagGDX2ShieldD205=Voidsoul Bulwark
+tagGDX2ShieldD206=Hyrian's Bulwark
 
 tagGDX2ShieldF201=Bysmiel Defender
 tagGDX2ShieldF202=Dreeg Protector
@@ -214,6 +224,9 @@ tagGDX2FocusD209=Jarinthor's Head
 tagGDX2FocusD209_Desc="The head of the guardian of Korvan history best left forgotten."
 tagGDX2FocusD210=Hallanx's Head
 tagGDX2FocusD210_Desc="Though made of stone, the head of the guardian reeks of decay."
+tagGDX2FocusD211=Scion of Celestial Portents
+tagGDX2FocusD212=Gate to Many Worlds
+tagGDX2FocusD212_Desc="The weave of reality itself twists and threatens to unravel."
 
 tagGDX2FocusF201=Bysmiel Veilfire Effigy
 tagGDX2FocusF202=Bysmiel Tainted Effigy

@@ -140,7 +140,7 @@ module.exports = {
 
         if(InLibraryData.bReadOnly){
             // Read Only
-            outStr += `<span class="Msg_Warn">This entry is ReadOnly, you cannot change its settings, but you can make a new one based on it. When you change the Package Name to something that does not yet exist and different to the current one, you will see a new button on the right to "Create New Entry". The name can be updated later with another button "Update Entry" as well as other data.</span><br />`;
+            outStr += `<span class="Msg_Warn">This entry is ReadOnly, you cannot change its settings, but you can make a new one based on it.</span><br />A few simple steps on how to do make a copy of this that is customizable: <ul><li>Change "Package Name" to something that does not yet exist and is different to the current one</li><li>A new button <kbd>Create Entry</kbd> on the right will appear</li><li>Click that button and reload the page with "F5" when it's finished (this will force a reload of the new entry)</li><li><b>Note:</b> The name can be updated later with the button <kbd>Update Entry</kbd> and the entire entry deleted with <kbd>Delete Entry</kbd>.</li></ul><br />`;
         }else{
             // Writable
             tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
@@ -233,6 +233,8 @@ module.exports = {
         
         if(InLibraryData.bReadOnly){
             tempFormItemOutput += `<span class="Msg_Warn">This entry is ReadOnly, you may view its colors, but not change them, but you may create a copy of this library entry and change the copy to your needs.</span><br />`;
+        }else if(!Super.IsUsingLocale()){
+            tempFormItemOutput += `<span>Any changes to "Clear" may require you to use <kbd>Remove Colors</kbd> before saving. You may also use "Auto-Delete Old Files" in settings and not worry about old files. If you're still experiencing issues reload the tool with "F5" and remove/save again.</span><br />`
         }
 
         for(let i = 0; i <= InLibraryData.Data.length - 1; i++){
@@ -679,7 +681,7 @@ module.exports = {
             if(!this.CheckPackageNameDupe() && this.contentType !== this.CurrentPackageNameInput){
                 outButtons.push({
                     "ONCLICK": "_cms.OnClick_CreateLibraryEntry()",
-                    "TEXT": "Create New Entry"
+                    "TEXT": "Create Entry"
                 });
                 if(!this.LibraryData.bReadOnly){
                     outButtons.push({

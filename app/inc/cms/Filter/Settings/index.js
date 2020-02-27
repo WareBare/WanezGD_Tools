@@ -177,7 +177,7 @@ module.exports = {
                 ON_CLICK_FN: `_cms.OnClickCheckBox_bEnableAutoDelete(this)`
                 , LABEL: `Auto-Delete Old Files`
                 , B_CHECKED: (appConfig.get(`Filter.bEnableAutoDelete`)) ? ` CHECKED` : ``
-            , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bEnableAutoDelete`)) ? `Deletes filter files before creating new ones.` : `Overwrites old files.`}</li><li>This is needed when color presets do not require the same files to be edited.</li><li>You can manually delete files with the button on the right-hand side <kbd class="DefaultBtn">Delete Old Files</kbd>.</li><li class="Msg_Warn">Deletes all files in /settings/text_en/ when you use <kbd class="DefaultBtn">Save Colors</kbd>.<ul><li>if coloring files are the only files, you have nothing to worry about.</li></ul></li></ul>`
+            , TOOL_TIP: `<ul><li class="Msg_Warn">Current selection will ${(appConfig.get(`Filter.bEnableAutoDelete`)) ? `delete tag files before creating new ones.` : `overwrite any existing Rainbow File. (Note: unchanged files may cause issues)`}</li><li>This is needed when color presets do not require the same files to be edited.</li><li>You can manually delete files with the button on the right-hand side <kbd>Remove Colors</kbd>.</li><li class="Msg_Warn">Deletes all files in /settings/text_en/ when you use <kbd>Save Colors</kbd>.<ul><li>if Rainbow Files are the only files, you have nothing to worry about.</li></ul></li></ul>`
             });
         }
         
@@ -348,11 +348,12 @@ module.exports = {
         tempFormItemOutput += actionBtnMap.MakeOutput();
         tempFormItemOutput += `<br />`;
 
-        tempFormItemOutput += Super.tplContent.TextField.wzReplace({
+        tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
             TEXT: Super.GetGrimDawnPath() || ``
             , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPath(this)`
-            , LABEL: `Grim Dawn - Path`
+            , LABEL: `Grim Dawn Directory - Path`
             , SETTINGS: ` style="width: 650px;"`
+            , TOOL_TIP: `<ul><li>Required</li><li>Primary save location for created files.</li><li>Uses ArchiveTool.exe (from Crate Ent.) to extract the required text files.</li><li>Example: C:/Program Files (x86)/Steam/steamapps/common/Grim Dawn</li></ul>`
             , ERROR_MSG: (bPathCorrect) ? `` : `Path must be wrong!`
         });
         if(bPathCorrect && !Super.IsUsingLocale()){
