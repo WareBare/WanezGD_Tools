@@ -31,6 +31,66 @@ ExecuteProgramGD = function(InExecutable){
     }
 };
 
+
+fnRunGame_GrimDawnGI = function(InEvent){
+    Log(`Launch Grim Dawn (GI)`);
+    const pathGrimDawn = appConfig.get(`GrimDawn.Paths.Game`);
+    const bPathGameFileExists = fs.existsSync(`${pathGrimDawn}/Grim Dawn.exe`);
+
+    if (bPathGameFileExists) {
+        try{
+            //Log(`"${pathGrimDawn}/GrimInternals64.exe"`);
+            child_process.execSync(`cd "${pathGrimDawn}" && "GrimInternals64.exe"`);
+            window.hide();
+        }catch(err){
+            console.error(err);
+
+            fnRunGame_GrimDawn(InEvent);
+            /*
+            try{
+                child_process.execSync(`"${pathGrimDawn}/Grim Dawn.exe"`);
+                window.hide();
+            }catch(err2){
+                console.error(err2);
+            }
+            */
+        }
+    }else{
+        console.log(`wrong path`);
+        window.show();
+    }
+}
+
+fnRunGame_GrimDawn = function(InEvent){
+    Log(`Launch Grim Dawn`);
+    const pathGrimDawn = appConfig.get(`GrimDawn.Paths.Game`);
+    const bPathGameFileExists = fs.existsSync(`${pathGrimDawn}/Grim Dawn.exe`);
+
+    let launchOptions = ``;
+    if (appConfig.get(`Launcher.bForceGrimDawn64`))
+    {
+        launchOptions += ` /x64`
+    }
+
+    if (bPathGameFileExists) 
+    {
+        try
+        {
+            child_process.execSync(`"${pathGrimDawn}/Grim Dawn.exe"${launchOptions}`);
+            window.hide();
+        }
+        catch (err)
+        {
+            console.error(err);
+        }
+    }
+    else
+    {
+        console.log(`wrong path`);
+        window.show();
+    }
+}
+
 wzUpdateHeader = function(InMessage, bInUseNotify = false)
 {
     InMessage = (InMessage !== ``) ? InMessage : `...`;
@@ -85,26 +145,49 @@ SanitizeLinks = function(InHTML){
 let keyUp = (e) => {
     //console.log(e.keyCode);
     
-    if(e.keyCode === 116){
+    if (e.keyCode === 116)
+    {
         location.reload();
-    }else if(e.keyCode === 112){
+    }
+    else if (e.keyCode === 112)
+    {
         wzCMS([`Docs`,`ReadMe`]);
-    }else if(e.keyCode === 113){
+    }
+    else if (e.keyCode === 113)
+    {
         wzCMS([`Docs`,`Change Log`]);
-    }else if(e.keyCode === 117){
+    }
+    else if (e.keyCode === 117)
+    {
         //wzWND('Settings').refresh();
-    }else if(e.keyCode === 38){ // arrow UP
-        if(_cms.ActiveListItem){
+    }
+    else if (e.keyCode === 38) // arrow UP
+    {
+        if (_cms.ActiveListItem)
+        {
             //Log(`Enabled UP`);
             _cms.UpdateGroupIndexInLibrary(true);
         }
-    }else if(e.keyCode === 40){ // arrow DOWN
-        if(_cms.ActiveListItem){
+    }
+    else if (e.keyCode === 40) // arrow DOWN
+    {
+        if (_cms.ActiveListItem)
+        {
             _cms.UpdateGroupIndexInLibrary(false);
             //Log(`Enabled DOWN`);
         }
     }
-    //Log(e.keyCode);
+    else if (e.keyCode === 119)
+    {
+        // Launch GD (GI)
+        fnRunGame_GrimDawnGI();
+    }
+    else if (e.keyCode === 120)
+    {
+        // Launch GD (Base Game)
+        fnRunGame_GrimDawn();
+    }
+    Log(e.keyCode);
 };
 let keyDown = (e) => {
     

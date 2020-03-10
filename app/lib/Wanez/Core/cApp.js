@@ -15,7 +15,15 @@ class cApp extends libWZ.Core.cBase{
         const window = remote.getCurrentWindow();
 
         document.getElementById(`AppBtn_Minimize`).addEventListener(`click`, function(e){
-            window.minimize();
+            if (appConfig.get(`ProgramOptions.bMinimizeToTray`))
+            {
+                window.hide();
+            }
+            else
+            {
+                window.minimize();
+            }
+            
         });
 
         document.getElementById(`AppBtn_Maximize`).addEventListener(`click`, function(e){
@@ -28,46 +36,32 @@ class cApp extends libWZ.Core.cBase{
 
         document.getElementById(`AppBtn_Close`).addEventListener(`click`, function(e){
             //window.close();
-            window.hide();
+            if (appConfig.get(`ProgramOptions.bCloseToTray`))
+            {
+                window.hide();
+            }
+            else
+            {
+                window.close();
+            }
         });
 
-        const fnRunGame = function(InEvent){
-            Log(`start`);
-            const pathGrimDawn = appConfig.get(`GrimDawn.Paths.Game`);
-            const bPathGameFileExists = fs.existsSync(`${pathGrimDawn}/Grim Dawn.exe`);
-
-            if (bPathGameFileExists) {
-                try{
-                    //Log(`"${pathGrimDawn}/GrimInternals64.exe"`);
-                    child_process.execSync(`cd "${pathGrimDawn}" && "GrimInternals64.exe"`);
-                    window.hide();
-                }catch(err){
-                    console.error(err);
-
-                    try{
-                        child_process.execSync(`"${pathGrimDawn}/Grim Dawn.exe"`);
-                        window.hide();
-                    }catch(err2){
-                        console.error(err2);
-                    }
-                }
-            }else{
-                console.log(`wrong path`);
-                window.show();
-            }
-        }
 
         require('electron').ipcRenderer.on(`ShowWindow`, (InEvent) => {
             window.show();
             //console.log(`Showing Window again`);
             wzReloadCMS(10);
         });
-        require('electron').ipcRenderer.on(`RunGame`, fnRunGame);
+        require('electron').ipcRenderer.on(`RunGame_GrimDawn`, fnRunGame_GrimDawn);
+        require('electron').ipcRenderer.on(`RunGame_GrimDawnGI`, fnRunGame_GrimDawnGI);
 
         document.getElementById(`App_RunGrimDawn`).addEventListener(`click`, () => {
-            fnRunGame(false)
+            fnRunGame_GrimDawnGI(false)
         });
 
+        document.getElementById(`App_RunGrimDawn`).addEventListener(`contextmenu`, () => {
+            fnRunGame_GrimDawn(false)
+        });
 
         
 
@@ -172,7 +166,7 @@ class cApp extends libWZ.Core.cBase{
         const tmpHeaderTitleContent = `<div id="app_HeaderApps">{TEXT}</div>`;
         const tmpHeaderNotifyContent = `<div id="App_HeaderNotify">Loading...</div>`;
         const tmpRefreshButton = `<img src="img/refresh.png" onclick="location.reload();" title="Reload (F5)"></img>`;
-        const runGrimDawnGame = `<img id="App_RunGrimDawn" src="img/Grim Dawn.png" title="Start Grim Dawn"></img>`;
+        const runGrimDawnGame = `<img id="App_RunGrimDawn" src="img/Grim Dawn.png" title="Play Game: Grim Dawn \n- left-click will try to launch GI first (F8)\n- right-click launches the game without GI (F9)"></img>`;
 
         outHeader.CONTENT += tmpNotifyAreaContent;
         outHeader.CONTENT += tmpHeaderTitleContent.wzReplace({

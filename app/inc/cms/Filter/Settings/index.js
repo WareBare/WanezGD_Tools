@@ -81,16 +81,80 @@ module.exports = {
         wzReloadCMS(10);
     },
 
+    OnSubmitForm_bForceGrimDawn64: function (el)
+    {
+        appConfig.set(`Launcher.bForceGrimDawn64`, el.checked);
+
+        wzReloadCMS(10);
+    },
+    OnSubmitForm_bMinimizeToTray: function (el)
+    {
+        appConfig.set(`ProgramOptions.bMinimizeToTray`, el.checked);
+
+        wzReloadCMS(10);
+    },
+    OnSubmitForm_bCloseToTray: function (el)
+    {
+        appConfig.set(`ProgramOptions.bCloseToTray`, el.checked);
+
+        wzReloadCMS(10);
+    },
+
+    MakeContent_ToolOptions: function()
+    {
+        let outStr = ``;
+        let tempFormItemOutput = ``;
+
+        tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
+            ON_CLICK_FN: `_cms.OnSubmitForm_bForceGrimDawn64(this)`
+            , LABEL: `Force x64 Grim Dawn Launch`
+            , TOOL_TIP: `<ul><li>This is not required when your "Steam Launch Option" is set to /x64</li><li>Not needed for launching GI.</li><li>Note: I only have steam to test - GoG might not work.</li></ul>`
+            , B_CHECKED: (appConfig.get(`Launcher.bForceGrimDawn64`)) ? ` CHECKED` : ``
+        });
+
+        if (typeof appConfig.get(`ProgramOptions.bMinimizeToTray`) === `undefined`) 
+        {
+            appConfig.set(`ProgramOptions.bMinimizeToTray`, false);
+        }
+        tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
+            TEXT: Super.GetGrimDawnPath()
+            , ON_CLICK_FN: `_cms.OnSubmitForm_bMinimizeToTray(this)`
+            , LABEL: `Minimize to tray`
+            , TOOL_TIP: `<ul><li>Rainbow Tool will be minimized to System-Tray when minimized (rather than to the taskbar).</li><li>Click the icon in the System-Tray to open Rainbow Tool again.</li><li>Right-Click the icon in the System-Tray brings up a context-menu.</li></ul>`
+            , B_CHECKED: (appConfig.get(`ProgramOptions.bMinimizeToTray`)) ? ` CHECKED` : ``
+        });
+
+        if (typeof appConfig.get(`ProgramOptions.bCloseToTray`) === `undefined`) 
+        {
+            appConfig.set(`ProgramOptions.bCloseToTray`, true);
+        }
+        tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
+            TEXT: Super.GetGrimDawnPath()
+            , ON_CLICK_FN: `_cms.OnSubmitForm_bCloseToTray(this)`
+            , LABEL: `Close to tray`
+            , TOOL_TIP: `<ul><li>Rainbow Tool will be minimized to System-Tray when closed (rather than closing Rainbow Tool entirely).</li><li>Click the icon in the System-Tray to open Rainbow Tool again.</li><li>Right-Click the icon in the System-Tray brings up a context-menu.</li></ul>`
+            , B_CHECKED: (appConfig.get(`ProgramOptions.bCloseToTray`)) ? ` CHECKED` : ``
+        });
+        
+        outStr += Super.tplContent.FormContainer.wzReplace({
+            TITLE: `Tool Options`
+            , CONTENTS: `${tempFormItemOutput}`
+        });
+
+        return outStr;
+    },
+
     MakeContent_Localization: function(){
         let outStr = ``
             , tempFormItemOutput = ``;
 
         //
         tempFormItemOutput = ``;
-        tempFormItemOutput += Super.tplContent.CheckBox.wzReplace({
+        tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
             TEXT: Super.GetGrimDawnPath()
             , ON_CLICK_FN: `_cms.OnSubmitForm_bUseLanguage(this)`
             , LABEL: `Use Localization`
+            , TOOL_TIP: `<ul><li>This is only required when using a different language for Grim Dawn.</li></ul>`
             , B_CHECKED: (Super.IsUsingLocale()) ? ` CHECKED` : ``
         });
 
@@ -340,7 +404,7 @@ module.exports = {
         if(bPathCorrect) {
             actionBtnMap.Add(`OpenInExplorer`, {
                 Text: `Open in Explorer`
-                , Tip: `<ul><li>Opens Grim Dawn - Path in Explorer.</li></ul>`
+                , Tip: `<ul><li>Opens Grim Dawn Directory in Explorer.</li></ul>`
             });
             //tempFormItemOutput += `<span class="formBTN" onclick="require('electron').shell.openExternal('${Super.GetGrimDawnPath()}')">Open in Explorer</span><br />`;
         }
@@ -373,7 +437,11 @@ module.exports = {
             , CONTENTS: `${tempFormItemOutput}`
         });
 
-        if(bPathCorrect){
+        if (bPathCorrect)
+        {
+            outStr += `<br />`;
+            outStr += this.MakeContent_ToolOptions();
+            outStr += `<br />`;
             outStr += this.MakeContent_Localization();
             outStr += `<br />`;
             outStr += this.MakeContent_FilterOverview();

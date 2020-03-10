@@ -6,13 +6,16 @@
 
 ---
 
-# v0.4.3 - Grim Dawn 1.1.6.0
+# v0.4.4 - QoL
 
-- ***Tags:*** Added native support for Grim Dawn v1.1.6.0 Items.
-- ***BugFix:*** Special Highlighting ([BugReport Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/387))
-  * Was not updating properly when using Localizations.
-  * Making a new group was causing an empty symbol to instead show `undefined`
-- ***New:*** Base Weapon Damage will now be shown as their respective type color. ([Request Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/399))
+- ***New:*** Functionality added for more Grim Dawn launching options.
+  * Left-Click prioritizes Grim Internals (GI), it still launches the regular game if GI could not be found.
+  * Right-Click launches the regular game even if GI is installed. ([Forum Request](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/418))
+  * Updated tray icon context-menu to reflect these additions.
+  * A new option was added to Settings that forces Grim Dawn to launch x64 - this only concerns a non-GI launch when no launch option is set in Steam.
+- ***New:*** You may now decide whether you want to close Rainbow Tool to the System-Tray or entirely.
+  * Also added an option to minimize it to System-Tray (rather than Taskbar).
+- ***BugFix:*** Mastery Marker was not working on `Sigil of Consumption` ([BugReport Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/421))
 - ***UI:*** Various updates to texts to make features easier to understand.
 
 
@@ -43,17 +46,23 @@
 
 # Forum Reply
 
-## Files updated for Grim Dawn v1.1.6.0
+## Files and Tool updated for Grim Dawn v1.1.6.0
 
-Tool updates itself, keep in mind colors need to be changed manually after it has finished updating.
+Tool updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
 You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.3).
 
 
 
-## Rainbow Tool updated to v0.4.2
+## Rainbow Tool updated to v0.4.4
 
-*Tool updates itself, if you don't have the tool yet, you can find the link in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.2).*
+*Tool updates itself, if you don't have the tool yet, you can find the link in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.4).*
+
+[details="Change Log"]
+
+[/details]
+
+*No text changes with Grim Dawn 1.1.6.1 that require an update to the files.*
 
 # New Feature "Special Highlighting" (Post)
 

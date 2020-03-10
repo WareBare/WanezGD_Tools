@@ -151,10 +151,18 @@ function createWindow () {
             , enabled: true
         },
         {
-            label: 'Start Grim Dawn'
+            label: 'Launch Grim Dawn (GI)'
             , type: 'normal'
             , click: () => {
-                win.webContents.send(`RunGame`);
+                win.webContents.send(`RunGame_GrimDawnGI`);
+            }
+            , enabled: true
+        },
+        {
+            label: 'Launch Grim Dawn'
+            , type: 'normal'
+            , click: () => {
+                win.webContents.send(`RunGame_GrimDawn`);
             }
             , enabled: true
         },
