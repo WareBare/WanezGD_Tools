@@ -240,7 +240,7 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.4.4](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.4/WanezGD_Tools-Setup-0.4.4.exe "Link from GitHub Releases") |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.0/WanezGD_Tools-Setup-0.5.0.exe "Link from GitHub Releases") |
 | ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.6.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.3/fullRainbow-1.1.6.0.zip) |
 | ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.6.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.3/diablo-1.1.6.0.zip) |
 | ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.6.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.3/basicHighlighting-1.1.6.0.zip) |

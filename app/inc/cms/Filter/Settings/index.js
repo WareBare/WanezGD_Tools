@@ -20,6 +20,7 @@ module.exports = {
         //Log(el.value);
         appConfig.set(`GrimDawn.Paths.Game`, el.value.replace(/\\/g, `/`));
 
+
         /*
         setTimeout(function(){
             Super.Init();
@@ -32,7 +33,15 @@ module.exports = {
         wzReloadCMS(10);
     },
     OnSubmitForm_GdPathAdd: function(el){
-        appConfig.set(`GrimDawn.Paths.UserData`, el.value);
+        appConfig.set(`GrimDawn.Paths.UserData`, el.value.replace(/\\/g, `/`));
+        Super.Init();
+
+        wzReloadCMS(10);
+    },
+
+    OnSubmitForm_SteamPathAdd: function (el)
+    {
+        appConfig.set(`Paths.SteamDirectory`, el.value.replace(/\\/g, `/`));
         Super.Init();
 
         wzReloadCMS(10);
@@ -100,50 +109,6 @@ module.exports = {
         wzReloadCMS(10);
     },
 
-    MakeContent_ToolOptions: function()
-    {
-        let outStr = ``;
-        let tempFormItemOutput = ``;
-
-        tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
-            ON_CLICK_FN: `_cms.OnSubmitForm_bForceGrimDawn64(this)`
-            , LABEL: `Force x64 Grim Dawn Launch`
-            , TOOL_TIP: `<ul><li>This is not required when your "Steam Launch Option" is set to /x64</li><li>Not needed for launching GI.</li><li>Note: I only have steam to test - GoG might not work.</li></ul>`
-            , B_CHECKED: (appConfig.get(`Launcher.bForceGrimDawn64`)) ? ` CHECKED` : ``
-        });
-
-        if (typeof appConfig.get(`ProgramOptions.bMinimizeToTray`) === `undefined`) 
-        {
-            appConfig.set(`ProgramOptions.bMinimizeToTray`, false);
-        }
-        tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
-            TEXT: Super.GetGrimDawnPath()
-            , ON_CLICK_FN: `_cms.OnSubmitForm_bMinimizeToTray(this)`
-            , LABEL: `Minimize to tray`
-            , TOOL_TIP: `<ul><li>Rainbow Tool will be minimized to System-Tray when minimized (rather than to the taskbar).</li><li>Click the icon in the System-Tray to open Rainbow Tool again.</li><li>Right-Click the icon in the System-Tray brings up a context-menu.</li></ul>`
-            , B_CHECKED: (appConfig.get(`ProgramOptions.bMinimizeToTray`)) ? ` CHECKED` : ``
-        });
-
-        if (typeof appConfig.get(`ProgramOptions.bCloseToTray`) === `undefined`) 
-        {
-            appConfig.set(`ProgramOptions.bCloseToTray`, true);
-        }
-        tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
-            TEXT: Super.GetGrimDawnPath()
-            , ON_CLICK_FN: `_cms.OnSubmitForm_bCloseToTray(this)`
-            , LABEL: `Close to tray`
-            , TOOL_TIP: `<ul><li>Rainbow Tool will be minimized to System-Tray when closed (rather than closing Rainbow Tool entirely).</li><li>Click the icon in the System-Tray to open Rainbow Tool again.</li><li>Right-Click the icon in the System-Tray brings up a context-menu.</li></ul>`
-            , B_CHECKED: (appConfig.get(`ProgramOptions.bCloseToTray`)) ? ` CHECKED` : ``
-        });
-        
-        outStr += Super.tplContent.FormContainer.wzReplace({
-            TITLE: `Tool Options`
-            , CONTENTS: `${tempFormItemOutput}`
-        });
-
-        return outStr;
-    },
-
     MakeContent_Localization: function(){
         let outStr = ``
             , tempFormItemOutput = ``;
@@ -160,10 +125,10 @@ module.exports = {
 
         if(Super.IsUsingLocale()){
 
-            let localeContents = fs.readdirSync(`${Super.Paths.Locale}`)
-                , localeZips = []
-                , localeDefs
-                , localeOptions = [];
+            let localeContents = fs.readdirSync(`${Super.Paths.Locale}`);
+            let localeZips = [];
+            let localeDefs;
+            let localeOptions = [];
 
 
             for(let localeIndex in localeContents){
@@ -391,16 +356,153 @@ module.exports = {
     OnClickBtn_OpenInExplorer: function(){
         require('electron').shell.openExternal(`${Super.GetGrimDawnPath()}`);
     },
+    OnClickBtn_FindPaths: function(){
+        wzUpdateHeader(`Trying to find installation paths, this may take a moment.`);
+
+        const steamExe = `steam.exe`;
+        //const gameExe = `Clicker Heroes.exe`;
+        const gameExe = `Grim Dawn.exe`;
+        //const gameExe = `ArchiveTool.exe`;
+        const commonDirectories_Steam = [
+            "C:/Program Files (x86a)/Steam"
+            , "C:/Program Files/Steam"
+            , "D:/Program Files (x86)/Steam"
+            , "D:/Program Files/Steam"
+        ];
+        const commonDirectories_GOG = [
+            "C:/Program Files"
+            , "C:/Program Files (x86)"
+            , "D:/Program Files"
+            , "D:/Program Files (x86)"
+        ];
+        const registrySteam = `HKEY_CURRENT_USER\\Software\\Valve\\Steam`;
+        const steamLibFoldersFile = `libraryfolders.vdf`;
+        const steamGameSubDir = `steamapps\\common`;
+
+        let b64BitSystem = true;
+
+        setTimeout( () => {
+            // Check common directories for steam.
+            let dirSteam = Super.FindPathToFile(steamExe, commonDirectories_Steam);
+            let dirGame = false;
+
+            // Nothing found in common directories, check regestry for installation folder.
+            if (dirSteam === false)
+            {
+                dirSteam = Super.GetValueFromRegistry(registrySteam, `SteamPath`) || false;
+            }
+
+            // Steam was found, check for Grim Dawn inside the same directory
+            if (dirSteam)
+            {
+                // Check steam path for (x86), this means it is likely a 64-bit system.
+                b64BitSystem = dirSteam.includes(`(x86)`);
+
+                dirGame = Super.FindPathToFile(gameExe, [`${dirSteam}\\${steamGameSubDir}`]);
+
+                // Grim Dawn could not be found, check `libraryfolders.vdf` for alternate steam libraries.
+                if (dirGame === false)
+                {
+                    try
+                    {
+                        let steamLibData = fs.readFileSync(`${dirSteam}\\steamapps\\${steamLibFoldersFile}`).toString();
+                        const splitSteamLibData = steamLibData.replace(/\r?\n/g).split(`"`);
+
+                        for (let steamLibDataIndex = 0; steamLibDataIndex < splitSteamLibData.length; steamLibDataIndex++) {
+                            const element = splitSteamLibData[steamLibDataIndex];
+                            
+                            if (element.includes(`:\\\\`) === false) continue;
+
+                            dirGame = Super.FindPathToFile(gameExe, [`${element.replace(`\\\\`, `\\`)}\\${steamGameSubDir}`]);
+
+                            // Grim Dawn found in one of the alternate steam libraries.
+                            if (dirGame) break;
+                        }
+                    }
+                    catch (err)
+                    {
+                        console.error(err);
+                    }
+                    
+                }
+            }
+
+            // Steam was not found, check for Grim Dawn in common directories (for GOG).
+            if (dirGame === false)
+            {
+                dirGame = Super.FindPathToFile(gameExe, commonDirectories_GOG);
+            }
+
+            // Set settings.
+            if (dirGame)
+            {
+                console.log(`Grim Dawn Path: ${dirGame}`);
+                appConfig.set(`GrimDawn.Paths.Game`, dirGame.replace(/\\/g, `/`));
+
+                if (fs.existsSync(`${dirGame}\\localization`))
+                {
+                    const localeFiles = fs.readdirSync(`${dirGame}\\localization`);
+
+                    if (typeof localeFiles[0] !== `undefined`)
+                    {
+                        appConfig.set(`Filter.bUseLocale`, true);
+                    }
+                }
+
+                if (fs.existsSync(`${dirGame}\\gdx2`))
+                {
+                    appConfig.set(`RadioGroupStorage.GrimDawnXPacOptions`, `gdx2`);
+                }
+                else if (fs.existsSync(`${dirGame}\\gdx1`))
+                {
+                    appConfig.set(`RadioGroupStorage.GrimDawnXPacOptions`, `gdx1`);
+                }
+                else
+                {
+                    appConfig.set(`RadioGroupStorage.GrimDawnXPacOptions`, `gdx0`);
+                }
+                
+            }
+            if (dirSteam)
+            {
+                console.log(`Steam Path: ${dirSteam}`);
+                appConfig.set(`Paths.SteamDirectory`, dirSteam.replace(/\\/g, `/`));
+            }
+
+            if (b64BitSystem)
+            {
+                appConfig.set(`RadioGroupStorage.GrimDawnSystemType`, `x64`);
+            }
+            else
+            {
+                appConfig.set(`RadioGroupStorage.GrimDawnSystemType`, `x86`);
+            }
+            
+
+            setTimeout(() => {
+                wzUpdateHeader(`Finished process of finding paths, an empty field means a path could not be found. You will have to enter one yourself.`);
+            }, 100);
+            
+            Super.Init();
+            wzReloadCMS(10);
+        }, 100 );
+        
+    },
 
     MakeContent_Default: function(){
         let outStr = ``
-            , bPathCorrect = Super.IsPathCorrect()
-            , tempFormItemOutput = ``;
+        let bPathCorrect = Super.IsPathCorrect()
+        let coreOptionsOutput = ``;
+        let tempFormItemOutput = ``;
             
         let actionBtnMap = new TButton();
 
         tempFormItemOutput = ``;
 
+        actionBtnMap.Add(`FindPaths`, {
+            Text: `Predict Settings`
+            , Tip: `<ul><li>Gets several settings by checking C: and D: for Grim Dawn and Steam.</li><li><i><b>Note:</b></i> <span class="Msg_Warn">This may take a moment</span> and old settings will be overwritten.</li><li><i><b>Note:</b></i> Steam is fully supported, <span class="Msg_Warn">GOG may still have some issues</span>.</li></ul>`
+        });
         if(bPathCorrect) {
             actionBtnMap.Add(`OpenInExplorer`, {
                 Text: `Open in Explorer`
@@ -409,7 +511,7 @@ module.exports = {
             //tempFormItemOutput += `<span class="formBTN" onclick="require('electron').shell.openExternal('${Super.GetGrimDawnPath()}')">Open in Explorer</span><br />`;
         }
 
-        tempFormItemOutput += actionBtnMap.MakeOutput();
+        coreOptionsOutput += actionBtnMap.MakeOutput();
         tempFormItemOutput += `<br />`;
 
         tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
@@ -418,29 +520,176 @@ module.exports = {
             , LABEL: `Grim Dawn Directory - Path`
             , SETTINGS: ` style="width: 650px;"`
             , TOOL_TIP: `<ul><li>Required</li><li>Primary save location for created files.</li><li>Uses ArchiveTool.exe (from Crate Ent.) to extract the required text files.</li><li>Example: C:/Program Files (x86)/Steam/steamapps/common/Grim Dawn</li></ul>`
-            , ERROR_MSG: (bPathCorrect) ? `` : `Path must be wrong!`
+            , ERROR_MSG: (bPathCorrect) ? `` : ( (Super.GetGrimDawnPath() === false) ? `Enter a path (or use "Predict Settings")` : `Path must be wrong!` )
         });
-        if(bPathCorrect && !Super.IsUsingLocale()){
+
+
+
+        let additionalOptionsOutput = ``;
+        if(bPathCorrect){
+            if(!Super.IsUsingLocale()){
+                tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
+                    TEXT: appConfig.get(`GrimDawn.Paths.UserData`) || ``
+                    , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPathAdd(this)`
+                    , LABEL: `Grim Dawn - User Data Path [optional]`
+                    , SETTINGS: ` style="width: 650px;"`
+                    , TOOL_TIP: `<ul><li>Optional</li><li>Localizations are not affected by this.</li><li>This can be used if you are experiencing tag issues</li><li>Example: C:/Users/Ware/Documents/My Games/Grim Dawn</li></ul>`
+                    , ERROR_MSG: ``
+                });
+            }
+            tempFormItemOutput += `<br />`;
+
             tempFormItemOutput += Super.tplContent.TextFieldWithTip.wzReplace({
-                TEXT: appConfig.get(`GrimDawn.Paths.UserData`) || ``
-                , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPathAdd(this)`
-                , LABEL: `Grim Dawn - User Data Path [optional]`
+                TEXT: appConfig.get(`Paths.SteamDirectory`) || ``
+                , ON_CHANGE_FN: `_cms.OnSubmitForm_SteamPathAdd(this)`
+                , LABEL: `Steam Directory [optional]`
                 , SETTINGS: ` style="width: 650px;"`
-                , TOOL_TIP: `<ul><li>Optional</li><li>Localizations are not affected by this.</li><li>This can be used if you are experiencing tag issues</li><li>Example: C:/Users/Ware/Documents/My Games/Grim Dawn</li></ul>`
-                , ERROR_MSG: ``
+                , TOOL_TIP: `<ul><li>Optional</li><li>Used only for running non-GI Grim Dawn with Launch Options. (like /x64)</li><li>Example: C:/Program Files (x86)/Steam</li></ul>`
+                , ERROR_MSG: (fs.existsSync(`${appConfig.get(`Paths.SteamDirectory`)}`)) ? `` : `Path must be wrong!`
+            });
+
+            /// Tool Options
+            let additionalFormItemsOutput = ``;
+
+            if (typeof appConfig.get(`ProgramOptions.bMinimizeToTray`) === `undefined`) 
+            {
+                appConfig.set(`ProgramOptions.bMinimizeToTray`, false);
+            }
+            additionalFormItemsOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
+                TEXT: Super.GetGrimDawnPath()
+                , ON_CLICK_FN: `_cms.OnSubmitForm_bMinimizeToTray(this)`
+                , LABEL: `Minimize to tray`
+                , TOOL_TIP: `<ul><li>Rainbow Tool will be minimized to System-Tray when minimized (rather than to the taskbar).</li><li>Click the icon in the System-Tray to open Rainbow Tool again.</li><li>Right-Click the icon in the System-Tray brings up a context-menu.</li></ul>`
+                , B_CHECKED: (appConfig.get(`ProgramOptions.bMinimizeToTray`)) ? ` CHECKED` : ``
+            });
+    
+            if (typeof appConfig.get(`ProgramOptions.bCloseToTray`) === `undefined`) 
+            {
+                appConfig.set(`ProgramOptions.bCloseToTray`, true);
+            }
+            additionalFormItemsOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
+                TEXT: Super.GetGrimDawnPath()
+                , ON_CLICK_FN: `_cms.OnSubmitForm_bCloseToTray(this)`
+                , LABEL: `Close to tray`
+                , TOOL_TIP: `<ul><li>Rainbow Tool will be minimized to System-Tray when closed (rather than closing Rainbow Tool entirely).</li><li>Click the icon in the System-Tray to open Rainbow Tool again.</li><li>Right-Click the icon in the System-Tray brings up a context-menu.</li></ul>`
+                , B_CHECKED: (appConfig.get(`ProgramOptions.bCloseToTray`)) ? ` CHECKED` : ``
+            });
+            
+            additionalOptionsOutput += Super.tplContent.CollapsibleContainer.wzReplace({
+                TITLE: `Advanced Rainbow Tool Settings`
+                , CONTENTS: `${additionalFormItemsOutput}`
+                , B_OPEN: ``
+            });
+
+            /// Launch Options
+            additionalFormItemsOutput = ``;
+
+            
+            let gdXpacOptions = [
+                {
+                    Value: `gdx0`
+                    , Text: `Vanilla`
+                }
+            ];
+            let defaulGdXpacOption = `gdx0`;
+            if (fs.existsSync(`${Super.GetGrimDawnPath()}\\gdx1`))
+            {
+                gdXpacOptions.push({
+                    Value: `gdx1`
+                    , Text: `Ashes of Malmouth`
+                    //, ToolTip: `Load XPac with 2`
+                });
+                defaulGdXpacOption = `gdx1`;
+            }
+            if (fs.existsSync(`${Super.GetGrimDawnPath()}\\gdx2`))
+            {
+                gdXpacOptions.push({
+                    Value: `gdx2`
+                    , Text: `Forgotten Gods`
+                });
+                defaulGdXpacOption = `gdx2`;
+            }
+
+            // Check if a new Xpac was installed.
+            /*
+            const bGdXpacOptionDefined = typeof appConfig.get(`RadioGroupStorage.GrimDawnXPacOptions`) !== `undefined`;
+            const bGdXpacOptionsDiffer = defaulGdXpacOption !== appConfig.get(`RadioGroupStorage.GrimDawnXPacOptions`);
+            if (bGdXpacOptionDefined && bGdXpacOptionsDiffer)
+            {
+                appConfig.set(`RadioGroupStorage.GrimDawnXPacOptions`, defaulGdXpacOption);
+            }
+            */
+            
+            additionalFormItemsOutput += Super.MakeRadioGroup({
+                ElementName: `GrimDawnXPacOptions`
+                , GroupText: `Expansion`
+                , bUseListBox: true
+                , DefaultValue: defaulGdXpacOption
+            }, gdXpacOptions);
+            additionalFormItemsOutput += `<br />`;
+
+            additionalFormItemsOutput += Super.MakeRadioGroup({
+                ElementName: `GrimDawnSystemType`
+                , GroupText: `System Type`
+                , bUseListBox: true
+                , DefaultValue: `x86`
+            }, [
+                {
+                    Value: `x86`
+                    , Text: `32-bit (x86)`
+                } , {
+                    Value: `x64`
+                    , Text: `64-bit (x64)`
+                    , ToolTip: `Load XPac with 2`
+                }
+            ]);
+            additionalFormItemsOutput += Super.MakeRadioGroup({
+                ElementName: `GrimDawnDirectX`
+                , GroupText: `DirectX Version`
+                , bUseListBox: true
+                , DefaultValue: `dx11`
+            }, [
+                {
+                    Value: `dx09`
+                    , Text: `DirectX 9`
+                } , {
+                    Value: `dx11`
+                    , Text: `DirectX 11`
+                }
+            ]);
+            additionalFormItemsOutput += `<br />`;
+
+            /*
+            additionalFormItemsOutput += `<br />`;
+            additionalFormItemsOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
+                ON_CLICK_FN: `_cms.OnSubmitForm_bForceGrimDawn64(this)`
+                , LABEL: `Force x64 Grim Dawn Launch`
+                , TOOL_TIP: `<ul><li>This is not required when your "Steam Launch Option" is set to /x64</li><li>Not needed for launching GI.</li><li>Note: I only have steam to test - GoG might not work.</li></ul>`
+                , B_CHECKED: (appConfig.get(`Launcher.bForceGrimDawn64`)) ? ` CHECKED` : ``
+            });
+            */
+
+            additionalOptionsOutput += Super.tplContent.CollapsibleContainer.wzReplace({
+                TITLE: `Grim Dawn - Launch Settings`
+                , CONTENTS: `${additionalFormItemsOutput}`
+                , B_OPEN: ``
             });
         }
 
-        if(!bPathCorrect) outStr += `<span class="Msg_Warn">Make sure the game is closed (Grim Dawn). You must restart anyways for the tags to be in effect. You might as well close it before hand.</span>`;
+        coreOptionsOutput += Super.tplContent.CollapsibleContainer.wzReplace({
+            TITLE: `Rainbow Tool Settings`
+            , CONTENTS: `${tempFormItemOutput}`
+            , B_OPEN: ` open`
+        });
+
+        if(!bPathCorrect) outStr += `<span class="Msg_Warn">Make sure the game is closed (Grim Dawn). You must restart anyways for the tags to be taken in effect.</span>`;
         outStr += Super.tplContent.FormContainer.wzReplace({
             TITLE: `Settings`
-            , CONTENTS: `${tempFormItemOutput}`
+            , CONTENTS: `${coreOptionsOutput}${additionalOptionsOutput}`
         });
 
         if (bPathCorrect)
         {
-            outStr += `<br />`;
-            outStr += this.MakeContent_ToolOptions();
             outStr += `<br />`;
             outStr += this.MakeContent_Localization();
             outStr += `<br />`;

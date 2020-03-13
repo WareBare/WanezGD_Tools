@@ -31,58 +31,86 @@ ExecuteProgramGD = function(InExecutable){
     }
 };
 
+const GetLaunchOptions = function ()
+{
+    let outOptionParams = ``;
+
+    if (appConfig.get(`RadioGroupStorage.GrimDawnSystemType`) === `x64`)
+    {
+        outOptionParams += ` /x64`;
+    }
+    if (appConfig.get(`RadioGroupStorage.GrimDawnDirectX`) === `dx09`)
+    {
+        outOptionParams += ` /d3d9`;
+    }
+    if (appConfig.get(`RadioGroupStorage.GrimDawnXPacOptions`) === `gdx1`)
+    {
+        outOptionParams += ` /nogdx2 `;
+    }
+    else if (appConfig.get(`RadioGroupStorage.GrimDawnXPacOptions`) === `gdx0`)
+    {
+        outOptionParams += ` /nogdx1 `;
+    }
+
+    return outOptionParams;
+}
 
 fnRunGame_GrimDawnGI = function(InEvent){
     Log(`Launch Grim Dawn (GI)`);
+    const window = remote.getCurrentWindow();
     const pathGrimDawn = appConfig.get(`GrimDawn.Paths.Game`);
     const bPathGameFileExists = fs.existsSync(`${pathGrimDawn}/Grim Dawn.exe`);
+
+    const launchOptions = GetLaunchOptions();
 
     if (bPathGameFileExists) {
         try{
             //Log(`"${pathGrimDawn}/GrimInternals64.exe"`);
-            child_process.execSync(`cd "${pathGrimDawn}" && "GrimInternals64.exe"`);
-            window.hide();
+            child_process.execSync(`${pathGrimDawn.slice(0, 2)} && cd "${pathGrimDawn}" && "GrimInternals64.exe"${launchOptions}`);
         }catch(err){
             console.error(err);
 
             fnRunGame_GrimDawn(InEvent);
-            /*
-            try{
-                child_process.execSync(`"${pathGrimDawn}/Grim Dawn.exe"`);
-                window.hide();
-            }catch(err2){
-                console.error(err2);
-            }
-            */
         }
+        window.hide();
     }else{
         console.log(`wrong path`);
         window.show();
     }
 }
 
+
 fnRunGame_GrimDawn = function(InEvent){
     Log(`Launch Grim Dawn`);
-    const pathGrimDawn = appConfig.get(`GrimDawn.Paths.Game`);
-    const bPathGameFileExists = fs.existsSync(`${pathGrimDawn}/Grim Dawn.exe`);
+    const window = remote.getCurrentWindow();
+    let pathToExe = appConfig.get(`GrimDawn.Paths.Game`);
+    let exeName = `Grim Dawn.exe`;
 
     let launchOptions = ``;
-    if (appConfig.get(`Launcher.bForceGrimDawn64`))
+
+    if (fs.existsSync(`${appConfig.get(`Paths.SteamDirectory`)}/steam.exe`))
     {
-        launchOptions += ` /x64`
+        pathToExe = appConfig.get(`Paths.SteamDirectory`);
+        exeName = `steam.exe`;
+        launchOptions += ` -applaunch 219990`;
     }
+    
+    const bPathGameFileExists = fs.existsSync(`${pathToExe}/${exeName}`);
 
     if (bPathGameFileExists) 
     {
+        launchOptions += GetLaunchOptions();
         try
         {
-            child_process.execSync(`"${pathGrimDawn}/Grim Dawn.exe"${launchOptions}`);
-            window.hide();
+            // `${element.slice(0, 2)} && cd "${element.replace(`\\`, `/`)}"
+            child_process.execSync(`${pathToExe.slice(0, 2)} && cd "${pathToExe}" && "${exeName}"${launchOptions}`);
+            
         }
         catch (err)
         {
             console.error(err);
         }
+        window.hide();
     }
     else
     {
@@ -90,6 +118,7 @@ fnRunGame_GrimDawn = function(InEvent){
         window.show();
     }
 }
+
 
 wzUpdateHeader = function(InMessage, bInUseNotify = false)
 {
@@ -187,7 +216,7 @@ let keyUp = (e) => {
         // Launch GD (Base Game)
         fnRunGame_GrimDawn();
     }
-    Log(e.keyCode);
+    //Log(e.keyCode);
 };
 let keyDown = (e) => {
     

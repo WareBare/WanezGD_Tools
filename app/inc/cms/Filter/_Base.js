@@ -62,7 +62,13 @@ let RunLocaleExtract = function(InZipFile){
     let zip = new JSZip();
 
     fs.readFile(`${GrimDawnPath}/localization/${InZipFile}`, function(err, data) {
-        if (err) throw err;
+        if (err)
+        {
+            console.log(`do something`);
+            throw err;
+        }
+
+
         zip.loadAsync(data).then(function (zip) {
             for(let fileName in zip.files){
                 if(fileName.includes(`tags`) || fileName.endsWith(`.def`)){
@@ -75,6 +81,7 @@ let RunLocaleExtract = function(InZipFile){
             wzReloadCMS(10);
         });
     });
+    
 };
 
 let MasteryNames = false;
@@ -193,6 +200,173 @@ module.exports = {
 
     },
 
+    OnRadioGroupChange: function (InElement)
+    {
+        const elementName = InElement.name;
+        const elementValue = InElement.value;
+
+        if (elementName === ``) return; 
+        if (elementValue === ``) return;
+
+        appConfig.set(`RadioGroupStorage.${elementName}`, elementValue);
+        
+        //wzReloadCMS(10);
+    },
+
+    /**
+     * @param {Object} InGroupOptions General Group Settings
+     * @param {String} InGroupOptions.bUseListBox Uses traditional RadioButtons (FALSE) or a ListBox (TRUE) [default: false]
+     * @param {String} InGroupOptions.ElementName Name of this group for saving purposes.
+     * @param {String} InGroupOptions.GroupText Text used inside Fieldset Legend as group name. (No Fieldset if empty)
+     * @param {String} InGroupOptions.DefaultValue Value used if nothing has been selected. (uses first array entry if false)
+     * @param {[Object]} InGroupData Array with `Value`/`Text` Object (also supports `ToolTip`).
+     * @param {String} InGroupData.Text Visible text.
+     * @param {String} InGroupData.Value Value stored in config file. (uses Text when false)
+     * @param {String} InGroupData.ToolTip Generates a ToolTip when set.
+     * 
+     * @return {String} resulting string.
+     */
+    MakeRadioGroup: function (InGroupOptions, InGroupData, InDefaultValue = false)
+    {
+        InGroupOptions = InGroupOptions || {};
+
+        let groupFieldset = `<div id="WzForm"><fieldset><legend>{GROUP_TEXT}</legend>{CONTENTS}</fieldset></div>`;
+        let radioButtonTemplate = `<label data-wztip='{TOOL_TIP}' data-wztip-position="top" class="CheckBox"><input type="radio" name="{NAME}" value="{VALUE}" onClick="{EVENT}" {B_CHECKED} /><span>{TEXT}</span></label>`;
+
+        if (typeof appConfig.get(`RadioGroupStorage.${InGroupOptions.ElementName}`) === `undefined`)
+        {
+            appConfig.set(`RadioGroupStorage.${InGroupOptions.ElementName}`, InGroupOptions.DefaultValue);
+        }
+        const defaultValue = appConfig.get(`RadioGroupStorage.${InGroupOptions.ElementName}`);
+
+        let strOutput = ``;
+        let radioItemOutput = ``;
+
+        if (InGroupOptions.bUseListBox === true)
+        {
+            groupFieldset = `<label class="Default">{GROUP_TEXT}<select wzType="ListBox" name="{NAME}" onChange="{EVENT}" size="{SIZE}">{CONTENTS}</select></label>`
+            radioButtonTemplate = `<option data-wztip="{TOOL_TIP}" data-wztip-position="right" name="{NAME}" value="{VALUE}" {B_CHECKED}>{TEXT}</option>`;
+        }
+
+        // Make RadioButtons/ListItems.
+        for (let groupIndex = 0; groupIndex < InGroupData.length; groupIndex++) {
+            const element = InGroupData[groupIndex];
+            const elementValue = element.Value || element.Text;
+
+            radioItemOutput += radioButtonTemplate.wzReplace({
+                NAME: InGroupOptions.ElementName
+                , VALUE: elementValue
+                , TEXT: element.Text
+                , TOOL_TIP: element.ToolTip || ``
+                , B_CHECKED: (defaultValue === elementValue || groupIndex === 0) ? ` CHECKED SELECTED` : ``
+            });
+        }
+        
+        // Add RadioButtons/ListItems to container.
+        if (typeof InGroupOptions.GroupText === `undefined` && InGroupOptions.bUseListBox !== true)
+        {
+            
+            strOutput += radioItemOutput;
+        }
+        else
+        {
+            strOutput += groupFieldset.wzReplace({
+                NAME: InGroupOptions.ElementName
+                , GROUP_TEXT: InGroupOptions.GroupText || ``
+                , CONTENTS: `${radioItemOutput}`
+                , SIZE: InGroupData.length
+            });
+        }
+
+        strOutput = strOutput.wzReplace({
+            EVENT: `Super.OnRadioGroupChange(this)`
+        });
+        
+        return strOutput;
+    },
+
+    FindPathToFile: function (InFileName, InDirectories)
+    {
+        const window = remote.getCurrentWindow();
+        const baseDirectories = InDirectories || ["/", "D:/"];
+
+        let resultDir = false;
+
+        for (let dirIndex = 0; dirIndex < baseDirectories.length; dirIndex++) {
+            const element = baseDirectories[dirIndex];
+            
+            if (fs.existsSync(`${element}\\${InFileName}`))
+            {
+                resultDir = element;
+            }
+            else
+            {
+                console.log(`so far so good`);
+                try
+                {
+                    let resultingData = child_process.execSync(`${element.slice(0, 2)} && cd "${element.replace(`\\`, `/`)}" && dir ${InFileName.replace(` `, `?`)} /s`).toString();
+    
+                    const foundDir = resultingData.split(`Directory of `);
+    
+                    if (foundDir.length > 1)
+                    {
+                        for (let i = 1; i < foundDir.length; i++) {
+                            const element = foundDir[i].split(/\r?\n/g);
+                            
+                            resultDir = element[0];
+                            //console.log(element[0]);
+                            break;
+                        }
+                    }
+                }
+                catch (err)
+                {
+                    console.warn(`unable to find file ${InFileName} in ${element}`);
+                    //console.error(err);
+                }
+            }
+
+            if (resultDir)
+            {
+                break;
+            }
+        }
+        
+
+        return resultDir;
+    },
+
+    GetValueFromRegistry: function (InRegistryPath, InRegistryName)
+    {
+        let resultValue;
+
+        try 
+        {
+            let resultingData = child_process.execSync(`REG QUERY "${InRegistryPath}"`).toString();
+
+            const splitData = resultingData.split(/\r?\n/g);
+
+            for (let dataIndex = 0; dataIndex < splitData.length; dataIndex++) {
+                // #ToDo find a better way than x number of whitespaces.
+                const element = splitData[dataIndex].trim().split(`    `);
+
+                if (element.length < 2) continue;
+                if (element[0].startsWith(InRegistryName) === false) continue;
+
+                resultValue = element[2];
+                break;
+            }
+        } 
+        catch (err) 
+        {
+            console.warn(`unable to find entry ${InRegistryName} in ${InRegistryPath}`);
+            //console.error(err);
+        }
+        
+        //console.log(resultValue);
+        return resultValue;
+    },
+
     SetCMSForPathCorrect: function(bInPathCorrect){
         let pathsToAdd = [`Filter/Settings/Manage Tags`, `Filter/Settings/Manage Groups`, `Filter/Library`, `Filter/Library/Special Highlighting`, `Filter/Library/Mastery Marker`]
             , enablerData = appConfig.get(`Enablers`) || []
@@ -281,6 +455,8 @@ module.exports = {
         if(!ClassData[`ImportantTags`]) ClassData[`ImportantTags`] = this.MakeImportantTags();
         //AddToolTips();
         //if (!MasteryNames) MasteryNames = this.MakeMasteryNames();
+
+        this.IsUsingLocale();
     },
 
     /**
@@ -821,7 +997,52 @@ module.exports = {
      * @returns {boolean} TRUE Using Locale, FALSE not using Locale
      */
     IsUsingLocale: function(){
-        return appConfig.get(`Filter.bUseLocale`);
+        if (appConfig.get(`Filter.bUseLocale`))
+        {
+            if (fs.existsSync(`${this.Paths.Locale}`) === false)
+            {
+                setTimeout(() => {
+                    wzUpdateHeader(`You must install a language for Grim Dawn first. You cannot enable Localizations without a 'localization' folder in your Grim Dawn directory.`);
+                }, 500 );
+
+                appConfig.set(`Filter.bUseLocale`, false);
+                return false;
+            }
+
+            if (fs.existsSync(`${this.Paths.Locale}/${appConfig.get(`Filter.LocaleFileName`)}`) === false)
+            {
+                const localeContents = fs.readdirSync(`${this.Paths.Locale}`);
+                let matchingLocale = false;
+
+                for (let localeIndex = 0; localeIndex < localeContents.length; localeIndex++) {
+                    const element = localeContents[localeIndex];
+                    
+                    if (element.endsWith(`.zip`) && !element.endsWith(`_C_.zip`))
+                    {
+                        matchingLocale = element;
+                        break;
+                    }
+                }
+
+                if (matchingLocale)
+                {
+                    //console.log(matchingLocale);
+                    appConfig.set(`Filter.LocaleFileName`, matchingLocale);
+                }
+                else
+                {
+                    setTimeout(() => {
+                        wzUpdateHeader(`You must install a language for Grim Dawn first. If you are using the default English, disable Localizations for Rainbow Tool in Settings.`);
+                    }, 500 );
+
+                    appConfig.set(`Filter.bUseLocale`, false);
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        return false;
     },
 
     /// GETTER

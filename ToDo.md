@@ -6,17 +6,24 @@
 
 ---
 
-# v0.4.4 - QoL
+# v0.5.0 - GD Launch Options & Predictive Set-Up
 
-- ***New:*** Functionality added for more Grim Dawn launching options.
-  * Left-Click prioritizes Grim Internals (GI), it still launches the regular game if GI could not be found.
-  * Right-Click launches the regular game even if GI is installed. ([Forum Request](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/418))
-  * Updated tray icon context-menu to reflect these additions.
-  * A new option was added to Settings that forces Grim Dawn to launch x64 - this only concerns a non-GI launch when no launch option is set in Steam.
-- ***New:*** You may now decide whether you want to close Rainbow Tool to the System-Tray or entirely.
-  * Also added an option to minimize it to System-Tray (rather than Taskbar).
-- ***BugFix:*** Mastery Marker was not working on `Sigil of Consumption` ([BugReport Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/421))
-- ***UI:*** Various updates to texts to make features easier to understand.
+- ***New:*** Functionality added for more Grim Dawn launching options. ([Thanks for the information powbam](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/424))
+  * You will no longer get a pop-up when using the 64-bit launch option.
+  * It is now possible to set which Grim Dawn Expansion to load. (you will only see the ones installed)
+  * It is now possible to force DirectX9.
+- ***New:*** A new button was added that will allow Rainbow Tool to predict and set certain options.
+  * Steam & Grim Dawn paths.
+  * Whether you are using 32-bit or 64-bit (based on the location of your installations)
+  * Whether you are using a different language (this will enable Localization when you have one downloaded)
+  * Sets selector to latest installed Grim Dawn Expansion.
+- ***New:*** Various improvements to Localization support.
+  * Simplified first time set-up due to the new prediction button. (this will set the first found zip as your selected localization)
+  * If an error has occurred because of a missing Localization, the tool will now fetch a new one or disable Localization if no language could be found.
+  * Various new texts to help understand what is going on.
+- ***Updated:*** An empty path for `Grim Dawn Directory` would say it is wrong, it now tells you to enter a path or to use the new prediction button.
+- ***Updated:*** App Icon - still the product of less than 5min in Krita, but an upgrade to the abomination from before.
+- ***BugFix:*** Rainbow Tool was not being minimized to tray when Grim Dawn was launched.
 
 
 
@@ -54,15 +61,19 @@ You can find all downloads in the [First Post](https://forums.crateentertainment
 
 
 
-## Rainbow Tool updated to v0.4.4
+## Rainbow Tool updated to v0.5.0
 
-*Tool updates itself, if you don't have the tool yet, you can find the link in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.4).*
+*Tool updates itself, if you don't have the tool yet, you can find the link in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases).*
 
-[details="Change Log"]
+<details>
+    <summary><btn>Show Change Log</btn> v0.5.0 - GD Launch Options & Predictive Set-Up</summary>
+</details>
 
-[/details]
+***Note:*** Change log can also be found on GitHub and inside the tool.
 
 *No text changes with Grim Dawn 1.1.6.1 that require an update to the files.*
+
+
 
 # New Feature "Special Highlighting" (Post)
 

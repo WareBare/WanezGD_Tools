@@ -80,7 +80,7 @@
         margin: 10px;
         input{
             
-            &[type="checkbox"]{
+            &[type="checkbox"], &[type="radio"]{
                 //display: none;
                 position: absolute;
                 height: 18px;
@@ -140,7 +140,7 @@
         padding: 10px;
         input{
             
-            &[type="checkbox"]{
+            &[type="checkbox"], &[type="radio"]{
                 display: none;
                 //margin-left: 10px;
             }
@@ -229,6 +229,10 @@
             display: block;
             margin: 0px 1px 0px 1px;
             border-width: 1px;
+
+            padding-top: 5px;
+            padding-bottom: 5px;
+
             padding-right: 15px;
 
             cursor: pointer;
