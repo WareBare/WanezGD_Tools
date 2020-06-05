@@ -2239,6 +2239,7 @@ tagGroup01=PVP Enabled
 tagGroup02=Auto Group Enabled
 tagAutoItemSkill= (Granted by Item - Passive Activation)
 tagExclusiveSkill=^oExclusive Skill - Only one Exclusive Skill can be active at any one time.
+tagItemSkillModified= {^E}to {^Z}{%s0}
 
 tagAutoSort=Auto Sort
 tagAutoComplete=Complete Components

@@ -240,10 +240,10 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.0/WanezGD_Tools-Setup-0.5.0.exe "Link from GitHub Releases") |
-| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.6.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.3/fullRainbow-1.1.6.0.zip) |
-| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.6.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.3/diablo-1.1.6.0.zip) |
-| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.6.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.4.3/basicHighlighting-1.1.6.0.zip) |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.1](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.1/WanezGD_Tools-Setup-0.5.1.exe "Link from GitHub Releases") |
+| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.7.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.1/fullRainbow-1.1.7.0.zip) |
+| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.7.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.1/diablo-1.1.7.0.zip) |
+| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.7.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.1/basicHighlighting-1.1.7.0.zip) |
 
 *___Note:___  Files are only for the English version of the game (Main Campaign and Custom Game), the Tool can be used for all Languages.*
 
@@ -275,9 +275,11 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 ## Useful Links for other Languages
 
-| Language | Link                                                         | Link                                                         |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| German   | [GD Forum - Tool Information](https://forums.crateentertainment.com/t/german-translation/28374/1649) | [TQ Forum - Tool Information and Discussion](https://titanquest.4fansites.de/forum/viewtopic.php?f=31&t=12187&start=75#p236391) |
-| Japanese | [GD Forum - with File downloads](https://forums.crateentertainment.com/t/japanese-translation/28795) | [Jp-Wiki](http://wikiwiki.jp/gdcrate/?Mod%2FItem%20Filter)       |
+| Language   | Link                                                         | Link                                                         |
+| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| German     | [GD Forum - Tool Information](https://forums.crateentertainment.com/t/german-translation/28374/1649) | [TQ Forum - Tool Information and Discussion](https://titanquest.4fansites.de/forum/viewtopic.php?f=31&t=12187&start=75#p236391) |
+| Japanese   | [GD Forum - with File downloads](https://forums.crateentertainment.com/t/japanese-translation/28795) | [Jp-Wiki](http://wikiwiki.jp/gdcrate/?Mod%2FItem%20Filter)   |
+| Vietnamese | [GD Forum](https://forums.crateentertainment.com/t/vietnamese-translation/97217) |                                                              |
 
 *___Note:___ If your language has a useful link and it is not in the list, let me know about it.*
+

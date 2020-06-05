@@ -1,5 +1,221 @@
 {
     "Tags": {
+        "tagWeaponBluntB014": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponBluntB015": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponBluntB016": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponAxeB008": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponGun2hB008": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponMelee2hB014": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponMelee2hB015": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponMelee2hB016": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponCaster1hB016": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponCaster1hB017": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagWeaponCaster1hB018": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagShieldB015": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagShieldB016": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagShieldB017": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagFocusB025": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagFocusB026": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagNecklaceB004": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagNecklaceB005": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagNecklaceB006": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagNecklaceB007": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagNecklaceB008": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagNecklaceB009": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagNecklaceB010": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagMedalB010": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagMedalB011": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagMedalB012": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagMedalB013": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagMedalB014": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagMedalB015": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagMedalB016": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagGDX1HeadB105": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagGDX1HeadB106": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagGDX1MedalB110": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagGDX2WeaponSwordB205": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagGDX2NecklaceB203": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
+        "tagShieldC015B": {
+            "Classification": "Epic",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
         "tagMedalB006": {
             "Classification": "Rare",
             "Type": "MI Item",

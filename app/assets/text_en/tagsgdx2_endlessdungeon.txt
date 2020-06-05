@@ -120,7 +120,7 @@ tagGDX2EndlessDungeon_Shrine04Skill=Vire's Monolith
 tagGDX2EndlessDungeon_Shrine04Skill_Desc=Your skin becomes as stone, granting you Increased Armor, but at the cost of Offensive Ability.
 
 tagGDX2EndlessDungeon_Shrine05=Shrine of Death
-tagGDX2EndlessDungeon_Shrine05_Desc=Sttike a bargain with death, granting you astonishing Offensive Power and Regeneration, but at the cost of Resistances.
+tagGDX2EndlessDungeon_Shrine05_Desc=Strike a bargain with death, granting you astonishing Offensive Power and Regeneration, but at the cost of Resistances.
 tagGDX2EndlessDungeon_Shrine05Skill=Mortal Desires
 tagGDX2EndlessDungeon_Shrine05Skill_Desc=You struck a bargain with death, granting you astonishing Offensive Power and Regeneration, but at the cost of Resistances.
 

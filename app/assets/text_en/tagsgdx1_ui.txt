@@ -77,9 +77,6 @@ tagGDX1w=GrimDawn/images/evil
 tagMapSymbolTransmuteNpc=Illusionist
 tagMapSymbolTransmuteNpcDesc=Illusionist illusions.
 
-#Skills
-tagItemSkillModified= {^E}to {^Z}{%s0}
-
 #Char Stats Tab 2
 tagCharStatsInquisitorSkillsBonus=Inquisitor Skills
 tagCharStatsInquisitorSkillsBonusInfo=Bonus to all learned skills in the Inquisitor Mastery.

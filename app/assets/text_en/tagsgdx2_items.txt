@@ -7,6 +7,7 @@ tagGDX2WeaponSwordB202_Desc="Bestowed by Korvaak upon his loyal chosen to shatte
 tagGDX2WeaponSwordB203=Kymon's Sanctified Blade
 tagGDX2WeaponSwordB203_Desc="Sanctified in Korvaak's blood and bestowed upon his champion."
 tagGDX2WeaponSwordB204=Bloodlord's Vengeance
+tagGDX2WeaponSwordB205=Ravna's Claw
 
 tagGDX2WeaponSwordC201=Flame's Virtue
 
@@ -176,6 +177,8 @@ tagGDX2ShieldB202=Scarab Carapace
 tagGDX2ShieldB203=Colossal Defender
 tagGDX2ShieldB204=Fleshwarped Defender
 tagGDX2ShieldB205=Obsidian Defender
+
+tagShieldC015B=Gladiator
 
 tagGDX2ShieldC201=Stormguard
 tagGDX2ShieldC201_Desc="Brimming with the captured power of a mighty thunderstorm."
@@ -541,6 +544,7 @@ tagGDX2NecklaceB201=Kaisan's Burning Eye
 tagGDX2NecklaceB201_Desc="The immortal eye of Kaisan peers at you from within the pendant."
 tagGDX2NecklaceB202=Kaisan's Eldritch Eye
 tagGDX2NecklaceB202_Desc="The immortal eye of Kaisan peers at you from within the pendant."
+tagGDX2NecklaceB203=Bolvar's Pendant
 
 tagGDX2NecklaceD113I=Conduit of Divine Whispers
 
@@ -1098,6 +1102,9 @@ tagGDX2BoosterEldritch_C01=Korvaak's Warrant
 
 #ItemSets
 tagItemSetC008CName=Amnesty
+tagItemSetC007CName=The Augur
+tagItemSetC013CName=Oathbreaker's Folly
+tagItemSetC015BName=Wanton Carnage
 
 tagGDX2ItemSetC201Name=Baldir's Plate
 tagGDX2ItemSetC201BName=Baldir's Regalia

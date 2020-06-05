@@ -136,7 +136,7 @@ tagGDX1Class08SkillDescription01B=The hunger for life's essence cannot be easily
 tagGDX1Class08SkillName01C=Decomposition
 tagGDX1Class08SkillDescription01C=Even before life has left their eyes, your foes begin to decompose and fall apart where they stand.
 tagGDX1Class08SkillName01D=Gravechill
-tagGDX1Class08SkillDescription01D=Necromancers well versed in the whispers of death can force the chill of the grave upon their unwilling victims, slowing their actions, but sapping less of their life essence.
+tagGDX1Class08SkillDescription01D=Necromancers well versed in the whispers of death can force the chill of the grave upon their unwilling victims, slowing their actions.
 xxtagGDX1Class08SkillName01D=Endless Thirst
 xxtagGDX1Class08SkillDescription01D=The transfer of life essence is generally a practice reserved only for dire situations, but some practitioners have difficulty resisting the temptation of raw vital energies and succumb to sustaining themselves solely on this spell, at the cost of those around them.
 
@@ -145,7 +145,7 @@ tagGDX1Class08SkillDescription02A=The art of reanimating skeletal remains is amo
 tagGDX1Class08SkillTracker02A=Current Number of Skeletons Summoned
 tagGDX1Class08SkillName02A_PetSkill=Ancient Weapons
 tagGDX1Class08SkillName02A_PetSkill02=Fire Shard
-tagGDX1Class08SkillName02A_PetSkill03=FIrebolt Nova
+tagGDX1Class08SkillName02A_PetSkill03=Firebolt Nova
 tagGDX1Class08SkillName02A_PetSkill04=Undeath Aura
 tagGDX1Class08SkillName02A_PetSkill04_Desc=The Revenants presence saps all life from nearby foes.
 tagGDX1Class08SkillName02A_PetSkill05=Undeath Missiles

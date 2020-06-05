@@ -792,7 +792,7 @@ tagItemSkillDescA014=Turn your foe to stone.
 tagItemSkillB001Name=Blastwave
 tagItemSkillB001Desc=A wave of fire erupts from your attack.
 
-tagItemSkillB002Name=Frigid Wave
+tagItemSkillB002Name=Frigid Nova
 tagItemSkillB002Desc=Retaliates with the chill of death, launching projectiles at nearby enemies, freezing them.
 
 tagItemSkillB003Name=Sands of Nox
@@ -931,6 +931,9 @@ tagItemSkillB045Desc=A burst of flaming orbs erupts from you.
 
 tagItemSkillB046Name=Acid Spine Nova
 tagItemSkillB046Desc=A burst of acidic spines erupts from you.
+
+tagItemSkillB047Name=Air Strike
+tagItemSkillB047Desc=Unleash a barrage of aether-infused cannon fire upon the battlefield.
 
 tagItemSkillC002Name=Lightning Orb
 tagItemSkillC002Desc=Retaliates with an orb of lightning launched in the attacker's direction, damaging and stunning all in its path.
@@ -1356,7 +1359,7 @@ tagItemSkillC138Name=Oathbreaker
 tagItemSkillC138Desc=The Oathbreaker fires an explosive round teeming with dark powers. ^oActivates off of default weapon attacks.
 
 tagItemSkillC139Name=Corrupting Touch of Aldritch
-tagItemSkillC139Desc=The corrupting energies of the Aldritch's scepter lash out at your foes.
+tagItemSkillC139Desc=The corrupting energies of Aldritch's scepter lash out at your foes.
 
 tagItemSkillM005Name=Berserk
 tagItemSkillM005Desc=Enter a berserker state of mind, lashing out with increased ferocity at the cost of survivability.
@@ -1629,7 +1632,7 @@ tagItemSkillD094Desc=A wave of scorching flame emanates from you in a destructiv
 tagItemSkillD095Name=Flame Breath
 tagItemSkillD095Desc=The mask allows you to breathe fire.
 
-tagItemSkillD096Name=Celestial judgment
+tagItemSkillD096Name=Celestial Judgment
 tagItemSkillD096Desc=Lightning rapidly strikes nearby foes, electrocuting them.
 
 tagItemSkillD097Name=Toxic Gas Cloud
@@ -2401,7 +2404,7 @@ tagRelicSkillD014Name=Vengeance
 tagRelicSkillD014Desc=Unleash the combined energy of the blows you have sustained into a devastating shockwave.
 
 tagRelicSkillD015Name=Swarm Mind
-tagRelicSkillD015Desc=The rhythmic pace of your never-ending strife calls forth a Swarmling to your aid.
+tagRelicSkillD015Desc=The rhythmic pace of your never-ending strife calls forth a Swarmling to your aid. ^oSwarmlings scale with Pet Bonuses.
 
 tagRelicSkillD016Name=Decimation
 tagRelicSkillD016Desc=Unleash the fury of Solael upon any who would dare strike his chosen servant.
@@ -2754,7 +2757,7 @@ tagDevotionEffectB03Desc=You mark your foes with the sign of the wendigo, sappin
 tagDevotionEffectB04=Rend
 tagDevotionEffectB04Desc=Shred your foes, exposing delicate arteries and inducing intense bleeding.
 tagDevotionEffectB05=Maul
-tagDevotionEffectB05Desc=Maul nearby foes with the might of a dire bear. ^oRequires a melee weapon.
+tagDevotionEffectB05Desc=Maul nearby foes with the might of a dire bear.
 tagDevotionEffectB06=Blades of Wrath
 tagDevotionEffectB06Desc=Push the advantage by unleashing a burst of phantasmal blades that pass through enemies with ease.
 tagDevotionEffectB07=Fissure

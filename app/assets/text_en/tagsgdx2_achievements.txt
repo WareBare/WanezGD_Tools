@@ -71,7 +71,7 @@ achGDX222Title=Forever Forgotten
 achGDX222Desc=Slay Korvaak, the Eldritch Sun in the Throne of the Three on Ultimate Difficulty.
 
 achGDX223Title=Squelching the Scion
-achGDX223Desc=Summon and defeat Callagadra, Scion of the Sands
+achGDX223Desc=Summon and defeat Callagadra, Scion of the Sands.
 
 achGDX224Title=Oh, the Web We Weave
 achGDX224Desc=Reach Revered reputation with the Cult of Bysmiel.

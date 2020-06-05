@@ -114,6 +114,9 @@ tagWeaponBluntB010=Adept's Morningstar
 tagWeaponBluntB011=Adept's Flanged Mace
 tagWeaponBluntB012=Mutant Arm
 tagWeaponBluntB013=Mutant Bludgeon
+tagWeaponBluntB014=Grundleplith's Tail
+tagWeaponBluntB015=Pusquill's Tail
+tagWeaponBluntB016=Barrog's Bloody Arm
 
 tagWeaponBluntC001=Aetherwoe
 tagWeaponBluntC002=Anarchy
@@ -172,6 +175,7 @@ tagWeaponAxeB004=Bonecleaver
 tagWeaponAxeB005=Bonescythe
 tagWeaponAxeB006=Olman's Axe
 tagWeaponAxeB007=Aetherwarped Cleaver
+tagWeaponAxeB008=Aetherscorched Cleaver
 
 tagWeaponAxeC001=Cruel Edge
 tagWeaponAxeC002=Reaper's Touch
@@ -292,6 +296,7 @@ tagWeaponGun2hB004=Fleshwarped Rifle
 tagWeaponGun2hB005=Fleshwarped Carbine
 tagWeaponGun2hB006=Fleshwarped Conflagrator
 tagWeaponGun2hB007=Fleshwarped Incinerator
+tagWeaponGun2hB008=Rag'Nadar's Maw
 
 tagWeaponGun2hC001=The Huntsman
 tagWeaponGun2hC001B=Huntsman
@@ -394,6 +399,10 @@ tagWeaponMelee2hB010=Barthollem's Warmaul
 tagWeaponMelee2hB011=Obsidian Headsplitter
 tagWeaponMelee2hB012=Obsidian War Cleaver
 tagWeaponMelee2hB013=Hevill's Greatsword
+tagWeaponMelee2hB014=Voldrak's Crusher
+tagWeaponMelee2hB015=Balegor's Crusher
+tagWeaponMelee2hB016=Lucius' Blade-Arm
+tagWeaponMelee2hB016_Desc="Warped beyond description by the Aether."
 
 tagWeaponMelee2hC001=Gutwrench Eviscerator
 tagWeaponMelee2hC002=Massacre
@@ -486,6 +495,9 @@ tagWeaponCaster1hB012=Bloodsworn Wand
 tagWeaponCaster1hB013=Bloodsworn Scepter
 tagWeaponCaster1hB014=Loxmere's Frostblade
 tagWeaponCaster1hB015=Slithtongue
+tagWeaponCaster1hB016=Blaze Herald
+tagWeaponCaster1hB017=Storm Herald
+tagWeaponCaster1hB018=Night Herald
 
 tagWeaponCaster1hC001=Burning Hatred
 tagWeaponCaster1hC002=Spellfire Wand
@@ -599,6 +611,9 @@ tagShieldB011=Obsidian Bulwark
 tagShieldB012=Fleshwarped Shield
 tagShieldB013=Fleshwarped Bulwark
 tagShieldB014=Bernard's Slightly-Chewed Buckler
+tagShieldB015=Wradlith's Bulwark
+tagShieldB016=Bane'Gargoth's Shard
+tagShieldB017=Kalis'Ka's Harvest
 
 tagShieldC001=Defender of Devil's Crossing
 tagShieldC002=Spiriteater Bulwark
@@ -705,6 +720,8 @@ tagFocusB022=Gazer Eye
 tagFocusB023=Overseer Eye
 tagFocusB023_Desc="The eye still twitches in your hands."
 tagFocusB024=Karvor's Conjuring Bone
+tagFocusB025=Kyzogg's Skull
+tagFocusB026=Ragrathar's Horn
 
 tagFocusC001=Dementia
 tagFocusC002=Crushing Will
@@ -1693,6 +1710,13 @@ tagNecklaceB001Desc="The skull is coated with a putrid slime."
 tagNecklaceB002=Death-Watcher Pendant
 tagNecklaceB003=Ellena's Necklace
 tagNecklaceB003Desc="A trophy once belonging to Ellena, the First Slith."
+tagNecklaceB004=Zaria's Pendant
+tagNecklaceB005=Shambler's Heart
+tagNecklaceB006=Mogara's Fangs
+tagNecklaceB007=Gaze of Ungoliax
+tagNecklaceB008=Bloodbriar's Thorn
+tagNecklaceB009=Ulraprax's Sting
+tagNecklaceB010=Ronaprax's Sting
 
 tagNecklaceC001=Amulet of the Eye
 tagNecklaceC001Desc="A peerless eye darts back and forth within the gem."
@@ -1808,6 +1832,13 @@ tagMedalB007=Ilgorr's Eternal Curse
 tagMedalB008=Lagoth'Ak's Voidbinding
 tagMedalB008_Desc="A mere echo of the vast power of the void and its master."
 tagMedalB009=Lagoth'Ak's Bloodbinding
+tagMedalB010=Balthazar's Crest
+tagMedalB011=Martin's Crest
+tagMedalB012=Halion's Crest
+tagMedalB013=Bloodfeast's Mark
+tagMedalB014=Gutworm's Mark
+tagMedalB015=Mark of Nacrathan
+tagMedalB016=Mark of Harvoul
 
 tagMedalC001=Beast Slayer's Mark
 tagMedalC002=Badge of Tenacity

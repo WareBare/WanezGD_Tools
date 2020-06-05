@@ -6,6 +6,12 @@
 
 ---
 
+
+
+# v0.5.1 - Update for Grim Dawn v1.1.7.0
+
+* ***New:*** Added native support for Grim Dawn v1.1.7.0 Items.
+
 # v0.5.0 - GD Launch Options & Predictive Set-Up
 
 - ***New:*** Functionality added for more Grim Dawn launching options. ([Thanks for the information powbam](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/424))
@@ -53,11 +59,11 @@
 
 # Forum Reply
 
-## Files and Tool updated for Grim Dawn v1.1.6.0
+## Files and Tool updated for Grim Dawn v1.1.7.0
 
 Tool updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.4.3).
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.1).
 
 
 
