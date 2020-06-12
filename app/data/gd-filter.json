@@ -1,5 +1,11 @@
 {
     "Tags": {
+        "tagGDX2WeaponAxeB203": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.7.0"
+        },
         "tagWeaponBluntB014": {
             "Classification": "Rare",
             "Type": "MI Item",
@@ -2173,8 +2179,8 @@
             "Group": "Faction"
         },
         "tagHeadF001": {
-            "Classification": "Rare",
-            "Type": "Regular Item",
+            "Classification": "Epic",
+            "Type": "MI Item",
             "Group": "Faction"
         },
         "tagFocusF011": {

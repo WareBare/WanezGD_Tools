@@ -21,7 +21,7 @@ tagGDX1WeaponSwordD107=Belgothian's Slicer
 
 tagGDX1WeaponSwordF101=Malmouth Slicer
 tagGDX1WeaponSwordF102=Malmouth Blade
-tagGDX1WeaponSwordF103=Wendigo Claw
+tagGDX1WeaponSwordF103=Wendigo Jawbone
 tagGDX1WeaponSwordF104=Redeemer of Malmouth
 
 
