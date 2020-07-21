@@ -8,10 +8,10 @@
 
 
 
-# v0.5.2 - Hotfix
+# v0.5.3 - Hotfix
 
-* ***BugFix:*** Outcast’s Hood will appear as Epic MI. ([BugReport](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/460))
-* ***BugFix:*** Riftclaw Slicer added as Rare MI. ([BugReport](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/462))
+* ***BugFix:*** Wendigo Jawbone will appear as Epic. ([BugReport](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/468))
+* ***BugFix:*** Bonebleach Halberd will appear as Rare MI. ([BugReport](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/468))
 
 # v0.5.0 - GD Launch Options & Predictive Set-Up
 
@@ -68,11 +68,11 @@ You can find all downloads in the [First Post](https://forums.crateentertainment
 
 
 
-## Files and Tool updated with Grim Dawn v1.1.7.1
+## Files and Tool updated with Grim Dawn v1.1.7.2
 
 Tool updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.2).
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.3).
 
 <details>
     <summary><btn>Show Change Log</btn> Hotfix</summary>

@@ -1600,7 +1600,7 @@
             "Group": "Faction"
         },
         "tagGDX1WeaponSwordF103": {
-            "Classification": "Rare",
+            "Classification": "Epic",
             "Type": "Regular Item",
             "Group": "Faction"
         },
@@ -2656,8 +2656,8 @@
             "Group": "None"
         },
         "tagGDX2EndlessDungeon_S202": {
-            "Classification": "Legendary",
-            "Type": "Regular Item",
+            "Classification": "Rare",
+            "Type": "MI Item",
             "Group": "None"
         },
         "tagGDX2WeaponBluntD206": {

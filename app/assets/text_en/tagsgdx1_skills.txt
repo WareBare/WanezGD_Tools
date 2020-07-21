@@ -66,7 +66,7 @@ tagGDX1Class07SkillName03D=Word of Arms
 tagGDX1Class07SkillDescription03D=By extending their will through massive two-handed weapons, Inquisitors can inscribe additional runes into their equipment and thus enact the Word of Renewal with greater frequency. ^oRequires a two-handed melee or two-handed ranged weapon.
 
 tagGDX1Class07SkillName04A=Flames of Ignaffar
-tagGDX1Class07SkillDescription04A=Hold the Stone of Ignaffar in front of you, unleashing a torrent of flame from the palm of your hand for as long as you channel your will into the artifact.^oThis is a channeled skill and must be held down to maintain. ^oAt 100% Cast Speed, Flames of Ignaffar deals damage and drains Energy every 0.3s.
+tagGDX1Class07SkillDescription04A=Hold the Stone of Ignaffar in front of you, unleashing a torrent of flame from the palm of your hand for as long as you channel your will into the artifact. ^oThis is a channeled skill and must be held down to maintain. At 100% Cast Speed, Flames of Ignaffar deals damage and drains Energy every 0.3s.
 tagGDX1Class07SkillName04B=Intensify
 tagGDX1Class07SkillDescription04B=The Flames of Ignaffar intensify, melting through defenses and turning flesh to ashes.
 tagGDX1Class07SkillName04C=Infernal Purge
@@ -351,7 +351,7 @@ tagGDX1ItemSkillD125Name=Rageflame
 tagGDX1ItemSkillD125Desc=A burst of tainted flames erupts from the earth.
 
 tagGDX1ItemSkillD126Name=Flame of Gar'dal
-tagGDX1ItemSkillD126Desc=Engulf yourself in the wicked flames of Gar'dal, which are harmless to you and those you consider allies while singeing any foes that draw near.
+tagGDX1ItemSkillD126Desc=Engulf yourself in the wicked flames of Gar'dal, which are harmless to you and those you consider allies while singeing any foes that draw near. ^oThis ability must be toggled to maintain its effect.
 
 tagGDX1ItemSkillD127Name=Executioner's Edge
 tagGDX1ItemSkillD127Desc=Unleash a deadly spinning blade to decapitate your foes.
