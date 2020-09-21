@@ -330,7 +330,8 @@ tagGDX1HeadB104=Packla's Visage
 tagGDX1HeadB104_Desc="The stench coming off this mask is unbearable."
 tagGDX1HeadB105=Death's Whisper Hood
 tagGDX1HeadB106=Skybreaker Circlet
-
+tagGDX1HeadB107=Namadea's Horns
+tagGDX1HeadB107_Desc="The chill of death is heavy upon this cowl."
 
 tagGDX1HeadC101=Wreath of Souls
 tagGDX1HeadC101_Desc="The spirits trapped within the circlet sometimes whisper secrets to the bearer, though perhaps not always with the bearer's best interests in mind."
@@ -797,6 +798,8 @@ tagGDX1MedalB108=Watcher Crest
 tagGDX1MedalB109=Slathsarr's Crest
 tagGDX1MedalB109_Desc="The fangs drip with aetherwarped venom."
 tagGDX1MedalB110=Mark of Plagius
+tagGDX1MedalB111=Namadea's Eye
+tagGDX1MedalB111_Desc="The still twitching eye is teeming with unlife."
 
 tagGDX1MedalC101=Solemn Mark
 tagGDX1MedalC102=Mark of Impurity

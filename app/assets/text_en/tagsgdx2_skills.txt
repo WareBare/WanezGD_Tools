@@ -100,6 +100,18 @@ tagGDX2Class09SkillDescription14A=For an Oathkeeper, resolute faith is the absol
 tagGDX2ItemSkillB201Name=Blastwave
 tagGDX2ItemSkillB201Desc=A wave of fire erupts from your attack.
 
+tagGDX2ItemSkillB202Name=Solar Nova
+tagGDX2ItemSkillB202Desc=Release a burst of molten flames in all directions to incinerate nearby foes.
+
+tagGDX2ItemSkillB203Name=Bonechill
+tagGDX2ItemSkillB203Desc=A wake of chilling bone spines pierces the earth in front of you.
+
+tagGDX2ItemSkillB204Name=Brawler's Exhaustion
+tagGDX2ItemSkillB204Desc=Your relentless attacks exhaust your foe, sapping their stamina.
+
+tagGDX2ItemSkillB205Name=Aether Spread
+tagGDX2ItemSkillB205Desc=Recklessly spray the area with a spread of aether-infused ammunition. ^oThis is a ranged technique that activates off of default weapon attacks. Also enables the ability to dual wield ranged weapons.
+
 tagGDX2ItemSkillC201Name=Poison Spine Nova
 tagGDX2ItemSkillC201Desc=Poisonous spines erupt around you, impaling nearby foes.
 
@@ -309,6 +321,9 @@ tagGDX2ItemSkillD261Desc=Lash out at your foes with the might of Hyrian infused 
 tagGDX2ItemSkillD262Name=World Gate
 tagGDX2ItemSkillD262Desc=Tear a rift in reality that unravels foes that stand within it. ^oWorld Gates scale with Pet Bonuses.
 tagGDX2ItemSkillD262PetSkill_Name=Unravel
+
+tagGDX2ItemSkillD263Name=Keeper of the Veil
+tagGDX2ItemSkillD263Desc=You are filled with resolute purpose fueled by the shattered realm's unstable energies.
 
 
 #Component Skills
@@ -666,7 +681,7 @@ tagGDX2EnemySkillD05=Rahn's Rage
 tagGDX2EnemySkillD05_Desc=The gaze of a forgotten god is upon you, burning your flesh and exposing you to physical attacks.
 
 tagGDX2EnemySkillD06=Aura of Death
-tagGDX2EnemySkillD06_Desc=Ketan'Thunn's presence drains of the will to live, reducing Defensive Ability and Speed.
+tagGDX2EnemySkillD06_Desc=Ketan'Thunn's presence drains the will to live, reducing Defensive Ability and Speed.
 
 tagGDX2EnemySkillD07=Distortion
 tagGDX2EnemySkillD07_Desc=Your existence has become distorted by Onarix's claws, reducing Chaos Resistance.
@@ -706,3 +721,16 @@ tagGDX2EnemySkillD18_Desc=A dark sorcerer has sapped your essence, draining you 
 
 tagGDX2EnemySkillD19=Unraveled Mind
 tagGDX2EnemySkillD19_Desc=Your mind cannot process the horrors it has witnessed, crippling your aim and casting ability.
+
+tagGDX2EnemySkillD20=Endless Plague
+tagGDX2EnemySkillD20_Desc=A relentless disease has infected you, slowing your reflexes.
+
+tagGDX2EnemySkillD21=Hemorrhaging Fever
+tagGDX2EnemySkillD21_Desc=A recent sickness has caused a hemorrhaging fever that cripples your defenses.
+
+tagGDX2EnemySkillD22=Aura of Death
+tagGDX2EnemySkillD22_Desc=Naren Kur's presence drains the will to live, reducing Defensive Ability and Speed.
+
+tagGDX2EnemySkillD23=Plagued Presence
+tagGDX2EnemySkillD23_Desc=The presence of a nearby creature fills the air with noxious fumes.
+

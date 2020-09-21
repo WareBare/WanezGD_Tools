@@ -1,5 +1,95 @@
 {
     "Tags": {
+        "tagGDX2ShieldD207": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2WeaponBluntD208": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2WeaponBluntD209": {
+            "Classification": "Legendary",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2MedalB204": {
+            "Classification": "Rare",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2MedalB203": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2WeaponAxeB206": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2WeaponGun1hB204": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2WeaponMelee2hB209": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2ShieldB206": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2FocusB206": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX2WeaponSwordB206": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX1MedalB111": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagGDX1HeadB107": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagLegsB005": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
+        "tagLegsB004": {
+            "Classification": "Rare",
+            "Type": "MI Item",
+            "Group": "None",
+            "VersionNumber": "1.1.8.0"
+        },
         "tagGDX2WeaponAxeB203": {
             "Classification": "Rare",
             "Type": "MI Item",

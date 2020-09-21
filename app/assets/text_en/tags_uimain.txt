@@ -115,6 +115,7 @@ tagGameStateConnecting=Connecting to Server...
 tagGameStateData=Waiting for Server...
 
 tagGogMustBeSignedIn=You must be logged into GOG Galaxy to play Grim Dawn in Multiplayer mode. Please login to GOG Galaxy and launch Grim Dawn from the GOG launcher!
+tagEosMustBeSignedIn=You must be logged into the Epic Games Launcher to play Grim Dawn in Multiplayer mode. Please launch Grim Dawn from the Epic Games Launcher!
 tagSteamCloudLimit=You have reached the file limit on Steam's Cloud Storage for Grim Dawn, you must delete a character before you can create another.
 
 #

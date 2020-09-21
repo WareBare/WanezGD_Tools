@@ -23,6 +23,9 @@ tagGDX2MapVanguardBase=Vanguard of the Three
 tagGDX2MapSecretDesertShrine=Shrine of Azaleon
 tagGDX2MapSecretBaseShrine=Shrine of Horran
 
+tagGDX2MapSideAreas_01=Burrwitch Cathedral
+tagGDX2MapSideAreas_02=Arkovian Docks
+tagGDX2MapSideAreas_03=Arkovian Coliseum
 
 
 #Riftgate Names
@@ -116,8 +119,12 @@ tagGDX2Roguelike_01B=Morgoneth's Folly
 tagGDX2Roguelike_01C=Hungering Darkness
 tagGDX2Roguelike_01D=Conduit of the Eternal Night
 
+tagGDX2SideAreas_01=Plague Pit
+tagGDX2SideAreas_02=Corrupted Tomb
+
 
 #Signs
+tagGDX2Sign_Old=Out of Order
 
 
 #Points of Interest
@@ -181,6 +188,9 @@ tagGDX2POI_AREAG_BeetleB=Beetle Den Exit
 
 tagGDX2POI_AREAG_MessengerA=Pit of Atonement Entrance
 tagGDX2POI_AREAG_MessengerB=Pit of Atonement Exit
+
+tagGDX2POI_AREAG_SunwardA=Sunward Spire Entrance
+tagGDX2POI_AREAG_SunwardB=Sunward Spire Exit
 
 
 tagGDX2POI_AREAG_RiggsQuest01A=Maw of Enaht Entrance
@@ -277,6 +287,8 @@ tagGDX2NPC_AreaG_37=Sister Paulia
 tagGDX2NPC_AreaG_38=Forgotten Passage
 
 tagGDX2NPC_AreaG_39=Marr
+
+tagGDX2NPC_ArkoviaBridge=Tyrant's Hold Bridge Repair Site
 
 #Flavor NPC Names
 #Solael Camp
@@ -643,6 +655,27 @@ tagGDX2LoreObj_AreaG_RoguelikeNoteD03Name=Memories of Morgoneth
 tagGDX2LoreObj_AreaG_RoguelikeNoteD03Text=Merciful Ateph, tell me what I must do. The tendrils of night claw at my waking thoughts, and the abyss fills my dreams. The world of day no longer comforts me.{^n}{^n}I've peered beyond the far reaches of the tapestry of the gods. I knew not what to expect, but I expected 'something'; what awaited my sight was the absence of anything at all. In this void I found answers to questions I did not know I asked. Words filled my mind that carried no meaning and yet I was familiar with them, like the comfort of a warm hearth on a winter's night.{^n}{^n}How could I deny such beauty, such perfection. The tapestry of the gods is a disease, a stain upon the uniformity of the abyss. To defy it is sheer folly. The lies of the gods have been lifted from my eyes, but others stand blind around me. They too shall be made to see.{^n}{^n}No, no, they will not understand. They will falter and everything will shatter. They cannot merely be shown the truth, they must be remade to serve it. Yes, I will bind them in darkness, bind them to my will, so that all can be brought to the unmaker's embrace.{^n}{^n}The anointed hour arrives, yes. They come, but they come too late. The iris points the way to the dawn of eternal night. When the devoured stars align, the tendrils of hunger will unravel the very earth and the end shall begin as it must.{^n}{^n}At the conduit, the shadows take form, the seven will rise ever more. And when they come for me, the fools will all be made to see. Morgoneth the unmaker is here, and here forever he shall be.
 
 
+#Side Areas
+tagGDX2LoreObj_AreaG_SideAreaNoteA01Name=Redlight Misgivings
+tagGDX2LoreObj_AreaG_SideAreaNoteA01Text=Dear Madame Arnia,{^n}{^n}You are a wicked shrew and it is with great pleasure I am writing you this letter. The city was in a panic, and instead of keeping us safe, you lowered the rates to keep your pockets lined with gold. Well reap what you sow, you ravenous cow. While you were busy counting the money made off our backs, I have taken all the girls with me. No longer will we be your doxies.{^n}{^n}I don't know if this letter will even reach you. As we left, I could see hateful green flames spreading across the other side of the city. I can only hope the poxy house is burning down around you as you read this and the last thing you think of is me taking everything from you. May all the dark gods take you and pass you around until you are nothing more than a bloody used rag.{^n}{^n}Milleen
+
+tagGDX2LoreObj_AreaG_SideAreaNoteA02Name=We're On Our Own
+tagGDX2LoreObj_AreaG_SideAreaNoteA02Text=Cronley's lost it, I'm telling ya!{^n}{^n}Bastard's got in his head that we can just march on over to Devil's Crossing and take the place like they was dying in there. For what! Revenge? Bourbon's small fish and that settlement's low on supplies. They's as good as dead.{^n}{^n}Taking it is a fool's errand anyway. With the bridge out, it's practically an unassailable fortress. But Darius is gonna throw lives at it.{^n}{^n}Yeah, we got us them crystals in our backs making every man feel like a hundred, but that does us no good when the only way into Devil's Crossing is up a sheer cliff and a bullet to the brains.{^n}{^n}No, Cronley and I are through. Me and the boys is headed for easier targets. To the west lie big farmlands, no doubt unspoiled by what's going down in the towns and villages. Farmers will be easy pickings and the food should last us the year before we pack up and move on again.{^n}{^n}No sense in sticking around this disjointed crew no longer. Now who's with me?!{^n}{^n}Rutnick
+
+tagGDX2LoreObj_AreaG_SideAreaNoteA03Name=The Scales Strike Balance
+tagGDX2LoreObj_AreaG_SideAreaNoteA03Text=It is a strange sensation, or should I say lack of it; to witness the world around me without tactile sensation. I hold a forkful to my mouth, yet the weight of the fork is nonexistent to my hand. The act itself is just a gesture. Food offers no flavor anymore. In a way, that is a blessing for the stench of decay no longer bothers me either.{^n}{^n}What remained of the putrid flesh upon my bones has all but rotted away, and with it, rots away my mind. Putting pen to paper becomes increasingly difficult as my thoughts wander to emptiness. It is no longer that mystical silence of daydreaming where the mind explores its reaches, but the absolute absence of anything at all. That, I suppose, is the end to this curse; an eternity of emptiness awaits us all.{^n}{^n}Outside my home, the harbor is alight with the orange glow of massive flames. Judging by the shouts and noise, my countrymen have set themselves to burning the ships. To what end, I cannot say. Perhaps the arson fills them with a small flicker of purpose and life.{^n}{^n}For me, I still find solace in philosophy and parchment, for as long as my mind remains capable of it. For example, one may consider the curse which befell our lands to be divine punishment handed down upon us for our hubris. I am a skeptic, yet even I cannot deny the irony of undeath condemning people hellbent on exterminating necromancy. If the gods truly exist, then they have a sick sense of humor and justice. The scales of Ulcama, it appears, have struck a balance in the end.{^n}{^n}Nafor, Scholar of Arkovia
+
+tagGDX2LoreObj_AreaG_SideAreaNoteA04Name=The Gift of Ch'thon
+tagGDX2LoreObj_AreaG_SideAreaNoteA04Text=For too long have I slaved before gods that hold no sway over mortal affairs. Too long have I given sermons to the sheep all too eager for words of comfort in their sinful lives. My eyes have been opened to the greater universe, to the mercy of Ch'thon. For it is through his blood and sacrifice that we live and our lands thrive.{^n}{^n}Humanity makes a mockery of Ch'thon's gifts. We are unworthy of this land, unworthy of his blood. And so his blood must be returned. {^n}{^n}I've taken it upon myself to guide this flock to their true salvation. Slowly, at first, for as sheep are spooked by the sudden arrival of the wolf, so too these fools will be unwilling to accept the real truth even if it stared them in the eye. In time, their false idols will be struck down and they will be made to repent for their ignorance.{^n}{^n}Each will be given a new purpose, whether by their own blood or by gathering it from others in our master's name.{^n}{^n}But it matters not, for in the end of all things, we must all return to Ch'thon.{^n}{^n}Father Abaddoth 
+
+tagGDX2LoreObj_AreaG_SideAreaNoteA05Name=I Stand Before the Eldritch Sun
+tagGDX2LoreObj_AreaG_SideAreaNoteA05Text=Here, atop this sacred spire, I bear witness to a tragedy. The land's wounds weep with the blood of the divine, his scarred flesh marred by the wickedness of false gods from a bygone era. The devastation is almost too much to behold, so intimately was the land tied to its benefactor. If it is ever to be healed, the Eldritch Sun must be released.{^n}{^n}Each dawn brings us closer to our goals. Last night I beheld the wondrous ascension of our Father. His screams echoed through temple halls. He too now bears the burning scars. The burdens our god carries are made lighter by his sacrifice.{^n}{^n}Others will soon follow and I pray to the sun that I am chosen next. May this flesh carry the will of Korvaak; may my hands be made into weapons to carve a path for his return.{^n}{^n}As I stand here atop the sacred spire, and the light of another dawn breaks through the twilight of night, I call to the heavens to grant me this honor. Korvaak! Hear my prayers! Grant me your flame and I shall rend our foes unto ash.{^n}{^n}Astros the Sunherald
+
+tagGDX2LoreObj_AreaG_SideAreaNoteA06Name=Coliseum Horrors
+tagGDX2LoreObj_AreaG_SideAreaNoteA06Text=I joined my colleagues at the coliseum to watch the gladiators battle. It was a perfect day; perfect weather, warm with a slight breeze coming off the river. Joined by good friends and a few skins of Elbuurk's Golden Wine, we even got good seats from a wealthy merchant who couldn't get away from some business he had to attend to. We could not believe the fortunes that smiled upon us. We were prepared for a great showing of bravery and excitement. What we saw instead was a nightmare.{^n}{^n}The first match was a simple duel between the veteran Karnath and some criminal whose name I immediately forgot. It wasn't a fight but an execution, an appetizer before the main show. In the opener, Karnath toyed with the man, tapping his sword and dodging his pathetically slow attacks. When the crowd got bored and started booing, Karnath did a quick swipe and the man's guts spilled out onto the sand. The people roared and Karnath threw his arms up in triumph, turned his back on the criminal and walked away to bask in the accolades.{^n}{^n}But that was when things took a horrifying turn. The criminal was a dead man. Nobody could have survived such a vicious blow, but instead of dropping upon his own insides, he just stood there looking at the intestines piling up in the bloody sand.{^n}{^n}After a few breaths, the man staggered forward. I figured at last the fight would be over but instead he surged forward, his guts dragging behind him, and buried his blade deep into Karnath's back. A silent gasp overcame the crowd as they witnessed the fall of their favored champion, but he too did not stagger from the lethal blow. Karnath simply looked at the blade erupting from his chest, spat up a mouthful of blood and pulled himself free of it. He turned slowly towards his would-be killer.{^n}{^n}In a rage, Karnath struck out and, with a mighty clash of steel, knocked the blade from the criminal's hand. With the backswing, he cut the man's arm clean off at the elbow. The now delimbed criminal stumbled backward to recover his weapon, but Karnath had other ideas. The gladiator stamped a mailed boot down on a bundle of sand-covered bloody flesh that snaked its way from his opponent. With a heave, he pulled the criminal back towards him and proceeded with a series of cruel attacks that could only be described as butchery.{^n}{^n}The crowd watched in silence, horror and awe frozen on their faces, as Karnath delimbed the man, who screamed all the while for mercy, but he would not die. His blood had long stopped pumping, but still he would not die.{^n}{^n}Exhausted and confused, Karnath stepped back from his bloody work. The criminal, now just the remnants of a torso and a head, gasped and screamed. The gladiator scowled and walked out of the arena towards the barracks with a dark purpose upon the blood-drenched sword still clenched in his hand.{^n}{^n}The crowd remained for some time, stunned by what they had witnessed. Nobody came to help the butchered man who still clung to life at the center of the arena. Though not a word was spoken, our minds were as one: we all feared whatever malady had struck him so would befall us too should we get too close.{^n}{^n}How wrong were we to think that. The curse had already claimed us all.{^n}{^n}Mar Plavos, First Son of House Plavos
+
+tagGDX2LoreObj_AreaG_SideAreaNoteA07Name=Ravings of Naren Kur
+tagGDX2LoreObj_AreaG_SideAreaNoteA07Text=Banished, the sheer audacity. The other oligarchs assured me that if not for my standing, I would have been butchered on the spot like a sow past her prime. Instead, they gave me the "dignity" of exile.{^n}{^n}In truth, they fear me. They fear what I've achieved, what I've uncovered in the depths of our libraries. There is a power in this universe, a gnawing madness that threatens to unravel all we've built. It yearns for the blood that was taken, and we are but mere drops in the ocean of its torment.{^n}{^n}To defy a true god, a being so ancient it predates time, is folly. My eyes have been opened and I now walk the true path to our ascension. The others cry heresy, but I could see the terror fester within them. They are more than willing to torture an old man for his alleged secrets to immortality, but yet even this trickle of knowledge strikes them with disgust.{^n}{^n}If only life was not but a flicker in the infinite stars. Oh what I could do, what I could learn, with several lifetimes.
 
 
 tagGDX2Roguelike_Area01=Maw of Enaht
@@ -763,4 +796,6 @@ tagGDX2MonsterTotemA04C=Ancient Eldritch Totem
 tagGDX2MonsterTotemA05=Spirit Totem
 tagGDX2MonsterTotemA05B=Forsaken Spirit Totem
 tagGDX2MonsterTotemA05C=Ancient Spirit Totem
+
+tagGDX2MonsterTotemA06=Celestial Totem
 

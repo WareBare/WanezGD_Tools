@@ -146,7 +146,7 @@ tagClass01SkillName12A=Decorated Soldier
 tagClass01SkillDescription12A=An ability to remain calm and think clearly in the heat of battle enables veterans to more easily spot the gaps in an enemy's defense, or predict the flow of their attacks so that they can be easily countered.
 
 tagClass01SkillName13A=Menhir's Bulwark
-tagClass01SkillDescription13A=Call out to the earth deity, Menhir. Menhir is an ancient aspect that blesses his followers with the tenacity of the very earth. ^oRequires a shield. This ability must be toggled to maintain its effect.
+tagClass01SkillDescription13A=Call out to the earth deity, Menhir. Menhir is an ancient aspect that blesses his followers with the tenacity of the very earth. ^oRequires a shield or two-handed melee weapon. This ability must be toggled to maintain its effect.
 
 tagClass01SkillName14A=Oleron's Rage
 tagClass01SkillDescription14A=Call out to the war deity, Oleron. Oleron is an ancient aspect that inspires unwavering ferocity in his followers. ^oThis ability must be toggled to maintain its effect.
@@ -211,7 +211,7 @@ tagClass02SkillDescription05A=Places a mortar that will continuously lob explosi
 tagClass02SkillName05B=Heavy Ordnance
 tagClass02SkillDescription05B=Potent sorcery increases the damage output of mortar shells and infuses them with electrical damage. ^oAffects both the base Mortar and "The Big One".
 tagClass02SkillName05C="The Big One"
-tagClass02SkillDescription05C=Loads the Mortar Trap with a devastating bomb known only as "The Big One", which will fire towards the beginning of the trap's barrage. The resulting colossal explosion will leave your enemies shellshocked, if they survive at all.
+tagClass02SkillDescription05C=Loads the Mortar Trap with a devastating bomb known only as "The Big One", which will fire towards the beginning of the trap's barrage and then periodically loaded in subsequent shots. The resulting colossal explosion will leave your enemies shellshocked, if they survive at all.
 tagClass02SkillName05D=Fire Mortar
 tagClass02SkillDescription05D=Launches an explosive mortar at enemies.
 tagClass02SkillName05E=Electrical Mortar
@@ -237,7 +237,7 @@ tagClass02SkillDescription08B=Sorcerous enchantment imbues the flames with chaot
 tagClass02SkillName08C=Agonizing Flames
 tagClass02SkillDescription08C=Intensifies the fire and hellflame to degrees that will render your enemies to ashes.
 tagClass02SkillName08D=High Potency
-tagClass02SkillDescription08D=This more potent formulation burns longer and degrades your foes ability to fight.
+tagClass02SkillDescription08D=This more potent formulation burns longer and degrades your foes' ability to fight.
 
 tagClass02SkillName09A=Stun Jacks
 tagClass02SkillDescription09A=Throw out an array of tiny, electrically charged jacks that will temporarily stop enemies in their tracks.
@@ -2757,7 +2757,7 @@ tagDevotionEffectB03Desc=You mark your foes with the sign of the wendigo, sappin
 tagDevotionEffectB04=Rend
 tagDevotionEffectB04Desc=Shred your foes, exposing delicate arteries and inducing intense bleeding.
 tagDevotionEffectB05=Maul
-tagDevotionEffectB05Desc=Maul nearby foes with the might of a dire bear.
+tagDevotionEffectB05Desc=Maul nearby foes with the might of a dire bear, feasting on their exposed insides.
 tagDevotionEffectB06=Blades of Wrath
 tagDevotionEffectB06Desc=Push the advantage by unleashing a burst of phantasmal blades that pass through enemies with ease.
 tagDevotionEffectB07=Fissure

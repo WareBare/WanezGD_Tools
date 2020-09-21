@@ -8,6 +8,8 @@ tagGDX2WeaponSwordB203=Kymon's Sanctified Blade
 tagGDX2WeaponSwordB203_Desc="Sanctified in Korvaak's blood and bestowed upon his champion."
 tagGDX2WeaponSwordB204=Bloodlord's Vengeance
 tagGDX2WeaponSwordB205=Ravna's Claw
+tagGDX2WeaponSwordB206=Naren Kur's Blade
+tagGDX2WeaponSwordB206_Desc="It turns out there were lines even the Arkovian Oligarchs were not willing to cross."
 
 tagGDX2WeaponSwordC201=Flame's Virtue
 
@@ -40,6 +42,10 @@ tagGDX2WeaponBluntD204=Totally Normal Buckler
 tagGDX2WeaponBluntD205=Totally Normal Dawnshard
 tagGDX2WeaponBluntD206=Totally Normal Bulwark
 tagGDX2WeaponBluntD207=Cryptstalker
+tagGDX2WeaponBluntD208=Totally Normal Arbiter
+tagGDX2WeaponBluntD208_Desc="This is not the shield you are looking for."
+tagGDX2WeaponBluntD209=Totally Normal Guardian
+tagGDX2WeaponBluntD209_Desc="Southpaws be mad."
 
 tagGDX2WeaponBluntF201=Bysmiel Warhammer
 tagGDX2WeaponBluntF202=Solael Warhammer
@@ -51,6 +57,7 @@ tagGDX2WeaponAxeB202=Moltenclaw Slicer
 tagGDX2WeaponAxeB203=Riftclaw Slicer
 tagGDX2WeaponAxeB204=Boneslicer
 tagGDX2WeaponAxeB205=Servitor's Cleaver
+tagGDX2WeaponAxeB206=Blugrug's Plagued Edge
 
 tagGDX2WeaponAxeC201=Veil's Edge
 
@@ -69,6 +76,8 @@ tagGDX2WeaponGun1hB201=Viper Sandspitter
 tagGDX2WeaponGun1hB202=Viper Hemorrhager
 tagGDX2WeaponGun1hB203=Ugdenbog Repeater
 tagGDX2WeaponGun1hB103Desc="Infused with the spirit of the Wendigo."
+tagGDX2WeaponGun1hB204=Rutnick's Blaster
+tagGDX2WeaponGun1hB204Desc="Desperation calls for cruel solutions."
 
 tagGDX2WeaponGun1hC201=Desert Sting
 tagGDX2WeaponGun1hC202=Shadowspine Enforcer
@@ -112,6 +121,7 @@ tagGDX2WeaponMelee2hB205=Korvan Eldritch Halberd
 tagGDX2WeaponMelee2hB206=Korvan Reaping Halberd
 tagGDX2WeaponMelee2hB207=Korvan Celestial Halberd
 tagGDX2WeaponMelee2hB207_Desc="The edge of the blade starves for something to consume."
+tagGDX2WeaponMelee2hB209=Sunherald's Claymore
 
 tagGDX2WeaponMelee2hC201=Revenant's Edge
 tagGDX2WeaponMelee2hC202=Bladefury
@@ -177,6 +187,7 @@ tagGDX2ShieldB202=Scarab Carapace
 tagGDX2ShieldB203=Colossal Defender
 tagGDX2ShieldB204=Fleshwarped Defender
 tagGDX2ShieldB205=Obsidian Defender
+tagGDX2ShieldB206=Chillblood's Carcass
 
 tagShieldC015B=Gladiator
 
@@ -191,6 +202,7 @@ tagGDX2ShieldD203=Virtue's Defender
 tagGDX2ShieldD204=Defender of the Three
 tagGDX2ShieldD205=Voidsoul Bulwark
 tagGDX2ShieldD206=Hyrian's Bulwark
+tagGDX2ShieldD207=Nightshard
 
 tagGDX2ShieldF201=Bysmiel Defender
 tagGDX2ShieldF202=Dreeg Protector
@@ -204,6 +216,8 @@ tagGDX2FocusB202=Groble Vile Effigy
 tagGDX2FocusB203=Compelled Wraith
 tagGDX2FocusB204=Coerced Wraith
 tagGDX2FocusB205=Zarthuzellan's Archive
+tagGDX2FocusB206=Abaddoth's Sermons
+tagGDX2FocusB206_Desc="It was not immediately clear when Abaddoth's teachings shifted from the merciful words of Menhir to the vile darkness of the void or how many he turned to the cult."
 
 tagGDX2FocusC201=Codex of Reckoning
 tagGDX2FocusC202=Manifestarius
@@ -292,6 +306,10 @@ tagGDX2HeadD218=Targo's Helm
 tagGDX2HeadD219=Voidsoul Visage
 tagGDX2HeadD220=Rotgheist Mask
 tagGDX2HeadD221=Morgoneth's Visage
+tagGDX2HeadD222=Shattered Realm Ceremonial Mask
+tagGDX2HeadD223=Veilkeeper's Mask
+tagGDX2HeadD224=Goredrinker's Mask
+tagGDX2HeadD225=Mask of Ember's Calling
 
 tagGDX2HeadF201=Bysmiel Nightshroud Casque
 tagGDX2HeadF202=Bysmiel Dread Hood
@@ -342,6 +360,10 @@ tagGDX2ShoulderD216=Targo's Shoulderguard
 tagGDX2ShoulderD217=Voidsoul Mantle
 tagGDX2ShoulderD218=Rotgheist Shoulderguard
 tagGDX2ShoulderD219=Morgoneth's Dark Mantle
+tagGDX2ShoulderD220=Shattered Realm Ceremonial Mantle
+tagGDX2ShoulderD221=Veilkeeper's Mantle
+tagGDX2ShoulderD222=Goredrinker's Mantle
+tagGDX2ShoulderD223=Mantle of Ember's Calling
 
 tagGDX2ShoulderF201=Bysmiel Arcane Spaulders
 tagGDX2ShoulderF202=Bysmiel Stormshroud Mantle
@@ -396,6 +418,10 @@ tagGDX2TorsoD216=Targo's Chestguard
 tagGDX2TorsoD217=Voidsoul Armor
 tagGDX2TorsoD218=Rotgheist Chestguard
 tagGDX2TorsoD219=Morgoneth's Black Heart
+tagGDX2TorsoD220=Shattered Realm Ceremonial Armor
+tagGDX2TorsoD221=Veilkeeper's Armor
+tagGDX2TorsoD222=Goredrinker's Armor
+tagGDX2TorsoD223=Armor of Ember's Calling
 
 tagGDX2TorsoF201=Bysmiel Nightshroud Chestguard
 tagGDX2TorsoF202=Bysmiel Vile Vestments
@@ -568,6 +594,7 @@ tagGDX2NecklaceD211=Rah'Zin's Gem
 tagGDX2NecklaceD212=Blightlord's Vector
 tagGDX2NecklaceD213=Bysmiel's Iris
 tagGDX2NecklaceD214=Rotgheist Emblem
+tagGDX2NecklaceD215=Goredrinker's Ward
 
 tagGDX2NecklaceF201=Bysmiel Champion Pendant
 tagGDX2NecklaceF202=Bysmiel Veiled Pendant
@@ -588,6 +615,10 @@ tagGDX2MedalB201=Basilisk Fang
 tagGDX2MedalB201_Desc="The fangs still drip with toxic venom."
 tagGDX2MedalB202=Wendigo Glare
 tagGDX2MedalB202_Desc="The bloodshot eye stares eagerly at your prey."
+tagGDX2MedalB203=Galeslice's Mark
+tagGDX2MedalB203_Desc="The whirl of blades cutting through the air is all the Dranghoul ever knew, or needed."
+tagGDX2MedalB204=Brawler's Distinction
+tagGDX2MedalB204_Desc="Dueling is a grueling contest where two tired souls battle in the dirt for supremacy. Only one will emerge the victor."
 
 tagGDX2MedalC201=Mark of Anguished Lies
 tagGDX2MedalC202=Death's Wail Mark
@@ -604,6 +635,8 @@ tagGDX2MedalD206=Ludrigan's Mark
 tagGDX2MedalD207=Cyclone Mark
 tagGDX2MedalD208=Ghol's Mark
 tagGDX2MedalD209=Bysmiel's Mark
+tagGDX2MedalD210=Veilkeeper's Crest
+tagGDX2MedalD211=Crest of Ember's Calling
 
 tagGDX2MedalF201=Bysmiel Mark of Manipulation 
 tagGDX2MedalF202=Bysmiel Mark of Storms
@@ -1178,6 +1211,15 @@ tagGDX2ItemSetD218Desc=Rotgheist reveled in slaughter of man and creature alike,
 
 tagGDX2ItemSetD219Name=Armor of the Eternal Night
 tagGDX2ItemSetD219Desc="Morgoneth peered into the darkness, until the darkness stared back."
+
+tagGDX2ItemSetD220Name=Veilkeeper
+tagGDX2ItemSetD220Desc="Regalia once worn by the resolute Keepers of Ralyoth, who, an eternity ago, stood as custodians to a forgotten god."
+
+tagGDX2ItemSetD221Name=Goredrinker
+tagGDX2ItemSetD221Desc="Regalia once worn by the resolute Keepers of Ralyoth, who, an eternity ago, stood as custodians to a forgotten god."
+
+tagGDX2ItemSetD222Name=Ember's Calling
+tagGDX2ItemSetD222Desc="Regalia once worn by the resolute Keepers of Ralyoth, who, an eternity ago, stood as custodians to a forgotten god."
 
 
 

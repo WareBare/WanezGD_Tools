@@ -1472,6 +1472,8 @@ tagLegsA006=Legguards
 tagLegsB001=Dreeg-Sect Legguards
 tagLegsB002=Solael-Sect Legguards
 tagLegsB003=Bysmiel-Sect Legguards
+tagLegsB004=Anasteria's Legguards
+tagLegsB005=Anasteria's Leggings
 
 tagLegsC001=Mistwalker Leggings
 tagLegsC002=Hermit's Legguards
@@ -3488,7 +3490,7 @@ tagCompB020Name=^kMark of the Myrmidon
 tagCompB020Desc="A powerful symbol bestowed upon the most fearless battle lords."^w^n(Used in shields)
 
 tagCompB021Name=^kOleron's Blood
-tagCompB021Desc="Sacred blood of the war god."^w^n(Used in all weapons)
+tagCompB021Desc="Sacred blood of the war god."^w^n(Used in all weapons, shields and caster off-hands)
 
 tagCompB022Name=^kKilrian's Shattered Soul
 tagCompB022Desc="The tainted soul of Kilrian, terror of the Arkovian Undercity."^w^n(Used in chest armor)

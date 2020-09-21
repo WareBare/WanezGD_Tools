@@ -366,6 +366,18 @@ tagGDX2Miniboss_Beast_04=Azaleon, Gryphon Sovereign
 tagGDX2Miniboss_Beast_05=Durg the Stormborn
 tagGDX2Miniboss_Beast_06=Margul the Rotting
 
+tagGDX2Miniboss_Side_01=Karnath Chillblood, Coliseum Amalgam
+tagGDX2Miniboss_Side_02=Father Abaddoth ~ Betrayer of Menhir
+tagGDX2Miniboss_Side_03=Galeslice the Ruthless
+tagGDX2Miniboss_Side_04=Naren Kur the Ostracized
+tagGDX2Miniboss_Side_05=Rutnick the Cruel
+tagGDX2Miniboss_Side_06=Astros the Sunherald
+tagGDX2Miniboss_Side_07=Blugrug the Living Plague
+
+tagGDX2Miniboss_PVP_01=Rekt Byprotoss ~ Champion of the Pit
+tagGDX2Miniboss_PVP_02=Acedian Aldric ~ Champion of the Pit
+
+
 tagGDX2Quest_EldritchHound_01=Galfang, Night Terror
 tagGDX2Quest_EldritchHound_02=Packhound of Galfang
 tagGDX2Quest_EldritchWraith_01=Okaloth's Unchained

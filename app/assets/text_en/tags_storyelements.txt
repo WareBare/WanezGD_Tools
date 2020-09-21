@@ -577,7 +577,7 @@ tagNPC_AreaD_02=Captain Reave
 tagNPC_AreaD_03=Weapons Master Edric
 tagNPC_AreaD_04=Anasteria
 tagNPC_AreaD_04B=Anasteria, Harbinger of the North
-tagNPC_AreaD_04C=Anasteria,  Wrath of the Aether
+tagNPC_AreaD_04C=Anasteria, Wrath of the Aether
 tagNPC_AreaD_AldritchCaptive=Katrine
 
 tagNPC_DetonationSite=Detonation Site

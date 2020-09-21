@@ -222,7 +222,7 @@ tagGDX1Class08SkillName14A=Mark of Torment
 tagGDX1Class08SkillDescription14A=Though all must ultimately answer to that final fate, your mastery of death has allowed you to delay the inevitable. By linking your soul to a nearby foe, you transfer some of the harm intended for you into them instead. ^oOnly one enemy can be Marked at any one time.
 
 tagGDX1Class08SkillName15A=Call of the Grave
-tagGDX1Class08SkillDescription15A=Upon their master's command, your minions can unleash the power of the grave that fuels them, throwing them into a vicious frenzy.
+tagGDX1Class08SkillDescription15A=Call upon the rot and decay of the grave to fuel your vile magic and throw your undying minions into a vicious frenzy.
 
 #ItemSkills
 
