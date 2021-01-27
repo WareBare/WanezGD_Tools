@@ -1,4 +1,4 @@
-﻿tagTitleScreenText=Grim Dawn{^n}©2020 Crate Entertainment, LLC{^n}{^n}Please visit us at www.grimdawn.com to participate{^n}in the ongoing development of Grim Dawn!
+﻿tagTitleScreenText=Grim Dawn{^n}©2021 Crate Entertainment, LLC{^n}{^n}Please visit us at www.grimdawn.com to participate{^n}in the ongoing development of Grim Dawn!
 tagDemoScreenText=Thanks for playing!{^n}{^n}Grim Dawn is currently available on Steam, or via our website at www.grimdawn.com
 tagMenu01=Play Game
 tagMenu02=Custom Game
@@ -506,6 +506,7 @@ tagMenuError41=Please insert the original Grim Dawn disc.
 tagMenuError42=Steam authentication failed.
 tagMenuError43=The Crucible is currently in progress and cannot be interrupted. The session can be joined once combat is over.
 tagMenuError44=An expansion character with that name already exists.
+tagMenuError45=The selected character is not within the level range required by this server.
 tagConnectAborted=Connect Aborted.
 tagMenuWarning01=Warning:  This will create a copy of your character {%s}.  This copied character can only be used in Custom Games.
 tagMenuWarning02=Would you like to rename this Custom Only Character?

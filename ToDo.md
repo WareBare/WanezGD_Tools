@@ -8,9 +8,17 @@
 
 
 
-# v0.5.4 - Update for Grim Dawn v1.1.8.0
+# v0.5.5 - Update for Grim Dawn v1.1.9.0
 
-* ***New:*** Added native support for Grim Dawn v1.1.8.0 items.
+* ***New:*** Added native support for Grim Dawn v1.1.9.0 items.
+* ***BugFix:*** French Localization was causing issues when using and coloring Mastery Names. (Oathkeeper is still a ? due to the file not using UTF-8)
+* ***BugFix:*** Czech Localization Prefix Capitalization and '|9' issues. (~90% fixed)
+
+# v0.5.6 - Fixes
+
+* [ ] ***BugFix:*** Special Highlighting was not allowing deletion of groups when using apostrophes (') in names.
+* [ ] ***BugFix:*** Library was not loading in some cases. (ToDo: loading non-existing Library entry - set fullRainbow to default to prevent the error)
+* [ ] ***BugFix:*** A missing group was causing a Library Entry to become impossible to load. (ToDo e.g. Skill missing/deleted custom group)
 
 # v0.5.0 - GD Launch Options & Predictive Set-Up
 
@@ -59,11 +67,17 @@
 
 # Forum Reply
 
-## Files and Tool updated for Grim Dawn v1.1.8.0
+## Files and Program updated for Grim Dawn v1.1.9.0
 
-Tool updates itself, keep in mind colors need to be saved manually after it has finished updating.
+Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.4).
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.5).
+
+<details>
+    <summary><btn>Show Change Log</btn> Hotfix</summary>
+</details>
+
+***Note:*** Change Log can also be found on GitHub and inside the program.
 
 
 

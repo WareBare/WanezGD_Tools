@@ -3327,7 +3327,7 @@ tagCompA028Name=Vitriolic Gallstone
 tagCompA028Desc="Vitriolic stones formed in the bile of foul beasts."^w^n(Used in melee weapons, shields and caster off-hands)
 
 tagCompA029Name=Blessed Whetstone
-tagCompA029Desc="Sharpens even the sharpest of edges, increasing the damage that penetrates enemy armor."^w^n(Used in axes, swords, guns and crossbows.)
+tagCompA029Desc="Sharpens even the sharpest of edges, increasing the damage that penetrates enemy armor."^w^n(Used in axes, swords, guns and crossbows)
 
 tagCompA030Name=Silk Swatch
 tagCompA030Desc="Western nomads have long known that layered silk can envelop and slow the penetration of piercing projectiles."^w^n(Used in shoulder, chest and leg armor)
@@ -3472,7 +3472,7 @@ tagCompB014Name=^kShard of Beronath
 tagCompB014Desc="But a piece of the legendary spear that felled Beronath, yet still retains great power."^w^n(Used in all weapons, shields and caster off-hands)
 
 tagCompB015Name=^kBloody Whetstone
-tagCompB015Desc="Soaked in the blood of the fallen, this accursed whetstone gives sharpened edges a hunger for blood."^w^n(Used in axes, swords, guns and crossbows.)
+tagCompB015Desc="Soaked in the blood of the fallen, this accursed whetstone gives sharpened edges a hunger for blood."^w^n(Used in axes, swords, guns and crossbows)
 
 tagCompB016Name=^kAttuned Lodestone
 tagCompB016Desc="These rare and potent stones still echo with the thunder of the storm that birthed them."^w^n(Used in amulets and medals)

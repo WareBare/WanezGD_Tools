@@ -1063,7 +1063,7 @@ tagItemSkillC041Name=Spectral Wave
 tagItemSkillC041Desc=Unleash a wave of angry spirits to drain the life out of your enemies.
 
 tagItemSkillC042Name=Add a Notch
-tagItemSkillC042Desc=Adds another notch to the supposed existing thousand, but who is counting anyway? ^oActivates off of default weapon attacks.
+tagItemSkillC042Desc=Adds another notch to the supposed existing thousand, but who is counting anyway? ^oThis is a melee technique that activates off of default weapon attacks.
 
 tagItemSkillC043Name=Ring of Everlasting Flame
 tagItemSkillC043Desc=Bathe yourself in incinerating flames that burn all around you to cinders, but leave you unharmed. ^oThis ability must be toggled to maintain its effect.
@@ -1077,7 +1077,7 @@ tagItemSkillC045Name=Aether Ward
 tagItemSkillC045Desc=Embrace the powers of the great aether, gaining resistance to the arcane and a strengthened resolve.
 
 tagItemSkillC046Name=Soul Steal
-tagItemSkillC046Desc=Devour the essence of your target to restore your own. ^oActivates off of default weapon attacks.
+tagItemSkillC046Desc=Devour the essence of your target to restore your own. ^oThis is a melee technique that activates off of default weapon attacks.
 
 tagItemSkillC047Name=Stoneheart Poison
 tagItemSkillC047Desc=Release the poison contained within this blade, petrifying flesh.
@@ -1127,7 +1127,7 @@ tagItemSkillC061Name=Serpent Lash
 tagItemSkillC061Desc=Lash out at your enemy like a vile serpent, injecting your target with a deadly poison. ^oRequires a melee weapon.
 
 tagItemSkillC062Name=Knockout
-tagItemSkillC062Desc=Take your opponent out of the fight with a swift and precise strike. ^oActivates off of default melee weapon attacks.
+tagItemSkillC062Desc=Take your opponent out of the fight with a swift and precise strike. ^oActivates off of default weapon attacks.
 
 tagItemSkillC063Name=Prismatic Shield
 tagItemSkillC063Desc=Triggers the runes engraved upon this armor, creating a protective shield around you.
@@ -1166,10 +1166,10 @@ tagItemSkillC074Name=Guardian's Will
 tagItemSkillC074Desc=Your stubborn will to live can save you even from the most dire blows. ^oRequires a shield.
 
 tagItemSkillC075Name=Marauder's Fury
-tagItemSkillC075Desc=Unleashes a salvo of fire-infused ammunition. ^oEnables the ability to dual wield ranged weapons.
+tagItemSkillC075Desc=Unleashes a salvo of fire-infused ammunition. ^oThis is a ranged technique that activates off of default weapon attacks. Also enables the ability to dual wield ranged weapons.
 
 tagItemSkillC076Name=Marauder's Justice
-tagItemSkillC076Desc=Unleashes a salvo of cold-infused ammunition. ^oEnables the ability to dual wield ranged weapons.
+tagItemSkillC076Desc=Unleashes a salvo of cold-infused ammunition. ^oThis is a ranged technique that activates off of default weapon attacks. Also enables the ability to dual wield ranged weapons.
 
 tagItemSkillC077Name=Dismay
 tagItemSkillC077Desc=Overwhelm the mind of your enemy with sheer terror.
@@ -1190,7 +1190,7 @@ tagItemSkillC082Name=Voidfire Nova
 tagItemSkillC082Desc=A burst of concentrated negative energy erupts from you.
 
 tagItemSkillC083Name=Marauder's Salvo
-tagItemSkillC083Desc=When brandishing two pistols, you sometimes unleash a salvo of arcane infused ammunition. ^oEnables the ability to dual wield ranged weapons. Activates off of default weapon attacks.
+tagItemSkillC083Desc=When brandishing two pistols, you sometimes unleash a salvo of arcane infused ammunition. ^oThis is a ranged technique that activates off of default weapon attacks. Also enables the ability to dual wield ranged weapons.
 
 tagItemSkillC084Name=Miasma
 tagItemSkillC084Desc=Releases a cloud of toxic gases which choke and confuse your enemies.
@@ -1579,7 +1579,7 @@ tagItemSkillD077Name=Dreeg's Command
 tagItemSkillD077Desc=The commanding presence of Dreeg fills you when threatened, allowing uninterrupted spellcasting.
 
 tagItemSkillD078Name=Duelist
-tagItemSkillD078Desc=Mastery of two-gun combat has honed you into a deadly weapon. You can fire your guns at the same time with trivial ease, and to lethal effect.
+tagItemSkillD078Desc=Mastery of two-gun combat has honed you into a deadly weapon. You can fire your guns at the same time with trivial ease, and to lethal effect. ^oActivates off of default weapon attacks.
 
 tagItemSkillD079Name=Elemental Blast
 tagItemSkillD079Desc=A blast of elemental energies erupts from you, pushing back all nearby foes.
@@ -1597,7 +1597,7 @@ tagItemSkillD083Name=Eternal Haunt
 tagItemSkillD083Desc=Inflict an tormenting haunt upon your foe that spreads among your foes.
 
 tagItemSkillD084Name=Exterminate
-tagItemSkillD084Desc=End your foe with a well-aimed shot.
+tagItemSkillD084Desc=End your foe with a well-aimed shot. ^oThis is a ranged technique that activates off of default weapon attacks.
 
 tagItemSkillD085Name=Fade from Reality
 tagItemSkillD085Desc=When danger strikes, the power of this mantle fades you out of the physical realm, granting you a brief reprieve.

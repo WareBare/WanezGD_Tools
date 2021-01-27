@@ -537,7 +537,7 @@ tagGDX2RuneSkillD209=Nadaan's Strike
 tagGDX2RuneSkillD209Desc=Shift through the shadows to instantly transport yourself towards a target destination and assault nearby foes with a ring of blades.
 
 tagGDX2RuneSkillD210=Ultos' Arrival
-tagGDX2RuneSkillD210Desc=Instantly travel through reality itself towards a target destination and arrive in a fiery blaze.
+tagGDX2RuneSkillD210Desc=Instantly travel through reality itself towards a target destination and arrive in a thunderous eruption.
 
 tagGDX2RuneSkillD211=Astral Rift
 tagGDX2RuneSkillD211Desc=Warp the veil to instantly travel towards a target destination and unleash a surge of arcane energies.
@@ -705,7 +705,7 @@ tagGDX2EnemySkillD13=Impaling Spikes
 tagGDX2EnemySkillD13_Desc=Impaled by poisoned spikes, pinning you to the ground.
 
 tagGDX2EnemySkillD14=Celestial Presence
-tagGDX2EnemySkillD14_Desc=You stand awe of a celestial being
+tagGDX2EnemySkillD14_Desc=You stand in awe of a celestial being.
 
 tagGDX2EnemySkillD15=Celestial Effigy
 tagGDX2EnemySkillD15_Desc=An nearby effigy empowers Korvaak and harms mortals.

@@ -2354,6 +2354,7 @@ tagMPNameLevel={%t0} ({%d1})
 tagMPClass={%s0}
 tagMPLocation={%s0}
 tagMPLifeMana={^r}{%d0}/{%d1} {^g}{%d2}/{%d3}
+tagMPReport=Report
 tagTradeError01={%t0} is currently trading with another player.
 tagTradeError02={%t0} has denied your trade request.
 tagTradeError03={%t0} has requested a trade.

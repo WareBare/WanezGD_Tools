@@ -178,6 +178,23 @@ module.exports = class SRainbowFilter extends Parent{
         if (this.bPolish && tagName.includes(`Prefix`) && !newValue.startsWith(`$`)) {
             //console.log(`is Polish`);
             newValue = `$${newValue}`;
+            //colorCode = `${colorCode}$`;
+        }
+
+        const bCapitalizedTag = (tagName.includes(`Prefix`) || tagName.includes(`Quality`) || tagName.includes(`Style`));
+        if (this.bCzech && bCapitalizedTag && !newValue.startsWith(`$`)/* && !newValue.startsWith(`|`)*/) {
+            //console.log(`is Polish`);
+            //newValue = newValue.replace(/\]([a-zA-Z])/g, `]${(`$1`).toUpperCase()}`);
+            newValue = newValue.replace(/\]([a-zA-Z])/g, function(InMatch){
+                return InMatch.toLocaleUpperCase();
+            });
+            if (newValue.startsWith(`|`) == false && tagName.includes(`Prefix`) == true)
+            {
+                newValue = `$${newValue}`;
+            }
+            
+            //console.log(newValue);
+            //colorCode = `${colorCode}$`;
         }
 
         if(newValue.includes(`{^E}`)){
@@ -191,6 +208,9 @@ module.exports = class SRainbowFilter extends Parent{
             //Log(newValue);
         }else if(newValue.startsWith(`\$`)){
             newValue = newValue.replace(`$`, `$${colorCode}`);
+        }else if(newValue.startsWith(`|`))
+        {
+            newValue = newValue.replace(/\|([0-9])/g, `|$1${colorCode}`);
         }else if(newValue.match(RegexGlobalLetters)){
             newValue = `${colorCode}${newValue}`;
             //Log(newValue);
@@ -295,9 +315,13 @@ module.exports = class SRainbowFilter extends Parent{
         
         //Log( `${versioningBaseText}${versioningCustomText}` );
         this.bPolish = false;
+        this.bCzech = false;
         if (Super.IsUsingLocale()) {
             if(SourceData[`language.def`] && SourceData[`language.def`][1] && SourceData[`language.def`][1].TagValue === `Polski`){
                 this.bPolish = true;
+            }
+            if(SourceData[`language.def`] && SourceData[`language.def`][1] && SourceData[`language.def`][1].TagValue === `Czech`){
+                this.bCzech = true;
             }
         }
         this.UpdateSourceData(SourceData);

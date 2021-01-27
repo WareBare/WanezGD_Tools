@@ -103,8 +103,8 @@ module.exports = {
         }
     },
 
-    GrimDawnVersion: `1.1.8.0`,
-    LastItemVersion: `1.1.8.0`,
+    GrimDawnVersion: `1.1.9.0`,
+    LastItemVersion: `1.1.9.0`,
 
     //  data-wztip="{TOOL_TIP}" data-wztip-position="top"
     tplContent: {
@@ -505,13 +505,15 @@ module.exports = {
                 loopTagIndex = SourceData[`${elFileIndex}.txt`].findIndex(
                     elTagData => elTagData.TagKey === MasteryTag
                 );
+                console.log(loopTagIndex);
 
                 if (loopTagIndex !== -1) {
-                    outNames[MasteryTag] = SourceData[`${elFileIndex}.txt`][loopTagIndex].TagValue;
+                    outNames[MasteryTag] = SourceData[`${elFileIndex}.txt`][loopTagIndex].TagValue.replace(/{\^[a-zA-Z]}/g, ``);
+                    //console.log(SourceData[`${elFileIndex}.txt`][loopTagIndex].TagValue);
 
                     // Check if Mastery has different genders, only use first gender.
                     if(outNames[MasteryTag].startsWith(`[`)){
-                        outNames[MasteryTag] = outNames[MasteryTag].split(`[`)[1].split(`]`)[1];
+                        outNames[MasteryTag] = outNames[MasteryTag].split(`[`)[1].split(`]`)[1].replace(/{\^[a-zA-Z]}/g, ``);
                     }
                     
                     // Ensure Mastery is not called '?'.

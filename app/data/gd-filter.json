@@ -1,5 +1,95 @@
 {
     "Tags": {
+        "tagGDX2HeadD222": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2ShoulderD220": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2TorsoD220": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "None",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2MedalD210": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2HeadD223": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2ShoulderD221": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2TorsoD221": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2NecklaceD215": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2HeadD224": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2ShoulderD222": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2TorsoD222": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2HeadD225": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2ShoulderD223": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2TorsoD223": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
+        "tagGDX2MedalD211": {
+            "Classification": "Legendary",
+            "Type": "Regular Item",
+            "Group": "Set",
+            "VersionNumber": "1.1.9.0"
+        },
         "tagGDX2ShieldD207": {
             "Classification": "Legendary",
             "Type": "Regular Item",
