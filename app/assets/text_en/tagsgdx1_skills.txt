@@ -35,6 +35,7 @@ tagGDX1Class04SkillTracker01A=Current Number of Blade Spirits Conjured
 
 tagGDX1Class06SkillTracker01A=Current Number of Wind Devils Conjured
 tagGDX1Class06SkillTracker02A=Current Number of Storm Totems Placed
+tagGDX1Class06SkillTracker03A=Current Number of Wendigo Totems Placed
 
 
 #Class07
@@ -52,7 +53,7 @@ tagGDX1Class07SkillDescription01C=With a single word, elemental energies rupture
 tagGDX1Class07SkillName02A=Storm Box of Elgoloth
 tagGDX1Class07SkillDescription02A=Open the runed Storm Box of Elgoloth, surrounding the target foe with a psychic energy that electrifies the very air around them, shocking the target and all unfortunate enough to stand too close.
 tagGDX1Class07SkillName02B=Lightning Tether
-tagGDX1Class07SkillDescription02B=The target becomes tethered to you through an electrified connection that rapidly shocks the target and all enemies unfortunate enough to pass through it. The power within the tether is limited however and will snap should the distance between you and the target become too great. ^oUp to 3 enemies can remain tethered at any given time.
+tagGDX1Class07SkillDescription02B=The target becomes tethered to you through an electrified connection that rapidly shocks the target and all enemies unfortunate enough to pass through it. The power within the tether is limited however and will snap should the distance between you and the target become too great. ^oUp to 5 enemies can remain tethered at any given time.
 tagGDX1Class07SkillName02C=Allagast's Arcane Net
 tagGDX1Class07SkillDescription02C=Although the Luminari were known to police the activities of the Gildam Arcanum, sanctioned collaboration was not unheard of between the two orders. With carefully calculated adjustments to the Storm Box, the field becomes infused with arcane energies that swell with the Aether. ^oThe tether remains electrified.
 
@@ -90,8 +91,10 @@ tagGDX1Class07SkillName06A_PetSkill01=Barrier
 tagGDX1Class07SkillName06A_PetSkill02=Rebuke
 tagGDX1Class07SkillName06B=Arcane Empowerment
 tagGDX1Class07SkillDescription06B=Allies standing within the seal are empowered with arcane energies, infusing their weapons and spells with renewed strength.
-tagGDX1Class07SkillName06C=Null Field
-tagGDX1Class07SkillDescription06C=The Inquisitor Seal's inscription can be altered, if the need arises, to harden its barrier against incoming projectiles, but this comes at a cost in increased mental drain.
+tagGDX1Class07SkillName06C=Runic Seal
+tagGDX1Class07SkillDescription06C=When inscribed through a runed two-handed weapon, an Inquisitor can create the seal with reduced strain. ^oRequires a two-handed melee or two-handed ranged weapon.
+XtagGDX1Class07SkillName06C=Null Field
+XtagGDX1Class07SkillDescription06C=The Inquisitor Seal's inscription can be altered, if the need arises, to harden its barrier against incoming projectiles, but this comes at a cost in increased mental drain.
 
 tagGDX1Class07SkillName07A=Rune of Kalastor
 tagGDX1Class07SkillDescription07A=Place the Rune of Kalastor upon the ground. This unstable artifact explodes upon contact with enemies, spilling explosive shrapnel upon the battlefield that shatters and erupts to inflict grievous harm. ^oRunes of Kalastor take 1.5 seconds to arm and scale with player bonuses.
@@ -100,10 +103,10 @@ tagGDX1Class07SkillDescription07B=The Rune of Kalastor becomes increasingly unst
 tagGDX1Class07SkillName07A_PetSkill=Concussive Blast
 
 tagGDX1Class07SkillName08A=Aura of Conviction
-tagGDX1Class07SkillDescription08A=The protective properties of the runes emblazoned upon Inquisitor armor can be extended to nearby allies, offering enhanced combat awareness and martial prowess. ^oThis ability must be toggled to maintain its effect.
+tagGDX1Class07SkillDescription08A=The protective properties of the runes emblazoned upon Inquisitor armor can be extended to nearby allies, offering enhanced combat awareness and martial prowess.
 
 tagGDX1Class07SkillName09A=Aura of Censure
-tagGDX1Class07SkillDescription09A=An Inquisitor's mere presence is enough to inspire dread within the foes of mankind. With arcane runes emblazoned upon their armor, Inquisitors march into the thick of battle with fire in their hearts. ^oThis ability must be toggled to maintain its effect.
+tagGDX1Class07SkillDescription09A=An Inquisitor's mere presence is enough to inspire dread within the foes of mankind. With arcane runes emblazoned upon their armor, Inquisitors march into the thick of battle with fire in their hearts.
 
 tagGDX1Class07SkillName10A=Horn of Gandarr
 tagGDX1Class07SkillDescription10A=Study of the Horn of Gandarr was forbidden for centuries due to its mind shattering properties, but desperation called it into use when High Inquisitor Serenir utilized the Horn to great effect while singlehandedly taking on an occult coven. The cultists turned upon each other in confusion, allowing Serenir to finish off the stragglers with ease. This earned the Inquisitor a commendation and the Horn was later replicated by the Luminari scholars for field use, though with reduced potency.
@@ -187,7 +190,7 @@ tagGDX1Class08SkillName05D=Unstable Anomaly
 tagGDX1Class08SkillDescription05D=While a blight fiend can serve as an ample guardian, a twist in the necromantic ritual can also turn it into a highly unstable vector for spreading rot and decay across the battlefield. These unstable abominations will rampage through your foes before violently erupting after a brief period.
 
 tagGDX1Class08SkillName06A=Spectral Binding
-tagGDX1Class08SkillDescription06A=Binding spirits is a dangerous practice, but one that can be vastly rewarding with forgotten knowledge or even protection. By forcing the spirits of the fallen to serve, you become infused with their essence, granting you vitality and further control over your necrotic powers. ^oThis ability must be toggled to maintain its effect.
+tagGDX1Class08SkillDescription06A=Binding spirits is a dangerous practice, but one that can be vastly rewarding with forgotten knowledge or even protection. By forcing the spirits of the fallen to serve, you become infused with their essence, granting you vitality and further control over your necrotic powers.
 tagGDX1Class08SkillName06B=Spectral Wrath
 tagGDX1Class08SkillDescription06B=The spectres empowering you lash out at anything that dares strike you, cursing it with a debilitating spell from beyond the grave.
 
@@ -208,10 +211,10 @@ tagGDX1Class08SkillName09A_PetSkill02=Vitality Nova
 tagGDX1Class08SkillTracker09A=Current Number of Wraiths Summoned
 
 tagGDX1Class08SkillName10A=Harbinger of Souls
-tagGDX1Class08SkillDescription10A=Having mastered death, you become a living harbinger of that final fate, the life essence of your enemies but a plaything to manipulate at will. ^oThis ability must be toggled to maintain its effect.
+tagGDX1Class08SkillDescription10A=Having mastered death, you become a living harbinger of that final fate, the life essence of your enemies but a plaything to manipulate at will.
 
 tagGDX1Class08SkillName11A=Master of Death
-tagGDX1Class08SkillDescription11A=A fully trained Necromancer is a terrifying thing to behold, their arrival heralded by the endless legions of the dead, forever bound to the will of their master. ^oThis ability must be toggled to maintain its effect.
+tagGDX1Class08SkillDescription11A=A fully trained Necromancer is a terrifying thing to behold, their arrival heralded by the endless legions of the dead, forever bound to the will of their master.
 
 tagGDX1Class08SkillName12A=Reaping Strike
 tagGDX1Class08SkillDescription12A=By infusing their weapons with deadly necrotic energies, Necromancers can inflict physical wounds that cut deeper than just the flesh. ^oCan activate with all default weapon attacks.
@@ -260,7 +263,7 @@ tagGDX1ItemSkillC108Name=Dreadwalker's Grace
 tagGDX1ItemSkillC108Desc=Inhale the energies given off by a freshly slain foe, restoring your strength and empowering your vile powers.
 
 tagGDX1ItemSkillC109Name=Luminari Presence
-tagGDX1ItemSkillC109Desc=The very presence of a trained Luminari Inquisitor is enough to put fiends and heretics at unease. ^oThis ability must be toggled to maintain its effect.
+tagGDX1ItemSkillC109Desc=The very presence of a trained Luminari Inquisitor is enough to put fiends and heretics at unease.
 
 tagGDX1ItemSkillC110Name=Poison Bolt Burst
 tagGDX1ItemSkillC110Desc=A burst of poisonous orbs erupts from you.
@@ -351,7 +354,7 @@ tagGDX1ItemSkillD125Name=Rageflame
 tagGDX1ItemSkillD125Desc=A burst of tainted flames erupts from the earth.
 
 tagGDX1ItemSkillD126Name=Flame of Gar'dal
-tagGDX1ItemSkillD126Desc=Engulf yourself in the wicked flames of Gar'dal, which are harmless to you and those you consider allies while singeing any foes that draw near. ^oThis ability must be toggled to maintain its effect.
+tagGDX1ItemSkillD126Desc=Engulf yourself in the wicked flames of Gar'dal, which are harmless to you and those you consider allies while singeing any foes that draw near.
 
 tagGDX1ItemSkillD127Name=Executioner's Edge
 tagGDX1ItemSkillD127Desc=Unleash a deadly spinning blade to decapitate your foes.
@@ -426,19 +429,19 @@ tagGDX1ItemSkillD150Name=Lifeblaze
 tagGDX1ItemSkillD150Desc=Living flame consumes your foe, burning more than just the flesh.
 
 tagGDX1ItemSkillD151Name=Venomancer's Aura
-tagGDX1ItemSkillD151Desc=Empower your weapons and those of nearby allies with a dreadful venom. ^oThis ability must be toggled to maintain its effect.
+tagGDX1ItemSkillD151Desc=Empower your weapons and those of nearby allies with a dreadful venom.
 
 tagGDX1ItemSkillD152Name=Necrolord's Aura
-tagGDX1ItemSkillD152Desc=Imbue your weapons and those of nearby allies with the power of undeath. ^oThis ability must be toggled to maintain its effect.
+tagGDX1ItemSkillD152Desc=Imbue your weapons and those of nearby allies with the power of undeath.
 
 tagGDX1ItemSkillD153Name=Ignaffar's Presence
-tagGDX1ItemSkillD153Desc=Imbue your armor with the flame of Ignaffar, which sears nearby foes. ^oThis ability must be toggled to maintain its effect.
+tagGDX1ItemSkillD153Desc=Imbue your armor with the flame of Ignaffar, which sears nearby foes.
 
 tagGDX1ItemSkillD154Name=Gildor's Guard
 tagGDX1ItemSkillD154Desc=Raise up your shield in anticipation, retaliating against any melee attackers in kind.
 
 tagGDX1ItemSkillD155Name=Prismatic Aura
-tagGDX1ItemSkillD155Desc=Imbue your armor and that of your nearby allies with protective runes. ^oThis ability must be toggled to maintain its effect.
+tagGDX1ItemSkillD155Desc=Imbue your armor and that of your nearby allies with protective runes.
 
 tagGDX1ItemSkillD156Name=Aether Spines
 tagGDX1ItemSkillD156Desc=Unleash a burst of aether-tainted bone spines upon your foes.
@@ -483,7 +486,7 @@ tagGDX1ItemSkillD169Name=Unleash Chaos
 tagGDX1ItemSkillD169Desc=Unleash the darkness you harness upon unsuspecting foes in a devastating blastwave around you.
 
 tagGDX1ItemSkillD170Name=Spellscourge
-tagGDX1ItemSkillD170Desc=Through sheer mental will, you turn the powers of magic itself into a physical force. ^oThis ability must be toggled to maintain its effect.
+tagGDX1ItemSkillD170Desc=Through sheer mental will, you turn the powers of magic itself into a physical force.
 
 tagGDX1ItemSkillD171Name=Lifedrinker
 tagGDX1ItemSkillD171Desc=Your thirst for life is insatiable. Even when you draw upon a foe's life essence, nearby victims suffer the same fate.
@@ -510,7 +513,7 @@ tagGDX1ItemSkillD178Name=Void Rounds
 tagGDX1ItemSkillD178Desc=A barrage infused with void energies passes through your foes and unmakes them from within. ^oThis is a ranged technique that activates off of default weapon attacks. Also enables the ability to dual wield ranged weapons.
 
 tagGDX1ItemSkillD179Name=Spelldrinker
-tagGDX1ItemSkillD179Desc=Empower your weapon to resonate with the arcane, absorbing a portion of hostile spells and redirecting the energy to your own spellcraft. ^oThis ability must be toggled to maintain its effect.
+tagGDX1ItemSkillD179Desc=Empower your weapon to resonate with the arcane, absorbing a portion of hostile spells and redirecting the energy to your own spellcraft.
 
 tagGDX1ItemSkillD180Name=Call Upon the Bloodbathed
 tagGDX1ItemSkillD180Desc=Call forth a bloodied servant of Nazaran to cast vitality-sapping spells upon your foes before the torment of the grave calls upon it once more. ^oBloodbathed Servants scale with player damage bonuses.
@@ -531,10 +534,10 @@ tagGDX1w=GrimDawn/images/evil
 #Component Skills
 
 tagGDX1CompSkillA101Name=Presence of Might
-tagGDX1CompSkillA101Desc=You shrug off the blows of your opponents with ease. ^oThis ability must be toggled to maintain its effect.
+tagGDX1CompSkillA101Desc=You shrug off the blows of your opponents with ease.
 
 tagGDX1CompSkillA102Name=Whirling Blades
-tagGDX1CompSkillA102Desc=At your command, whirling blades spin around you, shredding all foes who come too near. ^oThis ability must be toggled to maintain its effect.
+tagGDX1CompSkillA102Desc=At your command, whirling blades spin around you, shredding all foes who come too near.
 
 tagGDX1CompSkillA103Name=Chain Lightning
 tagGDX1CompSkillA103Desc=Lightning crackles at your fingertips and cascades off of your foes to demolish their ranks.
@@ -558,7 +561,7 @@ tagGDX1CompSkillA109Name=Biting Blades
 tagGDX1CompSkillA109Desc=Hurl a blade coated in caustic acid that spins outward away from your position, piercing through all enemies along the way before returning to you.
 
 tagGDX1CompSkillA110Name=Arcane Resonance
-tagGDX1CompSkillA110Desc=Your mastery over the arcane shields you from debilitating effects. ^oThis ability must be toggled to maintain its effect.
+tagGDX1CompSkillA110Desc=Your mastery over the arcane shields you from debilitating effects.
 
 tagGDX1CompSkillB101Name=Annihilation
 tagGDX1CompSkillB101Desc=The power within the seal annihilates your foe.
@@ -634,7 +637,7 @@ tagGDX1RelicSkillD112Name=Ignaffar's Combustion
 tagGDX1RelicSkillD112Desc=The ancient relic erupts with destructive flame that is harmless to you and your allies, but devastating to anyone standing too close.
 
 tagGDX1RelicSkillD113Name=Mogdrogen's Ardor
-tagGDX1RelicSkillD113Desc=The beast god's blessing surrounds you and your minions, shielding you from harm. ^oThis ability must be toggled to maintain its effect.
+tagGDX1RelicSkillD113Desc=The beast god's blessing surrounds you and your minions, shielding you from harm.
 
 tagGDX1RelicSkillD114Name=Summon Deathstalker
 tagGDX1RelicSkillD114Desc=Call forth Deathstalker, a fearsome embodiment of Mogdrogen's fury that shreds the Physical, Poison and Bleed Resistance of nearby enemies. ^oYou can only summon one manifestation of Deathstalker at any one time. Deathstalker scales with player damage bonuses.
@@ -845,4 +848,3 @@ tagGDX1EnemySkillD16_Desc=A great beast roams nearby, filling you with dread and
 
 tagGDX1EnemySkillD17=Burning Blood
 tagGDX1EnemySkillD17_Desc=Gargabol's Burning Blood singes your resistances.
-

@@ -26,9 +26,10 @@ const RunArchiveTool = function(InPath_Source, InPath_Target, InPaths, InCallbac
             const elSubDirectory = subDirectories[j];
             if (bErrorOccured) break;
             //break;
+            //pathExistsSync
 
             try{
-                if(fs.pathExistsSync(`${InPath_Source}\\${elSubDirectory}\\${elFileName}`)) {
+                if(fs.existsSync(`${InPath_Source}\\${elSubDirectory}\\${elFileName}`)) {
                     
                     let errorMaybe = child_process.execSync(
                         `"${InPath_Source}\\ArchiveTool.exe" "${InPath_Source}\\${elSubDirectory}\\${elFileName}" ${archiveMode} "${InPath_Target}\\resources"`

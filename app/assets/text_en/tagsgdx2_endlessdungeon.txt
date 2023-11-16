@@ -100,29 +100,32 @@ tagGDX2EndlessDungeon_NPC_PowerUps01=Callagadra, Scion of the Sands
 
 #Shrines
 tagGDX2EndlessDungeon_Shrine01=Shrine of Azrakaa
-tagGDX2EndlessDungeon_Shrine01_Desc=Make a pact with Azrakaa, granting you Increased Resistance to Slow and Crowd Control effects, but your Critical Strikes are Weakened.
+tagGDX2EndlessDungeon_Shrine01_Desc=Make a pact with Azrakaa, granting you increased Movement Speed and causing your attacks to launch spectral blades at your foes.
 tagGDX2EndlessDungeon_Shrine01Skill=Azrakaa's Bargain
-tagGDX2EndlessDungeon_Shrine01Skill_Desc=You've made a bargain with Azrakaa, granting you Increased Resistance to Slow and Crowd Control effects, but your Critical Strikes are Weakened.
+tagGDX2EndlessDungeon_Shrine01Skill_Desc=You've made a bargain with Azrakaa, granting you increased Movement Speed and causing your attacks to launch spectral blades at your foes.
+tagGDX2EndlessDungeon_Shrine01SkillProc=Spectral Blade
 
 tagGDX2EndlessDungeon_Shrine02=Shrine of Oleron
-tagGDX2EndlessDungeon_Shrine02_Desc=Fill yourself with OIeron's Bloodlust, granting you Increased Damage, but you become more Vulnerable to Physical attacks.
+tagGDX2EndlessDungeon_Shrine02_Desc=Fill yourself with Oleron's Bloodlust, granting you increased Movement Speed and greatly increased % Offensive Ability.
 tagGDX2EndlessDungeon_Shrine02Skill=Oleron's Bloodlust
-tagGDX2EndlessDungeon_Shrine02Skill_Desc=You are filled with Oleron's Bloodlust, granting you Increased Damage, but you become more Vulnerable to Physical attacks.
+tagGDX2EndlessDungeon_Shrine02Skill_Desc=You are filled with Oleron's Bloodlust, granting you increased Movement Speed and greatly increased % Offensive Ability.
 
 tagGDX2EndlessDungeon_Shrine03=Shrine of Rattosh
-tagGDX2EndlessDungeon_Shrine03_Desc=Split your soul between this reality and the one beyond the veil, granting you Increased Resistance against All Damage, but your Health is reduced.
+tagGDX2EndlessDungeon_Shrine03_Desc=Gain the power of the guardian of the veil, granting your increased Movement Speed and causing your attacks to sap life from your foes.
 tagGDX2EndlessDungeon_Shrine03Skill=Rattosh's Veil
-tagGDX2EndlessDungeon_Shrine03Skill_Desc=Your soul becomes split between this reality and the one beyond the veil, granting you Increased Resistance against All Damage, but your Health is reduced.
+tagGDX2EndlessDungeon_Shrine03Skill_Desc=You have the power of the veil, granting your increased Movement Speed and causing your attacks to sap life from your foes.
+tagGDX2EndlessDungeon_Shrine03SkillProc=Life Tap
 
-tagGDX2EndlessDungeon_Shrine04=Shrine of Vire
-tagGDX2EndlessDungeon_Shrine04_Desc=Make your skin as stone, granting you Increased Armor, but at the cost of Offensive Ability.
-tagGDX2EndlessDungeon_Shrine04Skill=Vire's Monolith
-tagGDX2EndlessDungeon_Shrine04Skill_Desc=Your skin becomes as stone, granting you Increased Armor, but at the cost of Offensive Ability.
+tagGDX2EndlessDungeon_Shrine04=Shrine of Amatok
+tagGDX2EndlessDungeon_Shrine04_Desc=Sap the heat from the nearby air, granting you increased Movement Speed and causing attacks against you to sometimes trigger a chilling blast.
+tagGDX2EndlessDungeon_Shrine04Skill=Amatok's Whisper
+tagGDX2EndlessDungeon_Shrine04Skill_Desc=You sapped the heat from the nearby air, granting you increased Movement Speed and causing attacks against you to sometimes trigger a chilling blast.
+tagGDX2EndlessDungeon_Shrine04SkillProc=Chilling Blast
 
 tagGDX2EndlessDungeon_Shrine05=Shrine of Death
-tagGDX2EndlessDungeon_Shrine05_Desc=Strike a bargain with death, granting you astonishing Offensive Power and Regeneration, but at the cost of Resistances.
+tagGDX2EndlessDungeon_Shrine05_Desc=Strike a bargain with death, increasing your Movement Speed and making you invincible.
 tagGDX2EndlessDungeon_Shrine05Skill=Mortal Desires
-tagGDX2EndlessDungeon_Shrine05Skill_Desc=You struck a bargain with death, granting you astonishing Offensive Power and Regeneration, but at the cost of Resistances.
+tagGDX2EndlessDungeon_Shrine05Skill_Desc=You struck a bargain with death, increasing your Movement Speed and making you invincible.
 
 
 #Powerups
@@ -159,9 +162,14 @@ tagGDX2EndlessDungeon_Key_05=Celestial Waystone
 tagGDX2EndlessDungeon_Key_05_Desc=The Celestial Waystone has been fully restored to its divine potential. It enables Mazaan to open the way to at least the 65th Shard, up to the 75th Shard, of the Shattered Realm. ^n^nThis waystone should not be used by the faint of heart.
 tagGDX2EndlessDungeon_Key_05_Blueprint=Blueprint: Celestial Waystone
 
-tagGDX2EndlessDungeon_Key_06=Death's Waystone
-tagGDX2EndlessDungeon_Key_06_Desc=Tainted with the power of death, the Waystone now opens the way forward to unfathomable dangers where no reward awaits but for the glory of conquest. ^n^nIt enables Mazaan to open the way to at least the 80th Shard of the Shattered Realm, and beyond. ^n^nThis waystone should not be used by the faint of heart.
-tagGDX2EndlessDungeon_Key_06_Blueprint=Blueprint: Death's Waystone
+tagGDX2EndlessDungeon_Key_06=Eternal Waystone
+tagGDX2EndlessDungeon_Key_06_Desc=A Waystone that tugs upon the strands of reality, bending them around it. It enables Mazaan to open the way to at least the 80th Shard, up to the 90th Shard, of the Shattered Realm. ^n^nThis waystone should not be used by the faint of heart.
+tagGDX2EndlessDungeon_Key_06_Blueprint=Blueprint: Eternal Waystone
+
+tagGDX2EndlessDungeon_Key_07=Death's Waystone
+tagGDX2EndlessDungeon_Key_07_Desc=Tainted with the power of death, the Waystone now opens the way forward to unfathomable dangers where no reward awaits but for the glory of conquest. ^n^nIt enables Mazaan to open the way to at least the 95th Shard of the Shattered Realm, and beyond. ^n^nThis waystone should not be used by the faint of heart.
+tagGDX2EndlessDungeon_Key_07_Blueprint=Blueprint: Death's Waystone
+
 
 tagGDX2ItemTest=Miss Gazer Man
 tagGDX2ItemTestDesc="A crowning achievement in Gazer wear."
@@ -219,6 +227,8 @@ tagGDX2Item_ChestN01=Eldritch Trove
 tagGDX2Item_ChestO01=Celestial Trove
 tagGDX2Item_ChestP01=Primordial Trove
 tagGDX2Item_ChestQ01=Eternal Trove
+tagGDX2Item_ChestR01=Otherworldly Trove
+tagGDX2Item_ChestS01=Demigod Trove
 
 tagGDX2Item_SpecialChestA01=Secrets of the Shattered Realms
 tagGDX2Item_SpecialChestA02=Gifts of the Shattered Realms

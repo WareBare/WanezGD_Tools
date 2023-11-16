@@ -1,0 +1,139 @@
+#Setup Menu
+tagConsoleSetupScreen=Adjust Display Area
+tagConsoleSetupScreenInfo=Adjust the box until the corners are no longer visible on screen.
+tagConsoleSetupGamma=Adjust Brightness
+tagConsoleSetupGammaInfo=Adjust the brightness level until the logo is barely visible.
+tagConsoleSetupContinue=Continue
+tagConsoleSetupDefault=Default
+tagConsoleSetupReset=Reset
+tagConsoleSetupBack=Back
+tagConsoleSetupDone=Done
+
+#Main Menu
+tagPatchV1200=Welcome to Grim Dawn v1.2!{^n}{^n}This massive update features an overhaul to many of the game's fundamentals and introduces some exciting new features.{^n}Due to the addition of the new baseline Evade skill, control bindings have been reset to their defaults.
+
+tagConsoleMenuSignIn=Sign In
+tagConsoleSwitchProfile=Switch Profile
+tagMenuDelete01=Are you sure you want to permanently delete this character?
+tagXboxLiveUnavailable=Unable to connect to XBox Live. Please check your network connection and try again.
+tagInviteInfo=Level Range: {%d0} - {%d1}
+tagInviteInfoHardcore=Level Range: {%d0} - {%d1} (Hardcore)
+tagConsoleCreateCharacter=Create
+tagCloudSaveLimit=Cloud storage for Grim Dawn is full, you must delete an existing character before creating a new one.
+
+#Options Menu
+tagKeybindingTitle01=Controller
+tagConsoleMenuScreenSetup=Screen Setup
+tagConsoleMenuScreenSetupDesc=Change the visible area of the screen to match your display.
+tagConsoleMenuGammaSetup=Adjust Gamma
+tagConsoleMenuGammaSetupDesc=Change the overall brightness level of the game.
+tagKeybind36=Hold Position
+tagControllerBindingMove=Move
+tagControllerBindingCamera=Camera
+tagControllerBindingCharacter=Character
+tagControllerBindingMenu=Menu
+tagVideoOption01=Resolution
+tagConsoleResolution1080p=1080p
+tagConsoleResolution1440p=1440p
+tagConsoleResolution4kUHD=4k UHD
+tagConsoleTargetFPS30=30 FPS
+tagConsoleTargetFPS60=60 FPS
+tagConsoleTargetFPSUnlocked=Unlocked
+tagConsoleTargetFPS=Framerate Limit
+tagConsoleTargetFPSDesc=Target rendering framerate.
+tagGameplayOption33=Crit Vibrations
+tagGameplayDesc33=Enable controller vibration on critical hits.
+
+#Exit Menu
+tagOptionsMenuQuit=Quit Game
+tagOptionsMenuExitGameConfirm=Are you sure you want to quit the game?
+
+#Items
+tagTransmuteCapture=[Press {^y}Y{^-} to Infuse]
+tagTransmuteApply=[Press {^y}Y{^-} to Apply]
+tagTransmuteApplyRemove=[Press {^y}Y{^-} to Remove Illusion]
+tagScrollDirections=[Press {^y}Y{^-} to Consume]
+tagItemUseDirections=[Press {^y}Y{^-} To Use]
+tagNoteHelp=[Press {^y}Y{^-} to Read]
+tagEnchantmentUsable=[Press {^y}Y{^-} to Augment Item]
+tagComponentHelp=[Press {^y}Y{^-} to Apply or Combine]
+tagComponentCombine=[Press {^y}Y{^-} to Combine]
+tagPotionDirections=[Press {^y}Y{^-} to Consume]
+tagCombineStacks=[Press {^y}R-Stick{^-} to Split Stack]
+
+#Keybinds
+tagKeybind04=Open Map
+tagKeybind18=Use Health Potion
+tagKeybind19=Use Energy Potion
+
+#UI
+tagConsoleReconnectController=Please connect a controller for user {^b}{%t0}{^-}.
+tagMPInvite=Add
+tagMPFriends=Invite
+tagConsoleInviteInfo=Select a character and press start to join {^b}{%t0}{^-}.
+
+#Buttons
+tagControllerButtonDPadUp=DPad Up
+tagControllerButtonDPadDown=DPad Down
+tagControllerButtonDPadLeft=DPad Left
+tagControllerButtonDPadRight=DPad Right
+tagControllerButtonStart=Menu Button
+tagControllerButtonBack=View Button
+tagControllerButtonLeftStick=Left Stick
+tagControllerButtonRightStick=Right Stick
+tagControllerButtonLeftBumper=Left Bumper
+tagControllerButtonRightBumper=Right Bumper
+tagControllerButtonLeftTrigger=Left Trigger
+tagControllerButtonRightTrigger=Right Trigger
+tagControllerButtonA=A
+tagControllerButtonB=B
+tagControllerButtonX=X
+tagControllerButtonY=Y
+
+#TutorialTips
+tagLoadingTip03={^g}Tip: {^w}You can view Tutorial Tips again at any time in the Codex Window.
+tagLoadingTip21={^g}Tip: {^w}You can rotate the camera at any time by using the R-Stick.
+tagQuickTip08={^z}Tutorial Tips{^-}{^n}{^n}{^s}Tutorial Tips{^-} are currently enabled. You can disable them at any time via the options menu. In game help is accessible at any time in the Codex Window {^x}[{%t0}]{^-}.
+tagQuickTip09={^z}Merchants{^-}{^n}{^n}Merchants allow you to sell your collected loot and buy equipment and potions.
+tagQuickTip14={^z}Potions{^-}{^n}{^n}Potions have long cooldowns, but they can be used to quickly restore your Health or Energy.
+tagQuickTip26={^z}Chat{^-}{^n}{^n}Double press the {^x}[{%t0}]{^-} to chat to other players.
+tagQuickTip27={^z}Multiplayer{^-}{^n}{^n}Access the Group Window{^n}{^x}[{%t0}]{^-} to form a party. Double press to chat with other players.
+tagQuickTip30={^z}Unassigned Skills!{^-}{^n}{^n}Active skills must be assigned to the quickbar before they can be used.
+tagQuickTip61={^z}Celestial Powers{^-}{^n}{^n}Assign your Celestial Power to a skill by pressing the icon in the Devotion Window and selecting a skill from the list.
+tagTutorialTip10TextA=Secured Riftgates allow you to traverse quickly between locations. Use a Riftgate to open the World Map and select a destination.
+tagTutorialTip10TextB=As an Aether-touched human, you are capable of opening Personal Riftgates. To activate your Personal Riftgate, press {^x}[{%t0}]{^-}.
+tagTutorialTip14TextA=Health and Energy Potions restore your character's health and energy, respectively. To drink a potion, press the assigned button.
+tagTutorialTip14TextC=To drink a Potion, press the assigned button.
+tagTutorialTip15TextE=Attribute points are assigned in the Character Window which can be opened by pressing {^x}[{%t0}]{^-}. To assign an attribute point, press the "+" next to the appropriate attribute.
+tagTutorialTip15TextF=Skill points are assigned by opening the Skill Window which can be opened by pressing {^x}[{%t0}]{^-}.
+tagTutorialTip16TextB=To equip an item, drag it from your inventory or move it to an appropriate equipment slot. You may drop an item by moving it out of the character window, or by pressing {^x}[{%t0}]{^-}.
+tagTutorialTip16TextC=Spend attribute points by pressing the "+" buttons to the left of the desired attribute. Each attribute point increases the attribute by 8.
+tagTutorialTip20TextB=Using a component allows you to attach it to an item. Note that each component can only go in certain item types.
+tagTutorialTip22TextB=If you invest skill points in your skill mastery, you will unlock new tiers of skills. You can increase your mastery level by pressing the mastery button in the lower left of the Skill Window.
+tagTutorialTip23TextA=Active skills (square icons) need to be assigned to your quickbar before you can use them.
+tagTutorialTip23TextB=Skills are assigned by accessing the Skills menu.
+tagTutorialTip23TextC=Activate skills on the quickbar by pressing the assigned button.
+tagTutorialTip26TextA=You can use the Chat Window to send messages to other players in your game session.
+tagTutorialTip26TextB=
+tagTutorialTip27TextA=Joining a party with other players allows you to share experience and loot. You can access the Group Window by pressing {^x}[{%t0}]{^-}. Parties are also important for PvP sessions.
+tagTutorialTip27TextB=
+tagTutorialTip33TextB=To apply skill points to an ability, press an unlocked skill icon in the Skill Window. The first skill point will allow you to use the ability. Additional skill points will make the ability more powerful.
+tagTutorialTip35TextA=Pets automatically travel and fight alongside you.
+tagTutorialTip35TextB=
+tagTutorialTip35TextC=You can order all pets to attack or move to a target by commanding them using the Pet Attack skill.
+tagTutorialTip36TextA=Spirit Guides allow you to undo your skill point selections. Press a skill icon in the Spirit Guide's UI to remove one point from that skill. The cost of doing so increases as you remove subsequent skill points.
+tagTutorialTip37TextB=
+tagTutorialTip38TextD=
+tagTutorialTip43TextB=Using a blueprint will add it to your Blacksmith's list of items if the item has not already been learned.
+tagTutorialTip49TextB=
+tagTutorialTip50TextB=Using an augment allows you to apply it to an appropriate item. Once applied, an Augment cannot be removed, but it can be replaced with another.
+tagTutorialTip51TextA=
+tagTutorialTip59TextC=When a shrine is cleansed you earn a devotion point. To allocate your Devotion Points visit the Devotion Window, which can be accessed through the Skill Window.
+tagTutorialTip60TextF=Bright blue stars indicate where you can put a Devotion Point in next. Activating a star unlocks its bonus.
+
+#InGame
+tagConsoleXBoxLiveUnavailable=No Network Connection
+tagConsoleMultiplayerHighLatency=High Latency
+
+#Dialogs
+tagConsoleConfirmReportUser=Are you sure you want to report {^b}{%t0}{^-}?

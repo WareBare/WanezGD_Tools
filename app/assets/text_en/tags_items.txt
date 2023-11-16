@@ -903,6 +903,7 @@ tagGloves=Gloves
 #QualityClass
 tagMagic=Magic 
 tagRare=Rare 
+tagDoubleRare=Double Rare 
 tagEpic=Epic 
 tagLegend=Legendary 
 
@@ -2619,6 +2620,37 @@ tagDLCA42=Great Wolf's Bite
 tagDLCIllusionA43=Illusion: Great Wolf's Chestguard
 tagDLCA43=Great Wolf's Chestguard
 
+tagDLCIllusionB01=Illusion: 
+tagDLCB01=
+tagDLCB01Desc="Part of the ."
+tagDLCIllusionB02=Illusion: 
+tagDLCB02=
+
+tagDLCIllusionB01=Illusion: 
+tagDLCB01=
+tagDLCB01Desc="Part of the ."
+tagDLCIllusionB02=Illusion: 
+tagDLCB02=
+
+tagDLCIllusionB01=Illusion: 
+tagDLCB01=
+tagDLCB01Desc="Part of the ."
+tagDLCIllusionB02=Illusion: 
+tagDLCB02=
+
+tagDLCIllusionB01=Illusion: 
+tagDLCB01=
+tagDLCB01Desc="Part of the ."
+tagDLCIllusionB02=Illusion: 
+tagDLCB02=
+
+tagDLCIllusionB01=Illusion: 
+tagDLCB01=
+tagDLCB01Desc="Part of the ."
+tagDLCIllusionB02=Illusion: 
+tagDLCB02=
+
+
 
 #ItemNote
 
@@ -3237,7 +3269,7 @@ tagComponentNumber={%s0 - %d1 / %d2}
 tagComponentNumberRare={%s0}{%s1 - %d2 / %d3}
 tagComponentBonus=Completion Bonus
 tagComponentQualities=Component Qualities:
-tagComponentHelp=[Right-Click to Apply or Combine]
+tagComponentHelp=[Right-Click to Apply]
 tagComponentError=[Cannot Use - Requirements Not Met]
 tagComponentCombine=[Right-Click to Combine]
 tagComponentConfirmation=Are you sure you want to complete this combination?
@@ -3612,12 +3644,13 @@ tagHideTooltip=[Hold Ctrl to Hide Tooltip]
 # Bonuses
 tagBonusLifePercentAbsPercent={^E}Restores {^H}{%.0f0}%+{%.0f1} {^E}Health {^H}+{%.0f2}% {^E}Over Time
 tagBonusLifePercentPercent={^E}Restores {^H}{%.0f0}% {^E}Health {^H}+{%.0f1}% {^E}Over Time
+tagBonusLifePercentSlow={^E}Restores {^H}{%.0f0}% {^E}Health Over Time
 tagBonusLifePercentAbs={^E}Restores {^H}{%.0f0}% + {%.0f1} {^E}Health
 tagBonusLifePercent={^E}Restores {^H}{%.0f0}% {^E}Health
 tagBonusLifeAbs={^E}Restores {^H}{%.0f0} {^E}Health
 tagBonusManaPercentAbs={^E}Restores {^H}{%.0f0}% + {%.0f1} {^E}Energy
 tagBonusManaPercent={^E}Restores {^H}{%.0f0}% {^E}Energy
-tagBonusManaAbs={^E}Restores {^H}{%.0f0}% {^E}Energy
+tagBonusManaAbs={^E}Restores {^H}{%.0f0} {^E}Energy
 tagBonusExperience={%+d0} Experience
 tagBonusMoney={%+d0} Iron
 tagBonusSkillPoint={%+d0} Skill Points

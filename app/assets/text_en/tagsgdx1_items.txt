@@ -1904,6 +1904,8 @@ tagGDX1DLCIllusionA06=Illusion: Great Wolf Armor
 tagGDX1DLCA06=Great Wolf Armor
 tagGDX1DLCA06Desc="The savage Great Wolf Armor."
 
+
+
 tagGDX1DLCIllusionHelmInvisible=Invisible Helm
 tagGDX1DLCIllusionHelmInvisibleDesc="100% of the protection with 0% of the weight. Now also dairy-free."
 

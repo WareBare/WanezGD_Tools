@@ -87,63 +87,6 @@ tagConvertBlacklist=This item cannot be transmuted.
 #Crafter - Subheadings
 tagCraftingRunes=RUNES
 
-#Mutators
-Mutator_Monster_01=Aetherwarped
-Mutator_Monster_01Desc=Monsters are resistant to the Aether, but more Susceptible to Chaos.
-Mutator_Monster_02=Armored
-Mutator_Monster_02Desc=Monsters are nearly impervious to Physical harm and armor Piercing, but are more Susceptible to the Elements.
-Mutator_Monster_03=Berserking
-Mutator_Monster_03Desc=Monsters are berserking, Attacking faster but also becoming more Susceptible to Attacks.
-Mutator_Monster_04=Brutal
-Mutator_Monster_04Desc=Monsters land Critical Strikes more often, but deal Reduced Damage.
-Mutator_Monster_05=Corrupted
-Mutator_Monster_05Desc=Monsters are resistant to Chaos, but more Susceptible to the Aether.
-Mutator_Monster_06=Crippling
-Mutator_Monster_06Desc=Monster attacks Slow opponents, but attack Slower.
-Mutator_Monster_07=Cruel
-Mutator_Monster_07Desc=Monster Critical Strikes are extra lethal, but attacks are more likely to Miss.
-Mutator_Monster_08=Ignited
-Mutator_Monster_08Desc=Monsters are infused with Fire, dealing additional Fire damage and Retaliating Fire damage, but are more Susceptible to the Cold.
-Mutator_Monster_09=Time-Warped
-Mutator_Monster_09Desc=Monsters have greatly reduced Spell Cooldowns and increased Casting Speed, but deal Reduced Physical Damage.
-Mutator_Monster_10=Leeching
-Mutator_Monster_10Desc=Monsters leech health back with every attack, but have Reduced Health.
-Mutator_Monster_11=Poisonous
-Mutator_Monster_11Desc=Monsters are tainted with poison, dealing additional Poison damage and Retaliating Poison damage, but are more Susceptible to Vitality draining attacks.
-Mutator_Monster_12=Regenerating
-Mutator_Monster_12Desc=Monsters have highly enhanced health and energy regeneration, but are more Susceptible to Acid, Poison and Bleeding.
-Mutator_Monster_13=Resistant
-Mutator_Monster_13Desc=Monsters are nearly impervious to Magical attacks, but are more Susceptible to Physical harm.
-Mutator_Monster_14=Toughened
-Mutator_Monster_14Desc=Monsters have greatly increased Health, but have reduced Health Regeneration.
-Mutator_Monster_15=Unstoppable
-Mutator_Monster_15Desc=Monsters are highly resistant to Crowd Control, but Move Slowly.
-Mutator_Monster_16=Vengeful
-Mutator_Monster_16Desc=Monsters have greatly enhanced Retaliation effects, but have Reduced Armor.
-Mutator_Monster_17=Swift
-Mutator_Monster_17Desc=Monsters have greatly increased Movement Speed, but are more susceptible to Crowd Control.
-
-Mutator_Player_01=Aethermarked
-Mutator_Player_01Desc=Players experience slowed Attacks, but are more Resistant to the Aether.
-Mutator_Player_02=Voidmarked
-Mutator_Player_02Desc=Players experience slowed Casting but are more Resistant to Chaos.
-Mutator_Player_03=Marked
-Mutator_Player_03Desc=Players have reduced Defensive Ability, but Damage is Magnified.
-Mutator_Player_04=Drained
-Mutator_Player_04Desc=Players have reduced Health Regeneration, but are more Resistant to Poison and Bleeding.
-Mutator_Player_05=Shattered
-Mutator_Player_05Desc=Players have reduced Damage and Retaliation effects, but Armor is Increased.
-Mutator_Player_06=Afflicted
-Mutator_Player_06Desc=Players have reduced Health, but are more Resistant to Vitality drains.
-Mutator_Player_07=Slowed
-Mutator_Player_07Desc=Player Movement Speed is greatly reduced, but Crowd Control doesn't last as long.
-Mutator_Player_08=Tainted
-Mutator_Player_08Desc=Players are Slowed, but Critical Damage is Increased.
-Mutator_Player_09=Exposed
-Mutator_Player_09Desc=Players have reduced Armor, but Cooldowns are Reduced.
-Mutator_Player_10=Weakened
-Mutator_Player_10Desc=Player Critical Attacks are weakened, but attacks are more likely to hit.
-
 SkillRetaliationDamageFormat={%.0f0%} {^E}of Retaliation Damage added to Attack
 SkillRetaliationDamageFormatNumbers={%.0f0%} {^E}of Retaliation Damage added to Attack ({^H}{%.0f1} - {%.0f2}{^E})
 

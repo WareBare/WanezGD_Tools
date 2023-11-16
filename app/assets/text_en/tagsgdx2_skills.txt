@@ -53,7 +53,7 @@ tagGDX2Class09SkillName04D=Volcanic Might
 tagGDX2Class09SkillDescription04D=When struck with an Oathkeeper's shield, the burning vengeance of Vire's Might knocks less resolute foes off their feet. ^oRequires a shield or two-handed melee weapon.
 
 tagGDX2Class09SkillName05A=Presence of Virtue
-tagGDX2Class09SkillDescription05A=Oathkeepers are paragons of virtue and faith, properties they inspire within nearby allies. Those that stand beside them cannot help but be inspired into feats of valor. ^oThis ability must be toggled to maintain its effect.
+tagGDX2Class09SkillDescription05A=Oathkeepers are paragons of virtue and faith, properties they inspire within nearby allies. Those that stand beside them cannot help but be inspired into feats of valor.
 tagGDX2Class09SkillName05B=Haven
 tagGDX2Class09SkillDescription05B=The Oathkeeper's presence becomes a haven on the battlefield, offering solace from relentless blows.
 tagGDX2Class09SkillName05C=Rebuke
@@ -80,10 +80,10 @@ tagGDX2Class09SkillName08A_PetSkillA=Empyrion's Cleave
 tagGDX2Class09SkillName08A_PetSkillB=Dreeg's Cleave
 
 tagGDX2Class09SkillName09A=Path of the Three
-tagGDX2Class09SkillDescription09A=Not all Oathkeepers swear fealty to deities blessing the Erulan empire. Some offer themselves before the three Witch Gods in the hopes of harnessing even a fraction of their terrible powers. These Oathkeepers consider themselves to be upon the true path, not deceived by empty promises of a light that has forsaken humanity. ^oThis ability must be toggled to maintain its effect.
+tagGDX2Class09SkillDescription09A=Not all Oathkeepers swear fealty to deities blessing the Erulan empire. Some offer themselves before the three Witch Gods in the hopes of harnessing even a fraction of their terrible powers. These Oathkeepers consider themselves to be upon the true path, not deceived by empty promises of a light that has forsaken humanity.
 
 tagGDX2Class09SkillName10A=Divine Mandate
-tagGDX2Class09SkillDescription10A=Whether raising their shield in the name of Empyrion himself, or serving under the banners of a member of his celestial court, Oathkeepers that have risen in the ranks are considered to be an extension of divine will and heralds of celestial retribution. ^oThis ability must be toggled to maintain its effect.
+tagGDX2Class09SkillDescription10A=Whether raising their shield in the name of Empyrion himself, or serving under the banners of a member of his celestial court, Oathkeepers that have risen in the ranks are considered to be an extension of divine will and heralds of celestial retribution.
 
 tagGDX2Class09SkillName11A=Safeguard
 tagGDX2Class09SkillDescription11A=In the hands of a trained Oathkeeper, a shield is not just an unbreakable defense, but also a formidable weapon. ^oThis is a shield bonus.
@@ -155,7 +155,7 @@ tagGDX2ItemSkillD208Name=Bone Lance
 tagGDX2ItemSkillD208Desc=Unleash a projectile of necromantic bone to pierce through your foes.
 
 tagGDX2ItemSkillD209Name=Celestial Presence
-tagGDX2ItemSkillD209Desc=You are filled with the graceful light of Empyrion. Your very presence sears your foes. ^oThis ability must be toggled to maintain its effect.
+tagGDX2ItemSkillD209Desc=You are filled with the graceful light of Empyrion. Your very presence sears your foes.
 
 tagGDX2ItemSkillD210Name=Sun Spot
 tagGDX2ItemSkillD210Desc=Blast your target with a heavenly ray of searing flames.
@@ -170,7 +170,7 @@ tagGDX2ItemSkillD212Name=Rewind Fate
 tagGDX2ItemSkillD212Desc=Rewind the strands of fate, undoing recent harm.
 
 tagGDX2ItemSkillD213Name=Entropic Presence
-tagGDX2ItemSkillD213Desc=Your very presence destabilizes your foes and shatters their reality. ^oThis ability must be toggled to maintain its effect.
+tagGDX2ItemSkillD213Desc=Your very presence destabilizes your foes and shatters their reality.
 
 tagGDX2ItemSkillD214Name=Gift of the Lotus
 tagGDX2ItemSkillD214Desc=The lotus revitalizes your essence.
@@ -203,10 +203,10 @@ tagGDX2ItemSkillD223Name=Ice Spread
 tagGDX2ItemSkillD223Desc=A cone of jagged icicles erupts from you.
 
 tagGDX2ItemSkillD224Name=Severed Faith
-tagGDX2ItemSkillD224Desc=Embrace the whispers of the Witch Gods, and forsake your old beliefs, to empower yourself and nearby allies. ^oThis ability must be toggled to maintain its effect.
+tagGDX2ItemSkillD224Desc=Embrace the whispers of the Witch Gods, and forsake your old beliefs, to empower yourself and nearby allies.
 
 tagGDX2ItemSkillD225Name=Devouring Darkness
-tagGDX2ItemSkillD225Desc=The endless hunger of Yugol empowers you and nearby allies. ^oThis ability must be toggled to maintain its effect.
+tagGDX2ItemSkillD225Desc=The endless hunger of Yugol empowers you and nearby allies.
 
 tagGDX2ItemSkillD226Name=Virtue's Guardian
 tagGDX2ItemSkillD226Desc=A burst of divine light erupts around you, blinding nearby foes.
@@ -328,7 +328,7 @@ tagGDX2ItemSkillD263Desc=You are filled with resolute purpose fueled by the shat
 
 #Component Skills
 tagGDX2CompSkillA033Name=Void Weapons
-tagGDX2CompSkillA033Desc=Empower your attacks with the corrupting void. ^oThis ability must be toggled to maintain its effect.
+tagGDX2CompSkillA033Desc=Empower your attacks with the corrupting void.
 
 
 #Relic Skills
@@ -339,7 +339,7 @@ tagGDX2RelicSkillC201Name=Flame Burst
 tagGDX2RelicSkillC201Desc=Flames burst from you in a wave when struck, incinerating those foolish enough to strike in the first place.
 
 tagGDX2RelicSkillD201Name=Eldritch Ruminations
-tagGDX2RelicSkillD201Desc=Meditate upon the secrets of the Eldritch Realm, empowering your attacks and those of your nearby allies with the gifts of the Three. ^oThis ability must be toggled to maintain its effect.
+tagGDX2RelicSkillD201Desc=Meditate upon the secrets of the Eldritch Realm, empowering your attacks and those of your nearby allies with the gifts of the Three.
 
 tagGDX2RelicSkillD202Name=Vire's Cascade
 tagGDX2RelicSkillD202Desc=Smash the ground, causing the earth to crack and erupt in a fan away from you.
@@ -348,7 +348,7 @@ tagGDX2RelicSkillD203Name=Sand Devil
 tagGDX2RelicSkillD203Desc=Unleash a whirlwind of sand upon your foes. ^oSand Devils scale with player damage bonuses.
 
 tagGDX2RelicSkillD204Name=Voracious Reach
-tagGDX2RelicSkillD204Desc=Focus your fury into a whirlwind of voracious power that consumes the lifeblood of all near you for as long as you channel the effect. ^oRequires a melee weapon. At 100% Attack Speed, Voracious Reach deals damage and drains Energy every 0.16s.
+tagGDX2RelicSkillD204Desc=Focus your fury into a whirlwind of voracious power that consumes the lifeblood of all near you for as long as you channel the effect. ^oRequires a melee weapon. At 100% Attack Speed, Voracious Reach deals damage and drains Energy every 0.2s.
 
 tagGDX2RelicSkillD205Name=Serenity
 tagGDX2RelicSkillD205Desc=Serenity fills you in time of need, offering respite from grievous wounds.
@@ -366,6 +366,9 @@ tagGDX2_SummonMaggotDesc=Conjure a writhing maggot from the Shattered Realm. ^oO
 
 tagGDX2_SummonDevourer=Summon Hungerling
 tagGDX2_SummonDevourerDesc=Conjure a voracious hungerling from the void. ^oOnly one Hungerling can be summoned at any one time. Hungerlings are strictly non-violent.
+
+tagGDX2_SpecialPotion_01=Yugol's Ichor
+tagGDX2_SpecialPotion_01Desc=Your feel a sense of disconnect from the arcane as your auras are nullified.
 
 
 #SkillsQuest
@@ -708,7 +711,7 @@ tagGDX2EnemySkillD14=Celestial Presence
 tagGDX2EnemySkillD14_Desc=You stand in awe of a celestial being.
 
 tagGDX2EnemySkillD15=Celestial Effigy
-tagGDX2EnemySkillD15_Desc=An nearby effigy empowers Korvaak and harms mortals.
+tagGDX2EnemySkillD15_Desc=A nearby effigy empowers Korvaak and harms mortals.
 
 tagGDX2EnemySkillD16=Howling Wind
 tagGDX2EnemySkillD16_Desc=A powerful wind chills you to the bone and causes some projectiles to miss their intended target.
@@ -717,7 +720,7 @@ tagGDX2EnemySkillD17=Visions of Terror
 tagGDX2EnemySkillD17_Desc=You have witnessed the infinite hunger of the encroaching darkness, sapping you of all strength.
 
 tagGDX2EnemySkillD18=Hungering Night
-tagGDX2EnemySkillD18_Desc=A dark sorcerer has sapped your essence, draining you of life and compromosing your resistances.
+tagGDX2EnemySkillD18_Desc=A dark sorcerer has sapped your essence, draining you of life and compromising your resistances.
 
 tagGDX2EnemySkillD19=Unraveled Mind
 tagGDX2EnemySkillD19_Desc=Your mind cannot process the horrors it has witnessed, crippling your aim and casting ability.

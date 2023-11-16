@@ -240,10 +240,10 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.5](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.5/WanezGD_Tools-Setup-0.5.5.exe "Link from GitHub Releases") |
-| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.1.9.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.5/fullRainbow-1.1.9.0.zip) |
-| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.1.9.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.5/diablo-1.1.9.0.zip) |
-| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.1.9.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.5/basicHighlighting-1.1.9.0.zip) |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.6](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.6/WanezGD_Tools-Setup-0.5.6.exe "Link from GitHub Releases") |
+| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.0.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.6/fullRainbow-1.2.0.0.zip) |
+| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.0.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.6/diablo-1.2.0.0.zip) |
+| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.0.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.6/basicHighlighting-1.2.0.0.zip) |
 
 *___Note:___  Files are only for the English version of the game (Main Campaign and Custom Game), the Tool can be used for all Languages.*
 
@@ -264,10 +264,11 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 ## Useful Links for Custom Game Mode (aka Mods)
 
-| Description                   | Link                                                         |
-| ----------------------------- | ------------------------------------------------------------ |
-| ***[Mod]*** Grimarillion      | [Post with files and instructions](https://forums.crateentertainment.com/t/rel-grimarillion-v68/46587/1433) |
-| ***[Mod]*** Dawn of Masteries | [Post with files and instructions](https://forums.crateentertainment.com/t/dawn-of-masteries/94373/118) |
+| Description                      | Link                                                         |
+| -------------------------------- | ------------------------------------------------------------ |
+| ***[Mod]*** Grimarillion         | [Post with files and instructions](https://forums.crateentertainment.com/t/rel-grimarillion-v68/46587/1433) |
+| ***[Mod]*** Dawn of Masteries    | [Post with files and instructions](https://forums.crateentertainment.com/t/dawn-of-masteries/94373/118) |
+| ***[Mod]*** Reign of Terror | [Post with files and instructions](https://forums.crateentertainment.com/t/mod-reign-of-terror/35347/6730)                                                             |
 
 *___Note:___ If a mod has files for Rainbow Filter and is not in the list, let me know about it.*
 

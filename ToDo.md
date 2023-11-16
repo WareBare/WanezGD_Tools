@@ -14,7 +14,7 @@
 * ***BugFix:*** French Localization was causing issues when using and coloring Mastery Names. (Oathkeeper is still a ? due to the file not using UTF-8)
 * ***BugFix:*** Czech Localization Prefix Capitalization and '|9' issues. (~90% fixed)
 
-# v0.5.6 - Fixes
+# v0.5.7 - Fixes
 
 * [ ] ***BugFix:*** Special Highlighting was not allowing deletion of groups when using apostrophes (') in names.
 * [ ] ***BugFix:*** Library was not loading in some cases. (ToDo: loading non-existing Library entry - set fullRainbow to default to prevent the error)
@@ -67,17 +67,17 @@
 
 # Forum Reply
 
-## Files and Program updated for Grim Dawn v1.1.9.0
+## Files and Program updated for Grim Dawn v1.2.0.0
 
 Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.5).
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.6).
 
 <details>
-    <summary><btn>Show Change Log</btn> Hotfix</summary>
+    <summary><kbd>Show Change Log</kbd> Hotfix</summary>
 </details>
-
 ***Note:*** Change Log can also be found on GitHub and inside the program.
+
 
 
 

@@ -460,14 +460,9 @@ tagGDX2BountyWG04=Razorfeather, Gryphon Matriarch
 tagGDX2BountyWG05=Varnox, The Molten
 tagGDX2BountyWG06=Gallanor
 tagGDX2BountyWG07=Avronath
-tagGDX2BountyWG08=Reynar, The Loathed
+tagGDX2BountyWG08=Reynar, The Loathed ~ Diseased
 tagGDX2BountyWG09=Keynen, Burntheart
-tagGDX2BountyWG10=Guardian Yaharum
-tagGDX2BountyWG11=Guardian Ulazor
+tagGDX2BountyWG10=Guardian Yaharum ~ Frozen
+tagGDX2BountyWG11=Guardian Ulazor ~ Electrified
 
-
-#Races
-
-tagRace017=Empowered
-tagRace017P=Empowered
 

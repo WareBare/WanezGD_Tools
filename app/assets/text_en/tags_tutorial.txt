@@ -39,14 +39,13 @@ tagTutorialTip09TextB=In these desperate times, good equipment doesn't come chea
 tagTutorialTip10Title=Riftgates
 tagTutorialTip10TextA=Secured Riftgates allow you to traverse quickly between locations. Left-click on a Riftgate to open the World Map and select a destination.
 tagTutorialTip10SubtitleA=Personal Riftgate
-tagTutorialTip10TextB=As an Aether-touched human, you are capable of opening Personal Riftgates. To activate your Personal Riftgate, click on the Rift Travel button located to the right of your skill bar, or press {^x}[{%t0}]{^-}.
+tagTutorialTip10TextB=As an Aether-touched human, you are capable of opening Personal Riftgates. To activate your Personal Riftgate, click on the Rift Travel button located to the right of your quickbar, or press {^x}[{%t0}]{^-}.
 tagTutorialTip10TextC=Personal Riftgates can be opened almost anywhere in the world, and are linked to the main Riftgate network. Your Riftgate will remain open until you return to it, and while it remains open your party members may travel to it as well. You can only have one Personal Riftgate open at any given time.
 
 tagTutorialTip14Title=Potions
-tagTutorialTip14TextA=Health and Energy Potions restore your character's health and energy, respectively. To drink a potion, click on its image on the skill bar or press the assigned hotkey.
-tagTutorialTip14TextB=Potions are initially assigned to the last two Skill Bar Slots. You can manually assign Potions to any Skill Bar slot by right-clicking on an empty slot and selecting a potion from the menu.
-tagTutorialTip14TextC=To drink a Potion, click on its image in the Skill Bar or press the assigned hotkey.
-tagTutorialTip14TextD=You will find potions in chests and from monsters, but you can always purchase more from any merchant if you find yourself running low.
+tagTutorialTip14TextA=Health and Energy Potions restore your character's health and energy, respectively. To drink a potion, click on its image on the quickbar or press the assigned hotkey.
+tagTutorialTip14TextB=Potions are bottomless, but have a cooldown between uses.
+tagTutorialTip14TextC=To drink a Potion, click on its image on the quickbar or press the assigned hotkey.
 
 tagTutorialTip15Title=Leveling
 tagTutorialTip15TextA=Each time your character levels up, you will earn Skill and Attribute points.
@@ -54,8 +53,8 @@ tagTutorialTip15TextB=Attribute points can be used to increase your Cunning, Phy
 tagTutorialTip15TextC=Skill points can be used to increase your mastery level, unlock new skills, or improve skills you have already unlocked.
 tagTutorialTip15TextD=Initially, you will earn 3 skill points per level, but as you achieve higher levels, the number of skills points gained goes down to 2 (at level 51+) and finally 1 per level.
 tagTutorialTip15SubtitleA=Assigning Points
-tagTutorialTip15TextE=Attribute points are assigned in the Character Window. Click the icon to the left of the skill bar, or press {^x}[{%t0}]{^-}. To assign an attribute point, click the "+" next to the appropriate attribute.
-tagTutorialTip15TextF=Skill points are assigned by opening the Skill Window. Click the icon to the left of the skill bar, or press {^x}[{%t0}]{^-}.
+tagTutorialTip15TextE=Attribute points are assigned in the Character Window. Click the icon to the left of the quickbar, or press {^x}[{%t0}]{^-}. To assign an attribute point, click the "+" next to the appropriate attribute.
+tagTutorialTip15TextF=Skill points are assigned by opening the Skill Window. Click the icon to the left of the quickbar, or press {^x}[{%t0}]{^-}.
 tagTutorialTip15SubtitleB=Experience
 tagTutorialTip15TextG=You can track your experience on the yellow bar below your health and energy, and in the Character Window. The bar shows your current experience, experience gain, and experience required to reach the next level. When the bar fills up, you gain a level.
 
@@ -86,11 +85,11 @@ tagTutorialTip22TextD=Click on an unlocked skill icon to add points to that skil
 tagTutorialTip22TextE=Green lines indicate connections to that skill's modifiers. You must have at least one point in the base skill before you can invest in its modifiers.
 
 tagTutorialTip23Title=Assigning Skills
-tagTutorialTip23TextA=Active skills (square icons) need to be assigned to your mouse buttons or skill bar before you can use them.
-tagTutorialTip23TextB=To assign a skill, right-click on a slot in the skill bar or on the mouse buttons to the right of it and select the desired skill from the menu.
+tagTutorialTip23TextA=Active skills (square icons) need to be assigned to your mouse buttons or quickbar before you can use them.
+tagTutorialTip23TextB=To assign a skill, right-click on a slot in the quickbar or on the mouse buttons to the right of it and select the desired skill from the menu.
 tagTutorialTip23SubtitleA=Using Skills
-tagTutorialTip23TextC=Activate skills on the skill bar by left-clicking the icon, or by pressing the assigned shortcut.
-tagTutorialTip23TextD=Passive skills (circular icons) are always active and do not need to be assigned to the skill bar. Once you assign points to them, they will immediately provide their benefits.
+tagTutorialTip23TextC=Activate skills on the quickbar by left-clicking the icon, or by pressing the assigned shortcut.
+tagTutorialTip23TextD=Passive skills (circular icons) are always active and do not need to be assigned to the quickbar. Once you assign points to them, they will immediately provide their benefits.
 
 tagTutorialTip24Title=Death
 tagTutorialTip24TextA=When your health reaches zero, your character will die. Dying costs experience and returns your character to the last sanctuary you visited. You can regain some of your lost experience by recovering your Grave Marker.
@@ -121,7 +120,7 @@ tagTutorialTip34TextB=Merchants can be found in human-controlled sanctuaries, bu
 tagTutorialTip35Title=Pets
 tagTutorialTip35TextA=Pets automatically travel and fight alongside you. If you wish to give your pets direct commands, you can hold down {^x}[{%t0}]{^-} while clicking on the desired pet in the upper left of the screen, then select a target.
 tagTutorialTip35TextB=You can dismiss your pets at any time by right-clicking their portraits and selecting "Disband Pet".
-tagTutorialTip35TextC=You can order all pets to attack or move to a target by commanding them using the Pet Attack skill. To assign this skill, right-click on a slot in the Skill Bar or on the mouse buttons to the right of it and select it from the menu.
+tagTutorialTip35TextC=You can order all pets to attack or move to a target by commanding them using the Pet Attack skill. To assign this skill, right-click on a slot in the quickbar or on the mouse buttons to the right of it and select it from the menu.
 
 tagTutorialTip36Title=Skill Reallocation
 tagTutorialTip36TextA=Spirit Guides allow you to undo your skill point selections. Click on a skill icon in the Spirit Guide's UI to remove one point from that skill. The cost of doing so increases as you remove subsequent skill points.
@@ -217,7 +216,7 @@ tagTutorialTip59TextA=Devotion Shrines are ancient remnants of a long-lost empir
 tagTutorialTip59CaptionA=Restoring Shrines
 tagTutorialTip59TextB=To Restore a ruined shrine, you must have the required materials in your Personal Stash, Shared Stash, Inventory and Equipped items, taken automatically in that order. If you have all the required materials, you can press the Offer button to restore the Shrine.
 tagTutorialTip59CaptionB=Devotion Points
-tagTutorialTip59TextC=When a shrine is cleansed you earn a devotion point. To allocate your Devotion Points visit the Devotion Window, which can be accessed through the Skill Window. Click the icon located to the left of the skill bar, or press {^x}[{%t0}]{^-}.
+tagTutorialTip59TextC=When a shrine is cleansed you earn a devotion point. To allocate your Devotion Points visit the Devotion Window, which can be accessed through the Skill Window. Click the icon located to the left of the quickbar, or press {^x}[{%t0}]{^-}.
 
 tagTutorialTip60Title=Devotion Window
 tagTutorialTip60TextA=The Devotion Window allows you to dedicate your Devotion Points to various deities and celestial symbols of Cairn.
@@ -244,6 +243,17 @@ tagTutorialTip69TextC=You can show or hide items based on their Equipment Slot. 
 tagTutorialTip69SubtitleC=Damage and Character Filters
 tagTutorialTip69TextD=You can show or hide items based on their attributes. If any boxes are checked under these Categories, only items that meet at least one of these filters will appear on the ground.{^n}{^n}By default, all options are unchecked in this section.
 
+tagTutorialTip70Title=Evade
+tagTutorialTip70TextA=The baseline Evade ability is useful for getting out of tough situations. When activated, your character quickly jumps in the target direction, passing through monsters and becoming temporarily invincible. Evade is bound to the {^x}[{%t0}]{^-} key.
+tagTutorialTip70TextB=Unlike standard abilities, casting Evade will interrupt any other non-movement skill or animation.
+
+tagTutorialTip71Title=Nullification
+tagTutorialTip71TextA=Some boss and hero monsters use abilities that nullify your buffs. When this occurs, all of your temporary buff effects are purged and all toggled auras and effects are temporarily disabled.
+tagTutorialTip71TextB=Hero monsters that can nullify you are known as Arcane heroes. They all feature the Nullification symbol overhead.
+
+tagTutorialTip72Title=Sunder
+tagTutorialTip72TextA=Sunder is a powerful debuff applied by certain telegraphed boss attacks. When you become Sundered, your character takes additional damage from all sources for its duration.
+tagTutorialTip72TextB=Sunder can be purged using purge effects such as Cleansing Waters in the Ulo constellation.
 
 #Quick Tips
 
@@ -251,9 +261,9 @@ tagQuickTipMainMenu={^z}Welcome to Grim Dawn!{^-}{^n}{^n}{^w}Tutorial Tips{^-} a
 tagQuickTip06={^z}Untouched Meal{^-}Collecting an untouched meal restores a large amount of Constitution, which allows you to regenerate Health quickly when out of combat.
 tagQuickTip07={^z}You Unlocked a Riftgate!{^-}{^n}{^n}{^w}Rift Travel{^-} {^x}[{%t0}]{^-} allows you to create a portal which you can use to teleport to the Riftgates found throughout the world of Cairn.
 tagQuickTip08={^z}Tutorial Tips{^-}{^n}{^n}{^s}Tutorial Tips{^-} are currently enabled. You can disable them at any time via the options menu. For more information, simply left click on a tip as it appears, or right click to close it. In game help is accessible at any time in the Codex Window {^x}[{%t0}]{^-}.
-tagQuickTip09={^z}Merchants{^-}{^n}{^n}Merchants allow you to sell your collected loot and buy equipment and potions. Right clicking an item is a the quickest way to buy or sell.
+tagQuickTip09={^z}Merchants{^-}{^n}{^n}Merchants allow you to sell your collected loot and buy equipment. Right clicking an item is a the quickest way to buy or sell.
 tagQuickTip11={^z}Personal Riftgate{^-}{^n}{^n}Use the Personal Riftgate to open the World Map and select a Riftgate to travel to.
-tagQuickTip14={^z}Potions{^-}{^n}{^n}Potions have long cooldowns, but they can be used to quickly restore your Health or Energy. To drink a potion, click on the potion icon on the skill bar or press the assigned hotkey. 
+tagQuickTip14={^z}Potions{^-}{^n}{^n}Potions have long cooldowns, but they can be used to quickly restore your Health or Energy. To drink a potion, click on the potion icon on the quickbar or press the assigned hotkey. 
 tagQuickTip15={^z}Leveling{^-}{^n}{^n}When you level up you gain Skill and Attribute points which can be assigned in the Skill and Character Windows.
 tagQuickTip16={^z}Character Window{^-}{^n}{^n}The Character Window allows you to manage your Inventory, Equipment, and view your Stats.
 tagQuickTip20={^z}Components{^-}{^n}{^n}Components apply bonuses to items and equipment and can even offer new abilities.
@@ -263,12 +273,12 @@ tagQuickTip23={^z}Mastery & Skills{^-}{^n}{^n}Increasing the number of points sp
 tagQuickTip24={^z}Death is Not The End!{^-}{^n}{^n}When you die you lose experience, but you can recover some of the experience you lost by collecting your Grave Marker.
 tagQuickTip26={^z}Chat{^-}{^n}{^n}Press {^x}[Enter]{^-} to chat to other players, or press "Send To" to send a Private Message. Shift-clicking an item sends a viewable link to that item to other players in the game.
 tagQuickTip27={^z}Multiplayer{^-}{^n}{^n}Access the Group Window {^x}[{%t0}]{^-} to form a party. Press {^x}[Enter]{^-} to chat with other players.
-tagQuickTip30={^z}Unassigned Skills!{^-}{^n}{^n}Active skills must be assigned to the skill bar before they can be used. Right click a slot on the bar to assign a skill to it.
+tagQuickTip30={^z}Unassigned Skills!{^-}{^n}{^n}Active skills must be assigned to the quickbar before they can be used. Right click a slot on the bar to assign a skill to it.
 tagQuickTip31={^z}Health Potions{^-}{^n}{^n}When your health is low during combat, use a potion to restore it. Health Potions have a long cooldown but restore a large amount of health.
 tagQuickTip32={^z}Unassigned Points!{^-}{^n}{^n}You have unassigned attribute or skill points. Remember to spend your points when leveling up.
 tagQuickTip33={^z}Learning Skills{^-}{^n}{^n}It's important to learn Skills as well as increasing your Mastery bar. Skills provide you with powerful offensive and defensive abilities.
 tagQuickTip34={^z}Inventory Full!{^-}{^n}{^n}Open the Character Window to manage your inventory, or visit a merchant to sell the loot you have collected in exchange for iron bits.
-tagQuickTip35={^z}Summoned Pets{^-}{^n}{^n}You can order all pets to attack or move to a target by commanding them using the Pet Attack skill. They can also be set to aggressive/defensive, and desummoned when required.
+tagQuickTip35={^z}Summoned Pets{^-}{^n}{^n}You can order all pets to attack or move to a target by commanding them using the Pet Attack skill. They can also be set to aggressive/defensive, and unsummoned when required.
 tagQuickTip36={^z}Spirit Guide{^-}{^n}{^n}The Spirit Guide allows you to change your skills and devotions in exchange for Iron Bits and Aether Crystals. Each point refunded increases the cost of the next point.
 tagQuickTip37={^z}Smuggler{^-}{^n}{^n}The Smuggler allows you to store items you wish to save for later in your Private Stash, as well as access the Transfer Stash.
 tagQuickTip38={^z}Transfer Stash{^-}{^n}{^n}The Transfer Stash can be used to transfer items between your character. Additional transfer space can be purchased for Iron Bits.
@@ -292,3 +302,7 @@ tagQuickTip59={^z}Devotion Points{^-}{^n}{^n}Devotions Points earned from cleans
 tagQuickTip60={^z}Devotion Window{^-}{^n}{^n}The Devotion Window allows you to spend Devotion points gained by cleansing shrines. Each spent point allows you to unlock new bonuses and skills.
 tagQuickTip61={^z}Celestial Powers{^-}{^n}{^n}Assign your Celestial Power to a skill by clicking the icon in the Devotion Window and selecting a skill from the list.
 tagQuickTip69={^z}Loot Filter{^-}{^n}{^n}Use the Loot Filter to control what loot drops are displayed on the ground.
+tagQuickTip70={^z}Evade{^-}{^n}{^n}Use Evade to quickly reposition your character and get out of tough situations. Press {^x}[{%t0}]{^-} to evade.
+tagQuickTip71={^z}Nullification{^-}{^n}{^n}Nullification is a dangerous debuff that purges your buffs for a few seconds. If you get nullified, be aware that your character is more vulnerable!
+tagQuickTip72={^z}Sunder{^-}{^n}{^n}is a powerful debuff applied by telegraphed boss attacks. When you are sundered, you take additional damage from all sources.
+

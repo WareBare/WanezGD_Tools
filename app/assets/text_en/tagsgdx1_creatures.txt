@@ -449,7 +449,7 @@ tagGDX1DevotionAetherialCorruption_H04=Tirendal ~ Timewarped
 
 tagGDX1DevotionAetherialFleshshaper_H01=Filnaderzad ~ Burning
 tagGDX1DevotionAetherialFleshshaper_H02=Noxus ~ Frozen
-tagGDX1DevotionAetherialFleshshaper_H03=Karthallas ~ Swift
+tagGDX1DevotionAetherialFleshshaper_H03=Karthallas ~ Electrified
 tagGDX1DevotionAetherialFleshshaper_H04=Porendallos ~ Unstoppable
 
 tagGDX1DevotionBasilisk_H01=Lagarslin Stormskin
@@ -498,16 +498,16 @@ tagGDX1BountyCU07=Sllancar the Tainted
 tagGDX1BountyCU08=Chillpincer
 tagGDX1BountyCU09=Vagarroth the Insatiable
 
-tagGDX1BountyCW04=Dar'Vagol the Mageclaw
-tagGDX1BountyCW05=Rhidal'Gulvor the Stormblood
+tagGDX1BountyCW04=Dar'Vagol the Mageclaw ~ Arcane
+tagGDX1BountyCW05=Rhidal'Gulvor the Stormblood ~ Electrified
 tagGDX1BountyCW06=Swillius
 tagGDX1BountyCW07=Polterrios
-tagGDX1BountyCW08=Vladris
-tagGDX1BountyCW09=Yoknar
+tagGDX1BountyCW08=Vladris ~ Vampiric
+tagGDX1BountyCW09=Yoknar ~ Vampiric
 
 tagGDX1BountyPM05=Bluggraag Blazebarf
-tagGDX1BountyPM06=Stormtitan
+tagGDX1BountyPM06=Stormtitan ~ Electrified
 tagGDX1BountyPM07=Blazragarus
-tagGDX1BountyPM08=Torraxsteria
+tagGDX1BountyPM08=Torraxsteria ~ Frozen
 
 

@@ -842,6 +842,8 @@ tagGDX2Consumable_02_Desc="A remnant of the Shattered Realm. But what purpose do
 tagGDX2Consumable_03=Void Orb
 tagGDX2Consumable_03_Desc="This orb shimmers with void energies. It's probably not safe to handle..."
 
+tagGDX2Consumable_04=Yugol's Ichor
+tagGDX2Consumable_04_Desc="The black liquid inside emits no scent, yet your senses are appalled by it. Its very presence seems to nullify magic."
 
 #ItemEnchantment
 tagGDX2EnchantA201A=Korvan Sunpowder
@@ -1195,19 +1197,19 @@ tagGDX2ItemSetD213Name=Bysmiel's Trinkets
 tagGDX2ItemSetD213Desc="In her mortal days, the Lady of Whispers was known to gather powerful objects that enhanced her control over lesser creatures. After ascending to her throne, she no longer had need for such petty trinkets."
 
 tagGDX2ItemSetD214Name=The Korvan Dunefiend
-tagGDX2ItemSetD214Desc=The Korvan Dunefiend aspired to be as the vipers of the Korvan Sands, elusive...swift...and deadly.
+tagGDX2ItemSetD214Desc="The Korvan Dunefiend aspired to be as the vipers of the Korvan Sands, elusive...swift...and deadly."
 
 tagGDX2ItemSetD215Name=Pyran's Ruminations
-tagGDX2ItemSetD215Desc=Scorned by his teachers, Pyran vowed to leave his mark upon the history of the arcane, even as his experiments warped and twisted his own flesh.
+tagGDX2ItemSetD215Desc="Scorned by his teachers, Pyran vowed to leave his mark upon the history of the arcane, even as his experiments warped and twisted his own flesh."
 
 tagGDX2ItemSetD216Name=Targo's Craft
-tagGDX2ItemSetD216Desc=Said to be forged by the very forgemaster of the stars themselves, the armor embodies strength of body and will.
+tagGDX2ItemSetD216Desc="Said to be forged by the very forgemaster of the stars themselves, the armor embodies strength of body and will."
 
 tagGDX2ItemSetD217Name=The Voidsoul
-tagGDX2ItemSetD217Desc=This once blessed armor now teems with sinister energies, the void having corrupted its heart for all eternity.
+tagGDX2ItemSetD217Desc="This once blessed armor now teems with sinister energies, the void having corrupted its heart for all eternity."
 
 tagGDX2ItemSetD218Name=Rotgheist
-tagGDX2ItemSetD218Desc=Rotgheist reveled in slaughter of man and creature alike, and even wore the flesh of his prey long after it had begun to rot.
+tagGDX2ItemSetD218Desc="Rotgheist reveled in slaughter of man and creature alike, and even wore the flesh of his prey long after it had begun to rot."
 
 tagGDX2ItemSetD219Name=Armor of the Eternal Night
 tagGDX2ItemSetD219Desc="Morgoneth peered into the darkness, until the darkness stared back."

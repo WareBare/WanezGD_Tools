@@ -1221,46 +1221,46 @@ tagDevotion_ZombieH09=Swiftrot ~ Swift
 
 #Bounties
 tagBountyBL08=Gluttrius'Maw
-tagBountyBL09=Sicrix, the Skittering
+tagBountyBL09=Sicrix, the Skittering ~ Voidtouched
 tagBountyBL10=Emberjaw
 tagBountyBL17=Harrath, the Returned
 tagBountyBL18=Padmanestia
 tagBountyBL19=Corprus
 tagBountyBL20=Luthus'Balok
-tagBountyDC06="The Bruiser" Romanov
+tagBountyDC06="The Bruiser" Romanov ~ Charger
 tagBountyDC07=Bolla "The Raven"
 tagBountyDC08=Slathra, the Plagued
 tagBountyDC09=Ballior ~ Burning
-tagBountyDC10=Igor "The Brawler"
+tagBountyDC10=Igor "The Brawler" ~ Corrupted
 tagBountyDC11=Caspis, the Blooddrinker
-tagBountyDC15=Rostov, the Aetherflame
+tagBountyDC15=Rostov, the Aetherflame ~ Charger
 tagBountyDC17=Nalloth, the Frostbound
 tagBounyExile12=Nucus'Dal
 tagBounyExile13=Innu'Garbal
-tagBounyExile14=Conastaria
+tagBounyExile14=Conastaria ~ Corrupted
 tagBounyExile15=Ludia Starfire
 tagBountyHS09=Bogloth the Marrowdrinker
 tagBountyHS10=The Locust
 tagBountyHS11=Vizier Haxin
 tagBountyHS12=Glukrog Lifedrinker
 tagBountyHS13=Phabius
-tagBountyKC07=Holvuur Bonespeaker
+tagBountyKC07=Holvuur Bonespeaker ~ Swift
 tagBountyKC08=Igniaa Venomtongue
 tagBountyKC09=Vom'Zul
 tagBountyKC10=Thullon, Chosen of Ch'thon
-tagBountyKC11=Abathis, the Withered
+tagBountyKC11=Abathis, the Withered ~ Frozen
 tagBountyKC19=Ludia Bloodwhisper
 tagBountyODV06=Halvastra Wrathfire
 tagBountyODV07=Horvald Shieldbreaker
 tagBountyODV08=Olga Flamebearer
-tagBountyODV09=Narroth, the Behemoth
-tagBountyODV10=Barrostrandt, the Ascended
+tagBountyODV09=Narroth, the Behemoth ~ Electrified
+tagBountyODV10=Barrostrandt, the Ascended ~ Swift
 tagBountyODV11=Gravvis, the Decayed
 tagBountyODV12=Narl'Sarroth
-tagBountyRO10=Oligeane Dar
+tagBountyRO10=Oligeane Dar ~ Corrupted
 tagBountyRO11=Rixna Plaguefeather
-tagBountyRO12=Mortallis
-tagBountyRO19=Grum
+tagBountyRO12=Mortallis ~ Charger
+tagBountyRO19=Grum ~ Diseased
 
 #Races
 
@@ -1296,5 +1296,6 @@ tagRace013P=Magical
 tagRace014P=Celestial
 tagRace015P=Arachnids
 tagRace016P=Plants
-
+tagRace017=Empowered
+tagRace017P=Empowered
 
