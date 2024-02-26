@@ -5,8 +5,10 @@ const RunArchiveTool = function(InPath_Source, InPath_Target, InPaths, InCallbac
     const allSubDirectories = {
         ARZ: [`database`,`gdx1/database`, `gdx2/database`]
         , ARC: [`resources`, `gdx1/resources`, `gdx2/resources`, `gdx3/resources`]
+        , Locale: [`aom`, `fg`, `foa`]
     };
     let subDirectories;
+    let localeSubDirectories;
     let bErrorOccured = false;
 
     for (let i = 0; i < InPaths.length; i++) {
@@ -16,6 +18,7 @@ const RunArchiveTool = function(InPath_Source, InPath_Target, InPaths, InCallbac
         if (elFileName.endsWith(`.arc`)){
             archiveMode = `-extract`;
             subDirectories = allSubDirectories.ARC;
+            localeSubDirectories = allSubDirectories.Locale;
         }else{
             // #ToDo arz/tpl
         }
@@ -40,6 +43,30 @@ const RunArchiveTool = function(InPath_Source, InPath_Target, InPaths, InCallbac
                         }
                     );
                     
+                    /*
+                    const currentLanguage = appConfig.get('RadioGroupStorage.Language');
+                    if (currentLanguage !== `en`)
+                    {
+                        for(let k = 0; k < localeSubDirectories.length; k++){
+                            const elSubDirectory = localeSubDirectories[k];
+                            if (bErrorOccured) break;
+                            const currentPath = `${InPath_Target}\\resources\\text_${currentLanguage}`;
+                            //break;
+                            //pathExistsSync
+                            console.log(currentPath);
+
+                            if(fs.existsSync(`${currentPath}\\${elSubDirectory}`))
+                            {
+                                fs.moveSync(`${currentPath}\\${elSubDirectory}`, currentPath, { overwrite: true })
+                            }
+                            else
+                            {
+                                bErrorOccured = true;
+                            }
+                        }
+                    }
+                    */
+                    
                    /*
                     let errorMaybe = child_process.spawnSync(
                         `"${InPath_Source}\\ArchiveTool.exe"`
@@ -58,7 +85,11 @@ const RunArchiveTool = function(InPath_Source, InPath_Target, InPaths, InCallbac
             }
         }
         
+        
+        
     }
+
+
 
     if(bErrorOccured) console.warn(`Error Exctracting!`);
 

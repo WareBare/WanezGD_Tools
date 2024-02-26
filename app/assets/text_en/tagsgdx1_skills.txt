@@ -605,7 +605,7 @@ tagGDX1RelicSkillD102Name=Chilling Vengeance
 tagGDX1RelicSkillD102Desc=Unleash a surge of chilling force upon those that dare strike you.
 
 tagGDX1RelicSkillD103Name=Summon Skeletal Servant
-tagGDX1RelicSkillD103Desc=Bind the remains of a hundred tormented souls to serve you. This terrifying being cleaves through foes and traps them within cages of bone. ^oOnly one Skeletal Servant can be summoned at any one time. The servant scales with Pet Bonuses.
+tagGDX1RelicSkillD103Desc=Bind the remains of a hundred tormented souls to serve you. ^oOnly one Skeletal Servant can be summoned at any one time. The servant scales with Pet Bonuses.
 tagGDX1RelicSkillD103Name_PetSkill=Skeletal Claws
 
 tagGDX1RelicSkillD104Name=Elemental Bane

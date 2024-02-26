@@ -20,6 +20,18 @@ if(!appConfig.has('cms')){
     appConfig.set('cms.2',false);
 }
 
+appConfig.set('Filter.bUseLocale',false);
+if (!appConfig.has('RadioGroupStorage.Language')) {
+    appConfig.set('RadioGroupStorage.Language',`en`);
+}
+/*
+const currentLanguage = appConfig.get('RadioGroupStorage.Language')
+if (currentLanguage !== `en`)
+{
+
+}
+*/
+
 ExecuteProgramGD = function(InExecutable){
     if(appConfig.get(`GrimDawn.Paths.Game`)){
         child_process.execFile(`${appConfig.get(`GrimDawn.Paths.Game`)}/${InExecutable}`, function(err, data) {

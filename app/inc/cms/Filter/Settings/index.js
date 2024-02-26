@@ -111,9 +111,59 @@ module.exports = {
 
     MakeContent_Localization: function(){
         let outStr = ``
+            , activeLanguage = appConfig.get(`RadioGroupStorage.Language`)
             , tempFormItemOutput = ``;
 
-        //
+        tempFormItemOutput = `<div>Changing the Language will force the program to reload.</div><div>If you have an error message at the top telling you about using internal files, you can only generate files for English.</div>`;
+        tempFormItemOutput += Super.MakeRadioGroup({
+            ElementName: `Language`
+            , GroupText: `Choose Filter Language`
+            , bForceReload: true
+            , DefaultValue: activeLanguage
+        }, [
+            {
+                Value: `en`
+                , Text: `English`
+            } , {
+                Value: `es`
+                , Text: `Spanish`
+            } , {
+                Value: `fr`
+                , Text: `French`
+            } , {
+                Value: `de`
+                , Text: `German`
+            } , {
+                Value: `it`
+                , Text: `Italian`
+            } , {
+                Value: `cs`
+                , Text: `Czech`
+            } , {
+                Value: `ja`
+                , Text: `Japanese`
+            } , {
+                Value: `ko`
+                , Text: `Korean`
+            } , {
+                Value: `pl`
+                , Text: `Polish`
+            } , {
+                Value: `pt`
+                , Text: `Portuguese`
+            } , {
+                Value: `ru`
+                , Text: `Russian`
+            } , {
+                Value: `vi`
+                , Text: `Vietnamese`
+            } , {
+                Value: `zh`
+                , Text: `Chinese`
+            }
+        ]);
+
+        /*
         tempFormItemOutput = ``;
         tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
             TEXT: Super.GetGrimDawnPath()
@@ -165,6 +215,7 @@ module.exports = {
                 , B_CHECKED: (appConfig.get(`Filter.bZipChanges`)) ? ` CHECKED` : ``
             });
         }
+        */
 
         outStr += Super.tplContent.FormContainer.wzReplace({
             TITLE: `Language`
@@ -199,7 +250,7 @@ module.exports = {
                 ON_CLICK_FN: `_cms.OnClickCheckBox_bMakeZipForTextEn(this)`
                 , LABEL: `Create Zip`
                 , B_CHECKED: (appConfig.get(`Filter.bMakeZipForTextEn`)) ? ` CHECKED` : ``
-            , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bMakeZipForTextEn`)) ? `Creates Zip in addition to regular files.` : `Will not create Zip.`}</li><li>Creates a Zip for non-localized colors.</li><li class="Msg_Warn">Localizations have their own checkbox.</li></ul>`
+            , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bMakeZipForTextEn`)) ? `Creates Zip in addition to regular files.` : `Will not create Zip.`}</li><li>Creates a Zip for non-localized colors.</li></ul>`
             });
             
             tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({

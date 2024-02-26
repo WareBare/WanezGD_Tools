@@ -923,14 +923,14 @@ tagCharStatsOA=Offensive Ability
 tagCharStatsOALast=Last Attacked: 
 tagCharStatsOAHit=Chance to Hit:
 tagCharStatsOACrit=Chance to Crit:
-tagCharStatsOADescription=A higher Offensive Ability (OA) increases your chance of successfully landing attacks and spells, scoring critical hits, and the damage of critical hits. An Offensive Ability lower than your opponent's Defensive Ability will greatly increase your chance to miss (your chance to hit cannot go below 60%).  Offensive Ability is affected by skills, items, and Cunning.
+tagCharStatsOADescription=A higher Offensive Ability (OA) increases your chance of successfully landing attacks and spells, scoring critical hits, and the damage of critical hits. An Offensive Ability lower than your opponent's Defensive Ability will greatly increase your chance to miss (your chance to hit cannot go below 55%).  Offensive Ability is affected by skills, items, and Cunning.
 
 tagCharStatsDAAlert=Defensive Ability {^b}(?) 
 tagCharStatsDA=Defensive Ability
 tagCharStatsDALast=Last Attacked By: 
 tagCharStatsDAHit=Chance to be Hit:
 tagCharStatsDACrit=Chance to be Crit:
-tagCharStatsDADescription=A higher Defensive Ability (DA) allows you to avoid enemy hits more often (minimum chance to be hit is 60%), decreases the chance of suffering a critical hit and reduces the damage taken when you are critically hit. Defensive Ability is affected by skills, items, and Physique.
+tagCharStatsDADescription=A higher Defensive Ability (DA) allows you to avoid enemy hits more often (minimum chance to be hit is 55%), decreases the chance of suffering a critical hit and reduces the damage taken when you are critically hit. Defensive Ability is affected by skills, items, and Physique.
 
 tagOverCapResist={%s0} {^b}{%.0f1}% {^s}(+{%.0f2}% Over Maximum) 
 tagOverCapResistInt={%s0} {^b}{%d1}% {^s}(+{%d2}% Over Maximum)

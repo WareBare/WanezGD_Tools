@@ -836,7 +836,7 @@ tagItemSkillB025Desc=A pure bolt of lightning strikes your target.
 tagItemSkillB026NameA=Spectral Strike
 tagItemSkillB026DescA=Disappear into the veil of the dead and re-emerge next to your intended target in an instant.
 tagItemSkillB026NameB=Rimefire
-tagItemSkillB026DescB=A ring of spectral flame expands around you.
+tagItemSkillB026DescB=A ring of spectral flame expands around your target.
 
 tagItemSkillB027Name=Elemental Seal
 tagItemSkillB027Desc=Creates an arcane seal on the ground imbued with destructive force.
@@ -1463,7 +1463,7 @@ tagItemSkillD052Name=Colossal Might
 tagItemSkillD052Desc=Mastery of shield combat has honed you into a lethal and unstoppable weapon. ^oThis is a shield passive bonus.
 
 tagItemSkillD053Name=Conjure Black Scourge
-tagItemSkillD053Desc=Your wanton slaughter calls to the void. Whenever a foe is slain by your hand, the sacrifice conjures forth a hungering devourer. ^oThe black scourge scales with Pet Bonuses.
+tagItemSkillD053Desc=Your wanton slaughter calls to the void and conjures forth a hungering devourer. ^oThe black scourge scales with Pet Bonuses.
 tagItemSkillD053_Pet01=Entropic End
 
 tagItemSkillD054Name=Eye of the Guardian

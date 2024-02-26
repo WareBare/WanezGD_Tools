@@ -314,8 +314,18 @@ module.exports = class SRainbowFilter extends Parent{
             , versioningCustomText = `{^n}{^n}Rainbow Files Created with{^n}Rainbow Tool: v${app.getVersion()}{^n}for Grim Dawn: v${Super.GrimDawnVersion}{^n}{^o}An outdated version may cause issues in form of "Tag not found:...".`;
         
         //Log( `${versioningBaseText}${versioningCustomText}` );
+        const languageSetting = appConfig.get(`RadioGroupStorage.Language`);
         this.bPolish = false;
         this.bCzech = false;
+        if (languageSetting === `pl`)
+        {
+            this.bPolish = true;
+        }
+        if (languageSetting === `cs`)
+        {
+            this.bCzech = true;
+        }
+        /*
         if (Super.IsUsingLocale()) {
             if(SourceData[`language.def`] && SourceData[`language.def`][1] && SourceData[`language.def`][1].TagValue === `Polski`){
                 this.bPolish = true;
@@ -324,6 +334,7 @@ module.exports = class SRainbowFilter extends Parent{
                 this.bCzech = true;
             }
         }
+        */
         this.UpdateSourceData(SourceData);
         
         SourceData[`tags_ui.txt`].splice(1, 0, {
@@ -376,18 +387,20 @@ module.exports = class SRainbowFilter extends Parent{
                 Super.OnDeleteOldFiles();
             }
             // Save Filter Files in /settings/
-            savePath = `${Super.GetGrimDawnPath()}/settings/text_en`;
+            savePath = `${Super.GetGrimDawnPath()}/settings/text_${appConfig.get(`RadioGroupStorage.Language`)}`;
             let zip = new JSZip()
                 , zipName = `${this.ColorLibrary}-${(this.LibraryData.Version !== ``) ? this.LibraryData.Version : Super.GrimDawnVersion}.zip`;
             
             for(let fileKey in SourceData){
+                
                 if(SourceData[fileKey][0].bUpdated){
+                    console.log(fileKey)
                     wzIO.file_put_contents(`${savePath}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
                     if(appConfig.get(`GrimDawn.Paths.UserData`) && appConfig.get(`GrimDawn.Paths.UserData`) !== ``){
-                        wzIO.file_put_contents(`${appConfig.get(`GrimDawn.Paths.UserData`).replace(/\\/g, `/`).replace(`/Settings`, ``)}/Settings/text_en/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
+                        wzIO.file_put_contents(`${appConfig.get(`GrimDawn.Paths.UserData`).replace(/\\/g, `/`).replace(`/Settings`, ``)}/Settings/text_${appConfig.get(`RadioGroupStorage.Language`)}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]), savePath);
                     }
                     if(appConfig.get(`Filter.bMakeZipForTextEn`)){
-                        zip.file(`Grim Dawn/settings/text_en/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]));
+                        zip.file(`Grim Dawn/settings/text_${appConfig.get(`RadioGroupStorage.Language`)}/${fileKey}`, Super.StringifyTagData(SourceData[fileKey]));
                     }
                 }
             }

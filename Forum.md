@@ -31,8 +31,8 @@ Before doing anything you should close Grim Dawn. Now you can either use a tool 
 <details><summary><kbd>Different Languages</kbd></summary>
     <hr>
     <ul>
-        <li>If you find a Zip for your language, you can use that. Simply place it into /Localization/ with other translations and select it inside the game's options like any other language.</li>
-        <li>If you don't have the luxury of downloading the finished files you can easily make them yourself with the tool. Follow the instructions under <code>Guide: "How To Use The Tool" ...</code> and take a look at the pictures <code>Picture Guide: "How To Use the Tool" ...</code></li>
+        <li>If you find a Zip for your language, you can use that. Follow instructions from where you found the zip, generally <code>Guide: "How To Use Preset-Files" ...</code> applies to these as well, just replace text_en with text_XX for your language.</li>
+        <li>If you don't have the luxury of downloading the finished files you can easily make them yourself with the tool. Follow the instructions under <code>Guide: "How To Use The Tool" ...</code> and select you language inside Settings of the tool.</li>
     </ul>
     <hr>
 </details>
@@ -122,20 +122,6 @@ Before doing anything you should close Grim Dawn. Now you can either use a tool 
     <hr>
     </details>
     <hr>
-</details>
-
-<br />
-
-<details><summary><kbd>Picture Guide: "How To Use the Tool" usage example for different Language/Localization.</kbd></summary>
-<hr>
-    <font color="#EF5050">Make sure Grim Dawn is closed, because it can prevent the tool from accessing important files and causes all kinds of weirdness inside the tool.</font><br />
-    I'm going to assume you know how to download and start the tool.
-
-![01-Settings|690x261](upload://yNZcSdusX7euEYqzh9fn2LXS1ns.png) 
-![02-Library|689x275](upload://uux6tOWsSwYnEDTxEVvPgotUcSG.png) 
-![03-InGame_Unedited|690x425](upload://b3Png7nprHcRiN1xgP4kC5QkJoN.png) 
-    <br />If you are still running the game despite the warning at the beginning, you must restart the game or you won't be able to select the newly created colored language.
-<hr>
 </details>
 
 <br />
@@ -240,10 +226,11 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.6](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.6/WanezGD_Tools-Setup-0.5.6.exe "Link from GitHub Releases") |
-| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.0.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.6/fullRainbow-1.2.0.0.zip) |
-| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.0.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.6/diablo-1.2.0.0.zip) |
-| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.0.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.6/basicHighlighting-1.2.0.0.zip) |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.8](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/WanezGD_Tools-Setup-0.5.8.exe "Link from GitHub Releases") |
+| ***[Files]*** Full Rainbow *(All Languages)*        | [Full Rainbow for Grim Dawn v1.2.0.3 - All Languages](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/fullRainbow-1.2.0.3_allLanguages.zip) |
+| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.0.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/fullRainbow-1.2.0.3.zip) |
+| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.0.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/diablo-1.2.0.3.zip) |
+| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.0.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/basicHighlighting-1.2.0.3.zip) |
 
 *___Note:___  Files are only for the English version of the game (Main Campaign and Custom Game), the Tool can be used for all Languages.*
 

@@ -8,11 +8,16 @@
 
 
 
-# v0.5.5 - Update for Grim Dawn v1.1.9.0
+# v0.5.6 - Update for Grim Dawn v1.2.0.0
 
-* ***New:*** Added native support for Grim Dawn v1.1.9.0 items.
+* ***New:*** Added native support for Grim Dawn v1.2.0.0 items.
 * ***BugFix:*** French Localization was causing issues when using and coloring Mastery Names. (Oathkeeper is still a ? due to the file not using UTF-8)
 * ***BugFix:*** Czech Localization Prefix Capitalization and '|9' issues. (~90% fixed)
+
+# v0.5.8 - Update for Grim Dawn v1.2.0.3 (Hotfix 3)
+
+* ***Updated:*** Internal texts updated to the latest Hotfix.
+* ***BugFix:***  Polish and Czech prefix Capitalization.
 
 # v0.5.7 - Fixes
 
@@ -67,16 +72,37 @@
 
 # Forum Reply
 
-## Files and Program updated for Grim Dawn v1.2.0.0
+## Files and Program updated for Grim Dawn v1.2.0.3
 
 Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.6).
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.8).
 
 <details>
-    <summary><kbd>Show Change Log</kbd> Hotfix</summary>
+<summary><kbd>v0.5.8 - Update for Grim Dawn v1.2.0.3 (Hotfix 3)</kbd></summary>
+
+<hr>
+
+* ***Updated:*** Internal texts updated to the latest Hotfix.
+* ***BugFix:***  Polish and Czech prefix Capitalization.
+<hr>
 </details>
+
 ***Note:*** Change Log can also be found on GitHub and inside the program.
+
+
+
+## Program updated for Grim Dawn v1.2.0.0 Localizations
+
+Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
+
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.7).
+
+If you wish not to use the program or it is not working for you, you may get all the required files for the Full Rainbow variant and extract the files yourself. This Zip contains all languages (including English) be sure you end up with all text_XX folders inside your ```Grim Dawn/settings/``` directory. [Download Full Rainbow for Grim Dawn v1.2.0.0 - All Languages](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.7/fullRainbow-1.2.0.0_allLanguages.zip)
+
+***Note:*** Change Log can be found on GitHub and inside the program.
+***Note:*** As I am a little on a time crunch here, certain texts in the OP and Program may be misleading, I'll get to it eventually.
+
 
 
 
@@ -196,6 +222,7 @@ If you're wondering why you would want the program to continue running after cre
 
 
 # Forum Post
+
 
 [details="Tool has been updated to v0.3.0"]
 

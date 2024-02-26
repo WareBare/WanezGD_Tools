@@ -2620,35 +2620,7 @@ tagDLCA42=Great Wolf's Bite
 tagDLCIllusionA43=Illusion: Great Wolf's Chestguard
 tagDLCA43=Great Wolf's Chestguard
 
-tagDLCIllusionB01=Illusion: 
-tagDLCB01=
-tagDLCB01Desc="Part of the ."
-tagDLCIllusionB02=Illusion: 
-tagDLCB02=
 
-tagDLCIllusionB01=Illusion: 
-tagDLCB01=
-tagDLCB01Desc="Part of the ."
-tagDLCIllusionB02=Illusion: 
-tagDLCB02=
-
-tagDLCIllusionB01=Illusion: 
-tagDLCB01=
-tagDLCB01Desc="Part of the ."
-tagDLCIllusionB02=Illusion: 
-tagDLCB02=
-
-tagDLCIllusionB01=Illusion: 
-tagDLCB01=
-tagDLCB01Desc="Part of the ."
-tagDLCIllusionB02=Illusion: 
-tagDLCB02=
-
-tagDLCIllusionB01=Illusion: 
-tagDLCB01=
-tagDLCB01Desc="Part of the ."
-tagDLCIllusionB02=Illusion: 
-tagDLCB02=
 
 
 

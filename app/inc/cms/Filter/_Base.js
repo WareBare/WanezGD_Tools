@@ -16,7 +16,7 @@ let SourceData
     , bPathCorrect = false
     , GrimDawnPath = false
     , ExtractionPaths2 = [
-        `Text_EN.arc`
+        `Text_${appConfig.get(`RadioGroupStorage.Language`).toUpperCase()}.arc`
     ]
     , ExtractionPaths = [
         `resources\\Text_EN.arc`
@@ -103,8 +103,8 @@ module.exports = {
         }
     },
 
-    GrimDawnVersion: `1.2.0.0`,
-    LastItemVersion: `1.2.0.0`,
+    GrimDawnVersion: `1.2.0.3`,
+    LastItemVersion: `1.2.0.3`,
 
     //  data-wztip="{TOOL_TIP}" data-wztip-position="top"
     tplContent: {
@@ -137,9 +137,9 @@ module.exports = {
         //console.error(GrimDawnPath);
 
         this.Paths = {
-            Source: `${GrimDawnPath}/source/text_en`
+            Source: `${GrimDawnPath}/source/text_${appConfig.get(`RadioGroupStorage.Language`)}`
             , Locale: `${GrimDawnPath}/localization`
-            , Target: `${GrimDawnPath}/settings/text_en`
+            , Target: `${GrimDawnPath}/settings/text_${appConfig.get(`RadioGroupStorage.Language`)}`
         };
 
     },
@@ -151,11 +151,12 @@ module.exports = {
 
         try{
             // remove old files.
-            fs.removeSync(`${dirUserData}\\resources\\text_en`);
+            fs.removeSync(`${dirUserData}\\resources\\text_${appConfig.get(`RadioGroupStorage.Language`)}`);
         }catch(err){ Log(err); };
 
         bInitializedSource = false;
         // load new files, depending on locale settings.
+        /*
         if(this.IsUsingLocale()){
             bUsingInternalTags = false;
             bGameIsRunning = false;
@@ -163,6 +164,7 @@ module.exports = {
             wzUpdateHeader(`Parsing Localization...`);
             RunLocaleExtract(appConfig.get(`Filter.LocaleFileName`));
         }else{
+        */
             bGameIsRunning = false;
             bUsingInternalTags = false;
             RunArchiveTool(GrimDawnPath, dirUserData, ExtractionPaths2, (bInError) => {
@@ -187,20 +189,21 @@ module.exports = {
                 }
             });
             new Promise(function(OutResolve, OutErr){ 
+
                 OutResolve(Super.GatherTagFiles());
             }).finally(function(){
                 // only uncomment if source data is required on the first page. Will be ready in time otherwise.
                 bInitializedSource = true;// console.log(SourceData);
                 wzReloadCMS(10);
             });
-        }
+        //}
         
         
         
 
     },
 
-    OnRadioGroupChange: function (InElement)
+    OnRadioGroupChange: function (InElement, InForceReload = false)
     {
         const elementName = InElement.name;
         const elementValue = InElement.value;
@@ -210,11 +213,24 @@ module.exports = {
 
         appConfig.set(`RadioGroupStorage.${elementName}`, elementValue);
         
+        if (InForceReload === true)
+        {
+            /*
+            this.MasteryNames = false;
+            this.bInitializedSource = false;
+            this.bInitializedMasteryNames = false;
+            this.bUsingInternalTags = false;
+            wzReloadCMS(10);
+            */
+            //this.OnLoad();
+            location.reload();
+        }
         //wzReloadCMS(10);
     },
 
     /**
      * @param {Object} InGroupOptions General Group Settings
+     * @param {Boolean} InGroupOptions.bForceReload Forces reload (TRUE) [default: FALSE]
      * @param {String} InGroupOptions.bUseListBox Uses traditional RadioButtons (FALSE) or a ListBox (TRUE) [default: false]
      * @param {String} InGroupOptions.ElementName Name of this group for saving purposes.
      * @param {String} InGroupOptions.GroupText Text used inside Fieldset Legend as group name. (No Fieldset if empty)
@@ -229,6 +245,7 @@ module.exports = {
     MakeRadioGroup: function (InGroupOptions, InGroupData, InDefaultValue = false)
     {
         InGroupOptions = InGroupOptions || {};
+        let bForceReload = InGroupOptions.bForceReload || false;
 
         let groupFieldset = `<div id="WzForm"><fieldset><legend>{GROUP_TEXT}</legend>{CONTENTS}</fieldset></div>`;
         let radioButtonTemplate = `<label data-wztip='{TOOL_TIP}' data-wztip-position="top" class="CheckBox"><input type="radio" name="{NAME}" value="{VALUE}" onClick="{EVENT}" {B_CHECKED} /><span>{TEXT}</span></label>`;
@@ -279,7 +296,7 @@ module.exports = {
         }
 
         strOutput = strOutput.wzReplace({
-            EVENT: `Super.OnRadioGroupChange(this)`
+            EVENT: `Super.OnRadioGroupChange(this, ${bForceReload})`
         });
         
         return strOutput;
@@ -788,8 +805,29 @@ module.exports = {
             , "tagsgdx2_storyelements.txt"
             , "tagsgdx2_tutorial.txt"
         ]
+        const localeSubDirectories = [`aom`, `fg`, `foa`]
         
-        let baseTagPath = `${dirUserData}\\resources\\text_en`;
+        const currentLanguage = appConfig.get('RadioGroupStorage.Language');
+        let baseTagPath = `${dirUserData}\\resources\\text_${currentLanguage}`;
+
+        /*
+        if (currentLanguage !== `en`)
+        {
+            for(let j = 0; j < localeSubDirectories.length; j++){
+                const elSubDirectory = localeSubDirectories[j];
+                //if (bErrorOccured) break;
+                const currentPath = baseTagPath;
+                //break;
+                //pathExistsSync
+                console.log(currentPath);
+
+                if(fs.existsSync(currentPath)) {
+                    fs.moveSync(`${currentPath}\\${elSubDirectory}`, currentPath, { overwrite: true })
+                }
+    
+            }
+        }
+        */
         /*
         bUsingInternalTags = false;
         try{
@@ -807,7 +845,28 @@ module.exports = {
        let bNeedToParseInternals = false;
        const self = this;
         try{
-            const foundFiles = fs.readdirSync(`${baseTagPath}`);
+            let foundFiles = fs.readdirSync(`${baseTagPath}`);
+            if (currentLanguage !== `en`)
+            {
+                for(let j = 0; j < localeSubDirectories.length; j++){
+                    const elSubDirectory = localeSubDirectories[j];
+                    let loopFinds;
+                    //if (bErrorOccured) break;
+                    const currentPath = baseTagPath;
+                    //break;
+                    //pathExistsSync
+                    //console.log(currentPath);
+
+                    if(fs.existsSync(`${currentPath}\\${elSubDirectory}`))
+                    {
+                        fs.readdirSync(`${currentPath}\\${elSubDirectory}`).forEach( loopFileName => {
+                            foundFiles.push(`${elSubDirectory}/${loopFileName}`)
+                        });
+                    }
+        
+                }
+            }
+            //console.log(foundFiles);
             if(foundFiles.length <= 22) {
                 bNeedToParseInternals = true;
             }else{
@@ -816,7 +875,7 @@ module.exports = {
                         try{
                             const tagFilePath = `${baseTagPath}\\${InValue}`;
                             
-                            self.ParseTagText(fs.readFileSync(tagFilePath, 'utf-8'), SourceData, tagFilePath);
+                            self.ParseTagText(fs.readFileSync(tagFilePath, 'utf-8'), SourceData, tagFilePath, InValue);
                         }catch(err){ 
                             console.error(err);
                         }
@@ -828,7 +887,7 @@ module.exports = {
         }
 
         if(Object.entries(SourceData).length === 0 || bNeedToParseInternals){
-            baseTagPath = `${dirAssets}\\text_en`;
+            baseTagPath = `${dirAssets}\\text_${appConfig.get(`RadioGroupStorage.Language`)}`;
             bUsingInternalTags = true;
             try{
                 console.warn(`Need to parse internal files at: ${baseTagPath}`);
@@ -840,7 +899,7 @@ module.exports = {
                         try{
                             const tagFilePath = `${baseTagPath}\\${InValue}`;
                             
-                            self.ParseTagText(fs.readFileSync(tagFilePath, 'utf-8'), SourceData, tagFilePath);
+                            self.ParseTagText(fs.readFileSync(tagFilePath, 'utf-8'), SourceData, tagFilePath, InValue);
                         }catch(err){ 
                             console.error(err);
                         }
@@ -894,7 +953,7 @@ module.exports = {
 
         return outStr;
     },
-    ParseTagText: function(InTagText, OutFinalArray, InTagFile, bInRemoveFolders = true){
+    ParseTagText: function(InTagText, OutFinalArray, InTagFile, InFileKey, bInRemoveFolders = true){
         try{
             let fileContents = InTagText
                 , contentArray = fileContents.split(`\n`)
@@ -911,7 +970,8 @@ module.exports = {
                 
             }
             
-            OutFinalArray[`${(bInRemoveFolders) ? InTagFile.substring(InTagFile.replace(/\\/g, `/`).lastIndexOf('/')+1) : InTagFile}`] = finalArray;
+            //OutFinalArray[`${(bInRemoveFolders) ? InTagFile.substring(InTagFile.replace(/\\/g, `/`).lastIndexOf('/')+1) : InTagFile}`] = finalArray;
+            OutFinalArray[InFileKey] = finalArray;
             /*
             OutFinalArray.push({
                 FileName: `${InTagFile.substring(InTagFile.replace(/\\/g, `/`).lastIndexOf('/')+1)}`
@@ -1234,11 +1294,11 @@ module.exports = {
 
     OnDeleteOldFiles: function(){
         //Log(`delete old files: ${this.GetGrimDawnPath()}/settings/text_en/`);
-        fs.emptyDirSync(`${this.GetGrimDawnPath()}/settings/text_en`);
+        fs.emptyDirSync(`${this.GetGrimDawnPath()}/settings/text_${appConfig.get(`RadioGroupStorage.Language`)}`);
         
         let userDataPath = appConfig.get(`GrimDawn.Paths.UserData`);
         if(userDataPath && userDataPath !== ``){
-            fs.emptyDirSync(`${userDataPath.replace(/\\/g, `/`).replace(`/Settings`, ``)}/Settings/text_en`);
+            fs.emptyDirSync(`${userDataPath.replace(/\\/g, `/`).replace(`/Settings`, ``)}/Settings/text_${appConfig.get(`RadioGroupStorage.Language`)}`);
         }
 
         CheckForGameProcess( (bInFoundGame) => {
