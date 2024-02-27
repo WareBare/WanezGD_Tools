@@ -19,8 +19,6 @@
 ## v0.5.9 - Update for Grim Dawn v1.2.0.4 (Hotfix 4 + Loyalist Pack 3)
 
 * ***Updated:*** Internal texts updated to the latest Game Update.
-* ***BugFix:***  Russian prefix Capitalization.
-  * Other Capitalization issues will get resolved with the new tool.
 
 
 
@@ -36,8 +34,6 @@ You can find all downloads in the [First Post](https://forums.crateentertainment
 <hr>
 
 * ***Updated:*** Internal texts updated to the latest Game Update.
-* ***BugFix:***  Russian prefix Capitalization.
-  * Other Capitalization issues will get resolved with the new tool.
 <hr>
 </details>
 

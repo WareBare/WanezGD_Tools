@@ -197,6 +197,17 @@ module.exports = class SRainbowFilter extends Parent{
             //colorCode = `${colorCode}$`;
         }
 
+        /*
+        if (this.bRussian && bCapitalizedTag && !newValue.startsWith(`$`))
+        {
+            newValue = newValue.replace(/\](\C)/g, function(InMatch){
+                return `$${InMatch.toLocaleUpperCase()}`;
+            });
+
+            //newValue = `${newValue}`;
+        }
+        */
+
         if(newValue.includes(`{^E}`)){
             newValue = `${newValue.replace(`{^E}`, `${colorCode}`)}{^E}`;
         }else if(newValue.includes(`{^S}`)){
@@ -328,7 +339,6 @@ module.exports = class SRainbowFilter extends Parent{
         }
         if (languageSetting === `ru`)
         {
-            this.bPolish = true;
             this.bRussian = true;
         }
         /*
