@@ -1,4 +1,4 @@
-﻿tagTitleScreenText=Grim Dawn{^n}©2023 Crate Entertainment, LLC{^n}{^n}Please visit us at www.grimdawn.com to participate{^n}in the ongoing development of Grim Dawn!
+﻿tagTitleScreenText=Grim Dawn{^n}©2024 Crate Entertainment, LLC{^n}{^n}Please visit us at www.grimdawn.com to participate{^n}in the ongoing development of Grim Dawn!
 tagDemoScreenText=Thanks for playing!{^n}{^n}Grim Dawn is currently available on Steam, or via our website at www.grimdawn.com
 tagPatchV1200=Welcome to Grim Dawn v1.2!{^n}{^n}This massive update features an overhaul to many of the game's fundamentals and introduces some exciting new features. Due to the addition of the new baseline Evade skill, you may wish to update your keybinds if you have changed them before.
 tagMenu01=Play Game

@@ -806,9 +806,9 @@ tagGDX2RelicD206Desc="The strength of will to carry out true justice."
 tagCraftTabArtifactA=Relics and Runes
 tagCraftTabArtifactB=Talismans, relics and artifacts of great power. Runes that bestow new abilities upon you.
 
-tagGDX1CraftRandomLegendaryDesc2=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94, not including objects forged by the Forgotten Gods. Characters below level 58 may craft an Epic item instead.
-tagGDX1CraftRandomLegendaryAccessoryDesc2=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94, not including objects forged by the Forgotten Gods. Characters below level 58 will craft an Epic item instead.
-tagGDX1CraftRandomLegendaryItemDesc2=The blacksmith crafts an enchanted item appropriate to your level of Legendary quality, up to level 94, not including objects forged by the Forgotten Gods.
+tagGDX1CraftRandomLegendaryDesc2B=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94, not including objects forged by the Forgotten Gods. Characters below level 58 may craft an Epic item instead.
+tagGDX1CraftRandomLegendaryAccessoryDesc2B=The blacksmith combines the raw arcane power within these objects to create an object of Legendary potential, up to level 94, not including objects forged by the Forgotten Gods. Characters below level 58 will craft an Epic item instead.
+tagGDX1CraftRandomLegendaryItemDesc2B=The blacksmith crafts an enchanted item appropriate to your level of Legendary quality, up to level 94, not including objects forged by the Forgotten Gods.
 
 tagGDX2CraftRandomCraftingMaterial=Crafting Material
 tagGDX2CraftRandomCraftingMaterialDesc=From the essence of creation itself, the blacksmith forges a potent material useful for crafting mighty equipment and relics.

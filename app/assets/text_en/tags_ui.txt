@@ -1698,6 +1698,7 @@ SimpleStringsFormat={%s0}{%s1}
 TripleStringFormat={%s0}{%s1}{%s2}
 TripleStringFormat2={%s0} {%s1}{%s2}
 QuadStringFormat={%s0}{%s1}{%s2}{%s3}
+PentaStringFormat={%s0}{%s1}{%s2}{%s3}{%s4}
 SkillBaseNamesFormat={    %s0}
 CostFormat=Cost: {%d0}
 ManaDisplayFormat=Energy  {%d0} / {%d1} ({%d2} Reserved)

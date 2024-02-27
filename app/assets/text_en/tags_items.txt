@@ -2620,7 +2620,63 @@ tagDLCA42=Great Wolf's Bite
 tagDLCIllusionA43=Illusion: Great Wolf's Chestguard
 tagDLCA43=Great Wolf's Chestguard
 
+tagDLCIllusionB01=Illusion: Mogdrogen's Divine Axe
+tagDLCB01=Mogdrogen's Divine Axe
+tagDLCB01Desc="Part of the divine Mogdrogen armor."
+tagDLCIllusionB02=Illusion: Mogdrogen's Divine Helm
+tagDLCB02=Mogdrogen's Divine Helm
+tagDLCIllusionB03=Illusion: Mogdrogen's Divine Armor
+tagDLCB03=Mogdrogen's Divine Armor
+tagDLCIllusionB04=Illusion: Mogdrogen's Divine Shoulderguards
+tagDLCB04=Mogdrogen's Divine Shoulderguards
+tagDLCIllusionB05=Illusion: Mogdrogen's Divine Handguards
+tagDLCB05=Mogdrogen's Divine Handguards
+tagDLCIllusionB06=Illusion: Mogdrogen's Divine Boots
+tagDLCB06=Mogdrogen's Divine Boots
 
+tagDLCIllusionB07=Illusion: Rattosh's Divine Staff
+tagDLCB07=Rattosh's Divine Staff
+tagDLCB07Desc="Part of the divine Rattosh attire."
+tagDLCIllusionB08=Illusion: Rattosh's Divine Mask
+tagDLCB08=Rattosh's Divine Mask
+tagDLCIllusionB09=Illusion: Rattosh's Divine Robes
+tagDLCB09=Rattosh's Divine Robes
+tagDLCIllusionB10=Illusion: Rattosh's Divine Mantle
+tagDLCB10=Rattosh's Divine Mantle
+
+tagDLCIllusionB11=Illusion: Empyrion's Divine Spear
+tagDLCB11=Empyrion's Divine Spear
+tagDLCB11Desc="Part of the divine Empyrion armor."
+tagDLCIllusionB12=Illusion: Empyrion's Divine Helm
+tagDLCB12=Empyrion's Divine Helm
+tagDLCIllusionB13=Illusion: Empyrion's Divine Armor
+tagDLCB13=Empyrion's Divine Armor
+tagDLCIllusionB14=Illusion: Empyrion's Divine Shoulderguards
+tagDLCB14=Empyrion's Divine Shoulderguards
+tagDLCIllusionB15=Illusion: Empyrion's Divine Gauntlets
+tagDLCB15=Empyrion's Divine Gauntlets
+tagDLCIllusionB16=Illusion: Empyrion's Divine Legguards
+tagDLCB16=Empyrion's Divine Legguards
+tagDLCIllusionB17=Illusion: Empyrion's Divine Boots
+tagDLCB17=Empyrion's Divine Boots
+
+tagDLCIllusionB18=Illusion: Ch'thon's Divine Visage
+tagDLCB18=Ch'thon's Divine Visage
+tagDLCB18Desc="Part of the divine Ch'thonic implements."
+tagDLCIllusionB19=Illusion: Ch'thon's Divine Chains
+tagDLCB19=Ch'thon's Divine Chains
+tagDLCIllusionB20=Illusion: Ch'thon's Divine Mantle
+tagDLCB20=Ch'thon's Divine Mantle
+tagDLCIllusionB21=Illusion: Ch'thon's Divine Grip
+tagDLCB21=Ch'thon's Divine Grip
+
+tagDLCIllusionB23=Illusion: Gaze of the Circle of Five
+tagDLCB23=Gaze of the Circle of Five
+tagDLCB23Desc="Part of the vestments of the Circle of Five."
+tagDLCIllusionB24=Illusion: Mantle of the Circle of Five
+tagDLCB24=Mantle of the Circle of Five
+tagDLCIllusionB25=Illusion: Robes of the Circle of Five
+tagDLCB25=Robes of the Circle of Five
 
 
 

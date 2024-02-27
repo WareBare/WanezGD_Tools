@@ -8,16 +8,40 @@
 
 
 
-# v0.5.6 - Update for Grim Dawn v1.2.0.0
+# v0.5.9 - Update for Grim Dawn v1.2.0.4
 
-* ***New:*** Added native support for Grim Dawn v1.2.0.0 items.
+* ***New:*** Added native support for Grim Dawn v1.2.0.4 items.
 * ***BugFix:*** French Localization was causing issues when using and coloring Mastery Names. (Oathkeeper is still a ? due to the file not using UTF-8)
 * ***BugFix:*** Czech Localization Prefix Capitalization and '|9' issues. (~90% fixed)
 
-# v0.5.8 - Update for Grim Dawn v1.2.0.3 (Hotfix 3)
+# Text Preps
 
-* ***Updated:*** Internal texts updated to the latest Hotfix.
-* ***BugFix:***  Polish and Czech prefix Capitalization.
+## v0.5.9 - Update for Grim Dawn v1.2.0.4 (Hotfix 4 + Loyalist Pack 3)
+
+* ***Updated:*** Internal texts updated to the latest Game Update.
+* ***BugFix:***  Russian prefix Capitalization.
+  * Other Capitalization issues will get resolved with the new tool.
+
+
+
+## Files and Program updated for Grim Dawn v1.2.0.4
+
+Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
+
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.9).
+
+<details>
+<summary><kbd>v0.5.9 - Update for Grim Dawn v1.2.0.4 (Hotfix 4 + Loyalist Pack 3)</kbd></summary>
+
+<hr>
+
+* ***Updated:*** Internal texts updated to the latest Game Update.
+* ***BugFix:***  Russian prefix Capitalization.
+  * Other Capitalization issues will get resolved with the new tool.
+<hr>
+</details>
+
+***Note:*** Change Log can also be found on GitHub and inside the program.
 
 # v0.5.7 - Fixes
 
@@ -71,24 +95,6 @@
 
 
 # Forum Reply
-
-## Files and Program updated for Grim Dawn v1.2.0.3
-
-Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
-
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.8).
-
-<details>
-<summary><kbd>v0.5.8 - Update for Grim Dawn v1.2.0.3 (Hotfix 3)</kbd></summary>
-
-<hr>
-
-* ***Updated:*** Internal texts updated to the latest Hotfix.
-* ***BugFix:***  Polish and Czech prefix Capitalization.
-<hr>
-</details>
-
-***Note:*** Change Log can also be found on GitHub and inside the program.
 
 
 

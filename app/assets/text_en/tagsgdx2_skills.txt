@@ -332,8 +332,8 @@ tagGDX2CompSkillA033Desc=Empower your attacks with the corrupting void.
 
 
 #Relic Skills
-tagGDX1RelicSkillD106Name=Blazing Eruption
-tagGDX1RelicSkillD106Desc=Unleash a burst of Empyrion's divine fury upon your target, incinerating them and any foes foolish enough to stand too close.
+tagGDX1RelicSkillD106NameB=Blazing Eruption
+tagGDX1RelicSkillD106DescB=Unleash a burst of Empyrion's divine fury upon your target, incinerating them and any foes foolish enough to stand too close.
 
 tagGDX2RelicSkillC201Name=Flame Burst
 tagGDX2RelicSkillC201Desc=Flames burst from you in a wave when struck, incinerating those foolish enough to strike in the first place.

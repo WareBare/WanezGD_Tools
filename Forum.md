@@ -28,16 +28,6 @@ The tool and files you can find here will only change the font color of items an
 
 Before doing anything you should close Grim Dawn. Now you can either use a tool or download the files I generated with the tool.
 
-<details><summary><kbd>Different Languages</kbd></summary>
-    <hr>
-    <ul>
-        <li>If you find a Zip for your language, you can use that. Follow instructions from where you found the zip, generally <code>Guide: "How To Use Preset-Files" ...</code> applies to these as well, just replace text_en with text_XX for your language.</li>
-        <li>If you don't have the luxury of downloading the finished files you can easily make them yourself with the tool. Follow the instructions under <code>Guide: "How To Use The Tool" ...</code> and select you language inside Settings of the tool.</li>
-    </ul>
-    <hr>
-</details>
-
-<br />
 
 <details><summary><kbd>Custom Game Support (Mods)</kbd></summary>
     <hr>
@@ -45,7 +35,6 @@ Before doing anything you should close Grim Dawn. Now you can either use a tool 
     I will add the link to a mod's Rainbow Filter files at the bottom, if you have a mod with Rainbow Filter files and the link is missing, let me know and I will add it.
     <hr>
 </details>
-
 <br />
 
 <details><summary><kbd>Guide: "How To Use The Tool" that I made and write the required files to the correct location.</kbd></summary>
@@ -56,12 +45,11 @@ Before doing anything you should close Grim Dawn. Now you can either use a tool 
         <li>Download Setup.exe for the tool from the download section at the end.</li>
         <li>Install the tool by running Setup.exe, it should run the tool when finished, if this is not the case, you should find a shortcut on your desktop. (<em><strong>Note:</strong></em> You can uninstall the tool via windows' app remove, like most other software)</li>
         <li>Go to <kbd>Settings</kbd> and enter the path to your Grim Dawn directory with the Game.exe inside.<ul>
-            <li><em><strong>Note: </strong></em>If you are using a different language you must check <kbd>Localization</kbd>, which will show you a new box with all installed languages, select the one you are using and move on to the next step. (Selected language is visible in green)</li>
+            <li><em><strong>Note: </strong></em>If you are using a different language you must select your Language.</li>
             </ul></li>
         <li>A new menu on the left should become visible, go to <kbd>Library</kbd>.</li>
         <li>Inside the library you may select a different Preset, the default is Full Rainbow, if you are happy with it use the button <kbd>Save Colors</kbd> to save it.</li>
         <li>Start Grim Dawn. (if it was still running despite the warning, restart the game)<ul>
-            <li><em><strong>Note: </strong></em>If you are using a different language select the colored version in the game's options the same way you selected your language.</li>
             </ul></li>
     </ol>
     <font color="#50AF50">When the files require an update just run the tool and start at step 5.</font><br />
@@ -73,13 +61,13 @@ Before doing anything you should close Grim Dawn. Now you can either use a tool 
 
 <details><summary><kbd>Guide: "How To Use Preset-Files" that were generated with the tool by me as Zip.</kbd></summary>
     <hr>
-    <font color="#EF5050">This is only for the regular english version of Grim Dawn, other Languages or Fonts using Localizations will not work with this! Mods using default tags however, will work perfectly fine with these files.</font><br /><br />
+    <font color="#EF5050">This is only for the shipped Languages of Grim Dawn, other Languages or Fonts using Localizations will not work with this! Mods using default tags however, will work perfectly fine with these files.</font><br /><br />
     If you do not wish to use the tool you can download the files as Zip and extract the contents to your Grim Dawn directory.<br /><br />
     <ol>
         <li>Download a Zip marked as [Files] from the download section at the end.</li>
         <li>Go to your Grim Dawn directory and extract the contents. (<em><strong>Note:</strong></em> Root directory of the Zip is Grim Dawn, easiest way is to extract the contents alongside your Grim Dawn directory.)</li>
-        <li>You should end up with 6 *.txt files inside <code>/Grim Dawn/settings/text_en/</code>. These files are responsible for changing the colors of Items and Properties in the game. If you wish to play the game without color changes you simply delete those files.</li>
-        <li>Start Grim Dawn. (or restart it if it was running before, the new files need to be loaded and this only occurs during startup)</li>
+        <li>You should end up with 6 *.txt files inside <code>/Grim Dawn/settings/text_en/</code> (The all languages pack will come with all text_xx folders for the respective Languages). These files are responsible for changing the colors of Items and Properties in the game. If you wish to play the game without color changes you simply delete those files.</li>
+        <li>Start Grim Dawn. (or restart it if the game was running before, the new files need to be loaded in and this only occurs during startup)</li>
     </ol>
     <font color="#50AF50">When the files require an update you must do all these steps again.</font><br />
     You may choose to use either the directory with the game.exe (which is the default for the tool and which works for me) or use the directory in user data. I have had reports where putting the files in user data fixed issues, the choice is yours.<br /><br />
@@ -123,6 +111,7 @@ Before doing anything you should close Grim Dawn. Now you can either use a tool 
     </details>
     <hr>
 </details>
+
 
 <br />
 
@@ -226,11 +215,11 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.8](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/WanezGD_Tools-Setup-0.5.8.exe "Link from GitHub Releases") |
-| ***[Files]*** Full Rainbow *(All Languages)*        | [Full Rainbow for Grim Dawn v1.2.0.3 - All Languages](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/fullRainbow-1.2.0.3_allLanguages.zip) |
-| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.0.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/fullRainbow-1.2.0.3.zip) |
-| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.0.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/diablo-1.2.0.3.zip) |
-| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.0.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.8/basicHighlighting-1.2.0.3.zip) |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.9](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.9/WanezGD_Tools-Setup-0.5.9.exe "Link from GitHub Releases") |
+| ***[Files]*** Full Rainbow *(All Languages)*        | [Full Rainbow for Grim Dawn v1.2.0.4 - All Languages](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.9/fullRainbow-1.2.0.4_allLanguages.zip) |
+| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.0.4](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.9/fullRainbow-1.2.0.4.zip) |
+| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.0.4](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.9/diablo-1.2.0.4.zip) |
+| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.0.4](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.9/basicHighlighting-1.2.0.4.zip) |
 
 *___Note:___  Files are only for the English version of the game (Main Campaign and Custom Game), the Tool can be used for all Languages.*
 

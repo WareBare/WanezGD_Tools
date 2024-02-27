@@ -317,6 +317,7 @@ module.exports = class SRainbowFilter extends Parent{
         const languageSetting = appConfig.get(`RadioGroupStorage.Language`);
         this.bPolish = false;
         this.bCzech = false;
+        this.bRussian = false;
         if (languageSetting === `pl`)
         {
             this.bPolish = true;
@@ -324,6 +325,11 @@ module.exports = class SRainbowFilter extends Parent{
         if (languageSetting === `cs`)
         {
             this.bCzech = true;
+        }
+        if (languageSetting === `ru`)
+        {
+            this.bPolish = true;
+            this.bRussian = true;
         }
         /*
         if (Super.IsUsingLocale()) {

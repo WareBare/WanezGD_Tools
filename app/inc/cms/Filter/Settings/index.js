@@ -250,7 +250,7 @@ module.exports = {
                 ON_CLICK_FN: `_cms.OnClickCheckBox_bMakeZipForTextEn(this)`
                 , LABEL: `Create Zip`
                 , B_CHECKED: (appConfig.get(`Filter.bMakeZipForTextEn`)) ? ` CHECKED` : ``
-            , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bMakeZipForTextEn`)) ? `Creates Zip in addition to regular files.` : `Will not create Zip.`}</li><li>Creates a Zip for non-localized colors.</li></ul>`
+            , TOOL_TIP: `<ul><li class="Msg_Warn">${(appConfig.get(`Filter.bMakeZipForTextEn`)) ? `Creates Zip in addition to regular files.` : `Will not create Zip.`}</li></ul>`
             });
             
             tempFormItemOutput += Super.tplContent.CheckBoxWithTip.wzReplace({
@@ -584,7 +584,7 @@ module.exports = {
                     , ON_CHANGE_FN: `_cms.OnSubmitForm_GdPathAdd(this)`
                     , LABEL: `Grim Dawn - User Data Path [optional]`
                     , SETTINGS: ` style="width: 650px;"`
-                    , TOOL_TIP: `<ul><li>Optional</li><li>Localizations are not affected by this.</li><li>This can be used if you are experiencing tag issues</li><li>Example: C:/Users/Ware/Documents/My Games/Grim Dawn</li></ul>`
+                    , TOOL_TIP: `<ul><li>Optional</li><li>This can be used if you are experiencing tag issues</li><li>Example: C:/Users/Ware/Documents/My Games/Grim Dawn</li></ul>`
                     , ERROR_MSG: ``
                 });
             }
