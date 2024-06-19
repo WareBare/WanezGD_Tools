@@ -78,7 +78,7 @@ tagGDX1Class07SkillName04E=Tainted Flame
 tagGDX1Class07SkillDescription04E=Though it is rare, some Inquisitors have been known to fall from grace and embrace the very powers that they were trained to defeat. By channeling the void itself into the Stone of Ignaffar, it instead unleashes a torrent of tainted flames.
 
 tagGDX1Class07SkillName05A=Rune of Hagarrad
-tagGDX1Class07SkillDescription05A=The Rune of Hagarrad was one of the first objects contained within the Vault of the Luminari but, after mounting pressure from the imperial court to exterminate occult activity within the capital, it also became the first artifact to be sanctioned for study and replicated by the Luminari in order to cut off escape routes for fleeing targets. ^oRunes of Hagarrad take 1.5 seconds to arm and scale with player bonuses. Icicles initially deal 25% reduced damage before reaching their full strength as they expand outward.
+tagGDX1Class07SkillDescription05A=The Rune of Hagarrad was one of the first objects contained within the Vault of the Luminari but, after mounting pressure from the imperial court to exterminate occult activity within the capital, it also became the first artifact to be sanctioned for study and replicated by the Luminari in order to cut off escape routes for fleeing targets. ^oRunes of Hagarrad take 1 second to arm and scale with player bonuses. Icicles initially deal 25% reduced damage before reaching their full strength as they expand outward.
 tagGDX1Class07SkillName05A_PetSkill=Chilling Burst
 tagGDX1Class07SkillName05B=Biting Cold
 tagGDX1Class07SkillDescription05B=The chilling energy released from the Rune of Hagarrad dulls the wits of the afflicted and makes them easy prey for follow-up attacks.
@@ -97,7 +97,7 @@ XtagGDX1Class07SkillName06C=Null Field
 XtagGDX1Class07SkillDescription06C=The Inquisitor Seal's inscription can be altered, if the need arises, to harden its barrier against incoming projectiles, but this comes at a cost in increased mental drain.
 
 tagGDX1Class07SkillName07A=Rune of Kalastor
-tagGDX1Class07SkillDescription07A=Place the Rune of Kalastor upon the ground. This unstable artifact explodes upon contact with enemies, spilling explosive shrapnel upon the battlefield that shatters and erupts to inflict grievous harm. ^oRunes of Kalastor take 1.5 seconds to arm and scale with player bonuses.
+tagGDX1Class07SkillDescription07A=Place the Rune of Kalastor upon the ground. This unstable artifact explodes upon contact with enemies, spilling explosive shrapnel upon the battlefield that shatters and erupts to inflict grievous harm. ^oRunes of Kalastor take 1 second to arm and scale with player bonuses.
 tagGDX1Class07SkillName07B=Ignition
 tagGDX1Class07SkillDescription07B=The Rune of Kalastor becomes increasingly unstable, triggering an immediate additional detonation at point of contact that dazes nearby enemies.
 tagGDX1Class07SkillName07A_PetSkill=Concussive Blast
@@ -527,6 +527,11 @@ tagGDX1ItemSkillD182Desc=Rimetongue's mark was renowned for sowing discord and c
 
 tagGDX1ItemSkillD183Name=Tormented Soul Well
 tagGDX1ItemSkillD183Desc=Tear open a rift to the beyond, unleashing a well of tormented spirits that will tear at any enemy that dares enter it.
+
+tagGDX1ItemSkillD184Name=Stormcaller Rune
+tagGDX1ItemSkillD184Desc=Place the Stormcaller Rune upon the ground. The sigil quickly arms and erupts with the power of storms when enemies pass over it, an invaluable offensive measure in an inquisitor's arsenal. ^oStormcaller Runes take 1 second to arm and scale with player bonuses.
+tagGDX1ItemSkillD184PetSkill=Storm Surge
+tagGDX1ItemSkillD184PetSkill_Desc=The Stormcaller Rune erupts with a debilitating surge, exposing defenses to further harm.
 
 tagGDX1w=GrimDawn/images/evil
 

@@ -16,17 +16,17 @@
 
 # Text Preps
 
-## v0.5.9 - Update for Grim Dawn v1.2.0.4 (Hotfix 4 + Loyalist Pack 3)
+## v0.5.11 - Update for Grim Dawn v1.2.1.0 (Hotfix 4 + Loyalist Pack 3)
 
 * ***Updated:*** Internal texts updated to the latest Game Update.
 
 
 
-## Files and Program updated for Grim Dawn v1.2.0.4
+## Files and Program updated for Grim Dawn v1.2.1.0
 
 Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.9).
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.11). A new [GitHub - Repository](https://github.com/WareBare/WanezRainbowFiles) was opened during Playtest and will be used for updated Rainbow Files in all Languages, if you are using those you should check there after Hotfixes.
 
 <details>
 <summary><kbd>v0.5.9 - Update for Grim Dawn v1.2.0.4 (Hotfix 4 + Loyalist Pack 3)</kbd></summary>
@@ -36,10 +36,31 @@ You can find all downloads in the [First Post](https://forums.crateentertainment
 * ***Updated:*** Internal texts updated to the latest Game Update.
 <hr>
 </details>
-
 ***Note:*** Change Log can also be found on GitHub and inside the program.
 
-# v0.5.7 - Fixes
+
+## Files for Grim Dawn v1.2.1.0 (Playtest) [04/17]
+
+Playtest Rainbow files have been updated, link to the [GitHub repo](https://github.com/WareBare/WanezRainbowFiles) and a direct download to the [cloned repo ZIP](https://github.com/WareBare/WanezRainbowFiles/archive/refs/heads/main.zip).
+
+The files Rainbow is using contain: ***1 new Tag and 4 changed Tags.***
+
+
+
+
+## Files for Grim Dawn v1.2.1.0 (Playtest)
+
+This will work a little differently. I created a new GitHub repo with all (Rainbow) files. Major updates I will announce in this thread such as missing tags, however, minor updates with typo fixes won't be announced here, so when there is a new Playtest and you are not using the program to generate the files yourself you will have to check the repo for an update. I will update the ```README``` of that repo over the next few days.
+
+Very quickly on how to download it. In the repo you will see a green button ```<> Code```, click on it to open the menu and search at the bottom for ```Download ZIP```. This will download a clone of the repo as ZIP containing a folder ```WanezRainbowFiles-main``` with all Localizations inside. Make sure you have the correct files in the correct place. I recommend to just open the ```Grim Dawn\settings``` folder and drag the ```text_en``` from the ZIP into the settings folder.
+
+The new [repo on GitHub](https://github.com/WareBare/WanezRainbowFiles) and a direct download to the [cloned repo ZIP](https://github.com/WareBare/WanezRainbowFiles/archive/refs/heads/main.zip). The OP has been updated with the new link to the repo and can be found under [Useful Links](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765#section-assets).
+
+***Note:*** 
+
+
+
+# v0.5.11 - Grim Dawn v1.2.1.0
 
 * [ ] ***BugFix:*** Special Highlighting was not allowing deletion of groups when using apostrophes (') in names.
 * [ ] ***BugFix:*** Library was not loading in some cases. (ToDo: loading non-existing Library entry - set fullRainbow to default to prevent the error)
@@ -94,7 +115,7 @@ You can find all downloads in the [First Post](https://forums.crateentertainment
 
 
 
-## Program updated for Grim Dawn v1.2.0.0 Localizations
+## Program updated for Grim Dawn v1.2.1.0
 
 Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
@@ -109,17 +130,11 @@ If you wish not to use the program or it is not working for you, you may get all
 
 
 
-## Files and Tool updated with Grim Dawn v1.1.7.2
+## Files and Program updated for Grim Dawn v1.2.1.0
 
-Tool updates itself, keep in mind colors need to be saved manually after it has finished updating.
+Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.3).
-
-<details>
-    <summary><btn>Show Change Log</btn> Hotfix</summary>
-</details>
-
-***Note:*** Change log can also be found on GitHub and inside the tool.
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.11). A new [GitHub - Repository](https://github.com/WareBare/WanezRainbowFiles) was opened during Playtest and will be used for updated Rainbow Files for all languages, if you are using those you should check there after Hotfixes.
 
 
 

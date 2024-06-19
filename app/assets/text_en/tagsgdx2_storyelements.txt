@@ -678,17 +678,6 @@ tagGDX2LoreObj_AreaG_SideAreaNoteA07Name=Ravings of Naren Kur
 tagGDX2LoreObj_AreaG_SideAreaNoteA07Text=Banished, the sheer audacity. The other oligarchs assured me that if not for my standing, I would have been butchered on the spot like a sow past her prime. Instead, they gave me the "dignity" of exile.{^n}{^n}In truth, they fear me. They fear what I've achieved, what I've uncovered in the depths of our libraries. There is a power in this universe, a gnawing madness that threatens to unravel all we've built. It yearns for the blood that was taken, and we are but mere drops in the ocean of its torment.{^n}{^n}To defy a true god, a being so ancient it predates time, is folly. My eyes have been opened and I now walk the true path to our ascension. The others cry heresy, but I could see the terror fester within them. They are more than willing to torture an old man for his alleged secrets to immortality, but yet even this trickle of knowledge strikes them with disgust.{^n}{^n}If only life was not but a flicker in the infinite stars. Oh what I could do, what I could learn, with several lifetimes.
 
 
-tagGDX2Roguelike_Area01=Maw of Enaht
-tagGDX2Roguelike_Area02=Forlorn Bastion
-tagGDX2Roguelike_Area03=Howling Depths
-tagGDX2Roguelike_Area04=Path of the Damned
-tagGDX2Roguelike_Area05=Lost Oasis
-tagGDX2Roguelike_01=Tomb of the Heretic
-tagGDX2Roguelike_01A=Court of the Magi
-tagGDX2Roguelike_01B=Morgoneth's Folly
-tagGDX2Roguelike_01C=Hungering Darkness
-tagGDX2Roguelike_01D=Conduit of the Eternal Night
-
 
 #Merchants and Other Services
 tagGDX2NPC_MerchantA01=Asgra

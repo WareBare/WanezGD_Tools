@@ -332,6 +332,7 @@ tagGDX1ItemPetBloodWraith_Skill=Vampiric Touch
 tagGDX1ItemPetBloodWraith_Skill02=Vampiric Presence
 tagGDX1ItemPetBloodSkeleton=Bloodbathed Servant
 tagGDX1ItemPetBloodSkeleton_Skill=Blood Rite
+tagGDX1ItemPetRuneStormcaller=Stormcaller Rune
 
 #EnemySummons
 

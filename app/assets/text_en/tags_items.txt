@@ -642,7 +642,7 @@ tagShieldC018=Myrmidon's Guard
 tagShieldD001=Meat Shield
 tagShieldD001Desc="Necromantic shield molded from the chest cavity of an unfortunate peasant."
 tagShieldD002=The Final Stop
-tagShieldD002Desc="Forged by railyard workers during a desparate battle against the rising Chthonian forces."
+tagShieldD002Desc="Forged by railyard workers during a desperate battle against the rising Chthonian forces."
 tagShieldD003=The Untouchable
 tagShieldD004=Will of the Living
 tagShieldD004Desc="Formerly the Emperor's Crest, this shield has passed through Aetherfire to become a paragon of mankind."
@@ -882,6 +882,7 @@ tagTwoHandedSword=Two-Handed Sword
 tagTwoHandedMace=Two-Handed Mace
 tagTwoHandedAxe=Two-Handed Axe
 tagTwoHandedRifle=Two-Handed Ranged
+tagTwoHandedSpear=Two-Handed Spear
 
 tagSpear=Spear
 tagStaff=Staff
@@ -1335,7 +1336,7 @@ tagWaistB009=Chains of Brandis
 
 tagWaistC001=Oldenar's Stabilizer
 tagWaistC002=Frizzick's Utility Pack
-tagWaistC002Desc="Worked wonders for Frizzick until it ran out of zombie repellant."
+tagWaistC002Desc="Worked wonders for Frizzick until it ran out of zombie repellent."
 tagWaistC003=Alchemist's Belt
 tagWaistC004=Marauder's Ammo Belt
 tagWaistC005=Warchief's Glory
@@ -1511,7 +1512,7 @@ tagLegsD011=Chausses of Barbaros
 tagLegsD011Desc="Barbaros was a legendary fighter in the ranks of the Black Legion who met his end on the field of battle, surrounded by dozens of mangled corpses of both men and horses."
 tagLegsD012=Stormcage Legguards
 tagLegsD013=Pretty Great Pants
-tagLegsD013Desc="Actually, they're just ok."
+tagLegsD013Desc="Actually, they're just Ok."
 tagLegsD014=Wildshorn Legguards
 
 
@@ -1806,7 +1807,7 @@ tagNecklaceD026=Bloodrager's Gem
 tagNecklaceF001=Rhowari Guardstone
 tagNecklaceF002=Rhowari Rancor
 tagNecklaceF003=Rhowari Lifecaller
-tagNecklaceF004=Solar Channelling Stone
+tagNecklaceF004=Solar Channeling Stone
 tagNecklaceF005=Harvester Stone
 tagNecklaceF006=Thundering Gem
 tagNecklaceF007=Grasp of the Reaper
@@ -2422,6 +2423,10 @@ tagConsumableBlueprintA19=Recipe: Royal Jelly Salve
 tagConsumableBlueprintA19Desc="A secret medicinal technique of the Rovers."
 tagConsumableBlueprintA20=Recipe: Royal Jelly Ointment
 tagConsumableBlueprintA20Desc="A secret medicinal technique of the Rovers."
+
+tagConsumableCategoryElixirDesc=^oYou can only benefit from one Elixir at a time.
+tagConsumableCategoryOilDesc=^oYou can only benefit from one Oil at a time.
+tagConsumableCategoryTinctureDesc=^oTinctures have shared cooldowns.
 
 tagConsumable_RoyalJellyBalm=Royal Jelly Balm
 tagConsumable_RoyalJellyBalmDesc="A soothing concoction made from concentrated Royal Jelly."
@@ -3318,7 +3323,7 @@ tagCompA005Name=Runestone
 tagCompA005Desc="A mysterious rune decorates this stone."^w^n(Used in head armor)
 
 tagCompA006Name=Mutagenic Ichor
-tagCompA006Desc="Discharge from the creatures of Cairn infected with otherwordly energies."^w^n(Used in all weapons, shields and caster off-hands)
+tagCompA006Desc="Discharge from the creatures of Cairn infected with otherworldly energies."^w^n(Used in all weapons, shields and caster off-hands)
 
 tagCompA007Name=Rotten Heart
 tagCompA007Desc="A long silenced heart shriveled with necromantic power."^w^n(Used in chest armor)
@@ -3387,7 +3392,7 @@ tagCompA028Name=Vitriolic Gallstone
 tagCompA028Desc="Vitriolic stones formed in the bile of foul beasts."^w^n(Used in melee weapons, shields and caster off-hands)
 
 tagCompA029Name=Blessed Whetstone
-tagCompA029Desc="Sharpens even the sharpest of edges, increasing the damage that penetrates enemy armor."^w^n(Used in axes, swords, guns and crossbows)
+tagCompA029Desc="Sharpens even the sharpest of edges, increasing the damage that penetrates enemy armor."^w^n(Used in axes, spears, swords, guns and crossbows)
 
 tagCompA030Name=Silk Swatch
 tagCompA030Desc="Western nomads have long known that layered silk can envelop and slow the penetration of piercing projectiles."^w^n(Used in shoulder, chest and leg armor)
@@ -3532,7 +3537,7 @@ tagCompB014Name=^kShard of Beronath
 tagCompB014Desc="But a piece of the legendary spear that felled Beronath, yet still retains great power."^w^n(Used in all weapons, shields and caster off-hands)
 
 tagCompB015Name=^kBloody Whetstone
-tagCompB015Desc="Soaked in the blood of the fallen, this accursed whetstone gives sharpened edges a hunger for blood."^w^n(Used in axes, swords, guns and crossbows)
+tagCompB015Desc="Soaked in the blood of the fallen, this accursed whetstone gives sharpened edges a hunger for blood."^w^n(Used in axes, spears, swords, guns and crossbows)
 
 tagCompB016Name=^kAttuned Lodestone
 tagCompB016Desc="These rare and potent stones still echo with the thunder of the storm that birthed them."^w^n(Used in amulets and medals)
@@ -3557,7 +3562,7 @@ tagCompB022Desc="The tainted soul of Kilrian, terror of the Arkovian Undercity."
 
 
 tagCompAetherCrystal=Aether Crystal
-tagCompAetherCrystalDesc="A crystalline shard still lingering with Aetherial power.  Can be used in the creation of arcane items."
+tagCompAetherCrystalDesc="A crystalline shard still lingering with Aetherial power. Can be used in the creation of arcane items."
 
 tagCompAmmoBox=Ammunition Box
 tagCompAmmoBoxDesc="The resistance can always use more ammunition to hold off the dark forces plaguing Cairn."
@@ -3668,6 +3673,8 @@ tagPotionConstitutionB01Desc=Lingering vital energy that can be absorbed to rest
 tagPotionDirections=[Right-Click to Consume]
 tagCombineStacks=[Ctrl-Click to Split Stacks]
 tagHideTooltip=[Hold Ctrl to Hide Tooltip]
+tagShowDetails=^O[Hold Ctrl to Show Details]
+tagShowDetailsGamepad=^O[Hold Left Trigger to Show Details]
 
 # Bonuses
 tagBonusLifePercentAbsPercent={^E}Restores {^H}{%.0f0}%+{%.0f1} {^E}Health {^H}+{%.0f2}% {^E}Over Time
@@ -3676,6 +3683,8 @@ tagBonusLifePercentSlow={^E}Restores {^H}{%.0f0}% {^E}Health Over Time
 tagBonusLifePercentAbs={^E}Restores {^H}{%.0f0}% + {%.0f1} {^E}Health
 tagBonusLifePercent={^E}Restores {^H}{%.0f0}% {^E}Health
 tagBonusLifeAbs={^E}Restores {^H}{%.0f0} {^E}Health
+tagBonusLifeAbsBuff={^E}Restores {^H}{%.0f0} {^E}Health Per Second
+tagBonusLifePercentBuff={^E}Restores {^H}{%.0f0}% {^E}Health Per Second
 tagBonusManaPercentAbs={^E}Restores {^H}{%.0f0}% + {%.0f1} {^E}Energy
 tagBonusManaPercent={^E}Restores {^H}{%.0f0}% {^E}Energy
 tagBonusManaAbs={^E}Restores {^H}{%.0f0} {^E}Energy
@@ -3774,7 +3783,7 @@ tagItemSetC022NameB=Wildcaller's Call
 tagItemSetC022Desc="Adornments of the Wildcallers, shamans attuned to the voices of nature."
 
 tagItemSetC023Name=The Praetorian
-tagItemSetC023Desc="Armor worn by war-hardened veterans, as acknowledgement for their undaunted dedication on the fields of battle."
+tagItemSetC023Desc="Armor worn by war-hardened veterans, as acknowledgment for their undaunted dedication on the fields of battle."
 
 tagItemSetC024Name=Keeper of the Flame
 tagItemSetC024Desc="A fiery heart, imbued with a spirit of the flame."

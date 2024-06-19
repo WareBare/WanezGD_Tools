@@ -603,6 +603,8 @@ tagFactionStateTrusted=Trusted
 tagFactionStateHonored=Honored
 tagFactionStateRevered=Revered
 
+tagFactionNemesisSpawned=A nemesis approaches!
+
 #Faction Window
 
 tagFactionUpdated=Reputation Updated
@@ -762,9 +764,9 @@ tagLootFilter08=Always Show Uniques
 tagLootFilter08Info=Toggle this checkbox to always show Unique items (Epic and Legendary Quality) regardless of your Filter Settings.{^N}{^N}Use this setting when you wish to search for particular Magic, Rare or Monster Infrequent items but still wish to collect every Unique that drops.
 
 tagLootFilter09=1h Melee
-tagLootFilter09Info=Show/Hide One-handed Axes, Maces and Swords.
+tagLootFilter09Info=Show/Hide One-handed Axes, Maces, Spears and Swords.
 tagLootFilter10=2h Melee
-tagLootFilter10Info=Show/Hide Two-handed Axes, Maces and Swords.
+tagLootFilter10Info=Show/Hide Two-handed Axes, Maces, Spears and Swords.
 tagLootFilter11=1h Ranged
 tagLootFilter11Info=Show/Hide One-handed Guns.
 tagLootFilter12=2h Ranged
@@ -874,8 +876,8 @@ tagStatsResistance07=Vitality
 tagStatsResistance07Desc=Resistance to vitality-draining incantations that deal Vitality or Vitality-Decay damage.
 tagStatsResistance08=Aether
 tagStatsResistance08Desc=Resistance to Aether-bound attacks and sorcery that deal Aether damage.
-tagStatsResistance09=Stun
-tagStatsResistance09Desc=Reduces the duration of stun attacks and spells, which leave you unable to react.
+tagStatsResistance09=Physical
+tagStatsResistance09Desc=Resistance to spells and attacks which cause physical harm and internal trauma.
 tagStatsResistance10=Chaos
 tagStatsResistance10Desc=Resistance to Chaos damage dealt by the unstable energies of the universe itself, often used by Chthonian beings.
 tagStatsResistance11=Knockdown
@@ -1291,8 +1293,8 @@ tagCharStatsDodgeChanceInfo=The percent chance of evading a melee attack, negati
 tagCharStatsProjDeflectChance=Deflect Chance
 tagCharStatsProjDeflectChanceInfo=The percent chance of deflecting a ranged attack, negating the damage completely.
 
-tagCharStatsPhysicalResist=Physical Resist
-tagCharStatsPhysicalResistInfo=Resistance to spells and attacks which cause physical harm and internal trauma.
+tagCharStatsStunResist=Stun Resist
+tagCharStatsStunResistInfo=Reduces the duration of stun attacks and spells, which leave you unable to react.
 
 tagCharStatsDisruptionResist=Disruption Resist
 tagCharStatsDisruptionResistInfo=Resistance to spells and attacks which interrupt your ability to cast skills.
@@ -1969,6 +1971,7 @@ SkillChargeFactorMod=increase per Charge Level
 SkillChargeMaxMod=Charge Levels: 
 SkillChargeDurationMod=increase in Charge Duration
 SkillChanceWeight={%d0}% {^E}Chance to be Used
+SkillChanceWeightMod=+{%d0}% {^E}Chance to be Used
 SkillActivationChance={^E}Chance of Activating
 SkillDamageAbsorption={%.0f0} {^E}Damage Absorption
 SkillDamageAbsorptionPercent={%.0f0}% {^E}Damage Absorption
@@ -2039,9 +2042,9 @@ ProjectileFragmentsLaunchNumberMinMax={%d0 - %d1} {^E}Fragments
 ProjectileFragmentsLaunchNumber={%d0} {^E}Fragments
 ProjectilePiercingChance={%.1f0}% {^E}Chance to pass through Enemies
 ProjectilePiercingChanceMod=+{%.1f0}% {^E}Chance to pass through Enemies
-CooldownCharges={%d0} {^E}Max Casts
-CooldownChargesMod=+{%d0} {^E}Max Casts
-PotionCooldownCharges={%d0} {^E}Max Uses
+CooldownCharges={%d0} {^E}Charges
+CooldownChargesMod=+{%d0} {^E}Charges
+PotionCooldownCharges={%d0} {^E}Uses
 PotionCooldownChargesMod=+{%d0} {^E}Max Uses
 
 tagTooltipPetsHeader=Pets
