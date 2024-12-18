@@ -113,25 +113,25 @@ achGDX236Title=Korvan Loremaster
 achGDX236Desc=Collect 85 Lore Notes.
 
 achGDX237Title=Enter the Shattered Realm
-achGDX237Desc=Conquer the 5th Shard of the Shattered Realm.
+achGDX237Desc=Conquer the 2nd Shard of the Shattered Realm.
 
 achGDX238Title=Braving the Shattered Realm
-achGDX238Desc=Conquer the 5th Shard of the Shattered Realm on Ultimate Difficulty.
+achGDX238Desc=Conquer the 2nd Shard of the Shattered Realm on Ultimate Difficulty.
 
 achGDX239Title=Shattered Explorer
-achGDX239Desc=Conquer the 15th Shard of the Shattered Realm.
+achGDX239Desc=Conquer the 6th Shard of the Shattered Realm.
 
 achGDX240Title=Shattered Pathfinder
-achGDX240Desc=Conquer the 15th Shard of the Shattered Realm on Ultimate Difficulty.
+achGDX240Desc=Conquer the 6th Shard of the Shattered Realm on Ultimate Difficulty.
 
 achGDX241Title=Shattered Conqueror
-achGDX241Desc=Conquer the 25th Shard of the Shattered Realm.
+achGDX241Desc=Conquer the 10th Shard of the Shattered Realm.
 
 achGDX242Title=Shattered Vanquisher
-achGDX242Desc=Conquer the 25th Shard of the Shattered Realm on Ultimate Difficulty.
+achGDX242Desc=Conquer the 10th Shard of the Shattered Realm on Ultimate Difficulty.
 
 achGDX243Title=Immortal Shattered Vanquisher
-achGDX243Desc=Conquer the 25th Shard of the Shattered Realm on Ultimate Difficulty in Hardcore Mode.
+achGDX243Desc=Conquer the 10th Shard of the Shattered Realm on Ultimate Difficulty in Hardcore Mode.
 
 achGDX244Title=Soul Diet
 achGDX244Desc=Absorb 50 Shattered Souls in the Shattered Realm.

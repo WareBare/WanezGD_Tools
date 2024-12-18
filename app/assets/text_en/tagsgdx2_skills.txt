@@ -133,8 +133,11 @@ tagGDX2ItemSkillC206Desc=Unleash a burst of violent hungering energies upon your
 tagGDX2ItemSkillD201Name=Blood Spout
 tagGDX2ItemSkillD201Desc=A crimson spout erupts beneath your foes, showering them with blood and gore.
 
-tagGDX2ItemSkillD202Name=Guardian's Guidance
-tagGDX2ItemSkillD202Desc=Embrace the lessons of the Witch God Dreeg and turn your weapons into an extension of his will.
+tagGDX2ItemSkillD202Name=Guardian's Agonizing Bite
+tagGDX2ItemSkillD202Desc=Lash out at your foe with the caustic blood of the Witch God Dreeg. ^oThis is a shield technique that activates off of default weapon attacks. Requires a melee weapon. The Shield's damage is added to the attack.
+
+XtagGDX2ItemSkillD202Name=Guardian's Guidance
+XtagGDX2ItemSkillD202Desc=Embrace the lessons of the Witch God Dreeg and turn your weapons into an extension of his will.
 
 tagGDX2ItemSkillD203Name=Shatterguard
 tagGDX2ItemSkillD203Desc=Being brought low merely stokes your rage.
@@ -574,7 +577,6 @@ tagGDX2RuneSkillD220Desc=Charge a target foe with the crushing might of a stormt
 
 tagGDX2RuneSkillD221=Blazing Charge
 tagGDX2RuneSkillD221Desc=Charge forth into battle and incinerate your foe with the flames of a dying god. ^oRequires a melee weapon. When used with a shield, the shield's damage is added.
-
 
 #FactionSkills
 tagGDX2FactionSkillA01=Presence of Bysmiel

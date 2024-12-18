@@ -103,8 +103,8 @@ module.exports = {
         }
     },
 
-    GrimDawnVersion: `1.2.1.0`,
-    LastItemVersion: `1.2.1.0`,
+    GrimDawnVersion: `1.2.1.3`,
+    LastItemVersion: `1.2.1.3`,
 
     //  data-wztip="{TOOL_TIP}" data-wztip-position="top"
     tplContent: {

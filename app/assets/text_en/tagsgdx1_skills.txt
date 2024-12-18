@@ -529,7 +529,7 @@ tagGDX1ItemSkillD183Name=Tormented Soul Well
 tagGDX1ItemSkillD183Desc=Tear open a rift to the beyond, unleashing a well of tormented spirits that will tear at any enemy that dares enter it.
 
 tagGDX1ItemSkillD184Name=Stormcaller Rune
-tagGDX1ItemSkillD184Desc=Place the Stormcaller Rune upon the ground. The sigil quickly arms and erupts with the power of storms when enemies pass over it, an invaluable offensive measure in an inquisitor's arsenal. ^oStormcaller Runes take 1 second to arm and scale with player bonuses.
+tagGDX1ItemSkillD184Desc=Place the Stormcaller Rune upon the ground. The sigil quickly arms and erupts with the power of storms when enemies pass over it, an invaluable offensive measure in an inquisitor's arsenal. ^oStormcaller Runes take 0.5 seconds to arm and scale with player bonuses.
 tagGDX1ItemSkillD184PetSkill=Storm Surge
 tagGDX1ItemSkillD184PetSkill_Desc=The Stormcaller Rune erupts with a debilitating surge, exposing defenses to further harm.
 

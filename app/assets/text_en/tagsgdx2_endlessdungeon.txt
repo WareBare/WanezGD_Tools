@@ -143,31 +143,31 @@ tagGDX2EndlessDungeon_Essence_03=Celestial Shattered Soul
 tagGDX2EndlessDungeon_Essence_04=Overwhelming Shattered Soul
 
 tagGDX2EndlessDungeon_Key_01=Shattered Waystone
-tagGDX2EndlessDungeon_Key_01_Desc=The Shattered Waystone once offered incredible potential. It enables Mazaan to open the way to at least the 5th Shard, up to the 15th Shard, of the Shattered Realm.
+tagGDX2EndlessDungeon_Key_01_Desc=The Shattered Waystone once offered incredible potential. It enables Mazaan to open the way to at least the 2nd Shard, up to the 6th Shard, of the Shattered Realm.
 tagGDX2EndlessDungeon_Key_01_Blueprint=Blueprint: Shattered Waystone
 
 tagGDX2EndlessDungeon_Key_02=Resonating Waystone
-tagGDX2EndlessDungeon_Key_02_Desc=The Resonating Waystone shimmers with a fragment of its former power. It enables Mazaan to open the way to at least the 20th Shard, up to the 30th Shard, of the Shattered Realm.
+tagGDX2EndlessDungeon_Key_02_Desc=The Resonating Waystone shimmers with a fragment of its former power. It enables Mazaan to open the way to at least the 8th Shard, up to the 12th Shard, of the Shattered Realm.
 tagGDX2EndlessDungeon_Key_02_Blueprint=Blueprint: Resonating Waystone
 
 tagGDX2EndlessDungeon_Key_03=Haunted Waystone
-tagGDX2EndlessDungeon_Key_03_Desc=The Haunted Waystone has been infused with the spirits of the dead. It enables Mazaan to open the way to at least the 35th Shard, up to the 45th Shard, of the Shattered Realm.
+tagGDX2EndlessDungeon_Key_03_Desc=The Haunted Waystone has been infused with the spirits of the dead. It enables Mazaan to open the way to at least the 14th Shard, up to the 18th Shard, of the Shattered Realm.
 tagGDX2EndlessDungeon_Key_03_Blueprint=Blueprint: Haunted Waystone
 
 tagGDX2EndlessDungeon_Key_04=Desecrated Waystone
-tagGDX2EndlessDungeon_Key_04_Desc=The Desecrated Waystone has been anointed in tainted blood. It enables Mazaan to open the way to at least the 50th Shard, up to the 60th Shard, of the Shattered Realm.
+tagGDX2EndlessDungeon_Key_04_Desc=The Desecrated Waystone has been anointed in tainted blood. It enables Mazaan to open the way to at least the 20th Shard, up to the 24th Shard, of the Shattered Realm.
 tagGDX2EndlessDungeon_Key_04_Blueprint=Blueprint: Desecrated Waystone
 
 tagGDX2EndlessDungeon_Key_05=Celestial Waystone
-tagGDX2EndlessDungeon_Key_05_Desc=The Celestial Waystone has been fully restored to its divine potential. It enables Mazaan to open the way to at least the 65th Shard, up to the 75th Shard, of the Shattered Realm. ^n^nThis waystone should not be used by the faint of heart.
+tagGDX2EndlessDungeon_Key_05_Desc=The Celestial Waystone has been fully restored to its divine potential. It enables Mazaan to open the way to at least the 26th Shard, up to the 30th Shard, of the Shattered Realm. ^n^nThis waystone should not be used by the faint of heart.
 tagGDX2EndlessDungeon_Key_05_Blueprint=Blueprint: Celestial Waystone
 
 tagGDX2EndlessDungeon_Key_06=Eternal Waystone
-tagGDX2EndlessDungeon_Key_06_Desc=A Waystone that tugs upon the strands of reality, bending them around it. It enables Mazaan to open the way to at least the 80th Shard, up to the 90th Shard, of the Shattered Realm. ^n^nThis waystone should not be used by the faint of heart.
+tagGDX2EndlessDungeon_Key_06_Desc=A Waystone that tugs upon the strands of reality, bending them around it. It enables Mazaan to open the way to at least the 32nd Shard, up to the 36th Shard, of the Shattered Realm. ^n^nThis waystone should not be used by the faint of heart.
 tagGDX2EndlessDungeon_Key_06_Blueprint=Blueprint: Eternal Waystone
 
 tagGDX2EndlessDungeon_Key_07=Death's Waystone
-tagGDX2EndlessDungeon_Key_07_Desc=Tainted with the power of death, the Waystone now opens the way forward to unfathomable dangers where no reward awaits but for the glory of conquest. ^n^nIt enables Mazaan to open the way to at least the 95th Shard of the Shattered Realm, and beyond. ^n^nThis waystone should not be used by the faint of heart.
+tagGDX2EndlessDungeon_Key_07_Desc=Tainted with the power of death, the Waystone now opens the way forward to unfathomable dangers where no reward awaits but for the glory of conquest. ^n^nIt enables Mazaan to open the way to at least the 38th Shard of the Shattered Realm, and beyond. ^n^nThis waystone should not be used by the faint of heart.
 tagGDX2EndlessDungeon_Key_07_Blueprint=Blueprint: Death's Waystone
 
 

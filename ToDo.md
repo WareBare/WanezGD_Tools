@@ -16,20 +16,22 @@
 
 # Text Preps
 
-## v0.5.11 - Update for Grim Dawn v1.2.1.0 (Hotfix 4 + Loyalist Pack 3)
+## v0.5.12 - Update for Grim Dawn v1.2.1.3
 
 * ***Updated:*** Internal texts updated to the latest Game Update.
 
 
 
-## Files and Program updated for Grim Dawn v1.2.1.0
+## Files and Program updated for Grim Dawn v1.2.1.3
 
 Program updates itself, keep in mind colors need to be saved manually after it has finished updating.
 
-You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.11). A new [GitHub - Repository](https://github.com/WareBare/WanezRainbowFiles) was opened during Playtest and will be used for updated Rainbow Files in all Languages, if you are using those you should check there after Hotfixes.
+You can find all downloads in the [First Post](https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765) or on [GitHub](https://github.com/WareBare/WanezGD_Tools/releases/tag/v0.5.12). A new [GitHub - Repository](https://github.com/WareBare/WanezRainbowFiles) was opened during Playtest and will be used for updated Rainbow Files in all Languages, if you are using those you should check there after Hotfixes.
+
+On a side note about all feedback and reports over the months (and even years), I'm not ignoring it. The current tool is getting retired and a new one will be going into a sort of "beta" phase soon, so updating the old tool would just be doing the work twice.
 
 <details>
-<summary><kbd>v0.5.9 - Update for Grim Dawn v1.2.0.4 (Hotfix 4 + Loyalist Pack 3)</kbd></summary>
+<summary>Rainbow Tool v0.5.12 - Update for Grim Dawn v1.2.1.3</summary>
 
 <hr>
 

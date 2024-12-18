@@ -203,7 +203,7 @@ tagTutorialTip55TextA=Use the Faction Window to keep track of your progress with
 tagTutorialTip55SubtitleA=Gaining Reputation
 tagTutorialTip55TextB=Each faction has unique desires and goals. You can see how to earn their respect by looking at the "Reputation Gained From" section.
 tagTutorialTip55TextC=Your reputation levels determine how the various factions in the world of Cairn act towards you. Higher reputation levels entitle you to discounted goods at all of the faction's merchants and access to better equipment from their Faction Quartermaster.
-tagTutorialTip55TextD=As your rise through the different reputation levels new quests may become available. Don't forget to seek them out.
+tagTutorialTip55TextD=As you rise through the different reputation levels new quests may become available. Don't forget to seek them out.
 tagTutorialTip55TextE=Note that as you become more renowned, you will need to defeat tougher monsters to gain reputation from kills.
 
 tagTutorialTip56Title=Bounties

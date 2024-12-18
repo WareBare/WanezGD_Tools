@@ -215,13 +215,13 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.11](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.11/WanezGD_Tools-Setup-0.5.11.exe "Link from GitHub Releases") |
-| ***[Files]*** Full Rainbow *(All Languages)*  | [Full Rainbow for Grim Dawn v1.2.1.0 - All Languages](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.11/fullRainbow-1.2.1.0_allLanguages.zip) |
-| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.1.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.11/fullRainbow-1.2.1.0.zip) |
-| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.1.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.11/diablo-1.2.1.0.zip) |
-| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.1.0](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.11/basicHighlighting-1.2.1.0.zip) |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.12](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/WanezGD_Tools-Setup-0.5.12.exe "Link from GitHub Releases") |
+| ***[Files]*** Full Rainbow *(All Languages)*  | [Full Rainbow for Grim Dawn v1.2.1.3 - All Languages](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/fullRainbow-1.2.1.3_allLanguages.zip) |
+| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.1.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/fullRainbow-1.2.1.3.zip) |
+| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.1.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/diablo-1.2.1.3.zip) |
+| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.1.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/basicHighlighting-1.2.1.3.zip) |
 
-*___Note:___  Files are only for the English version of the game (Main Campaign and Custom Game), the Tool can be used for all Languages.*
+*___Note:___  If you are using the Files, check out a separate [GitHub - Repository](https://github.com/WareBare/WanezRainbowFiles) as it may have more up to date Full Rainbow files for all Languages, check there after a HotFix to Grim Dawn.*
 
 *___Note:___ The tool has an Auto-Updater which will download and install the most recent Setup.exe version for you.*
 

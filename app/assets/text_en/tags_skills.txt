@@ -1752,7 +1752,7 @@ tagItemSkillD146Name=Obliteration
 tagItemSkillD146Desc=Unleash a beam of arcane destruction that obliterates everything it touches, piercing through foes as it erases them from existence. ^oThis is a channeled skill and must be held down to maintain. At 100% Cast Speed, Obliteration deals damage and drains Energy every 0.3s.
 
 tagItemSkillD147Name=Obsidian Tremor
-tagItemSkillD147Desc=Shatter the barrier between the void and the physical realm as obsidian spines burst through the earth.
+tagItemSkillD147Desc=Shatter the barrier between the void and the physical realm as obsidian spines burst through the earth. ^oObsidian Tremor initially deals 30% reduced damage before reaching its full strength as it expands outward.
 
 tagItemSkillD148Name=Olexra's Chill
 tagItemSkillD148Desc=Channel your power into a concentrated blast of ice energy that freezes a foe solid.
@@ -1833,7 +1833,7 @@ tagItemSkillD173Name=Shimmering Splendor
 tagItemSkillD173Desc=The splendor of these pants is too great to behold.
 
 tagItemSkillD174Name=Siegebreaker
-tagItemSkillD174Desc=Shatters the enemy lines as the earth ruptures and breaks beneath their feet.
+tagItemSkillD174Desc=Shatters the enemy lines as the earth ruptures and breaks beneath their feet. ^oSiegebreaker initially deals 30% reduced damage before reaching its full strength as it expands outward.
 
 tagItemSkillD175Name=Sigil of Consumption
 tagItemSkillD175Desc=Create an occult sigil on the ground that consumes the life-force of enemies caught within its power, returning a portion of the damage dealt as health to you.
@@ -1986,7 +1986,7 @@ tagItemSkillD224Name=Wrath of the Grim Dawn
 tagItemSkillD224Desc=Unleash the suffering and destruction ushered unto the world at the time of the Grim Dawn.
 
 tagItemSkillD225Name=Winter King's Might
-tagItemSkillD225Desc=Slam your weapon into the earth with the might of the Winter King, unleashing a cascade of icy spines. ^oRequires a two-handed melee weapon.
+tagItemSkillD225Desc=Slam your weapon into the earth with the might of the Winter King, unleashing a cascade of icy spines. ^oRequires a two-handed melee weapon. Winter King's Might initially deals 30% reduced damage before reaching its full strength as it expands outward.
 
 tagItemSkillD226Name=Summon Chillmane
 tagItemSkillD226Desc=Calls forth a mighty Chillmane Yeti to fight beside you. ^oOnly one Chillmane can be summoned at any one time. The yeti scales with Pet Bonuses.
@@ -2136,7 +2136,7 @@ tagCompSkillA011Name=Behead
 tagCompSkillA011Desc=Attempt to behead your foe with a deadly blow capable of causing intense bleeding.
 
 tagCompSkillA012Name=Decapitate
-tagCompSkillA012Desc=Attempt to decapitate your foe with a deadly attack capable of causing intense bleeding. ^oWhen used with a melee weapon, the attack strikes multiple nearby targets.
+tagCompSkillA012Desc=Attempt to decapitate your foe with a deadly attack capable of causing intense bleeding.
 
 tagCompSkillA013Name=Burning Weapons
 tagCompSkillA013Desc=Empower your attacks with a blazing flame.
@@ -2187,10 +2187,10 @@ tagCompSkillA028Name=Silver Edge
 tagCompSkillA028Desc=Strike with your weapon, devastating to Chthonic beings.
 
 tagCompSkillA029Name=Slam
-tagCompSkillA029Desc=Slam your enemy with an overpowering blow.
+tagCompSkillA029Desc=Slam your enemy with an overpowering blow that reverberates around them.
 
 tagCompSkillA030Name=Brutal Slam
-tagCompSkillA030Desc=Slam your enemy with an overpowering blow.
+tagCompSkillA030Desc=Slam your enemy with an overpowering blow that reverberates around them.
 
 tagCompSkillA031Name=Empowered Impaling Weapons
 tagCompSkillA031Desc=Empower your attacks to pierce through armor.
@@ -2222,8 +2222,8 @@ tagCompSkillB001Desc=Launch a blastwave of unearthly flame at your enemies.
 tagCompSkillB002Name=Beronath's Fury
 tagCompSkillB002Desc=Strike out at your enemies with the fury of the great beast Beronath. When used as your default weapon attack, Beronath's Fury increases the intensity of your attacks with every strike. ^oBuilding up charges increases the potency of the bonuses.
 
-tagCompSkillB003Name=Silver Spread
-tagCompSkillB003Desc=Launch a burst of silver-coated projectiles intended to kill Chthonic beings.
+tagCompSkillB003Name=Silver Armament
+tagCompSkillB003Desc=Imbue your armaments with silver, which has proven deadly to otherworldly terrors.
 
 tagCompSkillB004Name=Dreeg's Infinite Gaze
 tagCompSkillB004Desc=Unleash the infinite gaze of Dreeg around you.
@@ -2232,7 +2232,7 @@ tagCompSkillB005Name=Solael's Flame
 tagCompSkillB005Desc=Coat your target with the dark flame of Solael.
 
 tagCompSkillB006Name=Oleron's Might
-tagCompSkillB006Desc=Strikes with your weapon, inflicting grievous wounds and crippling the target.
+tagCompSkillB006Desc=Strike with your weapon, inflicting grievous wounds and crippling the target. ^oCan activate with all default weapon attacks.
 
 tagCompSkillB007Name=Bysmiel's Binding
 tagCompSkillB007Desc=Bind your minions to your will. ^o(Passive bonus)
