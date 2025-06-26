@@ -1296,6 +1296,6 @@ tagRace013P=Magical
 tagRace014P=Celestial
 tagRace015P=Arachnids
 tagRace016P=Plants
-tagRace017=Empowered
-tagRace017P=Empowered
+tagRace017=Guard
+tagRace017P=Guard
 

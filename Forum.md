@@ -29,7 +29,7 @@ The tool and files you can find here will only change the font color of items an
 Before doing anything you should close Grim Dawn. Now you can either use a tool or download the files I generated with the tool.
 
 
-<details><summary><kbd>Custom Game Support (Mods)</kbd></summary>
+<details><summary>Custom Game Support (Mods)</summary>
     <hr>
     Mods are affected by the same files that work for the Main Campaign. If you are using the game without a different Language the files from the download section will work as long as the mod is not changing any tags. New items will obviously require additional files, but I'm not going to be responsible for them.
     I will add the link to a mod's Rainbow Filter files at the bottom, if you have a mod with Rainbow Filter files and the link is missing, let me know and I will add it.
@@ -37,7 +37,7 @@ Before doing anything you should close Grim Dawn. Now you can either use a tool 
 </details>
 <br />
 
-<details><summary><kbd>Guide: "How To Use The Tool" that I made and write the required files to the correct location.</kbd></summary>
+<details><summary>Guide: "How To Use The Tool" that I made and write the required files to the correct location.</summary>
     <hr>
     <font color="#EF5050">Make sure Grim Dawn is closed, because it can prevent the tool from accessing important files and causes all kinds of weirdness inside the tool.</font>
     <br />If you are having issues following along, you may take a look at the pictures in <code>Picture Guide: "How To Use the Tool"</code><br /><br />
@@ -59,7 +59,7 @@ Before doing anything you should close Grim Dawn. Now you can either use a tool 
 
 <br />
 
-<details><summary><kbd>Guide: "How To Use Preset-Files" that were generated with the tool by me as Zip.</kbd></summary>
+<details><summary>Guide: "How To Use Preset-Files" that were generated with the tool by me as Zip.</summary>
     <hr>
     <font color="#EF5050">This is only for the shipped Languages of Grim Dawn, other Languages or Fonts using Localizations will not work with this! Mods using default tags however, will work perfectly fine with these files.</font><br /><br />
     If you do not wish to use the tool you can download the files as Zip and extract the contents to your Grim Dawn directory.<br /><br />
@@ -142,7 +142,7 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 *Different Color Presets are available to choose from, some could be available as .zip download others will only be possible with the help of the tool.*
 
-<details><summary><kbd>Full Rainbow</kbd></summary>
+<details><summary>Full Rainbow</summary>
     <ul>
         <li>Item Names<ul>
             <li>MI have a different color than items of the same rarity.</li>
@@ -155,7 +155,7 @@ All downloads and useful links are in the [section at the end](#section-assets).
 </details>
 <br />
 <details>
-    <summary><kbd>Diablo &amp; PoE</kbd></summary>
+    <summary>Diablo &amp; PoE</summary>
     <em>Note: Sets don't have the prefixed (S) Symbol, they have a different color.</em>
     <ul>
         <li><span style="background-color:#0F0F0F"><font color="#FFFFFF">Common</font></span></li>
@@ -169,7 +169,7 @@ All downloads and useful links are in the [section at the end](#section-assets).
 </details>
 <br />
 
-<details><summary><kbd>Basic Highlighting</kbd></summary>
+<details><summary>Basic Highlighting</summary>
     <ul>
         <li>Item Names<ul>
             <li>MI have a different color than items of the same rarity.</li>
@@ -215,11 +215,11 @@ All downloads and useful links are in the [section at the end](#section-assets).
 
 | Description                                   | Download (click starts download)                             |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.12](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/WanezGD_Tools-Setup-0.5.12.exe "Link from GitHub Releases") |
-| ***[Files]*** Full Rainbow *(All Languages)*  | [Full Rainbow for Grim Dawn v1.2.1.3 - All Languages](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/fullRainbow-1.2.1.3_allLanguages.zip) |
-| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.1.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/fullRainbow-1.2.1.3.zip) |
-| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.1.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/diablo-1.2.1.3.zip) |
-| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.1.3](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.12/basicHighlighting-1.2.1.3.zip) |
+| ***[Tool]*** Customize and Save Color-Presets | [Setup.exe for Tool v0.5.13](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.13/WanezGD_Tools-Setup-0.5.13.exe "Link from GitHub Releases") |
+| ***[Files]*** Full Rainbow *(All Languages)*  | [Full Rainbow for Grim Dawn v1.2.1.6 - All Languages](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.13/fullRainbow-1.2.1.6_allLanguages.zip) |
+| ***[Files]*** Full Rainbow *(English)*        | [Full Rainbow for Grim Dawn v1.2.1.6](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.13/fullRainbow-1.2.1.6.zip) |
+| ***[Files]*** Diablo & PoE *(English)*        | [Diablo for Grim Dawn v1.2.1.6](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.13/diablo-1.2.1.6.zip) |
+| ***[Files]*** Basic Highlighting *(English)*  | [Basic Highlighting for Grim Dawn v1.2.1.6](https://github.com/WareBare/WanezGD_Tools/releases/download/v0.5.13/basicHighlighting-1.2.1.6.zip) |
 
 *___Note:___  If you are using the Files, check out a separate [GitHub - Repository](https://github.com/WareBare/WanezRainbowFiles) as it may have more up to date Full Rainbow files for all Languages, check there after a HotFix to Grim Dawn.*
 
@@ -246,6 +246,7 @@ All downloads and useful links are in the [section at the end](#section-assets).
 | ***[Mod]*** Grimarillion         | [Post with files and instructions](https://forums.crateentertainment.com/t/rel-grimarillion-v68/46587/1433) |
 | ***[Mod]*** Dawn of Masteries    | [Post with files and instructions](https://forums.crateentertainment.com/t/dawn-of-masteries/94373/118) |
 | ***[Mod]*** Reign of Terror | [Post with files and instructions](https://forums.crateentertainment.com/t/mod-reign-of-terror/35347/6730)                                                             |
+| ***[Mod]*** Diablo 3 Classes | [Post with files](https://forums.crateentertainment.com/t/mod-diablo-3-classes-patch-5-3-released/35207/2198)                                                             |
 
 *___Note:___ If a mod has files for Rainbow Filter and is not in the list, let me know about it.*
 

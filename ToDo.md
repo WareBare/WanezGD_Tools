@@ -16,7 +16,7 @@
 
 # Text Preps
 
-## v0.5.12 - Update for Grim Dawn v1.2.1.3
+## v0.5.13 - Update for Grim Dawn v1.2.1.6
 
 * ***Updated:*** Internal texts updated to the latest Game Update.
 

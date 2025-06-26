@@ -108,7 +108,7 @@ tagClass01SkillName02D=Tremor
 tagClass01SkillDescription02D=With the will of Menhir, smash the ground with a mighty two-hander and let rip devastating waves of energy upon your foes. ^oThis technique requires a two-handed melee weapon. Tremor is not a default weapon attack enhancer and cannot trigger effects such as Markovian's Advantage.
 
 tagClass01SkillName03A=Blitz
-tagClass01SkillDescription03A=Charge forth into the fray with devastating momentum, taking your enemies by surprise. ^oRequires a melee weapon. When used with a shield, the shield's damage is added.
+tagClass01SkillDescription03A=Charge forth into the fray with devastating momentum, taking your enemies by surprise. ^oRequires a melee weapon. When used with a shield, the skill strikes an additional time with the shield.
 tagClass01SkillName03B=Blindside
 tagClass01SkillDescription03B=The suddenness and ferocity of your attack puts enemies off-balance, reducing their combat prowess.
 
@@ -530,7 +530,7 @@ tagClass05SkillName05B=Conversion
 tagClass05SkillDescription05B=The sphere absorbs harmful debilitating effects and converts them into your energy reserves.
 
 tagClass05SkillName06A=Albrecht's Aether Ray
-tagClass05SkillDescription06A=A powerful arcane technique perfected by Master Albrecht in the years just preceding the Grim Dawn that channels raw arcane energies into a concentrated beam of destruction that penetrates all foes. ^oRequires a Caster Off-Hand. At 100% Cast Speed, Albrecht's Aether Ray deals damage and drains Energy every 0.3s.
+tagClass05SkillDescription06A=A powerful arcane technique perfected by Master Albrecht in the years just preceding the Grim Dawn that channels raw arcane energies into a concentrated beam of destruction that penetrates all foes. ^oRequires a Caster Off-Hand. At 100% Cast Speed, Albrecht's Aether Ray deals damage and drains Energy every 0.24s.
 tagClass05SkillName06B=Disintegration
 tagClass05SkillDescription06B=Pours all of your energy into the Aether Ray, turning it into a catastrophic force that disintegrates all it touches. ^oEnergy Cost increase is per damage interval.
 tagClass05SkillName06C=Tainted Power
@@ -1749,7 +1749,7 @@ tagItemSkillD145Name=Nightshade Venom
 tagItemSkillD145Desc=Release a vile toxin trapped within the blade that turns flesh into stone.
 
 tagItemSkillD146Name=Obliteration
-tagItemSkillD146Desc=Unleash a beam of arcane destruction that obliterates everything it touches, piercing through foes as it erases them from existence. ^oThis is a channeled skill and must be held down to maintain. At 100% Cast Speed, Obliteration deals damage and drains Energy every 0.3s.
+tagItemSkillD146Desc=Unleash a beam of arcane destruction that obliterates everything it touches, piercing through foes as it erases them from existence. ^oThis is a channeled skill and must be held down to maintain. At 100% Cast Speed, Obliteration deals damage and drains Energy every 0.24s.
 
 tagItemSkillD147Name=Obsidian Tremor
 tagItemSkillD147Desc=Shatter the barrier between the void and the physical realm as obsidian spines burst through the earth. ^oObsidian Tremor initially deals 30% reduced damage before reaching its full strength as it expands outward.
@@ -2303,7 +2303,7 @@ tagRelicSkillC007Name=Haunt
 tagRelicSkillC007Desc=Invoke a summoning of tortured spirits that will haunt your enemies and chill their blood.
 
 tagRelicSkillC008Name=Conflagration
-tagRelicSkillC008Desc=Unleash a piercing beam of pure flame so intense that not even the toughest armor can withstand it. ^oThis is a channeled skill and must be held down to maintain. At 100% Cast Speed, Conflagration deals damage and drains Energy every 0.3s.
+tagRelicSkillC008Desc=Unleash a piercing beam of pure flame so intense that not even the toughest armor can withstand it. ^oThis is a channeled skill and must be held down to maintain. At 100% Cast Speed, Conflagration deals damage and drains Energy every 0.24s.
 
 tagRelicSkillC009Name=Summon Stormhound
 tagRelicSkillC009Desc=Call forth a loyal Stormhound, an eldritch beast born of the heavens. ^oOnly one Stormhound can be summoned at any one time. The stormhound scales with Pet Bonuses.

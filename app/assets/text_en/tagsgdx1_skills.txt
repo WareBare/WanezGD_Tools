@@ -67,7 +67,7 @@ tagGDX1Class07SkillName03D=Word of Arms
 tagGDX1Class07SkillDescription03D=By extending their will through massive two-handed weapons, Inquisitors can inscribe additional runes into their equipment and thus enact the Word of Renewal with greater frequency. ^oRequires a two-handed melee or two-handed ranged weapon.
 
 tagGDX1Class07SkillName04A=Flames of Ignaffar
-tagGDX1Class07SkillDescription04A=Hold the Stone of Ignaffar in front of you, unleashing a torrent of flame from the palm of your hand for as long as you channel your will into the artifact. ^oThis is a channeled skill and must be held down to maintain. At 100% Cast Speed, Flames of Ignaffar deals damage and drains Energy every 0.3s.
+tagGDX1Class07SkillDescription04A=Hold the Stone of Ignaffar in front of you, unleashing a torrent of flame from the palm of your hand for as long as you channel your will into the artifact. ^oThis is a channeled skill and must be held down to maintain. At 100% Cast Speed, Flames of Ignaffar deals damage and drains Energy every 0.24s.
 tagGDX1Class07SkillName04B=Intensify
 tagGDX1Class07SkillDescription04B=The Flames of Ignaffar intensify, melting through defenses and turning flesh to ashes.
 tagGDX1Class07SkillName04C=Infernal Purge
@@ -133,7 +133,7 @@ tagGDX1Class08SkillName00A=Necromancer
 tagGDX1Class08SkillDescription00A=Mastery of the cruel fate that awaits all living beings.
 
 tagGDX1Class08SkillName01A=Drain Essence
-tagGDX1Class08SkillDescription01A=Necromancers firmly believe in the concept of greater good, and sometimes the greater good means that one's life essence must be sacrificed so that another may live. Though this transfer is frowned upon, some practitioners have trouble resisting the temptation of raw vital energy. ^oAt 100% Cast Speed, Drain Essence deals damage and drains Energy every 0.3s.
+tagGDX1Class08SkillDescription01A=Necromancers firmly believe in the concept of greater good, and sometimes the greater good means that one's life essence must be sacrificed so that another may live. Though this transfer is frowned upon, some practitioners have trouble resisting the temptation of raw vital energy. ^oAt 100% Cast Speed, Drain Essence deals damage and drains Energy every 0.24s.
 tagGDX1Class08SkillName01B=Hungering Reach
 tagGDX1Class08SkillDescription01B=The hunger for life's essence cannot be easily sated once experienced. With your hungering desires poured into the spell, Drain Essence sometimes affects nearby foes in addition to the primary target.
 tagGDX1Class08SkillName01C=Decomposition
@@ -237,6 +237,8 @@ tagGDX1ItemSkillB101Desc=A wave of fire erupts from your attack.
 tagGDX1ItemSkillB102Name=Fleshwarped Strikes
 tagGDX1ItemSkillB102Desc=The corrupting touch of the Master of Flesh scars your foes with every blow. ^oWhen used as your default weapon attack, Fleshwarped Strikes empowers your blows.
 
+tagGDX1ItemSkillB103Name=Aether Burst
+tagGDX1ItemSkillB103Desc=A burst of aether energies erupts from you.
 
 tagGDX1ItemSkillC101Name=Soulsplit
 tagGDX1ItemSkillC101Desc=Rend the souls of your foes in a deathly cascade.
@@ -548,7 +550,7 @@ tagGDX1CompSkillA103Name=Chain Lightning
 tagGDX1CompSkillA103Desc=Lightning crackles at your fingertips and cascades off of your foes to demolish their ranks.
 
 tagGDX1CompSkillA104Name=Acid Purge
-tagGDX1CompSkillA104Desc=Unleash a continuous spray of vile acid from your hand to melt your foes, so long as you maintain focus. ^oThis is a channeled skill and must be held down to maintain. ^oAt 100% Cast Speed, Acid Purge deals damage and drains Energy every 0.3s.
+tagGDX1CompSkillA104Desc=Unleash a continuous spray of vile acid from your hand to melt your foes, so long as you maintain focus. ^oThis is a channeled skill and must be held down to maintain. ^oAt 100% Cast Speed, Acid Purge deals damage and drains Energy every 0.24s.
 
 tagGDX1CompSkillA105Name=Aether Corruption
 tagGDX1CompSkillA105Desc=Corrupting Aether energy rips through your foes, rapidly spreading corruption among your enemies.

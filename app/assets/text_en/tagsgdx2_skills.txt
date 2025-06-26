@@ -351,7 +351,7 @@ tagGDX2RelicSkillD203Name=Sand Devil
 tagGDX2RelicSkillD203Desc=Unleash a whirlwind of sand upon your foes. ^oSand Devils scale with player damage bonuses.
 
 tagGDX2RelicSkillD204Name=Voracious Reach
-tagGDX2RelicSkillD204Desc=Focus your fury into a whirlwind of voracious power that consumes the lifeblood of all near you for as long as you channel the effect. ^oRequires a melee weapon. At 100% Attack Speed, Voracious Reach deals damage and drains Energy every 0.2s.
+tagGDX2RelicSkillD204Desc=Focus your fury into a whirlwind of voracious power that consumes the lifeblood of all near you for as long as you channel the effect. ^oRequires a melee weapon. At 100% Attack Speed, Voracious Reach deals damage and drains Energy every 0.16s.
 
 tagGDX2RelicSkillD205Name=Serenity
 tagGDX2RelicSkillD205Desc=Serenity fills you in time of need, offering respite from grievous wounds.
@@ -533,7 +533,7 @@ tagGDX2RuneSkillD205Desc=Leap through the air towards a target destination and d
 tagGDX2RuneSkillD206=Upon Rylok Wings
 tagGDX2RuneSkillD206Desc=Leap through the air towards a target destination and crash down in a chaotic eruption.
 
-tagGDX2RuneSkillD207=Dreadnought's Might
+tagGDX2RuneSkillD207=Dread's Wake
 tagGDX2RuneSkillD207Desc=Leap through the air towards a target destination with devastating might and smash any foes unfortunate enough to be where you land.
 
 tagGDX2RuneSkillD208=Dreeg's Wounds

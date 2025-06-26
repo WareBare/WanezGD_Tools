@@ -911,6 +911,7 @@ tagLegend=Legendary
 tagStyleUniqueTier2=Empowered
 tagStyleUniqueTier3=Mythical
 tagStyleFactionTier2=Elite
+tagStyleUniqueInverted=Polarized
 
 tagSoulbound=Soulbound
 tagDestroySoulbound=Destroy soulbound item?
@@ -1541,7 +1542,7 @@ tagFeetC007B=Final March
 tagFeetC007Desc="Each step bears the weight of a thousand soldiers who lost their lives to Chthonian Forces."
 tagFeetC008=Rifthound Leather Boots
 tagFeetC008Desc="Good for nothing beasts, but they make great boots."
-tagFeetC009=Dreadnought Footpads
+tagFeetC009=Dreadmaker Footpads
 tagFeetC010=Hellion Greaves
 tagFeetC011=Serpentine Wraps
 tagFeetC012=Desecrator Treads
@@ -3675,6 +3676,8 @@ tagCombineStacks=[Ctrl-Click to Split Stacks]
 tagHideTooltip=[Hold Ctrl to Hide Tooltip]
 tagShowDetails=^O[Hold Ctrl to Show Details]
 tagShowDetailsGamepad=^O[Hold Left Trigger to Show Details]
+tagHideDetails=^O[Release Ctrl to Hide Details]
+tagHideDetailsGamepad=^O[Release Left Trigger to Hide Details]
 
 # Bonuses
 tagBonusLifePercentAbsPercent={^E}Restores {^H}{%.0f0}%+{%.0f1} {^E}Health {^H}+{%.0f2}% {^E}Over Time
